@@ -6,7 +6,7 @@ Fontbakery version: 0.8.13
 
 
 * 🔥 **FAIL** Italics missing a Roman counterpart: fonts/ttf/Courier-Badi-Italic.ttf [code: missing-roman]
-</div></details><br></div></details><details><summary><b>[24] Courier-Badi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[25] Courier-Badi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "CourierPrimeSource-Italic.ttf. Got Courier-Badi-Italic.ttf. [code: bad-filename]
@@ -66,6 +66,10 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 	- 0x0328 (COMBINING OGONEK)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -521,7 +525,7 @@ The following glyphs do not have the recommended number of contours:
 	* summation (U+2211) contains a short segment L<<396.0,-838.0>--<395.0,-838.0>> 
 
 	* summation (U+2211) contains a short segment L<<395.0,-838.0>--<395.0,-837.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[24] Courier-Badi.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[25] Courier-Badi.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking file is named canonically. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/canonical_filename">com.google.fonts/check/canonical_filename</a>)</summary><div>
 
 
 * 🔥 **FAIL** Expected "CourierPrimeSource-Regular.ttf. Got Courier-Badi.ttf. [code: bad-filename]
@@ -581,6 +585,10 @@ No such DRM restrictions can be enabled on the Google Fonts collection, so the f
 
 	- 0x0328 (COMBINING OGONEK)
  [code: missing-codepoints]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check OFL body text is correct. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/license/OFL_body_text">com.google.fonts/check/license/OFL_body_text</a>)</summary><div>
+
+
+* 🔥 **FAIL** The OFL.txt body text is incorrect. Please use https://github.com/googlefonts/Unified-Font-Repository/blob/main/OFL.txt as a template. You should only modify the first line. [code: incorrect-ofl-body-text]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -1070,8 +1078,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 25 | 24 | 263 | 15 | 148 | 0 |
-| 0% | 5% | 5% | 55% | 3% | 31% | 0% |
+| 0 | 27 | 24 | 263 | 15 | 146 | 0 |
+| 0% | 6% | 5% | 55% | 3% | 31% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
