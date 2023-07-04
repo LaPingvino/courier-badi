@@ -46,6 +46,10 @@ This Font Software is licensed under the SIL Open Font License, Version 1.1.
 This license is available with a FAQ at
 https://scripts.sil.org/OFL
 
+Note that this project is a derivative of Courier Prime, also released under this same license
+but with the reserved name Courier Prime Source. Courier itself is a public domain name and
+Badi is a name from Bahá'í history.
+
 ## Repository Layout
 
 This font repository structure is inspired by [Unified Font Repository v0.3](https://github.com/unified-font-repository/Unified-Font-Repository), modified for the Google Fonts workflow.
