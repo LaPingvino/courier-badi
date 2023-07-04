@@ -271,7 +271,9 @@ feature case {
 	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb 
 	\acutecomb \hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb 
 	\circumflexcomb \caroncomb \brevecomb \ringcmb \tildecomb 
-	\commaturnedabovecmb \cedillacmb \ogonekcmb ];
+	\commaturnedabovecmb \cedillacmb \ogonekcmb \ddotbelow \Ddotbelow \hdotbelow 
+	\Hdotbelow \sdotbelow \Sdotbelow \tdotbelow \Tdotbelow \zdotbelow \Zdotbelow 
+	\dotbelowcmb ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
