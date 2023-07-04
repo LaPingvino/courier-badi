@@ -39,6 +39,9 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
+**4 July 2023. Version 0.300**
+- Dot below letters added
+
 **4 July 2023. Version 0.200**
 - Combining diacritics and capital sharp s added
 
