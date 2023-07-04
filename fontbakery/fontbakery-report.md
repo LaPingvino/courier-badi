@@ -137,15 +137,15 @@ But instead we have got:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ ị̇ ị̊ ị̋ ị̌ ị̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 378 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 387 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 8 glyphs (1.87%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 8 glyphs (1.82%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -249,7 +249,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), diaeresiscomb (U+0308), dotaccentcmb (U+0307), gravecomb (U+0300), hungarumlautcmb (U+030B), macroncomb (U+0304), ogonekcmb (U+0328), ringcmb (U+030A) and tildecomb (U+0303) [code: mark-chars]
+	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), diaeresiscomb (U+0308), dotaccentcmb (U+0307), dotbelowcmb (U+0323), gravecomb (U+0300), hungarumlautcmb (U+030B), macroncomb (U+0304), ogonekcmb (U+0328), ringcmb (U+030A) and tildecomb (U+0303) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -383,6 +383,10 @@ The following glyphs do not have the recommended number of contours:
 
 	* scommaaccent (U+0219): X=423.0,Y=2.0 (should be at baseline 0?)
 
+	* Sdotbelow (U+1E62): X=795.0,Y=1185.0 (should be at cap-height 1187?)
+
+	* sdotbelow (U+1E63): X=423.0,Y=2.0 (should be at baseline 0?)
+
 	* Wgrave (U+1E80): X=1025.5,Y=1187.5 (should be at cap-height 1187?)
 
 	* Wgrave (U+1E80): X=195.0,Y=1187.5 (should be at cap-height 1187?)
@@ -496,6 +500,10 @@ The following glyphs do not have the recommended number of contours:
 	* Zcaron (U+017D) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
 
 	* Delta (U+0394) contains a short segment L<<617.0,1022.0>--<615.0,1022.0>>
+
+	* Zdotbelow (U+1E92) contains a short segment B<<167.0,68.0>-<167.0,82.0>-<171.0,92.0>>
+
+	* Zdotbelow (U+1E92) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
 
 	* summation (U+2211) contains a short segment L<<613.0,1797.0>--<614.0,1797.0>>
 
@@ -651,15 +659,15 @@ But instead we have got:
 
 * 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
 
-The dot of soft dotted characters should disappear in other cases, for example: j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ j̦́ j̦̃ j̦̄ j̦̆ j̦̇ j̦̈ j̦̊ j̦̋ ǰ̦ j̦̒ j̧̀ j̧́ j̧̃ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: j̆ j̇ j̊ j̋ ǰ j̒ j̣̀ j̣́ j̣̃ j̣̄ j̣̆ j̣̇ j̣̈ j̣̊ j̣̋ ǰ̣ j̣̒ j̦̀ j̦́ j̦̃ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 399 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 409 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 9 glyphs (2.10%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 9 glyphs (2.05%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -763,7 +771,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), diaeresiscomb (U+0308), dotaccentcmb (U+0307), gravecomb (U+0300), hungarumlautcmb (U+030B), macroncomb (U+0304), ogonekcmb (U+0328), ringcmb (U+030A) and tildecomb (U+0303) [code: mark-chars]
+	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), diaeresiscomb (U+0308), dotaccentcmb (U+0307), dotbelowcmb (U+0323), gravecomb (U+0300), hungarumlautcmb (U+030B), macroncomb (U+0304), ogonekcmb (U+0328), ringcmb (U+030A) and tildecomb (U+0303) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -857,7 +865,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* ring (U+02DA): X=755.0,Y=1185.0 (should be at cap-height 1187?)
 
-	* ringcmb (U+030A): X=755.0,Y=1185.0 (should be at cap-height 1187?) 
+	* ringcmb (U+030A): X=755.0,Y=1185.0 (should be at cap-height 1187?)
+
+	* sdotbelow (U+1E63): X=361.5,Y=1.5 (should be at baseline 0?) 
 
 	* radical (U+221A): X=1187.0,Y=1185.0 (should be at cap-height 1187?) [code: found-misalignments]
 </div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
@@ -952,6 +962,10 @@ The following glyphs do not have the recommended number of contours:
 	* Wacute (U+1E82) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
 
 	* Wdieresis (U+1E84) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
+
+	* Zdotbelow (U+1E92) contains a short segment B<<118.0,68.0>-<120.0,81.0>-<126.5,91.5>>
+
+	* Zdotbelow (U+1E92) contains a short segment B<<126.5,91.5>-<133.0,102.0>-<140.0,111.0>>
 
 	* summation (U+2211) contains a short segment L<<860.0,1797.0>--<861.0,1797.0>>
 
