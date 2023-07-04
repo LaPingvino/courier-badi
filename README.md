@@ -39,9 +39,11 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
-**26 May 2021. Version 2.13**
-- MAJOR Font turned to a variable font.
-- SIGNIFICANT New Stylistic sets added.
+**4 July 2023. Version 0.200**
+- Combining diacritics and capital sharp s added
+
+**4 July 2023. Version 0.100**
+- Bahá'í star added
 
 ## License
 
