@@ -2,56 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[21] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
-
-
-* 🔥 **FAIL** Missing required codepoints:
-
-	- 0x0308 (COMBINING DIAERESIS)
-
-
-	- 0x0300 (COMBINING GRAVE ACCENT)
-
-
-	- 0x0301 (COMBINING ACUTE ACCENT)
-
-
-	- 0x030B (COMBINING DOUBLE ACUTE ACCENT)
-
-
-	- 0x0304 (COMBINING MACRON)
-
-
-	- 0x1E9E (LATIN CAPITAL LETTER SHARP S)
-
-
-	- 0x0307 (COMBINING DOT ABOVE)
-
-
-	- 0x0302 (COMBINING CIRCUMFLEX ACCENT)
-
-
-	- 0x030C (COMBINING CARON)
-
-
-	- 0x0306 (COMBINING BREVE)
-
-
-	- 0x030A (COMBINING RING ABOVE)
-
-
-	- 0x0303 (COMBINING TILDE)
-
-
-	- 0x0312 (COMBINING TURNED COMMA ABOVE)
-
-
-	- 0x0327 (COMBINING CEDILLA)
- 
-
-	- 0x0328 (COMBINING OGONEK)
- [code: missing-codepoints]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[21] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)
@@ -181,14 +132,20 @@ But instead we have got:
 
 
 * 🔥 **FAIL** OS/2 sTypoAscender (1638) and hhea ascent (1827) must be equal. [code: ascender]
+</div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
+
+
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ j̊ j̋ ǰ j̒ j̦̀ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 365 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 378 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 8 glyphs (1.94%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 8 glyphs (1.87%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -292,7 +249,7 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 commaaccent (U+0326) [code: mark-chars]
+	 acutecomb (U+0301), brevecomb (U+0306), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), diaeresiscomb (U+0308), dotaccentcmb (U+0307), gravecomb (U+0300), hungarumlautcmb (U+030B), macroncomb (U+0304), ogonekcmb (U+0328), ringcmb (U+030A) and tildecomb (U+0303) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1062,7 +1019,7 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 16 | 26 | 244 | 13 | 176 | 0 |
+| 0 | 16 | 26 | 243 | 13 | 177 | 0 |
 | 0% | 3% | 5% | 51% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
