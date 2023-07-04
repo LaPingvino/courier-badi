@@ -2,39 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[2] Family checks</b></summary><div><details><summary>🔥 <b>FAIL:</b> Each font in a family must have the same set of vertical metrics values. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/vertical_metrics">com.google.fonts/check/family/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** sTypoAscender is not the same across the family:
-Courier Badi: 1638
-Courier Badi Italic: 1621 [code: sTypoAscender-mismatch]
-* 🔥 **FAIL** sTypoDescender is not the same across the family:
-Courier Badi: -410
-Courier Badi Italic: -643 [code: sTypoDescender-mismatch]
-* 🔥 **FAIL** sTypoLineGap is not the same across the family:
-Courier Badi: 0
-Courier Badi Italic: 193 [code: sTypoLineGap-mismatch]
-* 🔥 **FAIL** usWinAscent is not the same across the family:
-Courier Badi: 1827
-Courier Badi Italic: 1814 [code: usWinAscent-mismatch]
-* 🔥 **FAIL** usWinDescent is not the same across the family:
-Courier Badi: 838
-Courier Badi Italic: 643 [code: usWinDescent-mismatch]
-* 🔥 **FAIL** ascent is not the same across the family:
-Courier Badi: 1827
-Courier Badi Italic: 1814 [code: ascent-mismatch]
-* 🔥 **FAIL** descent is not the same across the family:
-Courier Badi: -838
-Courier Badi Italic: -643 [code: descent-mismatch]
-</div></details><details><summary>🔥 <b>FAIL:</b> Fonts have consistent underline thickness? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/post.html#com.google.fonts/check/family/underline_thickness">com.google.fonts/check/family/underline_thickness</a>)</summary><div>
-
-
-* 🔥 **FAIL** Thickness of the underline is not the same across this family. In order to fix this, please make sure that the underlineThickness value is the same in the 'post' table of all of this family font files.
-Detected underlineThickness values are:
-	fonts/ttf/CourierBadi-Regular.ttf: 0
-	fonts/ttf/CourierBadi-Italic.ttf: 102
- [code: inconsistent-underline-thickness]
-</div></details><br></div></details><details><summary><b>[22] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+<details><summary><b>[21] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -201,17 +169,6 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
 * 🔥 **FAIL** Name Table entry: Copyright notices should match a pattern similar to: "Copyright 2019 The Familyname Project Authors (git url)"
 But instead we have got:
 "Copyright (c) 2023 Joop Kiefte, Copyright (c) 2015 Quote-Unquote Apps." [code: bad-notice-format]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font names are correct (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/font_names">com.google.fonts/check/font_names</a>)</summary><div>
-
-
-* 🔥 **FAIL** Font names are incorrect:
-
-| nameID | current | expected |
-| :--- | :--- | :--- |
-| Family Name | Courier Badi | Courier Badi |
-| Subfamily Name | Regular | Regular |
-| Full Name | Courier Badi Regular | Courier Badi Regular |
-| Poscript Name | Courier Badi Regular-Regular | CourierBadi-Regular | [code: bad-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Name table entries should not contain line-breaks. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/line_breaks">com.google.fonts/check/name/line_breaks</a>)</summary><div>
 
 
@@ -240,7 +197,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+* ⚠ **WARN** OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
@@ -602,14 +559,7 @@ The following glyphs do not have the recommended number of contours:
 	* summation (U+2211) contains a short segment L<<614.0,-838.0>--<613.0,-838.0>> 
 
 	* summation (U+2211) contains a short segment L<<613.0,-838.0>--<613.0,-837.0>> [code: found-short-segments]
-</div></details><br></div></details><details><summary><b>[23] CourierBadi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Checking OS/2 fsType does not impose restrictions. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fstype">com.google.fonts/check/fstype</a>)</summary><div>
-
-
-* 🔥 **FAIL** In this font fsType is set to 4 meaning that:
-The font may be embedded, and temporarily loaded on the remote system, but documents that use it must not be editable.
-
-No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead. [code: drm]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[21] CourierBadi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check Google Fonts glyph coverage. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/glyph_coverage">com.google.fonts/check/glyph_coverage</a>)</summary><div>
 
 
 * 🔥 **FAIL** Missing required codepoints:
@@ -780,32 +730,22 @@ But instead we have got:
 
 
 * 🔥 **FAIL** Name entry LICENSE_DESCRIPTION on platform WINDOWS contains a line-break. [code: line-break]
-</div></details><details><summary>🔥 <b>FAIL:</b> Check font follows the Google Fonts vertical metric schema (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vertical_metrics">com.google.fonts/check/vertical_metrics</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.sTypoLineGap is "193" it should be 0 [code: bad-OS/2.sTypoLineGap]
-* 🔥 **FAIL** The sum of hhea.ascender + abs(hhea.descender) + hhea.lineGap is 2457 when it should be at least 2457 [code: bad-hhea-range]
 </div></details><details><summary>🔥 <b>FAIL:</b> OS/2.fsSelection bit 7 (USE_TYPO_METRICS) is set in all fonts. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/os2/use_typo_metrics">com.google.fonts/check/os2/use_typo_metrics</a>)</summary><div>
 
 
 * 🔥 **FAIL** OS/2.fsSelection bit 7 (USE_TYPO_METRICS) wasNOT set in the following fonts: ['fonts/ttf/CourierBadi-Regular.ttf', 'fonts/ttf/CourierBadi-Italic.ttf']. [code: missing-os2-fsselection-bit7]
-</div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 usWinAscent & usWinDescent. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/family/win_ascent_and_descent">com.google.fonts/check/family/win_ascent_and_descent</a>)</summary><div>
-
-
-* 🔥 **FAIL** OS/2.usWinAscent value should be equal or greater than 1827, but got 1814 instead [code: ascent]
-* 🔥 **FAIL** OS/2.usWinDescent value should be equal or greater than 838, but got 643 instead. [code: descent]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking OS/2 Metrics match hhea Metrics. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/os2_metrics_match_hhea">com.google.fonts/check/os2_metrics_match_hhea</a>)</summary><div>
 
 
-* 🔥 **FAIL** OS/2 sTypoAscender (1621) and hhea ascent (1814) must be equal. [code: ascender]
+* 🔥 **FAIL** OS/2 sTypoAscender (1638) and hhea ascent (1827) must be equal. [code: ascender]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 384 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 385 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 8 glyphs (1.94%) have a different width. You should check the widths of: ['fi', 'fl', 'ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'minute', 'second'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 9 glyphs (2.17%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -814,7 +754,7 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 </div></details><details><summary>⚠ <b>WARN:</b> Checking OS/2 achVendID. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/vendor_id">com.google.fonts/check/vendor_id</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 VendorID value 'NONE' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
+* ⚠ **WARN** OS/2 VendorID value '    ' is not yet recognized. If you registered it recently, then it's safe to ignore this warning message. Otherwise, you should set it to your own unique 4 character code, and register it with Microsoft at https://www.microsoft.com/typography/links/vendorlist.aspx
  [code: unknown]
 </div></details><details><summary>⚠ <b>WARN:</b> License URL matches License text on name table? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license_url">com.google.fonts/check/name/license_url</a>)</summary><div>
 
@@ -838,6 +778,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
+
+	- bar.double
 
 	- colon.alt
 
@@ -898,10 +840,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Checking Vertical Metric Linegaps. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/linegaps">com.google.fonts/check/linegaps</a>)</summary><div>
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
-* ⚠ **WARN** OS/2 sTypoLineGap is not equal to 0. [code: OS/2]
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 acute.case (unencoded), breve.case (unencoded), caron.case (unencoded), circumflex.case (unencoded), dieresis.case (unencoded), dotaccent.case (unencoded), grave.case (unencoded), hungarumlaut.case (unencoded), macron.case (unencoded), ring.case (unencoded) and tilde.case (unencoded) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 commaaccent (U+0326) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -939,17 +887,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* aring (U+00E5): X=651.5,Y=1185.5 (should be at cap-height 1187?)
 
-	* Abreve (U+0102): X=1146.0,Y=1622.0 (should be at ascender 1621?)
+	* Dcaron (U+010E): X=1071.5,Y=1636.0 (should be at ascender 1638?)
 
-	* Abreve (U+0102): X=468.0,Y=1622.0 (should be at ascender 1621?)
+	* Dcaron (U+010E): X=445.0,Y=1637.0 (should be at ascender 1638?)
 
-	* Ccaron (U+010C): X=1186.0,Y=1622.0 (should be at ascender 1621?)
+	* Ecaron (U+011A): X=1126.5,Y=1636.0 (should be at ascender 1638?)
 
-	* Ccaron (U+010C): X=508.0,Y=1623.0 (should be at ascender 1621?)
-
-	* Ebreve (U+0114): X=1151.0,Y=1622.0 (should be at ascender 1621?)
-
-	* Ebreve (U+0114): X=473.0,Y=1622.0 (should be at ascender 1621?)
+	* Ecaron (U+011A): X=500.0,Y=1637.0 (should be at ascender 1638?)
 
 	* Gcircumflex (U+011C): X=957.0,Y=1186.5 (should be at cap-height 1187?)
 
@@ -959,10 +903,6 @@ The following glyphs do not have the recommended number of contours:
 
 	* Gbreve (U+011E): X=792.5,Y=-0.5 (should be at baseline 0?)
 
-	* Gbreve (U+011E): X=1171.0,Y=1622.0 (should be at ascender 1621?)
-
-	* Gbreve (U+011E): X=493.0,Y=1622.0 (should be at ascender 1621?)
-
 	* Gdotaccent (U+0120): X=957.0,Y=1186.5 (should be at cap-height 1187?)
 
 	* Gdotaccent (U+0120): X=792.5,Y=-0.5 (should be at baseline 0?)
@@ -971,13 +911,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* Gcommaaccent (U+0122): X=792.5,Y=-0.5 (should be at baseline 0?)
 
-	* Ibreve (U+012C): X=1141.0,Y=1622.0 (should be at ascender 1621?)
+	* Ncaron (U+0147): X=1121.5,Y=1636.0 (should be at ascender 1638?)
 
-	* Ibreve (U+012C): X=463.0,Y=1622.0 (should be at ascender 1621?)
+	* Ncaron (U+0147): X=495.0,Y=1637.0 (should be at ascender 1638?)
 
-	* Obreve (U+014E): X=1151.0,Y=1622.0 (should be at ascender 1621?)
+	* Rcaron (U+0158): X=1116.5,Y=1636.0 (should be at ascender 1638?)
 
-	* Obreve (U+014E): X=473.0,Y=1622.0 (should be at ascender 1621?)
+	* Rcaron (U+0158): X=490.0,Y=1637.0 (should be at ascender 1638?)
 
 	* sacute (U+015B): X=361.5,Y=1.5 (should be at baseline 0?)
 
@@ -985,19 +925,19 @@ The following glyphs do not have the recommended number of contours:
 
 	* scedilla (U+015F): X=361.5,Y=1.5 (should be at baseline 0?)
 
-	* Scaron (U+0160): X=1131.0,Y=1622.0 (should be at ascender 1621?)
-
-	* Scaron (U+0160): X=453.0,Y=1623.0 (should be at ascender 1621?)
-
 	* scaron (U+0161): X=361.5,Y=1.5 (should be at baseline 0?)
 
-	* Ubreve (U+016C): X=1151.0,Y=1622.0 (should be at ascender 1621?)
+	* Tcaron (U+0164): X=1111.5,Y=1636.0 (should be at ascender 1638?)
 
-	* Ubreve (U+016C): X=473.0,Y=1622.0 (should be at ascender 1621?)
+	* Tcaron (U+0164): X=485.0,Y=1637.0 (should be at ascender 1638?)
 
 	* uring (U+016F): X=723.0,Y=1185.0 (should be at cap-height 1187?)
 
 	* uogonek (U+0173): X=937.0,Y=1.0 (should be at baseline 0?)
+
+	* Zcaron (U+017D): X=1121.5,Y=1636.0 (should be at ascender 1638?)
+
+	* Zcaron (U+017D): X=495.0,Y=1637.0 (should be at ascender 1638?)
 
 	* scommaaccent (U+0219): X=361.5,Y=1.5 (should be at baseline 0?)
 
@@ -1122,8 +1062,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 25 | 247 | 14 | 167 | 0 |
-| 0% | 5% | 5% | 52% | 3% | 35% | 0% |
+| 0 | 16 | 26 | 244 | 13 | 176 | 0 |
+| 0% | 3% | 5% | 51% | 3% | 37% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
