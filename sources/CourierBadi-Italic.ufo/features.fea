@@ -1,89 +1,282 @@
-# Prefix: Languagesystems
-# automatic
 languagesystem DFLT dflt;
 languagesystem grek dflt;
+languagesystem latn AZE ;
+languagesystem latn CAT ;
+languagesystem latn CRT ;
 languagesystem latn dflt;
-languagesystem latn CAT;
-languagesystem latn ROM;
-languagesystem latn MOL;
-languagesystem latn TRK;
+languagesystem latn KAZ ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+languagesystem latn TAT ;
+languagesystem latn TRK ;
 
-# automatic
-@Uppercase = [ A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Eth Dcaron Dcroat E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Eng Ntilde O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent Delta Omega ];
 
-feature aalt {
-# automatic
-feature locl;
-feature sups;
-feature frac;
-feature ordn;
-feature case;
-} aalt;
+# GSUB 
+
+
+lookup loclLocalizedFormsinLatinlookup0 {
+  lookupflag 0;
+    sub  \l' \periodcentered' \l   by \ldot ;
+    sub  \L' \periodcentered' \L   by \Ldot ;
+} loclLocalizedFormsinLatinlookup0;
+
+lookup loclLocalizedFormsinLatinlookup3 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcedilla by \Tcommaaccent ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} loclLocalizedFormsinLatinlookup3;
+
+lookup loclLocalizedFormsinLatinlookup4 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcedilla by \Tcommaaccent ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} loclLocalizedFormsinLatinlookup4;
+
+lookup loclLocalizedFormsinLatinlookup5 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup5;
+
+lookup loclLocalizedFormsinLatinlookup6 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup6;
+
+lookup loclLocalizedFormsinLatinlookup7 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup7;
+
+lookup loclLocalizedFormsinLatinlookup8 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup8;
+
+lookup loclLocalizedFormsinLatinlookup9 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup9;
+
+lookup supsSuperscriptlookup10 {
+  lookupflag 0;
+    sub \four by \foursuperior ;
+    sub \one by \onesuperior ;
+    sub \three by \threesuperior ;
+    sub \two by \twosuperior ;
+} supsSuperscriptlookup10;
+
+lookup fracDiagonalFractionslookup11 {
+  lookupflag 0;
+    sub \one \slash \two  by \onehalf;
+    sub \one \slash \four  by \onequarter;
+    sub \three \slash \four  by \threequarters;
+} fracDiagonalFractionslookup11;
+
+lookup ordnOrdinalslookup12 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'  by [\ordfeminine \ordfeminine ];
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'  by [\ordmasculine \ordmasculine ];
+} ordnOrdinalslookup12;
+
+lookup caseCaseSensitiveFormslookup15 {
+  lookupflag 0;
+    sub \acute by \acute.case ;
+    sub \breve by \breve.case ;
+    sub \caron by \caron.case ;
+    sub \cedilla by \cedilla.case ;
+    sub \circumflex by \circumflex.case ;
+    sub \commaaccent by \commaaccent.case ;
+    sub \dieresis by \dieresis.case ;
+    sub \dotaccent by \dotaccent.case ;
+    sub \grave by \grave.case ;
+    sub \hungarumlaut by \hungarumlaut.case ;
+    sub \macron by \macron.case ;
+    sub \ogonek by \ogonek.case ;
+    sub \ring by \ring.case ;
+    sub \tilde by \tilde.case ;
+} caseCaseSensitiveFormslookup15;
 
 feature locl {
-# automatic
-script latn;
-language CAT;
-sub  l' periodcentered' l by ldot;
-sub  L' periodcentered' L by Ldot;
-language ROM;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language MOL;
-sub Scedilla by Scommaaccent;
-sub scedilla by scommaaccent;
-sub Tcedilla by Tcommaaccent;
-sub tcedilla by tcommaaccent;
-language KAZ;
-sub i by idotaccent;
-language TAT;
-sub i by idotaccent;
-language TRK;
-sub i by idotaccent;
-language CRT;
-sub i by idotaccent;
-language AZE;
-sub i by idotaccent;
+
+ script latn;
+     language dflt ;
+      lookup loclLocalizedFormsinLatinlookup0;
+      lookup loclLocalizedFormsinLatinlookup3;
+      lookup loclLocalizedFormsinLatinlookup4;
+      lookup loclLocalizedFormsinLatinlookup5;
+      lookup loclLocalizedFormsinLatinlookup6;
+      lookup loclLocalizedFormsinLatinlookup7;
+      lookup loclLocalizedFormsinLatinlookup8;
+      lookup loclLocalizedFormsinLatinlookup9;
+     language AZE  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup9;
+     language CAT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup0;
+     language CRT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup8;
+     language KAZ  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup5;
+     language MOL  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup4;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup3;
+     language TAT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup6;
+     language TRK  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup7;
 } locl;
 
 feature sups {
-# automatic
-sub one by onesuperior;
-sub two by twosuperior;
-sub three by threesuperior;
-sub four by foursuperior;
+
+ script DFLT;
+     language dflt ;
+      lookup supsSuperscriptlookup10;
+
+ script grek;
+     language dflt ;
+      lookup supsSuperscriptlookup10;
+
+ script latn;
+     language dflt ;
+      lookup supsSuperscriptlookup10;
+     language CAT  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+     language MOL  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+     language ROM  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+     language TRK  exclude_dflt;
+      lookup supsSuperscriptlookup10;
 } sups;
 
 feature frac {
-# automatic
-sub one slash four by onequarter;
-sub one slash two by onehalf;
-sub three slash four by threequarters;
+
+ script DFLT;
+     language dflt ;
+      lookup fracDiagonalFractionslookup11;
+
+ script grek;
+     language dflt ;
+      lookup fracDiagonalFractionslookup11;
+
+ script latn;
+     language dflt ;
+      lookup fracDiagonalFractionslookup11;
+     language CAT  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+     language MOL  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+     language ROM  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+     language TRK  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
 } frac;
 
 feature ordn {
-# automatic
-sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
-sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+
+ script DFLT;
+     language dflt ;
+      lookup ordnOrdinalslookup12;
+
+ script grek;
+     language dflt ;
+      lookup ordnOrdinalslookup12;
+
+ script latn;
+     language dflt ;
+      lookup ordnOrdinalslookup12;
+     language CAT  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+     language MOL  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+     language ROM  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+     language TRK  exclude_dflt;
+      lookup ordnOrdinalslookup12;
 } ordn;
 
 feature case {
-# automatic
-sub acute by acute.case;
-sub breve by breve.case;
-sub caron by caron.case;
-sub cedilla by cedilla.case;
-sub circumflex by circumflex.case;
-sub dieresis by dieresis.case;
-sub dotaccent by dotaccent.case;
-sub grave by grave.case;
-sub hungarumlaut by hungarumlaut.case;
-sub macron by macron.case;
-sub ogonek by ogonek.case;
-sub ring by ring.case;
-sub tilde by tilde.case;
-sub commaaccent by commaaccent.case;
+
+ script DFLT;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup15;
+
+ script grek;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup15;
+
+ script latn;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup15;
+     language CAT  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+     language MOL  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+     language ROM  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+     language TRK  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
 } case;
+#Mark attachment classes (defined in GDEF, used in lookupflags)
+
+@GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
+	\D \Dcaron \Dcroat \Delta \E \Eacute \Ebreve \Ecaron \Ecircumflex \Edieresis 
+	\Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G \Gbreve \Gcircumflex 
+	\Gcommaaccent \Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve 
+	\Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Itilde \J 
+	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Lslash \M \N 
+	\Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute \Obreve \Ocircumflex 
+	\Odieresis \Ograve \Ohungarumlaut \Omacron \Omega \Oslash \Otilde \P \Q \R \Racute 
+	\Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scircumflex \Scommaaccent \T 
+	\Tbar \Tcaron \Tcedilla \Tcommaaccent \Thorn \U \Uacute \Ubreve \Ucircumflex 
+	\Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \Utilde \V \W \Wacute 
+	\Wcircumflex \Wdieresis \Wgrave \X \Y \Yacute \Ycircumflex \Ydieresis \Ygrave \Z 
+	\Zacute \Zcaron \Zdotaccent \a \aacute \abreve \acircumflex \acute \adieresis \ae 
+	\agrave \amacron \ampersand \aogonek \approxequal \aring \asciicircum 
+	\asciitilde \asterisk \at \atilde \b \backslash \bar \bar.double \braceleft 
+	\braceright \bracketleft \bracketright \breve \brokenbar \bullet \c \cacute 
+	\caron \caron.alt \ccaron \ccedilla \ccircumflex \cdotaccent \cedilla 
+	\cedilla.case \cent \circumflex \colon \colon.alt \comma \comma.alt 
+	\commaaccent \commaaccent.case \copyright \currency \d \dagger \daggerdbl 
+	\dcaron \dcroat \degree \dieresis \divide \dollar \dotaccent \dotlessi \dotlessj 
+	\e \eacute \ebreve \ecaron \ecircumflex \edieresis \edotaccent \egrave \eight 
+	\ellipsis \ellipsis.alt1 \ellipsis.alt2 \ellipsis.alt3 \ellipsis.alt4 
+	\ellipsis.alt5 \emacron \emdash \emdash.alt1 \emdash.alt2 \emdash.alt3 
+	\emdash.alt4 \endash \eng \eogonek \equal \eth \euro \exclam \exclamdown \f \fi 
+	\five \fl \florin \four \foursuperior \fraction \franc \g \gbreve \gcircumflex 
+	\gcommaaccent \gdotaccent \germandbls \grave \greater \greaterequal 
+	\guillemetleft \guillemetright \guilsinglleft \guilsinglright \h \hbar 
+	\hcircumflex \hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex 
+	\idieresis \idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde 
+	\j \jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \less 
+	\lessequal \logicalnot \lozenge \lslash \m \macron \minus \minute \mu \multiply \n 
+	\nacute \nbspace \ncaron \ncommaaccent \nine \nonbreakinghyphen \notequal 
+	\ntilde \numbersign \o \oacute \obreve \ocircumflex \odieresis \oe \ogonek 
+	\ogonek.case \ograve \ohungarumlaut \omacron \one \onesuperior \ordfeminine 
+	\ordmasculine \oslash \otilde \p \paragraph \parenleft \parenright \partialdiff 
+	\percent \period \period.alt \period.squat \periodcentered \perthousand \pi 
+	\plus \plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
+	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase 
+	\quotesingle \r \racute \radical \rcaron \rcommaaccent \registered \ring \s 
+	\sacute \scaron \scedilla \scircumflex \scommaaccent \second \section 
+	\semicolon \semicolon.alt \seven \six \slash \softhyphen \space \sterling 
+	\summation \t \tbar \tcaron \tcedilla \tcommaaccent \thorn \three \threesuperior 
+	\tilde \trademark \two \twosuperior \u \uacute \ubreve \ucircumflex \udieresis 
+	\ugrave \uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
+	\wcircumflex \wdieresis \wgrave \won \x \y \yacute \ycircumflex \ydieresis \yen 
+	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 ];
+@GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
+@GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
+	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
+	\ring.case \tilde.case ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+
+} GDEF;
 
