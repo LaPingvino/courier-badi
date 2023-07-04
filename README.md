@@ -12,7 +12,10 @@
 [Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2FShapingChecks.json
 [Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2FUniversal.json
 
-Courier Badi is an adapted version of the amazing Quoteunquoteapps' Courier Prime font. The purpose here is to add missing characters that can be relevant to Bahá'í usage in a very wide sense. If you just look for a version of Courier Prime, this should work perfectly for that too. This font has been adapted under the terms of the OFL and as it hasn't been made originally for Google Fonts, it might miss some of the requirements at least at first. If any are such noted I am happy to correct these things too.
+Courier Badi is an adapted version of the amazing Courier Prime font made by Quote-Unquote Apps. The purpose here is to add
+missing characters that can be relevant to Bahá'í usage in a very wide sense. This font has been adapted under the terms of
+the OFL and as it hasn't been made originally for Google Fonts, it might miss some of the requirements at least at first.
+I am correcting the Google Fonts and other Fontbakery requirements over time, probably fixing some bugs here and there.
 
 ## About
 
