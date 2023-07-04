@@ -221,7 +221,6 @@ feature case {
      language TRK  exclude_dflt;
       lookup caseCaseSensitiveFormslookup15;
 } case;
-#Mark attachment classes (defined in GDEF, used in lookupflags)
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
@@ -269,7 +268,10 @@ feature case {
 	\tilde \trademark \two \twosuperior \u \uacute \ubreve \ucircumflex \udieresis 
 	\ugrave \uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
 	\wcircumflex \wdieresis \wgrave \won \x \y \yacute \ycircumflex \ydieresis \yen 
-	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 ];
+	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb 
+	\acutecomb \hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb 
+	\circumflexcomb \caroncomb \brevecomb \ringcmb \tildecomb 
+	\commaturnedabovecmb \cedillacmb \ogonekcmb ];
 @GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
