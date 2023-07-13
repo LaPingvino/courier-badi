@@ -1,21 +1,33 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
   <dict>
-    <key>ascender</key>
-    <integer>1843</integer>
-    <key>capHeight</key>
-    <integer>1251</integer>
-    <key>copyright</key>
-    <string>Copyright 2015-2018 Khaled Hosny. Copyright 2014 Idris Samawi Hamid (Arabic-Latin Modern Fixed Regular). Derived from Copyright 2003, 2009 B. Jackowski and J. M. Nowacki (Latin Modern Mono Regular 10). Derived from Copyright Donald Knuth 1990 (Computer Modern Mono 10).</string>
-    <key>descender</key>
-    <integer>-1024</integer>
     <key>familyName</key>
     <string>NoName Fixed</string>
+    <key>styleName</key>
+    <string>Regular</string>
+    <key>styleMapStyleName</key>
+    <string>regular</string>
+    <key>versionMajor</key>
+    <integer>1</integer>
+    <key>versionMinor</key>
+    <integer>1</integer>
+    <key>copyright</key>
+    <string>Copyright 2015-2018 Khaled Hosny. Copyright 2014 Idris Samawi Hamid (Arabic-Latin Modern Fixed Regular). Derived from Copyright 2003, 2009 B. Jackowski and J. M. Nowacki (Latin Modern Mono Regular 10). Derived from Copyright Donald Knuth 1990 (Computer Modern Mono 10).</string>
+    <key>unitsPerEm</key>
+    <integer>2048</integer>
+    <key>capHeight</key>
+    <integer>1251</integer>
+    <key>xHeight</key>
+    <integer>883</integer>
+    <key>ascender</key>
+    <integer>1843</integer>
+    <key>descender</key>
+    <integer>-1024</integer>
     <key>italicAngle</key>
-    <integer>0</integer>
+    <real>0</real>
     <key>openTypeHeadCreated</key>
-    <string>2014/08/26 10:08:41</string>
+    <string>2023/07/13 20:24:46</string>
     <key>openTypeHheaAscender</key>
     <integer>1843</integer>
     <key>openTypeHheaDescender</key>
@@ -26,19 +38,28 @@
     <string>Idris Samawi Hamid</string>
     <key>openTypeNameDesignerURL</key>
     <string>http://walayah.org/project/typography</string>
-    <key>openTypeNameLicense</key>
-    <string>Arabic-Latin Modern Fixed is licensed under the GUST Font License with one important adjustment: It is requested, AS WELL AS LEGALLY REQUIRED, that derived works be distributed only after changing the names of the fonts comprising this work.</string>
-    <key>openTypeNameLicenseURL</key>
-    <string>http://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-LICENSE.txt/view</string>
     <key>openTypeNameManufacturer</key>
     <string>Khaled Hosny</string>
     <key>openTypeNameManufacturerURL</key>
     <string>https://github.com/alif-type/noname-fixed</string>
+    <key>openTypeNameLicense</key>
+    <string>Arabic-Latin Modern Fixed is licensed under the GUST Font License with one important adjustment: It is requested, AS WELL AS LEGALLY REQUIRED, that derived works be distributed only after changing the names of the fonts comprising this work.</string>
+    <key>openTypeNameLicenseURL</key>
+    <string>http://www.gust.org.pl/projects/e-foundry/licenses/GUST-FONT-LICENSE.txt/view</string>
+    <key>openTypeNameVersion</key>
+    <string>Version 1.001</string>
     <key>openTypeNamePreferredSubfamilyName</key>
     <string>Regular</string>
-    <key>openTypeOS2Selection</key>
+    <key>openTypeOS2WidthClass</key>
+    <integer>5</integer>
+    <key>openTypeOS2WeightClass</key>
+    <integer>400</integer>
+    <key>openTypeOS2VendorID</key>
+    <string>ALIF</string>
+    <key>openTypeOS2FamilyClass</key>
     <array>
-      <integer>7</integer>
+      <integer>0</integer>
+      <integer>0</integer>
     </array>
     <key>openTypeOS2Type</key>
     <array/>
@@ -48,20 +69,20 @@
     <integer>-1024</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>1024</integer>
-    <key>openTypeOS2VendorID</key>
-    <string>ALIF</string>
-    <key>openTypeOS2WeightClass</key>
-    <integer>400</integer>
-    <key>openTypeOS2WidthClass</key>
-    <integer>5</integer>
     <key>openTypeOS2WinAscent</key>
     <integer>1997</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>1157</integer>
-    <key>postscriptBlueFuzz</key>
-    <integer>0</integer>
-    <key>postscriptBlueScale</key>
-    <real>0.045</real>
+    <key>postscriptFontName</key>
+    <string>NoNameFixed-Regular</string>
+    <key>postscriptFullName</key>
+    <string>NoName Fixed Regular</string>
+    <key>postscriptWeightName</key>
+    <string>Regular</string>
+    <key>postscriptUnderlineThickness</key>
+    <integer>141</integer>
+    <key>postscriptUnderlinePosition</key>
+    <integer>-203</integer>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-23</integer>
@@ -73,8 +94,6 @@
       <integer>1282</integer>
       <integer>1305</integer>
     </array>
-    <key>postscriptFontName</key>
-    <string>NoNameFixed-Regular</string>
     <key>postscriptStemSnapH</key>
     <array>
       <integer>125</integer>
@@ -101,21 +120,11 @@
       <integer>205</integer>
       <integer>315</integer>
     </array>
-    <key>postscriptUnderlinePosition</key>
-    <integer>-203</integer>
-    <key>postscriptUnderlineThickness</key>
-    <integer>141</integer>
-    <key>styleMapStyleName</key>
-    <string>regular</string>
-    <key>styleName</key>
-    <string>Regular</string>
-    <key>unitsPerEm</key>
-    <integer>2048</integer>
-    <key>versionMajor</key>
-    <integer>1</integer>
-    <key>versionMinor</key>
-    <integer>1</integer>
-    <key>xHeight</key>
-    <integer>883</integer>
+    <key>postscriptBlueFuzz</key>
+    <integer>0</integer>
+    <key>postscriptBlueScale</key>
+    <real>0.045</real>
+    <key>guidelines</key>
+    <array/>
   </dict>
 </plist>
