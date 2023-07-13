@@ -39,6 +39,11 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
+**13 July 2023. Version 0.500**
+- Merged in Arabic, Greek and extended Latin from No Name Fixed, thanks for the suggestion @Eli Hauser.
+  The fit is surprisingly good, but I will probably fix up some characters like the u used for Vietnamese
+  and some Greek characters that look too thin, if the monospace limitations permit this.
+
 **13 July 2023. Version 0.400**
 - Cyrillic merged in from Novikov's Courier Prime fork
 
