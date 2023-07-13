@@ -100,18 +100,6 @@ lookup caseCaseSensitiveFormslookup15 {
     sub \tilde by \tilde.case ;
 } caseCaseSensitiveFormslookup15;
 
-lookup CourierBadiRegularloclLocalizedFormsinLatinlookup2 {
-  lookupflag 0;
-    sub  \l' \periodcentered' \l   by  ;
-    sub  \L' \periodcentered' \L   by  ;
-} CourierBadiRegularloclLocalizedFormsinLatinlookup2;
-
-lookup CourierBadiRegularordnOrdinalslookup7 {
-  lookupflag 0;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\A \a ]'  by [NULL NULL ];
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\O \o ]'  by [NULL NULL ];
-} CourierBadiRegularordnOrdinalslookup7;
-
 feature locl {
 
  script latn;
@@ -124,12 +112,10 @@ feature locl {
       lookup loclLocalizedFormsinLatinlookup7;
       lookup loclLocalizedFormsinLatinlookup8;
       lookup loclLocalizedFormsinLatinlookup9;
-      lookup CourierBadiRegularloclLocalizedFormsinLatinlookup2;
      language AZE  exclude_dflt;
       lookup loclLocalizedFormsinLatinlookup9;
      language CAT  exclude_dflt;
       lookup loclLocalizedFormsinLatinlookup0;
-      lookup CourierBadiRegularloclLocalizedFormsinLatinlookup2;
      language CRT  exclude_dflt;
       lookup loclLocalizedFormsinLatinlookup8;
      language KAZ  exclude_dflt;
@@ -195,26 +181,20 @@ feature ordn {
  script DFLT;
      language dflt ;
       lookup ordnOrdinalslookup12;
-      lookup CourierBadiRegularordnOrdinalslookup7;
 
  script grek;
      language dflt ;
       lookup ordnOrdinalslookup12;
-      lookup CourierBadiRegularordnOrdinalslookup7;
 
  script latn;
      language dflt ;
       lookup ordnOrdinalslookup12;
-      lookup CourierBadiRegularordnOrdinalslookup7;
      language CAT  exclude_dflt;
       lookup ordnOrdinalslookup12;
-      lookup CourierBadiRegularordnOrdinalslookup7;
      language MOL  exclude_dflt;
       lookup ordnOrdinalslookup12;
-      lookup CourierBadiRegularordnOrdinalslookup7;
      language ROM  exclude_dflt;
       lookup ordnOrdinalslookup12;
-      lookup CourierBadiRegularordnOrdinalslookup7;
      language TRK  exclude_dflt;
       lookup ordnOrdinalslookup12;
 } ordn;
