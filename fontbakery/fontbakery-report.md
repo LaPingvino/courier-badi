@@ -135,7 +135,7 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌ і́
 
 The dot of soft dotted characters should disappear in other cases, for example: i̇ ǐ i̒ ị̇ ị̊ ị̋ ị̌ ị̒ i̦̇ i̦̊ i̦̋ ǐ̦ i̦̒ i̧̇ i̧̊ i̧̋ ǐ̧ i̧̒ j̆ j̇ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
@@ -143,9 +143,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 387 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 486 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 8 glyphs (1.82%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 8 glyphs (1.43%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -170,6 +170,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
@@ -383,6 +387,30 @@ The following glyphs do not have the recommended number of contours:
 
 	* scommaaccent (U+0219): X=423.0,Y=2.0 (should be at baseline 0?)
 
+	* afii10052 (U+0403): X=850.0,Y=1636.0 (should be at ascender 1638?)
+
+	* afii10054 (U+0405): X=402.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10061 (U+040C): X=971.0,Y=1636.0 (should be at ascender 1638?)
+
+	* afii10061 (U+040C): X=906.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* uni040D (U+040D): X=438.0,Y=1636.0 (should be at ascender 1638?)
+
+	* afii10024 (U+0416): X=255.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10024 (U+0416): X=974.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10028 (U+041A): X=906.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10029 (U+041B): X=353.0,Y=-1.0 (should be at baseline 0?)
+
+	* afii10065 (U+0430): X=341.0,Y=-2.0 (should be at baseline 0?)
+
+	* afii10066 (U+0431): X=960.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* uni049A (U+049A): X=906.0,Y=1186.0 (should be at cap-height 1187?)
+
 	* Sdotbelow (U+1E62): X=795.0,Y=1185.0 (should be at cap-height 1187?)
 
 	* sdotbelow (U+1E63): X=423.0,Y=2.0 (should be at baseline 0?)
@@ -403,127 +431,13 @@ The following glyphs do not have the recommended number of contours:
 
 	* won (U+20A9): X=1025.5,Y=1187.5 (should be at cap-height 1187?)
 
+	* afii61352 (U+2116): X=93.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii61352 (U+2116): X=230.0,Y=1186.0 (should be at cap-height 1187?)
+
 	* radical (U+221A): X=1047.0,Y=1189.0 (should be at cap-height 1187?) 
 
 	* integral (U+222B): X=689.0,Y=-2.0 (should be at baseline 0?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* numbersign (U+0023) contains a short segment B<<502.0,1176.0>-<507.0,1193.0>-<522.5,1201.0>>
-
-	* numbersign (U+0023) contains a short segment B<<522.5,1201.0>-<538.0,1209.0>-<556.0,1209.0>>
-
-	* numbersign (U+0023) contains a short segment B<<896.0,1176.0>-<901.0,1193.0>-<916.5,1201.0>>
-
-	* numbersign (U+0023) contains a short segment B<<916.5,1201.0>-<932.0,1209.0>-<950.0,1209.0>>
-
-	* numbersign (U+0023) contains a short segment B<<726.0,11.0>-<722.0,-6.0>-<706.0,-14.0>>
-
-	* numbersign (U+0023) contains a short segment B<<706.0,-14.0>-<690.0,-22.0>-<672.0,-22.0>>
-
-	* numbersign (U+0023) contains a short segment B<<332.0,11.0>-<328.0,-6.0>-<312.0,-14.0>>
-
-	* numbersign (U+0023) contains a short segment B<<312.0,-14.0>-<296.0,-22.0>-<278.0,-22.0>>
-
-	* at (U+0040) contains a short segment B<<799.0,748.0>-<804.0,759.0>-<822.0,759.0>>
-
-	* at (U+0040) contains a short segment B<<822.0,759.0>-<840.0,759.0>-<858.0,752.0>>
-
-	* at (U+0040) contains a short segment B<<858.0,752.0>-<876.0,745.0>-<888.5,733.0>>
-
-	* at (U+0040) contains a short segment B<<888.5,733.0>-<901.0,721.0>-<897.0,706.0>>
-
-	* A (U+0041) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* N (U+004E) contains a short segment L<<325.0,921.0>--<321.0,921.0>>
-
-	* N (U+004E) contains a short segment L<<903.0,287.0>--<907.0,287.0>>
-
-	* Z (U+005A) contains a short segment B<<167.0,68.0>-<167.0,82.0>-<171.0,92.0>>
-
-	* Z (U+005A) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
-
-	* Agrave (U+00C0) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Aacute (U+00C1) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Acircumflex (U+00C2) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Atilde (U+00C3) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Adieresis (U+00C4) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Aring (U+00C5) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Ntilde (U+00D1) contains a short segment L<<325.0,921.0>--<321.0,921.0>>
-
-	* Ntilde (U+00D1) contains a short segment L<<903.0,287.0>--<907.0,287.0>>
-
-	* Amacron (U+0100) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Abreve (U+0102) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* Aogonek (U+0104) contains a short segment L<<614.0,1043.0>--<610.0,1043.0>>
-
-	* eogonek (U+0119) contains a short segment B<<1016.0,65.0>-<1007.0,61.0>-<987.5,46.5>>
-
-	* Nacute (U+0143) contains a short segment L<<325.0,921.0>--<321.0,921.0>>
-
-	* Nacute (U+0143) contains a short segment L<<903.0,287.0>--<907.0,287.0>>
-
-	* Ncommaaccent (U+0145) contains a short segment L<<325.0,921.0>--<321.0,921.0>>
-
-	* Ncommaaccent (U+0145) contains a short segment L<<903.0,287.0>--<907.0,287.0>>
-
-	* Ncaron (U+0147) contains a short segment L<<325.0,921.0>--<321.0,921.0>>
-
-	* Ncaron (U+0147) contains a short segment L<<903.0,287.0>--<907.0,287.0>>
-
-	* Eng (U+014A) contains a short segment B<<560.0,-220.0>-<582.0,-215.0>-<604.0,-224.0>>
-
-	* Eng (U+014A) contains a short segment L<<325.0,921.0>--<321.0,921.0>>
-
-	* Eng (U+014A) contains a short segment L<<903.0,287.0>--<907.0,287.0>>
-
-	* Zacute (U+0179) contains a short segment B<<167.0,68.0>-<167.0,82.0>-<171.0,92.0>>
-
-	* Zacute (U+0179) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
-
-	* Zdotaccent (U+017B) contains a short segment B<<167.0,68.0>-<167.0,82.0>-<171.0,92.0>>
-
-	* Zdotaccent (U+017B) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
-
-	* Zcaron (U+017D) contains a short segment B<<167.0,68.0>-<167.0,82.0>-<171.0,92.0>>
-
-	* Zcaron (U+017D) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
-
-	* Delta (U+0394) contains a short segment L<<617.0,1022.0>--<615.0,1022.0>>
-
-	* Zdotbelow (U+1E92) contains a short segment B<<167.0,68.0>-<167.0,82.0>-<171.0,92.0>>
-
-	* Zdotbelow (U+1E92) contains a short segment B<<171.0,92.0>-<175.0,102.0>-<181.0,111.0>>
-
-	* summation (U+2211) contains a short segment L<<613.0,1797.0>--<614.0,1797.0>>
-
-	* summation (U+2211) contains a short segment L<<614.0,1797.0>--<614.0,1796.0>>
-
-	* summation (U+2211) contains a short segment L<<614.0,1796.0>--<613.0,1796.0>>
-
-	* summation (U+2211) contains a short segment L<<613.0,1796.0>--<613.0,1797.0>>
-
-	* summation (U+2211) contains a short segment B<<197.0,1070.0>-<190.0,1079.0>-<187.5,1091.5>>
-
-	* summation (U+2211) contains a short segment B<<187.5,1091.5>-<185.0,1104.0>-<185.0,1119.0>>
-
-	* summation (U+2211) contains a short segment L<<613.0,-837.0>--<614.0,-837.0>>
-
-	* summation (U+2211) contains a short segment L<<614.0,-837.0>--<614.0,-838.0>>
-
-	* summation (U+2211) contains a short segment L<<614.0,-838.0>--<613.0,-838.0>> 
-
-	* summation (U+2211) contains a short segment L<<613.0,-838.0>--<613.0,-837.0>> [code: found-short-segments]
 </div></details><br></div></details><details><summary><b>[21] CourierBadi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
@@ -657,7 +571,7 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: j̀ j́ j̃ j̄ j̈ į̀ į́ į̂ į̃ į̄ į̌ і́
 
 The dot of soft dotted characters should disappear in other cases, for example: j̆ j̇ j̊ j̋ ǰ j̒ j̣̀ j̣́ j̣̃ j̣̄ j̣̆ j̣̇ j̣̈ j̣̊ j̣̋ ǰ̣ j̣̒ j̦̀ j̦́ j̦̃ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
@@ -665,9 +579,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 409 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 508 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 9 glyphs (2.05%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 9 glyphs (1.61%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -692,6 +606,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** This font file does not have a 'meta' table. [code: lacks-meta-table]
+</div></details><details><summary>⚠ <b>WARN:</b> Font contains '.notdef' as its first glyph? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/mandatory_glyphs">com.google.fonts/check/mandatory_glyphs</a>)</summary><div>
+
+
+* ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
 </div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
 
 
@@ -867,125 +785,33 @@ The following glyphs do not have the recommended number of contours:
 
 	* ringcmb (U+030A): X=755.0,Y=1185.0 (should be at cap-height 1187?)
 
-	* sdotbelow (U+1E63): X=361.5,Y=1.5 (should be at baseline 0?) 
+	* afii10052 (U+0403): X=1029.0,Y=1636.0 (should be at ascender 1638?)
+
+	* afii10054 (U+0405): X=541.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10061 (U+040C): X=1150.0,Y=1636.0 (should be at ascender 1638?)
+
+	* afii10061 (U+040C): X=1044.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* uni040D (U+040D): X=438.0,Y=1636.0 (should be at ascender 1638?)
+
+	* afii10024 (U+0416): X=394.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10024 (U+0416): X=1113.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10028 (U+041A): X=1044.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii10066 (U+0431): X=1099.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* uni049A (U+049A): X=1044.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* sdotbelow (U+1E63): X=361.5,Y=1.5 (should be at baseline 0?)
+
+	* afii61352 (U+2116): X=232.0,Y=1186.0 (should be at cap-height 1187?)
+
+	* afii61352 (U+2116): X=369.0,Y=1186.0 (should be at cap-height 1187?) 
 
 	* radical (U+221A): X=1187.0,Y=1185.0 (should be at cap-height 1187?) [code: found-misalignments]
-</div></details><details><summary>⚠ <b>WARN:</b> Are any segments inordinately short? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_short_segments">com.google.fonts/check/outline_short_segments</a>)</summary><div>
-
-
-* ⚠ **WARN** The following glyphs have segments which seem very short:
-
-	* seven (U+0037) contains a short segment B<<1156.0,1119.0>-<1154.0,1106.0>-<1150.0,1095.5>>
-
-	* seven (U+0037) contains a short segment B<<1150.0,1095.5>-<1146.0,1085.0>-<1143.0,1079.0>>
-
-	* A (U+0041) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* N (U+004E) contains a short segment L<<419.0,931.0>--<415.0,931.0>>
-
-	* N (U+004E) contains a short segment L<<882.0,277.0>--<886.0,277.0>>
-
-	* W (U+0057) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
-
-	* Z (U+005A) contains a short segment B<<118.0,68.0>-<120.0,81.0>-<126.5,91.5>>
-
-	* Z (U+005A) contains a short segment B<<126.5,91.5>-<133.0,102.0>-<140.0,111.0>>
-
-	* Agrave (U+00C0) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Aacute (U+00C1) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Acircumflex (U+00C2) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Atilde (U+00C3) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Adieresis (U+00C4) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Aring (U+00C5) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Ntilde (U+00D1) contains a short segment L<<419.0,931.0>--<415.0,931.0>>
-
-	* Ntilde (U+00D1) contains a short segment L<<882.0,277.0>--<886.0,277.0>>
-
-	* Amacron (U+0100) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* Abreve (U+0102) contains a short segment L<<733.0,1043.0>--<729.0,1043.0>>
-
-	* lslash (U+0142) contains a short segment B<<592.0,274.5>-<590.0,258.0>-<590.0,243.0>>
-
-	* Nacute (U+0143) contains a short segment L<<419.0,931.0>--<415.0,931.0>>
-
-	* Nacute (U+0143) contains a short segment L<<882.0,277.0>--<886.0,277.0>>
-
-	* Ncommaaccent (U+0145) contains a short segment L<<419.0,931.0>--<415.0,931.0>>
-
-	* Ncommaaccent (U+0145) contains a short segment L<<882.0,277.0>--<886.0,277.0>>
-
-	* Ncaron (U+0147) contains a short segment L<<419.0,931.0>--<415.0,931.0>>
-
-	* Ncaron (U+0147) contains a short segment L<<882.0,277.0>--<886.0,277.0>>
-
-	* Eng (U+014A) contains a short segment B<<425.0,-360.0>-<399.0,-347.0>-<393.0,-325.5>>
-
-	* Eng (U+014A) contains a short segment B<<445.0,-223.0>-<468.0,-215.0>-<488.0,-224.0>>
-
-	* Eng (U+014A) contains a short segment L<<419.0,931.0>--<415.0,931.0>>
-
-	* Eng (U+014A) contains a short segment L<<882.0,277.0>--<886.0,277.0>>
-
-	* Wcircumflex (U+0174) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
-
-	* Zacute (U+0179) contains a short segment B<<118.0,68.0>-<120.0,81.0>-<126.5,91.5>>
-
-	* Zacute (U+0179) contains a short segment B<<126.5,91.5>-<133.0,102.0>-<140.0,111.0>>
-
-	* Zdotaccent (U+017B) contains a short segment B<<118.0,68.0>-<120.0,81.0>-<126.5,91.5>>
-
-	* Zdotaccent (U+017B) contains a short segment B<<126.5,91.5>-<133.0,102.0>-<140.0,111.0>>
-
-	* Zcaron (U+017D) contains a short segment B<<118.0,68.0>-<120.0,81.0>-<126.5,91.5>>
-
-	* Zcaron (U+017D) contains a short segment B<<126.5,91.5>-<133.0,102.0>-<140.0,111.0>>
-
-	* Delta (U+0394) contains a short segment L<<732.0,1022.0>--<730.0,1022.0>>
-
-	* Omega (U+03A9) contains a short segment B<<624.0,78.0>-<628.0,101.0>-<634.5,118.0>>
-
-	* Omega (U+03A9) contains a short segment B<<634.5,118.0>-<641.0,135.0>-<652.0,142.0>>
-
-	* Omega (U+03A9) contains a short segment B<<472.0,143.0>-<480.0,136.0>-<481.0,118.5>>
-
-	* Omega (U+03A9) contains a short segment B<<481.0,118.5>-<482.0,101.0>-<478.0,78.0>>
-
-	* Wgrave (U+1E80) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
-
-	* Wacute (U+1E82) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
-
-	* Wdieresis (U+1E84) contains a short segment B<<610.0,845.0>-<621.0,865.0>-<638.5,875.0>>
-
-	* Zdotbelow (U+1E92) contains a short segment B<<118.0,68.0>-<120.0,81.0>-<126.5,91.5>>
-
-	* Zdotbelow (U+1E92) contains a short segment B<<126.5,91.5>-<133.0,102.0>-<140.0,111.0>>
-
-	* summation (U+2211) contains a short segment L<<860.0,1797.0>--<861.0,1797.0>>
-
-	* summation (U+2211) contains a short segment L<<861.0,1797.0>--<861.0,1796.0>>
-
-	* summation (U+2211) contains a short segment L<<861.0,1796.0>--<860.0,1796.0>>
-
-	* summation (U+2211) contains a short segment L<<860.0,1796.0>--<860.0,1797.0>>
-
-	* summation (U+2211) contains a short segment B<<316.0,1070.0>-<310.0,1079.0>-<310.0,1091.5>>
-
-	* summation (U+2211) contains a short segment B<<310.0,1091.5>-<310.0,1104.0>-<312.0,1119.0>>
-
-	* summation (U+2211) contains a short segment L<<395.0,-837.0>--<396.0,-837.0>>
-
-	* summation (U+2211) contains a short segment L<<396.0,-837.0>--<396.0,-838.0>>
-
-	* summation (U+2211) contains a short segment L<<396.0,-838.0>--<395.0,-838.0>> 
-
-	* summation (U+2211) contains a short segment L<<395.0,-838.0>--<395.0,-837.0>> [code: found-short-segments]
 </div></details><br></div></details>
 
 ### Summary
