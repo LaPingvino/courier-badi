@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pertenthousand-ar" format="2">
+  <advance width="1075"/>
+  <unicode hex="060A"/>
+  <outline>
+    <contour>
+      <point x="264" y="47" type="curve" smooth="yes"/>
+      <point x="264" y="96"/>
+      <point x="367" y="219"/>
+      <point x="412" y="219" type="curve" smooth="yes"/>
+      <point x="455" y="219"/>
+      <point x="559" y="94"/>
+      <point x="559" y="47" type="curve" smooth="yes"/>
+      <point x="559" y="-8"/>
+      <point x="453" y="-127"/>
+      <point x="412" y="-127" type="curve" smooth="yes"/>
+      <point x="367" y="-127"/>
+      <point x="264" y="-4"/>
+    </contour>
+    <contour>
+      <point x="752" y="492" type="curve" smooth="yes"/>
+      <point x="752" y="541"/>
+      <point x="854" y="664"/>
+      <point x="899" y="664" type="curve" smooth="yes"/>
+      <point x="942" y="664"/>
+      <point x="1047" y="539"/>
+      <point x="1047" y="492" type="curve" smooth="yes"/>
+      <point x="1047" y="436"/>
+      <point x="940" y="317"/>
+      <point x="899" y="317" type="curve" smooth="yes"/>
+      <point x="854" y="317"/>
+      <point x="752" y="440"/>
+    </contour>
+    <contour>
+      <point x="512" y="262" type="curve" smooth="yes"/>
+      <point x="512" y="311"/>
+      <point x="614" y="434"/>
+      <point x="659" y="434" type="curve" smooth="yes"/>
+      <point x="702" y="434"/>
+      <point x="807" y="309"/>
+      <point x="807" y="262" type="curve" smooth="yes"/>
+      <point x="807" y="207"/>
+      <point x="700" y="88"/>
+      <point x="659" y="88" type="curve" smooth="yes"/>
+      <point x="614" y="88"/>
+      <point x="512" y="211"/>
+    </contour>
+    <component base="percent.arabic.comp" xOffset="-164"/>
+    <component base="zero-ar" xOffset="-287" yOffset="524"/>
+  </outline>
+</glyph>

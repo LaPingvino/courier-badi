@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="yehRohingya-ar" format="2">
+  <advance width="1075"/>
+  <unicode hex="08AC"/>
+  <outline>
+    <contour>
+      <point x="762" y="225" type="curve"/>
+      <point x="754" y="373" type="line"/>
+      <point x="862" y="373"/>
+      <point x="897" y="461"/>
+      <point x="940" y="461" type="curve" smooth="yes"/>
+      <point x="985" y="461"/>
+      <point x="1026" y="428"/>
+      <point x="1026" y="373" type="curve" smooth="yes"/>
+      <point x="1026" y="287"/>
+      <point x="895" y="225"/>
+    </contour>
+    <component base="yehRohingya-ar.comp"/>
+    <component base="twodotshorizontalaboveSymbol-ar" xOffset="-2" yOffset="-1272"/>
+  </outline>
+</glyph>

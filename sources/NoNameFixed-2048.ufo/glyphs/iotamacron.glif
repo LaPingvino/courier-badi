@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="iotamacron" format="2">
+  <advance width="1075"/>
+  <unicode hex="1FD1"/>
+  <outline>
+    <contour>
+      <point x="856" y="1225" type="line"/>
+      <point x="872" y="1208"/>
+      <point x="877" y="1198"/>
+      <point x="881" y="1151" type="curve"/>
+      <point x="872" y="1104"/>
+      <point x="868" y="1110"/>
+      <point x="856" y="1098" type="curve"/>
+      <point x="217" y="1098" type="line"/>
+      <point x="213" y="1096"/>
+      <point x="197" y="1116"/>
+      <point x="193" y="1151" type="curve"/>
+      <point x="193" y="1186"/>
+      <point x="205" y="1225"/>
+      <point x="217" y="1225" type="curve" smooth="yes"/>
+    </contour>
+    <component base="iota" xOffset="55"/>
+  </outline>
+</glyph>

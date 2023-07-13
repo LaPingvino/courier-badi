@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Upsilonmacron" format="2">
+  <advance width="1075"/>
+  <unicode hex="1FE9"/>
+  <outline>
+    <contour>
+      <point x="856" y="1479" type="line"/>
+      <point x="870" y="1462"/>
+      <point x="877" y="1452"/>
+      <point x="881" y="1405" type="curve"/>
+      <point x="872" y="1358"/>
+      <point x="866" y="1364"/>
+      <point x="856" y="1352" type="curve"/>
+      <point x="217" y="1352" type="line"/>
+      <point x="211" y="1350"/>
+      <point x="195" y="1370"/>
+      <point x="193" y="1405" type="curve"/>
+      <point x="193" y="1440"/>
+      <point x="205" y="1479"/>
+      <point x="217" y="1479" type="curve" smooth="yes"/>
+    </contour>
+    <component base="Upsilon"/>
+  </outline>
+</glyph>
