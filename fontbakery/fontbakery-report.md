@@ -1153,6 +1153,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
 	- Glyph name: sigmafinal	Contours detected: 2	Expected: 1
 
 	- Glyph name: yuslittleiotified-cy	Contours detected: 5	Expected: 2
@@ -1197,9 +1199,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorntilde	Contours detected: 2	Expected: 3
 
+	- Glyph name: uhornacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorngrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhornhookabove	Contours detected: 3	Expected: 2
+
 	- Glyph name: Uhorntilde	Contours detected: 1	Expected: 2
 
-	- Glyph name: uhorntilde	Contours detected: 1	Expected: 2
+	- Glyph name: uhorntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorndotbelow	Contours detected: 3	Expected: 2
 
 	- Glyph name: narrownbspace	Contours detected: 28	Expected: 0
 
@@ -1227,9 +1237,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: lira	Contours detected: 2	Expected: 1
 
-	- Glyph name: summation	Contours detected: 3	Expected: 1 
+	- Glyph name: summation	Contours detected: 3	Expected: 1
 
-	- Glyph name: tbar	Contours detected: 2	Expected: 1
+	- Glyph name: tbar	Contours detected: 2	Expected: 1 
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -2626,6 +2638,8 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: Uogonek	Contours detected: 2	Expected: 1
 
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
 	- Glyph name: sigmafinal	Contours detected: 2	Expected: 1
 
 	- Glyph name: yuslittleiotified-cy	Contours detected: 5	Expected: 2
@@ -2670,9 +2684,17 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: ohorntilde	Contours detected: 2	Expected: 3
 
+	- Glyph name: uhornacute	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorngrave	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhornhookabove	Contours detected: 3	Expected: 2
+
 	- Glyph name: Uhorntilde	Contours detected: 1	Expected: 2
 
-	- Glyph name: uhorntilde	Contours detected: 1	Expected: 2
+	- Glyph name: uhorntilde	Contours detected: 3	Expected: 2
+
+	- Glyph name: uhorndotbelow	Contours detected: 3	Expected: 2
 
 	- Glyph name: narrownbspace	Contours detected: 28	Expected: 0
 
@@ -2700,9 +2722,11 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
-	- Glyph name: lira	Contours detected: 2	Expected: 1 
+	- Glyph name: lira	Contours detected: 2	Expected: 1
 
-	- Glyph name: summation	Contours detected: 3	Expected: 1
+	- Glyph name: summation	Contours detected: 3	Expected: 1 
+
+	- Glyph name: uhorn	Contours detected: 2	Expected: 1
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
