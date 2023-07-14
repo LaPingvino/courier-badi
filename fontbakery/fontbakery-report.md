@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[26] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[25] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)
@@ -159,9 +159,8 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 2297 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 555 glyphs (24.08%) have a different width. You should check the widths of: ['A', 'AE', 'Aacute', 'Abreve', 'Acircumflex', 'Adieresis', 'Agrave', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Ccircumflex', 'Cdotaccent', 'D', 'Dcaron', 'Dcroat', 'E', 'Eacute', 'Ebreve', 'Ecaron', 'Ecircumflex', 'Edieresis', 'Edotaccent', 'Egrave', 'Emacron', 'Eng', 'Eogonek', 'Eth', 'Euro', 'F', 'G', 'Gbreve', 'Gcircumflex', 'Gcommaaccent', 'Gdotaccent', 'H', 'Hbar', 'Hcircumflex', 'I', 'IJ', 'Iacute', 'Ibreve', 'Icircumflex', 'Idieresis', 'Idotaccent', 'Igrave', 'Imacron', 'Iogonek', 'Itilde', 'J', 'Jcircumflex', 'K', 'Kcommaaccent', 'L', 'Lacute', 'Lcaron', 'Lcommaaccent', 'Ldot', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'Ncommaaccent', 'Ntilde', 'O', 'OE', 'Oacute', 'Obreve', 'Ocircumflex', 'Odieresis', 'Ograve', 'Ohungarumlaut', 'Omacron', 'Oslash', 'Otilde', 'P', 'Q', 'R', 'Racute', 'Rcaron', 'Rcommaaccent', 'S', 'Sacute', 'Scaron', 'Scedilla', 'Scircumflex', 'Scommaaccent', 'T', 'Tbar', 'Tcaron', 'Tcommaaccent', 'Thorn', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'Ugrave', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'Ygrave', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'a', 'aacute', 'abreve', 'acircumflex', 'acute', 'acute.case', 'acutecomb', 'adieresis', 'ae', 'afii10017', 'afii10018', 'afii10019', 'afii10020', 'afii10021', 'afii10022', 'afii10023', 'afii10024', 'afii10025', 'afii10026', 'afii10027', 'afii10028', 'afii10029', 'afii10030', 'afii10031', 'afii10032', 'afii10033', 'afii10034', 'afii10035', 'afii10036', 'afii10037', 'afii10038', 'afii10039', 'afii10040', 'afii10041', 'afii10042', 'afii10043', 'afii10044', 'afii10045', 'afii10046', 'afii10047', 'afii10048', 'afii10049', 'afii10050', 'afii10051', 'afii10052', 'afii10053', 'afii10054', 'afii10055', 'afii10056', 'afii10057', 'afii10058', 'afii10059', 'afii10060', 'afii10061', 'afii10062', 'afii10065', 'afii10066', 'afii10067', 'afii10068', 'afii10069', 'afii10070', 'afii10071', 'afii10072', 'afii10073', 'afii10074', 'afii10075', 'afii10076', 'afii10077', 'afii10078', 'afii10079', 'afii10080', 'afii10081', 'afii10082', 'afii10083', 'afii10084', 'afii10085', 'afii10086', 'afii10087', 'afii10088', 'afii10089', 'afii10090', 'afii10091', 'afii10092', 'afii10093', 'afii10094', 'afii10095', 'afii10096', 'afii10097', 'afii10098', 'afii10099', 'afii10100', 'afii10101', 'afii10102', 'afii10103', 'afii10104', 'afii10105', 'afii10106', 'afii10107', 'afii10108', 'afii10109', 'afii10110', 'afii10145', 'afii10193', 'afii10846', 'afii61352', 'agrave', 'amacron', 'ampersand', 'aogonek', 'approxequal', 'aring', 'asciicircum', 'asciitilde', 'asterisk', 'at', 'atilde', 'b', 'backslash', 'bar', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'breve', 'breve.case', 'brokenbar', 'bullet', 'c', 'cacute', 'caron', 'caron.alt', 'caron.case', 'ccaron', 'ccedilla', 'ccircumflex', 'cdotaccent', 'cedilla', 'cedilla.case', 'cent', 'circumflex', 'circumflex.case', 'colon', 'colon.alt', 'comma', 'comma.alt', 'commaaccent.case', 'copyright', 'currency', 'd', 'dagger', 'daggerdbl', 'dcaron', 'dcroat', 'degree', 'dieresis', 'dieresis.case', 'divide', 'dollar', 'dotaccent', 'dotaccent.case', 'dotbelowcomb', 'dotlessi', 'e', 'eacute', 'ebreve', 'ecaron', 'ecircumflex', 'edieresis', 'edotaccent', 'egrave', 'eight', 'ellipsis', 'ellipsis.alt1', 'ellipsis.alt2', 'ellipsis.alt3', 'ellipsis.alt4', 'ellipsis.alt5', 'emacron', 'emdash', 'emdash.alt1', 'emdash.alt2', 'emdash.alt3', 'emdash.alt4', 'endash', 'eng', 'eogonek', 'equal', 'eth', 'exclam', 'exclamdown', 'f', 'five', 'florin', 'four', 'fraction', 'franc', 'g', 'gbreve', 'gcircumflex', 'gcommaaccent', 'gdotaccent', 'germandbls', 'grave', 'grave.case', 'gravecomb', 'greater', 'greaterequal', 'guillemotleft', 'guillemotright', 'guilsinglleft', 'guilsinglright', 'h', 'hbar', 'hcircumflex', 'hungarumlaut', 'hungarumlaut.case', 'hyphen', 'hyphen.alt', 'i', 'iacute', 'ibreve', 'icircumflex', 'idieresis', 'idotaccent', 'igrave', 'ij', 'imacron', 'infinity', 'integral', 'iogonek', 'itilde', 'j', 'jcircumflex', 'k', 'kcommaaccent', 'l', 'lacute', 'lcaron', 'lcommaaccent', 'ldot', 'less', 'lessequal', 'logicalnot', 'lozenge', 'lslash', 'm', 'macron', 'macron.case', 'minus', 'minute', 'multiply', 'n', 'nacute', 'ncaron', 'ncommaaccent', 'nine', 'notequal', 'ntilde', 'numbersign', 'o', 'oacute', 'obreve', 'ocircumflex', 'odieresis', 'oe', 'ogonek', 'ogonek.case', 'ograve', 'ohungarumlaut', 'omacron', 'one', 'onehalf', 'onequarter', 'ordfeminine', 'ordmasculine', 'oslash', 'otilde', 'p', 'paragraph', 'parenleft', 'parenright', 'partialdiff', 'percent', 'period', 'period.alt', 'period.squat', 'periodcentered', 'perthousand', 'pi', 'plus', 'plusminus', 'product', 'q', 'question', 'questiondown', 'quotedbl', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotesingle', 'r', 'racute', 'radical', 'rcaron', 'rcommaaccent', 'registered', 'ring', 'ring.case', 's', 'sacute', 'scaron', 'scedilla', 'scircumflex', 'scommaaccent', 'second', 'section', 'semicolon', 'semicolon.alt', 'seven', 'six', 'slash', 'space', 'sterling', 'summation', 't', 'tbar', 'tcaron', 'tcommaaccent', 'thorn', 'three', 'threequarters', 'tilde', 'tilde.case', 'tildecomb', 'trademark', 'two', 'u', 'u1F7D9', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'ugrave', 'uhungarumlaut', 'umacron', 'underscore', 'uni000D', 'uni00A0', 'uni00B2', 'uni00B3', 'uni00B9', 'uni018F', 'uni021A', 'uni021B', 'uni0237', 'uni0259', 'uni0302', 'uni0304', 'uni0306', 'uni0307', 'uni0308', 'uni030A', 'uni030B', 'uni030C', 'uni0312', 'uni0326', 'uni0326.case', 'uni0327', 'uni0328', 'uni0394', 'uni03A9', 'uni03BC', 'uni040D', 'uni045D', 'uni0492', 'uni0493', 'uni049A', 'uni049B', 'uni04A2', 'uni04A3', 'uni04AE', 'uni04AF', 'uni04B0', 'uni04B1', 'uni04BA', 'uni04BB', 'uni04D8', 'uni04E8', 'uni04E9', 'uni1E0C', 'uni1E0D', 'uni1E24', 'uni1E25', 'uni1E62', 'uni1E63', 'uni1E6C', 'uni1E6D', 'uni1E92', 'uni1E93', 'uni1E9E', 'uni2011', 'uni2074', 'uni20A9', 'uni2215', 'uniFB01', 'uniFB02', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'yen', 'ygrave', 'z', 'zacute', 'zcaron', 'zdotaccent', 'zero'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -196,6 +195,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- Threedotsinverted.alt.comp
+
+	- acute.case
 
 	- ae-ar.fina
 
@@ -329,11 +330,19 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- bigcircle
 
+	- breve.case
+
 	- caron.cap
+
+	- caron.case
+
+	- cedilla.case
 
 	- charbox.comp
 
 	- circumflex.cap
+
+	- circumflex.case
 
 	- circumflexcomb_acutecomb.cap
 
@@ -376,6 +385,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- dalVinvertedbelow-ar.fina
 
 	- dieresis.cap
+
+	- dieresis.case
+
+	- dotaccent.case
 
 	- doublestroke-ar
 
@@ -491,6 +504,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- ghainThreedotsabove-ar.medi
 
+	- grave.case
+
 	- hahFourbelow-ar.fina
 
 	- hahFourbelow-ar.init
@@ -558,6 +573,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- highhamza-ar.narrow
 
 	- highhamzaYeh-ar.init
+
+	- hungarumlaut.case
 
 	- hyphen.alt
 
@@ -703,6 +720,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- lamVabove-ar.medi
 
+	- macron.case
+
 	- meemDotabove-ar.fina
 
 	- meemDotabove-ar.init
@@ -768,6 +787,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- noonghunna-ar.init
 
 	- noonghunna-ar.medi
+
+	- ogonek.case
 
 	- pehMeemabove-ar.fina
 
@@ -854,6 +875,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- rehabove-ar
 
 	- rehv-ar.fina
+
+	- ring.case
 
 	- sadThreedots-ar.fina
 
@@ -1003,6 +1026,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- threedotshorizontalbelow-ar
 
+	- tilde.case
+
 	- ttehVabove-ar.fina
 
 	- ttehVabove-ar.init
@@ -1010,6 +1035,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- ttehVabove-ar.medi
 
 	- twoabove-ar
+
+	- uni0326.case
 
 	- wasla-ar
 
@@ -1208,25 +1235,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 1228 among a set of 13 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 1075:
-sphericalangle
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 acute.case (unencoded), breve.case (unencoded), caron.case (unencoded), circumflex.case (unencoded), dieresis.case (unencoded), dotaccent.case (unencoded), grave.case (unencoded), hungarumlaut.case (unencoded), leftarrowheadabove-ar (U+08F7), macron.case (unencoded), ring.case (unencoded) and tilde.case (unencoded) [code: spacing-mark-glyphs]
+	 acute.case (unencoded), breve.case (unencoded), caron.case (unencoded), circumflex.case (unencoded), dieresis.case (unencoded), dotaccent.case (unencoded), grave.case (unencoded), hungarumlaut.case (unencoded), macron.case (unencoded), ring.case (unencoded) and tilde.case (unencoded) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (U+FE0D), VS15 (U+FE0E), VS16 (U+FE0F), VS2 (U+FE01), VS3 (U+FE02), VS4 (U+FE03), VS5 (U+FE04), VS6 (U+FE05), VS7 (U+FE06), VS8 (U+FE07), VS9 (U+FE08), acutecomb (U+0301), ainabove-ar (U+0611), alefLamYehabove-ar (U+0616), alefabove-ar (U+0670), alefbelow-ar (U+0656), annisfabove-ar (U+08DC), arrubabove-ar (U+08D4), assajdaabove-ar (U+08DB), aththalathaabove-ar (U+08DA), brevebelowcomb (U+032E), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), damma-ar (U+064F), dammaCurly-ar (U+08E5), dammaDot-ar (U+08FE), dammainverted-ar (U+0657), dammareversed-ar (U+065D), dammasmall-ar (U+0619), dammatan-ar (U+064C), dammatanCurly-ar (U+08E8), dammaturnedbelow-ar (U+08E3), dasiapneumatacomb-cy (U+0485), dblgravecomb (U+030F), dotStopabove-ar (U+06EC), dotbelowcomb (U+0323), dotvowelbelow-ar (U+065C), doublerightarrowheadDotabove-ar (U+08FC), doublerightarrowheadabove-ar (U+08FB), fatha-ar (U+064E), fathaCurly-ar (U+08E4), fathaDotabove-ar (U+08F5), fathaHorizont-ar (U+0659), fathaRing-ar (U+08F4), fathasmall-ar (U+0618), fathatan-ar (U+064B), fathatanCurly-ar (U+08E7), fathatwodots-ar (U+065E), footnotemarkerabove-ar (U+08E0), graphemejoinercomb (U+034F), gravecomb (U+0300), hahabove-ar (U+06E1), hamzaabove-ar (U+0654), hamzabelow-ar (U+0655), highwaw-ar (U+08F3), hookabovecomb (U+0309), hundredthousandssigncomb-cy (U+0488), jeemabove-ar (U+06DA), kasra-ar (U+0650), kasraCurly-ar (U+08E6), kasraDotbelow-ar (U+08F6), kasrasmall-ar (U+061A), kasratan-ar (U+064D), kasratanCurly-ar (U+08E9), lamAlefabove-ar (U+06D9), largerounddotbelow-ar (U+08CF), leftarrowheadbelow-ar (U+08F9), lowlinecomb (U+0332), macronbelowcomb (U+0331), madda-ar (U+0653), maddalong-ar (U+06E4), marksidewaysnoonghunna-ar (U+08FF), meemStopabove-ar (U+06E2), meemabove-ar (U+06D8), meembelow-ar (U+06ED), millionssigncomb-cy (U+0489), noonKasraabove-ar (U+08D8), noonKasrabelow-ar (U+08D9), noonabove-ar (U+06E8), noonghunnaabove-ar (U+0658), opendammatan-ar (U+08F1), openfathatan-ar (U+08F0), openkasratan-ar (U+08F2), palatalizationcomb-cy (U+0484), psilipneumatacomb-cy (U+0486), qafLamAlefMaksuraabove-ar (U+06D7), qafabove-ar (U+08D7), qifabove-ar (U+08DE), rehDadabove-ar (U+0613), rehHahabove-ar (U+0612), rhombusStopabove-ar (U+06EB), rhombusStopbelow-ar (U+06EA), rightarrowheadDotabove-ar (U+08FD), rightarrowheadabove-ar (U+08F8), rightarrowheadbelow-ar (U+08FA), sadLamAlefMaksuraabove-ar (U+06D6), sadabove-ar (U+0610), safhaabove-ar (U+08E1), sahabove-ar (U+08CC), saktaabove-ar (U+08DD), seenabove-ar (U+06DC), seenbelow-ar (U+06E3), shadda-ar (U+0651), smallainabove-ar (U+08D6), smallsadabove-ar (U+08D5), sukun-ar (U+0652), sukunoval-ar (U+06E0), sukunround-ar (U+06DF), tahabove-ar (U+0615), takhallusabove-ar (U+0614), threedotsabove-ar (U+06DB), tildebelowcomb (U+0330), tildecomb (U+0303), titlocomb-cy (U+0483), toneloopabove-ar (U+08EC), toneloopbelow-ar (U+08EF), toneonedotabove-ar (U+08EA), toneonedotbelow-ar (U+08ED), tonetwodotsabove-ar (U+08EB), tonetwodotsbelow-ar (U+08EE), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni0312 (U+0312), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), vabove-ar (U+065A), vinvertedabove-ar (U+065B), waqfaabove-ar (U+08DF), wavyhamzabelow-ar (U+065F), wawbelow-ar (U+08D3), yehabove-ar (U+06E7) and zainabove-ar (U+0617) [code: mark-chars]
+	 VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (U+FE0D), VS15 (U+FE0E), VS16 (U+FE0F), VS2 (U+FE01), VS3 (U+FE02), VS4 (U+FE03), VS5 (U+FE04), VS6 (U+FE05), VS7 (U+FE06), VS8 (U+FE07), VS9 (U+FE08), acutecomb (U+0301), ainabove-ar (U+0611), alefLamYehabove-ar (U+0616), alefabove-ar (U+0670), alefbelow-ar (U+0656), annisfabove-ar (U+08DC), arrubabove-ar (U+08D4), assajdaabove-ar (U+08DB), aththalathaabove-ar (U+08DA), brevebelowcomb (U+032E), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), damma-ar (U+064F), dammaCurly-ar (U+08E5), dammaDot-ar (U+08FE), dammainverted-ar (U+0657), dammareversed-ar (U+065D), dammasmall-ar (U+0619), dammatan-ar (U+064C), dammatanCurly-ar (U+08E8), dammaturnedbelow-ar (U+08E3), dasiapneumatacomb-cy (U+0485), dblgravecomb (U+030F), dotStopabove-ar (U+06EC), dotbelowcomb (U+0323), dotvowelbelow-ar (U+065C), doublerightarrowheadDotabove-ar (U+08FC), doublerightarrowheadabove-ar (U+08FB), fatha-ar (U+064E), fathaCurly-ar (U+08E4), fathaDotabove-ar (U+08F5), fathaHorizont-ar (U+0659), fathaRing-ar (U+08F4), fathasmall-ar (U+0618), fathatan-ar (U+064B), fathatanCurly-ar (U+08E7), fathatwodots-ar (U+065E), footnotemarkerabove-ar (U+08E0), graphemejoinercomb (U+034F), gravecomb (U+0300), hahabove-ar (U+06E1), hamzaabove-ar (U+0654), hamzabelow-ar (U+0655), highwaw-ar (U+08F3), hookabovecomb (U+0309), hundredthousandssigncomb-cy (U+0488), jeemabove-ar (U+06DA), kasra-ar (U+0650), kasraCurly-ar (U+08E6), kasraDotbelow-ar (U+08F6), kasrasmall-ar (U+061A), kasratan-ar (U+064D), kasratanCurly-ar (U+08E9), lamAlefabove-ar (U+06D9), largerounddotbelow-ar (U+08CF), leftarrowheadabove-ar (U+08F7), leftarrowheadbelow-ar (U+08F9), lowlinecomb (U+0332), macronbelowcomb (U+0331), madda-ar (U+0653), maddalong-ar (U+06E4), marksidewaysnoonghunna-ar (U+08FF), meemStopabove-ar (U+06E2), meemabove-ar (U+06D8), meembelow-ar (U+06ED), millionssigncomb-cy (U+0489), noonKasraabove-ar (U+08D8), noonKasrabelow-ar (U+08D9), noonabove-ar (U+06E8), noonghunnaabove-ar (U+0658), opendammatan-ar (U+08F1), openfathatan-ar (U+08F0), openkasratan-ar (U+08F2), palatalizationcomb-cy (U+0484), psilipneumatacomb-cy (U+0486), qafLamAlefMaksuraabove-ar (U+06D7), qafabove-ar (U+08D7), qifabove-ar (U+08DE), rehDadabove-ar (U+0613), rehHahabove-ar (U+0612), rhombusStopabove-ar (U+06EB), rhombusStopbelow-ar (U+06EA), rightarrowheadDotabove-ar (U+08FD), rightarrowheadabove-ar (U+08F8), rightarrowheadbelow-ar (U+08FA), sadLamAlefMaksuraabove-ar (U+06D6), sadabove-ar (U+0610), safhaabove-ar (U+08E1), sahabove-ar (U+08CC), saktaabove-ar (U+08DD), seenabove-ar (U+06DC), seenbelow-ar (U+06E3), shadda-ar (U+0651), smallainabove-ar (U+08D6), smallsadabove-ar (U+08D5), sukun-ar (U+0652), sukunoval-ar (U+06E0), sukunround-ar (U+06DF), tahabove-ar (U+0615), takhallusabove-ar (U+0614), threedotsabove-ar (U+06DB), tildebelowcomb (U+0330), tildecomb (U+0303), titlocomb-cy (U+0483), toneloopabove-ar (U+08EC), toneloopbelow-ar (U+08EF), toneonedotabove-ar (U+08EA), toneonedotbelow-ar (U+08ED), tonetwodotsabove-ar (U+08EB), tonetwodotsbelow-ar (U+08EE), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni0312 (U+0312), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), vabove-ar (U+065A), vinvertedabove-ar (U+065B), waqfaabove-ar (U+08DF), wavyhamzabelow-ar (U+065F), wawbelow-ar (U+08D3), yehabove-ar (U+06E7) and zainabove-ar (U+0617) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -1453,7 +1471,7 @@ sphericalangle
 	* waqfaabove-ar (U+08DF): L<<623.0,1094.0>--<768.0,1093.0>> 
 
 	* waqfaabove-ar (U+08DF): L<<790.0,1046.0>--<643.0,1047.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[26] CourierBadi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[25] CourierBadi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)
@@ -1602,17 +1620,16 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
 
 
-* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
+* 🔥 **FAIL** The dot of soft dotted characters used in orthographies must disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄
 
-The dot of soft dotted characters should disappear in other cases, for example: j̆ j̇ j̉ j̊ j̋ j̏ j̒ j҃ j҄ j҅ j҆ j̣̀ j̣́ j̣̃ j̣̄ j̣̆ j̣̇ j̣̈ j̣̉ j̣̊ [code: soft-dotted]
+The dot of soft dotted characters should disappear in other cases, for example: i̇ ȋ i̒ i҃ i҄ i҅ i҆ i̦̇ i̦̊ i̦̋ ȋ̦ i̦̒ i̦҃ i̦҄ i̦҅ i̦҆ i̧̇ i̧̊ i̧̋ ȋ̧ [code: soft-dotted]
 </div></details><details><summary>🔥 <b>FAIL:</b> Checking correctness of monospaced metadata. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/name.html#com.google.fonts/check/monospace">com.google.fonts/check/monospace</a>)</summary><div>
 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 2297 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 555 glyphs (24.08%) have a different width. You should check the widths of: ['A', 'AE', 'Aacute', 'Abreve', 'Acircumflex', 'Adieresis', 'Agrave', 'Amacron', 'Aogonek', 'Aring', 'Atilde', 'B', 'C', 'Cacute', 'Ccaron', 'Ccedilla', 'Ccircumflex', 'Cdotaccent', 'D', 'Dcaron', 'Dcroat', 'Ddotbelow', 'Delta', 'E', 'Eacute', 'Ebreve', 'Ecaron', 'Ecircumflex', 'Edieresis', 'Edotaccent', 'Egrave', 'Emacron', 'Eng', 'Eogonek', 'Eth', 'F', 'G', 'Gbreve', 'Gcircumflex', 'Gcommaaccent', 'Gdotaccent', 'H', 'Hbar', 'Hcircumflex', 'Hdotbelow', 'I', 'IJ', 'Iacute', 'Ibreve', 'Icircumflex', 'Idieresis', 'Idotaccent', 'Igrave', 'Imacron', 'Iogonek', 'Itilde', 'J', 'Jcircumflex', 'K', 'Kcommaaccent', 'L', 'Lacute', 'Lcaron', 'Lcommaaccent', 'Ldot', 'Lslash', 'M', 'N', 'Nacute', 'Ncaron', 'Ncommaaccent', 'Ntilde', 'O', 'OE', 'Oacute', 'Obreve', 'Ocircumflex', 'Odieresis', 'Ograve', 'Ohungarumlaut', 'Omacron', 'Omega', 'Oslash', 'Otilde', 'P', 'Q', 'R', 'Racute', 'Rcaron', 'Rcommaaccent', 'S', 'Sacute', 'Scaron', 'Scedilla', 'Scircumflex', 'Scommaaccent', 'Sdotbelow', 'T', 'Tbar', 'Tcaron', 'Tcedilla', 'Tcommaaccent', 'Tdotbelow', 'Thorn', 'U', 'Uacute', 'Ubreve', 'Ucircumflex', 'Udieresis', 'Ugrave', 'Uhungarumlaut', 'Umacron', 'Uogonek', 'Uring', 'Utilde', 'V', 'W', 'Wacute', 'Wcircumflex', 'Wdieresis', 'Wgrave', 'X', 'Y', 'Yacute', 'Ycircumflex', 'Ydieresis', 'Ygrave', 'Z', 'Zacute', 'Zcaron', 'Zdotaccent', 'Zdotbelow', 'a', 'aacute', 'abreve', 'acircumflex', 'acute', 'acute.case', 'acutecomb', 'adieresis', 'ae', 'afii10017', 'afii10018', 'afii10019', 'afii10020', 'afii10021', 'afii10022', 'afii10023', 'afii10024', 'afii10025', 'afii10026', 'afii10027', 'afii10028', 'afii10029', 'afii10030', 'afii10031', 'afii10032', 'afii10033', 'afii10034', 'afii10035', 'afii10036', 'afii10037', 'afii10038', 'afii10039', 'afii10040', 'afii10041', 'afii10042', 'afii10043', 'afii10044', 'afii10045', 'afii10046', 'afii10047', 'afii10048', 'afii10049', 'afii10050', 'afii10051', 'afii10052', 'afii10053', 'afii10054', 'afii10055', 'afii10056', 'afii10057', 'afii10058', 'afii10059', 'afii10060', 'afii10061', 'afii10062', 'afii10065', 'afii10066', 'afii10067', 'afii10068', 'afii10069', 'afii10070', 'afii10071', 'afii10072', 'afii10073', 'afii10074', 'afii10075', 'afii10076', 'afii10077', 'afii10078', 'afii10079', 'afii10080', 'afii10081', 'afii10082', 'afii10083', 'afii10084', 'afii10085', 'afii10086', 'afii10087', 'afii10088', 'afii10089', 'afii10090', 'afii10091', 'afii10092', 'afii10093', 'afii10094', 'afii10095', 'afii10096', 'afii10097', 'afii10098', 'afii10099', 'afii10100', 'afii10101', 'afii10102', 'afii10103', 'afii10104', 'afii10105', 'afii10106', 'afii10107', 'afii10108', 'afii10109', 'afii10110', 'afii10145', 'afii10193', 'afii10846', 'afii61352', 'agrave', 'amacron', 'ampersand', 'aogonek', 'approxequal', 'aring', 'asciicircum', 'asciitilde', 'asterisk', 'at', 'atilde', 'b', 'backslash', 'bar', 'bar.double', 'braceleft', 'braceright', 'bracketleft', 'bracketright', 'breve', 'breve.case', 'brevecomb', 'brokenbar', 'bullet', 'c', 'cacute', 'caron', 'caron.alt', 'caron.case', 'caroncomb', 'ccaron', 'ccedilla', 'ccircumflex', 'cdotaccent', 'cedilla', 'cedilla.case', 'cedillacmb', 'cent', 'circumflex', 'circumflex.case', 'circumflexcomb', 'colon', 'colon.alt', 'comma', 'comma.alt', 'commaaccent', 'commaaccent.case', 'commaturnedabovecmb', 'copyright', 'currency', 'd', 'dagger', 'daggerdbl', 'dcaron', 'dcroat', 'ddotbelow', 'degree', 'diaeresiscomb', 'dieresis', 'dieresis.case', 'divide', 'dollar', 'dotaccent', 'dotaccent.case', 'dotaccentcmb', 'dotbelowcmb', 'dotlessi', 'dotlessj', 'e', 'eacute', 'ebreve', 'ecaron', 'ecircumflex', 'edieresis', 'edotaccent', 'egrave', 'eight', 'ellipsis', 'ellipsis.alt1', 'ellipsis.alt2', 'ellipsis.alt3', 'ellipsis.alt4', 'ellipsis.alt5', 'emacron', 'emdash', 'emdash.alt1', 'emdash.alt2', 'emdash.alt3', 'emdash.alt4', 'endash', 'eng', 'eogonek', 'equal', 'eth', 'euro', 'exclam', 'exclamdown', 'f', 'fi', 'five', 'fl', 'florin', 'four', 'foursuperior', 'fraction', 'franc', 'g', 'gbreve', 'gcircumflex', 'gcommaaccent', 'gdotaccent', 'germandbls', 'grave', 'grave.case', 'gravecomb', 'greater', 'greaterequal', 'guillemetleft', 'guillemetright', 'guilsinglleft', 'guilsinglright', 'h', 'hbar', 'hcircumflex', 'hdotbelow', 'hungarumlaut', 'hungarumlaut.case', 'hungarumlautcmb', 'hyphen', 'hyphen.alt', 'i', 'iacute', 'ibreve', 'icircumflex', 'idieresis', 'idotaccent', 'igrave', 'ij', 'imacron', 'infinity', 'integral', 'iogonek', 'itilde', 'j', 'jcircumflex', 'k', 'kcommaaccent', 'l', 'lacute', 'lcaron', 'lcommaaccent', 'ldot', 'less', 'lessequal', 'logicalnot', 'lozenge', 'lslash', 'm', 'macron', 'macron.case', 'macroncomb', 'minus', 'minute', 'mu', 'multiply', 'n', 'nacute', 'nbspace', 'ncaron', 'ncommaaccent', 'nine', 'nonbreakinghyphen', 'nonmarkingreturn', 'notequal', 'ntilde', 'numbersign', 'o', 'oacute', 'obreve', 'ocircumflex', 'odieresis', 'oe', 'ogonek', 'ogonek.case', 'ogonekcmb', 'ograve', 'ohungarumlaut', 'omacron', 'one', 'onehalf', 'onequarter', 'onesuperior', 'ordfeminine', 'ordmasculine', 'oslash', 'otilde', 'p', 'paragraph', 'parenleft', 'parenright', 'partialdiff', 'percent', 'period', 'period.alt', 'period.squat', 'periodcentered', 'perthousand', 'pi', 'plus', 'plusminus', 'product', 'q', 'question', 'questiondown', 'quotedbl', 'quotedblbase', 'quotedblleft', 'quotedblright', 'quoteleft', 'quoteright', 'quotesinglbase', 'quotesingle', 'r', 'racute', 'radical', 'rcaron', 'rcommaaccent', 'registered', 'ring', 'ring.case', 'ringcmb', 's', 'sacute', 'scaron', 'scedilla', 'scircumflex', 'scommaaccent', 'sdotbelow', 'second', 'section', 'semicolon', 'semicolon.alt', 'seven', 'six', 'slash', 'space', 'sterling', 'summation', 't', 'tbar', 'tcaron', 'tcedilla', 'tcommaaccent', 'tdotbelow', 'thorn', 'three', 'threequarters', 'threesuperior', 'tilde', 'tilde.case', 'tildecomb', 'trademark', 'two', 'twosuperior', 'u', 'u1F7D9', 'uacute', 'ubreve', 'ucircumflex', 'udieresis', 'ugrave', 'uhungarumlaut', 'umacron', 'underscore', 'uni018F', 'uni0259', 'uni040D', 'uni045D', 'uni0492', 'uni0493', 'uni049A', 'uni049B', 'uni04A2', 'uni04A3', 'uni04AE', 'uni04AF', 'uni04B0', 'uni04B1', 'uni04BA', 'uni04BB', 'uni04D8', 'uni04E8', 'uni04E9', 'uni1E9E', 'uni2215', 'uogonek', 'uring', 'utilde', 'v', 'w', 'wacute', 'wcircumflex', 'wdieresis', 'wgrave', 'won', 'x', 'y', 'yacute', 'ycircumflex', 'ydieresis', 'yen', 'ygrave', 'z', 'zacute', 'zcaron', 'zdotaccent', 'zdotbelow', 'zero'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -1651,6 +1668,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 * ⚠ **WARN** The following glyphs could not be reached by codepoint or substitution rules:
 
 	- Threedotsinverted.alt.comp
+
+	- acute.case
 
 	- ae-ar.fina
 
@@ -1786,11 +1805,19 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- bigcircle
 
+	- breve.case
+
 	- caron.cap
+
+	- caron.case
+
+	- cedilla.case
 
 	- charbox.comp
 
 	- circumflex.cap
+
+	- circumflex.case
 
 	- circumflexcomb_acutecomb.cap
 
@@ -1805,6 +1832,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- colon.arabic
 
 	- comma.alt
+
+	- commaaccent.case
 
 	- dadDotbelow-ar.fina
 
@@ -1831,6 +1860,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- dalVinvertedbelow-ar.fina
 
 	- dieresis.cap
+
+	- dieresis.case
+
+	- dotaccent.case
 
 	- doublestroke-ar
 
@@ -1946,6 +1979,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- ghainThreedotsabove-ar.medi
 
+	- grave.case
+
 	- hahFourbelow-ar.fina
 
 	- hahFourbelow-ar.init
@@ -2014,7 +2049,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- highhamzaYeh-ar.init
 
+	- hungarumlaut.case
+
 	- hyphen.alt
+
+	- idotaccent
 
 	- ittisal.comp
 
@@ -2156,6 +2195,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- lamVabove-ar.medi
 
+	- macron.case
+
 	- meemDotabove-ar.fina
 
 	- meemDotabove-ar.init
@@ -2221,6 +2262,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- noonghunna-ar.init
 
 	- noonghunna-ar.medi
+
+	- ogonek.case
 
 	- pehMeemabove-ar.fina
 
@@ -2307,6 +2350,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- rehabove-ar
 
 	- rehv-ar.fina
+
+	- ring.case
 
 	- sadThreedots-ar.fina
 
@@ -2455,6 +2500,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- threeabove-ar
 
 	- threedotshorizontalbelow-ar
+
+	- tilde.case
 
 	- ttehVabove-ar.fina
 
@@ -2661,25 +2708,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
-</div></details><details><summary>⚠ <b>WARN:</b> Check math signs have the same width. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/math_signs_width">com.google.fonts/check/math_signs_width</a>)</summary><div>
-
-
-* ⚠ **WARN** The most common width is 1228 among a set of 13 math glyphs.
-The following math glyphs have a different width, though:
-
-Width = 1075:
-sphericalangle
- [code: width-outliers]
 </div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
 
 
 * ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
-	 acute.case (unencoded), breve.case (unencoded), caron.case (unencoded), circumflex.case (unencoded), dieresis.case (unencoded), dotaccent.case (unencoded), grave.case (unencoded), hungarumlaut.case (unencoded), leftarrowheadabove-ar (U+08F7), macron.case (unencoded), ring.case (unencoded) and tilde.case (unencoded) [code: spacing-mark-glyphs]
+	 acute.case (unencoded), breve.case (unencoded), caron.case (unencoded), circumflex.case (unencoded), dieresis.case (unencoded), dotaccent.case (unencoded), grave.case (unencoded), hungarumlaut.case (unencoded), macron.case (unencoded), ring.case (unencoded) and tilde.case (unencoded) [code: spacing-mark-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
 
 
 * ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
-	 VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (U+FE0D), VS15 (U+FE0E), VS16 (U+FE0F), VS2 (U+FE01), VS3 (U+FE02), VS4 (U+FE03), VS5 (U+FE04), VS6 (U+FE05), VS7 (U+FE06), VS8 (U+FE07), VS9 (U+FE08), acutecomb (U+0301), ainabove-ar (U+0611), alefLamYehabove-ar (U+0616), alefabove-ar (U+0670), alefbelow-ar (U+0656), annisfabove-ar (U+08DC), arrubabove-ar (U+08D4), assajdaabove-ar (U+08DB), aththalathaabove-ar (U+08DA), brevebelowcomb (U+032E), brevecomb (U+0306), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), damma-ar (U+064F), dammaCurly-ar (U+08E5), dammaDot-ar (U+08FE), dammainverted-ar (U+0657), dammareversed-ar (U+065D), dammasmall-ar (U+0619), dammatan-ar (U+064C), dammatanCurly-ar (U+08E8), dammaturnedbelow-ar (U+08E3), dasiapneumatacomb-cy (U+0485), dblgravecomb (U+030F), diaeresiscomb (U+0308), dotStopabove-ar (U+06EC), dotaccentcmb (U+0307), dotbelowcmb (U+0323), dotvowelbelow-ar (U+065C), doublerightarrowheadDotabove-ar (U+08FC), doublerightarrowheadabove-ar (U+08FB), fatha-ar (U+064E), fathaCurly-ar (U+08E4), fathaDotabove-ar (U+08F5), fathaHorizont-ar (U+0659), fathaRing-ar (U+08F4), fathasmall-ar (U+0618), fathatan-ar (U+064B), fathatanCurly-ar (U+08E7), fathatwodots-ar (U+065E), footnotemarkerabove-ar (U+08E0), graphemejoinercomb (U+034F), gravecomb (U+0300), hahabove-ar (U+06E1), hamzaabove-ar (U+0654), hamzabelow-ar (U+0655), highwaw-ar (U+08F3), hookabovecomb (U+0309), hundredthousandssigncomb-cy (U+0488), hungarumlautcmb (U+030B), jeemabove-ar (U+06DA), kasra-ar (U+0650), kasraCurly-ar (U+08E6), kasraDotbelow-ar (U+08F6), kasrasmall-ar (U+061A), kasratan-ar (U+064D), kasratanCurly-ar (U+08E9), lamAlefabove-ar (U+06D9), largerounddotbelow-ar (U+08CF), leftarrowheadbelow-ar (U+08F9), lowlinecomb (U+0332), macronbelowcomb (U+0331), macroncomb (U+0304), madda-ar (U+0653), maddalong-ar (U+06E4), marksidewaysnoonghunna-ar (U+08FF), meemStopabove-ar (U+06E2), meemabove-ar (U+06D8), meembelow-ar (U+06ED), millionssigncomb-cy (U+0489), noonKasraabove-ar (U+08D8), noonKasrabelow-ar (U+08D9), noonabove-ar (U+06E8), noonghunnaabove-ar (U+0658), ogonekcmb (U+0328), opendammatan-ar (U+08F1), openfathatan-ar (U+08F0), openkasratan-ar (U+08F2), palatalizationcomb-cy (U+0484), psilipneumatacomb-cy (U+0486), qafLamAlefMaksuraabove-ar (U+06D7), qafabove-ar (U+08D7), qifabove-ar (U+08DE), rehDadabove-ar (U+0613), rehHahabove-ar (U+0612), rhombusStopabove-ar (U+06EB), rhombusStopbelow-ar (U+06EA), rightarrowheadDotabove-ar (U+08FD), rightarrowheadabove-ar (U+08F8), rightarrowheadbelow-ar (U+08FA), ringcmb (U+030A), sadLamAlefMaksuraabove-ar (U+06D6), sadabove-ar (U+0610), safhaabove-ar (U+08E1), sahabove-ar (U+08CC), saktaabove-ar (U+08DD), seenabove-ar (U+06DC), seenbelow-ar (U+06E3), shadda-ar (U+0651), smallainabove-ar (U+08D6), smallsadabove-ar (U+08D5), sukun-ar (U+0652), sukunoval-ar (U+06E0), sukunround-ar (U+06DF), tahabove-ar (U+0615), takhallusabove-ar (U+0614), threedotsabove-ar (U+06DB), tildebelowcomb (U+0330), tildecomb (U+0303), titlocomb-cy (U+0483), toneloopabove-ar (U+08EC), toneloopbelow-ar (U+08EF), toneonedotabove-ar (U+08EA), toneonedotbelow-ar (U+08ED), tonetwodotsabove-ar (U+08EB), tonetwodotsbelow-ar (U+08EE), vabove-ar (U+065A), vinvertedabove-ar (U+065B), waqfaabove-ar (U+08DF), wavyhamzabelow-ar (U+065F), wawbelow-ar (U+08D3), yehabove-ar (U+06E7) and zainabove-ar (U+0617) [code: mark-chars]
+	 VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (U+FE0D), VS15 (U+FE0E), VS16 (U+FE0F), VS2 (U+FE01), VS3 (U+FE02), VS4 (U+FE03), VS5 (U+FE04), VS6 (U+FE05), VS7 (U+FE06), VS8 (U+FE07), VS9 (U+FE08), acutecomb (U+0301), ainabove-ar (U+0611), alefLamYehabove-ar (U+0616), alefabove-ar (U+0670), alefbelow-ar (U+0656), annisfabove-ar (U+08DC), arrubabove-ar (U+08D4), assajdaabove-ar (U+08DB), aththalathaabove-ar (U+08DA), brevebelowcomb (U+032E), brevecomb (U+0306), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), caroncomb (U+030C), cedillacmb (U+0327), circumflexcomb (U+0302), commaaccent (U+0326), commaturnedabovecmb (U+0312), damma-ar (U+064F), dammaCurly-ar (U+08E5), dammaDot-ar (U+08FE), dammainverted-ar (U+0657), dammareversed-ar (U+065D), dammasmall-ar (U+0619), dammatan-ar (U+064C), dammatanCurly-ar (U+08E8), dammaturnedbelow-ar (U+08E3), dasiapneumatacomb-cy (U+0485), dblgravecomb (U+030F), diaeresiscomb (U+0308), dotStopabove-ar (U+06EC), dotaccentcmb (U+0307), dotbelowcmb (U+0323), dotvowelbelow-ar (U+065C), doublerightarrowheadDotabove-ar (U+08FC), doublerightarrowheadabove-ar (U+08FB), fatha-ar (U+064E), fathaCurly-ar (U+08E4), fathaDotabove-ar (U+08F5), fathaHorizont-ar (U+0659), fathaRing-ar (U+08F4), fathasmall-ar (U+0618), fathatan-ar (U+064B), fathatanCurly-ar (U+08E7), fathatwodots-ar (U+065E), footnotemarkerabove-ar (U+08E0), graphemejoinercomb (U+034F), gravecomb (U+0300), hahabove-ar (U+06E1), hamzaabove-ar (U+0654), hamzabelow-ar (U+0655), highwaw-ar (U+08F3), hookabovecomb (U+0309), hundredthousandssigncomb-cy (U+0488), hungarumlautcmb (U+030B), jeemabove-ar (U+06DA), kasra-ar (U+0650), kasraCurly-ar (U+08E6), kasraDotbelow-ar (U+08F6), kasrasmall-ar (U+061A), kasratan-ar (U+064D), kasratanCurly-ar (U+08E9), lamAlefabove-ar (U+06D9), largerounddotbelow-ar (U+08CF), leftarrowheadabove-ar (U+08F7), leftarrowheadbelow-ar (U+08F9), lowlinecomb (U+0332), macronbelowcomb (U+0331), macroncomb (U+0304), madda-ar (U+0653), maddalong-ar (U+06E4), marksidewaysnoonghunna-ar (U+08FF), meemStopabove-ar (U+06E2), meemabove-ar (U+06D8), meembelow-ar (U+06ED), millionssigncomb-cy (U+0489), noonKasraabove-ar (U+08D8), noonKasrabelow-ar (U+08D9), noonabove-ar (U+06E8), noonghunnaabove-ar (U+0658), ogonekcmb (U+0328), opendammatan-ar (U+08F1), openfathatan-ar (U+08F0), openkasratan-ar (U+08F2), palatalizationcomb-cy (U+0484), psilipneumatacomb-cy (U+0486), qafLamAlefMaksuraabove-ar (U+06D7), qafabove-ar (U+08D7), qifabove-ar (U+08DE), rehDadabove-ar (U+0613), rehHahabove-ar (U+0612), rhombusStopabove-ar (U+06EB), rhombusStopbelow-ar (U+06EA), rightarrowheadDotabove-ar (U+08FD), rightarrowheadabove-ar (U+08F8), rightarrowheadbelow-ar (U+08FA), ringcmb (U+030A), sadLamAlefMaksuraabove-ar (U+06D6), sadabove-ar (U+0610), safhaabove-ar (U+08E1), sahabove-ar (U+08CC), saktaabove-ar (U+08DD), seenabove-ar (U+06DC), seenbelow-ar (U+06E3), shadda-ar (U+0651), smallainabove-ar (U+08D6), smallsadabove-ar (U+08D5), sukun-ar (U+0652), sukunoval-ar (U+06E0), sukunround-ar (U+06DF), tahabove-ar (U+0615), takhallusabove-ar (U+0614), threedotsabove-ar (U+06DB), tildebelowcomb (U+0330), tildecomb (U+0303), titlocomb-cy (U+0483), toneloopabove-ar (U+08EC), toneloopbelow-ar (U+08EF), toneonedotabove-ar (U+08EA), toneonedotbelow-ar (U+08ED), tonetwodotsabove-ar (U+08EB), tonetwodotsbelow-ar (U+08EE), vabove-ar (U+065A), vinvertedabove-ar (U+065B), waqfaabove-ar (U+08DF), wavyhamzabelow-ar (U+065F), wawbelow-ar (U+08D3), yehabove-ar (U+06E7) and zainabove-ar (U+0617) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2856,8 +2894,8 @@ sphericalangle
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 30 | 242 | 13 | 168 | 0 |
-| 0% | 5% | 6% | 51% | 3% | 35% | 0% |
+| 0 | 22 | 28 | 242 | 13 | 170 | 0 |
+| 0% | 5% | 6% | 51% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
