@@ -39,6 +39,10 @@ When you update your font (new version or new release), please report all notabl
 [Font Versioning](https://github.com/googlefonts/gf-docs/tree/main/Spec#font-versioning) is based on semver. 
 Changelog example:
 
+**14 July 2023. Version 0.510**
+- Corrected the width of the merge so it is actually true monospace. Kinda breaks the catalan middle dot,
+  not sure what to do about that, might add a ligature for that later.
+
 **13 July 2023. Version 0.500**
 - Merged in Arabic, Greek and extended Latin from No Name Fixed, thanks for the suggestion @Eli Hauser.
   The fit is surprisingly good, but I will probably fix up some characters like the u used for Vietnamese
