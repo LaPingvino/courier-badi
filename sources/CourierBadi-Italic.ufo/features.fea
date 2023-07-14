@@ -1,226 +1,4 @@
-languagesystem DFLT dflt;
-languagesystem grek dflt;
-languagesystem latn AZE ;
-languagesystem latn CAT ;
-languagesystem latn CRT ;
-languagesystem latn dflt;
-languagesystem latn KAZ ;
-languagesystem latn MOL ;
-languagesystem latn ROM ;
-languagesystem latn TAT ;
-languagesystem latn TRK ;
 
-
-# GSUB 
-
-
-lookup loclLocalizedFormsinLatinlookup0 {
-  lookupflag 0;
-    sub  \l' \periodcentered' \l   by \ldot ;
-    sub  \L' \periodcentered' \L   by \Ldot ;
-} loclLocalizedFormsinLatinlookup0;
-
-lookup loclLocalizedFormsinLatinlookup3 {
-  lookupflag 0;
-    sub \Scedilla by \Scommaaccent ;
-    sub \Tcedilla by \Tcommaaccent ;
-    sub \scedilla by \scommaaccent ;
-    sub \tcedilla by \tcommaaccent ;
-} loclLocalizedFormsinLatinlookup3;
-
-lookup loclLocalizedFormsinLatinlookup4 {
-  lookupflag 0;
-    sub \Scedilla by \Scommaaccent ;
-    sub \Tcedilla by \Tcommaaccent ;
-    sub \scedilla by \scommaaccent ;
-    sub \tcedilla by \tcommaaccent ;
-} loclLocalizedFormsinLatinlookup4;
-
-lookup loclLocalizedFormsinLatinlookup5 {
-  lookupflag 0;
-    sub \i by \idotaccent ;
-} loclLocalizedFormsinLatinlookup5;
-
-lookup loclLocalizedFormsinLatinlookup6 {
-  lookupflag 0;
-    sub \i by \idotaccent ;
-} loclLocalizedFormsinLatinlookup6;
-
-lookup loclLocalizedFormsinLatinlookup7 {
-  lookupflag 0;
-    sub \i by \idotaccent ;
-} loclLocalizedFormsinLatinlookup7;
-
-lookup loclLocalizedFormsinLatinlookup8 {
-  lookupflag 0;
-    sub \i by \idotaccent ;
-} loclLocalizedFormsinLatinlookup8;
-
-lookup loclLocalizedFormsinLatinlookup9 {
-  lookupflag 0;
-    sub \i by \idotaccent ;
-} loclLocalizedFormsinLatinlookup9;
-
-lookup supsSuperscriptlookup10 {
-  lookupflag 0;
-    sub \four by \foursuperior ;
-    sub \one by \onesuperior ;
-    sub \three by \threesuperior ;
-    sub \two by \twosuperior ;
-} supsSuperscriptlookup10;
-
-lookup fracDiagonalFractionslookup11 {
-  lookupflag 0;
-    sub \one \slash \two  by \onehalf;
-    sub \one \slash \four  by \onequarter;
-    sub \three \slash \four  by \threequarters;
-} fracDiagonalFractionslookup11;
-
-lookup ordnOrdinalslookup12 {
-  lookupflag 0;
-    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'  by [\ordfeminine \ordfeminine ];
-    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'  by [\ordmasculine \ordmasculine ];
-} ordnOrdinalslookup12;
-
-lookup caseCaseSensitiveFormslookup15 {
-  lookupflag 0;
-    sub \acute by \acute.case ;
-    sub \breve by \breve.case ;
-    sub \caron by \caron.case ;
-    sub \cedilla by \cedilla.case ;
-    sub \circumflex by \circumflex.case ;
-    sub \commaaccent by \commaaccent.case ;
-    sub \dieresis by \dieresis.case ;
-    sub \dotaccent by \dotaccent.case ;
-    sub \grave by \grave.case ;
-    sub \hungarumlaut by \hungarumlaut.case ;
-    sub \macron by \macron.case ;
-    sub \ogonek by \ogonek.case ;
-    sub \ring by \ring.case ;
-    sub \tilde by \tilde.case ;
-} caseCaseSensitiveFormslookup15;
-
-feature locl {
-
- script latn;
-     language dflt ;
-      lookup loclLocalizedFormsinLatinlookup0;
-      lookup loclLocalizedFormsinLatinlookup3;
-      lookup loclLocalizedFormsinLatinlookup4;
-      lookup loclLocalizedFormsinLatinlookup5;
-      lookup loclLocalizedFormsinLatinlookup6;
-      lookup loclLocalizedFormsinLatinlookup7;
-      lookup loclLocalizedFormsinLatinlookup8;
-      lookup loclLocalizedFormsinLatinlookup9;
-     language AZE  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup9;
-     language CAT  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup0;
-     language CRT  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup8;
-     language KAZ  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup5;
-     language MOL  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup4;
-     language ROM  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup3;
-     language TAT  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup6;
-     language TRK  exclude_dflt;
-      lookup loclLocalizedFormsinLatinlookup7;
-} locl;
-
-feature sups {
-
- script DFLT;
-     language dflt ;
-      lookup supsSuperscriptlookup10;
-
- script grek;
-     language dflt ;
-      lookup supsSuperscriptlookup10;
-
- script latn;
-     language dflt ;
-      lookup supsSuperscriptlookup10;
-     language CAT  exclude_dflt;
-      lookup supsSuperscriptlookup10;
-     language MOL  exclude_dflt;
-      lookup supsSuperscriptlookup10;
-     language ROM  exclude_dflt;
-      lookup supsSuperscriptlookup10;
-     language TRK  exclude_dflt;
-      lookup supsSuperscriptlookup10;
-} sups;
-
-feature frac {
-
- script DFLT;
-     language dflt ;
-      lookup fracDiagonalFractionslookup11;
-
- script grek;
-     language dflt ;
-      lookup fracDiagonalFractionslookup11;
-
- script latn;
-     language dflt ;
-      lookup fracDiagonalFractionslookup11;
-     language CAT  exclude_dflt;
-      lookup fracDiagonalFractionslookup11;
-     language MOL  exclude_dflt;
-      lookup fracDiagonalFractionslookup11;
-     language ROM  exclude_dflt;
-      lookup fracDiagonalFractionslookup11;
-     language TRK  exclude_dflt;
-      lookup fracDiagonalFractionslookup11;
-} frac;
-
-feature ordn {
-
- script DFLT;
-     language dflt ;
-      lookup ordnOrdinalslookup12;
-
- script grek;
-     language dflt ;
-      lookup ordnOrdinalslookup12;
-
- script latn;
-     language dflt ;
-      lookup ordnOrdinalslookup12;
-     language CAT  exclude_dflt;
-      lookup ordnOrdinalslookup12;
-     language MOL  exclude_dflt;
-      lookup ordnOrdinalslookup12;
-     language ROM  exclude_dflt;
-      lookup ordnOrdinalslookup12;
-     language TRK  exclude_dflt;
-      lookup ordnOrdinalslookup12;
-} ordn;
-
-feature case {
-
- script DFLT;
-     language dflt ;
-      lookup caseCaseSensitiveFormslookup15;
-
- script grek;
-     language dflt ;
-      lookup caseCaseSensitiveFormslookup15;
-
- script latn;
-     language dflt ;
-      lookup caseCaseSensitiveFormslookup15;
-     language CAT  exclude_dflt;
-      lookup caseCaseSensitiveFormslookup15;
-     language MOL  exclude_dflt;
-      lookup caseCaseSensitiveFormslookup15;
-     language ROM  exclude_dflt;
-      lookup caseCaseSensitiveFormslookup15;
-     language TRK  exclude_dflt;
-      lookup caseCaseSensitiveFormslookup15;
-} case;
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
@@ -228,7 +6,7 @@ feature case {
 	\Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G \Gbreve \Gcircumflex 
 	\Gcommaaccent \Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve 
 	\Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Itilde \J 
-	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Lslash \M \N 
+	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Ldot \Lslash \M \N 
 	\Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute \Obreve \Ocircumflex 
 	\Odieresis \Ograve \Ohungarumlaut \Omacron \Omega \Oslash \Otilde \P \Q \R \Racute 
 	\Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scircumflex \Scommaaccent \T 
@@ -252,46 +30,47 @@ feature case {
 	\guillemetleft \guillemetright \guilsinglleft \guilsinglright \h \hbar 
 	\hcircumflex \hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex 
 	\idieresis \idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde 
-	\j \jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \less 
+	\j \jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \less 
 	\lessequal \logicalnot \lozenge \lslash \m \macron \minus \minute \mu \multiply \n 
 	\nacute \nbspace \ncaron \ncommaaccent \nine \nonbreakinghyphen \notequal 
 	\ntilde \numbersign \o \oacute \obreve \ocircumflex \odieresis \oe \ogonek 
-	\ogonek.case \ograve \ohungarumlaut \omacron \one \onesuperior \ordfeminine 
-	\ordmasculine \oslash \otilde \p \paragraph \parenleft \parenright \partialdiff 
-	\percent \period \period.alt \period.squat \periodcentered \perthousand \pi 
-	\plus \plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
-	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase 
-	\quotesingle \r \racute \radical \rcaron \rcommaaccent \registered \ring \s 
-	\sacute \scaron \scedilla \scircumflex \scommaaccent \second \section 
-	\semicolon \semicolon.alt \seven \six \slash \softhyphen \space \sterling 
-	\summation \t \tbar \tcaron \tcedilla \tcommaaccent \thorn \three \threesuperior 
-	\tilde \trademark \two \twosuperior \u \uacute \ubreve \ucircumflex \udieresis 
-	\ugrave \uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
-	\wcircumflex \wdieresis \wgrave \won \x \y \yacute \ycircumflex \ydieresis \yen 
-	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb 
-	\acutecomb \hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb 
-	\circumflexcomb \caroncomb \brevecomb \ringcmb \tildecomb 
-	\commaturnedabovecmb \cedillacmb \ogonekcmb \ddotbelow \Ddotbelow \hdotbelow 
-	\Hdotbelow \sdotbelow \Sdotbelow \tdotbelow \Tdotbelow \zdotbelow \Zdotbelow 
-	\dotbelowcmb \.null \nonmarkingreturn \NULL \uni018F \uni0259 \afii10023 
-	\afii10051 \afii10052 \afii10053 \afii10054 \afii10055 \afii10056 \afii10057 
-	\afii10058 \afii10059 \afii10060 \afii10061 \uni040D \afii10062 \afii10145 
-	\afii10017 \afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 
-	\afii10025 \afii10026 \afii10027 \afii10028 \afii10029 \afii10030 \afii10031 
-	\afii10032 \afii10033 \afii10034 \afii10035 \afii10036 \afii10037 \afii10038 
-	\afii10039 \afii10040 \afii10041 \afii10042 \afii10043 \afii10044 \afii10045 
-	\afii10046 \afii10047 \afii10048 \afii10049 \afii10065 \afii10066 \afii10067 
-	\afii10068 \afii10069 \afii10070 \afii10072 \afii10073 \afii10074 \afii10075 
-	\afii10076 \afii10077 \afii10078 \afii10079 \afii10080 \afii10081 \afii10082 
-	\afii10083 \afii10084 \afii10085 \afii10086 \afii10087 \afii10088 \afii10089 
-	\afii10090 \afii10091 \afii10092 \afii10093 \afii10094 \afii10095 \afii10096 
-	\afii10097 \afii10071 \afii10099 \afii10100 \afii10101 \afii10102 \afii10103 
-	\afii10104 \afii10105 \afii10106 \afii10107 \afii10108 \afii10109 \uni045D 
-	\afii10110 \afii10193 \afii10050 \afii10098 \uni0492 \uni0493 \uni049A \uni049B 
-	\uni04A2 \uni04A3 \uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 
-	\afii10846 \uni04E8 \uni04E9 \afii61352 \uni2215 \AEacute \Abreve-cy 
-	\Abreveacute \Abrevedotbelow \Abrevegrave \Abrevehookabove \Abrevetilde 
-	\Acaron \Acircumflexacute \Acircumflexdotbelow \Acircumflexgrave 
+	\ogonek.case \ograve \ohungarumlaut \omacron \one \onehalf \onequarter 
+	\onesuperior \ordfeminine \ordmasculine \oslash \otilde \p \paragraph 
+	\parenleft \parenright \partialdiff \percent \period \period.alt \period.squat 
+	\periodcentered \perthousand \pi \plus \plusminus \product \q \question 
+	\questiondown \quotedbl \quotedblbase \quotedblleft \quotedblright \quoteleft 
+	\quoteright \quotesinglbase \quotesingle \r \racute \radical \rcaron 
+	\rcommaaccent \registered \ring \s \sacute \scaron \scedilla \scircumflex 
+	\scommaaccent \second \section \semicolon \semicolon.alt \seven \six \slash 
+	\softhyphen \space \sterling \summation \t \tbar \tcaron \tcedilla \tcommaaccent 
+	\thorn \three \threequarters \threesuperior \tilde \trademark \two \twosuperior 
+	\u \uacute \ubreve \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron 
+	\underscore \uogonek \uring \utilde \v \w \wacute \wcircumflex \wdieresis \wgrave 
+	\won \x \y \yacute \ycircumflex \ydieresis \yen \ygrave \z \zacute \zcaron 
+	\zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb \acutecomb 
+	\hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb \circumflexcomb 
+	\caroncomb \brevecomb \ringcmb \tildecomb \commaturnedabovecmb \cedillacmb 
+	\ogonekcmb \ddotbelow \Ddotbelow \hdotbelow \Hdotbelow \sdotbelow \Sdotbelow 
+	\tdotbelow \Tdotbelow \zdotbelow \Zdotbelow \dotbelowcmb \.null 
+	\nonmarkingreturn \NULL \uni018F \uni0259 \afii10023 \afii10051 \afii10052 
+	\afii10053 \afii10054 \afii10055 \afii10056 \afii10057 \afii10058 \afii10059 
+	\afii10060 \afii10061 \uni040D \afii10062 \afii10145 \afii10017 \afii10018 
+	\afii10019 \afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 
+	\afii10027 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 \afii10033 
+	\afii10034 \afii10035 \afii10036 \afii10037 \afii10038 \afii10039 \afii10040 
+	\afii10041 \afii10042 \afii10043 \afii10044 \afii10045 \afii10046 \afii10047 
+	\afii10048 \afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 
+	\afii10070 \afii10072 \afii10073 \afii10074 \afii10075 \afii10076 \afii10077 
+	\afii10078 \afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 
+	\afii10085 \afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 
+	\afii10092 \afii10093 \afii10094 \afii10095 \afii10096 \afii10097 \afii10071 
+	\afii10099 \afii10100 \afii10101 \afii10102 \afii10103 \afii10104 \afii10105 
+	\afii10106 \afii10107 \afii10108 \afii10109 \uni045D \afii10110 \afii10193 
+	\afii10050 \afii10098 \uni0492 \uni0493 \uni049A \uni049B \uni04A2 \uni04A3 
+	\uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 \afii10846 
+	\uni04E8 \uni04E9 \afii61352 \uni2215 \AEacute \Abreve-cy \Abreveacute 
+	\Abrevedotbelow \Abrevegrave \Abrevehookabove \Abrevetilde \Acaron 
+	\Acircumflexacute \Acircumflexdotbelow \Acircumflexgrave 
 	\Acircumflexhookabove \Acircumflextilde \Adblgrave \Adieresis-cy \Adotbelow 
 	\Ahookabove \Aie-cy \Alpha \Alphadasia \Alphadasiaoxia 
 	\Alphadasiaoxiaprosgegrammeni \Alphadasiaperispomeni 
@@ -568,31 +347,31 @@ feature case {
 	\lam_alefHamzabelow-ar.fina \lam_alefMadda-ar \lam_alefMadda-ar.fina 
 	\lam_hah-ar.init \lam_jeem-ar.init \lam_khah-ar.init \lam_meem-ar.init 
 	\lam_meem_hah-ar.init \lambda \largerounddotbelow-ar \ldotbelow 
-	\ldotbelowmacron \leftArrow \leftarrowheadbelow-ar \lefttorightembedding 
-	\lefttorightisolate \lefttorightmark \lefttorightoverride \lira \longs 
-	\lowernumeral-greek \lowlinecomb \macronbelowcomb \madda-ar \maddalong-ar 
-	\mark-ar \marksidewaysnoonghunna-ar \marriageSymbol \mdotbelow \meem-ar 
-	\meem-ar.fina \meem-ar.init \meem-ar.medi \meemDotabove-ar 
-	\meemDotabove-ar.fina \meemDotabove-ar.init \meemDotabove-ar.medi 
-	\meemDotbelow-ar \meemDotbelow-ar.fina \meemDotbelow-ar.init 
-	\meemDotbelow-ar.medi \meemStopabove-ar \meemThreedotsabove-ar 
-	\meemThreedotsabove-ar.fina \meemThreedotsabove-ar.init 
-	\meemThreedotsabove-ar.medi \meemabove-ar \meembelow-ar \micro 
-	\millionssigncomb-cy \miniKeheh-ar \misraComma-ar \mohammad-ar \naira 
-	\narrownbspace \ndotaccent \ndotbelow \ng-ar \ng-ar.fina \ng-ar.init 
-	\ng-ar.medi \ngoeh-ar \ngoeh-ar.fina \ngoeh-ar.init \ngoeh-ar.medi \nine-ar 
-	\noon-ar \noon-ar.fina \noon-ar.init \noon-ar.medi \noonAfrican-ar 
-	\noonAfrican-ar.fina \noonAfrican-ar.init \noonAfrican-ar.medi 
-	\noonDotbelow-ar \noonDotbelow-ar.fina \noonDotbelow-ar.init 
-	\noonDotbelow-ar.medi \noonKasraabove-ar \noonKasrabelow-ar \noonRing-ar 
-	\noonRing-ar.fina \noonRing-ar.init \noonRing-ar.medi \noonTahabove-ar 
-	\noonTahabove-ar.fina \noonTahabove-ar.init \noonTahabove-ar.medi 
-	\noonThreedotsabove-ar \noonThreedotsabove-ar.fina 
-	\noonThreedotsabove-ar.init \noonThreedotsabove-ar.medi 
-	\noonTwodotsbelow-ar \noonTwodotsbelow-ar.fina \noonTwodotsbelow-ar.init 
-	\noonTwodotsbelow-ar.medi \noonVabove-ar \noonVabove-ar.fina 
-	\noonVabove-ar.init \noonVabove-ar.medi \noonabove-ar \noonghunna-ar 
-	\noonghunna-ar.fina \noonghunna-ar.init \noonghunna-ar.medi 
+	\ldotbelowmacron \leftArrow \leftarrowheadabove-ar \leftarrowheadbelow-ar 
+	\lefttorightembedding \lefttorightisolate \lefttorightmark 
+	\lefttorightoverride \lira \longs \lowernumeral-greek \lowlinecomb 
+	\macronbelowcomb \madda-ar \maddalong-ar \mark-ar \marksidewaysnoonghunna-ar 
+	\marriageSymbol \mdotbelow \meem-ar \meem-ar.fina \meem-ar.init \meem-ar.medi 
+	\meemDotabove-ar \meemDotabove-ar.fina \meemDotabove-ar.init 
+	\meemDotabove-ar.medi \meemDotbelow-ar \meemDotbelow-ar.fina 
+	\meemDotbelow-ar.init \meemDotbelow-ar.medi \meemStopabove-ar 
+	\meemThreedotsabove-ar \meemThreedotsabove-ar.fina 
+	\meemThreedotsabove-ar.init \meemThreedotsabove-ar.medi \meemabove-ar 
+	\meembelow-ar \micro \millionssigncomb-cy \miniKeheh-ar \misraComma-ar 
+	\mohammad-ar \naira \narrownbspace \ndotaccent \ndotbelow \ng-ar \ng-ar.fina 
+	\ng-ar.init \ng-ar.medi \ngoeh-ar \ngoeh-ar.fina \ngoeh-ar.init 
+	\ngoeh-ar.medi \nine-ar \noon-ar \noon-ar.fina \noon-ar.init \noon-ar.medi 
+	\noonAfrican-ar \noonAfrican-ar.fina \noonAfrican-ar.init 
+	\noonAfrican-ar.medi \noonDotbelow-ar \noonDotbelow-ar.fina 
+	\noonDotbelow-ar.init \noonDotbelow-ar.medi \noonKasraabove-ar 
+	\noonKasrabelow-ar \noonRing-ar \noonRing-ar.fina \noonRing-ar.init 
+	\noonRing-ar.medi \noonTahabove-ar \noonTahabove-ar.fina 
+	\noonTahabove-ar.init \noonTahabove-ar.medi \noonThreedotsabove-ar 
+	\noonThreedotsabove-ar.fina \noonThreedotsabove-ar.init 
+	\noonThreedotsabove-ar.medi \noonTwodotsbelow-ar \noonTwodotsbelow-ar.fina 
+	\noonTwodotsbelow-ar.init \noonTwodotsbelow-ar.medi \noonVabove-ar 
+	\noonVabove-ar.fina \noonVabove-ar.init \noonVabove-ar.medi \noonabove-ar 
+	\noonghunna-ar \noonghunna-ar.fina \noonghunna-ar.init \noonghunna-ar.medi 
 	\noonghunnaabove-ar \note-musical \nu \number-ar \numbermark-ar 
 	\numeral-greek \nyeh-ar \nyeh-ar.fina \nyeh-ar.init \nyeh-ar.medi 
 	\obarreddieresis-cy \ocaron \ocircumflexacute \ocircumflexdotbelow 
@@ -763,13 +542,12 @@ feature case {
 	\zainabove-ar \zedescender-cy \zedieresis-cy \zero-ar \zero.slash 
 	\zeroWidthNoBreakSpace \zerowidthjoiner \zerowidthnonjoiner \zeta 
 	\zhebreve-cy \zhedescender-cy \zhedieresis-cy ];
-@GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
-	\ring.case \tilde.case \leftarrowheadabove-ar ];
+	\ring.case \tilde.case ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
 
 } GDEF;
 
