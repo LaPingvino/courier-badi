@@ -11,18 +11,12 @@
       <point x="579.7" y="1149"/>
       <point x="597.227" y="1169"/>
       <point x="654.227" y="1169" type="curve" smooth="yes"/>
-      <point x="698.214" y="1169"/>
-      <point x="713.715" y="1157.5"/>
-      <point x="713.715" y="1124.02" type="curve" smooth="yes"/>
-      <point x="713.715" y="1113.36"/>
-      <point x="712.142" y="1100.46"/>
+      <point x="712.227" y="1169"/>
+      <point x="720.7" y="1149"/>
       <point x="709.415" y="1085" type="curve" smooth="yes"/>
       <point x="628.305" y="625" type="line" smooth="yes"/>
-      <point x="622.262" y="590.729"/>
-      <point x="618.595" y="557.692"/>
-      <point x="618.595" y="527.389" type="curve" smooth="yes"/>
-      <point x="618.595" y="435.669"/>
-      <point x="652.188" y="369"/>
+      <point x="603.972" y="487"/>
+      <point x="618.165" y="369"/>
       <point x="755.165" y="369" type="curve" smooth="yes"/>
       <point x="1017.17" y="369" type="line"/>
       <point x="991.773" y="225" type="line"/>
@@ -37,4 +31,20 @@
       <point x="-57.835" y="369" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>225</integer>
+            <key>width</key>
+            <integer>144</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>

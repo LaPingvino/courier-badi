@@ -5,11 +5,8 @@
   <outline>
     <contour>
       <point x="626.283" y="1594" type="curve" smooth="yes"/>
-      <point x="671.08" y="1594"/>
-      <point x="687.42" y="1581.47"/>
-      <point x="687.42" y="1546.74" type="curve" smooth="yes"/>
-      <point x="687.42" y="1536.51"/>
-      <point x="686" y="1524.34"/>
+      <point x="684.283" y="1594"/>
+      <point x="694.58" y="1573"/>
       <point x="683.472" y="1510" type="curve" smooth="yes"/>
       <point x="507.673" y="513" type="line" smooth="yes"/>
       <point x="502.207" y="482"/>
@@ -33,4 +30,20 @@
       <point x="569.283" y="1594"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+        <key>hhints</key>
+        <array>
+          <dict>
+            <key>position</key>
+            <integer>226</integer>
+            <key>width</key>
+            <integer>143</integer>
+          </dict>
+        </array>
+      </dict>
+    </dict>
+  </lib>
 </glyph>
