@@ -12,17 +12,13 @@ languagesystem latn ROM ;
 lookup loclLocalizedFormsinLatinlookup0 {
   lookupflag 0;
     sub \Scedilla by \Scommaaccent ;
-    sub \Tcedilla by \Tcommaaccent ;
     sub \scedilla by \scommaaccent ;
-    sub \tcedilla by \tcommaaccent ;
 } loclLocalizedFormsinLatinlookup0;
 
 lookup loclLocalizedFormsinLatinlookup1 {
   lookupflag 0;
     sub \Scedilla by \Scommaaccent ;
-    sub \Tcedilla by \Tcommaaccent ;
     sub \scedilla by \scommaaccent ;
-    sub \tcedilla by \tcommaaccent ;
 } loclLocalizedFormsinLatinlookup1;
 
 lookup loclLocalizedFormsinLatinlookup2 {
@@ -30,14 +26,6 @@ lookup loclLocalizedFormsinLatinlookup2 {
     sub  \l' \periodcentered' \l   by \ldot ;
     sub  \L' \periodcentered' \L   by \Ldot ;
 } loclLocalizedFormsinLatinlookup2;
-
-lookup supsSuperscriptlookup5 {
-  lookupflag 0;
-    sub \four by \foursuperior ;
-    sub \one by \onesuperior ;
-    sub \three by \threesuperior ;
-    sub \two by \twosuperior ;
-} supsSuperscriptlookup5;
 
 lookup fracDiagonalFractionslookup6 {
   lookupflag 0;
@@ -83,27 +71,6 @@ feature locl {
      language ROM  exclude_dflt;
       lookup loclLocalizedFormsinLatinlookup0;
 } locl;
-
-feature sups {
-
- script DFLT;
-     language dflt ;
-      lookup supsSuperscriptlookup5;
-
- script grek;
-     language dflt ;
-      lookup supsSuperscriptlookup5;
-
- script latn;
-     language dflt ;
-      lookup supsSuperscriptlookup5;
-     language CAT  exclude_dflt;
-      lookup supsSuperscriptlookup5;
-     language MOL  exclude_dflt;
-      lookup supsSuperscriptlookup5;
-     language ROM  exclude_dflt;
-      lookup supsSuperscriptlookup5;
-} sups;
 
 feature frac {
 
