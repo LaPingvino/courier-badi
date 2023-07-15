@@ -1,4 +1,226 @@
+languagesystem DFLT dflt;
+languagesystem grek dflt;
+languagesystem latn AZE ;
+languagesystem latn CAT ;
+languagesystem latn CRT ;
+languagesystem latn dflt;
+languagesystem latn KAZ ;
+languagesystem latn MOL ;
+languagesystem latn ROM ;
+languagesystem latn TAT ;
+languagesystem latn TRK ;
 
+
+# GSUB 
+
+
+lookup loclLocalizedFormsinLatinlookup0 {
+  lookupflag 0;
+    sub  \l' \periodcentered' \l   by \ldot ;
+    sub  \L' \periodcentered' \L   by \Ldot ;
+} loclLocalizedFormsinLatinlookup0;
+
+lookup loclLocalizedFormsinLatinlookup3 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcedilla by \Tcommaaccent ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} loclLocalizedFormsinLatinlookup3;
+
+lookup loclLocalizedFormsinLatinlookup4 {
+  lookupflag 0;
+    sub \Scedilla by \Scommaaccent ;
+    sub \Tcedilla by \Tcommaaccent ;
+    sub \scedilla by \scommaaccent ;
+    sub \tcedilla by \tcommaaccent ;
+} loclLocalizedFormsinLatinlookup4;
+
+lookup loclLocalizedFormsinLatinlookup5 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup5;
+
+lookup loclLocalizedFormsinLatinlookup6 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup6;
+
+lookup loclLocalizedFormsinLatinlookup7 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup7;
+
+lookup loclLocalizedFormsinLatinlookup8 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup8;
+
+lookup loclLocalizedFormsinLatinlookup9 {
+  lookupflag 0;
+    sub \i by \idotaccent ;
+} loclLocalizedFormsinLatinlookup9;
+
+lookup supsSuperscriptlookup10 {
+  lookupflag 0;
+    sub \four by \foursuperior ;
+    sub \one by \onesuperior ;
+    sub \three by \threesuperior ;
+    sub \two by \twosuperior ;
+} supsSuperscriptlookup10;
+
+lookup fracDiagonalFractionslookup11 {
+  lookupflag 0;
+    sub \one \slash \two  by \onehalf;
+    sub \one \slash \four  by \onequarter;
+    sub \three \slash \four  by \threequarters;
+} fracDiagonalFractionslookup11;
+
+lookup ordnOrdinalslookup12 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\A \a ]'  by [\ordfeminine \ordfeminine ];
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\O \o ]'  by [\ordmasculine \ordmasculine ];
+} ordnOrdinalslookup12;
+
+lookup caseCaseSensitiveFormslookup15 {
+  lookupflag 0;
+    sub \acute by \acute.case ;
+    sub \breve by \breve.case ;
+    sub \caron by \caron.case ;
+    sub \cedilla by \cedilla.case ;
+    sub \circumflex by \circumflex.case ;
+    sub \commaaccent by \commaaccent.case ;
+    sub \dieresis by \dieresis.case ;
+    sub \dotaccent by \dotaccent.case ;
+    sub \grave by \grave.case ;
+    sub \hungarumlaut by \hungarumlaut.case ;
+    sub \macron by \macron.case ;
+    sub \ogonek by \ogonek.case ;
+    sub \ring by \ring.case ;
+    sub \tilde by \tilde.case ;
+} caseCaseSensitiveFormslookup15;
+
+feature locl {
+
+ script latn;
+     language dflt ;
+      lookup loclLocalizedFormsinLatinlookup0;
+      lookup loclLocalizedFormsinLatinlookup3;
+      lookup loclLocalizedFormsinLatinlookup4;
+      lookup loclLocalizedFormsinLatinlookup5;
+      lookup loclLocalizedFormsinLatinlookup6;
+      lookup loclLocalizedFormsinLatinlookup7;
+      lookup loclLocalizedFormsinLatinlookup8;
+      lookup loclLocalizedFormsinLatinlookup9;
+     language AZE  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup9;
+     language CAT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup0;
+     language CRT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup8;
+     language KAZ  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup5;
+     language MOL  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup4;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup3;
+     language TAT  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup6;
+     language TRK  exclude_dflt;
+      lookup loclLocalizedFormsinLatinlookup7;
+} locl;
+
+feature sups {
+
+ script DFLT;
+     language dflt ;
+      lookup supsSuperscriptlookup10;
+
+ script grek;
+     language dflt ;
+      lookup supsSuperscriptlookup10;
+
+ script latn;
+     language dflt ;
+      lookup supsSuperscriptlookup10;
+     language CAT  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+     language MOL  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+     language ROM  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+     language TRK  exclude_dflt;
+      lookup supsSuperscriptlookup10;
+} sups;
+
+feature frac {
+
+ script DFLT;
+     language dflt ;
+      lookup fracDiagonalFractionslookup11;
+
+ script grek;
+     language dflt ;
+      lookup fracDiagonalFractionslookup11;
+
+ script latn;
+     language dflt ;
+      lookup fracDiagonalFractionslookup11;
+     language CAT  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+     language MOL  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+     language ROM  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+     language TRK  exclude_dflt;
+      lookup fracDiagonalFractionslookup11;
+} frac;
+
+feature ordn {
+
+ script DFLT;
+     language dflt ;
+      lookup ordnOrdinalslookup12;
+
+ script grek;
+     language dflt ;
+      lookup ordnOrdinalslookup12;
+
+ script latn;
+     language dflt ;
+      lookup ordnOrdinalslookup12;
+     language CAT  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+     language MOL  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+     language ROM  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+     language TRK  exclude_dflt;
+      lookup ordnOrdinalslookup12;
+} ordn;
+
+feature case {
+
+ script DFLT;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup15;
+
+ script grek;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup15;
+
+ script latn;
+     language dflt ;
+      lookup caseCaseSensitiveFormslookup15;
+     language CAT  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+     language MOL  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+     language ROM  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+     language TRK  exclude_dflt;
+      lookup caseCaseSensitiveFormslookup15;
+} case;
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
@@ -6,7 +228,7 @@
 	\Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G \Gbreve \Gcircumflex 
 	\Gcommaaccent \Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve 
 	\Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Itilde \J 
-	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Ldot \Lslash \M \N 
+	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Lslash \M \N 
 	\Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute \Obreve \Ocircumflex 
 	\Odieresis \Ograve \Ohungarumlaut \Omacron \Omega \Oslash \Otilde \P \Q \R \Racute 
 	\Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scircumflex \Scommaaccent \T 
@@ -30,524 +252,51 @@
 	\guillemetleft \guillemetright \guilsinglleft \guilsinglright \h \hbar 
 	\hcircumflex \hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex 
 	\idieresis \idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde 
-	\j \jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \ldot \less 
+	\j \jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \less 
 	\lessequal \logicalnot \lozenge \lslash \m \macron \minus \minute \mu \multiply \n 
 	\nacute \nbspace \ncaron \ncommaaccent \nine \nonbreakinghyphen \notequal 
 	\ntilde \numbersign \o \oacute \obreve \ocircumflex \odieresis \oe \ogonek 
-	\ogonek.case \ograve \ohungarumlaut \omacron \one \onehalf \onequarter 
-	\onesuperior \ordfeminine \ordmasculine \oslash \otilde \p \paragraph 
-	\parenleft \parenright \partialdiff \percent \period \period.alt \period.squat 
-	\periodcentered \perthousand \pi \plus \plusminus \product \q \question 
-	\questiondown \quotedbl \quotedblbase \quotedblleft \quotedblright \quoteleft 
-	\quoteright \quotesinglbase \quotesingle \r \racute \radical \rcaron 
-	\rcommaaccent \registered \ring \s \sacute \scaron \scedilla \scircumflex 
-	\scommaaccent \second \section \semicolon \semicolon.alt \seven \six \slash 
-	\softhyphen \space \sterling \summation \t \tbar \tcaron \tcedilla \tcommaaccent 
-	\thorn \three \threequarters \threesuperior \tilde \trademark \two \twosuperior 
-	\u \uacute \ubreve \ucircumflex \udieresis \ugrave \uhungarumlaut \umacron 
-	\underscore \uogonek \uring \utilde \v \w \wacute \wcircumflex \wdieresis \wgrave 
-	\won \x \y \yacute \ycircumflex \ydieresis \yen \ygrave \z \zacute \zcaron 
-	\zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb \acutecomb 
-	\hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb \circumflexcomb 
-	\caroncomb \brevecomb \ringcmb \tildecomb \commaturnedabovecmb \cedillacmb 
-	\ogonekcmb \ddotbelow \Ddotbelow \hdotbelow \Hdotbelow \sdotbelow \Sdotbelow 
-	\tdotbelow \Tdotbelow \zdotbelow \Zdotbelow \dotbelowcmb \.null 
-	\nonmarkingreturn \NULL \uni018F \uni0259 \afii10023 \afii10051 \afii10052 
-	\afii10053 \afii10054 \afii10055 \afii10056 \afii10057 \afii10058 \afii10059 
-	\afii10060 \afii10061 \uni040D \afii10062 \afii10145 \afii10017 \afii10018 
-	\afii10019 \afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 
-	\afii10027 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 \afii10033 
-	\afii10034 \afii10035 \afii10036 \afii10037 \afii10038 \afii10039 \afii10040 
-	\afii10041 \afii10042 \afii10043 \afii10044 \afii10045 \afii10046 \afii10047 
-	\afii10048 \afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 
-	\afii10070 \afii10072 \afii10073 \afii10074 \afii10075 \afii10076 \afii10077 
-	\afii10078 \afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 
-	\afii10085 \afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 
-	\afii10092 \afii10093 \afii10094 \afii10095 \afii10096 \afii10097 \afii10071 
-	\afii10099 \afii10100 \afii10101 \afii10102 \afii10103 \afii10104 \afii10105 
-	\afii10106 \afii10107 \afii10108 \afii10109 \uni045D \afii10110 \afii10193 
-	\afii10050 \afii10098 \uni0492 \uni0493 \uni049A \uni049B \uni04A2 \uni04A3 
-	\uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 \afii10846 
-	\uni04E8 \uni04E9 \afii61352 \uni2215 \AEacute \Abreve-cy \Abreveacute 
-	\Abrevedotbelow \Abrevegrave \Abrevehookabove \Abrevetilde \Acaron 
-	\Acircumflexacute \Acircumflexdotbelow \Acircumflexgrave 
-	\Acircumflexhookabove \Acircumflextilde \Adblgrave \Adieresis-cy \Adotbelow 
-	\Ahookabove \Aie-cy \Alpha \Alphadasia \Alphadasiaoxia 
-	\Alphadasiaoxiaprosgegrammeni \Alphadasiaperispomeni 
-	\Alphadasiaperispomeniprosgegrammeni \Alphadasiaprosgegrammeni 
-	\Alphadasiavaria \Alphadasiavariaprosgegrammeni \Alphamacron \Alphaoxia 
-	\Alphaprosgegrammeni \Alphapsili \Alphapsilioxia 
-	\Alphapsilioxiaprosgegrammeni \Alphapsiliperispomeni 
-	\Alphapsiliperispomeniprosgegrammeni \Alphapsiliprosgegrammeni 
-	\Alphapsilivaria \Alphapsilivariaprosgegrammeni \Alphatonos \Alphavaria 
-	\Alphavrachy \Aringacute \Beta \Cheabkhasian-cy \Chedescender-cy 
-	\Chedescenderabkhasian-cy \Chedieresis-cy \Chekhakassian-cy 
-	\Cheverticalstroke-cy \Chi \Digamma \Dlinebelow \Dzeabkhasian-cy 
-	\Ecircumflexacute \Ecircumflexdotbelow \Ecircumflexgrave 
-	\Ecircumflexhookabove \Ecircumflextilde \Edblgrave \Edieresis-cy \Edotbelow 
-	\Ehookabove \Eiotified-cy \Elhook-cy \Eltail-cy \Emtail-cy \Enghe-cy 
-	\Enhook-cy \Entail-cy \Epsilon \Epsilondasia \Epsilondasiaoxia 
-	\Epsilondasiavaria \Epsilonoxia \Epsilonpsili \Epsilonpsilioxia 
-	\Epsilonpsilivaria \Epsilontonos \Epsilonvaria \Ereversed \Ertick-cy 
-	\Esdescender-cy \Eta \Etadasia \Etadasiaoxia \Etadasiaoxiaprosgegrammeni 
-	\Etadasiaperispomeni \Etadasiaperispomeniprosgegrammeni 
-	\Etadasiaprosgegrammeni \Etadasiavaria \Etadasiavariaprosgegrammeni 
-	\Etaoxia \Etaprosgegrammeni \Etapsili \Etapsilioxia 
-	\Etapsilioxiaprosgegrammeni \Etapsiliperispomeni 
-	\Etapsiliperispomeniprosgegrammeni \Etapsiliprosgegrammeni \Etapsilivaria 
-	\Etapsilivariaprosgegrammeni \Etatonos \Etavaria \Etilde \Fita-cy \Gacute 
-	\Gamma \Gcaron \Gedescender-cy \Ghemiddlehook-cy \Haabkhasian-cy 
-	\Hadescender-cy \Hahook-cy \Hastroke-cy \Hbrevebelow \Hdieresis \Icaron 
-	\Idblgrave \Idieresis-cy \Idieresisacute \Idotbelow \Iebreve-cy \Iegrave-cy 
-	\Ihookabove \Iishorttail-cy \Imacron-cy \Iota \Iotadasia \Iotadasiaoxia 
-	\Iotadasiaperispomeni \Iotadasiavaria \Iotadieresis \Iotamacron \Iotaoxia 
-	\Iotapsili \Iotapsilioxia \Iotapsiliperispomeni \Iotapsilivaria \Iotatonos 
-	\Iotavaria \Iotavrachy \Izhitsa-cy \Izhitsadblgrave-cy \Kabashkir-cy 
-	\Kahook-cy \Kappa \Kastroke-cy \Kaverticalstroke-cy \Koppa-cy \KoppaArchaic 
-	\Ksi-cy \Lambda \Ldotbelow \Ldotbelowmacron \Mdotbelow \Mu \Ndotaccent 
-	\Ndotbelow \Nu \Obarreddieresis-cy \Ocaron \Ocircumflexacute 
-	\Ocircumflexdotbelow \Ocircumflexgrave \Ocircumflexhookabove 
-	\Ocircumflextilde \Odblgrave \Odieresis-cy \Odotbelow \Ohm \Ohminverted 
-	\Ohookabove \Ohorn \Ohornacute \Ohorndotbelow \Ohorngrave \Ohornhookabove 
-	\Ohorntilde \Omega-cy \Omegadasia \Omegadasiaoxia 
-	\Omegadasiaoxiaprosgegrammeni \Omegadasiaperispomeni 
-	\Omegadasiaperispomeniprosgegrammeni \Omegadasiaprosgegrammeni 
-	\Omegadasiavaria \Omegadasiavariaprosgegrammeni \Omegaoxia 
-	\Omegaprosgegrammeni \Omegapsili \Omegapsilioxia 
-	\Omegapsilioxiaprosgegrammeni \Omegapsiliperispomeni 
-	\Omegapsiliperispomeniprosgegrammeni \Omegapsiliprosgegrammeni 
-	\Omegapsilivaria \Omegapsilivariaprosgegrammeni \Omegatonos \Omegavaria 
-	\Omicron \Omicrondasia \Omicrondasiaoxia \Omicrondasiavaria \Omicronoxia 
-	\Omicronpsili \Omicronpsilioxia \Omicronpsilivaria \Omicrontonos 
-	\Omicronvaria \Oogonek \Oslashacute \Palochka-cy \Pemiddlehook-cy \Phi \Pi \Psi 
-	\Psi-cy \Rdblgrave \Rdotaccent \Rdotbelow \Rdotbelowmacron \Rho \Rhodasia 
-	\Sampi \Schwadieresis-cy \Semisoftsign-cy \Sigma \Stigma \Tau \Tedescender-cy 
-	\Tetse-cy \Theta \Threedotsinverted.alt.comp \Tlinebelow \Ucaron \Udblgrave 
-	\Udieresis-cy \Udieresisacute \Udieresiscaron \Udieresisgrave \Udotbelow 
-	\Uhookabove \Uhorn \Uhornacute \Uhorndotbelow \Uhorngrave \Uhornhookabove 
-	\Uhorntilde \Uhungarumlaut-cy \Uk-cy \Umacron-cy \Upsilon \Upsilondasia 
-	\Upsilondasiaoxia \Upsilondasiaperispomeni \Upsilondasiavaria 
-	\Upsilondieresis \Upsilonmacron \Upsilonoxia \Upsilontonos \Upsilonvaria 
-	\Upsilonvrachy \VS1 \VS10 \VS11 \VS12 \VS13 \VS14 \VS15 \VS16 \VS2 \VS3 \VS4 \VS5 
-	\VS6 \VS7 \VS8 \VS9 \Xi \Yat-cy \Ydotbelow \Yerudieresis-cy \Yhookabove \Ytilde 
-	\Yusbig-cy \Yusbigiotified-cy \Yuslittle-cy \Yuslittleiotified-cy 
-	\Zedescender-cy \Zedieresis-cy \Zeta \Zhebreve-cy \Zhedescender-cy 
-	\Zhedieresis-cy \abreve-cy \abreveacute \abrevedotbelow \abrevegrave 
-	\abrevehookabove \abrevetilde \acaron \acircumflexacute \acircumflexdotbelow 
-	\acircumflexgrave \acircumflexhookabove \acircumflextilde \adblgrave 
-	\adieresis-cy \adotbelow \ae-ar \ae-ar.fina \aeacute \afghani-ar \ahookabove 
-	\aie-cy \ain-ar \ain-ar.fina \ain-ar.init \ain-ar.medi \ainThreedots-ar 
-	\ainThreedots-ar.fina \ainThreedots-ar.init \ainThreedots-ar.medi 
-	\ainThreedotsbelow-ar \ainThreedotsbelow-ar.fina 
-	\ainThreedotsbelow-ar.init \ainThreedotsbelow-ar.medi 
-	\ainThreedotsdownabove-ar \ainThreedotsdownabove-ar.fina 
-	\ainThreedotsdownabove-ar.init \ainThreedotsdownabove-ar.medi 
-	\ainTwodotshorizontalabove-ar \ainTwodotshorizontalabove-ar.fina 
-	\ainTwodotshorizontalabove-ar.init \ainTwodotshorizontalabove-ar.medi 
-	\ainTwodotsverticalabove-ar \ainTwodotsverticalabove-ar.fina 
-	\ainTwodotsverticalabove-ar.init \ainTwodotsverticalabove-ar.medi 
-	\ainabove-ar \alef-ar \alef-ar.fina \alef-ar.fina.alt \alef-ar.fina.short 
-	\alef-ar.fina.shorter \alef-ar.short \alef-ar.shorter \alefHamzaabove-ar 
-	\alefHamzaabove-ar.fina \alefHamzaabove-ar.fina.alt \alefHamzabelow-ar 
-	\alefHamzabelow-ar.fina \alefHamzabelow-ar.fina.alt \alefLamYehabove-ar 
-	\alefMadda-ar \alefMadda-ar.fina \alefMadda-ar.fina.alt \alefMaksura-ar 
-	\alefMaksura-ar.fina \alefMaksura-ar.init \alefMaksura-ar.medi 
-	\alefThreeabove-ar \alefThreeabove-ar.fina \alefThreeabove-ar.fina.alt 
-	\alefTwoabove-ar \alefTwoabove-ar.fina \alefTwoabove-ar.fina.alt 
-	\alefWasla-ar \alefWasla-ar.fina \alefWasla-ar.fina.alt 
-	\alefWavyhamzaabove-ar \alefWavyhamzaabove-ar.fina 
-	\alefWavyhamzaabove-ar.fina.alt \alefWavyhamzabelow-ar 
-	\alefWavyhamzabelow-ar.fina \alefWavyhamzabelow-ar.fina.alt \alefabove-ar 
-	\alefbelow-ar \aleflow-ar \allah-ar \allahlong-ar \alpha \alphadasia 
-	\alphadasiaoxia \alphadasiaoxiaypogegrammeni \alphadasiaperispomeni 
-	\alphadasiaperispomeniypogegrammeni \alphadasiavaria 
-	\alphadasiavariaypogegrammeni \alphadasiaypogegrammeni \alphamacron 
-	\alphaoxia \alphaoxiaypogegrammeni \alphaperispomeni 
-	\alphaperispomeniypogegrammeni \alphapsili \alphapsilioxia 
-	\alphapsilioxiaypogegrammeni \alphapsiliperispomeni 
-	\alphapsiliperispomeniypogegrammeni \alphapsilivaria 
-	\alphapsilivariaypogegrammeni \alphapsiliypogegrammeni \alphatonos 
-	\alphavaria \alphavariaypogegrammeni \alphavrachy \alphaypogegrammeni 
-	\angleleft \angleright \annisfabove-ar \anoteleia \arabic_root.comp 
-	\aringacute \arrubabove-ar \assajdaabove-ar \asterisk-ar \asterisk.math 
-	\aththalathaabove-ar \baht \beeh-ar \beeh-ar.fina \beeh-ar.init \beeh-ar.medi 
-	\beh-ar \beh-ar.fina \beh-ar.init \beh-ar.medi \behDotless-ar 
-	\behDotless-ar.fina \behDotless-ar.hah \behDotless-ar.init 
-	\behDotless-ar.medi \behMeemabove-ar \behMeemabove-ar.fina 
-	\behMeemabove-ar.init \behMeemabove-ar.medi 
-	\behThreedotshorizontalbelow-ar \behThreedotshorizontalbelow-ar.fina 
-	\behThreedotshorizontalbelow-ar.init \behThreedotshorizontalbelow-ar.medi 
-	\behThreedotsupabove-ar \behThreedotsupabove-ar.fina 
-	\behThreedotsupabove-ar.init \behThreedotsupabove-ar.medi 
-	\behThreedotsupbelow-ar \behThreedotsupbelow-ar.fina 
-	\behThreedotsupbelow-ar.init \behThreedotsupbelow-ar.medi 
-	\behTwodotsbelowDotabove-ar \behTwodotsbelowDotabove-ar.fina 
-	\behTwodotsbelowDotabove-ar.init \behTwodotsbelowDotabove-ar.medi 
-	\behVabove-ar \behVabove-ar.fina \behVabove-ar.init \behVabove-ar.medi 
-	\behVbelow-ar \behVbelow-ar.fina \behVbelow-ar.init \behVbelow-ar.medi 
-	\behVinvertedbelow-ar \behVinvertedbelow-ar.fina 
-	\behVinvertedbelow-ar.init \behVinvertedbelow-ar.medi \beh_meem-ar.init 
-	\beheh-ar \beheh-ar.fina \beheh-ar.init \beheh-ar.medi \behhamzaabove-ar 
-	\behhamzaabove-ar.fina \behhamzaabove-ar.init \behhamzaabove-ar.medi \beta 
-	\bigcircle \bismillah-ar \blank \blankSymbol \brevebelowcomb 
-	\breveinvertedbelowcomb \breveinvertedcomb \caron.cap \centigrade 
-	\charactertie \charbox.comp \cheabkhasian-cy \chedescender-cy 
-	\chedescenderabkhasian-cy \chedieresis-cy \chekhakassian-cy 
-	\cheverticalstroke-cy \chi \circumflex.cap \circumflexcomb_acutecomb.cap 
-	\circumflexcomb_gravecomb.cap \circumflexcomb_hookabovecomb.cap 
-	\circumflexcomb_tildecomb.cap \colon.arabic \colonsign \comma-ar 
-	\commercialMinusSign \cuberoot-ar \dad-ar \dad-ar.fina \dad-ar.init 
-	\dad-ar.medi \dadDotbelow-ar \dadDotbelow-ar.fina \dadDotbelow-ar.init 
-	\dadDotbelow-ar.medi \dahal-ar \dahal-ar.fina \dal-ar \dal-ar.fina 
-	\dalDotbelow-ar \dalDotbelow-ar.fina \dalDotbelowTah-ar 
-	\dalDotbelowTah-ar.fina \dalFourdots-ar \dalFourdots-ar.fina \dalRing-ar 
-	\dalRing-ar.fina \dalThreedotsbelow-ar \dalThreedotsbelow-ar.fina 
-	\dalThreedotsdown-ar \dalThreedotsdown-ar.fina 
-	\dalTwodotsverticalbelowTah-ar \dalTwodotsverticalbelowTah-ar.fina 
-	\dalVinvertedabove-ar \dalVinvertedabove-ar.fina \dalVinvertedbelow-ar 
-	\dalVinvertedbelow-ar.fina \damma-ar \damma-ar.medi \dammaCurly-ar 
-	\dammaDot-ar \dammainverted-ar \dammareversed-ar \dammasmall-ar \dammatan-ar 
-	\dammatanCurly-ar \dammaturnedbelow-ar \dasia \dasiaoxia \dasiaperispomeni 
-	\dasiapneumatacomb-cy \dasiavaria \dateseparator-ar \dblbracketleft 
-	\dblbracketright \dblgravecomb \dblverticalbar \ddahal-ar \ddahal-ar.fina 
-	\ddal-ar \ddal-ar.fina \decimalseparator-ar \delta \dialytikaoxia 
-	\dialytikaperispomeni \dialytikavaria \diameterSign \dieresis.cap 
-	\dieresistonos \digamma \disputedendofayah-ar \divorceSymbol \dlinebelow 
-	\dong \dotStopabove-ar \dotaboveSymbol-ar \dotbelowSymbol-ar \dottedCircle 
-	\dotvowelbelow-ar \doublerightarrowheadDotabove-ar 
-	\doublerightarrowheadabove-ar \doublestroke-ar 
-	\doubleverticalbarbelowSymbol-ar \downArrow \dul-ar \dul-ar.fina \dyeh-ar 
-	\dyeh-ar.fina \dyeh-ar.init \dyeh-ar.medi \dzeabkhasian-cy \e-ar \e-ar.fina 
-	\e-ar.init \e-ar.medi \ecircumflexacute \ecircumflexdotbelow 
-	\ecircumflexgrave \ecircumflexhookabove \ecircumflextilde \edblgrave 
-	\edieresis-cy \edotbelow \ehookabove \eight-ar \eiotified-cy \elhook-cy 
-	\eltail-cy \emtail-cy \endofayah-ar \enghe-cy \enhook-cy \entail-cy \epsilon 
-	\epsilondasia \epsilondasiaoxia \epsilondasiavaria \epsilonoxia 
-	\epsilonpsili \epsilonpsilioxia \epsilonpsilivaria \epsilontonos 
-	\epsilonvaria \ereversed \ertick-cy \esdescender-cy \estimated \eta \etadasia 
-	\etadasiaoxia \etadasiaoxiaypogegrammeni \etadasiaperispomeni 
-	\etadasiaperispomeniypogegrammeni \etadasiavaria 
-	\etadasiavariaypogegrammeni \etadasiaypogegrammeni \etaoxia 
-	\etaoxiaypogegrammeni \etaperispomeni \etaperispomeniypogegrammeni 
-	\etapsili \etapsilioxia \etapsilioxiaypogegrammeni \etapsiliperispomeni 
-	\etapsiliperispomeniypogegrammeni \etapsilivaria 
-	\etapsilivariaypogegrammeni \etapsiliypogegrammeni \etatonos \etavaria 
-	\etavariaypogegrammeni \etaypogegrammeni \etilde \eturned \exclam.arabic 
-	\fatha-ar \fatha-ar.medi \fathaCurly-ar \fathaDotabove-ar \fathaHorizont-ar 
-	\fathaRing-ar \fathasmall-ar \fathatan-ar \fathatan-ar.medi 
-	\fathatanCurly-ar \fathatwodots-ar \feh-ar \feh-ar.fina \feh-ar.init 
-	\feh-ar.medi \fehAfrican-ar \fehAfrican-ar.fina \fehAfrican-ar.init 
-	\fehAfrican-ar.medi \fehDotbelow-ar \fehDotbelow-ar.fina 
-	\fehDotbelow-ar.init \fehDotbelow-ar.medi \fehDotbelowThreedotsabove-ar 
-	\fehDotbelowThreedotsabove-ar.fina \fehDotbelowThreedotsabove-ar.init 
-	\fehDotbelowThreedotsabove-ar.medi \fehDotless-ar \fehDotless-ar.fina 
-	\fehDotless-ar.init \fehDotless-ar.medi \fehDotmovedbelow-ar 
-	\fehDotmovedbelow-ar.fina \fehDotmovedbelow-ar.init 
-	\fehDotmovedbelow-ar.medi \fehThreedotsbelow-ar \fehThreedotsbelow-ar.fina 
-	\fehThreedotsbelow-ar.init \fehThreedotsbelow-ar.medi 
-	\fehThreedotsupbelow-ar \fehThreedotsupbelow-ar.fina 
-	\fehThreedotsupbelow-ar.init \fehThreedotsupbelow-ar.medi 
-	\fehTwodotsbelow-ar \fehTwodotsbelow-ar.fina \fehTwodotsbelow-ar.init 
-	\fehTwodotsbelow-ar.medi \firststrongisolate \fita-cy \five-ar \five-persian 
-	\footnotemarker-ar \footnotemarkerabove-ar \four-ar \four-persian 
-	\four-persian.urdu \fourabove-ar \fourbelow-ar \fourdotsaboveSymbol-ar 
-	\fourdotsbelowSymbol-ar \fourthroot-ar \fullstop-ar \functionapplication 
-	\gacute \gaf-ar \gaf-ar.fina \gaf-ar.init \gaf-ar.medi \gafInvertedstroke-ar 
-	\gafInvertedstroke-ar.fina \gafInvertedstroke-ar.init 
-	\gafInvertedstroke-ar.medi \gafRing-ar \gafRing-ar.fina \gafRing-ar.init 
-	\gafRing-ar.medi \gafThreedots-ar \gafThreedots-ar.fina 
-	\gafThreedots-ar.init \gafThreedots-ar.medi \gafTwodotsbelow-ar 
-	\gafTwodotsbelow-ar.fina \gafTwodotsbelow-ar.init \gafTwodotsbelow-ar.medi 
-	\gafsarkashabove-ar \gamma \gcaron \gedescender-cy \ghain-ar \ghain-ar.fina 
-	\ghain-ar.init \ghain-ar.medi \ghainDotbelow-ar \ghainDotbelow-ar.fina 
-	\ghainDotbelow-ar.init \ghainDotbelow-ar.medi \ghainThreedotsabove-ar 
-	\ghainThreedotsabove-ar.fina \ghainThreedotsabove-ar.init 
-	\ghainThreedotsabove-ar.medi \ghemiddlehook-cy \gnaborretni 
-	\graphemejoinercomb \guarani \gueh-ar \gueh-ar.fina \gueh-ar.init 
-	\gueh-ar.medi \haabkhasian-cy \hadescender-cy \hah-ar \hah-ar.fina 
-	\hah-ar.init \hah-ar.medi \hahFourbelow-ar \hahFourbelow-ar.fina 
-	\hahFourbelow-ar.init \hahFourbelow-ar.medi \hahHamzaabove-ar 
-	\hahHamzaabove-ar.fina \hahHamzaabove-ar.init \hahHamzaabove-ar.medi 
-	\hahTahTwodotshorizontalbelow-ar \hahTahTwodotshorizontalbelow-ar.fina 
-	\hahTahTwodotshorizontalbelow-ar.init 
-	\hahTahTwodotshorizontalbelow-ar.medi \hahTahabove-ar \hahTahabove-ar.fina 
-	\hahTahabove-ar.init \hahTahabove-ar.medi \hahTahbelow-ar 
-	\hahTahbelow-ar.fina \hahTahbelow-ar.init \hahTahbelow-ar.medi 
-	\hahThreedotsabove-ar \hahThreedotsabove-ar.fina 
-	\hahThreedotsabove-ar.init \hahThreedotsabove-ar.medi 
-	\hahThreedotsupbelow-ar \hahThreedotsupbelow-ar.fina 
-	\hahThreedotsupbelow-ar.init \hahThreedotsupbelow-ar.medi 
-	\hahTwodotshorizontalabove-ar \hahTwodotshorizontalabove-ar.fina 
-	\hahTwodotshorizontalabove-ar.init \hahTwodotshorizontalabove-ar.medi 
-	\hahTwodotsverticalabove-ar \hahTwodotsverticalabove-ar.fina 
-	\hahTwodotsverticalabove-ar.init \hahTwodotsverticalabove-ar.medi 
-	\hahabove-ar \hahook-cy \hamza-ar \hamzaabove-ar \hamzabelow-ar \hastroke-cy 
-	\hbrevebelow \hdieresis \heh-ar \heh-ar.fina \heh-ar.init \heh-ar.medi 
-	\hehDoachashmee-ar \hehDoachashmee-ar.fina \hehDoachashmee-ar.init 
-	\hehDoachashmee-ar.init.comp \hehDoachashmee-ar.medi \hehHamzaabove-ar 
-	\hehHamzaabove-ar.fina \hehVinvertedabove-ar \hehVinvertedabove-ar.fina 
-	\hehVinvertedabove-ar.init \hehVinvertedabove-ar.medi \hehgoal-ar 
-	\hehgoal-ar.fina \hehgoal-ar.init \hehgoal-ar.medi \hehgoalHamzaabove-ar 
-	\hehgoalHamzaabove-ar.fina \highhamza-ar \highhamza-ar.narrow 
-	\highhamzaAlef-ar \highhamzaWaw-ar \highhamzaYeh-ar \highhamzaYeh-ar.init 
-	\highwaw-ar \hizb-ar \hookabovecomb \hundredthousandssigncomb-cy \hyphentwo 
-	\icaron \idblgrave \idieresis-cy \idieresisacute \idotbelow \iebreve-cy 
-	\iegrave-cy \ihookabove \iishorttail-cy \imacron-cy \interrobang 
-	\invertedundertie \invisibleplus \invisibleseparator \invisibletimes \iota 
-	\iotadasia \iotadasiaoxia \iotadasiaperispomeni \iotadasiavaria 
-	\iotadialytikaoxia \iotadialytikaperispomeni \iotadialytikavaria 
-	\iotadieresis \iotadieresistonos \iotamacron \iotaoxia \iotaperispomeni 
-	\iotapsili \iotapsilioxia \iotapsiliperispomeni \iotapsilivaria \iotatonos 
-	\iotavaria \iotavrachy \ittisal.comp \izhitsa-cy \izhitsadblgrave-cy 
-	\jallajalalouhou-ar \jcaron \jeem-ar \jeem-ar.fina \jeem-ar.init 
-	\jeem-ar.medi \jeemThreedotsabove-ar \jeemThreedotsabove-ar.fina 
-	\jeemThreedotsabove-ar.init \jeemThreedotsabove-ar.medi 
-	\jeemThreedotsbelow-ar \jeemThreedotsbelow-ar.fina 
-	\jeemThreedotsbelow-ar.init \jeemThreedotsbelow-ar.medi 
-	\jeemTwodotsabove-ar \jeemTwodotsabove-ar.fina \jeemTwodotsabove-ar.init 
-	\jeemTwodotsabove-ar.medi \jeemabove-ar \jeh-ar \jeh-ar.fina \kabashkir-cy 
-	\kaf-ar \kaf-ar.fina \kaf-ar.init \kaf-ar.medi \kafDotabove-ar 
-	\kafDotabove-ar.fina \kafDotabove-ar.init \kafDotabove-ar.medi 
-	\kafDotbelow-ar \kafDotbelow-ar.fina \kafDotbelow-ar.init 
-	\kafDotbelow-ar.medi \kafDotless-ar \kafDotless-ar.fina \kafRing-ar 
-	\kafRing-ar.fina \kafRing-ar.init \kafRing-ar.medi \kafThreedotsbelow-ar 
-	\kafThreedotsbelow-ar.fina \kafThreedotsbelow-ar.init 
-	\kafThreedotsbelow-ar.medi \kafTwodotshorizontalabove-ar 
-	\kafTwodotshorizontalabove-ar.fina \kafTwodotshorizontalabove-ar.init 
-	\kafTwodotshorizontalabove-ar.medi \kafswash-ar \kafswash-ar.fina 
-	\kafswash-ar.init \kafswash-ar.medi \kahook-cy \kappa \kashida-ar 
-	\kashidaFina-ar \kasra-ar \kasra-ar.medi \kasraCurly-ar \kasraDotbelow-ar 
-	\kasrasmall-ar \kasratan-ar \kasratanCurly-ar \kastroke-cy 
-	\kaverticalstroke-cy \keheh-ar \keheh-ar.fina \keheh-ar.init \keheh-ar.medi 
-	\kehehDotabove-ar \kehehDotabove-ar.fina \kehehDotabove-ar.init 
-	\kehehDotabove-ar.medi \kehehThreedotsabove-ar 
-	\kehehThreedotsabove-ar.fina \kehehThreedotsabove-ar.init 
-	\kehehThreedotsabove-ar.medi \kehehThreedotsbelow-ar 
-	\kehehThreedotsbelow-ar.fina \kehehThreedotsbelow-ar.init 
-	\kehehThreedotsbelow-ar.medi \kehehThreedotsupbelow-ar 
-	\kehehThreedotsupbelow-ar.fina \kehehThreedotsupbelow-ar.init 
-	\kehehThreedotsupbelow-ar.medi \kehehTwodotshorizontalabove-ar 
-	\kehehTwodotshorizontalabove-ar.fina \kehehTwodotshorizontalabove-ar.init 
-	\kehehTwodotshorizontalabove-ar.medi \kehehVabove-ar \kehehVabove-ar.fina 
-	\kehehVabove-ar.init \kehehVabove-ar.medi \khah-ar \khah-ar.fina 
-	\khah-ar.init \khah-ar.medi \kirghizoe-ar \kirghizoe-ar.fina \kirghizyu-ar 
-	\kirghizyu-ar.fina \koppa \koppa-cy \koppaArchaic \koronis \ksi-cy \lam-ar 
-	\lam-ar.fina \lam-ar.init \lam-ar.medi \lam-ar.medi.short \lamAlefabove-ar 
-	\lamBar-ar \lamBar-ar.fina \lamBar-ar.init \lamBar-ar.medi \lamDotabove-ar 
-	\lamDotabove-ar.fina \lamDotabove-ar.init \lamDotabove-ar.medi 
-	\lamDoublebar-ar \lamDoublebar-ar.fina \lamDoublebar-ar.init 
-	\lamDoublebar-ar.medi \lamTahabove-ar \lamTahabove-ar.fina 
-	\lamTahabove-ar.init \lamTahabove-ar.medi \lamThreedotsabove-ar 
-	\lamThreedotsabove-ar.fina \lamThreedotsabove-ar.init 
-	\lamThreedotsabove-ar.medi \lamThreedotsbelow-ar 
-	\lamThreedotsbelow-ar.fina \lamThreedotsbelow-ar.init 
-	\lamThreedotsbelow-ar.medi \lamVabove-ar \lamVabove-ar.fina 
-	\lamVabove-ar.init \lamVabove-ar.medi \lam_alef-ar \lam_alef-ar.fina 
-	\lam_alefHamzaabove-ar \lam_alefHamzaabove-ar.fina \lam_alefHamzabelow-ar 
-	\lam_alefHamzabelow-ar.fina \lam_alefMadda-ar \lam_alefMadda-ar.fina 
-	\lam_hah-ar.init \lam_jeem-ar.init \lam_khah-ar.init \lam_meem-ar.init 
-	\lam_meem_hah-ar.init \lambda \largerounddotbelow-ar \ldotbelow 
-	\ldotbelowmacron \leftArrow \leftarrowheadabove-ar \leftarrowheadbelow-ar 
-	\lefttorightembedding \lefttorightisolate \lefttorightmark 
-	\lefttorightoverride \lira \longs \lowernumeral-greek \lowlinecomb 
-	\macronbelowcomb \madda-ar \maddalong-ar \mark-ar \marksidewaysnoonghunna-ar 
-	\marriageSymbol \mdotbelow \meem-ar \meem-ar.fina \meem-ar.init \meem-ar.medi 
-	\meemDotabove-ar \meemDotabove-ar.fina \meemDotabove-ar.init 
-	\meemDotabove-ar.medi \meemDotbelow-ar \meemDotbelow-ar.fina 
-	\meemDotbelow-ar.init \meemDotbelow-ar.medi \meemStopabove-ar 
-	\meemThreedotsabove-ar \meemThreedotsabove-ar.fina 
-	\meemThreedotsabove-ar.init \meemThreedotsabove-ar.medi \meemabove-ar 
-	\meembelow-ar \micro \millionssigncomb-cy \miniKeheh-ar \misraComma-ar 
-	\mohammad-ar \naira \narrownbspace \ndotaccent \ndotbelow \ng-ar \ng-ar.fina 
-	\ng-ar.init \ng-ar.medi \ngoeh-ar \ngoeh-ar.fina \ngoeh-ar.init 
-	\ngoeh-ar.medi \nine-ar \noon-ar \noon-ar.fina \noon-ar.init \noon-ar.medi 
-	\noonAfrican-ar \noonAfrican-ar.fina \noonAfrican-ar.init 
-	\noonAfrican-ar.medi \noonDotbelow-ar \noonDotbelow-ar.fina 
-	\noonDotbelow-ar.init \noonDotbelow-ar.medi \noonKasraabove-ar 
-	\noonKasrabelow-ar \noonRing-ar \noonRing-ar.fina \noonRing-ar.init 
-	\noonRing-ar.medi \noonTahabove-ar \noonTahabove-ar.fina 
-	\noonTahabove-ar.init \noonTahabove-ar.medi \noonThreedotsabove-ar 
-	\noonThreedotsabove-ar.fina \noonThreedotsabove-ar.init 
-	\noonThreedotsabove-ar.medi \noonTwodotsbelow-ar \noonTwodotsbelow-ar.fina 
-	\noonTwodotsbelow-ar.init \noonTwodotsbelow-ar.medi \noonVabove-ar 
-	\noonVabove-ar.fina \noonVabove-ar.init \noonVabove-ar.medi \noonabove-ar 
-	\noonghunna-ar \noonghunna-ar.fina \noonghunna-ar.init \noonghunna-ar.medi 
-	\noonghunnaabove-ar \note-musical \nu \number-ar \numbermark-ar 
-	\numeral-greek \nyeh-ar \nyeh-ar.fina \nyeh-ar.init \nyeh-ar.medi 
-	\obarreddieresis-cy \ocaron \ocircumflexacute \ocircumflexdotbelow 
-	\ocircumflexgrave \ocircumflexhookabove \ocircumflextilde \odblgrave 
-	\odieresis-cy \odotbelow \oe-ar \oe-ar.fina \ohookabove \ohorn \ohornacute 
-	\ohorndotbelow \ohorngrave \ohornhookabove \ohorntilde \omega \omega-cy 
-	\omegadasia \omegadasiaoxia \omegadasiaoxiaypogegrammeni 
-	\omegadasiaperispomeni \omegadasiaperispomeniypogegrammeni 
-	\omegadasiavaria \omegadasiavariaypogegrammeni \omegadasiaypogegrammeni 
-	\omegaoxia \omegaoxiaypogegrammeni \omegaperispomeni 
-	\omegaperispomeniypogegrammeni \omegapsili \omegapsilioxia 
-	\omegapsilioxiaypogegrammeni \omegapsiliperispomeni 
-	\omegapsiliperispomeniypogegrammeni \omegapsilivaria 
-	\omegapsilivariaypogegrammeni \omegapsiliypogegrammeni \omegatonos 
-	\omegavaria \omegavariaypogegrammeni \omegaypogegrammeni \omicron 
-	\omicrondasia \omicrondasiaoxia \omicrondasiavaria \omicronoxia 
-	\omicronpsili \omicronpsilioxia \omicronpsilivaria \omicrontonos 
-	\omicronvaria \one-ar \oogonek \opendammatan-ar \openfathatan-ar 
-	\openkasratan-ar \oslashacute \oxia \pagenumber-ar \palatalizationcomb-cy 
-	\parenleft-ar \parenright-ar \peh-ar \peh-ar.fina \peh-ar.init \peh-ar.medi 
-	\pehMeemabove-ar \pehMeemabove-ar.fina \pehMeemabove-ar.init 
-	\pehMeemabove-ar.medi \pehVabove-ar \pehVabove-ar.fina \pehVabove-ar.init 
-	\pehVabove-ar.medi \peheh-ar \peheh-ar.fina \peheh-ar.init \peheh-ar.medi 
-	\pemiddlehook-cy \percent-ar \percent.arabic.comp \period.arabic 
-	\perispomeni \pertenthousand-ar \perthousand-ar \perthousandzero \peso \phi 
-	\popdirectionalformatting \popdirectionalisolate \prescription 
-	\prosgegrammeni \psi \psi-cy \psili \psilioxia \psiliperispomeni 
-	\psilipneumatacomb-cy \psilivaria \published \qaf-ar \qaf-ar.fina 
-	\qaf-ar.init \qaf-ar.medi \qafAfrican-ar \qafAfrican-ar.fina 
-	\qafAfrican-ar.init \qafAfrican-ar.medi \qafDotabove-ar 
-	\qafDotabove-ar.fina \qafDotabove-ar.init \qafDotabove-ar.medi 
-	\qafDotbelow-ar \qafDotbelow-ar.fina \qafDotbelow-ar.init 
-	\qafDotbelow-ar.medi \qafDotless-ar \qafDotless-ar.fina \qafDotless-ar.init 
-	\qafDotless-ar.medi \qafLamAlefMaksuraabove-ar \qafThreedotsabove-ar 
-	\qafThreedotsabove-ar.fina \qafThreedotsabove-ar.init 
-	\qafThreedotsabove-ar.medi \qafThreedotsaboveAfrican-ar 
-	\qafThreedotsaboveAfrican-ar.fina \qafThreedotsaboveAfrican-ar.init 
-	\qafThreedotsaboveAfrican-ar.medi \qafabove-ar \qifabove-ar \question-ar 
-	\questiongreek \quillbracketleft \quillbracketright \ray-ar \rdblgrave 
-	\rdotaccent \rdotbelow \rdotbelowmacron \referencemark \reh-ar \reh-ar.fina 
-	\rehDadabove-ar \rehDotbelow-ar \rehDotbelow-ar.fina 
-	\rehDotbelowdotabove-ar \rehDotbelowdotabove-ar.fina \rehFourdots-ar 
-	\rehFourdots-ar.fina \rehHahabove-ar \rehHamzaabove-ar 
-	\rehHamzaabove-ar.fina \rehLoop-ar \rehLoop-ar.fina \rehNoonabove-ar 
-	\rehNoonabove-ar.fina \rehRing-ar \rehRing-ar.fina \rehStroke-ar 
-	\rehStroke-ar.fina \rehTwodots-ar \rehTwodots-ar.fina 
-	\rehTwodotshorizontalaboveTahabove-ar 
-	\rehTwodotshorizontalaboveTahabove-ar.fina \rehTwodotsverticalabove-ar 
-	\rehTwodotsverticalabove-ar.fina \rehVbelow-ar \rehVbelow-ar.fina 
-	\rehVinvertedabove-ar \rehVinvertedabove-ar.fina \rehabove-ar \rehv-ar 
-	\rehv-ar.fina \rho \rhodasia \rhombusStopabove-ar \rhombusStopbelow-ar 
-	\rhopsili \rial \rightArrow \rightarrowheadDotabove-ar 
-	\rightarrowheadabove-ar \rightarrowheadbelow-ar \righttoleftembedding 
-	\righttoleftisolate \righttoleftmark \righttoleftoverride \ringSymbol-ar 
-	\ringhalfleft \ringhalfright \rnoon-ar \rnoon-ar.fina \rnoon-ar.init 
-	\rnoon-ar.medi \rreh-ar \rreh-ar.fina \sad-ar \sad-ar.fina \sad-ar.init 
-	\sad-ar.medi \sadLamAlefMaksuraabove-ar \sadThreedots-ar 
-	\sadThreedots-ar.fina \sadThreedots-ar.init \sadThreedots-ar.medi 
-	\sadThreedotsbelow-ar \sadThreedotsbelow-ar.fina 
-	\sadThreedotsbelow-ar.init \sadThreedotsbelow-ar.medi \sadTwodotsbelow-ar 
-	\sadTwodotsbelow-ar.fina \sadTwodotsbelow-ar.init \sadTwodotsbelow-ar.medi 
-	\sadabove-ar \safhaabove-ar \sahabove-ar \sajdah-ar \saktaabove-ar \sampi 
-	\samvat-ar \schwadieresis-cy \seen-ar \seen-ar.fina \seen-ar.init 
-	\seen-ar.medi \seenDotbelowDotabove-ar \seenDotbelowDotabove-ar.fina 
-	\seenDotbelowDotabove-ar.init \seenDotbelowDotabove-ar.medi 
-	\seenFourabove-ar \seenFourabove-ar.fina \seenFourabove-ar.init 
-	\seenFourabove-ar.medi \seenFourdotsabove-ar \seenFourdotsabove-ar.fina 
-	\seenFourdotsabove-ar.init \seenFourdotsabove-ar.medi 
-	\seenTahTwodotshorizontalabove-ar \seenTahTwodotshorizontalabove-ar.fina 
-	\seenTahTwodotshorizontalabove-ar.init 
-	\seenTahTwodotshorizontalabove-ar.medi \seenThreedotsbelow-ar 
-	\seenThreedotsbelow-ar.fina \seenThreedotsbelow-ar.init 
-	\seenThreedotsbelow-ar.medi \seenTwodotsverticalabove-ar 
-	\seenTwodotsverticalabove-ar.fina \seenTwodotsverticalabove-ar.init 
-	\seenTwodotsverticalabove-ar.medi \seenVinvertedabove-ar 
-	\seenVinvertedabove-ar.fina \seenVinvertedabove-ar.init 
-	\seenVinvertedabove-ar.medi \seenabove-ar \seenbelow-ar \semicolon-ar 
-	\semisoftsign-cy \seven-ar \seven-persian \seven-persian.urdu \shadda-ar 
-	\shadda-ar.medi \sheen-ar \sheen-ar.fina \sheen-ar.init \sheen-ar.medi 
-	\sheenDotbelow-ar \sheenDotbelow-ar.fina \sheenDotbelow-ar.init 
-	\sheenDotbelow-ar.medi \sheenThreedotsbelow-ar 
-	\sheenThreedotsbelow-ar.fina \sheenThreedotsbelow-ar.init 
-	\sheenThreedotsbelow-ar.medi \sigma \sigmafinal \sindhiampersand-ar 
-	\sindhipostpositionmen-ar \sindhipostpositionmen-ar.fina 
-	\sindhipostpositionmen-ar.init \sindhipostpositionmen-ar.medi \six-ar 
-	\six-persian \smallainabove-ar \smallsadabove-ar \sphericalangle \stroke-ar 
-	\sukun-ar \sukun-ar.medi \sukunoval-ar \sukunround-ar \tah-ar \tah-ar.fina 
-	\tah-ar.init \tah-ar.medi \tahThreedots-ar \tahThreedots-ar.fina 
-	\tahThreedots-ar.init \tahThreedots-ar.medi \tahTwodotsabove-ar 
-	\tahTwodotsabove-ar.fina \tahTwodotsabove-ar.init \tahTwodotsabove-ar.medi 
-	\tahabove-ar \tahbelowSymbol-ar \tail.comp \takhallusabove-ar \tau \tcheh-ar 
-	\tcheh-ar.fina \tcheh-ar.init \tcheh-ar.medi \tchehDotabove-ar 
-	\tchehDotabove-ar.fina \tchehDotabove-ar.init \tchehDotabove-ar.medi 
-	\tchehVabove-ar \tchehVabove-ar.fina \tchehVabove-ar.init 
-	\tchehVabove-ar.medi \tcheheh-ar \tcheheh-ar.fina \tcheheh-ar.init 
-	\tcheheh-ar.medi \tdieresis \tedescender-cy \teh-ar \teh-ar.fina \teh-ar.init 
-	\teh-ar.medi \tehMarbuta-ar \tehMarbuta-ar.alt \tehMarbuta-ar.fina 
-	\tehMarbutagoal-ar \tehMarbutagoal-ar.fina \tehRing-ar \tehRing-ar.fina 
-	\tehRing-ar.init \tehRing-ar.medi \tehTehabove-ar \tehTehabove-ar.fina 
-	\tehTehabove-ar.init \tehTehabove-ar.medi \tehThreedotsdown-ar 
-	\tehThreedotsdown-ar.fina \tehThreedotsdown-ar.init 
-	\tehThreedotsdown-ar.medi \tehThreedotsupbelow-ar 
-	\tehThreedotsupbelow-ar.fina \tehThreedotsupbelow-ar.init 
-	\tehThreedotsupbelow-ar.medi \tehVabove-ar \tehVabove-ar.fina 
-	\tehVabove-ar.init \tehVabove-ar.medi \teh_hah-ar.init \teh_jeem-ar.init 
-	\teheh-ar \teheh-ar.fina \teheh-ar.init \teheh-ar.medi \tetse-cy \thal-ar 
-	\thal-ar.fina \theh-ar \theh-ar.fina \theh-ar.init \theh-ar.medi \theta 
-	\thousand-cy \thousandseparator-ar \three-ar \threeabove-ar \threedots-ar 
-	\threedotsabove-ar \threedotsdownaboveSymbol-ar 
-	\threedotsdownbelowSymbol-ar \threedotshorizontalbelow-ar 
-	\threedotsupaboveSymbol-ar \threedotsupbelowSymbol-ar \tildebelowcomb 
-	\titlocomb-cy \tlinebelow \toneloopabove-ar \toneloopbelow-ar 
-	\toneonedotabove-ar \toneonedotbelow-ar \tonetwodotsabove-ar 
-	\tonetwodotsbelow-ar \tonos \tteh-ar \tteh-ar.fina \tteh-ar.init 
-	\tteh-ar.medi \ttehVabove-ar \ttehVabove-ar.fina \ttehVabove-ar.init 
-	\ttehVabove-ar.medi \tteheh-ar \tteheh-ar.fina \tteheh-ar.init 
-	\tteheh-ar.medi \two-ar \twoabove-ar \twodotshorizontalaboveSymbol-ar 
-	\twodotshorizontalbelowSymbol-ar \twodotsverticalaboveSymbol-ar 
-	\twodotsverticalbelowSymbol-ar \u-ar \u-ar.fina \uHamzaabove-ar \ucaron 
-	\udblgrave \udieresis-cy \udieresisacute \udieresiscaron \udieresisgrave 
-	\udotbelow \uhookabove \uhorn \uhornacute \uhorndotbelow \uhorngrave 
-	\uhornhookabove \uhorntilde \uhungarumlaut-cy \uk-cy \umacron-cy \undertie 
-	\uni047A \uni047B \uni047C \uni047D \uni047E \uni047F \uniFBC0 \upArrow \upsilon 
-	\upsilondasia \upsilondasiaoxia \upsilondasiaperispomeni \upsilondasiavaria 
-	\upsilondialytikaoxia \upsilondialytikaperispomeni \upsilondialytikavaria 
-	\upsilondieresis \upsilondieresistonos \upsilonmacron \upsilonoxia 
-	\upsilonperispomeni \upsilonpsili \upsilonpsilioxia 
-	\upsilonpsiliperispomeni \upsilonpsilivaria \upsilontonos \upsilonvaria 
-	\upsilonvrachy \vabove-ar \varia \ve-ar \ve-ar.fina \veh-ar \veh-ar.fina 
-	\veh-ar.init \veh-ar.medi \verseComma-ar \vinvertedabove-ar \waqfaabove-ar 
-	\wasla-ar \wavyhamzabelow-ar \waw-ar \waw-ar.fina \wawDotabove-ar 
-	\wawDotabove-ar.fina \wawDotcenter-ar \wawDotcenter-ar.fina 
-	\wawHamzaabove-ar \wawHamzaabove-ar.fina \wawSmall-ar \wawStraight-ar 
-	\wawStraight-ar.fina \wawThreeAbove-ar \wawThreeAbove-ar.fina 
-	\wawTwoabove-ar \wawTwoabove-ar.fina \wawTwodots-ar \wawTwodots-ar.fina 
-	\wawbelow-ar \wawring-ar \wawring-ar.fina \whiteBullet \xi \yat-cy \ydotbelow 
-	\year-ar \yeh-ar \yeh-ar.fina \yeh-ar.init \yeh-ar.medi \yeh-farsi 
-	\yeh-farsi.fina \yeh-farsi.init \yeh-farsi.medi \yehFourbelow-farsi 
-	\yehFourbelow-farsi.fina \yehFourbelow-farsi.init \yehFourbelow-farsi.medi 
-	\yehHamzaabove-ar \yehHamzaabove-ar.fina \yehHamzaabove-ar.init 
-	\yehHamzaabove-ar.medi \yehKashmiri-ar \yehKashmiri-ar.fina 
-	\yehKashmiri-ar.init \yehKashmiri-ar.medi \yehRohingya-ar 
-	\yehRohingya-ar.comp \yehRohingya-ar.fina \yehSmall-ar \yehTail-ar 
-	\yehTail-ar.fina \yehThreeabove-farsi \yehThreeabove-farsi.fina 
-	\yehThreeabove-farsi.init \yehThreeabove-farsi.medi 
-	\yehThreedotsabove-farsi \yehThreedotsabove-farsi.fina 
-	\yehThreedotsabove-farsi.init \yehThreedotsabove-farsi.medi 
-	\yehThreedotsbelow-ar \yehThreedotsbelow-ar.fina 
-	\yehThreedotsbelow-ar.init \yehThreedotsbelow-ar.medi \yehTwoabove-farsi 
-	\yehTwoabove-farsi.fina \yehTwoabove-farsi.init \yehTwoabove-farsi.medi 
-	\yehTwodotsabove-farsi \yehTwodotsabove-farsi.fina 
-	\yehTwodotsabove-farsi.init \yehTwodotsabove-farsi.medi 
-	\yehTwodotsbelowDotabove-ar \yehTwodotsbelowDotabove-ar.fina 
-	\yehTwodotsbelowDotabove-ar.init \yehTwodotsbelowDotabove-ar.medi 
-	\yehTwodotsbelowHamzaabove-ar \yehTwodotsbelowHamzaabove-ar.fina 
-	\yehTwodotsbelowHamzaabove-ar.init \yehTwodotsbelowHamzaabove-ar.medi 
-	\yehTwodotsbelowNoonabove-ar \yehTwodotsbelowNoonabove-ar.fina 
-	\yehTwodotsbelowNoonabove-ar.init \yehTwodotsbelowNoonabove-ar.medi 
-	\yehVabove-ar \yehVabove-ar.fina \yehVabove-ar.init \yehVabove-ar.medi 
-	\yehVinverted-farsi \yehVinverted-farsi.fina \yehVinverted-farsi.init 
-	\yehVinverted-farsi.medi \yeh_noon-ar.fina \yehabove-ar \yehbarree-ar 
-	\yehbarree-ar.fina \yehbarreeHamzaabove-ar \yehbarreeHamzaabove-ar.fina 
-	\yehbarreeThreeabove-ar \yehbarreeThreeabove-ar.fina \yehbarreeTwoabove-ar 
-	\yehbarreeTwoabove-ar.fina \yerudieresis-cy \yhookabove \ypogegrammeni 
-	\ytilde \yu-ar \yu-ar.fina \yusbig-cy \yusbigiotified-cy \yuslittle-cy 
-	\yuslittleiotified-cy \zah-ar \zah-ar.fina \zah-ar.init \zah-ar.medi \zain-ar 
-	\zain-ar.fina \zainVinvertedabove-ar \zainVinvertedabove-ar.fina 
-	\zainabove-ar \zedescender-cy \zedieresis-cy \zero-ar \zero.slash 
-	\zeroWidthNoBreakSpace \zerowidthjoiner \zerowidthnonjoiner \zeta 
-	\zhebreve-cy \zhedescender-cy \zhedieresis-cy ];
+	\ogonek.case \ograve \ohungarumlaut \omacron \one \onesuperior \ordfeminine 
+	\ordmasculine \oslash \otilde \p \paragraph \parenleft \parenright \partialdiff 
+	\percent \period \period.alt \period.squat \periodcentered \perthousand \pi 
+	\plus \plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
+	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase 
+	\quotesingle \r \racute \radical \rcaron \rcommaaccent \registered \ring \s 
+	\sacute \scaron \scedilla \scircumflex \scommaaccent \second \section 
+	\semicolon \semicolon.alt \seven \six \slash \softhyphen \space \sterling 
+	\summation \t \tbar \tcaron \tcedilla \tcommaaccent \thorn \three \threesuperior 
+	\tilde \trademark \two \twosuperior \u \uacute \ubreve \ucircumflex \udieresis 
+	\ugrave \uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
+	\wcircumflex \wdieresis \wgrave \won \x \y \yacute \ycircumflex \ydieresis \yen 
+	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb 
+	\acutecomb \hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb 
+	\circumflexcomb \caroncomb \brevecomb \ringcmb \tildecomb 
+	\commaturnedabovecmb \cedillacmb \ogonekcmb \ddotbelow \Ddotbelow \hdotbelow 
+	\Hdotbelow \sdotbelow \Sdotbelow \tdotbelow \Tdotbelow \zdotbelow \Zdotbelow 
+	\dotbelowcmb \.null \nonmarkingreturn \NULL \uni018F \uni0259 \afii10023 
+	\afii10051 \afii10052 \afii10053 \afii10054 \afii10055 \afii10056 \afii10057 
+	\afii10058 \afii10059 \afii10060 \afii10061 \uni040D \afii10062 \afii10145 
+	\afii10017 \afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 
+	\afii10025 \afii10026 \afii10027 \afii10028 \afii10029 \afii10030 \afii10031 
+	\afii10032 \afii10033 \afii10034 \afii10035 \afii10036 \afii10037 \afii10038 
+	\afii10039 \afii10040 \afii10041 \afii10042 \afii10043 \afii10044 \afii10045 
+	\afii10046 \afii10047 \afii10048 \afii10049 \afii10065 \afii10066 \afii10067 
+	\afii10068 \afii10069 \afii10070 \afii10072 \afii10073 \afii10074 \afii10075 
+	\afii10076 \afii10077 \afii10078 \afii10079 \afii10080 \afii10081 \afii10082 
+	\afii10083 \afii10084 \afii10085 \afii10086 \afii10087 \afii10088 \afii10089 
+	\afii10090 \afii10091 \afii10092 \afii10093 \afii10094 \afii10095 \afii10096 
+	\afii10097 \afii10071 \afii10099 \afii10100 \afii10101 \afii10102 \afii10103 
+	\afii10104 \afii10105 \afii10106 \afii10107 \afii10108 \afii10109 \uni045D 
+	\afii10110 \afii10193 \afii10050 \afii10098 \uni0492 \uni0493 \uni049A \uni049B 
+	\uni04A2 \uni04A3 \uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 
+	\afii10846 \uni04E8 \uni04E9 \afii61352 \uni2215 ];
+@GDEF_Ligature = [\Ldot \ldot \onehalf \onequarter \threequarters ];
 @GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
 	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
 	\ring.case \tilde.case ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
 
