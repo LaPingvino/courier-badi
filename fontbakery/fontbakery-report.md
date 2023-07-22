@@ -2,7 +2,7 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[23] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[25] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)
@@ -1221,6 +1221,16 @@ The following glyphs do not have the recommended number of contours:
 
 
 * ⚠ **WARN** This font has a 'Soft Hyphen' character. [code: softhyphen]
+</div></details><details><summary>⚠ <b>WARN:</b> Check glyphs in mark glyph class are non-spacing. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_spacing_marks">com.google.fonts/check/gdef_spacing_marks</a>)</summary><div>
+
+
+* ⚠ **WARN** The following spacing glyphs may be in the GDEF mark glyph class by mistake:
+	 acute.case (unencoded), breve.case (unencoded), caron.case (unencoded), circumflex.case (unencoded), dieresis.case (unencoded), dotaccent.case (unencoded), grave.case (unencoded), hungarumlaut.case (unencoded), macron.case (unencoded), ring.case (unencoded) and tilde.case (unencoded) [code: spacing-mark-glyphs]
+</div></details><details><summary>⚠ <b>WARN:</b> Check mark characters are in GDEF mark glyph class. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gdef.html#com.google.fonts/check/gdef_mark_chars">com.google.fonts/check/gdef_mark_chars</a>)</summary><div>
+
+
+* ⚠ **WARN** The following mark characters could be in the GDEF mark glyph class:
+	 VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (U+FE0D), VS15 (U+FE0E), VS16 (U+FE0F), VS2 (U+FE01), VS3 (U+FE02), VS4 (U+FE03), VS5 (U+FE04), VS6 (U+FE05), VS7 (U+FE06), VS8 (U+FE07), VS9 (U+FE08), acutecomb (U+0301), ainabove-ar (U+0611), alefLamYehabove-ar (U+0616), alefabove-ar (U+0670), alefbelow-ar (U+0656), annisfabove-ar (U+08DC), arrubabove-ar (U+08D4), assajdaabove-ar (U+08DB), aththalathaabove-ar (U+08DA), brevebelowcomb (U+032E), breveinvertedbelowcomb (U+032F), breveinvertedcomb (U+0311), damma-ar (U+064F), dammaCurly-ar (U+08E5), dammaDot-ar (U+08FE), dammainverted-ar (U+0657), dammareversed-ar (U+065D), dammasmall-ar (U+0619), dammatan-ar (U+064C), dammatanCurly-ar (U+08E8), dammaturnedbelow-ar (U+08E3), dasiapneumatacomb-cy (U+0485), dblgravecomb (U+030F), dotStopabove-ar (U+06EC), dotbelowcomb (U+0323), dotvowelbelow-ar (U+065C), doublerightarrowheadDotabove-ar (U+08FC), doublerightarrowheadabove-ar (U+08FB), fatha-ar (U+064E), fathaCurly-ar (U+08E4), fathaDotabove-ar (U+08F5), fathaHorizont-ar (U+0659), fathaRing-ar (U+08F4), fathasmall-ar (U+0618), fathatan-ar (U+064B), fathatanCurly-ar (U+08E7), fathatwodots-ar (U+065E), footnotemarkerabove-ar (U+08E0), graphemejoinercomb (U+034F), gravecomb (U+0300), hahabove-ar (U+06E1), hamzaabove-ar (U+0654), hamzabelow-ar (U+0655), highwaw-ar (U+08F3), hookabovecomb (U+0309), hundredthousandssigncomb-cy (U+0488), jeemabove-ar (U+06DA), kasra-ar (U+0650), kasraCurly-ar (U+08E6), kasraDotbelow-ar (U+08F6), kasrasmall-ar (U+061A), kasratan-ar (U+064D), kasratanCurly-ar (U+08E9), lamAlefabove-ar (U+06D9), largerounddotbelow-ar (U+08CF), leftarrowheadabove-ar (U+08F7), leftarrowheadbelow-ar (U+08F9), lowlinecomb (U+0332), macronbelowcomb (U+0331), madda-ar (U+0653), maddalong-ar (U+06E4), marksidewaysnoonghunna-ar (U+08FF), meemStopabove-ar (U+06E2), meemabove-ar (U+06D8), meembelow-ar (U+06ED), millionssigncomb-cy (U+0489), noonKasraabove-ar (U+08D8), noonKasrabelow-ar (U+08D9), noonabove-ar (U+06E8), noonghunnaabove-ar (U+0658), opendammatan-ar (U+08F1), openfathatan-ar (U+08F0), openkasratan-ar (U+08F2), palatalizationcomb-cy (U+0484), psilipneumatacomb-cy (U+0486), qafLamAlefMaksuraabove-ar (U+06D7), qafabove-ar (U+08D7), qifabove-ar (U+08DE), rehDadabove-ar (U+0613), rehHahabove-ar (U+0612), rhombusStopabove-ar (U+06EB), rhombusStopbelow-ar (U+06EA), rightarrowheadDotabove-ar (U+08FD), rightarrowheadabove-ar (U+08F8), rightarrowheadbelow-ar (U+08FA), sadLamAlefMaksuraabove-ar (U+06D6), sadabove-ar (U+0610), safhaabove-ar (U+08E1), sahabove-ar (U+08CC), saktaabove-ar (U+08DD), seenabove-ar (U+06DC), seenbelow-ar (U+06E3), shadda-ar (U+0651), smallainabove-ar (U+08D6), smallsadabove-ar (U+08D5), sukun-ar (U+0652), sukunoval-ar (U+06E0), sukunround-ar (U+06DF), tahabove-ar (U+0615), takhallusabove-ar (U+0614), threedotsabove-ar (U+06DB), tildebelowcomb (U+0330), tildecomb (U+0303), titlocomb-cy (U+0483), toneloopabove-ar (U+08EC), toneloopbelow-ar (U+08EF), toneonedotabove-ar (U+08EA), toneonedotbelow-ar (U+08ED), tonetwodotsabove-ar (U+08EB), tonetwodotsbelow-ar (U+08EE), uni0302 (U+0302), uni0304 (U+0304), uni0306 (U+0306), uni0307 (U+0307), uni0308 (U+0308), uni030A (U+030A), uni030B (U+030B), uni030C (U+030C), uni0312 (U+0312), uni0326 (U+0326), uni0327 (U+0327), uni0328 (U+0328), vabove-ar (U+065A), vinvertedabove-ar (U+065B), waqfaabove-ar (U+08DF), wavyhamzabelow-ar (U+065F), wawbelow-ar (U+08D3), yehabove-ar (U+06E7) and zainabove-ar (U+0617) [code: mark-chars]
 </div></details><details><summary>⚠ <b>WARN:</b> Does GPOS table have kerning information? This check skips monospaced fonts as defined by post.isFixedPitch value (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/gpos.html#com.google.fonts/check/gpos_kerning_info">com.google.fonts/check/gpos_kerning_info</a>)</summary><div>
 
 
@@ -2846,8 +2856,8 @@ The following glyphs do not have the recommended number of contours:
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 24 | 248 | 13 | 168 | 0 |
-| 0% | 5% | 5% | 52% | 3% | 35% | 0% |
+| 0 | 22 | 26 | 245 | 13 | 169 | 0 |
+| 0% | 5% | 5% | 52% | 3% | 36% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
 * **SKIP**
