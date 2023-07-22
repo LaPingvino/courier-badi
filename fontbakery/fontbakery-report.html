@@ -2149,6 +2149,8 @@ But instead we have got:
 
 - twoabove-ar
 
+- uni0326.case
+
 - wasla-ar
 
 - wawDotabove-ar.fina
@@ -2483,8 +2485,9 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 </span></li></ul></div></details>
 <details><summary>🔥 <strong>fonts/ttf/CourierBadi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]</p>
 </span></li><li class='details_item'><span class='details_indicator'>🔥 FAIL</span><span class='details_text'><p>The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]</p>
-</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 2063 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]</p>
+</span></li><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>Font is monospaced but 9 glyphs (0.39%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]</p>
 </span></li></ul></div></details>
 <h2>&lt;Section: fontbakery.profiles.gdef&gt; ⚠️⚠️⏩⏩⏩</h2>
 <h3>Check glyphs in mark glyph class are non-spacing.</h3>
@@ -2630,107 +2633,81 @@ VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/CourierBadi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have colinear vectors:</p>
-<pre><code>* Elhook-cy (U+0512): L&lt;&lt;520.0,764.0&gt;--&lt;513.0,733.0&gt;&gt; -&gt; L&lt;&lt;513.0,733.0&gt;--&lt;506.0,696.0&gt;&gt;
+<pre><code>* Elhook-cy (U+0512): L&lt;&lt;590.0,764.0&gt;--&lt;582.0,733.0&gt;&gt; -&gt; L&lt;&lt;582.0,733.0&gt;--&lt;576.0,696.0&gt;&gt;
 
-* Elhook-cy (U+0512): L&lt;&lt;567.0,1028.0&gt;--&lt;520.0,764.0&gt;&gt; -&gt; L&lt;&lt;520.0,764.0&gt;--&lt;513.0,733.0&gt;&gt;
+* Elhook-cy (U+0512): L&lt;&lt;636.0,1028.0&gt;--&lt;590.0,764.0&gt;&gt; -&gt; L&lt;&lt;590.0,764.0&gt;--&lt;582.0,733.0&gt;&gt;
 
-* Eltail-cy (U+04C5): L&lt;&lt;509.0,764.0&gt;--&lt;502.0,733.0&gt;&gt; -&gt; L&lt;&lt;502.0,733.0&gt;--&lt;495.0,696.0&gt;&gt;
+* Eltail-cy (U+04C5): L&lt;&lt;590.0,764.0&gt;--&lt;582.0,733.0&gt;&gt; -&gt; L&lt;&lt;582.0,733.0&gt;--&lt;576.0,696.0&gt;&gt;
 
-* Eltail-cy (U+04C5): L&lt;&lt;556.0,1028.0&gt;--&lt;509.0,764.0&gt;&gt; -&gt; L&lt;&lt;509.0,764.0&gt;--&lt;502.0,733.0&gt;&gt;
+* Eltail-cy (U+04C5): L&lt;&lt;636.0,1028.0&gt;--&lt;590.0,764.0&gt;&gt; -&gt; L&lt;&lt;590.0,764.0&gt;--&lt;582.0,733.0&gt;&gt;
 
-* Emtail-cy (U+04CD): L&lt;&lt;757.0,127.0&gt;--&lt;921.0,1055.0&gt;&gt; -&gt; L&lt;&lt;921.0,1055.0&gt;--&lt;928.0,1108.0&gt;&gt;
+* Emtail-cy (U+04CD): L&lt;&lt;837.0,127.0&gt;--&lt;1001.0,1055.0&gt;&gt; -&gt; L&lt;&lt;1001.0,1055.0&gt;--&lt;1008.0,1108.0&gt;&gt;
 
-* Kabashkir-cy (U+04A0): L&lt;&lt;431.0,399.0&gt;--&lt;423.0,365.0&gt;&gt; -&gt; L&lt;&lt;423.0,365.0&gt;--&lt;381.0,127.0&gt;&gt;
+* Kabashkir-cy (U+04A0): L&lt;&lt;541.0,399.0&gt;--&lt;533.0,365.0&gt;&gt; -&gt; L&lt;&lt;533.0,365.0&gt;--&lt;491.0,127.0&gt;&gt;
 
-* Kabashkir-cy (U+04A0): L&lt;&lt;600.0,612.0&gt;--&lt;453.0,430.0&gt;&gt; -&gt; L&lt;&lt;453.0,430.0&gt;--&lt;431.0,399.0&gt;&gt;
+* Kabashkir-cy (U+04A0): L&lt;&lt;710.0,612.0&gt;--&lt;563.0,430.0&gt;&gt; -&gt; L&lt;&lt;563.0,430.0&gt;--&lt;541.0,399.0&gt;&gt;
 
-* Kastroke-cy (U+049E): L&lt;&lt;353.0,942.0&gt;--&lt;299.0,639.0&gt;&gt; -&gt; L&lt;&lt;299.0,639.0&gt;--&lt;292.0,584.0&gt;&gt;
+* Kastroke-cy (U+049E): L&lt;&lt;463.0,942.0&gt;--&lt;410.0,639.0&gt;&gt; -&gt; L&lt;&lt;410.0,639.0&gt;--&lt;402.0,584.0&gt;&gt;
 
-* Kaverticalstroke-cy (U+049C): L&lt;&lt;531.0,813.0&gt;--&lt;565.0,844.0&gt;&gt; -&gt; L&lt;&lt;565.0,844.0&gt;--&lt;836.0,1124.0&gt;&gt;
+* Kaverticalstroke-cy (U+049C): L&lt;&lt;641.0,813.0&gt;--&lt;675.0,844.0&gt;&gt; -&gt; L&lt;&lt;675.0,844.0&gt;--&lt;946.0,1124.0&gt;&gt;
 
-* Uk-cy (U+0478): L&lt;&lt;434.0,1124.0&gt;--&lt;544.0,840.0&gt;&gt; -&gt; L&lt;&lt;544.0,840.0&gt;--&lt;566.0,768.0&gt;&gt;
+* Uk-cy (U+0478): L&lt;&lt;542.0,1124.0&gt;--&lt;652.0,840.0&gt;&gt; -&gt; L&lt;&lt;652.0,840.0&gt;--&lt;674.0,768.0&gt;&gt;
 
-* Uk-cy (U+0478): L&lt;&lt;566.0,768.0&gt;--&lt;608.0,838.0&gt;&gt; -&gt; L&lt;&lt;608.0,838.0&gt;--&lt;821.0,1124.0&gt;&gt;
+* Uk-cy (U+0478): L&lt;&lt;674.0,768.0&gt;--&lt;717.0,838.0&gt;&gt; -&gt; L&lt;&lt;717.0,838.0&gt;--&lt;929.0,1124.0&gt;&gt;
 
-* Yusbigiotified-cy (U+046C): L&lt;&lt;262.0,127.0&gt;--&lt;400.0,479.0&gt;&gt; -&gt; L&lt;&lt;400.0,479.0&gt;--&lt;425.0,543.0&gt;&gt;
+* Yusbigiotified-cy (U+046C): L&lt;&lt;372.0,127.0&gt;--&lt;510.0,479.0&gt;&gt; -&gt; L&lt;&lt;510.0,479.0&gt;--&lt;536.0,543.0&gt;&gt;
 
-* Yuslittle-cy (U+0466): L&lt;&lt;620.0,1108.0&gt;--&lt;536.0,887.0&gt;&gt; -&gt; L&lt;&lt;536.0,887.0&gt;--&lt;397.0,553.0&gt;&gt;
+* Yuslittle-cy (U+0466): L&lt;&lt;732.0,1108.0&gt;--&lt;648.0,887.0&gt;&gt; -&gt; L&lt;&lt;648.0,887.0&gt;--&lt;510.0,553.0&gt;&gt;
 
-* Yuslittle-cy (U+0466): L&lt;&lt;627.0,891.0&gt;--&lt;621.0,1014.0&gt;&gt; -&gt; L&lt;&lt;621.0,1014.0&gt;--&lt;620.0,1108.0&gt;&gt;
+* Yuslittle-cy (U+0466): L&lt;&lt;739.0,891.0&gt;--&lt;734.0,1014.0&gt;&gt; -&gt; L&lt;&lt;734.0,1014.0&gt;--&lt;732.0,1108.0&gt;&gt;
 
-* Yuslittle-cy (U+0466): L&lt;&lt;652.0,489.0&gt;--&lt;627.0,891.0&gt;&gt; -&gt; L&lt;&lt;627.0,891.0&gt;--&lt;621.0,1014.0&gt;&gt;
+* Yuslittle-cy (U+0466): L&lt;&lt;764.0,489.0&gt;--&lt;739.0,891.0&gt;&gt; -&gt; L&lt;&lt;739.0,891.0&gt;--&lt;734.0,1014.0&gt;&gt;
 
-* Zhedescender-cy (U+0496): L&lt;&lt;421.0,127.0&gt;--&lt;463.0,365.0&gt;&gt; -&gt; L&lt;&lt;463.0,365.0&gt;--&lt;467.0,399.0&gt;&gt;
+* Zhedescender-cy (U+0496): L&lt;&lt;501.0,127.0&gt;--&lt;543.0,365.0&gt;&gt; -&gt; L&lt;&lt;543.0,365.0&gt;--&lt;547.0,399.0&gt;&gt;
 
-* Zhedescender-cy (U+0496): L&lt;&lt;588.0,401.0&gt;--&lt;580.0,365.0&gt;&gt; -&gt; L&lt;&lt;580.0,365.0&gt;--&lt;538.0,127.0&gt;&gt;
+* Zhedescender-cy (U+0496): L&lt;&lt;669.0,401.0&gt;--&lt;660.0,365.0&gt;&gt; -&gt; L&lt;&lt;660.0,365.0&gt;--&lt;618.0,127.0&gt;&gt;
 
-* Zhedescender-cy (U+0496): L&lt;&lt;725.0,598.0&gt;--&lt;606.0,430.0&gt;&gt; -&gt; L&lt;&lt;606.0,430.0&gt;--&lt;588.0,401.0&gt;&gt;
+* Zhedescender-cy (U+0496): L&lt;&lt;805.0,598.0&gt;--&lt;686.0,430.0&gt;&gt; -&gt; L&lt;&lt;686.0,430.0&gt;--&lt;669.0,401.0&gt;&gt;
 
-* angleright (U+232A): L&lt;&lt;440.0,1348.0&gt;--&lt;567.0,1079.0&gt;&gt; -&gt; L&lt;&lt;567.0,1079.0&gt;--&lt;715.0,768.0&gt;&gt;
+* angleright (U+232A): L&lt;&lt;551.0,1348.0&gt;--&lt;677.0,1079.0&gt;&gt; -&gt; L&lt;&lt;677.0,1079.0&gt;--&lt;825.0,768.0&gt;&gt;
 
-* angleright (U+232A): L&lt;&lt;730.0,563.0&gt;--&lt;259.0,-6.0&gt;&gt; -&gt; L&lt;&lt;259.0,-6.0&gt;--&lt;173.0,-111.0&gt;&gt;
+* angleright (U+232A): L&lt;&lt;840.0,563.0&gt;--&lt;370.0,-6.0&gt;&gt; -&gt; L&lt;&lt;370.0,-6.0&gt;--&lt;283.0,-111.0&gt;&gt;
 
-* annisfabove-ar (U+08DC): L&lt;&lt;322.0,1093.0&gt;--&lt;324.0,1093.0&gt;&gt; -&gt; L&lt;&lt;324.0,1093.0&gt;--&lt;343.0,1093.0&gt;&gt;
+* commercialMinusSign (U+2052): L&lt;&lt;185.0,162.0&gt;--&lt;281.0,297.0&gt;&gt; -&gt; L&lt;&lt;281.0,297.0&gt;--&lt;890.0,1145.0&gt;&gt;
 
-* annisfabove-ar (U+08DC): L&lt;&lt;626.0,1093.0&gt;--&lt;675.0,1093.0&gt;&gt; -&gt; L&lt;&lt;675.0,1093.0&gt;--&lt;675.0,1093.0&gt;&gt;
+* commercialMinusSign (U+2052): L&lt;&lt;281.0,297.0&gt;--&lt;890.0,1145.0&gt;&gt; -&gt; L&lt;&lt;890.0,1145.0&gt;--&lt;1037.0,1348.0&gt;&gt;
 
-* arrubabove-ar (U+08D4): L&lt;&lt;282.0,1092.0&gt;--&lt;347.0,1092.0&gt;&gt; -&gt; L&lt;&lt;347.0,1092.0&gt;--&lt;347.0,1092.0&gt;&gt;
+* ghemiddlehook-cy (U+0495): L&lt;&lt;524.0,547.0&gt;--&lt;641.0,547.0&gt;&gt; -&gt; L&lt;&lt;641.0,547.0&gt;--&lt;721.0,545.0&gt;&gt;
 
-* arrubabove-ar (U+08D4): L&lt;&lt;347.0,1092.0&gt;--&lt;347.0,1092.0&gt;&gt; -&gt; L&lt;&lt;347.0,1092.0&gt;--&lt;448.0,1092.0&gt;&gt;
+* gnaborretni (U+2E18): L&lt;&lt;368.0,-338.0&gt;--&lt;396.0,-203.0&gt;&gt; -&gt; L&lt;&lt;396.0,-203.0&gt;--&lt;428.0,-33.0&gt;&gt;
 
-* arrubabove-ar (U+08D4): L&lt;&lt;783.0,1092.0&gt;--&lt;798.0,1092.0&gt;&gt; -&gt; L&lt;&lt;798.0,1092.0&gt;--&lt;798.0,1092.0&gt;&gt;
+* gnaborretni (U+2E18): L&lt;&lt;602.0,178.0&gt;--&lt;566.0,-51.0&gt;&gt; -&gt; L&lt;&lt;566.0,-51.0&gt;--&lt;524.0,-340.0&gt;&gt;
 
-* arrubabove-ar (U+08D4): L&lt;&lt;798.0,1092.0&gt;--&lt;798.0,1092.0&gt;&gt; -&gt; L&lt;&lt;798.0,1092.0&gt;--&lt;827.0,1092.0&gt;&gt;
+* interrobang (U+203D): L&lt;&lt;580.0,618.0&gt;--&lt;617.0,848.0&gt;&gt; -&gt; L&lt;&lt;617.0,848.0&gt;--&lt;659.0,1137.0&gt;&gt;
 
-* assajdaabove-ar (U+08DB): L&lt;&lt;860.0,1063.0&gt;--&lt;861.0,1063.0&gt;&gt; -&gt; L&lt;&lt;861.0,1063.0&gt;--&lt;861.0,1063.0&gt;&gt;
+* interrobang (U+203D): L&lt;&lt;814.0,1135.0&gt;--&lt;788.0,999.0&gt;&gt; -&gt; L&lt;&lt;788.0,999.0&gt;--&lt;754.0,829.0&gt;&gt;
 
-* assajdaabove-ar (U+08DB): L&lt;&lt;861.0,1063.0&gt;--&lt;861.0,1063.0&gt;&gt; -&gt; L&lt;&lt;861.0,1063.0&gt;--&lt;868.0,1063.0&gt;&gt;
+* izhitsa-cy (U+0475): L&lt;&lt;463.0,756.0&gt;--&lt;527.0,225.0&gt;&gt; -&gt; L&lt;&lt;527.0,225.0&gt;--&lt;535.0,143.0&gt;&gt;
 
-* asterisk-ar (U+066D): L&lt;&lt;477.0,471.0&gt;--&lt;551.0,831.0&gt;&gt; -&gt; L&lt;&lt;551.0,831.0&gt;--&lt;553.0,842.0&gt;&gt;
+* izhitsadblgrave-cy (U+0477): L&lt;&lt;465.0,756.0&gt;--&lt;532.0,225.0&gt;&gt; -&gt; L&lt;&lt;532.0,225.0&gt;--&lt;537.0,143.0&gt;&gt;
 
-* commercialMinusSign (U+2052): L&lt;&lt;156.0,297.0&gt;--&lt;764.0,1145.0&gt;&gt; -&gt; L&lt;&lt;764.0,1145.0&gt;--&lt;911.0,1348.0&gt;&gt;
+* psi (U+03C8): L&lt;&lt;396.0,-424.0&gt;--&lt;429.0,-215.0&gt;&gt; -&gt; L&lt;&lt;429.0,-215.0&gt;--&lt;466.0,-6.0&gt;&gt;
 
-* commercialMinusSign (U+2052): L&lt;&lt;59.0,162.0&gt;--&lt;156.0,297.0&gt;&gt; -&gt; L&lt;&lt;156.0,297.0&gt;--&lt;764.0,1145.0&gt;&gt;
+* thousand-cy (U+0482): L&lt;&lt;472.0,227.0&gt;--&lt;562.0,250.0&gt;&gt; -&gt; L&lt;&lt;562.0,250.0&gt;--&lt;661.0,268.0&gt;&gt;
 
-* ghemiddlehook-cy (U+0495): L&lt;&lt;488.0,547.0&gt;--&lt;605.0,547.0&gt;&gt; -&gt; L&lt;&lt;605.0,547.0&gt;--&lt;685.0,545.0&gt;&gt;
+* yusbig-cy (U+046B): L&lt;&lt;512.0,756.0&gt;--&lt;594.0,621.0&gt;&gt; -&gt; L&lt;&lt;594.0,621.0&gt;--&lt;627.0,563.0&gt;&gt;
 
-* gnaborretni (U+2E18): L&lt;&lt;344.0,-338.0&gt;--&lt;372.0,-203.0&gt;&gt; -&gt; L&lt;&lt;372.0,-203.0&gt;--&lt;404.0,-33.0&gt;&gt;
+* yusbigiotified-cy (U+046D): L&lt;&lt;368.0,127.0&gt;--&lt;472.0,338.0&gt;&gt; -&gt; L&lt;&lt;472.0,338.0&gt;--&lt;493.0,379.0&gt;&gt;
 
-* gnaborretni (U+2E18): L&lt;&lt;578.0,178.0&gt;--&lt;542.0,-51.0&gt;&gt; -&gt; L&lt;&lt;542.0,-51.0&gt;--&lt;500.0,-340.0&gt;&gt;
+* yusbigiotified-cy (U+046D): L&lt;&lt;472.0,338.0&gt;--&lt;493.0,379.0&gt;&gt; -&gt; L&lt;&lt;493.0,379.0&gt;--&lt;521.0,424.0&gt;&gt;
 
-* interrobang (U+203D): L&lt;&lt;447.0,618.0&gt;--&lt;483.0,848.0&gt;&gt; -&gt; L&lt;&lt;483.0,848.0&gt;--&lt;526.0,1137.0&gt;&gt;
+* zedescender-cy (U+0499): L&lt;&lt;465.0,117.0&gt;--&lt;504.0,117.0&gt;&gt; -&gt; L&lt;&lt;504.0,117.0&gt;--&lt;528.0,115.0&gt;&gt;
 
-* interrobang (U+203D): L&lt;&lt;681.0,1135.0&gt;--&lt;655.0,999.0&gt;&gt; -&gt; L&lt;&lt;655.0,999.0&gt;--&lt;621.0,829.0&gt;&gt;
+* zhedescender-cy (U+0497): L&lt;&lt;499.0,127.0&gt;--&lt;524.0,266.0&gt;&gt; -&gt; L&lt;&lt;524.0,266.0&gt;--&lt;527.0,293.0&gt;&gt;
 
-* izhitsa-cy (U+0475): L&lt;&lt;386.0,756.0&gt;--&lt;449.0,225.0&gt;&gt; -&gt; L&lt;&lt;449.0,225.0&gt;--&lt;458.0,143.0&gt;&gt;
+* zhedescender-cy (U+0497): L&lt;&lt;727.0,756.0&gt;--&lt;689.0,539.0&gt;&gt; -&gt; L&lt;&lt;689.0,539.0&gt;--&lt;683.0,492.0&gt;&gt; 
 
-* izhitsadblgrave-cy (U+0477): L&lt;&lt;351.0,756.0&gt;--&lt;418.0,225.0&gt;&gt; -&gt; L&lt;&lt;418.0,225.0&gt;--&lt;423.0,143.0&gt;&gt;
-
-* psi (U+03C8): L&lt;&lt;321.0,-424.0&gt;--&lt;354.0,-215.0&gt;&gt; -&gt; L&lt;&lt;354.0,-215.0&gt;--&lt;390.0,-6.0&gt;&gt;
-
-* psi (U+03C8): L&lt;&lt;416.0,137.0&gt;--&lt;516.0,705.0&gt;&gt; -&gt; L&lt;&lt;516.0,705.0&gt;--&lt;573.0,1030.0&gt;&gt;
-
-* qifabove-ar (U+08DE): L&lt;&lt;490.0,1093.0&gt;--&lt;499.0,1093.0&gt;&gt; -&gt; L&lt;&lt;499.0,1093.0&gt;--&lt;499.0,1093.0&gt;&gt;
-
-* qifabove-ar (U+08DE): L&lt;&lt;499.0,1093.0&gt;--&lt;499.0,1093.0&gt;&gt; -&gt; L&lt;&lt;499.0,1093.0&gt;--&lt;501.0,1093.0&gt;&gt;
-
-* qifabove-ar (U+08DE): L&lt;&lt;499.0,1093.0&gt;--&lt;501.0,1093.0&gt;&gt; -&gt; L&lt;&lt;501.0,1093.0&gt;--&lt;789.0,1093.0&gt;&gt;
-
-* thousand-cy (U+0482): L&lt;&lt;453.0,227.0&gt;--&lt;543.0,250.0&gt;&gt; -&gt; L&lt;&lt;543.0,250.0&gt;--&lt;643.0,268.0&gt;&gt;
-
-* yusbig-cy (U+046B): L&lt;&lt;435.0,756.0&gt;--&lt;517.0,621.0&gt;&gt; -&gt; L&lt;&lt;517.0,621.0&gt;--&lt;550.0,563.0&gt;&gt;
-
-* yusbigiotified-cy (U+046D): L&lt;&lt;291.0,127.0&gt;--&lt;394.0,338.0&gt;&gt; -&gt; L&lt;&lt;394.0,338.0&gt;--&lt;415.0,379.0&gt;&gt;
-
-* yusbigiotified-cy (U+046D): L&lt;&lt;394.0,338.0&gt;--&lt;415.0,379.0&gt;&gt; -&gt; L&lt;&lt;415.0,379.0&gt;--&lt;443.0,424.0&gt;&gt;
-
-* zedescender-cy (U+0499): L&lt;&lt;428.0,117.0&gt;--&lt;467.0,117.0&gt;&gt; -&gt; L&lt;&lt;467.0,117.0&gt;--&lt;492.0,115.0&gt;&gt;
-
-* zhedescender-cy (U+0497): L&lt;&lt;447.0,127.0&gt;--&lt;471.0,266.0&gt;&gt; -&gt; L&lt;&lt;471.0,266.0&gt;--&lt;474.0,293.0&gt;&gt;
-
-* zhedescender-cy (U+0497): L&lt;&lt;675.0,756.0&gt;--&lt;636.0,539.0&gt;&gt; -&gt; L&lt;&lt;636.0,539.0&gt;--&lt;630.0,492.0&gt;&gt; 
-
-* zhedescender-cy (U+0497): L&lt;&lt;705.0,418.0&gt;--&lt;613.0,315.0&gt;&gt; -&gt; L&lt;&lt;613.0,315.0&gt;--&lt;597.0,295.0&gt;&gt; [code: found-colinear-vectors]
+* zhedescender-cy (U+0497): L&lt;&lt;758.0,418.0&gt;--&lt;666.0,315.0&gt;&gt; -&gt; L&lt;&lt;666.0,315.0&gt;--&lt;650.0,295.0&gt;&gt; [code: found-colinear-vectors]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any jaggy segments?</h3>
@@ -2785,61 +2762,45 @@ VS1 (U+FE00), VS10 (U+FE09), VS11 (U+FE0A), VS12 (U+FE0B), VS13 (U+FE0C), VS14 (
 </code></pre>
 </span></li></ul></div></details>
 <details><summary>⚠️ <strong>fonts/ttf/CourierBadi-Italic.ttf</strong></summary><div><ul><li class='details_item'><span class='details_indicator'>⚠️ WARN</span><span class='details_text'><p>The following glyphs have jaggy segments:</p>
-<pre><code>* Emtail-cy (U+04CD): B&lt;&lt;380.5,1044.0&gt;-&lt;376.0,1086.0&gt;-&lt;375.0,1108.0&gt;&gt;/L&lt;&lt;375.0,1108.0&gt;--&lt;202.0,127.0&gt;&gt; = 12.603878154295307
+<pre><code>* Emtail-cy (U+04CD): B&lt;&lt;460.5,1044.0&gt;-&lt;456.0,1086.0&gt;-&lt;455.0,1108.0&gt;&gt;/L&lt;&lt;455.0,1108.0&gt;--&lt;282.0,127.0&gt;&gt; = 12.603878154295307
 
-* Emtail-cy (U+04CD): L&lt;&lt;921.0,1055.0&gt;--&lt;928.0,1108.0&gt;&gt;/B&lt;&lt;928.0,1108.0&gt;-&lt;921.0,1087.0&gt;-&lt;895.5,1032.0&gt;&gt; = 10.911128384283376
+* Emtail-cy (U+04CD): L&lt;&lt;1001.0,1055.0&gt;--&lt;1008.0,1108.0&gt;&gt;/B&lt;&lt;1008.0,1108.0&gt;-&lt;1001.0,1087.0&gt;-&lt;975.5,1032.0&gt;&gt; = 10.911128384283376
 
-* Iishorttail-cy (U+048A): L&lt;&lt;360.0,1124.0&gt;--&lt;209.0,270.0&gt;&gt;/B&lt;&lt;209.0,270.0&gt;-&lt;230.0,329.0&gt;-&lt;384.0,529.5&gt;&gt; = 9.565166501679286
+* Iishorttail-cy (U+048A): L&lt;&lt;481.0,1124.0&gt;--&lt;331.0,270.0&gt;&gt;/B&lt;&lt;331.0,270.0&gt;-&lt;351.0,329.0&gt;-&lt;505.5,529.5&gt;&gt; = 8.763742651450915
 
-* Iishorttail-cy (U+048A): L&lt;&lt;689.0,127.0&gt;--&lt;840.0,981.0&gt;&gt;/B&lt;&lt;840.0,981.0&gt;-&lt;829.0,949.0&gt;-&lt;779.5,878.0&gt;&gt; = 8.943292419114242
+* Iishorttail-cy (U+048A): L&lt;&lt;810.0,127.0&gt;--&lt;961.0,981.0&gt;&gt;/B&lt;&lt;961.0,981.0&gt;-&lt;950.0,949.0&gt;-&lt;900.5,878.0&gt;&gt; = 8.943292419114242
 
-* Izhitsa-cy (U+0474): B&lt;&lt;398.0,204.5&gt;-&lt;397.0,169.0&gt;-&lt;395.0,143.0&gt;&gt;/B&lt;&lt;395.0,143.0&gt;-&lt;405.0,187.0&gt;-&lt;440.5,286.0&gt;&gt; = 8.405560710291214
+* Izhitsa-cy (U+0474): B&lt;&lt;509.0,204.5&gt;-&lt;508.0,169.0&gt;-&lt;506.0,143.0&gt;&gt;/B&lt;&lt;506.0,143.0&gt;-&lt;516.0,187.0&gt;-&lt;551.5,286.0&gt;&gt; = 8.405560710291214
 
-* Izhitsadblgrave-cy (U+0476): B&lt;&lt;365.0,275.0&gt;-&lt;365.0,189.0&gt;-&lt;362.0,143.0&gt;&gt;/B&lt;&lt;362.0,143.0&gt;-&lt;370.0,180.0&gt;-&lt;399.5,263.5&gt;&gt; = 8.469071728220317
+* Izhitsadblgrave-cy (U+0476): B&lt;&lt;509.0,275.0&gt;-&lt;509.0,189.0&gt;-&lt;506.0,143.0&gt;&gt;/B&lt;&lt;506.0,143.0&gt;-&lt;515.0,180.0&gt;-&lt;544.0,263.5&gt;&gt; = 9.939910133035372
 
-* Mu (U+039C): L&lt;&lt;727.0,125.0&gt;--&lt;899.0,1102.0&gt;&gt;/B&lt;&lt;899.0,1102.0&gt;-&lt;888.0,1075.0&gt;-&lt;861.5,1018.5&gt;&gt; = 12.181786191984422
+* Mu (U+039C): L&lt;&lt;837.0,125.0&gt;--&lt;1009.0,1102.0&gt;&gt;/B&lt;&lt;1009.0,1102.0&gt;-&lt;999.0,1075.0&gt;-&lt;972.0,1018.5&gt;&gt; = 10.338577199564888
 
-* Upsilondasia (U+1F59): B&lt;&lt;752.0,1060.0&gt;-&lt;752.0,1025.0&gt;-&lt;749.0,983.0&gt;&gt;/B&lt;&lt;749.0,983.0&gt;-&lt;790.0,1134.0&gt;-&lt;843.0,1204.0&gt;&gt; = 11.10526901331856
+* Upsilondasia (U+1F59): B&lt;&lt;864.0,1060.0&gt;-&lt;864.0,1025.0&gt;-&lt;861.0,983.0&gt;&gt;/B&lt;&lt;861.0,983.0&gt;-&lt;902.0,1134.0&gt;-&lt;955.5,1204.0&gt;&gt; = 11.10526901331856
 
-* Upsilondasiaoxia (U+1F5D): B&lt;&lt;783.0,1058.0&gt;-&lt;783.0,1023.0&gt;-&lt;780.0,983.0&gt;&gt;/B&lt;&lt;780.0,983.0&gt;-&lt;820.0,1134.0&gt;-&lt;873.5,1204.0&gt;&gt; = 10.547755432741646
+* Upsilondasiaoxia (U+1F5D): B&lt;&lt;895.0,1058.0&gt;-&lt;895.0,1023.0&gt;-&lt;892.0,983.0&gt;&gt;/B&lt;&lt;892.0,983.0&gt;-&lt;932.0,1134.0&gt;-&lt;986.0,1204.0&gt;&gt; = 10.547755432741646
 
-* Upsilondasiaperispomeni (U+1F5F): B&lt;&lt;764.0,1058.0&gt;-&lt;764.0,1023.0&gt;-&lt;761.0,983.0&gt;&gt;/B&lt;&lt;761.0,983.0&gt;-&lt;801.0,1134.0&gt;-&lt;854.5,1204.0&gt;&gt; = 10.547755432741646
+* Upsilondasiaperispomeni (U+1F5F): B&lt;&lt;885.0,1058.0&gt;-&lt;885.0,1023.0&gt;-&lt;882.0,983.0&gt;&gt;/B&lt;&lt;882.0,983.0&gt;-&lt;922.0,1134.0&gt;-&lt;975.5,1204.0&gt;&gt; = 10.547755432741646
 
-* Upsilondasiavaria (U+1F5B): B&lt;&lt;783.0,1058.0&gt;-&lt;783.0,1023.0&gt;-&lt;780.0,983.0&gt;&gt;/B&lt;&lt;780.0,983.0&gt;-&lt;820.0,1134.0&gt;-&lt;873.5,1204.0&gt;&gt; = 10.547755432741646
+* Upsilondasiavaria (U+1F5B): B&lt;&lt;895.0,1058.0&gt;-&lt;895.0,1023.0&gt;-&lt;892.0,983.0&gt;&gt;/B&lt;&lt;892.0,983.0&gt;-&lt;932.0,1134.0&gt;-&lt;986.0,1204.0&gt;&gt; = 10.547755432741646
 
-* Upsilonoxia (U+1FEB): B&lt;&lt;730.0,1044.0&gt;-&lt;730.0,1016.0&gt;-&lt;728.0,983.0&gt;&gt;/B&lt;&lt;728.0,983.0&gt;-&lt;769.0,1134.0&gt;-&lt;827.0,1204.0&gt;&gt; = 11.722656534376283
+* Upsilonoxia (U+1FEB): B&lt;&lt;845.0,1044.0&gt;-&lt;845.0,1016.0&gt;-&lt;843.0,983.0&gt;&gt;/B&lt;&lt;843.0,983.0&gt;-&lt;885.0,1134.0&gt;-&lt;943.0,1204.0&gt;&gt; = 12.075449967784303
 
-* Upsilontonos (U+038E): B&lt;&lt;730.0,1044.0&gt;-&lt;730.0,1016.0&gt;-&lt;728.0,983.0&gt;&gt;/B&lt;&lt;728.0,983.0&gt;-&lt;769.0,1134.0&gt;-&lt;827.0,1204.0&gt;&gt; = 11.722656534376283
+* Upsilontonos (U+038E): B&lt;&lt;845.0,1044.0&gt;-&lt;845.0,1016.0&gt;-&lt;843.0,983.0&gt;&gt;/B&lt;&lt;843.0,983.0&gt;-&lt;885.0,1134.0&gt;-&lt;943.0,1204.0&gt;&gt; = 12.075449967784303
 
-* Upsilonvaria (U+1FEA): B&lt;&lt;744.0,1044.0&gt;-&lt;744.0,1016.0&gt;-&lt;742.0,983.0&gt;&gt;/B&lt;&lt;742.0,983.0&gt;-&lt;784.0,1134.0&gt;-&lt;841.5,1204.0&gt;&gt; = 12.075449967784303
+* Upsilonvaria (U+1FEA): B&lt;&lt;859.0,1044.0&gt;-&lt;859.0,1016.0&gt;-&lt;857.0,983.0&gt;&gt;/B&lt;&lt;857.0,983.0&gt;-&lt;900.0,1134.0&gt;-&lt;957.5,1204.0&gt;&gt; = 12.427039113664158
 
-* Yuslittle-cy (U+0466): L&lt;&lt;647.0,553.0&gt;--&lt;652.0,489.0&gt;&gt;/L&lt;&lt;652.0,489.0&gt;--&lt;627.0,891.0&gt;&gt; = 0.9085715588344316
+* Yuslittle-cy (U+0466): L&lt;&lt;760.0,553.0&gt;--&lt;764.0,489.0&gt;&gt;/L&lt;&lt;764.0,489.0&gt;--&lt;739.0,891.0&gt;&gt; = 0.01774687243908398
 
-* Yuslittleiotified-cy (U+0468): B&lt;&lt;760.0,960.0&gt;-&lt;767.0,1042.0&gt;-&lt;779.0,1108.0&gt;&gt;/B&lt;&lt;779.0,1108.0&gt;-&lt;747.0,960.0&gt;-&lt;706.0,824.0&gt;&gt; = 1.895622258614662
+* Yuslittleiotified-cy (U+0468): B&lt;&lt;872.5,960.0&gt;-&lt;880.0,1042.0&gt;-&lt;891.0,1108.0&gt;&gt;/B&lt;&lt;891.0,1108.0&gt;-&lt;859.0,960.0&gt;-&lt;818.0,824.0&gt;&gt; = 2.738146519354986
 
-* alphadasiaperispomeniypogegrammeni (U+1F87): B&lt;&lt;692.5,639.5&gt;-&lt;707.0,578.0&gt;-&lt;715.0,530.0&gt;&gt;/L&lt;&lt;715.0,530.0&gt;--&lt;715.0,535.0&gt;&gt; = 9.462322208025613
+* narrownbspace (U+202F): B&lt;&lt;765.0,996.0&gt;-&lt;756.0,1001.0&gt;-&lt;754.0,1026.0&gt;&gt;/L&lt;&lt;754.0,1026.0&gt;--&lt;754.0,1024.0&gt;&gt; = 4.573921259900818
 
-* alphamacron (U+1FB1): B&lt;&lt;677.5,639.5&gt;-&lt;692.0,578.0&gt;-&lt;700.0,530.0&gt;&gt;/L&lt;&lt;700.0,530.0&gt;--&lt;700.0,535.0&gt;&gt; = 9.462322208025613
+* narrownbspace (U+202F): L&lt;&lt;463.0,698.0&gt;--&lt;461.0,698.0&gt;&gt;/B&lt;&lt;461.0,698.0&gt;-&lt;478.0,694.0&gt;-&lt;497.5,686.5&gt;&gt; = 13.240519915187184
 
-* alphapsiliperispomeniypogegrammeni (U+1F86): B&lt;&lt;692.5,639.5&gt;-&lt;707.0,578.0&gt;-&lt;715.0,530.0&gt;&gt;/L&lt;&lt;715.0,530.0&gt;--&lt;715.0,535.0&gt;&gt; = 9.462322208025613
+* narrownbspace (U+202F): L&lt;&lt;754.0,1026.0&gt;--&lt;754.0,1024.0&gt;&gt;/B&lt;&lt;754.0,1024.0&gt;-&lt;750.0,1055.0&gt;-&lt;747.0,1086.5&gt;&gt; = 7.352379359892374 
 
-* annisfabove-ar (U+08DC): L&lt;&lt;792.0,1044.0&gt;--&lt;793.0,1044.0&gt;&gt;/B&lt;&lt;793.0,1044.0&gt;-&lt;760.0,1045.0&gt;-&lt;748.5,1059.0&gt;&gt; = 1.735704588928346
-
-* assajdaabove-ar (U+08DB): L&lt;&lt;851.0,1028.0&gt;--&lt;851.0,1028.0&gt;&gt;/B&lt;&lt;851.0,1028.0&gt;-&lt;832.0,1029.0&gt;-&lt;822.5,1038.5&gt;&gt; = 3.012787504183286
-
-* narrownbspace (U+202F): B&lt;&lt;597.0,996.0&gt;-&lt;588.0,1001.0&gt;-&lt;586.0,1026.0&gt;&gt;/L&lt;&lt;586.0,1026.0&gt;--&lt;586.0,1024.0&gt;&gt; = 4.573921259900818
-
-* narrownbspace (U+202F): L&lt;&lt;295.0,698.0&gt;--&lt;293.0,698.0&gt;&gt;/B&lt;&lt;293.0,698.0&gt;-&lt;310.0,694.0&gt;-&lt;329.5,686.5&gt;&gt; = 13.240519915187184
-
-* narrownbspace (U+202F): L&lt;&lt;586.0,1026.0&gt;--&lt;586.0,1024.0&gt;&gt;/B&lt;&lt;586.0,1024.0&gt;-&lt;582.0,1055.0&gt;-&lt;579.0,1086.5&gt;&gt; = 7.352379359892374
-
-* saktaabove-ar (U+08DD): L&lt;&lt;417.0,1047.0&gt;--&lt;417.0,1047.0&gt;&gt;/B&lt;&lt;417.0,1047.0&gt;-&lt;387.0,1049.0&gt;-&lt;375.5,1062.5&gt;&gt; = 3.8140748342903783
-
-* yehKashmiri-ar (U+0620): B&lt;&lt;542.0,21.0&gt;-&lt;556.0,21.0&gt;-&lt;569.0,20.0&gt;&gt;/B&lt;&lt;569.0,20.0&gt;-&lt;524.0,14.0&gt;-&lt;474.0,12.0&gt;&gt; = 11.993348723586953
-
-* yehKashmiri-ar (U+0620): B&lt;&lt;726.0,-81.0&gt;-&lt;679.0,9.0&gt;-&lt;569.0,20.0&gt;&gt;/B&lt;&lt;569.0,20.0&gt;-&lt;683.0,35.0&gt;-&lt;751.5,76.0&gt;&gt; = 13.206450777229495 
-
-* zerowidthnonjoiner (U+200C): B&lt;&lt;800.0,1159.0&gt;-&lt;800.0,1166.0&gt;-&lt;801.0,1171.0&gt;&gt;/B&lt;&lt;801.0,1171.0&gt;-&lt;788.0,1135.0&gt;-&lt;772.5,1094.5&gt;&gt; = 8.545281895300802 [code: found-jaggy-segments]
+* yehKashmiri-ar (U+0620): B&lt;&lt;775.0,-81.0&gt;-&lt;727.0,8.0&gt;-&lt;618.0,20.0&gt;&gt;/B&lt;&lt;618.0,20.0&gt;-&lt;732.0,36.0&gt;-&lt;800.0,76.5&gt;&gt; = 14.271818854558248 [code: found-jaggy-segments]
 </code></pre>
 </span></li></ul></div></details>
 <h3>Do outlines contain any semi-vertical or semi-horizontal lines?</h3>
