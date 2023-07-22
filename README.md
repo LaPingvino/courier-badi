@@ -35,6 +35,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+**22 July 2023. Version 0.520**
+- Fixed the gaps in Italic. Corrected skew for Italic. Corrected position of Bahá'í star in Italic.
+
 **14 July 2023. Version 0.510**
 - Corrected the width of the merge so it is actually true monospace. Kinda breaks the catalan middle dot,
   not sure what to do about that, might add a ligature for that later.
