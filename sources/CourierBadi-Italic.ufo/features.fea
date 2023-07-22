@@ -57,22 +57,6 @@ lookup caseCaseSensitiveFormslookup10 {
     sub \tilde by \tilde.case ;
 } caseCaseSensitiveFormslookup10;
 
-lookup CourierBadiRegularloclLocalizedFormsinLatinlookup2 {
-  lookupflag 0;
-    sub  \L' \periodcentered' \L   by  ;
-    sub  \l' \periodcentered' \l   by  ;
-} CourierBadiRegularloclLocalizedFormsinLatinlookup2;
-
-lookup CourierBadiRegularSingleSubstitutionlookup7 {
-  lookupflag 0;
-} CourierBadiRegularSingleSubstitutionlookup7;
-
-lookup CourierBadiRegularordnOrdinalslookup6 {
-  lookupflag 0;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\A \a ]'lookup CourierBadiRegularSingleSubstitutionlookup7  ;
-    sub [\eight \five \four \nine \one \seven \six \three \two \zero ] [\O \o ]'lookup CourierBadiRegularSingleSubstitutionlookup7  ;
-} CourierBadiRegularordnOrdinalslookup6;
-
 feature locl {
 
  script latn;
@@ -80,10 +64,8 @@ feature locl {
       lookup loclLocalizedFormsinLatinlookup0;
       lookup loclLocalizedFormsinLatinlookup1;
       lookup loclLocalizedFormsinLatinlookup2;
-      lookup CourierBadiRegularloclLocalizedFormsinLatinlookup2;
      language CAT  exclude_dflt;
       lookup loclLocalizedFormsinLatinlookup2;
-      lookup CourierBadiRegularloclLocalizedFormsinLatinlookup2;
      language MOL  exclude_dflt;
       lookup loclLocalizedFormsinLatinlookup1;
      language ROM  exclude_dflt;
@@ -116,26 +98,20 @@ feature ordn {
  script DFLT;
      language dflt ;
       lookup ordnOrdinalslookup7;
-      lookup CourierBadiRegularordnOrdinalslookup6;
 
  script grek;
      language dflt ;
       lookup ordnOrdinalslookup7;
-      lookup CourierBadiRegularordnOrdinalslookup6;
 
  script latn;
      language dflt ;
       lookup ordnOrdinalslookup7;
-      lookup CourierBadiRegularordnOrdinalslookup6;
      language CAT  exclude_dflt;
       lookup ordnOrdinalslookup7;
-      lookup CourierBadiRegularordnOrdinalslookup6;
      language MOL  exclude_dflt;
       lookup ordnOrdinalslookup7;
-      lookup CourierBadiRegularordnOrdinalslookup6;
      language ROM  exclude_dflt;
       lookup ordnOrdinalslookup7;
-      lookup CourierBadiRegularordnOrdinalslookup6;
 } ordn;
 
 feature case {
@@ -161,72 +137,71 @@ feature case {
 
 @GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
 	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
-	\D \Dcaron \Dcroat \Delta \E \Eacute \Ebreve \Ecaron \Ecircumflex \Edieresis 
+	\D \Dcaron \Dcroat \uni0394 \E \Eacute \Ebreve \Ecaron \Ecircumflex \Edieresis 
 	\Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G \Gbreve \Gcircumflex 
 	\Gcommaaccent \Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve 
 	\Icircumflex \Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Itilde \J 
 	\Jcircumflex \K \Kcommaaccent \L \Lacute \Lcaron \Lcommaaccent \Lslash \M \N 
 	\Nacute \Ncaron \Ncommaaccent \Ntilde \O \OE \Oacute \Obreve \Ocircumflex 
-	\Odieresis \Ograve \Ohungarumlaut \Omacron \Omega \Oslash \Otilde \P \Q \R \Racute 
-	\Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scircumflex \Scommaaccent \T 
-	\Tbar \Tcaron \Tcedilla \Tcommaaccent \Thorn \U \Uacute \Ubreve \Ucircumflex 
-	\Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \Utilde \V \W \Wacute 
-	\Wcircumflex \Wdieresis \Wgrave \X \Y \Yacute \Ycircumflex \Ydieresis \Ygrave \Z 
-	\Zacute \Zcaron \Zdotaccent \a \aacute \abreve \acircumflex \acute \adieresis \ae 
-	\agrave \amacron \ampersand \aogonek \approxequal \aring \asciicircum 
-	\asciitilde \asterisk \at \atilde \b \backslash \bar \bar.double \braceleft 
+	\Odieresis \Ograve \Ohungarumlaut \Omacron \uni03A9 \Oslash \Otilde \P \Q \R 
+	\Racute \Rcaron \Rcommaaccent \S \Sacute \Scaron \Scedilla \Scircumflex 
+	\Scommaaccent \T \Tbar \Tcaron \Tcommaaccent \uni021A \Thorn \U \Uacute \Ubreve 
+	\Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron \Uogonek \Uring \Utilde 
+	\V \W \Wacute \Wcircumflex \Wdieresis \Wgrave \X \Y \Yacute \Ycircumflex 
+	\Ydieresis \Ygrave \Z \Zacute \Zcaron \Zdotaccent \a \aacute \abreve \acircumflex 
+	\acute \adieresis \ae \agrave \amacron \ampersand \aogonek \approxequal \aring 
+	\asciicircum \asciitilde \asterisk \at \atilde \b \backslash \bar \braceleft 
 	\braceright \bracketleft \bracketright \breve \brokenbar \bullet \c \cacute 
 	\caron \caron.alt \ccaron \ccedilla \ccircumflex \cdotaccent \cedilla 
-	\cedilla.case \cent \circumflex \colon \colon.alt \comma \comma.alt 
-	\commaaccent \commaaccent.case \copyright \currency \d \dagger \daggerdbl 
-	\dcaron \dcroat \degree \dieresis \divide \dollar \dotaccent \dotlessi \dotlessj 
-	\e \eacute \ebreve \ecaron \ecircumflex \edieresis \edotaccent \egrave \eight 
-	\ellipsis \ellipsis.alt1 \ellipsis.alt2 \ellipsis.alt3 \ellipsis.alt4 
-	\ellipsis.alt5 \emacron \emdash \emdash.alt1 \emdash.alt2 \emdash.alt3 
-	\emdash.alt4 \endash \eng \eogonek \equal \eth \euro \exclam \exclamdown \f \fi 
-	\five \fl \florin \four \foursuperior \fraction \franc \g \gbreve \gcircumflex 
-	\gcommaaccent \gdotaccent \germandbls \grave \greater \greaterequal 
-	\guillemetleft \guillemetright \guilsinglleft \guilsinglright \h \hbar 
-	\hcircumflex \hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex 
-	\idieresis \idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde 
-	\j \jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \less 
-	\lessequal \logicalnot \lozenge \lslash \m \macron \minus \minute \mu \multiply \n 
-	\nacute \nbspace \ncaron \ncommaaccent \nine \nonbreakinghyphen \notequal 
-	\ntilde \numbersign \o \oacute \obreve \ocircumflex \odieresis \oe \ogonek 
-	\ogonek.case \ograve \ohungarumlaut \omacron \one \onesuperior \ordfeminine 
-	\ordmasculine \oslash \otilde \p \paragraph \parenleft \parenright \partialdiff 
-	\percent \period \period.alt \period.squat \periodcentered \perthousand \pi 
-	\plus \plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
+	\cedilla.case \cent \circumflex \colon \colon.alt \comma \comma.alt \uni0326 
+	\uni0326.case \copyright \currency \d \dagger \daggerdbl \dcaron \dcroat \degree 
+	\dieresis \divide \dollar \dotaccent \dotlessi \uni0237 \e \eacute \ebreve 
+	\ecaron \ecircumflex \edieresis \edotaccent \egrave \eight \ellipsis 
+	\ellipsis.alt1 \ellipsis.alt2 \ellipsis.alt3 \ellipsis.alt4 \ellipsis.alt5 
+	\emacron \emdash \emdash.alt1 \emdash.alt2 \emdash.alt3 \emdash.alt4 \endash 
+	\eng \eogonek \equal \eth \Euro \exclam \exclamdown \f \uniFB01 \five \uniFB02 
+	\florin \four \uni2074 \fraction \franc \g \gbreve \gcircumflex \gcommaaccent 
+	\gdotaccent \germandbls \grave \greater \greaterequal \guillemotleft 
+	\guillemotright \guilsinglleft \guilsinglright \h \hbar \hcircumflex 
+	\hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex \idieresis 
+	\idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde \j 
+	\jcircumflex \k \kcommaaccent \l \lacute \lcaron \lcommaaccent \less \lessequal 
+	\logicalnot \lozenge \lslash \m \macron \minus \minute \uni03BC \multiply \n 
+	\nacute \uni00A0 \ncaron \ncommaaccent \nine \uni2011 \notequal \ntilde 
+	\numbersign \o \oacute \obreve \ocircumflex \odieresis \oe \ogonek \ogonek.case 
+	\ograve \ohungarumlaut \omacron \one \uni00B9 \ordfeminine \ordmasculine 
+	\oslash \otilde \p \paragraph \parenleft \parenright \partialdiff \percent 
+	\period \period.alt \period.squat \periodcentered \perthousand \pi \plus 
+	\plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
 	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase 
 	\quotesingle \r \racute \radical \rcaron \rcommaaccent \registered \ring \s 
 	\sacute \scaron \scedilla \scircumflex \scommaaccent \second \section 
-	\semicolon \semicolon.alt \seven \six \slash \softhyphen \space \sterling 
-	\summation \t \tbar \tcaron \tcedilla \tcommaaccent \thorn \three \threesuperior 
-	\tilde \trademark \two \twosuperior \u \uacute \ubreve \ucircumflex \udieresis 
-	\ugrave \uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
-	\wcircumflex \wdieresis \wgrave \won \x \y \yacute \ycircumflex \ydieresis \yen 
-	\ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \diaeresiscomb \gravecomb 
-	\acutecomb \hungarumlautcmb \macroncomb \uni1E9E \dotaccentcmb 
-	\circumflexcomb \caroncomb \brevecomb \ringcmb \tildecomb 
-	\commaturnedabovecmb \cedillacmb \ogonekcmb \ddotbelow \Ddotbelow \hdotbelow 
-	\Hdotbelow \sdotbelow \Sdotbelow \tdotbelow \Tdotbelow \zdotbelow \Zdotbelow 
-	\dotbelowcmb \.null \nonmarkingreturn \NULL \uni018F \uni0259 \afii10023 
-	\afii10051 \afii10052 \afii10053 \afii10054 \afii10055 \afii10056 \afii10057 
-	\afii10058 \afii10059 \afii10060 \afii10061 \uni040D \afii10062 \afii10145 
-	\afii10017 \afii10018 \afii10019 \afii10020 \afii10021 \afii10022 \afii10024 
-	\afii10025 \afii10026 \afii10027 \afii10028 \afii10029 \afii10030 \afii10031 
-	\afii10032 \afii10033 \afii10034 \afii10035 \afii10036 \afii10037 \afii10038 
-	\afii10039 \afii10040 \afii10041 \afii10042 \afii10043 \afii10044 \afii10045 
-	\afii10046 \afii10047 \afii10048 \afii10049 \afii10065 \afii10066 \afii10067 
-	\afii10068 \afii10069 \afii10070 \afii10072 \afii10073 \afii10074 \afii10075 
-	\afii10076 \afii10077 \afii10078 \afii10079 \afii10080 \afii10081 \afii10082 
-	\afii10083 \afii10084 \afii10085 \afii10086 \afii10087 \afii10088 \afii10089 
-	\afii10090 \afii10091 \afii10092 \afii10093 \afii10094 \afii10095 \afii10096 
-	\afii10097 \afii10071 \afii10099 \afii10100 \afii10101 \afii10102 \afii10103 
-	\afii10104 \afii10105 \afii10106 \afii10107 \afii10108 \afii10109 \uni045D 
-	\afii10110 \afii10193 \afii10050 \afii10098 \uni0492 \uni0493 \uni049A \uni049B 
-	\uni04A2 \uni04A3 \uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 
-	\afii10846 \uni04E8 \uni04E9 \afii61352 \uni2215 \AEacute \Abreve-cy 
+	\semicolon \semicolon.alt \seven \six \slash \uni00AD \space \sterling 
+	\summation \t \tbar \tcaron \tcommaaccent \uni021B \thorn \three \uni00B3 \tilde 
+	\trademark \two \uni00B2 \u \uacute \ubreve \ucircumflex \udieresis \ugrave 
+	\uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
+	\wcircumflex \wdieresis \wgrave \uni20A9 \x \y \yacute \ycircumflex \ydieresis 
+	\yen \ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \uni0308 \gravecomb 
+	\acutecomb \uni030B \uni0304 \uni1E9E \uni0307 \uni0302 \uni030C \uni0306 
+	\uni030A \tildecomb \uni0312 \uni0327 \uni0328 \uni1E0D \uni1E0C \uni1E25 
+	\uni1E24 \uni1E63 \uni1E62 \uni1E6D \uni1E6C \uni1E93 \uni1E92 \dotbelowcomb 
+	\.null \uni000D \uni0000 \uni018F \uni0259 \afii10023 \afii10051 \afii10052 
+	\afii10053 \afii10054 \afii10055 \afii10056 \afii10057 \afii10058 \afii10059 
+	\afii10060 \afii10061 \uni040D \afii10062 \afii10145 \afii10017 \afii10018 
+	\afii10019 \afii10020 \afii10021 \afii10022 \afii10024 \afii10025 \afii10026 
+	\afii10027 \afii10028 \afii10029 \afii10030 \afii10031 \afii10032 \afii10033 
+	\afii10034 \afii10035 \afii10036 \afii10037 \afii10038 \afii10039 \afii10040 
+	\afii10041 \afii10042 \afii10043 \afii10044 \afii10045 \afii10046 \afii10047 
+	\afii10048 \afii10049 \afii10065 \afii10066 \afii10067 \afii10068 \afii10069 
+	\afii10070 \afii10072 \afii10073 \afii10074 \afii10075 \afii10076 \afii10077 
+	\afii10078 \afii10079 \afii10080 \afii10081 \afii10082 \afii10083 \afii10084 
+	\afii10085 \afii10086 \afii10087 \afii10088 \afii10089 \afii10090 \afii10091 
+	\afii10092 \afii10093 \afii10094 \afii10095 \afii10096 \afii10097 \afii10071 
+	\afii10099 \afii10100 \afii10101 \afii10102 \afii10103 \afii10104 \afii10105 
+	\afii10106 \afii10107 \afii10108 \afii10109 \uni045D \afii10110 \afii10193 
+	\afii10050 \afii10098 \uni0492 \uni0493 \uni049A \uni049B \uni04A2 \uni04A3 
+	\uni04AE \uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 \afii10846 
+	\uni04E8 \uni04E9 \afii61352 \uni2215 \commaaccent.case \AEacute \Abreve-cy 
 	\Abreveacute \Abrevedotbelow \Abrevegrave \Abrevehookabove \Abrevetilde 
 	\Acaron \Acircumflexacute \Acircumflexdotbelow \Acircumflexgrave 
 	\Acircumflexhookabove \Acircumflextilde \Adblgrave \Adieresis-cy \Adotbelow 
@@ -652,16 +627,16 @@ feature case {
 	\udblgrave \udieresis-cy \udieresisacute \udieresiscaron \udieresisgrave 
 	\udotbelow \uhookabove \uhorn \uhornacute \uhorndotbelow \uhorngrave 
 	\uhornhookabove \uhorntilde \uhungarumlaut-cy \uk-cy \umacron-cy \undertie 
-	\uni0326.case \uni047A \uni047B \uni047C \uni047D \uni047E \uni047F \uniFBC0 
-	\upArrow \upsilon \upsilondasia \upsilondasiaoxia \upsilondasiaperispomeni 
-	\upsilondasiavaria \upsilondialytikaoxia \upsilondialytikaperispomeni 
-	\upsilondialytikavaria \upsilondieresis \upsilondieresistonos 
-	\upsilonmacron \upsilonoxia \upsilonperispomeni \upsilonpsili 
-	\upsilonpsilioxia \upsilonpsiliperispomeni \upsilonpsilivaria \upsilontonos 
-	\upsilonvaria \upsilonvrachy \vabove-ar \varia \ve-ar \ve-ar.fina \veh-ar 
-	\veh-ar.fina \veh-ar.init \veh-ar.medi \verseComma-ar \vinvertedabove-ar 
-	\waqfaabove-ar \wasla-ar \wavyhamzabelow-ar \waw-ar \waw-ar.fina 
-	\wawDotabove-ar \wawDotabove-ar.fina \wawDotcenter-ar \wawDotcenter-ar.fina 
+	\uni047A \uni047B \uni047C \uni047D \uni047E \uni047F \uniFBC0 \upArrow \upsilon 
+	\upsilondasia \upsilondasiaoxia \upsilondasiaperispomeni \upsilondasiavaria 
+	\upsilondialytikaoxia \upsilondialytikaperispomeni \upsilondialytikavaria 
+	\upsilondieresis \upsilondieresistonos \upsilonmacron \upsilonoxia 
+	\upsilonperispomeni \upsilonpsili \upsilonpsilioxia 
+	\upsilonpsiliperispomeni \upsilonpsilivaria \upsilontonos \upsilonvaria 
+	\upsilonvrachy \vabove-ar \varia \ve-ar \ve-ar.fina \veh-ar \veh-ar.fina 
+	\veh-ar.init \veh-ar.medi \verseComma-ar \vinvertedabove-ar \waqfaabove-ar 
+	\wasla-ar \wavyhamzabelow-ar \waw-ar \waw-ar.fina \wawDotabove-ar 
+	\wawDotabove-ar.fina \wawDotcenter-ar \wawDotcenter-ar.fina 
 	\wawHamzaabove-ar \wawHamzaabove-ar.fina \wawSmall-ar \wawStraight-ar 
 	\wawStraight-ar.fina \wawThreeAbove-ar \wawThreeAbove-ar.fina 
 	\wawTwoabove-ar \wawTwoabove-ar.fina \wawTwodots-ar \wawTwodots-ar.fina 
