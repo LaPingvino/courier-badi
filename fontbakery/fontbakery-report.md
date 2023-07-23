@@ -2,7 +2,21 @@
 
 Fontbakery version: 0.8.13
 
-<details><summary><b>[23] CourierBadi-Regular.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+<details><summary><b>[24] CourierBadi-Regular.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)
@@ -791,7 +805,21 @@ The following glyphs do not have the recommended number of contours:
 	* uni1FC6 (U+1FC6): L<<866.0,-424.0>--<864.0,516.0>> 
 
 	* uni1FC7 (U+1FC7): L<<866.0,-424.0>--<864.0,516.0>> [code: found-semi-vertical]
-</div></details><br></div></details><details><summary><b>[23] CourierBadi-Italic.ttf</b></summary><div><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
+</div></details><br></div></details><details><summary><b>[23] CourierBadi-Italic.ttf</b></summary><div><details><summary>💔 <b>ERROR:</b> Familyname must be unique according to namecheck.fontdata.com (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/fontdata_namecheck">com.google.fonts/check/fontdata_namecheck</a>)</summary><div>
+
+
+* 💔 **ERROR** Failed to access: http://namecheck.fontdata.com.
+		This check relies on the external service http://namecheck.fontdata.com via the internet. While the service cannot be reached or does not respond this check is broken.
+
+		You can exclude this check with the command line option:
+		-x com.google.fonts/check/fontdata_namecheck
+
+		Or you can wait until the service is available again.
+		If the problem persists please report this issue at: https://github.com/googlefonts/fontbakery/issues
+
+		Original error message:
+		<class 'requests.exceptions.ReadTimeout'> [code: namecheck-service]
+</div></details><details><summary>🔥 <b>FAIL:</b> Check copyright namerecords match license file. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/googlefonts.html#com.google.fonts/check/name/license">com.google.fonts/check/name/license</a>)</summary><div>
 
 
 * 🔥 **FAIL** License file OFL.txt exists but NameID 13 (LICENSE DESCRIPTION) value on platform 3 (WINDOWS) is not specified for that. Value was: "Copyright (c) 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)
@@ -929,12 +957,12 @@ But instead we have got:
 </div></details><details><summary>🔥 <b>FAIL:</b> Whitespace glyphs have ink? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_ink">com.google.fonts/check/whitespace_ink</a>)</summary><div>
 
 
-* 🔥 **FAIL** Glyph "narrownbspace" has ink. It needs to be replaced by an empty glyph. [code: has-ink]
-* 🔥 **FAIL** Glyph "zeroWidthNoBreakSpace" has ink. It needs to be replaced by an empty glyph. [code: has-ink]
+* 🔥 **FAIL** Glyph "uni202F" has ink. It needs to be replaced by an empty glyph. [code: has-ink]
+* 🔥 **FAIL** Glyph "uniFEFF" has ink. It needs to be replaced by an empty glyph. [code: has-ink]
 </div></details><details><summary>🔥 <b>FAIL:</b> Glyph names are all valid? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/valid_glyphnames">com.google.fonts/check/valid_glyphnames</a>)</summary><div>
 
 
-* 🔥 **FAIL** The following glyph names do not comply with naming conventions: Abreve-cy, Adieresis-cy, Aie-cy, Cheabkhasian-cy, Chedescender-cy, Chedescenderabkhasian-cy, Chedieresis-cy, Chekhakassian-cy, Cheverticalstroke-cy, Dzeabkhasian-cy, Edieresis-cy, Eiotified-cy, Elhook-cy, Eltail-cy, Emtail-cy, Enghe-cy, Enhook-cy, Entail-cy, Ertick-cy, Esdescender-cy, Fita-cy, Gedescender-cy, Ghemiddlehook-cy, Haabkhasian-cy, Hadescender-cy, Hahook-cy, Hastroke-cy, Idieresis-cy, Iebreve-cy, Iegrave-cy, Iishorttail-cy, Imacron-cy, Izhitsa-cy, Izhitsadblgrave-cy, Kabashkir-cy, Kahook-cy, Kastroke-cy, Kaverticalstroke-cy, Koppa-cy, Ksi-cy, Obarreddieresis-cy, Odieresis-cy, Omega-cy, Palochka-cy, Pemiddlehook-cy, Psi-cy, Schwadieresis-cy, Semisoftsign-cy, Tedescender-cy, Tetse-cy, Udieresis-cy, Uhungarumlaut-cy, Uk-cy, Umacron-cy, Yat-cy, Yerudieresis-cy, Yusbig-cy, Yusbigiotified-cy, Yuslittle-cy, Yuslittleiotified-cy, Zedescender-cy, Zedieresis-cy, Zhebreve-cy, Zhedescender-cy, Zhedieresis-cy, abreve-cy, adieresis-cy, ae-ar, ae-ar.fina, afghani-ar, aie-cy, ain-ar, ain-ar.fina, ain-ar.init, ain-ar.medi, ainThreedots-ar, ainThreedots-ar.fina, ainThreedots-ar.init, ainThreedots-ar.medi, ainThreedotsbelow-ar, ainThreedotsbelow-ar.fina, ainThreedotsbelow-ar.init, ainThreedotsbelow-ar.medi, ainThreedotsdownabove-ar, ainThreedotsdownabove-ar.fina, ainThreedotsdownabove-ar.init, ainThreedotsdownabove-ar.medi, ainTwodotshorizontalabove-ar, ainTwodotshorizontalabove-ar.fina, ainTwodotshorizontalabove-ar.init, ainTwodotshorizontalabove-ar.medi, ainTwodotsverticalabove-ar, ainTwodotsverticalabove-ar.fina, ainTwodotsverticalabove-ar.init, ainTwodotsverticalabove-ar.medi, ainabove-ar, alef-ar, alef-ar.fina, alef-ar.fina.alt, alef-ar.fina.short, alef-ar.fina.shorter, alef-ar.short, alef-ar.shorter, alefHamzaabove-ar, alefHamzaabove-ar.fina, alefHamzaabove-ar.fina.alt, alefHamzabelow-ar, alefHamzabelow-ar.fina, alefHamzabelow-ar.fina.alt, alefLamYehabove-ar, alefMadda-ar, alefMadda-ar.fina, alefMadda-ar.fina.alt, alefMaksura-ar, alefMaksura-ar.fina, alefMaksura-ar.init, alefMaksura-ar.medi, alefThreeabove-ar, alefThreeabove-ar.fina, alefThreeabove-ar.fina.alt, alefTwoabove-ar, alefTwoabove-ar.fina, alefTwoabove-ar.fina.alt, alefWasla-ar, alefWasla-ar.fina, alefWasla-ar.fina.alt, alefWavyhamzaabove-ar, alefWavyhamzaabove-ar.fina, alefWavyhamzaabove-ar.fina.alt, alefWavyhamzabelow-ar, alefWavyhamzabelow-ar.fina, alefWavyhamzabelow-ar.fina.alt, alefabove-ar, alefbelow-ar, aleflow-ar, allah-ar, allahlong-ar, annisfabove-ar, arrubabove-ar, assajdaabove-ar, asterisk-ar, aththalathaabove-ar, beeh-ar, beeh-ar.fina, beeh-ar.init, beeh-ar.medi, beh-ar, beh-ar.fina, beh-ar.init, beh-ar.medi, behDotless-ar, behDotless-ar.fina, behDotless-ar.hah, behDotless-ar.init, behDotless-ar.medi, behMeemabove-ar, behMeemabove-ar.fina, behMeemabove-ar.init, behMeemabove-ar.medi, behThreedotshorizontalbelow-ar, behThreedotshorizontalbelow-ar.fina, behThreedotshorizontalbelow-ar.init, behThreedotshorizontalbelow-ar.medi, behThreedotsupabove-ar, behThreedotsupabove-ar.fina, behThreedotsupabove-ar.init, behThreedotsupabove-ar.medi, behThreedotsupbelow-ar, behThreedotsupbelow-ar.fina, behThreedotsupbelow-ar.init, behThreedotsupbelow-ar.medi, behTwodotsbelowDotabove-ar, behTwodotsbelowDotabove-ar.fina, behTwodotsbelowDotabove-ar.init, behTwodotsbelowDotabove-ar.medi, behVabove-ar, behVabove-ar.fina, behVabove-ar.init, behVabove-ar.medi, behVbelow-ar, behVbelow-ar.fina, behVbelow-ar.init, behVbelow-ar.medi, behVinvertedbelow-ar, behVinvertedbelow-ar.fina, behVinvertedbelow-ar.init, behVinvertedbelow-ar.medi, beh_meem-ar.init, beheh-ar, beheh-ar.fina, beheh-ar.init, beheh-ar.medi, behhamzaabove-ar, behhamzaabove-ar.fina, behhamzaabove-ar.init, behhamzaabove-ar.medi, bismillah-ar, cheabkhasian-cy, chedescender-cy, chedescenderabkhasian-cy, chedieresis-cy, chekhakassian-cy, cheverticalstroke-cy, comma-ar, cuberoot-ar, dad-ar, dad-ar.fina, dad-ar.init, dad-ar.medi, dadDotbelow-ar, dadDotbelow-ar.fina, dadDotbelow-ar.init, dadDotbelow-ar.medi, dahal-ar, dahal-ar.fina, dal-ar, dal-ar.fina, dalDotbelow-ar, dalDotbelow-ar.fina, dalDotbelowTah-ar, dalDotbelowTah-ar.fina, dalFourdots-ar, dalFourdots-ar.fina, dalRing-ar, dalRing-ar.fina, dalThreedotsbelow-ar, dalThreedotsbelow-ar.fina, dalThreedotsdown-ar, dalThreedotsdown-ar.fina, dalTwodotsverticalbelowTah-ar, dalTwodotsverticalbelowTah-ar.fina, dalVinvertedabove-ar, dalVinvertedabove-ar.fina, dalVinvertedbelow-ar, dalVinvertedbelow-ar.fina, damma-ar, damma-ar.medi, dammaCurly-ar, dammaDot-ar, dammainverted-ar, dammareversed-ar, dammasmall-ar, dammatan-ar, dammatanCurly-ar, dammaturnedbelow-ar, dasiapneumatacomb-cy, dateseparator-ar, ddahal-ar, ddahal-ar.fina, ddal-ar, ddal-ar.fina, decimalseparator-ar, disputedendofayah-ar, dotStopabove-ar, dotaboveSymbol-ar, dotbelowSymbol-ar, dotvowelbelow-ar, doublerightarrowheadDotabove-ar, doublerightarrowheadabove-ar, doublestroke-ar, doubleverticalbarbelowSymbol-ar, dul-ar, dul-ar.fina, dyeh-ar, dyeh-ar.fina, dyeh-ar.init, dyeh-ar.medi, dzeabkhasian-cy, e-ar, e-ar.fina, e-ar.init, e-ar.medi, edieresis-cy, eight-ar, eiotified-cy, elhook-cy, eltail-cy, emtail-cy, endofayah-ar, enghe-cy, enhook-cy, entail-cy, ertick-cy, esdescender-cy, fatha-ar, fatha-ar.medi, fathaCurly-ar, fathaDotabove-ar, fathaHorizont-ar, fathaRing-ar, fathasmall-ar, fathatan-ar, fathatan-ar.medi, fathatanCurly-ar, fathatwodots-ar, feh-ar, feh-ar.fina, feh-ar.init, feh-ar.medi, fehAfrican-ar, fehAfrican-ar.fina, fehAfrican-ar.init, fehAfrican-ar.medi, fehDotbelow-ar, fehDotbelow-ar.fina, fehDotbelow-ar.init, fehDotbelow-ar.medi, fehDotbelowThreedotsabove-ar, fehDotbelowThreedotsabove-ar.fina, fehDotbelowThreedotsabove-ar.init, fehDotbelowThreedotsabove-ar.medi, fehDotless-ar, fehDotless-ar.fina, fehDotless-ar.init, fehDotless-ar.medi, fehDotmovedbelow-ar, fehDotmovedbelow-ar.fina, fehDotmovedbelow-ar.init, fehDotmovedbelow-ar.medi, fehThreedotsbelow-ar, fehThreedotsbelow-ar.fina, fehThreedotsbelow-ar.init, fehThreedotsbelow-ar.medi, fehThreedotsupbelow-ar, fehThreedotsupbelow-ar.fina, fehThreedotsupbelow-ar.init, fehThreedotsupbelow-ar.medi, fehTwodotsbelow-ar, fehTwodotsbelow-ar.fina, fehTwodotsbelow-ar.init, fehTwodotsbelow-ar.medi, fita-cy, five-ar, five-persian, footnotemarker-ar, footnotemarkerabove-ar, four-ar, four-persian, four-persian.urdu, fourabove-ar, fourbelow-ar, fourdotsaboveSymbol-ar, fourdotsbelowSymbol-ar, fourthroot-ar, fullstop-ar, gaf-ar, gaf-ar.fina, gaf-ar.init, gaf-ar.medi, gafInvertedstroke-ar, gafInvertedstroke-ar.fina, gafInvertedstroke-ar.init, gafInvertedstroke-ar.medi, gafRing-ar, gafRing-ar.fina, gafRing-ar.init, gafRing-ar.medi, gafThreedots-ar, gafThreedots-ar.fina, gafThreedots-ar.init, gafThreedots-ar.medi, gafTwodotsbelow-ar, gafTwodotsbelow-ar.fina, gafTwodotsbelow-ar.init, gafTwodotsbelow-ar.medi, gafsarkashabove-ar, gedescender-cy, ghain-ar, ghain-ar.fina, ghain-ar.init, ghain-ar.medi, ghainDotbelow-ar, ghainDotbelow-ar.fina, ghainDotbelow-ar.init, ghainDotbelow-ar.medi, ghainThreedotsabove-ar, ghainThreedotsabove-ar.fina, ghainThreedotsabove-ar.init, ghainThreedotsabove-ar.medi, ghemiddlehook-cy, gueh-ar, gueh-ar.fina, gueh-ar.init, gueh-ar.medi, haabkhasian-cy, hadescender-cy, hah-ar, hah-ar.fina, hah-ar.init, hah-ar.medi, hahFourbelow-ar, hahFourbelow-ar.fina, hahFourbelow-ar.init, hahFourbelow-ar.medi, hahHamzaabove-ar, hahHamzaabove-ar.fina, hahHamzaabove-ar.init, hahHamzaabove-ar.medi, hahTahTwodotshorizontalbelow-ar, hahTahTwodotshorizontalbelow-ar.fina, hahTahTwodotshorizontalbelow-ar.init, hahTahTwodotshorizontalbelow-ar.medi, hahTahabove-ar, hahTahabove-ar.fina, hahTahabove-ar.init, hahTahabove-ar.medi, hahTahbelow-ar, hahTahbelow-ar.fina, hahTahbelow-ar.init, hahTahbelow-ar.medi, hahThreedotsabove-ar, hahThreedotsabove-ar.fina, hahThreedotsabove-ar.init, hahThreedotsabove-ar.medi, hahThreedotsupbelow-ar, hahThreedotsupbelow-ar.fina, hahThreedotsupbelow-ar.init, hahThreedotsupbelow-ar.medi, hahTwodotshorizontalabove-ar, hahTwodotshorizontalabove-ar.fina, hahTwodotshorizontalabove-ar.init, hahTwodotshorizontalabove-ar.medi, hahTwodotsverticalabove-ar, hahTwodotsverticalabove-ar.fina, hahTwodotsverticalabove-ar.init, hahTwodotsverticalabove-ar.medi, hahabove-ar, hahook-cy, hamza-ar, hamzaabove-ar, hamzabelow-ar, hastroke-cy, heh-ar, heh-ar.fina, heh-ar.init, heh-ar.medi, hehDoachashmee-ar, hehDoachashmee-ar.fina, hehDoachashmee-ar.init, hehDoachashmee-ar.init.comp, hehDoachashmee-ar.medi, hehHamzaabove-ar, hehHamzaabove-ar.fina, hehVinvertedabove-ar, hehVinvertedabove-ar.fina, hehVinvertedabove-ar.init, hehVinvertedabove-ar.medi, hehgoal-ar, hehgoal-ar.fina, hehgoal-ar.init, hehgoal-ar.medi, hehgoalHamzaabove-ar, hehgoalHamzaabove-ar.fina, highhamza-ar, highhamza-ar.narrow, highhamzaAlef-ar, highhamzaWaw-ar, highhamzaYeh-ar, highhamzaYeh-ar.init, highwaw-ar, hizb-ar, hundredthousandssigncomb-cy, idieresis-cy, iebreve-cy, iegrave-cy, iishorttail-cy, imacron-cy, izhitsa-cy, izhitsadblgrave-cy, jallajalalouhou-ar, jeem-ar, jeem-ar.fina, jeem-ar.init, jeem-ar.medi, jeemThreedotsabove-ar, jeemThreedotsabove-ar.fina, jeemThreedotsabove-ar.init, jeemThreedotsabove-ar.medi, jeemThreedotsbelow-ar, jeemThreedotsbelow-ar.fina, jeemThreedotsbelow-ar.init, jeemThreedotsbelow-ar.medi, jeemTwodotsabove-ar, jeemTwodotsabove-ar.fina, jeemTwodotsabove-ar.init, jeemTwodotsabove-ar.medi, jeemabove-ar, jeh-ar, jeh-ar.fina, kabashkir-cy, kaf-ar, kaf-ar.fina, kaf-ar.init, kaf-ar.medi, kafDotabove-ar, kafDotabove-ar.fina, kafDotabove-ar.init, kafDotabove-ar.medi, kafDotbelow-ar, kafDotbelow-ar.fina, kafDotbelow-ar.init, kafDotbelow-ar.medi, kafDotless-ar, kafDotless-ar.fina, kafRing-ar, kafRing-ar.fina, kafRing-ar.init, kafRing-ar.medi, kafThreedotsbelow-ar, kafThreedotsbelow-ar.fina, kafThreedotsbelow-ar.init, kafThreedotsbelow-ar.medi, kafTwodotshorizontalabove-ar, kafTwodotshorizontalabove-ar.fina, kafTwodotshorizontalabove-ar.init, kafTwodotshorizontalabove-ar.medi, kafswash-ar, kafswash-ar.fina, kafswash-ar.init, kafswash-ar.medi, kahook-cy, kashida-ar, kashidaFina-ar, kasra-ar, kasra-ar.medi, kasraCurly-ar, kasraDotbelow-ar, kasrasmall-ar, kasratan-ar, kasratanCurly-ar, kastroke-cy, kaverticalstroke-cy, keheh-ar, keheh-ar.fina, keheh-ar.init, keheh-ar.medi, kehehDotabove-ar, kehehDotabove-ar.fina, kehehDotabove-ar.init, kehehDotabove-ar.medi, kehehThreedotsabove-ar, kehehThreedotsabove-ar.fina, kehehThreedotsabove-ar.init, kehehThreedotsabove-ar.medi, kehehThreedotsbelow-ar, kehehThreedotsbelow-ar.fina, kehehThreedotsbelow-ar.init, kehehThreedotsbelow-ar.medi, kehehThreedotsupbelow-ar, kehehThreedotsupbelow-ar.fina, kehehThreedotsupbelow-ar.init, kehehThreedotsupbelow-ar.medi, kehehTwodotshorizontalabove-ar, kehehTwodotshorizontalabove-ar.fina, kehehTwodotshorizontalabove-ar.init, kehehTwodotshorizontalabove-ar.medi, kehehVabove-ar, kehehVabove-ar.fina, kehehVabove-ar.init, kehehVabove-ar.medi, khah-ar, khah-ar.fina, khah-ar.init, khah-ar.medi, kirghizoe-ar, kirghizoe-ar.fina, kirghizyu-ar, kirghizyu-ar.fina, koppa-cy, ksi-cy, lam-ar, lam-ar.fina, lam-ar.init, lam-ar.medi, lam-ar.medi.short, lamAlefabove-ar, lamBar-ar, lamBar-ar.fina, lamBar-ar.init, lamBar-ar.medi, lamDotabove-ar, lamDotabove-ar.fina, lamDotabove-ar.init, lamDotabove-ar.medi, lamDoublebar-ar, lamDoublebar-ar.fina, lamDoublebar-ar.init, lamDoublebar-ar.medi, lamTahabove-ar, lamTahabove-ar.fina, lamTahabove-ar.init, lamTahabove-ar.medi, lamThreedotsabove-ar, lamThreedotsabove-ar.fina, lamThreedotsabove-ar.init, lamThreedotsabove-ar.medi, lamThreedotsbelow-ar, lamThreedotsbelow-ar.fina, lamThreedotsbelow-ar.init, lamThreedotsbelow-ar.medi, lamVabove-ar, lamVabove-ar.fina, lamVabove-ar.init, lamVabove-ar.medi, lam_alef-ar, lam_alef-ar.fina, lam_alefHamzaabove-ar, lam_alefHamzaabove-ar.fina, lam_alefHamzabelow-ar, lam_alefHamzabelow-ar.fina, lam_alefMadda-ar, lam_alefMadda-ar.fina, lam_hah-ar.init, lam_jeem-ar.init, lam_khah-ar.init, lam_meem-ar.init, lam_meem_hah-ar.init, largerounddotbelow-ar, leftarrowheadabove-ar, leftarrowheadbelow-ar, lowernumeral-greek, madda-ar, maddalong-ar, mark-ar, marksidewaysnoonghunna-ar, meem-ar, meem-ar.fina, meem-ar.init, meem-ar.medi, meemDotabove-ar, meemDotabove-ar.fina, meemDotabove-ar.init, meemDotabove-ar.medi, meemDotbelow-ar, meemDotbelow-ar.fina, meemDotbelow-ar.init, meemDotbelow-ar.medi, meemStopabove-ar, meemThreedotsabove-ar, meemThreedotsabove-ar.fina, meemThreedotsabove-ar.init, meemThreedotsabove-ar.medi, meemabove-ar, meembelow-ar, millionssigncomb-cy, miniKeheh-ar, misraComma-ar, mohammad-ar, ng-ar, ng-ar.fina, ng-ar.init, ng-ar.medi, ngoeh-ar, ngoeh-ar.fina, ngoeh-ar.init, ngoeh-ar.medi, nine-ar, noon-ar, noon-ar.fina, noon-ar.init, noon-ar.medi, noonAfrican-ar, noonAfrican-ar.fina, noonAfrican-ar.init, noonAfrican-ar.medi, noonDotbelow-ar, noonDotbelow-ar.fina, noonDotbelow-ar.init, noonDotbelow-ar.medi, noonKasraabove-ar, noonKasrabelow-ar, noonRing-ar, noonRing-ar.fina, noonRing-ar.init, noonRing-ar.medi, noonTahabove-ar, noonTahabove-ar.fina, noonTahabove-ar.init, noonTahabove-ar.medi, noonThreedotsabove-ar, noonThreedotsabove-ar.fina, noonThreedotsabove-ar.init, noonThreedotsabove-ar.medi, noonTwodotsbelow-ar, noonTwodotsbelow-ar.fina, noonTwodotsbelow-ar.init, noonTwodotsbelow-ar.medi, noonVabove-ar, noonVabove-ar.fina, noonVabove-ar.init, noonVabove-ar.medi, noonabove-ar, noonghunna-ar, noonghunna-ar.fina, noonghunna-ar.init, noonghunna-ar.medi, noonghunnaabove-ar, note-musical, number-ar, numbermark-ar, numeral-greek, nyeh-ar, nyeh-ar.fina, nyeh-ar.init, nyeh-ar.medi, obarreddieresis-cy, odieresis-cy, oe-ar, oe-ar.fina, omega-cy, one-ar, opendammatan-ar, openfathatan-ar, openkasratan-ar, pagenumber-ar, palatalizationcomb-cy, parenleft-ar, parenright-ar, peh-ar, peh-ar.fina, peh-ar.init, peh-ar.medi, pehMeemabove-ar, pehMeemabove-ar.fina, pehMeemabove-ar.init, pehMeemabove-ar.medi, pehVabove-ar, pehVabove-ar.fina, pehVabove-ar.init, pehVabove-ar.medi, peheh-ar, peheh-ar.fina, peheh-ar.init, peheh-ar.medi, pemiddlehook-cy, percent-ar, pertenthousand-ar, perthousand-ar, psi-cy, psilipneumatacomb-cy, qaf-ar, qaf-ar.fina, qaf-ar.init, qaf-ar.medi, qafAfrican-ar, qafAfrican-ar.fina, qafAfrican-ar.init, qafAfrican-ar.medi, qafDotabove-ar, qafDotabove-ar.fina, qafDotabove-ar.init, qafDotabove-ar.medi, qafDotbelow-ar, qafDotbelow-ar.fina, qafDotbelow-ar.init, qafDotbelow-ar.medi, qafDotless-ar, qafDotless-ar.fina, qafDotless-ar.init, qafDotless-ar.medi, qafLamAlefMaksuraabove-ar, qafThreedotsabove-ar, qafThreedotsabove-ar.fina, qafThreedotsabove-ar.init, qafThreedotsabove-ar.medi, qafThreedotsaboveAfrican-ar, qafThreedotsaboveAfrican-ar.fina, qafThreedotsaboveAfrican-ar.init, qafThreedotsaboveAfrican-ar.medi, qafabove-ar, qifabove-ar, question-ar, ray-ar, reh-ar, reh-ar.fina, rehDadabove-ar, rehDotbelow-ar, rehDotbelow-ar.fina, rehDotbelowdotabove-ar, rehDotbelowdotabove-ar.fina, rehFourdots-ar, rehFourdots-ar.fina, rehHahabove-ar, rehHamzaabove-ar, rehHamzaabove-ar.fina, rehLoop-ar, rehLoop-ar.fina, rehNoonabove-ar, rehNoonabove-ar.fina, rehRing-ar, rehRing-ar.fina, rehStroke-ar, rehStroke-ar.fina, rehTwodots-ar, rehTwodots-ar.fina, rehTwodotshorizontalaboveTahabove-ar, rehTwodotshorizontalaboveTahabove-ar.fina, rehTwodotsverticalabove-ar, rehTwodotsverticalabove-ar.fina, rehVbelow-ar, rehVbelow-ar.fina, rehVinvertedabove-ar, rehVinvertedabove-ar.fina, rehabove-ar, rehv-ar, rehv-ar.fina, rhombusStopabove-ar, rhombusStopbelow-ar, rightarrowheadDotabove-ar, rightarrowheadabove-ar, rightarrowheadbelow-ar, ringSymbol-ar, rnoon-ar, rnoon-ar.fina, rnoon-ar.init, rnoon-ar.medi, rreh-ar, rreh-ar.fina, sad-ar, sad-ar.fina, sad-ar.init, sad-ar.medi, sadLamAlefMaksuraabove-ar, sadThreedots-ar, sadThreedots-ar.fina, sadThreedots-ar.init, sadThreedots-ar.medi, sadThreedotsbelow-ar, sadThreedotsbelow-ar.fina, sadThreedotsbelow-ar.init, sadThreedotsbelow-ar.medi, sadTwodotsbelow-ar, sadTwodotsbelow-ar.fina, sadTwodotsbelow-ar.init, sadTwodotsbelow-ar.medi, sadabove-ar, safhaabove-ar, sahabove-ar, sajdah-ar, saktaabove-ar, samvat-ar, schwadieresis-cy, seen-ar, seen-ar.fina, seen-ar.init, seen-ar.medi, seenDotbelowDotabove-ar, seenDotbelowDotabove-ar.fina, seenDotbelowDotabove-ar.init, seenDotbelowDotabove-ar.medi, seenFourabove-ar, seenFourabove-ar.fina, seenFourabove-ar.init, seenFourabove-ar.medi, seenFourdotsabove-ar, seenFourdotsabove-ar.fina, seenFourdotsabove-ar.init, seenFourdotsabove-ar.medi, seenTahTwodotshorizontalabove-ar, seenTahTwodotshorizontalabove-ar.fina, seenTahTwodotshorizontalabove-ar.init, seenTahTwodotshorizontalabove-ar.medi, seenThreedotsbelow-ar, seenThreedotsbelow-ar.fina, seenThreedotsbelow-ar.init, seenThreedotsbelow-ar.medi, seenTwodotsverticalabove-ar, seenTwodotsverticalabove-ar.fina, seenTwodotsverticalabove-ar.init, seenTwodotsverticalabove-ar.medi, seenVinvertedabove-ar, seenVinvertedabove-ar.fina, seenVinvertedabove-ar.init, seenVinvertedabove-ar.medi, seenabove-ar, seenbelow-ar, semicolon-ar, semisoftsign-cy, seven-ar, seven-persian, seven-persian.urdu, shadda-ar, shadda-ar.medi, sheen-ar, sheen-ar.fina, sheen-ar.init, sheen-ar.medi, sheenDotbelow-ar, sheenDotbelow-ar.fina, sheenDotbelow-ar.init, sheenDotbelow-ar.medi, sheenThreedotsbelow-ar, sheenThreedotsbelow-ar.fina, sheenThreedotsbelow-ar.init, sheenThreedotsbelow-ar.medi, sindhiampersand-ar, sindhipostpositionmen-ar, sindhipostpositionmen-ar.fina, sindhipostpositionmen-ar.init, sindhipostpositionmen-ar.medi, six-ar, six-persian, smallainabove-ar, smallsadabove-ar, stroke-ar, sukun-ar, sukun-ar.medi, sukunoval-ar, sukunround-ar, tah-ar, tah-ar.fina, tah-ar.init, tah-ar.medi, tahThreedots-ar, tahThreedots-ar.fina, tahThreedots-ar.init, tahThreedots-ar.medi, tahTwodotsabove-ar, tahTwodotsabove-ar.fina, tahTwodotsabove-ar.init, tahTwodotsabove-ar.medi, tahabove-ar, tahbelowSymbol-ar, takhallusabove-ar, tcheh-ar, tcheh-ar.fina, tcheh-ar.init, tcheh-ar.medi, tchehDotabove-ar, tchehDotabove-ar.fina, tchehDotabove-ar.init, tchehDotabove-ar.medi, tchehVabove-ar, tchehVabove-ar.fina, tchehVabove-ar.init, tchehVabove-ar.medi, tcheheh-ar, tcheheh-ar.fina, tcheheh-ar.init, tcheheh-ar.medi, tedescender-cy, teh-ar, teh-ar.fina, teh-ar.init, teh-ar.medi, tehMarbuta-ar, tehMarbuta-ar.alt, tehMarbuta-ar.fina, tehMarbutagoal-ar, tehMarbutagoal-ar.fina, tehRing-ar, tehRing-ar.fina, tehRing-ar.init, tehRing-ar.medi, tehTehabove-ar, tehTehabove-ar.fina, tehTehabove-ar.init, tehTehabove-ar.medi, tehThreedotsdown-ar, tehThreedotsdown-ar.fina, tehThreedotsdown-ar.init, tehThreedotsdown-ar.medi, tehThreedotsupbelow-ar, tehThreedotsupbelow-ar.fina, tehThreedotsupbelow-ar.init, tehThreedotsupbelow-ar.medi, tehVabove-ar, tehVabove-ar.fina, tehVabove-ar.init, tehVabove-ar.medi, teh_hah-ar.init, teh_jeem-ar.init, teheh-ar, teheh-ar.fina, teheh-ar.init, teheh-ar.medi, tetse-cy, thal-ar, thal-ar.fina, theh-ar, theh-ar.fina, theh-ar.init, theh-ar.medi, thousand-cy, thousandseparator-ar, three-ar, threeabove-ar, threedots-ar, threedotsabove-ar, threedotsdownaboveSymbol-ar, threedotsdownbelowSymbol-ar, threedotshorizontalbelow-ar, threedotsupaboveSymbol-ar, threedotsupbelowSymbol-ar, titlocomb-cy, toneloopabove-ar, toneloopbelow-ar, toneonedotabove-ar, toneonedotbelow-ar, tonetwodotsabove-ar, tonetwodotsbelow-ar, tteh-ar, tteh-ar.fina, tteh-ar.init, tteh-ar.medi, ttehVabove-ar, ttehVabove-ar.fina, ttehVabove-ar.init, ttehVabove-ar.medi, tteheh-ar, tteheh-ar.fina, tteheh-ar.init, tteheh-ar.medi, two-ar, twoabove-ar, twodotshorizontalaboveSymbol-ar, twodotshorizontalbelowSymbol-ar, twodotsverticalaboveSymbol-ar, twodotsverticalbelowSymbol-ar, u-ar, u-ar.fina, uHamzaabove-ar, udieresis-cy, uhungarumlaut-cy, uk-cy, umacron-cy, vabove-ar, ve-ar, ve-ar.fina, veh-ar, veh-ar.fina, veh-ar.init, veh-ar.medi, verseComma-ar, vinvertedabove-ar, waqfaabove-ar, wasla-ar, wavyhamzabelow-ar, waw-ar, waw-ar.fina, wawDotabove-ar, wawDotabove-ar.fina, wawDotcenter-ar, wawDotcenter-ar.fina, wawHamzaabove-ar, wawHamzaabove-ar.fina, wawSmall-ar, wawStraight-ar, wawStraight-ar.fina, wawThreeAbove-ar, wawThreeAbove-ar.fina, wawTwoabove-ar, wawTwoabove-ar.fina, wawTwodots-ar, wawTwodots-ar.fina, wawbelow-ar, wawring-ar, wawring-ar.fina, yat-cy, year-ar, yeh-ar, yeh-ar.fina, yeh-ar.init, yeh-ar.medi, yeh-farsi, yeh-farsi.fina, yeh-farsi.init, yeh-farsi.medi, yehFourbelow-farsi, yehFourbelow-farsi.fina, yehFourbelow-farsi.init, yehFourbelow-farsi.medi, yehHamzaabove-ar, yehHamzaabove-ar.fina, yehHamzaabove-ar.init, yehHamzaabove-ar.medi, yehKashmiri-ar, yehKashmiri-ar.fina, yehKashmiri-ar.init, yehKashmiri-ar.medi, yehRohingya-ar, yehRohingya-ar.comp, yehRohingya-ar.fina, yehSmall-ar, yehTail-ar, yehTail-ar.fina, yehThreeabove-farsi, yehThreeabove-farsi.fina, yehThreeabove-farsi.init, yehThreeabove-farsi.medi, yehThreedotsabove-farsi, yehThreedotsabove-farsi.fina, yehThreedotsabove-farsi.init, yehThreedotsabove-farsi.medi, yehThreedotsbelow-ar, yehThreedotsbelow-ar.fina, yehThreedotsbelow-ar.init, yehThreedotsbelow-ar.medi, yehTwoabove-farsi, yehTwoabove-farsi.fina, yehTwoabove-farsi.init, yehTwoabove-farsi.medi, yehTwodotsabove-farsi, yehTwodotsabove-farsi.fina, yehTwodotsabove-farsi.init, yehTwodotsabove-farsi.medi, yehTwodotsbelowDotabove-ar, yehTwodotsbelowDotabove-ar.fina, yehTwodotsbelowDotabove-ar.init, yehTwodotsbelowDotabove-ar.medi, yehTwodotsbelowHamzaabove-ar, yehTwodotsbelowHamzaabove-ar.fina, yehTwodotsbelowHamzaabove-ar.init, yehTwodotsbelowHamzaabove-ar.medi, yehTwodotsbelowNoonabove-ar, yehTwodotsbelowNoonabove-ar.fina, yehTwodotsbelowNoonabove-ar.init, yehTwodotsbelowNoonabove-ar.medi, yehVabove-ar, yehVabove-ar.fina, yehVabove-ar.init, yehVabove-ar.medi, yehVinverted-farsi, yehVinverted-farsi.fina, yehVinverted-farsi.init, yehVinverted-farsi.medi, yeh_noon-ar.fina, yehabove-ar, yehbarree-ar, yehbarree-ar.fina, yehbarreeHamzaabove-ar, yehbarreeHamzaabove-ar.fina, yehbarreeThreeabove-ar, yehbarreeThreeabove-ar.fina, yehbarreeTwoabove-ar, yehbarreeTwoabove-ar.fina, yerudieresis-cy, yu-ar, yu-ar.fina, yusbig-cy, yusbigiotified-cy, yuslittle-cy, yuslittleiotified-cy, zah-ar, zah-ar.fina, zah-ar.init, zah-ar.medi, zain-ar, zain-ar.fina, zainVinvertedabove-ar, zainVinvertedabove-ar.fina, zainabove-ar, zedescender-cy, zedieresis-cy, zero-ar, zhebreve-cy, zhedescender-cy and zhedieresis-cy
+* 🔥 **FAIL** The following glyph names do not comply with naming conventions: doublestroke-ar, fourabove-ar, fourbelow-ar, gafsarkashabove-ar, kafDotless-ar, kafDotless-ar.fina, miniKeheh-ar, rehabove-ar, stroke-ar, threeabove-ar, threedotshorizontalbelow-ar, twoabove-ar and wasla-ar
 
  A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) _(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph ".notdef". The glyph names "twocents", "a1", and "_" are all valid, while "2cents" and ".twocents" are not. [code: found-invalid-names]
 </div></details><details><summary>🔥 <b>FAIL:</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_dotted">com.google.fonts/check/soft_dotted</a>)</summary><div>
@@ -948,9 +976,9 @@ The dot of soft dotted characters should disappear in other cases, for example: 
 
 * 🔥 **FAIL** On monospaced fonts, the value of post.isFixedPitch must be set to a non-zero value (meaning 'fixed width monospaced'), but got 0 instead. [code: mono-bad-post-isFixedPitch]
 * 🔥 **FAIL** The PANOSE numbers are incorrect for a monospaced font. Note: Family Type is set to 0, which does not seem right. [code: mono-bad-panose]
-* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 2063 instead.
+* ⚠ **WARN** The OpenType spec recomments at https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table that hhea.numberOfHMetrics be set to 3 but this font has 2046 instead.
 Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether this makes sense for your font. [code: bad-numberOfHMetrics]
-* ⚠ **WARN** Font is monospaced but 9 glyphs (0.39%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'fi', 'fl', 'minute', 'second', 'u1F7D9'] [code: mono-outliers]
+* ⚠ **WARN** Font is monospaced but 9 glyphs (0.39%) have a different width. You should check the widths of: ['ellipsis.alt2', 'ellipsis.alt5', 'emdash.alt2', 'emdash.alt3', 'minute', 'second', 'u1F7D9', 'uniFB01', 'uniFB02'] [code: mono-outliers]
 </div></details><details><summary>🔥 <b>FAIL:</b> Check glyphs do not have duplicate components which have the same x,y coordinates. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/glyf.html#com.google.fonts/check/glyf_non_transformed_duplicate_components">com.google.fonts/check/glyf_non_transformed_duplicate_components</a>)</summary><div>
 
 
@@ -979,10 +1007,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 
 * ⚠ **WARN** Glyph '.notdef' should contain a drawing, but it is empty. [code: empty]
-</div></details><details><summary>⚠ <b>WARN:</b> Font has **proper** whitespace glyph names? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/whitespace_glyphnames">com.google.fonts/check/whitespace_glyphnames</a>)</summary><div>
-
-
-* ⚠ **WARN** Glyph 0x00A0 is called "nbspace": Change to "uni00A0" [code: not-recommended-00a0]
 </div></details><details><summary>⚠ <b>WARN:</b> Check font contains no unreachable glyphs (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/unreachable_glyphs">com.google.fonts/check/unreachable_glyphs</a>)</summary><div>
 
 
@@ -990,137 +1014,35 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- Threedotsinverted.alt.comp
 
-	- ae-ar.fina
+	- afii57410.fina.alt
 
-	- ainThreedots-ar.fina
+	- afii57411.fina.alt
 
-	- ainThreedots-ar.init
+	- afii57413.fina.alt
 
-	- ainThreedots-ar.medi
+	- afii57415.fina.alt
 
-	- ainThreedotsbelow-ar.fina
+	- afii57415.fina.short
 
-	- ainThreedotsbelow-ar.init
+	- afii57415.fina.shorter
 
-	- ainThreedotsbelow-ar.medi
+	- afii57415.short
 
-	- ainThreedotsdownabove-ar.fina
+	- afii57415.shorter
 
-	- ainThreedotsdownabove-ar.init
+	- afii57417.alt
 
-	- ainThreedotsdownabove-ar.medi
+	- afii57444.medi.short
 
-	- ainTwodotshorizontalabove-ar.fina
+	- afii57514.init
 
-	- ainTwodotshorizontalabove-ar.init
+	- afii57514.medi
 
-	- ainTwodotshorizontalabove-ar.medi
-
-	- ainTwodotsverticalabove-ar.fina
-
-	- ainTwodotsverticalabove-ar.init
-
-	- ainTwodotsverticalabove-ar.medi
-
-	- alef-ar.fina.alt
-
-	- alef-ar.fina.short
-
-	- alef-ar.fina.shorter
-
-	- alef-ar.short
-
-	- alef-ar.shorter
-
-	- alefHamzaabove-ar.fina.alt
-
-	- alefHamzabelow-ar.fina.alt
-
-	- alefMadda-ar.fina.alt
-
-	- alefThreeabove-ar.fina
-
-	- alefThreeabove-ar.fina.alt
-
-	- alefTwoabove-ar.fina
-
-	- alefTwoabove-ar.fina.alt
-
-	- alefWasla-ar.fina.alt
-
-	- alefWavyhamzaabove-ar.fina
-
-	- alefWavyhamzaabove-ar.fina.alt
-
-	- alefWavyhamzabelow-ar.fina
-
-	- alefWavyhamzabelow-ar.fina.alt
+	- afii57534.fina
 
 	- arabic_root.comp
 
 	- bar.double
-
-	- behDotless-ar.fina
-
-	- behDotless-ar.hah
-
-	- behDotless-ar.init
-
-	- behDotless-ar.medi
-
-	- behMeemabove-ar.fina
-
-	- behMeemabove-ar.init
-
-	- behMeemabove-ar.medi
-
-	- behThreedotshorizontalbelow-ar.fina
-
-	- behThreedotshorizontalbelow-ar.init
-
-	- behThreedotshorizontalbelow-ar.medi
-
-	- behThreedotsupabove-ar.fina
-
-	- behThreedotsupabove-ar.init
-
-	- behThreedotsupabove-ar.medi
-
-	- behThreedotsupbelow-ar.fina
-
-	- behThreedotsupbelow-ar.init
-
-	- behThreedotsupbelow-ar.medi
-
-	- behTwodotsbelowDotabove-ar.fina
-
-	- behTwodotsbelowDotabove-ar.init
-
-	- behTwodotsbelowDotabove-ar.medi
-
-	- behVabove-ar.fina
-
-	- behVabove-ar.init
-
-	- behVabove-ar.medi
-
-	- behVbelow-ar.fina
-
-	- behVbelow-ar.init
-
-	- behVbelow-ar.medi
-
-	- behVinvertedbelow-ar.fina
-
-	- behVinvertedbelow-ar.init
-
-	- behVinvertedbelow-ar.medi
-
-	- behhamzaabove-ar.fina
-
-	- behhamzaabove-ar.init
-
-	- behhamzaabove-ar.medi
 
 	- bigcircle
 
@@ -1130,45 +1052,9 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- circumflex.cap
 
-	- circumflexcomb_acutecomb.cap
-
-	- circumflexcomb_gravecomb.cap
-
-	- circumflexcomb_hookabovecomb.cap
-
-	- circumflexcomb_tildecomb.cap
-
 	- colon.alt
 
-	- colon.arabic
-
 	- comma.alt
-
-	- commaaccent.case
-
-	- dadDotbelow-ar.fina
-
-	- dadDotbelow-ar.init
-
-	- dadDotbelow-ar.medi
-
-	- dalDotbelow-ar.fina
-
-	- dalDotbelowTah-ar.fina
-
-	- dalFourdots-ar.fina
-
-	- dalRing-ar.fina
-
-	- dalThreedotsbelow-ar.fina
-
-	- dalThreedotsdown-ar.fina
-
-	- dalTwodotsverticalbelowTah-ar.fina
-
-	- dalVinvertedabove-ar.fina
-
-	- dalVinvertedbelow-ar.fina
 
 	- dieresis.cap
 
@@ -1192,167 +1078,11 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- emdash.alt4
 
-	- exclam.arabic
-
-	- fehAfrican-ar.fina
-
-	- fehAfrican-ar.init
-
-	- fehAfrican-ar.medi
-
-	- fehDotbelow-ar.fina
-
-	- fehDotbelow-ar.init
-
-	- fehDotbelow-ar.medi
-
-	- fehDotbelowThreedotsabove-ar.fina
-
-	- fehDotbelowThreedotsabove-ar.init
-
-	- fehDotbelowThreedotsabove-ar.medi
-
-	- fehDotless-ar.fina
-
-	- fehDotless-ar.init
-
-	- fehDotless-ar.medi
-
-	- fehDotmovedbelow-ar.fina
-
-	- fehDotmovedbelow-ar.init
-
-	- fehDotmovedbelow-ar.medi
-
-	- fehThreedotsbelow-ar.fina
-
-	- fehThreedotsbelow-ar.init
-
-	- fehThreedotsbelow-ar.medi
-
-	- fehThreedotsupbelow-ar.fina
-
-	- fehThreedotsupbelow-ar.init
-
-	- fehThreedotsupbelow-ar.medi
-
-	- fehTwodotsbelow-ar.fina
-
-	- fehTwodotsbelow-ar.init
-
-	- fehTwodotsbelow-ar.medi
-
-	- four-persian.urdu
-
 	- fourabove-ar
 
 	- fourbelow-ar
 
-	- gafInvertedstroke-ar.fina
-
-	- gafInvertedstroke-ar.init
-
-	- gafInvertedstroke-ar.medi
-
-	- gafRing-ar.fina
-
-	- gafRing-ar.init
-
-	- gafRing-ar.medi
-
-	- gafThreedots-ar.fina
-
-	- gafThreedots-ar.init
-
-	- gafThreedots-ar.medi
-
-	- gafTwodotsbelow-ar.fina
-
-	- gafTwodotsbelow-ar.init
-
-	- gafTwodotsbelow-ar.medi
-
 	- gafsarkashabove-ar
-
-	- ghainDotbelow-ar.fina
-
-	- ghainDotbelow-ar.init
-
-	- ghainDotbelow-ar.medi
-
-	- ghainThreedotsabove-ar.fina
-
-	- ghainThreedotsabove-ar.init
-
-	- ghainThreedotsabove-ar.medi
-
-	- hahFourbelow-ar.fina
-
-	- hahFourbelow-ar.init
-
-	- hahFourbelow-ar.medi
-
-	- hahHamzaabove-ar.fina
-
-	- hahHamzaabove-ar.init
-
-	- hahHamzaabove-ar.medi
-
-	- hahTahTwodotshorizontalbelow-ar.fina
-
-	- hahTahTwodotshorizontalbelow-ar.init
-
-	- hahTahTwodotshorizontalbelow-ar.medi
-
-	- hahTahabove-ar.fina
-
-	- hahTahabove-ar.init
-
-	- hahTahabove-ar.medi
-
-	- hahTahbelow-ar.fina
-
-	- hahTahbelow-ar.init
-
-	- hahTahbelow-ar.medi
-
-	- hahThreedotsabove-ar.fina
-
-	- hahThreedotsabove-ar.init
-
-	- hahThreedotsabove-ar.medi
-
-	- hahThreedotsupbelow-ar.fina
-
-	- hahThreedotsupbelow-ar.init
-
-	- hahThreedotsupbelow-ar.medi
-
-	- hahTwodotshorizontalabove-ar.fina
-
-	- hahTwodotshorizontalabove-ar.init
-
-	- hahTwodotshorizontalabove-ar.medi
-
-	- hahTwodotsverticalabove-ar.fina
-
-	- hahTwodotsverticalabove-ar.init
-
-	- hahTwodotsverticalabove-ar.medi
-
-	- hehDoachashmee-ar.init.comp
-
-	- hehVinvertedabove-ar.fina
-
-	- hehVinvertedabove-ar.init
-
-	- hehVinvertedabove-ar.medi
-
-	- hehgoalHamzaabove-ar.fina
-
-	- highhamza-ar.narrow
-
-	- highhamzaYeh-ar.init
 
 	- hyphen.alt
 
@@ -1360,555 +1090,125 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- ittisal.comp
 
-	- jeemThreedotsabove-ar.fina
-
-	- jeemThreedotsabove-ar.init
-
-	- jeemThreedotsabove-ar.medi
-
-	- jeemThreedotsbelow-ar.fina
-
-	- jeemThreedotsbelow-ar.init
-
-	- jeemThreedotsbelow-ar.medi
-
-	- jeemTwodotsabove-ar.fina
-
-	- jeemTwodotsabove-ar.init
-
-	- jeemTwodotsabove-ar.medi
-
-	- kafDotabove-ar.fina
-
-	- kafDotabove-ar.init
-
-	- kafDotabove-ar.medi
-
-	- kafDotbelow-ar.fina
-
-	- kafDotbelow-ar.init
-
-	- kafDotbelow-ar.medi
-
 	- kafDotless-ar
 
 	- kafDotless-ar.fina
 
-	- kafRing-ar.fina
-
-	- kafRing-ar.init
-
-	- kafRing-ar.medi
-
-	- kafThreedotsbelow-ar.fina
-
-	- kafThreedotsbelow-ar.init
-
-	- kafThreedotsbelow-ar.medi
-
-	- kafTwodotshorizontalabove-ar.fina
-
-	- kafTwodotshorizontalabove-ar.init
-
-	- kafTwodotshorizontalabove-ar.medi
-
-	- kafswash-ar.fina
-
-	- kafswash-ar.init
-
-	- kafswash-ar.medi
-
-	- kehehDotabove-ar.fina
-
-	- kehehDotabove-ar.init
-
-	- kehehDotabove-ar.medi
-
-	- kehehThreedotsabove-ar.fina
-
-	- kehehThreedotsabove-ar.init
-
-	- kehehThreedotsabove-ar.medi
-
-	- kehehThreedotsbelow-ar.fina
-
-	- kehehThreedotsbelow-ar.init
-
-	- kehehThreedotsbelow-ar.medi
-
-	- kehehThreedotsupbelow-ar.fina
-
-	- kehehThreedotsupbelow-ar.init
-
-	- kehehThreedotsupbelow-ar.medi
-
-	- kehehTwodotshorizontalabove-ar.fina
-
-	- kehehTwodotshorizontalabove-ar.init
-
-	- kehehTwodotshorizontalabove-ar.medi
-
-	- kehehVabove-ar.fina
-
-	- kehehVabove-ar.init
-
-	- kehehVabove-ar.medi
-
-	- lam-ar.medi.short
-
-	- lamBar-ar.fina
-
-	- lamBar-ar.init
-
-	- lamBar-ar.medi
-
-	- lamDotabove-ar.fina
-
-	- lamDotabove-ar.init
-
-	- lamDotabove-ar.medi
-
-	- lamDoublebar-ar.fina
-
-	- lamDoublebar-ar.init
-
-	- lamDoublebar-ar.medi
-
-	- lamTahabove-ar.fina
-
-	- lamTahabove-ar.init
-
-	- lamTahabove-ar.medi
-
-	- lamThreedotsabove-ar.fina
-
-	- lamThreedotsabove-ar.init
-
-	- lamThreedotsabove-ar.medi
-
-	- lamThreedotsbelow-ar.fina
-
-	- lamThreedotsbelow-ar.init
-
-	- lamThreedotsbelow-ar.medi
-
-	- lamVabove-ar.fina
-
-	- lamVabove-ar.init
-
-	- lamVabove-ar.medi
-
-	- meemDotabove-ar.fina
-
-	- meemDotabove-ar.init
-
-	- meemDotabove-ar.medi
-
-	- meemDotbelow-ar.fina
-
-	- meemDotbelow-ar.init
-
-	- meemDotbelow-ar.medi
-
-	- meemThreedotsabove-ar.fina
-
-	- meemThreedotsabove-ar.init
-
-	- meemThreedotsabove-ar.medi
-
 	- miniKeheh-ar
-
-	- noonAfrican-ar.fina
-
-	- noonAfrican-ar.init
-
-	- noonAfrican-ar.medi
-
-	- noonDotbelow-ar.fina
-
-	- noonDotbelow-ar.init
-
-	- noonDotbelow-ar.medi
-
-	- noonRing-ar.fina
-
-	- noonRing-ar.init
-
-	- noonRing-ar.medi
-
-	- noonTahabove-ar.fina
-
-	- noonTahabove-ar.init
-
-	- noonTahabove-ar.medi
-
-	- noonThreedotsabove-ar.fina
-
-	- noonThreedotsabove-ar.init
-
-	- noonThreedotsabove-ar.medi
-
-	- noonTwodotsbelow-ar.fina
-
-	- noonTwodotsbelow-ar.init
-
-	- noonTwodotsbelow-ar.medi
-
-	- noonVabove-ar.fina
-
-	- noonVabove-ar.init
-
-	- noonVabove-ar.medi
-
-	- noonghunna-ar.init
-
-	- noonghunna-ar.medi
-
-	- pehMeemabove-ar.fina
-
-	- pehMeemabove-ar.init
-
-	- pehMeemabove-ar.medi
-
-	- pehVabove-ar.fina
-
-	- pehVabove-ar.init
-
-	- pehVabove-ar.medi
 
 	- percent.arabic.comp
 
 	- period.alt
 
-	- period.arabic
-
 	- perthousandzero
-
-	- qafAfrican-ar.fina
-
-	- qafAfrican-ar.init
-
-	- qafAfrican-ar.medi
-
-	- qafDotabove-ar.fina
-
-	- qafDotabove-ar.init
-
-	- qafDotabove-ar.medi
-
-	- qafDotbelow-ar.fina
-
-	- qafDotbelow-ar.init
-
-	- qafDotbelow-ar.medi
-
-	- qafDotless-ar.fina
-
-	- qafDotless-ar.init
-
-	- qafDotless-ar.medi
-
-	- qafThreedotsabove-ar.fina
-
-	- qafThreedotsabove-ar.init
-
-	- qafThreedotsabove-ar.medi
-
-	- qafThreedotsaboveAfrican-ar.fina
-
-	- qafThreedotsaboveAfrican-ar.init
-
-	- qafThreedotsaboveAfrican-ar.medi
-
-	- rehDotbelow-ar.fina
-
-	- rehDotbelowdotabove-ar.fina
-
-	- rehFourdots-ar.fina
-
-	- rehHamzaabove-ar.fina
-
-	- rehLoop-ar.fina
-
-	- rehNoonabove-ar.fina
-
-	- rehRing-ar.fina
-
-	- rehStroke-ar.fina
-
-	- rehTwodots-ar.fina
-
-	- rehTwodotshorizontalaboveTahabove-ar.fina
-
-	- rehTwodotsverticalabove-ar.fina
-
-	- rehVbelow-ar.fina
-
-	- rehVinvertedabove-ar.fina
 
 	- rehabove-ar
 
-	- rehv-ar.fina
-
-	- sadThreedots-ar.fina
-
-	- sadThreedots-ar.init
-
-	- sadThreedots-ar.medi
-
-	- sadThreedotsbelow-ar.fina
-
-	- sadThreedotsbelow-ar.init
-
-	- sadThreedotsbelow-ar.medi
-
-	- sadTwodotsbelow-ar.fina
-
-	- sadTwodotsbelow-ar.init
-
-	- sadTwodotsbelow-ar.medi
-
-	- seenDotbelowDotabove-ar.fina
-
-	- seenDotbelowDotabove-ar.init
-
-	- seenDotbelowDotabove-ar.medi
-
-	- seenFourabove-ar.fina
-
-	- seenFourabove-ar.init
-
-	- seenFourabove-ar.medi
-
-	- seenFourdotsabove-ar.fina
-
-	- seenFourdotsabove-ar.init
-
-	- seenFourdotsabove-ar.medi
-
-	- seenTahTwodotshorizontalabove-ar.fina
-
-	- seenTahTwodotshorizontalabove-ar.init
-
-	- seenTahTwodotshorizontalabove-ar.medi
-
-	- seenThreedotsbelow-ar.fina
-
-	- seenThreedotsbelow-ar.init
-
-	- seenThreedotsbelow-ar.medi
-
-	- seenTwodotsverticalabove-ar.fina
-
-	- seenTwodotsverticalabove-ar.init
-
-	- seenTwodotsverticalabove-ar.medi
-
-	- seenVinvertedabove-ar.fina
-
-	- seenVinvertedabove-ar.init
-
-	- seenVinvertedabove-ar.medi
-
 	- semicolon.alt
-
-	- seven-persian.urdu
-
-	- sheenDotbelow-ar.fina
-
-	- sheenDotbelow-ar.init
-
-	- sheenDotbelow-ar.medi
-
-	- sheenThreedotsbelow-ar.fina
-
-	- sheenThreedotsbelow-ar.init
-
-	- sheenThreedotsbelow-ar.medi
-
-	- sindhipostpositionmen-ar.fina
-
-	- sindhipostpositionmen-ar.init
-
-	- sindhipostpositionmen-ar.medi
 
 	- stroke-ar
 
-	- tahThreedots-ar.fina
-
-	- tahThreedots-ar.init
-
-	- tahThreedots-ar.medi
-
-	- tahTwodotsabove-ar.fina
-
-	- tahTwodotsabove-ar.init
-
-	- tahTwodotsabove-ar.medi
-
 	- tail.comp
-
-	- tchehDotabove-ar.fina
-
-	- tchehDotabove-ar.init
-
-	- tchehDotabove-ar.medi
-
-	- tchehVabove-ar.fina
-
-	- tchehVabove-ar.init
-
-	- tchehVabove-ar.medi
-
-	- tehMarbuta-ar.alt
-
-	- tehMarbutagoal-ar.fina
-
-	- tehRing-ar.fina
-
-	- tehRing-ar.init
-
-	- tehRing-ar.medi
-
-	- tehTehabove-ar.fina
-
-	- tehTehabove-ar.init
-
-	- tehTehabove-ar.medi
-
-	- tehThreedotsdown-ar.fina
-
-	- tehThreedotsdown-ar.init
-
-	- tehThreedotsdown-ar.medi
-
-	- tehThreedotsupbelow-ar.fina
-
-	- tehThreedotsupbelow-ar.init
-
-	- tehThreedotsupbelow-ar.medi
-
-	- tehVabove-ar.fina
-
-	- tehVabove-ar.init
-
-	- tehVabove-ar.medi
 
 	- threeabove-ar
 
 	- threedotshorizontalbelow-ar
 
-	- ttehVabove-ar.fina
-
-	- ttehVabove-ar.init
-
-	- ttehVabove-ar.medi
-
 	- twoabove-ar
+
+	- uni0302_acutecomb.cap
+
+	- uni0302_gravecomb.cap
+
+	- uni0302_hookabovecomb.cap
+
+	- uni0302_tildecomb.cap
 
 	- uni0326.case
 
+	- uni066E.hah
+
+	- uni0671.fina.alt
+
+	- uni0672.fina.alt
+
+	- uni0673.fina.alt
+
+	- uni0674.narrow
+
+	- uni06BE.init.comp
+
+	- uni06F4.urdu
+
+	- uni06F7.urdu
+
+	- uni0773.fina.alt
+
+	- uni0774.fina.alt
+
+	- uni08AC.comp
+
+	- uni08BE.fina
+
+	- uni08BE.init
+
+	- uni08BE.medi
+
+	- uni08BF.fina
+
+	- uni08BF.init
+
+	- uni08BF.medi
+
+	- uni08C0.fina
+
+	- uni08C0.init
+
+	- uni08C0.medi
+
+	- uni08C1.fina
+
+	- uni08C1.init
+
+	- uni08C1.medi
+
+	- uni08C2.fina
+
+	- uni08C2.init
+
+	- uni08C2.medi
+
+	- uni08C3.fina
+
+	- uni08C3.init
+
+	- uni08C3.medi
+
+	- uni08C4.fina
+
+	- uni08C4.init
+
+	- uni08C4.medi
+
+	- uni08C5.fina
+
+	- uni08C5.init
+
+	- uni08C5.medi
+
+	- uni08C6.fina
+
+	- uni08C6.init
+
+	- uni08C6.medi
+
+	- uni08C7.fina
+
+	- uni08C7.init
+
+	- uni08C7.medi 
+
 	- wasla-ar
-
-	- wawDotabove-ar.fina
-
-	- wawDotcenter-ar.fina
-
-	- wawStraight-ar.fina
-
-	- wawThreeAbove-ar.fina
-
-	- wawTwoabove-ar.fina
-
-	- wawTwodots-ar.fina
-
-	- wawring-ar.fina
-
-	- yehFourbelow-farsi.fina
-
-	- yehFourbelow-farsi.init
-
-	- yehFourbelow-farsi.medi
-
-	- yehKashmiri-ar.fina
-
-	- yehKashmiri-ar.init
-
-	- yehKashmiri-ar.medi
-
-	- yehRohingya-ar.comp
-
-	- yehRohingya-ar.fina
-
-	- yehTail-ar.fina
-
-	- yehThreeabove-farsi.fina
-
-	- yehThreeabove-farsi.init
-
-	- yehThreeabove-farsi.medi
-
-	- yehThreedotsabove-farsi.fina
-
-	- yehThreedotsabove-farsi.init
-
-	- yehThreedotsabove-farsi.medi
-
-	- yehThreedotsbelow-ar.fina
-
-	- yehThreedotsbelow-ar.init
-
-	- yehThreedotsbelow-ar.medi
-
-	- yehTwoabove-farsi.fina
-
-	- yehTwoabove-farsi.init
-
-	- yehTwoabove-farsi.medi
-
-	- yehTwodotsabove-farsi.fina
-
-	- yehTwodotsabove-farsi.init
-
-	- yehTwodotsabove-farsi.medi
-
-	- yehTwodotsbelowDotabove-ar.fina
-
-	- yehTwodotsbelowDotabove-ar.init
-
-	- yehTwodotsbelowDotabove-ar.medi
-
-	- yehTwodotsbelowHamzaabove-ar.fina
-
-	- yehTwodotsbelowHamzaabove-ar.init
-
-	- yehTwodotsbelowHamzaabove-ar.medi
-
-	- yehTwodotsbelowNoonabove-ar.fina
-
-	- yehTwodotsbelowNoonabove-ar.init
-
-	- yehTwodotsbelowNoonabove-ar.medi
-
-	- yehVabove-ar.fina
-
-	- yehVabove-ar.init
-
-	- yehVabove-ar.medi
-
-	- yehVinverted-farsi.fina
-
-	- yehVinverted-farsi.init
-
-	- yehVinverted-farsi.medi
-
-	- yehbarreeThreeabove-ar.fina
-
-	- yehbarreeTwoabove-ar.fina
-
-	- zainVinvertedabove-ar.fina 
-
-	- zero.slash
  [code: unreachable-glyphs]
 </div></details><details><summary>⚠ <b>WARN:</b> Check if each glyph has the recommended amount of contours. (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/contour_count">com.google.fonts/check/contour_count</a>)</summary><div>
 
@@ -1925,81 +1225,81 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
 
-	- Glyph name: sigmafinal	Contours detected: 2	Expected: 1
+	- Glyph name: sigma1	Contours detected: 2	Expected: 1
 
-	- Glyph name: yuslittleiotified-cy	Contours detected: 5	Expected: 2
+	- Glyph name: uni0469	Contours detected: 5	Expected: 2
 
-	- Glyph name: yusbigiotified-cy	Contours detected: 3	Expected: 2
+	- Glyph name: uni046D	Contours detected: 3	Expected: 2
 
-	- Glyph name: Ksi-cy	Contours detected: 1	Expected: 2
+	- Glyph name: uni046E	Contours detected: 1	Expected: 2
 
-	- Glyph name: ksi-cy	Contours detected: 1	Expected: 2
+	- Glyph name: uni046F	Contours detected: 1	Expected: 2
 
-	- Glyph name: Izhitsadblgrave-cy	Contours detected: 2	Expected: 3
+	- Glyph name: uni0476	Contours detected: 2	Expected: 3
 
-	- Glyph name: Uk-cy	Contours detected: 2	Expected: 3
+	- Glyph name: uni0478	Contours detected: 2	Expected: 3
 
-	- Glyph name: uk-cy	Contours detected: 2	Expected: 3
+	- Glyph name: uni0479	Contours detected: 2	Expected: 3
 
-	- Glyph name: ahookabove	Contours detected: 2	Expected: 3
+	- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
 
-	- Glyph name: Acircumflexhookabove	Contours detected: 3	Expected: 4
+	- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
 
-	- Glyph name: Acircumflextilde	Contours detected: 3	Expected: 4
+	- Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
-	- Glyph name: Abrevetilde	Contours detected: 3	Expected: 4
+	- Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
-	- Glyph name: abrevetilde	Contours detected: 3	Expected: 4
+	- Glyph name: uni1EB5	Contours detected: 3	Expected: 4
 
-	- Glyph name: ehookabove	Contours detected: 2	Expected: 3
+	- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
 
-	- Glyph name: Ecircumflexhookabove	Contours detected: 2	Expected: 3
+	- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
 
-	- Glyph name: Ecircumflextilde	Contours detected: 2	Expected: 3
+	- Glyph name: uni1EC4	Contours detected: 2	Expected: 3
 
-	- Glyph name: ihookabove	Contours detected: 1	Expected: 2
+	- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
 
-	- Glyph name: ohookabove	Contours detected: 2	Expected: 3
+	- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
 
-	- Glyph name: Ocircumflexhookabove	Contours detected: 3	Expected: 4
+	- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
 
-	- Glyph name: Ocircumflextilde	Contours detected: 3	Expected: 4
+	- Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
-	- Glyph name: Ohorntilde	Contours detected: 2	Expected: 3 or 4
+	- Glyph name: uni1EE0	Contours detected: 2	Expected: 3 or 4
 
-	- Glyph name: ohorntilde	Contours detected: 2	Expected: 3
+	- Glyph name: uni1EE1	Contours detected: 2	Expected: 3
 
-	- Glyph name: uhornacute	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
 
-	- Glyph name: uhorngrave	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
 
-	- Glyph name: uhornhookabove	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
 
-	- Glyph name: Uhorntilde	Contours detected: 1	Expected: 2
+	- Glyph name: uni1EEE	Contours detected: 1	Expected: 2
 
-	- Glyph name: uhorntilde	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
 
-	- Glyph name: uhorndotbelow	Contours detected: 3	Expected: 2
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-	- Glyph name: narrownbspace	Contours detected: 28	Expected: 0
+	- Glyph name: uni202F	Contours detected: 28	Expected: 0
 
 	- Glyph name: minute	Contours detected: 0	Expected: 1
 
 	- Glyph name: second	Contours detected: 0	Expected: 2
 
-	- Glyph name: interrobang	Contours detected: 3	Expected: 2
+	- Glyph name: uni203D	Contours detected: 3	Expected: 2
 
-	- Glyph name: colonsign	Contours detected: 2	Expected: 1 or 3
+	- Glyph name: colonmonetary	Contours detected: 2	Expected: 1 or 3
 
 	- Glyph name: lira	Contours detected: 2	Expected: 1
 
 	- Glyph name: summation	Contours detected: 3	Expected: 1
 
-	- Glyph name: divorceSymbol	Contours detected: 5	Expected: 3
+	- Glyph name: uni26AE	Contours detected: 5	Expected: 3
 
-	- Glyph name: gnaborretni	Contours detected: 3	Expected: 2
+	- Glyph name: uni2E18	Contours detected: 3	Expected: 2
 
-	- Glyph name: zeroWidthNoBreakSpace	Contours detected: 25	Expected: 0
+	- Glyph name: uniFEFF	Contours detected: 25	Expected: 0
 
 	- Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -2007,11 +1307,77 @@ The following glyphs do not have the recommended number of contours:
 
 	- Glyph name: aogonek	Contours detected: 3	Expected: 2
 
+	- Glyph name: colonmonetary	Contours detected: 2	Expected: 1 or 3
+
 	- Glyph name: lira	Contours detected: 2	Expected: 1
 
-	- Glyph name: summation	Contours detected: 3	Expected: 1 
+	- Glyph name: summation	Contours detected: 3	Expected: 1
 
 	- Glyph name: uhorn	Contours detected: 2	Expected: 1
+
+	- Glyph name: uni0469	Contours detected: 5	Expected: 2
+
+	- Glyph name: uni046D	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni046E	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni046F	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni0476	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni0478	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni0479	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1EAA	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1EB4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1EB5	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EC4	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1ED6	Contours detected: 3	Expected: 4
+
+	- Glyph name: uni1EE0	Contours detected: 2	Expected: 3 or 4
+
+	- Glyph name: uni1EE1	Contours detected: 2	Expected: 3
+
+	- Glyph name: uni1EE9	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEB	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EED	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EEE	Contours detected: 1	Expected: 2
+
+	- Glyph name: uni1EEF	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni1EF1	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni202F	Contours detected: 28	Expected: 0
+
+	- Glyph name: uni203D	Contours detected: 3	Expected: 2
+
+	- Glyph name: uni26AE	Contours detected: 5	Expected: 3
+
+	- Glyph name: uni2E18	Contours detected: 3	Expected: 2 
+
+	- Glyph name: uniFEFF	Contours detected: 25	Expected: 0
  [code: contour-count]
 </div></details><details><summary>⚠ <b>WARN:</b> Does the font contain a soft hyphen? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/universal.html#com.google.fonts/check/soft_hyphen">com.google.fonts/check/soft_hyphen</a>)</summary><div>
 
@@ -2026,132 +1392,132 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* Elhook-cy (U+0512): L<<590.0,764.0>--<582.0,733.0>> -> L<<582.0,733.0>--<576.0,696.0>>
-
-	* Elhook-cy (U+0512): L<<636.0,1028.0>--<590.0,764.0>> -> L<<590.0,764.0>--<582.0,733.0>>
-
-	* Eltail-cy (U+04C5): L<<590.0,764.0>--<582.0,733.0>> -> L<<582.0,733.0>--<576.0,696.0>>
-
-	* Eltail-cy (U+04C5): L<<636.0,1028.0>--<590.0,764.0>> -> L<<590.0,764.0>--<582.0,733.0>>
-
-	* Emtail-cy (U+04CD): L<<837.0,127.0>--<1001.0,1055.0>> -> L<<1001.0,1055.0>--<1008.0,1108.0>>
-
-	* Kabashkir-cy (U+04A0): L<<541.0,399.0>--<533.0,365.0>> -> L<<533.0,365.0>--<491.0,127.0>>
-
-	* Kabashkir-cy (U+04A0): L<<710.0,612.0>--<563.0,430.0>> -> L<<563.0,430.0>--<541.0,399.0>>
-
-	* Kastroke-cy (U+049E): L<<463.0,942.0>--<410.0,639.0>> -> L<<410.0,639.0>--<402.0,584.0>>
-
-	* Kaverticalstroke-cy (U+049C): L<<641.0,813.0>--<675.0,844.0>> -> L<<675.0,844.0>--<946.0,1124.0>>
-
-	* Uk-cy (U+0478): L<<542.0,1124.0>--<652.0,840.0>> -> L<<652.0,840.0>--<674.0,768.0>>
-
-	* Uk-cy (U+0478): L<<674.0,768.0>--<717.0,838.0>> -> L<<717.0,838.0>--<929.0,1124.0>>
-
-	* Yusbigiotified-cy (U+046C): L<<372.0,127.0>--<510.0,479.0>> -> L<<510.0,479.0>--<536.0,543.0>>
-
-	* Yuslittle-cy (U+0466): L<<732.0,1108.0>--<648.0,887.0>> -> L<<648.0,887.0>--<510.0,553.0>>
-
-	* Yuslittle-cy (U+0466): L<<739.0,891.0>--<734.0,1014.0>> -> L<<734.0,1014.0>--<732.0,1108.0>>
-
-	* Yuslittle-cy (U+0466): L<<764.0,489.0>--<739.0,891.0>> -> L<<739.0,891.0>--<734.0,1014.0>>
-
-	* Zhedescender-cy (U+0496): L<<501.0,127.0>--<543.0,365.0>> -> L<<543.0,365.0>--<547.0,399.0>>
-
-	* Zhedescender-cy (U+0496): L<<669.0,401.0>--<660.0,365.0>> -> L<<660.0,365.0>--<618.0,127.0>>
-
-	* Zhedescender-cy (U+0496): L<<805.0,598.0>--<686.0,430.0>> -> L<<686.0,430.0>--<669.0,401.0>>
+	* afii10196 (U+0475): L<<463.0,756.0>--<527.0,225.0>> -> L<<527.0,225.0>--<535.0,143.0>>
 
 	* angleright (U+232A): L<<551.0,1348.0>--<677.0,1079.0>> -> L<<677.0,1079.0>--<825.0,768.0>>
 
 	* angleright (U+232A): L<<840.0,563.0>--<370.0,-6.0>> -> L<<370.0,-6.0>--<283.0,-111.0>>
 
-	* commercialMinusSign (U+2052): L<<185.0,162.0>--<281.0,297.0>> -> L<<281.0,297.0>--<890.0,1145.0>>
-
-	* commercialMinusSign (U+2052): L<<281.0,297.0>--<890.0,1145.0>> -> L<<890.0,1145.0>--<1037.0,1348.0>>
-
-	* ghemiddlehook-cy (U+0495): L<<524.0,547.0>--<641.0,547.0>> -> L<<641.0,547.0>--<721.0,545.0>>
-
-	* gnaborretni (U+2E18): L<<368.0,-338.0>--<396.0,-203.0>> -> L<<396.0,-203.0>--<428.0,-33.0>>
-
-	* gnaborretni (U+2E18): L<<602.0,178.0>--<566.0,-51.0>> -> L<<566.0,-51.0>--<524.0,-340.0>>
-
-	* interrobang (U+203D): L<<580.0,618.0>--<617.0,848.0>> -> L<<617.0,848.0>--<659.0,1137.0>>
-
-	* interrobang (U+203D): L<<814.0,1135.0>--<788.0,999.0>> -> L<<788.0,999.0>--<754.0,829.0>>
-
-	* izhitsa-cy (U+0475): L<<463.0,756.0>--<527.0,225.0>> -> L<<527.0,225.0>--<535.0,143.0>>
-
-	* izhitsadblgrave-cy (U+0477): L<<465.0,756.0>--<532.0,225.0>> -> L<<532.0,225.0>--<537.0,143.0>>
-
 	* psi (U+03C8): L<<396.0,-424.0>--<429.0,-215.0>> -> L<<429.0,-215.0>--<466.0,-6.0>>
 
-	* thousand-cy (U+0482): L<<472.0,227.0>--<562.0,250.0>> -> L<<562.0,250.0>--<661.0,268.0>>
+	* uni0466 (U+0466): L<<732.0,1108.0>--<648.0,887.0>> -> L<<648.0,887.0>--<510.0,553.0>>
 
-	* yusbig-cy (U+046B): L<<512.0,756.0>--<594.0,621.0>> -> L<<594.0,621.0>--<627.0,563.0>>
+	* uni0466 (U+0466): L<<739.0,891.0>--<734.0,1014.0>> -> L<<734.0,1014.0>--<732.0,1108.0>>
 
-	* yusbigiotified-cy (U+046D): L<<368.0,127.0>--<472.0,338.0>> -> L<<472.0,338.0>--<493.0,379.0>>
+	* uni0466 (U+0466): L<<764.0,489.0>--<739.0,891.0>> -> L<<739.0,891.0>--<734.0,1014.0>>
 
-	* yusbigiotified-cy (U+046D): L<<472.0,338.0>--<493.0,379.0>> -> L<<493.0,379.0>--<521.0,424.0>>
+	* uni046B (U+046B): L<<512.0,756.0>--<594.0,621.0>> -> L<<594.0,621.0>--<627.0,563.0>>
 
-	* zedescender-cy (U+0499): L<<465.0,117.0>--<504.0,117.0>> -> L<<504.0,117.0>--<528.0,115.0>>
+	* uni046C (U+046C): L<<372.0,127.0>--<510.0,479.0>> -> L<<510.0,479.0>--<536.0,543.0>>
 
-	* zhedescender-cy (U+0497): L<<499.0,127.0>--<524.0,266.0>> -> L<<524.0,266.0>--<527.0,293.0>>
+	* uni046D (U+046D): L<<368.0,127.0>--<472.0,338.0>> -> L<<472.0,338.0>--<493.0,379.0>>
 
-	* zhedescender-cy (U+0497): L<<727.0,756.0>--<689.0,539.0>> -> L<<689.0,539.0>--<683.0,492.0>> 
+	* uni046D (U+046D): L<<472.0,338.0>--<493.0,379.0>> -> L<<493.0,379.0>--<521.0,424.0>>
 
-	* zhedescender-cy (U+0497): L<<758.0,418.0>--<666.0,315.0>> -> L<<666.0,315.0>--<650.0,295.0>> [code: found-colinear-vectors]
+	* uni0477 (U+0477): L<<465.0,756.0>--<532.0,225.0>> -> L<<532.0,225.0>--<537.0,143.0>>
+
+	* uni0478 (U+0478): L<<542.0,1124.0>--<652.0,840.0>> -> L<<652.0,840.0>--<674.0,768.0>>
+
+	* uni0478 (U+0478): L<<674.0,768.0>--<717.0,838.0>> -> L<<717.0,838.0>--<929.0,1124.0>>
+
+	* uni0482 (U+0482): L<<472.0,227.0>--<562.0,250.0>> -> L<<562.0,250.0>--<661.0,268.0>>
+
+	* uni0495 (U+0495): L<<524.0,547.0>--<641.0,547.0>> -> L<<641.0,547.0>--<721.0,545.0>>
+
+	* uni0496 (U+0496): L<<501.0,127.0>--<543.0,365.0>> -> L<<543.0,365.0>--<547.0,399.0>>
+
+	* uni0496 (U+0496): L<<669.0,401.0>--<660.0,365.0>> -> L<<660.0,365.0>--<618.0,127.0>>
+
+	* uni0496 (U+0496): L<<805.0,598.0>--<686.0,430.0>> -> L<<686.0,430.0>--<669.0,401.0>>
+
+	* uni0497 (U+0497): L<<499.0,127.0>--<524.0,266.0>> -> L<<524.0,266.0>--<527.0,293.0>>
+
+	* uni0497 (U+0497): L<<727.0,756.0>--<689.0,539.0>> -> L<<689.0,539.0>--<683.0,492.0>>
+
+	* uni0497 (U+0497): L<<758.0,418.0>--<666.0,315.0>> -> L<<666.0,315.0>--<650.0,295.0>>
+
+	* uni0499 (U+0499): L<<465.0,117.0>--<504.0,117.0>> -> L<<504.0,117.0>--<528.0,115.0>>
+
+	* uni049C (U+049C): L<<641.0,813.0>--<675.0,844.0>> -> L<<675.0,844.0>--<946.0,1124.0>>
+
+	* uni049E (U+049E): L<<463.0,942.0>--<410.0,639.0>> -> L<<410.0,639.0>--<402.0,584.0>>
+
+	* uni04A0 (U+04A0): L<<541.0,399.0>--<533.0,365.0>> -> L<<533.0,365.0>--<491.0,127.0>>
+
+	* uni04A0 (U+04A0): L<<710.0,612.0>--<563.0,430.0>> -> L<<563.0,430.0>--<541.0,399.0>>
+
+	* uni04C5 (U+04C5): L<<590.0,764.0>--<582.0,733.0>> -> L<<582.0,733.0>--<576.0,696.0>>
+
+	* uni04C5 (U+04C5): L<<636.0,1028.0>--<590.0,764.0>> -> L<<590.0,764.0>--<582.0,733.0>>
+
+	* uni04CD (U+04CD): L<<837.0,127.0>--<1001.0,1055.0>> -> L<<1001.0,1055.0>--<1008.0,1108.0>>
+
+	* uni0512 (U+0512): L<<590.0,764.0>--<582.0,733.0>> -> L<<582.0,733.0>--<576.0,696.0>>
+
+	* uni0512 (U+0512): L<<636.0,1028.0>--<590.0,764.0>> -> L<<590.0,764.0>--<582.0,733.0>>
+
+	* uni203D (U+203D): L<<580.0,618.0>--<617.0,848.0>> -> L<<617.0,848.0>--<659.0,1137.0>>
+
+	* uni203D (U+203D): L<<814.0,1135.0>--<788.0,999.0>> -> L<<788.0,999.0>--<754.0,829.0>>
+
+	* uni2052 (U+2052): L<<185.0,162.0>--<281.0,297.0>> -> L<<281.0,297.0>--<890.0,1145.0>>
+
+	* uni2052 (U+2052): L<<281.0,297.0>--<890.0,1145.0>> -> L<<890.0,1145.0>--<1037.0,1348.0>>
+
+	* uni2E18 (U+2E18): L<<368.0,-338.0>--<396.0,-203.0>> -> L<<396.0,-203.0>--<428.0,-33.0>> 
+
+	* uni2E18 (U+2E18): L<<602.0,178.0>--<566.0,-51.0>> -> L<<566.0,-51.0>--<524.0,-340.0>> [code: found-colinear-vectors]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any jaggy segments? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_jaggy_segments">com.google.fonts/check/outline_jaggy_segments</a>)</summary><div>
 
 
 * ⚠ **WARN** The following glyphs have jaggy segments:
 
-	* Emtail-cy (U+04CD): B<<460.5,1044.0>-<456.0,1086.0>-<455.0,1108.0>>/L<<455.0,1108.0>--<282.0,127.0>> = 12.603878154295307
-
-	* Emtail-cy (U+04CD): L<<1001.0,1055.0>--<1008.0,1108.0>>/B<<1008.0,1108.0>-<1001.0,1087.0>-<975.5,1032.0>> = 10.911128384283376
-
-	* Iishorttail-cy (U+048A): L<<481.0,1124.0>--<331.0,270.0>>/B<<331.0,270.0>-<351.0,329.0>-<505.5,529.5>> = 8.763742651450915
-
-	* Iishorttail-cy (U+048A): L<<810.0,127.0>--<961.0,981.0>>/B<<961.0,981.0>-<950.0,949.0>-<900.5,878.0>> = 8.943292419114242
-
-	* Izhitsa-cy (U+0474): B<<509.0,204.5>-<508.0,169.0>-<506.0,143.0>>/B<<506.0,143.0>-<516.0,187.0>-<551.5,286.0>> = 8.405560710291214
-
-	* Izhitsadblgrave-cy (U+0476): B<<509.0,275.0>-<509.0,189.0>-<506.0,143.0>>/B<<506.0,143.0>-<515.0,180.0>-<544.0,263.5>> = 9.939910133035372
-
 	* Mu (U+039C): L<<837.0,125.0>--<1009.0,1102.0>>/B<<1009.0,1102.0>-<999.0,1075.0>-<972.0,1018.5>> = 10.338577199564888
-
-	* Upsilondasia (U+1F59): B<<864.0,1060.0>-<864.0,1025.0>-<861.0,983.0>>/B<<861.0,983.0>-<902.0,1134.0>-<955.5,1204.0>> = 11.10526901331856
-
-	* Upsilondasiaoxia (U+1F5D): B<<895.0,1058.0>-<895.0,1023.0>-<892.0,983.0>>/B<<892.0,983.0>-<932.0,1134.0>-<986.0,1204.0>> = 10.547755432741646
-
-	* Upsilondasiaperispomeni (U+1F5F): B<<885.0,1058.0>-<885.0,1023.0>-<882.0,983.0>>/B<<882.0,983.0>-<922.0,1134.0>-<975.5,1204.0>> = 10.547755432741646
-
-	* Upsilondasiavaria (U+1F5B): B<<895.0,1058.0>-<895.0,1023.0>-<892.0,983.0>>/B<<892.0,983.0>-<932.0,1134.0>-<986.0,1204.0>> = 10.547755432741646
-
-	* Upsilonoxia (U+1FEB): B<<845.0,1044.0>-<845.0,1016.0>-<843.0,983.0>>/B<<843.0,983.0>-<885.0,1134.0>-<943.0,1204.0>> = 12.075449967784303
 
 	* Upsilontonos (U+038E): B<<845.0,1044.0>-<845.0,1016.0>-<843.0,983.0>>/B<<843.0,983.0>-<885.0,1134.0>-<943.0,1204.0>> = 12.075449967784303
 
-	* Upsilonvaria (U+1FEA): B<<859.0,1044.0>-<859.0,1016.0>-<857.0,983.0>>/B<<857.0,983.0>-<900.0,1134.0>-<957.5,1204.0>> = 12.427039113664158
+	* afii10148 (U+0474): B<<509.0,204.5>-<508.0,169.0>-<506.0,143.0>>/B<<506.0,143.0>-<516.0,187.0>-<551.5,286.0>> = 8.405560710291214
 
-	* Yuslittle-cy (U+0466): L<<760.0,553.0>--<764.0,489.0>>/L<<764.0,489.0>--<739.0,891.0>> = 0.01774687243908398
+	* uni0466 (U+0466): L<<760.0,553.0>--<764.0,489.0>>/L<<764.0,489.0>--<739.0,891.0>> = 0.01774687243908398
 
-	* Yuslittleiotified-cy (U+0468): B<<872.5,960.0>-<880.0,1042.0>-<891.0,1108.0>>/B<<891.0,1108.0>-<859.0,960.0>-<818.0,824.0>> = 2.738146519354986
+	* uni0468 (U+0468): B<<872.5,960.0>-<880.0,1042.0>-<891.0,1108.0>>/B<<891.0,1108.0>-<859.0,960.0>-<818.0,824.0>> = 2.738146519354986
 
-	* narrownbspace (U+202F): B<<765.0,996.0>-<756.0,1001.0>-<754.0,1026.0>>/L<<754.0,1026.0>--<754.0,1024.0>> = 4.573921259900818
+	* uni0476 (U+0476): B<<509.0,275.0>-<509.0,189.0>-<506.0,143.0>>/B<<506.0,143.0>-<515.0,180.0>-<544.0,263.5>> = 9.939910133035372
 
-	* narrownbspace (U+202F): L<<463.0,698.0>--<461.0,698.0>>/B<<461.0,698.0>-<478.0,694.0>-<497.5,686.5>> = 13.240519915187184
+	* uni048A (U+048A): L<<481.0,1124.0>--<331.0,270.0>>/B<<331.0,270.0>-<351.0,329.0>-<505.5,529.5>> = 8.763742651450915
 
-	* narrownbspace (U+202F): L<<754.0,1026.0>--<754.0,1024.0>>/B<<754.0,1024.0>-<750.0,1055.0>-<747.0,1086.5>> = 7.352379359892374 
+	* uni048A (U+048A): L<<810.0,127.0>--<961.0,981.0>>/B<<961.0,981.0>-<950.0,949.0>-<900.5,878.0>> = 8.943292419114242
 
-	* yehKashmiri-ar (U+0620): B<<775.0,-81.0>-<727.0,8.0>-<618.0,20.0>>/B<<618.0,20.0>-<732.0,36.0>-<800.0,76.5>> = 14.271818854558248 [code: found-jaggy-segments]
+	* uni04CD (U+04CD): B<<460.5,1044.0>-<456.0,1086.0>-<455.0,1108.0>>/L<<455.0,1108.0>--<282.0,127.0>> = 12.603878154295307
+
+	* uni04CD (U+04CD): L<<1001.0,1055.0>--<1008.0,1108.0>>/B<<1008.0,1108.0>-<1001.0,1087.0>-<975.5,1032.0>> = 10.911128384283376
+
+	* uni0620 (U+0620): B<<775.0,-81.0>-<727.0,8.0>-<618.0,20.0>>/B<<618.0,20.0>-<732.0,36.0>-<800.0,76.5>> = 14.271818854558248
+
+	* uni1F59 (U+1F59): B<<864.0,1060.0>-<864.0,1025.0>-<861.0,983.0>>/B<<861.0,983.0>-<902.0,1134.0>-<955.5,1204.0>> = 11.10526901331856
+
+	* uni1F5B (U+1F5B): B<<895.0,1058.0>-<895.0,1023.0>-<892.0,983.0>>/B<<892.0,983.0>-<932.0,1134.0>-<986.0,1204.0>> = 10.547755432741646
+
+	* uni1F5D (U+1F5D): B<<895.0,1058.0>-<895.0,1023.0>-<892.0,983.0>>/B<<892.0,983.0>-<932.0,1134.0>-<986.0,1204.0>> = 10.547755432741646
+
+	* uni1F5F (U+1F5F): B<<885.0,1058.0>-<885.0,1023.0>-<882.0,983.0>>/B<<882.0,983.0>-<922.0,1134.0>-<975.5,1204.0>> = 10.547755432741646
+
+	* uni1FEA (U+1FEA): B<<859.0,1044.0>-<859.0,1016.0>-<857.0,983.0>>/B<<857.0,983.0>-<900.0,1134.0>-<957.5,1204.0>> = 12.427039113664158
+
+	* uni1FEB (U+1FEB): B<<845.0,1044.0>-<845.0,1016.0>-<843.0,983.0>>/B<<843.0,983.0>-<885.0,1134.0>-<943.0,1204.0>> = 12.075449967784303
+
+	* uni202F (U+202F): B<<765.0,996.0>-<756.0,1001.0>-<754.0,1026.0>>/L<<754.0,1026.0>--<754.0,1024.0>> = 4.573921259900818
+
+	* uni202F (U+202F): L<<463.0,698.0>--<461.0,698.0>>/B<<461.0,698.0>-<478.0,694.0>-<497.5,686.5>> = 13.240519915187184 
+
+	* uni202F (U+202F): L<<754.0,1026.0>--<754.0,1024.0>>/B<<754.0,1024.0>-<750.0,1055.0>-<747.0,1086.5>> = 7.352379359892374 [code: found-jaggy-segments]
 </div></details><br></div></details>
 
 ### Summary
 
 | 💔 ERROR | 🔥 FAIL | ⚠ WARN | 💤 SKIP | ℹ INFO | 🍞 PASS | 🔎 DEBUG |
 |:-----:|:----:|:----:|:----:|:----:|:----:|:----:|
-| 0 | 22 | 24 | 248 | 13 | 168 | 0 |
+| 2 | 22 | 23 | 248 | 13 | 167 | 0 |
 | 0% | 5% | 5% | 52% | 3% | 35% | 0% |
 
 **Note:** The following loglevels were omitted in this report:
