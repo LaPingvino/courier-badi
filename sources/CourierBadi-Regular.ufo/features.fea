@@ -15,8 +15,8 @@ languagesystem arab URD ;
 
 lookup loclLocalizedFormsinLatinlookup0 {
   lookupflag 0;
-    sub \Scedilla by \Scommaaccent ;
-    sub \scedilla by \scommaaccent ;
+    sub \Scedilla by \uni0218 ;
+    sub \scedilla by \uni0219 ;
 } loclLocalizedFormsinLatinlookup0;
 
 lookup loclLocalizedFormsinLatinlookup1 {
