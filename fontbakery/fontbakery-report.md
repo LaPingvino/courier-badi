@@ -198,32 +198,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- acute.case
 
-	- afii57410.fina.alt
-
-	- afii57411.fina.alt
-
-	- afii57413.fina.alt
-
-	- afii57415.fina.alt
-
-	- afii57415.fina.short
-
-	- afii57415.fina.shorter
-
-	- afii57415.short
-
-	- afii57415.shorter
-
-	- afii57417.alt
-
-	- afii57444.medi.short
-
-	- afii57514.init
-
-	- afii57514.medi
-
-	- afii57534.fina
-
 	- arabic_root.comp
 
 	- bigcircle
@@ -346,6 +320,24 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni0620.medi
 
+	- uni0622.fina.alt
+
+	- uni0623.fina.alt
+
+	- uni0625.fina.alt
+
+	- uni0627.fina.alt
+
+	- uni0627.fina.short
+
+	- uni0627.fina.shorter
+
+	- uni0627.short
+
+	- uni0627.shorter
+
+	- uni0629.alt
+
 	- uni063B.fina
 
 	- uni063B.init
@@ -375,6 +367,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- uni063F.init
 
 	- uni063F.medi
+
+	- uni0644.medi.short
 
 	- uni066E.fina
 
@@ -608,6 +602,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni06B9.medi
 
+	- uni06BA.init
+
+	- uni06BA.medi
+
 	- uni06BC.fina
 
 	- uni06BC.init
@@ -651,6 +649,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- uni06D1.init
 
 	- uni06D1.medi
+
+	- uni06D5.fina
 
 	- uni06EE.fina
 
@@ -1322,10 +1322,6 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* afii10196 (U+0475): L<<330.0,756.0>--<487.0,225.0>> -> L<<487.0,225.0>--<510.0,143.0>>
-
-	* afii63167 (U+066D): L<<469.0,471.0>--<479.0,831.0>> -> L<<479.0,831.0>--<479.0,842.0>>
-
 	* angleright (U+232A): L<<313.0,1348.0>--<487.0,1079.0>> -> L<<487.0,1079.0>--<690.0,768.0>>
 
 	* angleright (U+232A): L<<741.0,563.0>--<371.0,-6.0>> -> L<<371.0,-6.0>--<303.0,-111.0>>
@@ -1345,6 +1341,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni046D (U+046D): L<<346.0,127.0>--<412.0,338.0>> -> L<<412.0,338.0>--<426.0,379.0>>
 
 	* uni046D (U+046D): L<<412.0,338.0>--<426.0,379.0>> -> L<<426.0,379.0>--<446.0,424.0>>
+
+	* uni0475 (U+0475): L<<330.0,756.0>--<487.0,225.0>> -> L<<487.0,225.0>--<510.0,143.0>>
 
 	* uni0477 (U+0477): L<<332.0,756.0>--<492.0,225.0>> -> L<<492.0,225.0>--<512.0,143.0>>
 
@@ -1385,6 +1383,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni0512 (U+0512): L<<455.0,1028.0>--<455.0,764.0>> -> L<<455.0,764.0>--<453.0,733.0>>
 
 	* uni0512 (U+0512): L<<455.0,764.0>--<453.0,733.0>> -> L<<453.0,733.0>--<453.0,696.0>>
+
+	* uni066D (U+066D): L<<469.0,471.0>--<479.0,831.0>> -> L<<479.0,831.0>--<479.0,842.0>>
 
 	* uni06CD (U+06CD): L<<334.0,619.0>--<334.0,618.0>> -> L<<334.0,618.0>--<334.0,616.0>>
 
@@ -1436,13 +1436,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* Upsilontonos (U+038E): B<<604.0,1209.0>-<651.0,1144.0>-<670.0,983.0>>/B<<670.0,983.0>-<685.0,1134.0>-<731.0,1204.0>> = 12.40350607454098
 
-	* afii10148 (U+0474): B<<459.0,288.5>-<476.0,196.0>-<481.0,143.0>>/B<<481.0,143.0>-<483.0,187.0>-<501.0,286.0>> = 7.991873962473095
-
-	* afii61664 (U+200C): B<<364.0,360.5>-<350.0,367.0>-<344.0,395.0>>/L<<344.0,395.0>--<344.0,393.0>> = 12.094757077012089
-
 	* uni0466 (U+0466): L<<662.0,553.0>--<678.0,489.0>>/L<<678.0,489.0>--<582.0,891.0>> = 0.6052145972453564
 
 	* uni0468 (U+0468): B<<703.5,960.0>-<696.0,1042.0>-<696.0,1108.0>>/B<<696.0,1108.0>-<690.0,960.0>-<673.0,824.0>> = 2.3215305898326966
+
+	* uni0474 (U+0474): B<<459.0,288.5>-<476.0,196.0>-<481.0,143.0>>/B<<481.0,143.0>-<483.0,187.0>-<501.0,286.0>> = 7.991873962473095
 
 	* uni0476 (U+0476): B<<459.0,286.5>-<476.0,195.0>-<481.0,143.0>>/B<<481.0,143.0>-<483.0,180.0>-<497.5,263.5>> = 8.586382616044505
 
@@ -1474,7 +1472,9 @@ The following glyphs do not have the recommended number of contours:
 
 	* uni1FEA (U+1FEA): B<<618.0,1209.0>-<665.0,1144.0>-<684.0,983.0>>/B<<684.0,983.0>-<700.0,1134.0>-<745.5,1204.0>> = 12.778990595616301
 
-	* uni1FEB (U+1FEB): B<<604.0,1209.0>-<651.0,1144.0>-<670.0,983.0>>/B<<670.0,983.0>-<685.0,1134.0>-<731.0,1204.0>> = 12.40350607454098 
+	* uni1FEB (U+1FEB): B<<604.0,1209.0>-<651.0,1144.0>-<670.0,983.0>>/B<<670.0,983.0>-<685.0,1134.0>-<731.0,1204.0>> = 12.40350607454098
+
+	* uni200C (U+200C): B<<364.0,360.5>-<350.0,367.0>-<344.0,395.0>>/L<<344.0,395.0>--<344.0,393.0>> = 12.094757077012089 
 
 	* uni202F (U+202F): L<<340.0,698.0>--<338.0,698.0>>/B<<338.0,698.0>-<356.0,694.0>-<376.5,686.5>> = 12.528807709151492 [code: found-jaggy-segments]
 </div></details><details><summary>⚠ <b>WARN:</b> Do outlines contain any semi-vertical or semi-horizontal lines? (<a href="https://font-bakery.readthedocs.io/en/stable/fontbakery/profiles/<Section: Outline Correctness Checks>.html#com.google.fonts/check/outline_semi_vertical">com.google.fonts/check/outline_semi_vertical</a>)</summary><div>
@@ -1736,32 +1736,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- acute.case
 
-	- afii57410.fina.alt
-
-	- afii57411.fina.alt
-
-	- afii57413.fina.alt
-
-	- afii57415.fina.alt
-
-	- afii57415.fina.short
-
-	- afii57415.fina.shorter
-
-	- afii57415.short
-
-	- afii57415.shorter
-
-	- afii57417.alt
-
-	- afii57444.medi.short
-
-	- afii57514.init
-
-	- afii57514.medi
-
-	- afii57534.fina
-
 	- arabic_root.comp
 
 	- bar.double
@@ -1884,6 +1858,24 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni0620.medi
 
+	- uni0622.fina.alt
+
+	- uni0623.fina.alt
+
+	- uni0625.fina.alt
+
+	- uni0627.fina.alt
+
+	- uni0627.fina.short
+
+	- uni0627.fina.shorter
+
+	- uni0627.short
+
+	- uni0627.shorter
+
+	- uni0629.alt
+
 	- uni063B.fina
 
 	- uni063B.init
@@ -1913,6 +1905,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- uni063F.init
 
 	- uni063F.medi
+
+	- uni0644.medi.short
 
 	- uni066E.fina
 
@@ -2146,6 +2140,10 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni06B9.medi
 
+	- uni06BA.init
+
+	- uni06BA.medi
+
 	- uni06BC.fina
 
 	- uni06BC.init
@@ -2189,6 +2187,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- uni06D1.init
 
 	- uni06D1.medi
+
+	- uni06D5.fina
 
 	- uni06EE.fina
 
@@ -2860,8 +2860,6 @@ The following glyphs do not have the recommended number of contours:
 
 * ⚠ **WARN** The following glyphs have colinear vectors:
 
-	* afii10196 (U+0475): L<<463.0,756.0>--<527.0,225.0>> -> L<<527.0,225.0>--<535.0,143.0>>
-
 	* angleright (U+232A): L<<551.0,1348.0>--<677.0,1079.0>> -> L<<677.0,1079.0>--<825.0,768.0>>
 
 	* angleright (U+232A): L<<840.0,563.0>--<370.0,-6.0>> -> L<<370.0,-6.0>--<283.0,-111.0>>
@@ -2881,6 +2879,8 @@ The following glyphs do not have the recommended number of contours:
 	* uni046D (U+046D): L<<368.0,127.0>--<472.0,338.0>> -> L<<472.0,338.0>--<493.0,379.0>>
 
 	* uni046D (U+046D): L<<472.0,338.0>--<493.0,379.0>> -> L<<493.0,379.0>--<521.0,424.0>>
+
+	* uni0475 (U+0475): L<<463.0,756.0>--<527.0,225.0>> -> L<<527.0,225.0>--<535.0,143.0>>
 
 	* uni0477 (U+0477): L<<465.0,756.0>--<532.0,225.0>> -> L<<532.0,225.0>--<537.0,143.0>>
 
@@ -2944,11 +2944,11 @@ The following glyphs do not have the recommended number of contours:
 
 	* Upsilontonos (U+038E): B<<845.0,1044.0>-<845.0,1016.0>-<843.0,983.0>>/B<<843.0,983.0>-<885.0,1134.0>-<943.0,1204.0>> = 12.075449967784303
 
-	* afii10148 (U+0474): B<<509.0,204.5>-<508.0,169.0>-<506.0,143.0>>/B<<506.0,143.0>-<516.0,187.0>-<551.5,286.0>> = 8.405560710291214
-
 	* uni0466 (U+0466): L<<760.0,553.0>--<764.0,489.0>>/L<<764.0,489.0>--<739.0,891.0>> = 0.01774687243908398
 
 	* uni0468 (U+0468): B<<872.5,960.0>-<880.0,1042.0>-<891.0,1108.0>>/B<<891.0,1108.0>-<859.0,960.0>-<818.0,824.0>> = 2.738146519354986
+
+	* uni0474 (U+0474): B<<509.0,204.5>-<508.0,169.0>-<506.0,143.0>>/B<<506.0,143.0>-<516.0,187.0>-<551.5,286.0>> = 8.405560710291214
 
 	* uni0476 (U+0476): B<<509.0,275.0>-<509.0,189.0>-<506.0,143.0>>/B<<506.0,143.0>-<515.0,180.0>-<544.0,263.5>> = 9.939910133035372
 
