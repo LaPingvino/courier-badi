@@ -21,8 +21,8 @@ lookup loclLocalizedFormsinLatinlookup0 {
 
 lookup loclLocalizedFormsinLatinlookup1 {
   lookupflag 0;
-    sub \Scedilla by \Scommaaccent ;
-    sub \scedilla by \scommaaccent ;
+    sub \Scedilla by \uni0218 ;
+    sub \scedilla by \uni0219 ;
 } loclLocalizedFormsinLatinlookup1;
 
 lookup loclLocalizedFormsinLatinlookup2 {
