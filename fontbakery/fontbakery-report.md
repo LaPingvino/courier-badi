@@ -256,6 +256,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- kafDotless-ar
 
+	- kafDotless-ar.fina
+
 	- miniKeheh-ar
 
 	- percent.arabic.comp
@@ -280,14 +282,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni0326.case
 
-	- uni0622.fina.alt
-
-	- uni0623.fina.alt
-
-	- uni0625.fina.alt
-
-	- uni0627.fina.alt
-
 	- uni0627.fina.short
 
 	- uni0627.fina.shorter
@@ -302,12 +296,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni066E.hah
 
-	- uni0671.fina.alt
-
-	- uni0672.fina.alt
-
-	- uni0673.fina.alt
-
 	- uni0674.narrow
 
 	- uni06BE.init.comp
@@ -315,10 +303,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- uni06F4.urdu
 
 	- uni06F7.urdu
-
-	- uni0773.fina.alt
-
-	- uni0774.fina.alt
 
 	- uni08AC.comp 
 
@@ -970,6 +954,8 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- kafDotless-ar
 
+	- kafDotless-ar.fina
+
 	- miniKeheh-ar
 
 	- percent.arabic.comp
@@ -1002,14 +988,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni0326.case
 
-	- uni0622.fina.alt
-
-	- uni0623.fina.alt
-
-	- uni0625.fina.alt
-
-	- uni0627.fina.alt
-
 	- uni0627.fina.short
 
 	- uni0627.fina.shorter
@@ -1024,12 +1002,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 
 	- uni066E.hah
 
-	- uni0671.fina.alt
-
-	- uni0672.fina.alt
-
-	- uni0673.fina.alt
-
 	- uni0674.narrow
 
 	- uni06BE.init.comp
@@ -1037,10 +1009,6 @@ Please read https://github.com/fonttools/fonttools/issues/3014 to decide whether
 	- uni06F4.urdu
 
 	- uni06F7.urdu
-
-	- uni0773.fina.alt
-
-	- uni0774.fina.alt
 
 	- uni08AC.comp 
 
