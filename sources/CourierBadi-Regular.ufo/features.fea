@@ -1,0 +1,318 @@
+
+
+@GDEF_Simple = [\A \AE \Aacute \Abreve \Acircumflex \Adieresis \Agrave \Amacron 
+	\Aogonek \Aring \Atilde \B \C \Cacute \Ccaron \Ccedilla \Ccircumflex \Cdotaccent 
+	\D \Dcaron \Dcroat \uni0394 \E \Eacute \Ebreve \Ecaron \Ecircumflex \Edieresis 
+	\Edotaccent \Egrave \Emacron \Eng \Eogonek \Eth \F \G \Gbreve \Gcircumflex 
+	\uni0122 \Gdotaccent \H \Hbar \Hcircumflex \I \IJ \Iacute \Ibreve \Icircumflex 
+	\Idieresis \Idotaccent \Igrave \Imacron \Iogonek \Itilde \J \Jcircumflex \K 
+	\uni0136 \L \Lacute \Lcaron \uni013B \Ldot \Lslash \M \N \Nacute \Ncaron \uni0145 
+	\Ntilde \O \OE \Oacute \Obreve \Ocircumflex \Odieresis \Ograve \Ohungarumlaut 
+	\Omacron \uni03A9 \Oslash \Otilde \P \Q \R \Racute \Rcaron \uni0156 \S \Sacute 
+	\Scaron \Scedilla \Scircumflex \uni0218 \T \Tbar \Tcaron \uni0162 \uni021A \Thorn 
+	\U \Uacute \Ubreve \Ucircumflex \Udieresis \Ugrave \Uhungarumlaut \Umacron 
+	\Uogonek \Uring \Utilde \V \W \Wacute \Wcircumflex \Wdieresis \Wgrave \X \Y \Yacute 
+	\Ycircumflex \Ydieresis \Ygrave \Z \Zacute \Zcaron \Zdotaccent \a \aacute \abreve 
+	\acircumflex \acute \adieresis \ae \agrave \amacron \ampersand \aogonek 
+	\approxequal \aring \asciicircum \asciitilde \asterisk \at \atilde \b \backslash 
+	\bar \braceleft \braceright \bracketleft \bracketright \breve \brokenbar 
+	\bullet \c \cacute \caron \caron.alt \ccaron \ccedilla \ccircumflex \cdotaccent 
+	\cedilla \cedilla.case \cent \circumflex \colon \colon.alt \comma \comma.alt 
+	\uni0326 \uni0326.case \copyright \currency \d \dagger \daggerdbl \dcaron 
+	\dcroat \degree \dieresis \divide \dollar \dotaccent \dotlessi \uni0237 \e 
+	\eacute \ebreve \ecaron \ecircumflex \edieresis \edotaccent \egrave \eight 
+	\ellipsis \ellipsis.alt1 \ellipsis.alt2 \ellipsis.alt3 \ellipsis.alt4 
+	\ellipsis.alt5 \emacron \emdash \emdash.alt1 \emdash.alt2 \emdash.alt3 
+	\emdash.alt4 \endash \eng \eogonek \equal \eth \Euro \exclam \exclamdown \f 
+	\uniFB01 \five \uniFB02 \florin \four \uni2074 \fraction \franc \g \gbreve 
+	\gcircumflex \uni0123 \gdotaccent \germandbls \grave \greater \greaterequal 
+	\guillemotleft \guillemotright \guilsinglleft \guilsinglright \h \hbar 
+	\hcircumflex \hungarumlaut \hyphen \hyphen.alt \i \iacute \ibreve \icircumflex 
+	\idieresis \idotaccent \igrave \ij \imacron \infinity \integral \iogonek \itilde 
+	\j \jcircumflex \k \uni0137 \l \lacute \lcaron \uni013C \ldot \less \lessequal 
+	\logicalnot \lozenge \lslash \m \macron \minus \minute \uni03BC \multiply \n 
+	\nacute \uni00A0 \ncaron \uni0146 \nine \uni2011 \notequal \ntilde \numbersign \o 
+	\oacute \obreve \ocircumflex \odieresis \oe \ogonek \ogonek.case \ograve 
+	\ohungarumlaut \omacron \one \onehalf \onequarter \uni00B9 \ordfeminine 
+	\ordmasculine \oslash \otilde \p \paragraph \parenleft \parenright \partialdiff 
+	\percent \period \period.alt \period.squat \periodcentered \perthousand \pi 
+	\plus \plusminus \product \q \question \questiondown \quotedbl \quotedblbase 
+	\quotedblleft \quotedblright \quoteleft \quoteright \quotesinglbase 
+	\quotesingle \r \racute \radical \rcaron \uni0157 \registered \ring \s \sacute 
+	\scaron \scedilla \scircumflex \uni0219 \second \section \semicolon 
+	\semicolon.alt \seven \six \slash \uni00AD \space \sterling \summation \t \tbar 
+	\tcaron \uni0163 \uni021B \thorn \three \threequarters \uni00B3 \tilde 
+	\trademark \two \uni00B2 \u \uacute \ubreve \ucircumflex \udieresis \ugrave 
+	\uhungarumlaut \umacron \underscore \uogonek \uring \utilde \v \w \wacute 
+	\wcircumflex \wdieresis \wgrave \uni20A9 \x \y \yacute \ycircumflex \ydieresis 
+	\yen \ygrave \z \zacute \zcaron \zdotaccent \zero \u1F7D9 \uni0308 \gravecomb 
+	\acutecomb \uni030B \uni0304 \uni1E9E \uni0307 \uni0302 \uni030C \uni0306 
+	\uni030A \tildecomb \uni0312 \uni0327 \uni0328 \uni1E0D \uni1E0C \uni1E25 
+	\uni1E24 \uni1E63 \uni1E62 \uni1E6D \uni1E6C \uni1E93 \uni1E92 \dotbelowcomb 
+	\.null \uni000D \uni0000 \uni018F \uni0259 \uni0401 \uni0402 \uni0403 \uni0404 
+	\uni0405 \uni0406 \uni0407 \uni0408 \uni0409 \uni040A \uni040B \uni040C \uni040D 
+	\uni040E \uni040F \uni0410 \uni0411 \uni0412 \uni0413 \uni0414 \uni0415 \uni0416 
+	\uni0417 \uni0418 \uni0419 \uni041A \uni041B \uni041C \uni041D \uni041E \uni041F 
+	\uni0420 \uni0421 \uni0422 \uni0423 \uni0424 \uni0425 \uni0426 \uni0427 \uni0428 
+	\uni0429 \uni042A \uni042B \uni042C \uni042D \uni042E \uni042F \uni0430 \uni0431 
+	\uni0432 \uni0433 \uni0434 \uni0435 \uni0436 \uni0437 \uni0438 \uni0439 \uni043A 
+	\uni043B \uni043C \uni043D \uni043E \uni043F \uni0440 \uni0441 \uni0442 \uni0443 
+	\uni0444 \uni0445 \uni0446 \uni0447 \uni0448 \uni0449 \uni044A \uni044B \uni044C 
+	\uni044D \uni044E \uni044F \uni0451 \uni0452 \uni0453 \uni0454 \uni0455 \uni0456 
+	\uni0457 \uni0458 \uni0459 \uni045A \uni045B \uni045C \uni045D \uni045E \uni045F 
+	\uni0490 \uni0491 \uni0492 \uni0493 \uni049A \uni049B \uni04A2 \uni04A3 \uni04AE 
+	\uni04AF \uni04B0 \uni04B1 \uni04BA \uni04BB \uni04D8 \uni04D9 \uni04E8 \uni04E9 
+	\uni2116 \uni2215 \commaaccent.case \AEacute \uni04D0 \uni1EAE \uni1EB6 
+	\uni1EB0 \uni1EB2 \uni1EB4 \uni01CD \uni1EA4 \uni1EAC \uni1EA6 \uni1EA8 \uni1EAA 
+	\uni0200 \uni04D2 \uni1EA0 \uni1EA2 \uni04D4 \Alpha \uni1F09 \uni1F0D \uni1F8D 
+	\uni1F0F \uni1F8F \uni1F89 \uni1F0B \uni1F8B \uni1FB9 \uni1FBB \uni1FBC \uni1F08 
+	\uni1F0C \uni1F8C \uni1F0E \uni1F8E \uni1F88 \uni1F0A \uni1F8A \Alphatonos 
+	\uni1FBA \uni1FB8 \Aringacute \Beta \uni04BC \uni04B6 \uni04BE \uni04F4 \uni04CB 
+	\uni04B8 \Chi \uni03DC \uni1E0E \uni04E0 \uni1EBE \uni1EC6 \uni1EC0 \uni1EC2 
+	\uni1EC4 \uni0204 \uni04EC \uni1EB8 \uni1EBA \uni0464 \uni0512 \uni04C5 \uni04CD 
+	\uni04A4 \uni04C7 \uni04C9 \Epsilon \uni1F19 \uni1F1D \uni1F1B \uni1FC9 \uni1F18 
+	\uni1F1C \uni1F1A \Epsilontonos \uni1FC8 \uni018E \uni048E \uni04AA \Eta 
+	\uni1F29 \uni1F2D \uni1F9D \uni1F2F \uni1F9F \uni1F99 \uni1F2B \uni1F9B \uni1FCB 
+	\uni1FCC \uni1F28 \uni1F2C \uni1F9C \uni1F2E \uni1F9E \uni1F98 \uni1F2A \uni1F9A 
+	\Etatonos \uni1FCA \uni1EBC \uni0472 \uni01F4 \Gamma \Gcaron \uni04F6 \uni0494 
+	\uni04A8 \uni04B2 \uni04FC \uni04FE \uni1E2A \uni1E26 \uni01CF \uni0208 \uni04E4 
+	\uni1E2E \uni1ECA \uni04D6 \uni0400 \uni1EC8 \uni048A \uni04E2 \Iota \uni1F39 
+	\uni1F3D \uni1F3F \uni1F3B \Iotadieresis \uni1FD9 \uni1FDB \uni1F38 \uni1F3C 
+	\uni1F3E \uni1F3A \Iotatonos \uni1FDA \uni1FD8 \uni0474 \uni0476 \uni04A0 
+	\uni04C3 \Kappa \uni049E \uni049C \uni0480 \uni03D8 \uni046E \Lambda \uni1E36 
+	\uni1E38 \uni1E42 \Mu \uni1E44 \uni1E46 \Nu \uni04EA \uni01D1 \uni1ED0 \uni1ED8 
+	\uni1ED2 \uni1ED4 \uni1ED6 \uni020C \uni04E6 \uni1ECC \Omega \uni2127 \uni1ECE 
+	\Ohorn \uni1EDA \uni1EE2 \uni1EDC \uni1EDE \uni1EE0 \uni0460 \uni1F69 \uni1F6D 
+	\uni1FAD \uni1F6F \uni1FAF \uni1FA9 \uni1F6B \uni1FAB \uni1FFB \uni1FFC \uni1F68 
+	\uni1F6C \uni1FAC \uni1F6E \uni1FAE \uni1FA8 \uni1F6A \uni1FAA \Omegatonos 
+	\uni1FFA \Omicron \uni1F49 \uni1F4D \uni1F4B \uni1FF9 \uni1F48 \uni1F4C \uni1F4A 
+	\Omicrontonos \uni1FF8 \uni01EA \Oslashacute \uni04C0 \uni04A6 \Phi \Pi \Psi 
+	\uni0470 \uni0210 \uni1E58 \uni1E5A \uni1E5C \Rho \uni1FEC \uni03E0 \uni04DA 
+	\uni048C \Sigma \uni03DA \Tau \uni04AC \uni04B4 \Theta 
+	\Threedotsinverted.alt.comp \uni1E6E \uni01D3 \uni0214 \uni04F0 \uni01D7 
+	\uni01D9 \uni01DB \uni1EE4 \uni1EE6 \Uhorn \uni1EE8 \uni1EF0 \uni1EEA \uni1EEC 
+	\uni1EEE \uni04F2 \uni0478 \uni04EE \Upsilon \uni1F59 \uni1F5D \uni1F5F \uni1F5B 
+	\Upsilondieresis \uni1FE9 \uni1FEB \Upsilontonos \uni1FEA \uni1FE8 \uniFE00 
+	\uniFE09 \uniFE0A \uniFE0B \uniFE0C \uniFE0D \uniFE0E \uniFE0F \uniFE01 \uniFE02 
+	\uniFE03 \uniFE04 \uniFE05 \uniFE06 \uniFE07 \uniFE08 \Xi \uni0462 \uni1EF4 
+	\uni04F8 \uni1EF6 \uni1EF8 \uni046A \uni046C \uni0466 \uni0468 \uni0498 \uni04DE 
+	\Zeta \uni04C1 \uni0496 \uni04DC \uni04D1 \uni1EAF \uni1EB7 \uni1EB1 \uni1EB3 
+	\uni1EB5 \uni01CE \uni1EA5 \uni1EAD \uni1EA7 \uni1EA9 \uni1EAB \uni0201 \uni04D3 
+	\uni1EA1 \uni06D5 \uni06D5.fina \aeacute \uni060B \uni1EA3 \uni04D5 \uni0639 
+	\uniFECA \uniFECB \uniFECC \uni06A0 \uni06A0.fina \uni06A0.init \uni06A0.medi 
+	\uni08B3 \uni08B3.fina \uni08B3.init \uni08B3.medi \uni075E \uni075E.fina 
+	\uni075E.init \uni075E.medi \uni075D \uni075D.fina \uni075D.init 
+	\uni075D.medi \uni075F \uni075F.fina \uni075F.init \uni075F.medi \uni0611 
+	\uni0627 \uniFE8E \uni0627.fina.alt \uni0627.fina.short 
+	\uni0627.fina.shorter \uni0627.short \uni0627.shorter \uni0623 \uniFE84 
+	\uni0623.fina.alt \uni0625 \uniFE88 \uni0625.fina.alt \uni0616 \uni0622 
+	\uniFE82 \uni0622.fina.alt \uni0649 \uniFEF0 \uniFBE8 \uniFBE9 \uni0774 
+	\uni0774.fina \uni0774.fina.alt \uni0773 \uni0773.fina \uni0773.fina.alt 
+	\uni0671 \uniFB51 \uni0671.fina.alt \uni0672 \uni0672.fina \uni0672.fina.alt 
+	\uni0673 \uni0673.fina \uni0673.fina.alt \uni0670 \uni0656 \uni08AD \uniFDF2 
+	\uniFDFA \alpha \uni1F01 \uni1F05 \uni1F85 \uni1F07 \uni1F87 \uni1F03 \uni1F83 
+	\uni1F81 \uni1FB1 \uni1F71 \uni1FB4 \uni1FB6 \uni1FB7 \uni1F00 \uni1F04 \uni1F84 
+	\uni1F06 \uni1F86 \uni1F02 \uni1F82 \uni1F80 \alphatonos \uni1F70 \uni1FB2 
+	\uni1FB0 \uni1FB3 \angleleft \angleright \uni08DC \anoteleia \arabic_root.comp 
+	\aringacute \uni08D4 \uni08DB \uni066D \asteriskmath \uni08DA \uni0E3F \uni067B 
+	\uniFB53 \uniFB54 \uniFB55 \uni0628 \uniFE90 \uniFE91 \uniFE92 \uni066E 
+	\uni066E.fina \uni066E.hah \uni066E.init \uni066E.medi \uni08B6 \uni08B6.fina 
+	\uni08B6.init \uni08B6.medi \uni0750 \uni0750.fina \uni0750.init 
+	\uni0750.medi \uni0751 \uni0751.fina \uni0751.init \uni0751.medi \uni0752 
+	\uni0752.fina \uni0752.init \uni0752.medi \uni0754 \uni0754.fina 
+	\uni0754.init \uni0754.medi \uni0756 \uni0756.fina \uni0756.init 
+	\uni0756.medi \uni08A0 \uni08A0.fina \uni08A0.init \uni08A0.medi \uni0755 
+	\uni0755.fina \uni0755.init \uni0755.medi \uniFC9F \uni0680 \uniFB5B \uniFB5C 
+	\uniFB5D \uni08A1 \uni08A1.fina \uni08A1.init \uni08A1.medi \beta \bigcircle 
+	\uniFDFD \uni2423 \uni2422 \uni032E \uni032F \uni0311 \caron.cap \uni2103 
+	\uni2040 \charbox.comp \uni04BD \uni04B7 \uni04BF \uni04F5 \uni04CC \uni04B9 
+	\chi \circumflex.cap \circumflexcomb_acutecomb.cap 
+	\circumflexcomb_gravecomb.cap \circumflexcomb_hookabovecomb.cap 
+	\circumflexcomb_tildecomb.cap \colon.arabic \colonmonetary \uni060C \uni2052 
+	\uni0606 \uni0636 \uniFEBE \uniFEBF \uniFEC0 \uni06FB \uni06FB.fina 
+	\uni06FB.init \uni06FB.medi \uni068C \uniFB85 \uni062F \uniFEAA \uni068A 
+	\uni068A.fina \uni068B \uni068B.fina \uni0690 \uni0690.fina \uni0689 
+	\uni0689.fina \uni08AE \uni08AE.fina \uni068F \uni068F.fina \uni0759 
+	\uni0759.fina \uni06EE \uni06EE.fina \uni075A \uni075A.fina \uni064F \uniFE79 
+	\uni08E5 \uni08FE \uni0657 \uni065D \uni0619 \uni064C \uni08E8 \uni08E3 \uni1FFE 
+	\uni1FDE \uni1FDF \uni0485 \uni1FDD \uni060D \uni27E6 \uni27E7 \uni030F \uni2016 
+	\uni068D \uniFB83 \uni0688 \uniFB89 \uni066B \delta \uni1FEE \uni1FC1 \uni1FED 
+	\uni2300 \dieresis.cap \dieresistonos \uni03DD \uni08E2 \uni26AE \uni1E0F \dong 
+	\uni06EC \uniFBB2 \uniFBB3 \uni25CC \uni065C \uni08FC \uni08FB \doublestroke-ar 
+	\uniFBBC \arrowdown \uni068E \uniFB87 \uni0684 \uniFB73 \uniFB74 \uniFB75 
+	\uni04E1 \uni06D0 \uniFBE5 \uniFBE6 \uniFBE7 \uni1EBF \uni1EC7 \uni1EC1 \uni1EC3 
+	\uni1EC5 \uni0205 \uni04ED \uni1EB9 \uni1EBB \uni0668 \uni0465 \uni0513 \uni04C6 
+	\uni04CE \uni06DD \uni04A5 \uni04C8 \uni04CA \epsilon \uni1F11 \uni1F15 \uni1F13 
+	\uni1F73 \uni1F10 \uni1F14 \uni1F12 \epsilontonos \uni1F72 \uni0258 \uni048F 
+	\uni04AB \estimated \eta \uni1F21 \uni1F25 \uni1F95 \uni1F27 \uni1F97 \uni1F23 
+	\uni1F93 \uni1F91 \uni1F75 \uni1FC4 \uni1FC6 \uni1FC7 \uni1F20 \uni1F24 \uni1F94 
+	\uni1F26 \uni1F96 \uni1F22 \uni1F92 \uni1F90 \etatonos \uni1F74 \uni1FC2 
+	\uni1FC3 \uni1EBD \uni01DD \exclam.arabic \uni064E \uniFE77 \uni08E4 \uni08F5 
+	\uni0659 \uni08F4 \uni0618 \uni064B \uniFE71 \uni08E7 \uni065E \uni0641 \uniFED2 
+	\uniFED3 \uniFED4 \uni08BB \uni08BB.fina \uni08BB.init \uni08BB.medi \uni06A3 
+	\uni06A3.fina \uni06A3.init \uni06A3.medi \uni08A4 \uni08A4.fina 
+	\uni08A4.init \uni08A4.medi \uni06A1 \uni06A1.fina \uni06A1.init 
+	\uni06A1.medi \uni06A2 \uni06A2.fina \uni06A2.init \uni06A2.medi \uni06A5 
+	\uni06A5.fina \uni06A5.init \uni06A5.medi \uni0761 \uni0761.fina 
+	\uni0761.init \uni0761.medi \uni0760 \uni0760.fina \uni0760.init 
+	\uni0760.medi \uni2068 \uni0473 \uni0665 \uni06F5 \uni0602 \uni08E0 \uni0664 
+	\uni06F4 \uni06F4.urdu \fourabove-ar \fourbelow-ar \uniFBBA \uniFBBB \uni0607 
+	\uni06D4 \uni2061 \uni01F5 \uni06AF \uniFB93 \uniFB94 \uniFB95 \uni08B0 
+	\uni08B0.fina \uni08B0.init \uni08B0.medi \uni06B0 \uni06B0.fina 
+	\uni06B0.init \uni06B0.medi \uni06B4 \uni06B4.fina \uni06B4.init 
+	\uni06B4.medi \uni06B2 \uni06B2.fina \uni06B2.init \uni06B2.medi 
+	\gafsarkashabove-ar \gamma \gcaron \uni04F7 \uni063A \uniFECE \uniFECF \uniFED0 
+	\uni06FC \uni06FC.fina \uni06FC.init \uni06FC.medi \uni08C3 \uni08C3.fina 
+	\uni08C3.init \uni08C3.medi \uni0495 \uni2E18 \uni034F \uni20B2 \uni06B3 
+	\uniFB97 \uniFB98 \uniFB99 \uni04A9 \uni04B3 \uni062D \uniFEA2 \uniFEA3 \uniFEA4 
+	\uni077C \uni077C.fina \uni077C.init \uni077C.medi \uni0681 \uni0681.fina 
+	\uni0681.init \uni0681.medi \uni076F \uni076F.fina \uni076F.init 
+	\uni076F.medi \uni0772 \uni0772.fina \uni0772.init \uni0772.medi \uni076E 
+	\uni076E.fina \uni076E.init \uni076E.medi \uni0685 \uni0685.fina 
+	\uni0685.init \uni0685.medi \uni0758 \uni0758.fina \uni0758.init 
+	\uni0758.medi \uni0757 \uni0757.fina \uni0757.init \uni0757.medi \uni0682 
+	\uni0682.fina \uni0682.init \uni0682.medi \uni06E1 \uni04FD \uni0621 \uni0654 
+	\uni0655 \uni04FF \uni1E2B \uni1E27 \uni0647 \uniFEEA \uniFEEB \uniFEEC \uni06BE 
+	\uniFBAB \uniFBAC \uni06BE.init.comp \uniFBAD \uni06C0 \uniFBA5 \uni06FF 
+	\uni06FF.fina \uni06FF.init \uni06FF.medi \uni06C1 \uniFBA7 \uniFBA8 \uniFBA9 
+	\uni06C2 \uni06C2.fina \uni0674 \uni0674.narrow \uni0675 \uni0676 \uni0678 
+	\uni0678.init \uni08F3 \uni06DE \hookabovecomb \uni0488 \uni2010 \uni01D0 
+	\uni0209 \uni04E5 \uni1E2F \uni1ECB \uni04D7 \uni0450 \uni1EC9 \uni048B \uni04E3 
+	\uni203D \uni2054 \uni2064 \uni2063 \uni2062 \iota \uni1F31 \uni1F35 \uni1F37 
+	\uni1F33 \uni1FD3 \uni1FD7 \uni1FD2 \iotadieresis \iotadieresistonos \uni1FD1 
+	\uni1F77 \uni1FD6 \uni1F30 \uni1F34 \uni1F36 \uni1F32 \iotatonos \uni1F76 
+	\uni1FD0 \ittisal.comp \uni0475 \uni0477 \uniFDFB \uni01F0 \uni062C \uniFE9E 
+	\uniFE9F \uniFEA0 \uni08C5 \uni08C5.fina \uni08C5.init \uni08C5.medi \uni08C6 
+	\uni08C6.fina \uni08C6.init \uni08C6.medi \uni08A2 \uni08A2.fina 
+	\uni08A2.init \uni08A2.medi \uni06DA \uni0698 \uniFB8B \uni04A1 \uni0643 
+	\uniFEDA \uniFEDB \uniFEDC \uni06AC \uni06AC.fina \uni06AC.init \uni06AC.medi 
+	\uni08B4 \uni08B4.fina \uni08B4.init \uni08B4.medi \kafDotless-ar 
+	\kafDotless-ar.fina \uni06AB \uni06AB.fina \uni06AB.init \uni06AB.medi 
+	\uni06AE \uni06AE.fina \uni06AE.init \uni06AE.medi \uni077F \uni077F.fina 
+	\uni077F.init \uni077F.medi \uni06AA \uni06AA.fina \uni06AA.init 
+	\uni06AA.medi \uni04C4 \kappa \uni0640 \uniFE73 \uni0650 \uniFE7B \uni08E6 
+	\uni08F6 \uni061A \uni064D \uni08E9 \uni049F \uni049D \uni06A9 \uniFB8F \uniFB90 
+	\uniFB91 \uni0762 \uni0762.fina \uni0762.init \uni0762.medi \uni0763 
+	\uni0763.fina \uni0763.init \uni0763.medi \uni063C \uni063C.fina 
+	\uni063C.init \uni063C.medi \uni0764 \uni0764.fina \uni0764.init 
+	\uni0764.medi \uni063B \uni063B.fina \uni063B.init \uni063B.medi \uni08C2 
+	\uni08C2.fina \uni08C2.init \uni08C2.medi \uni062E \uniFEA6 \uniFEA7 \uniFEA8 
+	\uni06C5 \uniFBE1 \uni06C9 \uniFBE3 \uni03DF \uni0481 \uni03D9 \uni1FBD \uni046F 
+	\uni0644 \uniFEDE \uniFEDF \uniFEE0 \uni0644.medi.short \uni06D9 \uni076A 
+	\uni076A.fina \uni076A.init \uni076A.medi \uni06B6 \uni06B6.fina 
+	\uni06B6.init \uni06B6.medi \uni08A6 \uni08A6.fina \uni08A6.init 
+	\uni08A6.medi \uni08C7 \uni08C7.fina \uni08C7.init \uni08C7.medi \uni06B7 
+	\uni06B7.fina \uni06B7.init \uni06B7.medi \uni06B8 \uni06B8.fina 
+	\uni06B8.init \uni06B8.medi \uni06B5 \uni06B5.fina \uni06B5.init 
+	\uni06B5.medi \uniFEFB \uniFEFC \uniFEF7 \uniFEF8 \uniFEF9 \uniFEFA \uniFEF5 
+	\uniFEF6 \uniFCCA \uniFCC9 \uniFCCB \uniFCCC \uniFD88 \lambda \uni08CF \uni1E37 
+	\uni1E39 \arrowleft \uni08F7 \uni08F9 \uni202A \uni2066 \uni200E \uni202D \lira 
+	\longs \uni0375 \uni0332 \uni0331 \uni0653 \uni06E4 \uni061C \uni08FF \uni26AD 
+	\uni1E43 \uni0645 \uniFEE2 \uniFEE3 \uniFEE4 \uni0765 \uni0765.fina 
+	\uni0765.init \uni0765.medi \uni0766 \uni0766.fina \uni0766.init 
+	\uni0766.medi \uni06E2 \uni08A7 \uni08A7.fina \uni08A7.init \uni08A7.medi 
+	\uni06D8 \uni06ED \mu \uni0489 \miniKeheh-ar \uni060F \uniFDF4 \uni20A6 \uni202F 
+	\uni1E45 \uni1E47 \uni06AD \uniFBD4 \uniFBD5 \uniFBD6 \uni06B1 \uniFB9B \uniFB9C 
+	\uniFB9D \uni0669 \uni0646 \uniFEE6 \uniFEE7 \uniFEE8 \uni08BD \uni08BD.fina 
+	\uni08BD.init \uni08BD.medi \uni06B9 \uni06B9.fina \uni06B9.init 
+	\uni06B9.medi \uni08D8 \uni08D9 \uni06BC \uni06BC.fina \uni06BC.init 
+	\uni06BC.medi \uni0768 \uni0768.fina \uni0768.init \uni0768.medi \uni06BD 
+	\uni06BD.fina \uni06BD.init \uni06BD.medi \uni0767 \uni0767.fina 
+	\uni0767.init \uni0767.medi \uni0769 \uni0769.fina \uni0769.init 
+	\uni0769.medi \uni06E8 \uni06BA \uniFB9F \uni06BA.init \uni06BA.medi \uni0658 
+	\musicalnote \nu \uni0600 \uni0605 \uni0374 \uni0683 \uniFB77 \uniFB78 \uniFB79 
+	\uni04EB \uni01D2 \uni1ED1 \uni1ED9 \uni1ED3 \uni1ED5 \uni1ED7 \uni020D \uni04E7 
+	\uni1ECD \uni06C6 \uniFBDA \uni1ECF \ohorn \uni1EDB \uni1EE3 \uni1EDD \uni1EDF 
+	\uni1EE1 \omega \uni0461 \uni1F61 \uni1F65 \uni1FA5 \uni1F67 \uni1FA7 \uni1F63 
+	\uni1FA3 \uni1FA1 \uni1F7D \uni1FF4 \uni1FF6 \uni1FF7 \uni1F60 \uni1F64 \uni1FA4 
+	\uni1F66 \uni1FA6 \uni1F62 \uni1FA2 \uni1FA0 \omegatonos \uni1F7C \uni1FF2 
+	\uni1FF3 \omicron \uni1F41 \uni1F45 \uni1F43 \uni1F79 \uni1F40 \uni1F44 \uni1F42 
+	\omicrontonos \uni1F78 \uni0661 \uni01EB \uni08F1 \uni08F0 \uni08F2 
+	\oslashacute \uni1FFD \uni0603 \uni0484 \uniFD3E \uniFD3F \uni067E \uniFB57 
+	\uniFB58 \uniFB59 \uni08B7 \uni08B7.fina \uni08B7.init \uni08B7.medi \uni08BE 
+	\uni08BE.fina \uni08BE.init \uni08BE.medi \uni06A6 \uniFB6F \uniFB70 \uniFB71 
+	\uni04A7 \uni066A \percent.arabic.comp \period.arabic \uni1FC0 \uni060A 
+	\uni0609 \perthousandzero \uni20B1 \phi \uni202C \uni2069 \prescription 
+	\uni1FBE \psi \uni0471 \uni1FBF \uni1FCE \uni1FCF \uni0486 \uni1FCD \uni2117 
+	\uni0642 \uniFED6 \uniFED7 \uniFED8 \uni08BC \uni08BC.fina \uni08BC.init 
+	\uni08BC.medi \uni06A7 \uni06A7.fina \uni06A7.init \uni06A7.medi \uni08A5 
+	\uni08A5.fina \uni08A5.init \uni08A5.medi \uni066F \uni066F.fina 
+	\uni066F.init \uni066F.medi \uni06D7 \uni06A8 \uni06A8.fina \uni06A8.init 
+	\uni06A8.medi \uni08C4 \uni08C4.fina \uni08C4.init \uni08C4.medi \uni08D7 
+	\uni08DE \uni061F \uni037E \uni2045 \uni2046 \uni0608 \uni0211 \uni1E59 \uni1E5B 
+	\uni1E5D \uni203B \uni0631 \uniFEAE \uni0613 \uni0694 \uni0694.fina \uni0696 
+	\uni0696.fina \uni0699 \uni0699.fina \uni0612 \uni076C \uni076C.fina \uni08AA 
+	\uni08AA.fina \uni08B9 \uni08B9.fina \uni0693 \uni0693.fina \uni075B 
+	\uni075B.fina \uni0697 \uni0697.fina \uni0771 \uni0771.fina \uni076B 
+	\uni076B.fina \uni0695 \uni0695.fina \uni06EF \uni06EF.fina \rehabove-ar 
+	\uni0692 \uni0692.fina \rho \uni1FE5 \uni06EB \uni06EA \uni1FE4 \uniFDFC 
+	\arrowright \uni08FD \uni08F8 \uni08FA \uni202B \uni2067 \uni200F \uni202E 
+	\uniFBBF \uni02BF \uni02BE \uni06BB \uniFBA1 \uniFBA2 \uniFBA3 \uni0691 \uniFB8D 
+	\uni0635 \uniFEBA \uniFEBB \uniFEBC \uni06D6 \uni069E \uni069E.fina 
+	\uni069E.init \uni069E.medi \uni08AF \uni08AF.fina \uni08AF.init 
+	\uni08AF.medi \uni069D \uni069D.fina \uni069D.init \uni069D.medi \uni0610 
+	\uni08E1 \uni08CC \uni06E9 \uni08DD \uni03E1 \uni0604 \uni04DB \uni0633 \uniFEB2 
+	\uniFEB3 \uniFEB4 \uni069A \uni069A.fina \uni069A.init \uni069A.medi \uni077D 
+	\uni077D.fina \uni077D.init \uni077D.medi \uni075C \uni075C.fina 
+	\uni075C.init \uni075C.medi \uni0770 \uni0770.fina \uni0770.init 
+	\uni0770.medi \uni069B \uni069B.fina \uni069B.init \uni069B.medi \uni076D 
+	\uni076D.fina \uni076D.init \uni076D.medi \uni077E \uni077E.fina 
+	\uni077E.init \uni077E.medi \uni06DC \uni06E3 \uni061B \uni048D \uni0667 
+	\uni06F7 \uni06F7.urdu \uni0651 \uniFE7D \uni0634 \uniFEB6 \uniFEB7 \uniFEB8 
+	\uni06FA \uni06FA.fina \uni06FA.init \uni06FA.medi \uni069C \uni069C.fina 
+	\uni069C.init \uni069C.medi \sigma \sigma1 \uni06FD \uni06FE \uni06FE.fina 
+	\uni06FE.init \uni06FE.medi \uni0666 \uni06F6 \uni08D6 \uni08D5 \uni2222 
+	\stroke-ar \uni0652 \uniFE7F \uni06E0 \uni06DF \uni0637 \uniFEC2 \uniFEC3 
+	\uniFEC4 \uni069F \uni069F.fina \uni069F.init \uni069F.medi \uni08A3 
+	\uni08A3.fina \uni08A3.init \uni08A3.medi \uni0615 \uniFBC1 \tail.comp 
+	\uni0614 \tau \uni0686 \uniFB7B \uniFB7C \uniFB7D \uni06BF \uni06BF.fina 
+	\uni06BF.init \uni06BF.medi \uni08C1 \uni08C1.fina \uni08C1.init 
+	\uni08C1.medi \uni0687 \uniFB7F \uniFB80 \uniFB81 \uni1E97 \uni04AD \uni062A 
+	\uniFE96 \uniFE97 \uniFE98 \uni0629 \uni0629.alt \uniFE94 \uni06C3 
+	\uni06C3.fina \uni067C \uni067C.fina \uni067C.init \uni067C.medi \uni08B8 
+	\uni08B8.fina \uni08B8.init \uni08B8.medi \uni067D \uni067D.fina 
+	\uni067D.init \uni067D.medi \uni0753 \uni0753.fina \uni0753.init 
+	\uni0753.medi \uni08BF \uni08BF.fina \uni08BF.init \uni08BF.medi \uniFCA2 
+	\uniFCA1 \uni067F \uniFB63 \uniFB64 \uniFB65 \uni04B5 \uni0630 \uniFEAC \uni062B 
+	\uniFE9A \uniFE9B \uniFE9C \theta \uni0482 \uni066C \uni0663 \threeabove-ar 
+	\uni061E \uni06DB \uniFBB8 \uniFBB9 \threedotshorizontalbelow-ar \uniFBB6 
+	\uniFBB7 \uni0330 \uni0483 \uni1E6F \uni08EC \uni08EF \uni08EA \uni08ED \uni08EB 
+	\uni08EE \tonos \uni0679 \uniFB67 \uniFB68 \uniFB69 \uni08C0 \uni08C0.fina 
+	\uni08C0.init \uni08C0.medi \uni067A \uniFB5F \uniFB60 \uniFB61 \uni0662 
+	\twoabove-ar \uniFBB4 \uniFBB5 \uniFBBD \uniFBBE \uni06C7 \uniFBD8 \uni0677 
+	\uni01D4 \uni0215 \uni04F1 \uni01D8 \uni01DA \uni01DC \uni1EE5 \uni1EE7 \uhorn 
+	\uni1EE9 \uni1EF1 \uni1EEB \uni1EED \uni1EEF \uni04F3 \uni0479 \uni04EF \uni203F 
+	\uni047A \uni047B \uni047C \uni047D \uni047E \uni047F \uniFBC0 \arrowup \upsilon 
+	\uni1F51 \uni1F55 \uni1F57 \uni1F53 \uni1FE3 \uni1FE7 \uni1FE2 \upsilondieresis 
+	\upsilondieresistonos \uni1FE1 \uni1F7B \uni1FE6 \uni1F50 \uni1F54 \uni1F56 
+	\uni1F52 \upsilontonos \uni1F7A \uni1FE0 \uni065A \uni1FEF \uni06CB \uniFBDF 
+	\uni06A4 \uniFB6B \uniFB6C \uniFB6D \uni060E \uni065B \uni08DF \wasla-ar 
+	\uni065F \uni0648 \uniFEEE \uni06CF \uni06CF.fina \uni08AB \uni08AB.fina 
+	\uni0624 \uniFE86 \uni06E5 \uni08B1 \uni08B1.fina \uni0779 \uni0779.fina 
+	\uni0778 \uni0778.fina \uni06CA \uni06CA.fina \uni08D3 \uni06C4 \uni06C4.fina 
+	\openbullet \xi \uni0463 \uni1EF5 \uni0601 \uni064A \uniFEF2 \uniFEF3 \uniFEF4 
+	\uni06CC \uniFBFD \uniFBFE \uniFBFF \uni0777 \uni0777.fina \uni0777.init 
+	\uni0777.medi \uni0626 \uniFE8A \uniFE8B \uniFE8C \uni0620 \uni0620.fina 
+	\uni0620.init \uni0620.medi \uni08AC \uni08AC.comp \uni08AC.fina \uni06E6 
+	\uni06CD \uni06CD.fina \uni0776 \uni0776.fina \uni0776.init \uni0776.medi 
+	\uni063F \uni063F.fina \uni063F.init \uni063F.medi \uni06D1 \uni06D1.fina 
+	\uni06D1.init \uni06D1.medi \uni0775 \uni0775.fina \uni0775.init 
+	\uni0775.medi \uni063E \uni063E.fina \uni063E.init \uni063E.medi \uni08A9 
+	\uni08A9.fina \uni08A9.init \uni08A9.medi \uni08A8 \uni08A8.fina 
+	\uni08A8.init \uni08A8.medi \uni08BA \uni08BA.fina \uni08BA.init 
+	\uni08BA.medi \uni06CE \uni06CE.fina \uni06CE.init \uni06CE.medi \uni063D 
+	\uni063D.fina \uni063D.init \uni063D.medi \uniFC94 \uni06E7 \uni06D2 \uniFBAF 
+	\uni06D3 \uniFBB1 \uni077B \uni077B.fina \uni077A \uni077A.fina \uni04F9 
+	\uni1EF7 \uni037A \uni1EF9 \uni06C8 \uniFBDC \uni046B \uni046D \uni0467 \uni0469 
+	\uni0638 \uniFEC6 \uniFEC7 \uniFEC8 \uni0632 \uniFEB0 \uni08B2 \uni08B2.fina 
+	\uni0617 \uni0499 \uni04DF \uni0660 \zero.slash \uniFEFF \uni200D \uni200C \zeta 
+	\uni04C2 \uni0497 \uni04DD ];
+@GDEF_Mark = [\acute.case \breve.case \caron.case \circumflex.case 
+	\dieresis.case \dotaccent.case \grave.case \hungarumlaut.case \macron.case 
+	\ring.case \tilde.case ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+
