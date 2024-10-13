@@ -26,7 +26,7 @@ build.stamp: venv .init.stamp sources/config.yaml $(SOURCES)
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
-	. venv/bin/activate; pip install -Ur requirements.txt
+	. venv/bin/activate; venv/bin/pip install -Ur requirements.txt
 	touch venv/touchfile
 
 test: venv build.stamp
@@ -49,4 +49,4 @@ update-project-template:
 	npx update-template https://github.com/googlefonts/googlefonts-project-template/
 
 update:
-	pip install --upgrade $(dependency); pip freeze > requirements.txt
+	venv/bin/pip install --upgrade $(dependency); venv/bin/pip freeze > requirements.txt
