@@ -35,6 +35,9 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+**13 October 2024. Version 0.529**
+- Prerelease Greek improvements
+
 **22 July 2023. Version 0.520**
 - Fixed the gaps in Italic. Corrected skew for Italic. Corrected position of Bahá'í star in Italic.
 
