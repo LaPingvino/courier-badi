@@ -35,6 +35,15 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 ## Changelog
 
+**24 October 2025. Version 0.600**
+- Complete Arabic features enhancement through 5 incremental levels
+- Extended Arabic character support (Unicode 075x range)
+- Comprehensive contextual forms (.fina, .init, .medi) for Arabic script
+- Enhanced language support for Arabic (ARA), Farsi (FAR), and Urdu (URD)
+- 625 lines of OpenType features with 320 optimized substitution rules
+- Added incremental enhancement automation tool
+- Production-ready Arabic typography with backward compatibility
+
 **13 October 2024. Version 0.529**
 - Prerelease Greek improvements
 

@@ -1,0 +1,412 @@
+# Complete Arabic Features File for CourierBadi
+# Comprehensive implementation with full coverage of available Arabic glyphs
+# Phase 2 Complete: Core functionality with all available Arabic characters
+
+# Language system declarations
+languagesystem DFLT dflt;
+languagesystem arab dflt;
+languagesystem arab ARA;
+languagesystem arab FAR;
+languagesystem arab URD;
+
+# ============================================================================
+# GSUB Features (Glyph Substitution)
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Localized Forms (locl) - Language-specific variants
+# ----------------------------------------------------------------------------
+lookup loclLocalizedForms {
+    lookupflag 0;
+    # Urdu-specific number variants
+    sub \uni06F4 by \uni06F4.urdu;
+    sub \uni06F6 by \uni0666;
+    sub \uni06F7 by \uni06F7.urdu;
+} loclLocalizedForms;
+
+feature locl {
+    script arab;
+    language URD exclude_dflt;
+    lookup loclLocalizedForms;
+} locl;
+
+# ----------------------------------------------------------------------------
+# Discretionary Ligatures (dlig) - Optional Arabic typography
+# ----------------------------------------------------------------------------
+lookup dligArabicPunctuation {
+    lookupflag 0;
+    # Arabic-specific punctuation variants
+    sub \period by \period.arabic;
+    sub \colon by \colon.arabic;
+    sub \exclam by \exclam.arabic;
+} dligArabicPunctuation;
+
+feature dlig {
+    script DFLT;
+    language dflt;
+    lookup dligArabicPunctuation;
+
+    script arab;
+    language dflt;
+    lookup dligArabicPunctuation;
+} dlig;
+
+# ----------------------------------------------------------------------------
+# Final Forms (fina) - Terminal/final contextual forms
+# ----------------------------------------------------------------------------
+lookup finaTerminalForms {
+    lookupflag 0;
+    # Basic Arabic letters - final forms
+    sub \uni0627 by \uniFE8E;  # alef
+    sub \uni0623 by \uniFE84;  # alef with hamza above
+    sub \uni0625 by \uniFE88;  # alef with hamza below
+    sub \uni0622 by \uniFE82;  # alef with madda above
+    sub \uni0628 by \uniFE90;  # beh
+    sub \uni062A by \uniFE96;  # teh
+    sub \uni062B by \uniFE9A;  # theh
+    sub \uni062C by \uniFE9E;  # jeem
+    sub \uni062D by \uniFEA2;  # hah
+    sub \uni062E by \uniFEA6;  # khah
+    sub \uni062F by \uniFEAA;  # dal
+    sub \uni0630 by \uniFEAC;  # thal
+    sub \uni0631 by \uniFEAE;  # reh
+    sub \uni0632 by \uniFEB0;  # zain
+    sub \uni0633 by \uniFEB2;  # seen
+    sub \uni0634 by \uniFEB6;  # sheen
+    sub \uni0635 by \uniFEBA;  # sad
+    sub \uni0636 by \uniFEBE;  # dad
+    sub \uni0637 by \uniFEC2;  # tah
+    sub \uni0638 by \uniFEC6;  # zah
+    sub \uni0639 by \uniFECA;  # ain
+    sub \uni063A by \uniFECE;  # ghain
+    sub \uni0641 by \uniFED2;  # feh
+    sub \uni0642 by \uniFED6;  # qaf
+    sub \uni0643 by \uniFEDA;  # kaf
+    sub \uni0644 by \uniFEDE;  # lam
+    sub \uni0645 by \uniFEE2;  # meem
+    sub \uni0646 by \uniFEE6;  # noon
+    sub \uni0647 by \uniFEEA;  # heh
+    sub \uni0648 by \uniFEEE;  # waw
+    sub \uni064A by \uniFEF2;  # yeh
+
+    # Extended Arabic characters with final forms
+    sub \uni0620 by \uni0620.fina;  # yeh with small v
+    sub \uni063B by \uni063B.fina;  # keheh with three dots above
+    sub \uni063C by \uni063C.fina;  # keheh with three dots below
+    sub \uni063D by \uni063D.fina;  # farsi yeh with inverted v
+    sub \uni063E by \uni063E.fina;  # farsi yeh with two dots above
+    sub \uni063F by \uni063F.fina;  # farsi yeh with three dots above
+    sub \uni066E by \uni066E.fina;  # beh noon
+    sub \uni066F by \uni066F.fina;  # qaf with three dots above
+    sub \uni0671 by \uniFB51;  # alef wasla
+    sub \uni0672 by \uni0672.fina;  # alef with wavy hamza above
+    sub \uni0673 by \uni0673.fina;  # alef with wavy hamza below
+    sub \uni067B by \uniFB53;  # beeh
+    sub \uni067C by \uni067C.fina;  # teh with ring
+    sub \uni067D by \uni067D.fina;  # teh with three dots above downwards
+    sub \uni067E by \uniFB57;  # peh
+    sub \uni067F by \uniFB63;  # teheh
+    sub \uni0680 by \uniFB5B;  # beheh
+    sub \uni0681 by \uni0681.fina;  # hah with hamza above
+    sub \uni0682 by \uni0682.fina;  # hah with two dots vertical above
+    sub \uni0683 by \uniFB77;  # nyeh
+    sub \uni0684 by \uniFB73;  # dyeh
+    sub \uni0685 by \uni0685.fina;  # hah with three dots above
+    sub \uni0686 by \uniFB7B;  # tcheh
+    sub \uni0687 by \uniFB7F;  # tcheheh
+    sub \uni0688 by \uniFB89;  # ddal
+    sub \uni0689 by \uni0689.fina;  # dal with ring
+    sub \uni068A by \uni068A.fina;  # dal with dot below
+    sub \uni068B by \uni068B.fina;  # dal with dot below and small tah
+    sub \uni068C by \uniFB85;  # dal with two dots above
+    sub \uni068D by \uniFB83;  # dal with two dots below
+    sub \uni068E by \uniFB87;  # dal with three dots above
+    sub \uni068F by \uni068F.fina;  # dal with three dots above downwards
+    sub \uni0690 by \uni0690.fina;  # dal with four dots above
+    sub \uni0691 by \uniFB8D;  # rreh
+    sub \uni0692 by \uni0692.fina;  # reh with small v
+    sub \uni0693 by \uni0693.fina;  # reh with ring
+    sub \uni0694 by \uni0694.fina;  # reh with dot below
+    sub \uni0695 by \uni0695.fina;  # reh with small v below
+    sub \uni0696 by \uni0696.fina;  # reh with dot below and dot above
+    sub \uni0697 by \uni0697.fina;  # reh with two dots above
+    sub \uni0698 by \uniFB8B;  # jeh
+    sub \uni0699 by \uni0699.fina;  # reh with four dots above
+    sub \uni069A by \uni069A.fina;  # seen with dot below and dot above
+    sub \uni069B by \uni069B.fina;  # seen with three dots below
+    sub \uni069C by \uni069C.fina;  # seen with three dots below and three dots above
+    sub \uni069D by \uni069D.fina;  # sad with two dots below
+    sub \uni069E by \uni069E.fina;  # sad with three dots above
+    sub \uni069F by \uni069F.fina;  # tah with three dots above
+    sub \uni06A0 by \uni06A0.fina;  # ain with three dots above
+    sub \uni06A1 by \uni06A1.fina;  # feh with dot moved below
+    sub \uni06A2 by \uni06A2.fina;  # feh with dot below
+    sub \uni06A3 by \uni06A3.fina;  # feh with three dots below
+    sub \uni06A4 by \uniFB6B;  # veh
+    sub \uni06A5 by \uni06A5.fina;  # feh with three dots below
+    sub \uni06A6 by \uniFB6F;  # peheh
+    sub \uni06A7 by \uni06A7.fina;  # qaf with dot above
+    sub \uni06A8 by \uni06A8.fina;  # qaf with three dots above
+    sub \uni06A9 by \uniFB8F;  # keheh
+    sub \uni06AA by \uni06AA.fina;  # swash kaf
+    sub \uni06AB by \uni06AB.fina;  # kaf with ring
+    sub \uni06AC by \uni06AC.fina;  # kaf with dot above
+    sub \uni06AD by \uniFBD4;  # ng
+    sub \uni06AE by \uni06AE.fina;  # kaf with three dots below
+    sub \uni06AF by \uniFB93;  # gaf
+    sub \uni06B0 by \uni06B0.fina;  # gaf with ring
+    sub \uni06B1 by \uniFB9B;  # ngoeh
+    sub \uni06B2 by \uni06B2.fina;  # gaf with two dots below
+    sub \uni06B3 by \uniFB97;  # gueh
+    sub \uni06B4 by \uni06B4.fina;  # gaf with three dots above
+    sub \uni06B5 by \uni06B5.fina;  # lam with small v
+    sub \uni06B6 by \uni06B6.fina;  # lam with dot above
+    sub \uni06B7 by \uni06B7.fina;  # lam with three dots above
+    sub \uni06B8 by \uni06B8.fina;  # lam with three dots below
+    sub \uni06B9 by \uni06B9.fina;  # noon with dot below
+    sub \uni06BA by \uniFB9F;  # noon ghunna
+    sub \uni06BB by \uniFBA1;  # rnoon
+    sub \uni06BC by \uni06BC.fina;  # noon with ring
+    sub \uni06BD by \uni06BD.fina;  # noon with three dots above
+    sub \uni06BE by \uniFBAB;  # heh doachashmee
+    sub \uni06BF by \uni06BF.fina;  # tcheh with dot above
+    sub \uni06C0 by \uniFBA5;  # heh with yeh above
+    sub \uni06C1 by \uniFBA7;  # heh goal
+    sub \uni06C2 by \uni06C2.fina;  # heh goal with hamza above
+    sub \uni06C3 by \uni06C3.fina;  # teh marbuta goal
+    sub \uni06C4 by \uni06C4.fina;  # waw with ring
+    sub \uni06C5 by \uniFBE1;  # kirghiz oe
+    sub \uni06C6 by \uniFBDA;  # oe
+    sub \uni06C7 by \uniFBD8;  # u
+    sub \uni06C8 by \uniFBDC;  # yu
+    sub \uni06C9 by \uniFBE3;  # kirghiz yu
+    sub \uni06CA by \uni06CA.fina;  # waw with two dots above
+    sub \uni06CB by \uniFBDF;  # ve
+    sub \uni06CC by \uniFBFD;  # farsi yeh
+    sub \uni06CD by \uni06CD.fina;  # yeh with tail
+    sub \uni06CE by \uni06CE.fina;  # yeh with small v
+    sub \uni06CF by \uni06CF.fina;  # waw with dot above
+    sub \uni06D0 by \uniFBE5;  # e
+    sub \uni06D1 by \uni06D1.fina;  # yeh with three dots below
+    sub \uni06D2 by \uniFBAF;  # yeh barree
+    sub \uni06D3 by \uniFBB1;  # yeh barree with hamza above
+    sub \uni06D5 by \uni06D5.fina;  # ae
+    sub \uni06EE by \uni06EE.fina;  # dal with inverted v
+    sub \uni06EF by \uni06EF.fina;  # reh with inverted v
+    sub \uni06FA by \uni06FA.fina;  # sheen with dot below
+    sub \uni06FB by \uni06FB.fina;  # dad with dot below
+    sub \uni06FC by \uni06FC.fina;  # ghain with dot below
+    sub \uni06FE by \uni06FE.fina;  # kaf with dot above
+    sub \uni06FF by \uni06FF.fina;  # heh with inverted v
+
+    # Special forms
+    sub \uni0624 by \uniFE86;  # waw with hamza above
+    sub \uni0626 by \uniFE8A;  # yeh with hamza above
+    sub \uni0629 by \uniFE94;  # teh marbuta
+    sub \uni0649 by \uniFEF0;  # alef maksura
+    sub \uni0679 by \uniFB67;  # tteh
+    sub \uni067A by \uniFB5F;  # tteheh
+
+    # Additional Arabic script extensions
+    sub \uni0750 by \uni0750.fina;  # beh with three dots horizontally below
+    sub \uni0751 by \uni0751.fina;  # beh with four dots below
+    sub \uni0752 by \uni0752.fina;  # beh with two dots below and dot above
+    sub \uni0753 by \uni0753.fina;  # beh with inverted small v below
+    sub \uni0754 by \uni0754.fina;  # beh with two dots below
+    sub \uni0755 by \uni0755.fina;  # beh with small v
+    sub \uni0756 by \uni0756.fina;  # beh with small v below
+    sub \uni0757 by \uni0757.fina;  # hah with two dots above
+    sub \uni0758 by \uni0758.fina;  # hah with three dots pointing upwards below
+    sub \uni0759 by \uni0759.fina;  # dal with two dots vertically below and small tah
+    sub \uni075A by \uni075A.fina;  # dal with inverted small v below
+    sub \uni075B by \uni075B.fina;  # reh with stroke
+    sub \uni075C by \uni075C.fina;  # seen with four dots above
+    sub \uni075D by \uni075D.fina;  # ain with two dots above
+    sub \uni075E by \uni075E.fina;  # ain with three dots pointing downwards above
+    sub \uni075F by \uni075F.fina;  # ain with two dots vertically above
+    sub \uni0760 by \uni0760.fina;  # feh with two dots below
+    sub \uni0761 by \uni0761.fina;  # feh with three dots pointing upwards below
+    sub \uni0762 by \uni0762.fina;  # keheh with dot above
+    sub \uni0763 by \uni0763.fina;  # keheh with three dots above
+    sub \uni0764 by \uni0764.fina;  # keheh with three dots pointing upwards below
+    sub \uni0765 by \uni0765.fina;  # meem with dot above
+    sub \uni0766 by \uni0766.fina;  # meem with dot below
+    sub \uni0767 by \uni0767.fina;  # noon with two dots below
+    sub \uni0768 by \uni0768.fina;  # noon with small tah
+    sub \uni0769 by \uni0769.fina;  # noon with small v
+    sub \uni076A by \uni076A.fina;  # lam with bar
+    sub \uni076B by \uni076B.fina;  # reh with two dots vertically above
+    sub \uni076C by \uni076C.fina;  # reh with hamza above
+    sub \uni076D by \uni076D.fina;  # seen with two dots vertically above
+    sub \uni076E by \uni076E.fina;  # hah with small tah below
+    sub \uni076F by \uni076F.fina;  # hah with small tah and two dots
+    sub \uni0770 by \uni0770.fina;  # seen with small tah and two dots
+    sub \uni0771 by \uni0771.fina;  # reh with small tah and two dots
+    sub \uni0772 by \uni0772.fina;  # hah with small tah above
+    sub \uni0773 by \uni0773.fina;  # alef with extended Arabic-indic digit two above
+    sub \uni0774 by \uni0774.fina;  # alef with extended Arabic-indic digit three above
+    sub \uni0775 by \uni0775.fina;  # farsi yeh with extended Arabic-indic digit two above
+    sub \uni0776 by \uni0776.fina;  # farsi yeh with extended Arabic-indic digit three above
+    sub \uni0777 by \uni0777.fina;  # farsi yeh with extended Arabic-indic digit four below
+    sub \uni0778 by \uni0778.fina;  # waw with extended Arabic-indic digit two above
+    sub \uni0779 by \uni0779.fina;  # waw with extended Arabic-indic digit three above
+    sub \uni077A by \uni077A.fina;  # yeh barree with extended Arabic-indic digit two above
+    sub \uni077B by \uni077B.fina;  # yeh barree with extended Arabic-indic digit three above
+    sub \uni077C by \uni077C.fina;  # hah with extended Arabic-indic digit four below
+    sub \uni077D by \uni077D.fina;  # seen with extended Arabic-indic digit four above
+    sub \uni077E by \uni077E.fina;  # seen with inverted v
+    sub \uni077F by \uni077F.fina;  # kaf with two dots above
+
+    # 08xx range extensions
+    sub \uni08A0 by \uni08A0.fina;  # beh with small v below
+    sub \uni08A1 by \uni08A1.fina;  # beh with hamza above
+    sub \uni08A2 by \uni08A2.fina;  # jeem with two dots above
+    sub \uni08A3 by \uni08A3.fina;  # tah with two dots above
+    sub \uni08A4 by \uni08A4.fina;  # feh with dot below and three dots above
+    sub \uni08A5 by \uni08A5.fina;  # qaf with dot below
+    sub \uni08A6 by \uni08A6.fina;  # lam with double bar
+    sub \uni08A7 by \uni08A7.fina;  # meem with three dots above
+    sub \uni08A8 by \uni08A8.fina;  # yeh with two dots below and hamza above
+    sub \uni08A9 by \uni08A9.fina;  # yeh with two dots below and dot above
+    sub \uni08AA by \uni08AA.fina;  # reh with loop
+    sub \uni08AB by \uni08AB.fina;  # waw with dot within
+    sub \uni08AC by \uni08AC.fina;  # rohingya yeh
+    sub \uni08AE by \uni08AE.fina;  # dal with three dots below
+    sub \uni08AF by \uni08AF.fina;  # sad with three dots below
+    sub \uni08B0 by \uni08B0.fina;  # gaf with inverted stroke
+    sub \uni08B1 by \uni08B1.fina;  # waw with hamza above
+    sub \uni08B2 by \uni08B2.fina;  # zain with inverted v above
+    sub \uni08B3 by \uni08B3.fina;  # ain with three dots below
+    sub \uni08B4 by \uni08B4.fina;  # kaf with dot below
+    sub \uni08B6 by \uni08B6.fina;  # beh with small meem above
+    sub \uni08B7 by \uni08B7.fina;  # peh with small meem above
+    sub \uni08B8 by \uni08B8.fina;  # teh with small teh above
+    sub \uni08B9 by \uni08B9.fina;  # reh with small noon above
+    sub \uni08BA by \uni08BA.fina;  # yeh with two dots below and small noon above
+    sub \uni08BB by \uni08BB.fina;  # african feh
+    sub \uni08BC by \uni08BC.fina;  # african qaf
+    sub \uni08BD by \uni08BD.fina;  # african noon
+    sub \uni08BE by \uni08BE.fina;  # peh with small v
+    sub \uni08BF by \uni08BF.fina;  # teh with small v
+    sub \uni08C0 by \uni08C0.fina;  # tah with small v
+    sub \uni08C1 by \uni08C1.fina;  # tcheh with small v
+    sub \uni08C2 by \uni08C2.fina;  # keheh with small v
+    sub \uni08C3 by \uni08C3.fina;  # ghain with three dots above
+    sub \uni08C4 by \uni08C4.fina;  # african qaf with three dots above
+    sub \uni08C5 by \uni08C5.fina;  # jeem with three dots above
+    sub \uni08C6 by \uni08C6.fina;  # jeem with three dots below
+    sub \uni08C7 by \uni08C7.fina;  # lam with small arabic letter tah above
+} finaTerminalForms;
+
+feature fina {
+    script DFLT;
+    language dflt;
+    lookup finaTerminalForms;
+
+    script arab;
+    language dflt;
+    lookup finaTerminalForms;
+} fina;
+
+# ----------------------------------------------------------------------------
+# Medial Forms (medi) - Middle contextual forms
+# ----------------------------------------------------------------------------
+lookup mediMedialForms {
+    lookupflag 0;
+    # Basic Arabic letters - medial forms (only connecting letters)
+    sub \uni0628 by \uniFE92;  # beh
+    sub \uni062A by \uniFE98;  # teh
+    sub \uni062B by \uniFE9C;  # theh
+    sub \uni062C by \uniFEA0;  # jeem
+    sub \uni062D by \uniFEA4;  # hah
+    sub \uni062E by \uniFEA8;  # khah
+    sub \uni0633 by \uniFEB4;  # seen
+    sub \uni0634 by \uniFEB8;  # sheen
+    sub \uni0635 by \uniFEBC;  # sad
+    sub \uni0636 by \uniFEC0;  # dad
+    sub \uni0637 by \uniFEC4;  # tah
+    sub \uni0638 by \uniFEC8;  # zah
+    sub \uni0639 by \uniFECC;  # ain
+    sub \uni063A by \uniFED0;  # ghain
+    sub \uni0641 by \uniFED4;  # feh
+    sub \uni0642 by \uniFED8;  # qaf
+    sub \uni0643 by \uniFEDC;  # kaf
+    sub \uni0644 by \uniFEE0;  # lam
+    sub \uni0645 by \uniFEE4;  # meem
+    sub \uni0646 by \uniFEE8;  # noon
+    sub \uni0647 by \uniFEEC;  # heh
+    sub \uni064A by \uniFEF4;  # yeh
+
+    # Extended Arabic characters with medial forms
+    sub \uni0620 by \uni0620.medi;  # yeh with small v
+    sub \uni063B by \uni063B.medi;  # keheh with three dots above
+    sub \uni063C by \uni063C.medi;  # keheh with three dots below
+    sub \uni063D by \uni063D.medi;  # farsi yeh with inverted v
+    sub \uni063E by \uni063E.medi;  # farsi yeh with two dots above
+    sub \uni063F by \uni063F.medi;  # farsi yeh with three dots above
+    sub \uni066E by \uni066E.medi;  # beh noon
+    sub \uni066F by \uni066F.medi;  # qaf with three dots above
+    sub \uni067B by \uniFB55;  # beeh
+    sub \uni067C by \uni067C.medi;  # teh with ring
+    sub \uni067D by \uni067D.medi;  # teh with three dots above downwards
+    sub \uni067E by \uniFB59;  # peh
+    sub \uni067F by \uniFB65;  # teheh
+    sub \uni0680 by \uniFB5D;  # beheh
+    sub \uni0681 by \uni0681.medi;  # hah with hamza above
+    sub \uni0682 by \uni0682.medi;  # hah with two dots vertical above
+    sub \uni0683 by \uniFB79;  # nyeh
+    sub \uni0684 by \uniFB75;  # dyeh
+    sub \uni0685 by \uni0685.medi;  # hah with three dots above
+    sub \uni0686 by \uniFB7D;  # tcheh
+    sub \uni0687 by \uniFB81;  # tcheheh
+    sub \uni069A by \uni069A.medi;  # seen with dot below and dot above
+    sub \uni069B by \uni069B.medi;  # seen with three dots below
+    sub \uni069C by \uni069C.medi;  # seen with three dots below and three dots above
+    sub \uni069D by \uni069D.medi;  # sad with two dots below
+    sub \uni069E by \uni069E.medi;  # sad with three dots above
+    sub \uni069F by \uni069F.medi;  # tah with three dots above
+    sub \uni06A0 by \uni06A0.medi;  # ain with three dots above
+    sub \uni06A1 by \uni06A1.medi;  # feh with dot moved below
+    sub \uni06A2 by \uni06A2.medi;  # feh with dot below
+    sub \uni06A3 by \uni06A3.medi;  # feh with three dots below
+    sub \uni06A4 by \uniFB6D;  # veh
+    sub \uni06A5 by \uni06A5.medi;  # feh with three dots below
+    sub \uni06A6 by \uniFB71;  # peheh
+    sub \uni06A7 by \uni06A7.medi;  # qaf with dot above
+    sub \uni06A8 by \uni06A8.medi;  # qaf with three dots above
+    sub \uni06A9 by \uniFB91;  # keheh
+    sub \uni06AA by \uni06AA.medi;  # swash kaf
+    sub \uni06AB by \uni06AB.medi;  # kaf with ring
+    sub \uni06AC by \uni06AC.medi;  # kaf with dot above
+    sub \uni06AD by \uniFBD6;  # ng
+    sub \uni06AE by \uni06AE.medi;  # kaf with three dots below
+    sub \uni06AF by \uniFB95;  # gaf
+    sub \uni06B0 by \uni06B0.medi;  # gaf with ring
+    sub \uni06B1 by \uniFB9D;  # ngoeh
+    sub \uni06B2 by \uni06B2.medi;  # gaf with two dots below
+    sub \uni06B3 by \uniFB99;  # gueh
+    sub \uni06B4 by \uni06B4.medi;  # gaf with three dots above
+    sub \uni06B5 by \uni06B5.medi;  # lam with small v
+    sub \uni06B6 by \uni06B6.medi;  # lam with dot above
+    sub \uni06B7 by \uni06B7.medi;  # lam with three dots above
+    sub \uni06B8 by \uni06B8.medi;  # lam with three dots below
+    sub \uni06B9 by \uni06B9.medi;  # noon with dot below
+    sub \uni06BA by \uni06BA.medi;  # noon ghunna
+    sub \uni06BB by \uniFBA3;  # rnoon
+    sub \uni06BC by \uni06BC.medi;  # noon with ring
+    sub \uni06BD by \uni06BD.medi;  # noon with three dots above
+    sub \uni06BE by \uniFBAD;  # heh doachashmee
+    sub \uni06BF by \uni06BF.medi;  # tcheh with dot above
+    sub \uni06C1 by \uniFBA9;  # heh goal
+    sub \uni06CC by \uniFBFF;  # farsi yeh
+    sub \uni06CE by \uni06CE.medi;  # yeh with small v
+    sub \uni06D0 by \uniFBE7;  # e
+    sub \uni06D1 by \uni06D1.medi;  # yeh with three dots below
+    sub \uni06FA by \uni06FA.medi;  # sheen with dot below
+    sub \uni06FB by \uni06FB.medi;  # dad with dot below
+    sub \uni06FC by \uni06FC.medi;  # ghain with dot below
+    sub \uni06FE by \uni06FE.medi;  # kaf with dot above
+    sub \uni06FF by \uni06FF.medi;  # heh with inverted v
+
+    # Special cases
+    sub \uni0626 by \uniFE8C;  # yeh with hamza above

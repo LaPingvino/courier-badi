@@ -1,0 +1,274 @@
+# Barebones Arabic Features File for CourierBadi
+# Essential features only - designed to compile without errors
+# Based on existing glyph inventory and critical OpenType requirements
+
+# Language system declarations
+languagesystem DFLT dflt;
+languagesystem arab dflt;
+languagesystem arab ARA;
+languagesystem arab FAR;
+languagesystem arab URD;
+
+# ============================================================================
+# GSUB Features (Glyph Substitution)
+# ============================================================================
+
+# ----------------------------------------------------------------------------
+# Localized Forms (locl) - Urdu number variants
+# ----------------------------------------------------------------------------
+lookup loclLocalizedForms {
+    lookupflag 0;
+    # Urdu-specific number variants (only for glyphs that exist)
+    sub \uni06F4 by \uni06F4.urdu;
+    sub \uni06F6 by \uni0666;
+    sub \uni06F7 by \uni06F7.urdu;
+} loclLocalizedForms;
+
+feature locl {
+    script arab;
+    language URD exclude_dflt;
+    lookup loclLocalizedForms;
+} locl;
+
+# ----------------------------------------------------------------------------
+# Discretionary Ligatures (dlig) - Arabic punctuation variants
+# ----------------------------------------------------------------------------
+lookup dligArabicPunctuation {
+    lookupflag 0;
+    # Arabic-specific punctuation (only if glyphs exist)
+    sub \period by \period.arabic;
+    sub \colon by \colon.arabic;
+    sub \exclam by \exclam.arabic;
+} dligArabicPunctuation;
+
+feature dlig {
+    script DFLT;
+    language dflt;
+    lookup dligArabicPunctuation;
+
+    script arab;
+    language dflt;
+    lookup dligArabicPunctuation;
+} dlig;
+
+# ----------------------------------------------------------------------------
+# Final Forms (fina) - Terminal/final contextual forms
+# ----------------------------------------------------------------------------
+lookup finaTerminalForms {
+    lookupflag 0;
+    # Basic Arabic letters - final forms
+    sub \uni0627 by \uniFE8E;  # alef
+    sub \uni0623 by \uniFE84;  # alef with hamza above
+    sub \uni0625 by \uniFE88;  # alef with hamza below
+    sub \uni0622 by \uniFE82;  # alef with madda above
+    sub \uni0628 by \uniFE90;  # beh
+    sub \uni062A by \uniFE96;  # teh
+    sub \uni062B by \uniFE9A;  # theh
+    sub \uni062C by \uniFE9E;  # jeem
+    sub \uni062D by \uniFEA2;  # hah
+    sub \uni062E by \uniFEA6;  # khah
+    sub \uni062F by \uniFEAA;  # dal
+    sub \uni0630 by \uniFEAC;  # thal
+    sub \uni0631 by \uniFEAE;  # reh
+    sub \uni0632 by \uniFEB0;  # zain
+    sub \uni0633 by \uniFEB4;  # seen
+    sub \uni0634 by \uniFEB8;  # sheen
+    sub \uni0635 by \uniFEBC;  # sad
+    sub \uni0636 by \uniFEC0;  # dad
+    sub \uni0637 by \uniFEC4;  # tah
+    sub \uni0638 by \uniFEC8;  # zah
+    sub \uni0639 by \uniFECC;  # ain
+    sub \uni063A by \uniFED0;  # ghain
+    sub \uni0641 by \uniFED4;  # feh
+    sub \uni0642 by \uniFED8;  # qaf
+    sub \uni0643 by \uniFEDC;  # kaf
+    sub \uni0644 by \uniFEE0;  # lam
+    sub \uni0645 by \uniFEE4;  # meem
+    sub \uni0646 by \uniFEE8;  # noon
+    sub \uni0647 by \uniFEEC;  # heh
+    sub \uni0648 by \uniFEEE;  # waw
+    sub \uni064A by \uniFEF2;  # yeh
+} finaTerminalForms;
+
+feature fina {
+    script DFLT;
+    language dflt;
+    lookup finaTerminalForms;
+
+    script arab;
+    language dflt;
+    lookup finaTerminalForms;
+} fina;
+
+# ----------------------------------------------------------------------------
+# Medial Forms (medi) - Middle contextual forms
+# ----------------------------------------------------------------------------
+lookup mediMedialForms {
+    lookupflag 0;
+    # Basic Arabic letters - medial forms (only connecting letters)
+    sub \uni0628 by \uniFE92;  # beh
+    sub \uni062A by \uniFE98;  # teh
+    sub \uni062B by \uniFE9C;  # theh
+    sub \uni062C by \uniFEA0;  # jeem
+    sub \uni062D by \uniFEA4;  # hah
+    sub \uni062E by \uniFEA8;  # khah
+    sub \uni0633 by \uniFEB6;  # seen
+    sub \uni0634 by \uniFEBA;  # sheen
+    sub \uni0635 by \uniFEBE;  # sad
+    sub \uni0636 by \uniFEC2;  # dad
+    sub \uni0637 by \uniFEC6;  # tah
+    sub \uni0638 by \uniFECA;  # zah
+    sub \uni0639 by \uniFECE;  # ain
+    sub \uni063A by \uniFED2;  # ghain
+    sub \uni0641 by \uniFED6;  # feh
+    sub \uni0642 by \uniFEDA;  # qaf
+    sub \uni0643 by \uniFEDE;  # kaf
+    sub \uni0644 by \uniFEE2;  # lam
+    sub \uni0645 by \uniFEE6;  # meem
+    sub \uni0646 by \uniFEEA;  # noon
+    sub \uni0647 by \uniFEEE;  # heh
+    sub \uni064A by \uniFEF4;  # yeh
+} mediMedialForms;
+
+feature medi {
+    script DFLT;
+    language dflt;
+    lookup mediMedialForms;
+
+    script arab;
+    language dflt;
+    lookup mediMedialForms;
+} medi;
+
+# ----------------------------------------------------------------------------
+# Initial Forms (init) - Beginning contextual forms
+# ----------------------------------------------------------------------------
+lookup initInitialForms {
+    lookupflag 0;
+    # Basic Arabic letters - initial forms (only connecting letters)
+    sub \uni0628 by \uniFE91;  # beh
+    sub \uni062A by \uniFE97;  # teh
+    sub \uni062B by \uniFE9B;  # theh
+    sub \uni062C by \uniFE9F;  # jeem
+    sub \uni062D by \uniFEA3;  # hah
+    sub \uni062E by \uniFEA7;  # khah
+    sub \uni0633 by \uniFEB5;  # seen
+    sub \uni0634 by \uniFEB9;  # sheen
+    sub \uni0635 by \uniFEBD;  # sad
+    sub \uni0636 by \uniFEC1;  # dad
+    sub \uni0637 by \uniFEC5;  # tah
+    sub \uni0638 by \uniFEC9;  # zah
+    sub \uni0639 by \uniFECD;  # ain
+    sub \uni063A by \uniFED1;  # ghain
+    sub \uni0641 by \uniFED5;  # feh
+    sub \uni0642 by \uniFED9;  # qaf
+    sub \uni0643 by \uniFEDD;  # kaf
+    sub \uni0644 by \uniFEE1;  # lam
+    sub \uni0645 by \uniFEE5;  # meem
+    sub \uni0646 by \uniFEE9;  # noon
+    sub \uni0647 by \uniFEED;  # heh
+    sub \uni064A by \uniFEF3;  # yeh
+} initInitialForms;
+
+feature init {
+    script DFLT;
+    language dflt;
+    lookup initInitialForms;
+
+    script arab;
+    language dflt;
+    lookup initInitialForms;
+} init;
+
+# ----------------------------------------------------------------------------
+# Required Ligatures (rlig) - Essential Arabic ligatures
+# ----------------------------------------------------------------------------
+lookup rligEssentialLigatures {
+    lookupflag 0;
+    # Lam-Alef ligatures (most critical for Arabic)
+    sub \uni0644 \uni0627 by \uniFEFB;  # lam alef
+    sub \uni0644 \uni0623 by \uniFEF7;  # lam alef with hamza above
+    sub \uni0644 \uni0625 by \uniFEF9;  # lam alef with hamza below
+    sub \uni0644 \uni0622 by \uniFEF5;  # lam alef with madda above
+} rligEssentialLigatures;
+
+feature rlig {
+    script DFLT;
+    language dflt;
+    lookup rligEssentialLigatures;
+
+    script arab;
+    language dflt;
+    lookup rligEssentialLigatures;
+} rlig;
+
+# ----------------------------------------------------------------------------
+# Slashed Zero (zero) - For completeness
+# ----------------------------------------------------------------------------
+lookup zeroSlashedZero {
+    lookupflag 0;
+    sub \zero by \zero.slash;
+} zeroSlashedZero;
+
+feature zero {
+    script DFLT;
+    language dflt;
+    lookup zeroSlashedZero;
+
+    script arab;
+    language dflt;
+    lookup zeroSlashedZero;
+} zero;
+
+# ============================================================================
+# GDEF Table (Glyph Definition)
+# ============================================================================
+
+# Basic glyph classification for proper OpenType behavior
+@GDEF_Simple = [
+    # Latin basics
+    \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W \X \Y \Z
+    \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z
+    \zero \one \two \three \four \five \six \seven \eight \nine
+    \space \exclam \quotedbl \numbersign \dollar \percent \ampersand \quotesingle
+    \parenleft \parenright \asterisk \plus \comma \hyphen \period \slash \colon
+    \semicolon \less \equal \greater \question \at \bracketleft \backslash
+    \bracketright \asciicircum \underscore \grave \braceleft \bar \braceright \asciitilde
+
+    # Basic Arabic letters and numerals
+    \uni0627 \uni0628 \uni062A \uni062B \uni062C \uni062D \uni062E \uni062F \uni0630
+    \uni0631 \uni0632 \uni0633 \uni0634 \uni0635 \uni0636 \uni0637 \uni0638 \uni0639
+    \uni063A \uni0641 \uni0642 \uni0643 \uni0644 \uni0645 \uni0646 \uni0647 \uni0648
+    \uni064A \uni0660 \uni0661 \uni0662 \uni0663 \uni0664 \uni0665 \uni0666 \uni0667
+    \uni0668 \uni0669
+
+    # Arabic contextual forms
+    \uniFE8E \uniFE84 \uniFE88 \uniFE82 \uniFE90 \uniFE91 \uniFE92 \uniFE96 \uniFE97
+    \uniFE98 \uniFE9A \uniFE9B \uniFE9C \uniFE9E \uniFE9F \uniFEA0 \uniFEA2 \uniFEA3
+    \uniFEA4 \uniFEA6 \uniFEA7 \uniFEA8 \uniFEAA \uniFEAC \uniFEAE \uniFEB0 \uniFEB4
+    \uniFEB5 \uniFEB6 \uniFEB8 \uniFEB9 \uniFEBA \uniFEBC \uniFEBD \uniFEBE \uniFEC0
+    \uniFEC1 \uniFEC2 \uniFEC4 \uniFEC5 \uniFEC6 \uniFEC8 \uniFEC9 \uniFECA \uniFECC
+    \uniFECD \uniFECE \uniFED0 \uniFED1 \uniFED2 \uniFED4 \uniFED5 \uniFED6 \uniFED8
+    \uniFED9 \uniFEDA \uniFEDC \uniFEDD \uniFEDE \uniFEE0 \uniFEE1 \uniFEE2 \uniFEE4
+    \uniFEE5 \uniFEE6 \uniFEE8 \uniFEE9 \uniFEEA \uniFEEC \uniFEED \uniFEEE \uniFEEE
+    \uniFEF2 \uniFEF3 \uniFEF4
+
+    # Lam-Alef ligatures
+    \uniFEFB \uniFEF7 \uniFEF9 \uniFEF5
+
+    # Arabic punctuation variants
+    \period.arabic \colon.arabic \exclam.arabic
+
+    # Urdu number variants
+    \uni06F4.urdu \uni06F7.urdu
+
+    # Slashed zero
+    \zero.slash
+];
+
+@GDEF_Mark = [
+    # Basic diacritics that may exist
+    \uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 \uni0651 \uni0652
+    \uni0653 \uni0654 \uni0655 \uni0656 \uni0657 \uni0658 \uni0659 \uni065A
+    \uni065B \uni065C \uni065D \uni065E \uni065F
+];
