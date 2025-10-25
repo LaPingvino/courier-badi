@@ -1,3 +1,4 @@
+# Enhanced Arabic features - Level 5 - 2025-10-25 01:08:51
 # CourierBadi v0.600 - Enhanced Arabic Features (Complete)
 # Incremental Arabic features enhancement - All levels completed
 # Date: October 24, 2025
@@ -339,6 +340,55 @@ feature medi {
 } medi;
 
 # ----------------------------------------------------------------------------
+# Isolated Forms (isol) - Critical for disconnected letters
+# ----------------------------------------------------------------------------
+lookup isolIsolatedForms {
+    lookupflag 0;
+
+    # Arabic isolated forms - dynamically detected
+    sub \uni063A by \uni063A;   # isolated form
+    sub \uni0635 by \uni0635;   # isolated form
+    sub \uni064A by \uni064A;   # isolated form
+    sub \uni0623 by \uni0623;   # isolated form
+    sub \uni062A by \uni062A;   # isolated form
+    sub \uni0641 by \uni0641;   # isolated form
+    sub \uni0627 by \uni0627;   # isolated form
+    sub \uni0642 by \uni0642;   # isolated form
+    sub \uni0645 by \uni0645;   # isolated form
+    sub \uni062C by \uni062C;   # isolated form
+    sub \uni0631 by \uni0631;   # isolated form
+    sub \uni0636 by \uni0636;   # isolated form
+    sub \uni0638 by \uni0638;   # isolated form
+    sub \uni0644 by \uni0644;   # isolated form
+    sub \uni0622 by \uni0622;   # isolated form
+    sub \uni062F by \uni062F;   # isolated form
+    sub \uni0639 by \uni0639;   # isolated form
+    sub \uni0646 by \uni0646;   # isolated form
+    sub \uni0625 by \uni0625;   # isolated form
+    sub \uni062B by \uni062B;   # isolated form
+    sub \uni0632 by \uni0632;   # isolated form
+    sub \uni0637 by \uni0637;   # isolated form
+    sub \uni0647 by \uni0647;   # isolated form
+    sub \uni062E by \uni062E;   # isolated form
+    sub \uni0643 by \uni0643;   # isolated form
+    sub \uni0648 by \uni0648;   # isolated form
+    sub \uni0628 by \uni0628;   # isolated form
+    sub \uni062D by \uni062D;   # isolated form
+    sub \uni0630 by \uni0630;   # isolated form
+    sub \uni0633 by \uni0633;   # isolated form
+    sub \uni0634 by \uni0634;   # isolated form
+} isolIsolatedForms;
+
+feature isol {
+    script DFLT;
+    language dflt;
+    lookup isolIsolatedForms;
+    script arab;
+    language dflt;
+    lookup isolIsolatedForms;
+} isol;
+
+# ----------------------------------------------------------------------------
 # Initial Forms (init) - Beginning contextual forms
 # ----------------------------------------------------------------------------
 lookup initInitialForms {
@@ -448,29 +498,40 @@ feature init {
 # ----------------------------------------------------------------------------
 # Required Ligatures (rlig) - Essential Arabic ligatures
 # ----------------------------------------------------------------------------
+# Define Mark Class for Contextual Chaining
+@Mark = [\uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 \uni0651 \uni0652]; # Basic Tashkil
+
 lookup rligEssentialLigatures {
     lookupflag 0;
-    # Lam-Alef ligatures (most critical for Arabic)
-    sub \uni0644 \uni0627 by \uniFEFB;  # lam alef
-    sub \uni0644 \uni0623 by \uniFEF7;  # lam alef with hamza above
-    sub \uni0644 \uni0625 by \uniFEF9;  # lam alef with hamza below
-    sub \uni0644 \uni0622 by \uniFEF5;  # lam alef with madda above
 
-    # Final forms of lam-alef ligatures
-    sub \uniFEFB by \uniFEFC;  # lam alef final
-    sub \uniFEF7 by \uniFEF8;  # lam alef with hamza above final
-    sub \uniFEF9 by \uniFEFA;  # lam alef with hamza below final
-    sub \uniFEF5 by \uniFEF6;  # lam alef with madda above final
+    # Lam-Alef ligatures - dynamically detected from font
+    sub \uni0644 \uni0627 by \uniFEFB;
+    sub \uni0644 \uni0623 by \uniFEF7;
+    sub \uni0644 \uni0625 by \uniFEF9;
+    sub \uni0644 \uni0622 by \uniFEF5;
 } rligEssentialLigatures;
+
+# Contextual lookup for final forms at word boundaries
+lookup rligContextualFinals {
+    lookupflag 0;
+
+    # Apply final forms when followed by marks
+    sub \uniFEFB @Mark by \uniFEFC;
+    sub \uniFEF7 @Mark by \uniFEF8;
+    sub \uniFEF9 @Mark by \uniFEFA;
+    sub \uniFEF5 @Mark by \uniFEF6;
+} rligContextualFinals;
 
 feature rlig {
     script DFLT;
     language dflt;
     lookup rligEssentialLigatures;
+    lookup rligContextualFinals;
 
     script arab;
     language dflt;
     lookup rligEssentialLigatures;
+    lookup rligContextualFinals;
 } rlig;
 
 # ----------------------------------------------------------------------------

@@ -11,9 +11,9 @@
     <key>versionMajor</key>
     <integer>0</integer>
     <key>versionMinor</key>
-    <integer>600</integer>
+    <integer>601</integer>
     <key>copyright</key>
-    <string>Copyright (c) 2023 Joop Kiefte, Copyright (c) 2015 Quote-Unquote Apps.</string>
+    <string>Copyright 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)</string>
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>capHeight</key>
@@ -152,7 +152,7 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 3.016</string>
+    <string>Version 0.601</string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Courier Badi</string>
     <key>openTypeNamePreferredSubfamilyName</key>
@@ -162,14 +162,16 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
     <key>openTypeOS2WeightClass</key>
     <integer>400</integer>
     <key>openTypeOS2VendorID</key>
-    <string>    </string>
+    <string>JOOP</string>
     <key>openTypeOS2FamilyClass</key>
     <array>
       <integer>0</integer>
       <integer>0</integer>
     </array>
     <key>openTypeOS2Type</key>
-    <array/>
+    <array>
+      <integer>0</integer>
+    </array>
     <key>openTypeOS2TypoAscender</key>
     <integer>1638</integer>
     <key>openTypeOS2TypoDescender</key>
@@ -180,6 +182,10 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
     <integer>1827</integer>
     <key>openTypeOS2WinDescent</key>
     <integer>838</integer>
+    <key>openTypeOS2Selection</key>
+    <array>
+      <integer>7</integer>
+    </array>
     <key>postscriptFontName</key>
     <string>CourierBadi-Regular</string>
     <key>postscriptFullName</key>
@@ -187,9 +193,11 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
     <key>postscriptWeightName</key>
     <string>Regular</string>
     <key>postscriptUnderlineThickness</key>
-    <integer>0</integer>
+    <integer>102</integer>
     <key>postscriptUnderlinePosition</key>
-    <integer>0</integer>
+    <integer>-204</integer>
+    <key>postscriptIsFixedPitch</key>
+    <true/>
     <key>postscriptBlueValues</key>
     <array>
       <integer>-22</integer>

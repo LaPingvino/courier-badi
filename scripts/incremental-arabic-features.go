@@ -18,7 +18,9 @@ import (
 	"path/filepath"
 	"regexp"
 	"sort"
+	"strconv"
 	"strings"
+	"text/template"
 	"time"
 )
 
@@ -31,11 +33,12 @@ type Config struct {
 }
 
 type GlyphInventory struct {
-	All        map[string]bool
-	Arabic     map[string]bool
-	Contextual map[string]bool
-	Extended   map[string]bool
-	Diacritics map[string]bool
+	All           map[string]bool
+	Arabic        map[string]bool
+	Contextual    map[string]bool
+	Extended      map[string]bool
+	Diacritics    map[string]bool
+	UnicodeToName map[string]string // Maps Unicode codepoint (e.g. "0627") to glyph name
 }
 
 type FeatureAnalysis struct {
@@ -157,75 +160,123 @@ func parseFlags() Config {
 
 func loadGlyphInventory(ufoPath string) (*GlyphInventory, error) {
 	glyphsDir := filepath.Join(ufoPath, "glyphs")
-	files, err := filepath.Glob(filepath.Join(glyphsDir, "*.glif"))
+	entries, err := os.ReadDir(glyphsDir)
 	if err != nil {
 		return nil, err
 	}
 
 	inventory := &GlyphInventory{
-		All:        make(map[string]bool),
-		Arabic:     make(map[string]bool),
-		Contextual: make(map[string]bool),
-		Extended:   make(map[string]bool),
-		Diacritics: make(map[string]bool),
+		All:           make(map[string]bool),
+		Arabic:        make(map[string]bool),
+		Contextual:    make(map[string]bool),
+		Extended:      make(map[string]bool),
+		Diacritics:    make(map[string]bool),
+		UnicodeToName: make(map[string]string),
 	}
 
-	for _, filePath := range files {
-		glyphName, err := extractGlyphName(filePath)
+	for _, entry := range entries {
+		if !strings.HasSuffix(entry.Name(), ".glif") {
+			continue
+		}
+
+		// Parse the glyph XML to get actual glyph name and Unicode mappings
+		glyphPath := filepath.Join(glyphsDir, entry.Name())
+		glyphData, err := parseGlyphFile(glyphPath)
 		if err != nil {
 			continue
 		}
 
+		glyphName := glyphData.Name
 		if glyphName == "" {
 			continue
 		}
 
+		// Build Unicode mapping
+		for _, code := range glyphData.UnicodeCodes {
+			inventory.UnicodeToName[code] = glyphName
+		}
+
 		inventory.All[glyphName] = true
 
-		// Categorize glyph
-		if isArabicGlyph(glyphName) {
-			inventory.Arabic[glyphName] = true
+		// Check if this glyph has Arabic Unicode mappings
+		for _, code := range glyphData.UnicodeCodes {
+			if isArabicCodepoint(code) {
+				inventory.Arabic[glyphName] = true
 
-			if isContextualForm(glyphName) {
-				inventory.Contextual[glyphName] = true
-			}
+				if isContextualForm(glyphName) {
+					inventory.Contextual[glyphName] = true
+				}
 
-			if isExtendedArabic(glyphName) {
-				inventory.Extended[glyphName] = true
+				if isExtendedArabicCodepoint(code) {
+					inventory.Extended[glyphName] = true
+				}
+				break
 			}
+		}
 
-			if isDiacritic(glyphName) {
-				inventory.Diacritics[glyphName] = true
-			}
+		if isDiacriticGlyph(glyphName, glyphData.UnicodeCodes) {
+			inventory.Diacritics[glyphName] = true
 		}
 	}
 
 	return inventory, nil
 }
 
-func extractGlyphName(filePath string) (string, error) {
-	file, err := os.Open(filePath)
+type GlyphData struct {
+	Name         string
+	UnicodeCodes []string
+}
+
+type GlyphXML struct {
+	Name    string    `xml:"name,attr"`
+	Unicode []Unicode `xml:"unicode"`
+}
+
+type Unicode struct {
+	Hex string `xml:"hex,attr"`
+}
+
+func parseGlyphFile(glyphPath string) (*GlyphData, error) {
+	file, err := os.Open(glyphPath)
 	if err != nil {
-		return "", err
+		return nil, err
 	}
 	defer file.Close()
 
+	var glyph GlyphXML
 	decoder := xml.NewDecoder(file)
-
-	for {
-		token, err := decoder.Token()
-		if err != nil {
-			return "", err
-		}
-
-		if start, ok := token.(xml.StartElement); ok && start.Name.Local == "glyph" {
-			for _, attr := range start.Attr {
-				if attr.Name.Local == "name" {
-					return attr.Value, nil
-				}
-			}
-		}
+	err = decoder.Decode(&glyph)
+	if err != nil {
+		return nil, err
 	}
+
+	var codes []string
+	for _, unicode := range glyph.Unicode {
+		codes = append(codes, strings.ToUpper(unicode.Hex))
+	}
+
+	return &GlyphData{
+		Name:         glyph.Name,
+		UnicodeCodes: codes,
+	}, nil
+}
+
+func lookupGlyphByUnicode(inventory *GlyphInventory, unicode string) string {
+	// Clean the unicode string - remove backslash and uni prefix
+	cleanUnicode := strings.TrimPrefix(strings.TrimPrefix(unicode, "\\"), "uni")
+	cleanUnicode = strings.ToUpper(cleanUnicode)
+
+	if glyphName, exists := inventory.UnicodeToName[cleanUnicode]; exists {
+		return "\\" + glyphName // Return with backslash for feature syntax
+	}
+
+	// Check if uni-prefixed name exists in font
+	uniName := "uni" + cleanUnicode
+	if inventory.All[uniName] {
+		return "\\" + uniName
+	}
+
+	return "" // Not found
 }
 
 func analyzeCurrentFeatures(config Config, inventory *GlyphInventory) (*FeatureAnalysis, error) {
@@ -257,7 +308,8 @@ func analyzeCurrentFeatures(config Config, inventory *GlyphInventory) (*FeatureA
 		// Track referenced glyphs
 		glyphMatches := glyphPattern.FindAllString(line, -1)
 		for _, glyph := range glyphMatches {
-			if isArabicGlyph(glyph) {
+			// Check if this glyph is Arabic by looking in our Arabic inventory
+			if inventory.Arabic[glyph] {
 				referencedGlyphs[glyph] = true
 			}
 		}
@@ -384,12 +436,21 @@ func generateAllEnhancements(inventory *GlyphInventory, analysis *FeatureAnalysi
 }
 
 func generateCompleteOverhaul(inventory *GlyphInventory, analysis *FeatureAnalysis) []Enhancement {
+	isolCode := generateIsolatedFormsCode(inventory)
+	rligCode := generateRequiredLigaturesCode(inventory)
+
 	return []Enhancement{
 		{
-			Type:        "complete",
-			Priority:    5,
-			Description: "Complete Arabic features overhaul",
-			Code:        "# Complete overhaul would be implemented here",
+			Type:        "isol",
+			Priority:    1,
+			Description: "Critical isolated forms (isol) feature",
+			Code:        isolCode,
+		},
+		{
+			Type:        "rlig_fix",
+			Priority:    2,
+			Description: "Critical Lam-Alef contextual chaining fix",
+			Code:        rligCode,
 		},
 	}
 }
@@ -419,16 +480,20 @@ func applyEnhancements(config Config, enhancements []Enhancement, inventory *Gly
 	return os.WriteFile(outputPath, []byte(enhanced), 0644)
 }
 
-func applyEnhancement(content string, enhancement Enhancement) string {
+func applyEnhancement(enhanced string, enhancement Enhancement) string {
 	switch enhancement.Type {
 	case "contextual":
-		return addContextualEnhancement(content, enhancement)
+		return addContextualEnhancement(enhanced, enhancement)
 	case "extended":
-		return addExtendedEnhancement(content, enhancement)
+		return addExtendedEnhancement(enhanced, enhancement)
 	case "language":
-		return addLanguageEnhancement(content, enhancement)
+		return addLanguageEnhancement(enhanced, enhancement)
+	case "isol":
+		return addIsolatedFormsFeature(enhanced, enhancement)
+	case "rlig_fix":
+		return fixRequiredLigatures(enhanced, enhancement)
 	default:
-		return content
+		return enhanced
 	}
 }
 
@@ -516,18 +581,34 @@ func generateLanguageCode(lang string) string {
 	return fmt.Sprintf("languagesystem arab %s;", lang)
 }
 
-// Helper functions
-func isArabicGlyph(name string) bool {
-	return strings.HasPrefix(name, "\\uni06") ||
-		strings.HasPrefix(name, "\\uni07") ||
-		strings.HasPrefix(name, "\\uni08") ||
-		strings.HasPrefix(name, "\\uniFB") ||
-		strings.HasPrefix(name, "\\uniFE") ||
-		strings.HasPrefix(name, "uni06") ||
-		strings.HasPrefix(name, "uni07") ||
-		strings.HasPrefix(name, "uni08") ||
-		strings.HasPrefix(name, "uniFB") ||
-		strings.HasPrefix(name, "uniFE")
+// Helper functions for Unicode codepoint analysis
+func isArabicCodepoint(code string) bool {
+	if len(code) < 4 {
+		return false
+	}
+
+	// Convert hex string to int for range checking
+	codeVal, err := strconv.ParseInt(code, 16, 32)
+	if err != nil {
+		return false
+	}
+
+	// Arabic Unicode ranges
+	return (codeVal >= 0x0600 && codeVal <= 0x06FF) || // Arabic
+		(codeVal >= 0x0750 && codeVal <= 0x077F) || // Arabic Supplement
+		(codeVal >= 0x08A0 && codeVal <= 0x08FF) || // Arabic Extended-A
+		(codeVal >= 0xFB50 && codeVal <= 0xFDFF) || // Arabic Presentation Forms-A
+		(codeVal >= 0xFE70 && codeVal <= 0xFEFF) // Arabic Presentation Forms-B
+}
+
+func isExtendedArabicCodepoint(code string) bool {
+	codeVal, err := strconv.ParseInt(code, 16, 32)
+	if err != nil {
+		return false
+	}
+	// Extended Arabic ranges
+	return (codeVal >= 0x0750 && codeVal <= 0x077F) ||
+		(codeVal >= 0x08A0 && codeVal <= 0x08FF)
 }
 
 func isContextualForm(name string) bool {
@@ -541,9 +622,29 @@ func isExtendedArabic(name string) bool {
 		strings.HasPrefix(name, "uni08")
 }
 
-func isDiacritic(name string) bool {
-	return strings.HasPrefix(name, "uni064") ||
+func isDiacriticGlyph(name string, unicodeCodes []string) bool {
+	// Check if any Unicode codepoint is a diacritic mark
+	for _, code := range unicodeCodes {
+		if isDiacriticCodepoint(code) {
+			return true
+		}
+	}
+	// Fallback to name-based detection
+	return strings.Contains(name, "diacritic") ||
+		strings.Contains(name, "mark") ||
+		strings.HasPrefix(name, "uni064") ||
 		strings.HasPrefix(name, "uni065")
+}
+
+func isDiacriticCodepoint(code string) bool {
+	codeVal, err := strconv.ParseInt(code, 16, 32)
+	if err != nil {
+		return false
+	}
+	// Arabic diacritics ranges
+	return (codeVal >= 0x064B && codeVal <= 0x065F) ||
+		(codeVal >= 0x0670 && codeVal <= 0x0674) ||
+		(codeVal >= 0x06D6 && codeVal <= 0x06ED)
 }
 
 func findMissingContextualForms(inventory *GlyphInventory, referenced map[string]bool) []string {
@@ -624,6 +725,208 @@ func min(a, b int) int {
 		return a
 	}
 	return b
+}
+
+func generateIsolatedFormsCode(inventory *GlyphInventory) string {
+	tmpl := `lookup isolIsolatedForms {
+    lookupflag 0;
+
+    # Arabic isolated forms - dynamically detected
+{{range .Substitutions}}    sub {{.Source}} by {{.Target}};   # {{.Comment}}
+{{end}}} isolIsolatedForms;`
+
+	type Substitution struct {
+		Source  string
+		Target  string
+		Comment string
+	}
+
+	var substitutions []Substitution
+
+	// Core Arabic letters that need isolated forms
+	arabicIsolatedMappings := map[string]string{
+		"0627": "FE8D", "0623": "FE83", "0625": "FE87", "0622": "FE81",
+		"0628": "FE8F", "062A": "FE95", "062B": "FE99", "062C": "FE9D",
+		"062D": "FEA1", "062E": "FEA5", "062F": "FEA9", "0630": "FEAB",
+		"0631": "FEAD", "0632": "FEAF", "0633": "FEB1", "0634": "FEB5",
+		"0635": "FEB9", "0636": "FEBD", "0637": "FEC1", "0638": "FEC5",
+		"0639": "FEC9", "063A": "FECD", "0641": "FED1", "0642": "FED5",
+		"0643": "FED9", "0644": "FEDD", "0645": "FEE1", "0646": "FEE5",
+		"0647": "FEE9", "0648": "FEED", "064A": "FEF1",
+	}
+
+	// Generate substitutions based on actual font content
+	for sourceCode, targetCode := range arabicIsolatedMappings {
+		sourceGlyph := lookupGlyphByUnicode(inventory, sourceCode)
+		targetGlyph := lookupGlyphByUnicode(inventory, targetCode)
+
+		if sourceGlyph != "" && targetGlyph != "" {
+			substitutions = append(substitutions, Substitution{
+				Source:  sourceGlyph,
+				Target:  targetGlyph,
+				Comment: "isolated form",
+			})
+		} else if sourceGlyph != "" {
+			// Use base form if no isolated form available
+			substitutions = append(substitutions, Substitution{
+				Source:  sourceGlyph,
+				Target:  sourceGlyph,
+				Comment: "base form (no isolated variant)",
+			})
+		}
+	}
+
+	if len(substitutions) == 0 {
+		return "# No Arabic letters found for isolated forms"
+	}
+
+	t := template.Must(template.New("isol").Parse(tmpl))
+	var result strings.Builder
+	t.Execute(&result, struct{ Substitutions []Substitution }{substitutions})
+	return result.String()
+}
+
+func generateRequiredLigaturesCode(inventory *GlyphInventory) string {
+	tmpl := `# Define Mark Class for Contextual Chaining
+@Mark = [\uni064B \uni064C \uni064D \uni064E \uni064F \uni0650 \uni0651 \uni0652]; # Basic Tashkil
+
+lookup rligEssentialLigatures {
+    lookupflag 0;
+
+    # Lam-Alef ligatures - dynamically detected from font
+{{range .Ligatures}}    sub {{.Source}} by {{.Target}};
+{{end}}} rligEssentialLigatures;
+{{if .Contextual}}
+# Contextual lookup for final forms at word boundaries
+lookup rligContextualFinals {
+    lookupflag 0;
+
+    # Apply final forms when followed by marks
+{{range .Contextual}}    sub {{.Source}} @Mark by {{.Target}};
+{{end}}} rligContextualFinals;{{end}}`
+
+	type LigatureSubstitution struct {
+		Source string
+		Target string
+	}
+
+	var ligatures []LigatureSubstitution
+	var contextual []LigatureSubstitution
+
+	// Lam-Alef ligature mappings
+	lamAlefMappings := map[string][]string{
+		"0644 0627": {"FEFB", "FEFC"}, // lam + alef
+		"0644 0623": {"FEF7", "FEF8"}, // lam + alef with hamza above
+		"0644 0625": {"FEF9", "FEFA"}, // lam + alef with hamza below
+		"0644 0622": {"FEF5", "FEF6"}, // lam + alef with madda above
+	}
+
+	for sequence, codes := range lamAlefMappings {
+		// Parse the sequence to get individual glyphs
+		parts := strings.Split(sequence, " ")
+		if len(parts) != 2 {
+			continue
+		}
+
+		lamGlyph := lookupGlyphByUnicode(inventory, parts[0])
+		alefGlyph := lookupGlyphByUnicode(inventory, parts[1])
+		isolatedGlyph := lookupGlyphByUnicode(inventory, codes[0])
+		finalGlyph := lookupGlyphByUnicode(inventory, codes[1])
+
+		if lamGlyph != "" && alefGlyph != "" && isolatedGlyph != "" {
+			ligatures = append(ligatures, LigatureSubstitution{
+				Source: lamGlyph + " " + alefGlyph,
+				Target: isolatedGlyph,
+			})
+
+			if finalGlyph != "" {
+				contextual = append(contextual, LigatureSubstitution{
+					Source: isolatedGlyph,
+					Target: finalGlyph,
+				})
+			}
+		}
+	}
+
+	if len(ligatures) == 0 {
+		return "# No Lam-Alef ligatures found in font"
+	}
+
+	t := template.Must(template.New("rlig").Parse(tmpl))
+	var result strings.Builder
+	t.Execute(&result, struct {
+		Ligatures  []LigatureSubstitution
+		Contextual []LigatureSubstitution
+	}{ligatures, contextual})
+	return result.String()
+}
+
+func addIsolatedFormsFeature(content string, enhancement Enhancement) string {
+	// Find insertion point before init feature
+	insertPoint := strings.Index(content, "# ----------------------------------------------------------------------------\n# Initial Forms (init)")
+	if insertPoint == -1 {
+		// Fallback: look for the init feature directly
+		insertPoint = strings.Index(content, "feature init {")
+		if insertPoint == -1 {
+			return content
+		}
+	}
+
+	beforeFeature := content[:insertPoint]
+	afterFeature := content[insertPoint:]
+
+	isolFeature := `# ----------------------------------------------------------------------------
+# Isolated Forms (isol) - Critical for disconnected letters
+# ----------------------------------------------------------------------------
+` + enhancement.Code + `
+
+feature isol {
+    script DFLT;
+    language dflt;
+    lookup isolIsolatedForms;
+    script arab;
+    language dflt;
+    lookup isolIsolatedForms;
+} isol;
+
+`
+
+	return beforeFeature + isolFeature + afterFeature
+}
+
+func fixRequiredLigatures(content string, enhancement Enhancement) string {
+	// Replace existing rligEssentialLigatures lookup and update feature
+	lookupStart := strings.Index(content, "lookup rligEssentialLigatures {")
+	if lookupStart == -1 {
+		return content
+	}
+
+	// Find the end of the rlig feature section
+	featureEnd := strings.Index(content, "} rlig;")
+	if featureEnd == -1 {
+		return content
+	}
+	featureEnd += len("} rlig;")
+
+	beforeLookup := content[:lookupStart]
+	afterFeature := content[featureEnd:]
+
+	// Enhanced rlig feature with both lookups
+	newRligSection := enhancement.Code + `
+
+feature rlig {
+    script DFLT;
+    language dflt;
+    lookup rligEssentialLigatures;
+    lookup rligContextualFinals;
+
+    script arab;
+    language dflt;
+    lookup rligEssentialLigatures;
+    lookup rligContextualFinals;
+} rlig;`
+
+	return beforeLookup + newRligSection + afterFeature
 }
 
 // Printing functions
