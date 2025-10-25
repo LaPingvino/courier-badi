@@ -1,16 +1,8 @@
 # Courier Badi
 
-[![][Fontbakery]](https://LaPingvino.github.io/courier-badi/fontbakery/fontbakery-report.html)
-[![][Universal]](https://LaPingvino.github.io/courier-badi/fontbakery/fontbakery-report.html)
-[![][GF Profile]](https://LaPingvino.github.io/courier-badi/fontbakery/fontbakery-report.html)
-[![][Outline Correctness]](https://LaPingvino.github.io/courier-badi/fontbakery/fontbakery-report.html)
-[![][Shaping]](https://LaPingvino.github.io/courier-badi/fontbakery/fontbakery-report.html)
-
-[Fontbakery]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2Foverall.json
-[GF Profile]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2FGoogleFonts.json
-[Outline Correctness]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2FOutlineCorrectnessChecks.json
-[Shaping]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2FShapingChecks.json
-[Universal]: https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2FUniversal.json
+[![Fontbakery](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FLaPingvino%2Fcourier-badi%2Fgh-pages%2Fbadges%2Foverall.json)](https://LaPingvino.github.io/courier-badi/fontbakery/fontbakery-report.html)
+[![Latest Release](https://img.shields.io/github/v/release/LaPingvino/courier-badi)](https://github.com/LaPingvino/courier-badi/releases/latest)
+[![License: OFL-1.1](https://img.shields.io/badge/License-OFL%201.1-lightgreen.svg)](https://scripts.sil.org/OFL)
 
 Courier Badi is an adapted version of the amazing Courier Prime font made by Quote-Unquote Apps. The purpose here is to add
 missing characters that can be relevant to Bahá'í usage in a very wide sense. This font has been adapted under the terms of
