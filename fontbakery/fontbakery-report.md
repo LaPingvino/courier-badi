@@ -91,7 +91,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
+- Glyph name: uni01D9	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01DA	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01DC	Contours detected: 3	Expected: 4
+
 - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0211	Contours detected: 2	Expected: 3
 
 - Glyph name: alphatonos	Contours detected: 4	Expected: 3
 
@@ -173,13 +181,21 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EA4	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1EA6	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1EA8	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA9	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAD	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAF	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB1	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB3	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB7	Contours detected: 3	Expected: 4
 
@@ -191,7 +207,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EBE	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1EC0	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1EC2	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EC3	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
 
@@ -207,7 +227,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1ED0	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1ED2	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1ED4	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1ED5	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -235,11 +259,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F01	Contours detected: 4	Expected: 3
 
-- Glyph name: uni1F03	Contours detected: 5	Expected: 4
-
 - Glyph name: uni1F07	Contours detected: 5	Expected: 4
 
 - Glyph name: uni1F0A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F0B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F0C	Contours detected: 3	Expected: 4
 
@@ -249,17 +273,23 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F12	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F13	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F14	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F15	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F1A	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F1B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F1C	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F1D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F22	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F23	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F24	Contours detected: 2	Expected: 3
 
@@ -268,6 +298,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1F26	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F2B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2C	Contours detected: 2	Expected: 3
 
@@ -279,13 +311,19 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F32	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F33	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F34	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F35	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F36	Contours detected: 1	Expected: 3
 
+- Glyph name: uni1F37	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F3A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F3B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F3C	Contours detected: 2	Expected: 3
 
@@ -295,11 +333,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F42	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F43	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F44	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F45	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F4B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4C	Contours detected: 3	Expected: 4
 
@@ -307,15 +349,21 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F52	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F53	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F54	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F55	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F56	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F5B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F5D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F62	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F63	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F64	Contours detected: 2	Expected: 3
 
@@ -324,6 +372,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1F66	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F6B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6C	Contours detected: 2	Expected: 3
 
@@ -343,11 +393,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F81	Contours detected: 5	Expected: 4
 
-- Glyph name: uni1F83	Contours detected: 6	Expected: 5
-
 - Glyph name: uni1F87	Contours detected: 6	Expected: 5
 
 - Glyph name: uni1F8A	Contours detected: 4	Expected: 5
+
+- Glyph name: uni1F8B	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F8C	Contours detected: 4	Expected: 5
 
@@ -357,6 +407,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F92	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F93	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F94	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F95	Contours detected: 3	Expected: 4
@@ -364,6 +416,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1F96	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F9B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9C	Contours detected: 3	Expected: 4
 
@@ -373,6 +427,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FA2	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1FA3	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1FA4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FA5	Contours detected: 3	Expected: 4
@@ -380,6 +436,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1FA6	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAA	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1FAB	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAC	Contours detected: 3	Expected: 4
 
@@ -411,13 +469,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FD7	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1FD9	Contours detected: 4	Expected: 2
+- Glyph name: uni1FDD	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FDE	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FE7	Contours detected: 1	Expected: 4
-
-- Glyph name: uni203D	Contours detected: 3	Expected: 2
 
 - Glyph name: colonmonetary	Contours detected: 2	Expected: 1 or 3
 
@@ -453,6 +509,12 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: tbar	Contours detected: 2	Expected: 1
 
+- Glyph name: uni01D9	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01DA	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01DC	Contours detected: 3	Expected: 4
+
 - Glyph name: uni0402	Contours detected: 2	Expected: 1
 
 - Glyph name: uni040A	Contours detected: 4	Expected: 2
@@ -525,13 +587,21 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EA4	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1EA6	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1EA8	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA9	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAD	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAF	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB1	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB3	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB7	Contours detected: 3	Expected: 4
 
@@ -543,7 +613,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EBE	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1EC0	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1EC2	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EC3	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
 
@@ -559,7 +633,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1ED0	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1ED2	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1ED4	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1ED5	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -587,11 +665,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F01	Contours detected: 4	Expected: 3
 
-- Glyph name: uni1F03	Contours detected: 5	Expected: 4
-
 - Glyph name: uni1F07	Contours detected: 5	Expected: 4
 
 - Glyph name: uni1F0A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F0B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F0C	Contours detected: 3	Expected: 4
 
@@ -601,17 +679,23 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F12	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F13	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F14	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F15	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F1A	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F1B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F1C	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F1D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F22	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F23	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F24	Contours detected: 2	Expected: 3
 
@@ -620,6 +704,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1F26	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F2B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2C	Contours detected: 2	Expected: 3
 
@@ -631,13 +717,19 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F32	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F33	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F34	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F35	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F36	Contours detected: 1	Expected: 3
 
+- Glyph name: uni1F37	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F3A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F3B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F3C	Contours detected: 2	Expected: 3
 
@@ -647,11 +739,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F42	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F43	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F44	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F45	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F4B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4C	Contours detected: 3	Expected: 4
 
@@ -659,15 +755,21 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F52	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F53	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F54	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F55	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F56	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F5B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F5D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F62	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F63	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F64	Contours detected: 2	Expected: 3
 
@@ -676,6 +778,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1F66	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F6B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6C	Contours detected: 2	Expected: 3
 
@@ -695,11 +799,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F81	Contours detected: 5	Expected: 4
 
-- Glyph name: uni1F83	Contours detected: 6	Expected: 5
-
 - Glyph name: uni1F87	Contours detected: 6	Expected: 5
 
 - Glyph name: uni1F8A	Contours detected: 4	Expected: 5
+
+- Glyph name: uni1F8B	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F8C	Contours detected: 4	Expected: 5
 
@@ -709,6 +813,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F92	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F93	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F94	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F95	Contours detected: 3	Expected: 4
@@ -716,6 +822,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1F96	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F9B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9C	Contours detected: 3	Expected: 4
 
@@ -725,6 +833,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FA2	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1FA3	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1FA4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FA5	Contours detected: 3	Expected: 4
@@ -732,6 +842,8 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni1FA6	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAA	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1FAB	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAC	Contours detected: 3	Expected: 4
 
@@ -763,13 +875,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FD7	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1FD9	Contours detected: 4	Expected: 2
+- Glyph name: uni1FDD	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FDE	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FE7	Contours detected: 1	Expected: 4
-
-- Glyph name: uni203D	Contours detected: 3	Expected: 2
 
 - Glyph name: uni26AD	Contours detected: 8	Expected: 4
 
@@ -803,17 +913,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni0663 (U+06F3): L&lt;&lt;801.0,1070.0&gt;--&lt;801.0,1070.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni06C2.fina: B&lt;&lt;898.0,1248.0&gt;-&lt;897.0,1255.0&gt;-&lt;902.0,1248.0&gt;&gt; has the same coordinates as a previous segment.
-
 * uni06E4 (U+06E4): B&lt;&lt;557.0,1600.0&gt;-&lt;555.0,1602.0&gt;-&lt;556.0,1600.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D (U+077D): L&lt;&lt;932.0,1503.0&gt;--&lt;932.0,1503.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni077D.fina: L&lt;&lt;839.0,1503.0&gt;--&lt;839.0,1503.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni077D.init: L&lt;&lt;1090.0,1503.0&gt;--&lt;1090.0,1503.0&gt;&gt; has the same coordinates as a previous segment.
-
 * uni08D4 (U+08D4): B&lt;&lt;446.0,1237.0&gt;-&lt;446.0,1237.0&gt;-&lt;445.0,1238.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DB (U+08DB): L&lt;&lt;1065.0,1097.0&gt;--&lt;1069.0,1096.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DB (U+08DB): L&lt;&lt;1071.0,1096.0&gt;--&lt;1076.0,1095.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DC (U+08DC): L&lt;&lt;889.0,1127.0&gt;--&lt;883.0,1126.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni08DD (U+08DD): B&lt;&lt;820.0,1285.0&gt;-&lt;820.0,1285.0&gt;-&lt;820.0,1284.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -867,10 +975,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni1FB7 (U+1FB7): B&lt;&lt;915.0,160.0&gt;-&lt;915.0,160.0&gt;-&lt;915.0,161.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni1FD9 (U+1FD9): B&lt;&lt;478.0,1445.0&gt;-&lt;485.0,1451.0&gt;-&lt;484.0,1445.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni203B (U+203B): L&lt;&lt;659.0,830.0&gt;--&lt;633.0,861.0&gt;&gt; has the same coordinates as a previous segment.
-
 * uni26AD (U+26AD): B&lt;&lt;709.0,1019.0&gt;-&lt;710.0,1018.0&gt;-&lt;711.0,1019.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni26AD (U+26AD): B&lt;&lt;554.0,884.0&gt;-&lt;554.0,884.0&gt;-&lt;554.0,885.0&gt;&gt; has the same coordinates as a previous segment.
@@ -879,35 +983,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni26AD (U+26AD): B&lt;&lt;586.0,236.0&gt;-&lt;585.0,237.0&gt;-&lt;585.0,236.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uniFE00 (U+FE00): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE01 (U+FE01): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE02 (U+FE02): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE02 (U+FE02): B&lt;&lt;764.0,863.0&gt;-&lt;861.0,857.0&gt;-&lt;847.0,769.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE03 (U+FE03): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE04 (U+FE04): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE04 (U+FE04): B&lt;&lt;634.0,859.0&gt;-&lt;638.0,862.0&gt;-&lt;637.0,855.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE06 (U+FE06): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0A (U+FE0A): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0B (U+FE0B): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0C (U+FE0C): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0C (U+FE0C): B&lt;&lt;938.0,863.0&gt;-&lt;1035.0,857.0&gt;-&lt;1021.0,769.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0D (U+FE0D): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0E (U+FE0E): B&lt;&lt;512.5,1014.5&gt;-&lt;510.0,1017.0&gt;-&lt;516.0,1016.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0E (U+FE0E): B&lt;&lt;808.0,859.0&gt;-&lt;812.0,862.0&gt;-&lt;811.0,855.0&gt;&gt; has the same coordinates as a previous segment.
+* uniFC9F (U+FC9F): B&lt;&lt;618.0,515.0&gt;-&lt;618.0,515.0&gt;-&lt;618.0,514.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -1139,12 +1215,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, canadian-aboriginal, hebrew, tai-le, todhri, old-permic, malayalam, math, syriac, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, todhri, coptic, duployan, tai-le, syriac, canadian-aboriginal, hebrew, malayalam, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -1154,8 +1230,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, sunuwar, cherokee, gothic, syriac, caucasian-albanian</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, thai, cherokee</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -1170,7 +1246,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -1185,10 +1261,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, syriac, thaana</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, thaana, syriac</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, yezidi, hanifi-rohingya, garay, adlam, syriac, nko, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, adlam, garay</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -1221,7 +1297,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, old-uyghur, mandaic, psalter-pahlavi, hanifi-rohingya, adlam, manichaean, syriac, sogdian</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, manichaean, hanifi-rohingya, old-uyghur, syriac, adlam, mandaic, sogdian, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -1253,19 +1329,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, yezidi, hanifi-rohingya, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, nko, thaana</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, thaana, indic-siyaq-numbers, yezidi, hanifi-rohingya, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, syriac, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -1369,7 +1445,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -1548,12 +1624,12 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, dogra, tagbanwa, duployan, batak, hatran, mandaic, cham, khojki, hanunoo, hebrew, javanese, masaram-gondi, mongolian, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, siddham, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, old-hungarian, dogra, tagbanwa, duployan, batak, mandaic, masaram-gondi, cham, khojki, hanunoo, hebrew, javanese, mongolian, siddham, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+2010 HYPHEN: try adding one of: arabic, cham, yi, hebrew, sundanese, lisu, kharoshthi, armenian, sora-sompeng, syloti-nagri, kaithi, kayah-li, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, hatran, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, old-hungarian, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, coptic, cham, sora-sompeng, syloti-nagri, yi, armenian, sundanese, kaithi, kharoshthi, lisu, hebrew, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -1606,9 +1682,9 @@ definitions.</p>
 <li>U+2422 BLANK SYMBOL: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: telugu, math, manichaean, sharada, tamil, duployan, batak, kharoshthi, sogdian, gurmukhi, symbols, saurashtra, balinese, soyombo, khudawadi, gujarati, bhaiksuki, myanmar, nko, grantha, lepcha, khojki, caucasian-albanian, gunjala-gondi, bengali, mende-kikakui, buginese, tai-viet, dogra, tagbanwa, siddham, cham, mongolian, hanunoo, zanabazar-square, bassa-vah, limbu, tirhuta, tibetan, warang-citi, marchen, new-tai-lue, hanifi-rohingya, syloti-nagri, canadian-aboriginal, pahawh-hmong, tai-tham, masaram-gondi, mandaic, yi, javanese, hebrew, adlam, rejang, tifinagh, sundanese, phags-pa, malayalam, devanagari, elbasan, syriac, kayah-li, psalter-pahlavi, music, oriya, tai-le, armenian, tagalog, sinhala, mahajani, meetei-mayek, old-permic, brahmi, osage, thai, takri, modi, kaithi, newa, wancho, chakma, khmer, coptic, miao, buhid, ahom, lao, kannada, thaana</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, tirhuta, kayah-li, manichaean, meetei-mayek, elbasan, myanmar, lepcha, hebrew, bhaiksuki, batak, newa, osage, buginese, syriac, kharoshthi, symbols, gujarati, mongolian, marchen, cham, duployan, syloti-nagri, brahmi, tibetan, tagbanwa, thaana, hanifi-rohingya, masaram-gondi, buhid, wancho, dogra, tai-le, phags-pa, tamil, thai, bassa-vah, hanunoo, old-permic, tifinagh, sharada, miao, grantha, lao, telugu, gunjala-gondi, mende-kikakui, modi, khojki, tai-tham, tagalog, limbu, oriya, kannada, ahom, javanese, zanabazar-square, nko, soyombo, tai-viet, canadian-aboriginal, balinese, music, yi, devanagari, sundanese, kaithi, psalter-pahlavi, chakma, malayalam, gurmukhi, warang-citi, math, coptic, mahajani, khmer, adlam, takri, sogdian, bengali, new-tai-lue, sinhala, mandaic, saurashtra, rejang, armenian, pahawh-hmong, caucasian-albanian, khudawadi</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
 <li>U+26AD MARRIAGE SYMBOL: try adding symbols</li>
 <li>U+26AE DIVORCE SYMBOL: try adding symbols</li>
 <li>U+27E6 MATHEMATICAL LEFT WHITE SQUARE BRACKET: try adding math</li>
@@ -1774,7 +1850,7 @@ definitions.</p>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
 <li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
@@ -2032,7 +2108,7 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
     <div>
 
 
@@ -2041,72 +2117,84 @@ definitions.</p>
 
 
 
-* ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
-<pre><code>* uni2062 (U+2062) has a counter-clockwise outer contour
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* angleright (U+232A): L&lt;&lt;581.0,1363.0&gt;--&lt;708.0,1094.0&gt;&gt; -&gt; L&lt;&lt;708.0,1094.0&gt;--&lt;856.0,782.0&gt;&gt;
 
-* uni2062 (U+2062) has a counter-clockwise outer contour
+* angleright (U+232A): L&lt;&lt;866.0,541.0&gt;--&lt;396.0,-28.0&gt;&gt; -&gt; L&lt;&lt;396.0,-28.0&gt;--&lt;310.0,-132.0&gt;&gt;
 
-* uni2062 (U+2062) has a counter-clockwise outer contour
+* psi (U+03C8): L&lt;&lt;362.0,-420.0&gt;--&lt;396.0,-209.0&gt;&gt; -&gt; L&lt;&lt;396.0,-209.0&gt;--&lt;433.0,-14.0&gt;&gt;
 
-* uni2062 (U+2062) has a counter-clockwise outer contour
+* uni0466 (U+0466): L&lt;&lt;703.0,936.0&gt;--&lt;680.0,874.0&gt;&gt; -&gt; L&lt;&lt;680.0,874.0&gt;--&lt;542.0,564.0&gt;&gt;
 
-* uni2063 (U+2063) has a counter-clockwise outer contour
+* uni0466 (U+0466): L&lt;&lt;724.0,582.0&gt;--&lt;705.0,889.0&gt;&gt; -&gt; L&lt;&lt;705.0,889.0&gt;--&lt;703.0,936.0&gt;&gt;
 
-* uni2063 (U+2063) has a counter-clockwise outer contour
+* uni046C (U+046C): L&lt;&lt;342.0,142.0&gt;--&lt;479.0,491.0&gt;&gt; -&gt; L&lt;&lt;479.0,491.0&gt;--&lt;505.0,558.0&gt;&gt;
 
-* uni2063 (U+2063) has a counter-clockwise outer contour
+* uni046D (U+046D): L&lt;&lt;339.0,144.0&gt;--&lt;441.0,353.0&gt;&gt; -&gt; L&lt;&lt;441.0,353.0&gt;--&lt;462.0,393.0&gt;&gt;
 
-* uni2063 (U+2063) has a counter-clockwise outer contour
+* uni0496 (U+0496): L&lt;&lt;472.0,159.0&gt;--&lt;510.0,371.0&gt;&gt; -&gt; L&lt;&lt;510.0,371.0&gt;--&lt;514.0,394.0&gt;&gt;
 
-* uni2064 (U+2064) has a counter-clockwise outer contour
+* uni0496 (U+0496): L&lt;&lt;700.0,389.0&gt;--&lt;694.0,359.0&gt;&gt; -&gt; L&lt;&lt;694.0,359.0&gt;--&lt;654.0,134.0&gt;&gt;
 
-* uni2064 (U+2064) has a counter-clockwise outer contour
+* uni0497 (U+0497): L&lt;&lt;469.0,141.0&gt;--&lt;490.0,272.0&gt;&gt; -&gt; L&lt;&lt;490.0,272.0&gt;--&lt;493.0,286.0&gt;&gt;
 
-* uni2064 (U+2064) has a counter-clockwise outer contour
+* uni0497 (U+0497): L&lt;&lt;680.0,279.0&gt;--&lt;675.0,261.0&gt;&gt; -&gt; L&lt;&lt;675.0,261.0&gt;--&lt;650.0,131.0&gt;&gt;
 
-* uni2064 (U+2064) has a counter-clockwise outer contour
+* uni0499 (U+0499): L&lt;&lt;466.0,151.0&gt;--&lt;505.0,151.0&gt;&gt; -&gt; L&lt;&lt;505.0,151.0&gt;--&lt;528.0,149.0&gt;&gt;
 
-* uniFE05 (U+FE05) has a counter-clockwise outer contour
+* uni04A0 (U+04A0): L&lt;&lt;572.0,385.0&gt;--&lt;567.0,359.0&gt;&gt; -&gt; L&lt;&lt;567.0,359.0&gt;--&lt;532.0,160.0&gt;&gt;
 
-* uniFE05 (U+FE05) has a counter-clockwise outer contour
+* uni04C5 (U+04C5): L&lt;&lt;623.0,758.0&gt;--&lt;616.0,726.0&gt;&gt; -&gt; L&lt;&lt;616.0,726.0&gt;--&lt;609.0,689.0&gt;&gt;
 
-* uniFE05 (U+FE05) has a counter-clockwise outer contour
+* uni04C5 (U+04C5): L&lt;&lt;670.0,1022.0&gt;--&lt;623.0,758.0&gt;&gt; -&gt; L&lt;&lt;623.0,758.0&gt;--&lt;616.0,726.0&gt;&gt;
 
-* uniFE05 (U+FE05) has a counter-clockwise outer contour
+* uni0512 (U+0512): L&lt;&lt;623.0,758.0&gt;--&lt;616.0,726.0&gt;&gt; -&gt; L&lt;&lt;616.0,726.0&gt;--&lt;609.0,689.0&gt;&gt;
 
-* uniFE07 (U+FE07) has a counter-clockwise outer contour
+* uni0512 (U+0512): L&lt;&lt;670.0,1022.0&gt;--&lt;623.0,758.0&gt;&gt; -&gt; L&lt;&lt;623.0,758.0&gt;--&lt;616.0,726.0&gt;&gt;
 
-* uniFE07 (U+FE07) has a counter-clockwise outer contour
+* uni0607 (U+0607): L&lt;&lt;854.0,974.0&gt;--&lt;856.0,974.0&gt;&gt; -&gt; L&lt;&lt;856.0,974.0&gt;--&lt;993.0,974.0&gt;&gt;
 
-* uniFE07 (U+FE07) has a counter-clockwise outer contour
+* uni0616 (U+0616): L&lt;&lt;502.0,1021.0&gt;--&lt;502.0,1021.0&gt;&gt; -&gt; L&lt;&lt;502.0,1021.0&gt;--&lt;1008.0,1021.0&gt;&gt;
 
-* uniFE07 (U+FE07) has a counter-clockwise outer contour
+* uni0663 (U+06F3): L&lt;&lt;801.0,1070.0&gt;--&lt;801.0,1070.0&gt;&gt; -&gt; L&lt;&lt;801.0,1070.0&gt;--&lt;801.0,1070.0&gt;&gt;
 
-* uniFE08 (U+FE08) has a counter-clockwise outer contour
+* uni066D (U+066D): L&lt;&lt;533.0,499.0&gt;--&lt;592.0,838.0&gt;&gt; -&gt; L&lt;&lt;592.0,838.0&gt;--&lt;594.0,848.0&gt;&gt;
 
-* uniFE08 (U+FE08) has a counter-clockwise outer contour
+* uni06DE (U+06DE): L&lt;&lt;424.0,764.0&gt;--&lt;385.0,732.0&gt;&gt; -&gt; L&lt;&lt;385.0,732.0&gt;--&lt;346.0,698.0&gt;&gt;
 
-* uniFE08 (U+FE08) has a counter-clockwise outer contour
+* uni06DE (U+06DE): L&lt;&lt;809.0,137.0&gt;--&lt;847.0,169.0&gt;&gt; -&gt; L&lt;&lt;847.0,169.0&gt;--&lt;886.0,204.0&gt;&gt;
 
-* uniFE08 (U+FE08) has a counter-clockwise outer contour
+* uni08D4 (U+08D4): L&lt;&lt;482.0,1126.0&gt;--&lt;546.0,1126.0&gt;&gt; -&gt; L&lt;&lt;546.0,1126.0&gt;--&lt;546.0,1126.0&gt;&gt;
 
-* uniFE09 (U+FE09) has a counter-clockwise outer contour
+* uni08DB (U+08DB): L&lt;&lt;1064.0,994.0&gt;--&lt;1053.0,994.0&gt;&gt; -&gt; L&lt;&lt;1053.0,994.0&gt;--&lt;1052.0,994.0&gt;&gt;
 
-* uniFE09 (U+FE09) has a counter-clockwise outer contour
+* uni08DB (U+08DB): L&lt;&lt;625.0,994.0&gt;--&lt;624.0,994.0&gt;&gt; -&gt; L&lt;&lt;624.0,994.0&gt;--&lt;622.0,994.0&gt;&gt;
 
-* uniFE09 (U+FE09) has a counter-clockwise outer contour
+* uni08DB (U+08DB): L&lt;&lt;672.0,994.0&gt;--&lt;625.0,994.0&gt;&gt; -&gt; L&lt;&lt;625.0,994.0&gt;--&lt;624.0,994.0&gt;&gt;
 
-* uniFE09 (U+FE09) has a counter-clockwise outer contour
+* uni08DD (U+08DD): L&lt;&lt;801.0,1013.0&gt;--&lt;644.0,1013.0&gt;&gt; -&gt; L&lt;&lt;644.0,1013.0&gt;--&lt;642.0,1013.0&gt;&gt;
 
-* uniFE0F (U+FE0F) has a counter-clockwise outer contour
+* uni08DD (U+08DD): L&lt;&lt;822.0,1288.0&gt;--&lt;823.0,1287.0&gt;&gt; -&gt; L&lt;&lt;823.0,1287.0&gt;--&lt;927.0,1161.0&gt;&gt;
 
-* uniFE0F (U+FE0F) has a counter-clockwise outer contour
+* uni08DF (U+08DF): L&lt;&lt;772.0,1127.0&gt;--&lt;772.0,1127.0&gt;&gt; -&gt; L&lt;&lt;772.0,1127.0&gt;--&lt;815.0,1127.0&gt;&gt;
 
-* uniFE0F (U+FE0F) has a counter-clockwise outer contour
+* uni203D (U+203D): L&lt;&lt;547.0,625.0&gt;--&lt;583.0,853.0&gt;&gt; -&gt; L&lt;&lt;583.0,853.0&gt;--&lt;626.0,1134.0&gt;&gt;
 
-* uniFE0F (U+FE0F) has a counter-clockwise outer contour
+* uni203D (U+203D): L&lt;&lt;841.0,1114.0&gt;--&lt;822.0,992.0&gt;&gt; -&gt; L&lt;&lt;822.0,992.0&gt;--&lt;803.0,903.0&gt;&gt;
+
+* uni2052 (U+2052): L&lt;&lt;157.0,182.0&gt;--&lt;254.0,317.0&gt;&gt; -&gt; L&lt;&lt;254.0,317.0&gt;--&lt;862.0,1165.0&gt;&gt;
+
+* uni2052 (U+2052): L&lt;&lt;254.0,317.0&gt;--&lt;862.0,1165.0&gt;&gt; -&gt; L&lt;&lt;862.0,1165.0&gt;--&lt;1009.0,1368.0&gt;&gt;
+
+* uni2E18 (U+2E18): L&lt;&lt;342.0,-317.0&gt;--&lt;363.0,-196.0&gt;&gt; -&gt; L&lt;&lt;363.0,-196.0&gt;--&lt;380.0,-107.0&gt;&gt;
+
+* uni2E18 (U+2E18): L&lt;&lt;636.0,171.0&gt;--&lt;600.0,-56.0&gt;&gt; -&gt; L&lt;&lt;600.0,-56.0&gt;--&lt;558.0,-337.0&gt;&gt;
+
+* uniFDFA (U+FDFA): L&lt;&lt;963.0,259.0&gt;--&lt;964.0,264.0&gt;&gt; -&gt; L&lt;&lt;964.0,264.0&gt;--&lt;976.0,334.0&gt;&gt;
+
+* uniFDFB (U+FDFB): L&lt;&lt;764.0,259.0&gt;--&lt;764.0,259.0&gt;&gt; -&gt; L&lt;&lt;764.0,259.0&gt;--&lt;1030.0,259.0&gt;&gt;
 </code></pre>
- [code: ccw-outer-contour]
+ [code: found-colinear-vectors]
 
 
 
@@ -2124,11 +2212,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* Alpha (U+0391): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* Alphatonos (U+0386): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* Eta (U+0397): L&lt;&lt;1129.0,1119.0&gt;--&lt;953.0,121.0&gt;&gt;/L&lt;&lt;953.0,121.0&gt;--&lt;968.0,159.0&gt;&gt; = 11.539546451984878
+<pre><code>* Eta (U+0397): L&lt;&lt;1129.0,1119.0&gt;--&lt;953.0,121.0&gt;&gt;/L&lt;&lt;953.0,121.0&gt;--&lt;968.0,159.0&gt;&gt; = 11.539546451984878
 
 * Eta (U+0397): L&lt;&lt;858.0,739.0&gt;--&lt;919.0,1128.0&gt;&gt;/L&lt;&lt;919.0,1128.0&gt;--&lt;904.0,1092.0&gt;&gt; = 13.707756694068959
 
@@ -2136,11 +2220,13 @@ definitions.</p>
 
 * Etatonos (U+0389): L&lt;&lt;858.0,739.0&gt;--&lt;919.0,1128.0&gt;&gt;/L&lt;&lt;919.0,1128.0&gt;--&lt;904.0,1092.0&gt;&gt; = 13.707756694068959
 
+* Euro (U+20AC): L&lt;&lt;244.0,548.0&gt;--&lt;308.0,547.0&gt;&gt;/B&lt;&lt;308.0,547.0&gt;-&lt;297.0,548.0&gt;-&lt;297.5,564.5&gt;&gt; = 4.299255197523734
+
+* Euro (U+20AC): L&lt;&lt;885.0,646.0&gt;--&lt;510.0,646.0&gt;&gt;/B&lt;&lt;510.0,646.0&gt;-&lt;527.0,645.0&gt;-&lt;526.5,627.5&gt;&gt; = 3.3664606634298315
+
 * Mu (U+039C): L&lt;&lt;804.0,133.0&gt;--&lt;951.0,968.0&gt;&gt;/B&lt;&lt;951.0,968.0&gt;-&lt;927.0,893.0&gt;-&lt;889.5,804.5&gt;&gt; = 7.760180116716171
 
 * Nu (U+039D): L&lt;&lt;496.0,1064.0&gt;--&lt;363.0,121.0&gt;&gt;/L&lt;&lt;363.0,121.0&gt;--&lt;378.0,159.0&gt;&gt; = 13.512974637501017
-
-* OE (U+0152): L&lt;&lt;669.0,-24.0&gt;--&lt;624.0,-31.0&gt;&gt;/L&lt;&lt;624.0,-31.0&gt;--&lt;624.0,-31.0&gt;&gt; = 8.84181456019167
 
 * Omega (U+2126): B&lt;&lt;231.0,181.5&gt;-&lt;228.0,160.0&gt;-&lt;213.0,157.0&gt;&gt;/L&lt;&lt;213.0,157.0&gt;--&lt;314.0,153.0&gt;&gt; = 13.577887009926041
 
@@ -2176,7 +2262,7 @@ definitions.</p>
 
 * eng (U+014B): L&lt;&lt;529.0,863.0&gt;--&lt;477.0,738.0&gt;&gt;/B&lt;&lt;477.0,738.0&gt;-&lt;517.0,803.0&gt;-&lt;585.0,857.5&gt;&gt; = 9.020191714883133
 
-* five (U+0035): L&lt;&lt;630.0,1010.0&gt;--&lt;569.0,730.0&gt;&gt;/B&lt;&lt;569.0,730.0&gt;-&lt;587.0,781.0&gt;-&lt;642.0,800.5&gt;&gt; = 7.149777434278611
+* five (U+0035): L&lt;&lt;620.0,1014.0&gt;--&lt;569.0,730.0&gt;&gt;/B&lt;&lt;569.0,730.0&gt;-&lt;587.0,781.0&gt;-&lt;642.0,800.5&gt;&gt; = 9.259512546370903
 
 * fourbelow_ar: B&lt;&lt;834.0,1674.5&gt;-&lt;870.0,1638.0&gt;-&lt;864.0,1613.0&gt;&gt;/B&lt;&lt;864.0,1613.0&gt;-&lt;875.0,1642.0&gt;-&lt;895.0,1662.0&gt;&gt; = 7.2765214012499815
 
@@ -2203,6 +2289,8 @@ definitions.</p>
 * gdotaccent (U+0121): L&lt;&lt;850.0,-11.0&gt;--&lt;889.0,167.0&gt;&gt;/B&lt;&lt;889.0,167.0&gt;-&lt;854.0,85.0&gt;-&lt;766.5,40.0&gt;&gt; = 10.755922924009178
 
 * h (U+0068): L&lt;&lt;607.0,1251.0&gt;--&lt;513.0,722.0&gt;&gt;/B&lt;&lt;513.0,722.0&gt;-&lt;543.0,802.0&gt;-&lt;605.5,859.5&gt;&gt; = 10.480113582115342
+
+* hbar (U+0127): L&lt;&lt;574.0,983.0&gt;--&lt;525.0,688.0&gt;&gt;/B&lt;&lt;525.0,688.0&gt;-&lt;552.0,760.0&gt;-&lt;608.5,811.5&gt;&gt; = 11.125221512789796
 
 * hcircumflex (U+0125): L&lt;&lt;607.0,1251.0&gt;--&lt;513.0,722.0&gt;&gt;/B&lt;&lt;513.0,722.0&gt;-&lt;543.0,802.0&gt;-&lt;605.5,859.5&gt;&gt; = 10.480113582115342
 
@@ -2235,6 +2323,14 @@ definitions.</p>
 * ntilde (U+00F1): L&lt;&lt;529.0,863.0&gt;--&lt;477.0,738.0&gt;&gt;/B&lt;&lt;477.0,738.0&gt;-&lt;517.0,803.0&gt;-&lt;585.0,857.5&gt;&gt; = 9.020191714883133
 
 * ohorn (U+01A1): B&lt;&lt;694.0,933.0&gt;-&lt;803.0,933.0&gt;-&lt;886.0,881.0&gt;&gt;/B&lt;&lt;886.0,881.0&gt;-&lt;883.0,884.0&gt;-&lt;892.0,887.0&gt;&gt; = 12.932608396739491
+
+* oslashacute (U+01FF): B&lt;&lt;1000.0,552.0&gt;-&lt;1004.0,589.0&gt;-&lt;1030.0,611.0&gt;&gt;/L&lt;&lt;1030.0,611.0&gt;--&lt;479.0,157.0&gt;&gt; = 0.7493221642236313
+
+* oslashacute (U+01FF): B&lt;&lt;390.5,372.0&gt;-&lt;387.0,335.0&gt;-&lt;361.0,313.0&gt;&gt;/L&lt;&lt;361.0,313.0&gt;--&lt;912.0,767.0&gt;&gt; = 0.7493221642236313
+
+* oslashacute (U+01FF): L&lt;&lt;1030.0,611.0&gt;--&lt;479.0,157.0&gt;&gt;/B&lt;&lt;479.0,157.0&gt;-&lt;507.0,171.0&gt;-&lt;545.5,165.5&gt;&gt; = 12.921984967971756
+
+* oslashacute (U+01FF): L&lt;&lt;361.0,313.0&gt;--&lt;912.0,767.0&gt;&gt;/B&lt;&lt;912.0,767.0&gt;-&lt;884.0,753.0&gt;-&lt;845.5,758.5&gt;&gt; = 12.921984967971756
 
 * p (U+0070): B&lt;&lt;476.0,-4.5&gt;-&lt;403.0,46.0&gt;-&lt;399.0,131.0&gt;&gt;/L&lt;&lt;399.0,131.0&gt;--&lt;317.0,-339.0&gt;&gt; = 12.5909562575252
 
@@ -2300,6 +2396,10 @@ definitions.</p>
 
 * uni01DA (U+01DA): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
 
+* uni01DC (U+01DC): B&lt;&lt;1065.0,1417.0&gt;-&lt;1046.0,1401.0&gt;-&lt;1024.0,1393.0&gt;&gt;/B&lt;&lt;1024.0,1393.0&gt;-&lt;1043.0,1397.0&gt;-&lt;1064.0,1397.0&gt;&gt; = 8.094448482271947
+
+* uni01DC (U+01DC): B&lt;&lt;924.0,1304.0&gt;-&lt;937.0,1367.0&gt;-&lt;1003.0,1388.0&gt;&gt;/B&lt;&lt;1003.0,1388.0&gt;-&lt;969.0,1383.0&gt;-&lt;942.0,1399.0&gt;&gt; = 9.284238095897486
+
 * uni01DC (U+01DC): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
 
 * uni01EB (U+01EB): B&lt;&lt;343.5,-90.0&gt;-&lt;394.0,-34.0&gt;-&lt;452.0,-33.0&gt;&gt;/B&lt;&lt;452.0,-33.0&gt;-&lt;357.0,-17.0&gt;-&lt;283.5,50.0&gt;&gt; = 10.547856880526076
@@ -2308,13 +2408,11 @@ definitions.</p>
 
 * uni01F5 (U+01F5): L&lt;&lt;850.0,-11.0&gt;--&lt;889.0,167.0&gt;&gt;/B&lt;&lt;889.0,167.0&gt;-&lt;854.0,85.0&gt;-&lt;766.5,40.0&gt;&gt; = 10.755922924009178
 
-* uni0211 (U+0211): L&lt;&lt;634.0,863.0&gt;--&lt;571.0,666.0&gt;&gt;/B&lt;&lt;571.0,666.0&gt;-&lt;627.0,759.0&gt;-&lt;708.0,829.5&gt;&gt; = 13.320153143693172
+* uni0211 (U+0211): L&lt;&lt;634.0,863.0&gt;--&lt;571.0,666.0&gt;&gt;/B&lt;&lt;571.0,666.0&gt;-&lt;640.0,780.0&gt;-&lt;744.5,859.0&gt;&gt; = 13.450856686078742
 
 * uni0215 (U+0215): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
 
-* uni034F (U+034F): L&lt;&lt;1128.0,1211.0&gt;--&lt;1138.0,1211.0&gt;&gt;/L&lt;&lt;1138.0,1211.0&gt;--&lt;1013.0,1208.0&gt;&gt; = 1.3748347805694
-
-* uni034F (U+034F): L&lt;&lt;1157.0,1222.0&gt;--&lt;1126.0,1054.0&gt;&gt;/L&lt;&lt;1126.0,1054.0&gt;--&lt;1128.0,1065.0&gt;&gt; = 0.14998860898616947
+* uni034F (U+034F): L&lt;&lt;1239.0,1468.0&gt;--&lt;1239.0,1466.0&gt;&gt;/L&lt;&lt;1239.0,1466.0&gt;--&lt;1242.0,1483.0&gt;&gt; = 10.00797980144135
 
 * uni03BC (U+03BC): B&lt;&lt;438.5,-40.0&gt;-&lt;398.0,-24.0&gt;-&lt;405.0,15.0&gt;&gt;/L&lt;&lt;405.0,15.0&gt;--&lt;343.0,-339.0&gt;&gt; = 0.24141337268377072
 
@@ -2324,7 +2422,11 @@ definitions.</p>
 
 * uni03DE (U+03DE): B&lt;&lt;470.0,1030.0&gt;-&lt;469.0,1013.0&gt;-&lt;469.0,1014.0&gt;&gt;/B&lt;&lt;469.0,1014.0&gt;-&lt;461.0,969.0&gt;-&lt;446.5,893.5&gt;&gt; = 10.08059798754231
 
+* uni03DE (U+03DE): B&lt;&lt;762.0,-114.0&gt;-&lt;762.0,-114.0&gt;-&lt;762.0,-115.0&gt;&gt;/L&lt;&lt;762.0,-115.0&gt;--&lt;877.0,411.0&gt;&gt; = 12.332590053257581
+
 * uni03DF (U+03DF): B&lt;&lt;470.0,1030.0&gt;-&lt;469.0,1013.0&gt;-&lt;469.0,1014.0&gt;&gt;/B&lt;&lt;469.0,1014.0&gt;-&lt;461.0,969.0&gt;-&lt;446.5,893.5&gt;&gt; = 10.08059798754231
+
+* uni03DF (U+03DF): B&lt;&lt;762.0,-114.0&gt;-&lt;762.0,-114.0&gt;-&lt;762.0,-115.0&gt;&gt;/L&lt;&lt;762.0,-115.0&gt;--&lt;877.0,411.0&gt;&gt; = 12.332590053257581
 
 * uni03E0 (U+03E0): B&lt;&lt;384.0,153.5&gt;-&lt;413.0,150.0&gt;-&lt;407.0,140.0&gt;&gt;/L&lt;&lt;407.0,140.0&gt;--&lt;594.0,636.0&gt;&gt; = 10.306504476680358
 
@@ -2440,13 +2542,13 @@ definitions.</p>
 
 * uni046B (U+046B): L&lt;&lt;118.0,161.0&gt;--&lt;116.0,154.0&gt;&gt;/B&lt;&lt;116.0,154.0&gt;-&lt;119.0,160.0&gt;-&lt;140.0,195.5&gt;&gt; = 10.619655276155106
 
+* uni046C (U+046C): B&lt;&lt;854.5,301.0&gt;-&lt;849.0,376.0&gt;-&lt;846.0,422.0&gt;&gt;/L&lt;&lt;846.0,422.0&gt;--&lt;793.0,124.0&gt;&gt; = 13.81613665067653
+
 * uni046C (U+046C): L&lt;&lt;505.0,558.0&gt;--&lt;556.0,555.0&gt;&gt;/L&lt;&lt;556.0,555.0&gt;--&lt;346.0,568.0&gt;&gt; = 0.17590052876524775
 
 * uni046C (U+046C): L&lt;&lt;610.0,135.0&gt;--&lt;660.0,414.0&gt;&gt;/B&lt;&lt;660.0,414.0&gt;-&lt;639.0,367.0&gt;-&lt;614.5,310.5&gt;&gt; = 13.915292134184238
 
 * uni046E (U+046E): B&lt;&lt;992.5,697.5&gt;-&lt;948.0,670.0&gt;-&lt;926.0,678.0&gt;&gt;/B&lt;&lt;926.0,678.0&gt;-&lt;1009.0,634.0&gt;-&lt;1045.0,568.0&gt;&gt; = 7.945872186780907
-
-* uni046F (U+046F): B&lt;&lt;482.5,899.5&gt;-&lt;538.0,892.0&gt;-&lt;563.0,872.0&gt;&gt;/L&lt;&lt;563.0,872.0&gt;--&lt;314.0,1092.0&gt;&gt; = 2.801887220307923
 
 * uni046F (U+046F): B&lt;&lt;974.5,545.0&gt;-&lt;928.0,505.0&gt;-&lt;898.0,516.0&gt;&gt;/B&lt;&lt;898.0,516.0&gt;-&lt;960.0,489.0&gt;-&lt;994.5,420.0&gt;&gt; = 3.3960451326528314
 
@@ -2656,6 +2758,24 @@ definitions.</p>
 
 * uni061E (U+061E): B&lt;&lt;694.0,428.0&gt;-&lt;652.0,473.0&gt;-&lt;635.0,518.0&gt;&gt;/B&lt;&lt;635.0,518.0&gt;-&lt;636.0,512.0&gt;-&lt;636.0,506.0&gt;&gt; = 11.233128526037627
 
+* uni0620 (U+0620): B&lt;&lt;469.0,-97.0&gt;-&lt;486.0,-97.0&gt;-&lt;481.0,-100.0&gt;&gt;/B&lt;&lt;481.0,-100.0&gt;-&lt;517.0,-77.0&gt;-&lt;567.0,-77.0&gt;&gt; = 1.6103006024989317
+
+* uni0620 (U+0620): L&lt;&lt;314.0,-148.0&gt;--&lt;315.0,-148.0&gt;&gt;/B&lt;&lt;315.0,-148.0&gt;-&lt;166.0,-112.0&gt;-&lt;96.5,3.5&gt;&gt; = 13.582963529836702
+
+* uni0620.fina: B&lt;&lt;353.5,-412.5&gt;-&lt;325.0,-438.0&gt;-&lt;309.0,-459.0&gt;&gt;/B&lt;&lt;309.0,-459.0&gt;-&lt;318.0,-448.0&gt;-&lt;342.0,-447.5&gt;&gt; = 1.9854585845169945
+
+* uni0620.fina: B&lt;&lt;432.0,-372.0&gt;-&lt;413.0,-372.0&gt;-&lt;419.0,-369.0&gt;&gt;/B&lt;&lt;419.0,-369.0&gt;-&lt;382.0,-387.0&gt;-&lt;353.5,-412.5&gt;&gt; = 0.6227556872053505
+
+* uni0620.fina: B&lt;&lt;574.0,-514.5&gt;-&lt;574.0,-504.0&gt;-&lt;580.0,-503.0&gt;&gt;/B&lt;&lt;580.0,-503.0&gt;-&lt;510.0,-515.0&gt;-&lt;418.0,-514.0&gt;&gt; = 0.26525634337472404
+
+* uni0620.init: B&lt;&lt;491.5,282.0&gt;-&lt;438.0,263.0&gt;-&lt;385.0,258.0&gt;&gt;/L&lt;&lt;385.0,258.0&gt;--&lt;786.0,258.0&gt;&gt; = 5.389311759973354
+
+* uni0620.init: L&lt;&lt;385.0,258.0&gt;--&lt;786.0,258.0&gt;&gt;/B&lt;&lt;786.0,258.0&gt;-&lt;748.0,266.0&gt;-&lt;706.5,283.5&gt;&gt; = 11.888658039627968
+
+* uni0620.init: L&lt;&lt;851.0,191.0&gt;--&lt;819.0,200.0&gt;&gt;/B&lt;&lt;819.0,200.0&gt;-&lt;837.0,194.0&gt;-&lt;842.5,158.5&gt;&gt; = 2.7263109939060786
+
+* uni0620.medi: L&lt;&lt;1279.0,193.0&gt;--&lt;908.0,191.0&gt;&gt;/B&lt;&lt;908.0,191.0&gt;-&lt;937.0,189.0&gt;-&lt;944.0,155.5&gt;&gt; = 4.254055363789325
+
 * uni0621 (U+FE80): B&lt;&lt;397.0,349.0&gt;-&lt;459.0,394.0&gt;-&lt;523.0,441.0&gt;&gt;/B&lt;&lt;523.0,441.0&gt;-&lt;498.0,424.0&gt;-&lt;460.5,449.5&gt;&gt; = 2.076927596042315
 
 * uni0622.fina.alt: B&lt;&lt;1034.5,433.5&gt;-&lt;1020.0,401.0&gt;-&lt;990.0,400.0&gt;&gt;/L&lt;&lt;990.0,400.0&gt;--&lt;1164.0,393.0&gt;&gt; = 4.212912757596552
@@ -2681,6 +2801,12 @@ definitions.</p>
 * uni0628 (U+FE8F): B&lt;&lt;309.5,430.0&gt;-&lt;305.0,404.0&gt;-&lt;288.0,403.0&gt;&gt;/L&lt;&lt;288.0,403.0&gt;--&lt;933.0,398.0&gt;&gt; = 3.8106050965416993
 
 * uni0629 (U+FE93): B&lt;&lt;691.0,1645.0&gt;-&lt;733.0,1598.0&gt;-&lt;750.0,1553.0&gt;&gt;/B&lt;&lt;750.0,1553.0&gt;-&lt;749.0,1560.0&gt;-&lt;750.0,1566.0&gt;&gt; = 12.565348379907297
+
+* uni0629 (U+FE93): B&lt;&lt;886.0,1038.0&gt;-&lt;887.0,1037.0&gt;-&lt;890.0,1035.0&gt;&gt;/L&lt;&lt;890.0,1035.0&gt;--&lt;889.0,1036.0&gt;&gt; = 11.309932474020227
+
+* uni0629 (U+FE93): L&lt;&lt;890.0,1035.0&gt;--&lt;889.0,1036.0&gt;&gt;/B&lt;&lt;889.0,1036.0&gt;-&lt;918.0,1006.0&gt;-&lt;951.5,934.0&gt;&gt; = 0.9710219310791971
+
+* uni0629.alt: B&lt;&lt;964.5,929.5&gt;-&lt;953.0,930.0&gt;-&lt;945.0,947.0&gt;&gt;/B&lt;&lt;945.0,947.0&gt;-&lt;977.0,889.0&gt;-&lt;998.5,774.0&gt;&gt; = 3.685458121435577
 
 * uni062A (U+FE95): B&lt;&lt;309.5,430.0&gt;-&lt;305.0,404.0&gt;-&lt;288.0,403.0&gt;&gt;/L&lt;&lt;288.0,403.0&gt;--&lt;933.0,398.0&gt;&gt; = 3.8106050965416993
 
@@ -2740,6 +2866,10 @@ definitions.</p>
 
 * uni0642 (U+FED5): B&lt;&lt;951.0,1598.0&gt;-&lt;993.0,1551.0&gt;-&lt;1010.0,1506.0&gt;&gt;/B&lt;&lt;1010.0,1506.0&gt;-&lt;1009.0,1513.0&gt;-&lt;1009.0,1519.0&gt;&gt; = 12.565348379907297
 
+* uni0647 (U+FEE9): B&lt;&lt;886.0,1038.0&gt;-&lt;887.0,1037.0&gt;-&lt;890.0,1035.0&gt;&gt;/L&lt;&lt;890.0,1035.0&gt;--&lt;889.0,1036.0&gt;&gt; = 11.309932474020227
+
+* uni0647 (U+FEE9): L&lt;&lt;890.0,1035.0&gt;--&lt;889.0,1036.0&gt;&gt;/B&lt;&lt;889.0,1036.0&gt;-&lt;918.0,1006.0&gt;-&lt;951.5,934.0&gt;&gt; = 0.9710219310791971
+
 * uni064A (U+FEF1): B&lt;&lt;473.0,-629.0&gt;-&lt;431.0,-584.0&gt;-&lt;414.0,-539.0&gt;&gt;/B&lt;&lt;414.0,-539.0&gt;-&lt;415.0,-545.0&gt;-&lt;414.0,-551.0&gt;&gt; = 11.233128526037627
 
 * uni0654 (U+0654): B&lt;&lt;568.5,1386.0&gt;-&lt;624.0,1413.0&gt;-&lt;681.0,1430.0&gt;&gt;/B&lt;&lt;681.0,1430.0&gt;-&lt;631.0,1422.0&gt;-&lt;599.0,1476.5&gt;&gt; = 7.5167036577946975
@@ -2786,13 +2916,23 @@ definitions.</p>
 
 * uni067C (U+067C): B&lt;&lt;309.5,430.0&gt;-&lt;305.0,404.0&gt;-&lt;288.0,403.0&gt;&gt;/L&lt;&lt;288.0,403.0&gt;--&lt;933.0,398.0&gt;&gt; = 3.8106050965416993
 
+* uni067C (U+067C): B&lt;&lt;403.5,156.0&gt;-&lt;418.0,187.0&gt;-&lt;446.0,192.0&gt;&gt;/L&lt;&lt;446.0,192.0&gt;--&lt;259.0,191.0&gt;&gt; = 9.81828003312712
+
 * uni067C (U+067C): B&lt;&lt;726.5,1379.0&gt;-&lt;768.0,1332.0&gt;-&lt;785.0,1287.0&gt;&gt;/B&lt;&lt;785.0,1287.0&gt;-&lt;784.0,1294.0&gt;-&lt;785.0,1300.0&gt;&gt; = 12.565348379907297
+
+* uni067C (U+067C): L&lt;&lt;994.0,191.0&gt;--&lt;804.0,192.0&gt;&gt;/B&lt;&lt;804.0,192.0&gt;-&lt;832.0,189.0&gt;-&lt;836.5,153.5&gt;&gt; = 5.813949616417032
 
 * uni067C.fina: B&lt;&lt;309.5,430.0&gt;-&lt;305.0,404.0&gt;-&lt;288.0,403.0&gt;&gt;/L&lt;&lt;288.0,403.0&gt;--&lt;933.0,398.0&gt;&gt; = 3.8106050965416993
 
+* uni067C.fina: B&lt;&lt;403.5,156.0&gt;-&lt;418.0,187.0&gt;-&lt;446.0,192.0&gt;&gt;/L&lt;&lt;446.0,192.0&gt;--&lt;259.0,191.0&gt;&gt; = 9.81828003312712
+
 * uni067C.fina: B&lt;&lt;726.5,1379.0&gt;-&lt;768.0,1332.0&gt;-&lt;785.0,1287.0&gt;&gt;/B&lt;&lt;785.0,1287.0&gt;-&lt;784.0,1294.0&gt;-&lt;785.0,1300.0&gt;&gt; = 12.565348379907297
 
+* uni067C.fina: L&lt;&lt;1277.0,192.0&gt;--&lt;800.0,191.0&gt;&gt;/B&lt;&lt;800.0,191.0&gt;-&lt;831.0,189.0&gt;-&lt;836.0,153.5&gt;&gt; = 3.8115027486611948
+
 * uni067C.init: B&lt;&lt;726.5,1379.0&gt;-&lt;768.0,1332.0&gt;-&lt;785.0,1287.0&gt;&gt;/B&lt;&lt;785.0,1287.0&gt;-&lt;784.0,1294.0&gt;-&lt;785.0,1300.0&gt;&gt; = 12.565348379907297
+
+* uni067C.init: L&lt;&lt;851.0,191.0&gt;--&lt;820.0,200.0&gt;&gt;/B&lt;&lt;820.0,200.0&gt;-&lt;836.0,192.0&gt;-&lt;838.5,155.0&gt;&gt; = 10.375844920051032
 
 * uni067C.medi: B&lt;&lt;726.5,1379.0&gt;-&lt;768.0,1332.0&gt;-&lt;785.0,1287.0&gt;&gt;/B&lt;&lt;785.0,1287.0&gt;-&lt;784.0,1294.0&gt;-&lt;785.0,1300.0&gt;&gt; = 12.565348379907297
 
@@ -2857,6 +2997,12 @@ definitions.</p>
 * uni0687 (U+FB7E): B&lt;&lt;668.0,105.0&gt;-&lt;635.0,144.0&gt;-&lt;621.0,182.0&gt;&gt;/B&lt;&lt;621.0,182.0&gt;-&lt;622.0,176.0&gt;-&lt;622.0,170.0&gt;&gt; = 10.762537223142443
 
 * uni0688 (U+FB88): L&lt;&lt;709.0,1778.0&gt;--&lt;646.0,1428.0&gt;&gt;/B&lt;&lt;646.0,1428.0&gt;-&lt;669.0,1529.0&gt;-&lt;732.0,1582.0&gt;&gt; = 2.624809149723495
+
+* uni0689 (U+0689): B&lt;&lt;337.0,87.0&gt;-&lt;355.0,122.0&gt;-&lt;385.0,119.0&gt;&gt;/B&lt;&lt;385.0,119.0&gt;-&lt;321.0,126.0&gt;-&lt;255.0,150.5&gt;&gt; = 0.5313212099149507
+
+* uni0689.fina: B&lt;&lt;336.5,85.5&gt;-&lt;354.0,120.0&gt;-&lt;385.0,117.0&gt;&gt;/B&lt;&lt;385.0,117.0&gt;-&lt;319.0,123.0&gt;-&lt;249.5,147.0&gt;&gt; = 0.3331112439209217
+
+* uni0689.fina: B&lt;&lt;917.5,209.5&gt;-&lt;878.0,228.0&gt;-&lt;872.0,262.0&gt;&gt;/B&lt;&lt;872.0,262.0&gt;-&lt;871.0,238.0&gt;-&lt;834.0,204.5&gt;&gt; = 12.3939238318301
 
 * uni068B (U+068B): L&lt;&lt;709.0,1778.0&gt;--&lt;646.0,1428.0&gt;&gt;/B&lt;&lt;646.0,1428.0&gt;-&lt;669.0,1529.0&gt;-&lt;732.0,1582.0&gt;&gt; = 2.624809149723495
 
@@ -2960,7 +3106,7 @@ definitions.</p>
 
 * uni06A0.init: B&lt;&lt;844.0,1435.0&gt;-&lt;886.0,1388.0&gt;-&lt;903.0,1343.0&gt;&gt;/B&lt;&lt;903.0,1343.0&gt;-&lt;902.0,1350.0&gt;-&lt;903.0,1356.0&gt;&gt; = 12.565348379907297
 
-* uni06A0.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni06A0.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni06A0.medi: B&lt;&lt;719.5,1482.0&gt;-&lt;761.0,1435.0&gt;-&lt;778.0,1390.0&gt;&gt;/B&lt;&lt;778.0,1390.0&gt;-&lt;777.0,1397.0&gt;-&lt;778.0,1403.0&gt;&gt; = 12.565348379907297
 
@@ -3114,6 +3260,16 @@ definitions.</p>
 
 * uni06BB (U+FBA0): L&lt;&lt;814.0,1563.0&gt;--&lt;751.0,1213.0&gt;&gt;/B&lt;&lt;751.0,1213.0&gt;-&lt;774.0,1314.0&gt;-&lt;837.0,1367.0&gt;&gt; = 2.624809149723495
 
+* uni06BC (U+06BC): B&lt;&lt;281.5,-202.5&gt;-&lt;302.0,-164.0&gt;-&lt;335.0,-165.0&gt;&gt;/B&lt;&lt;335.0,-165.0&gt;-&lt;188.0,-128.0&gt;-&lt;112.5,-2.5&gt;&gt; = 12.392212047991267
+
+* uni06BC (U+06BC): B&lt;&lt;503.0,-186.0&gt;-&lt;493.0,-186.0&gt;-&lt;499.0,-184.0&gt;&gt;/B&lt;&lt;499.0,-184.0&gt;-&lt;481.0,-188.0&gt;-&lt;462.0,-219.5&gt;&gt; = 5.906141113770435
+
+* uni06BC.fina: B&lt;&lt;228.0,-505.5&gt;-&lt;248.0,-467.0&gt;-&lt;281.0,-468.0&gt;&gt;/B&lt;&lt;281.0,-468.0&gt;-&lt;135.0,-431.0&gt;-&lt;59.5,-305.5&gt;&gt; = 12.48506571125958
+
+* uni06BC.fina: B&lt;&lt;450.0,-489.0&gt;-&lt;440.0,-489.0&gt;-&lt;446.0,-487.0&gt;&gt;/B&lt;&lt;446.0,-487.0&gt;-&lt;428.0,-491.0&gt;-&lt;408.5,-522.5&gt;&gt; = 5.906141113770435
+
+* uni06BC.init: L&lt;&lt;851.0,191.0&gt;--&lt;820.0,200.0&gt;&gt;/B&lt;&lt;820.0,200.0&gt;-&lt;836.0,192.0&gt;-&lt;838.5,155.0&gt;&gt; = 10.375844920051032
+
 * uni06BD (U+06BD): B&lt;&lt;683.0,1263.0&gt;-&lt;725.0,1216.0&gt;-&lt;742.0,1171.0&gt;&gt;/B&lt;&lt;742.0,1171.0&gt;-&lt;741.0,1178.0&gt;-&lt;741.0,1184.0&gt;&gt; = 12.565348379907297
 
 * uni06BD (U+06BD): B&lt;&lt;808.0,1051.0&gt;-&lt;766.0,1096.0&gt;-&lt;749.0,1141.0&gt;&gt;/B&lt;&lt;749.0,1141.0&gt;-&lt;750.0,1135.0&gt;-&lt;750.0,1129.0&gt;&gt; = 11.233128526037627
@@ -3150,15 +3306,29 @@ definitions.</p>
 
 * uni06C0 (U+FBA4): B&lt;&lt;558.0,1325.0&gt;-&lt;613.0,1352.0&gt;-&lt;670.0,1369.0&gt;&gt;/B&lt;&lt;670.0,1369.0&gt;-&lt;621.0,1361.0&gt;-&lt;588.5,1415.5&gt;&gt; = 7.334378801416706
 
+* uni06C1 (U+FBA6): B&lt;&lt;964.5,929.5&gt;-&lt;953.0,930.0&gt;-&lt;945.0,947.0&gt;&gt;/B&lt;&lt;945.0,947.0&gt;-&lt;977.0,889.0&gt;-&lt;998.5,774.0&gt;&gt; = 3.685458121435577
+
 * uni06C2 (U+06C2): B&lt;&lt;694.0,1378.0&gt;-&lt;749.0,1405.0&gt;-&lt;806.0,1422.0&gt;&gt;/B&lt;&lt;806.0,1422.0&gt;-&lt;757.0,1414.0&gt;-&lt;724.5,1468.5&gt;&gt; = 7.334378801416706
 
+* uni06C2 (U+06C2): B&lt;&lt;964.5,929.5&gt;-&lt;953.0,930.0&gt;-&lt;945.0,947.0&gt;&gt;/B&lt;&lt;945.0,947.0&gt;-&lt;977.0,889.0&gt;-&lt;998.5,774.0&gt;&gt; = 3.685458121435577
+
+* uni06C2.fina: B&lt;&lt;475.5,1124.0&gt;-&lt;531.0,1151.0&gt;-&lt;587.0,1168.0&gt;&gt;/B&lt;&lt;587.0,1168.0&gt;-&lt;538.0,1160.0&gt;-&lt;506.0,1214.5&gt;&gt; = 7.614189346743762
+
 * uni06C3 (U+06C3): B&lt;&lt;822.0,1645.0&gt;-&lt;864.0,1598.0&gt;-&lt;881.0,1553.0&gt;&gt;/B&lt;&lt;881.0,1553.0&gt;-&lt;880.0,1560.0&gt;-&lt;881.0,1566.0&gt;&gt; = 12.565348379907297
+
+* uni06C3 (U+06C3): B&lt;&lt;964.5,929.5&gt;-&lt;953.0,930.0&gt;-&lt;945.0,947.0&gt;&gt;/B&lt;&lt;945.0,947.0&gt;-&lt;977.0,889.0&gt;-&lt;998.5,774.0&gt;&gt; = 3.685458121435577
+
+* uni06C3.fina: B&lt;&lt;815.0,1112.0&gt;-&lt;773.0,1157.0&gt;-&lt;756.0,1202.0&gt;&gt;/B&lt;&lt;756.0,1202.0&gt;-&lt;757.0,1196.0&gt;-&lt;756.0,1190.0&gt;&gt; = 11.233128526037627
 
 * uni06CA (U+06CA): B&lt;&lt;805.0,1112.0&gt;-&lt;763.0,1157.0&gt;-&lt;746.0,1202.0&gt;&gt;/B&lt;&lt;746.0,1202.0&gt;-&lt;747.0,1196.0&gt;-&lt;746.0,1190.0&gt;&gt; = 11.233128526037627
 
 * uni06CA.fina: B&lt;&lt;764.0,1112.0&gt;-&lt;722.0,1157.0&gt;-&lt;705.0,1202.0&gt;&gt;/B&lt;&lt;705.0,1202.0&gt;-&lt;706.0,1196.0&gt;-&lt;705.0,1190.0&gt;&gt; = 11.233128526037627
 
 * uni06CB (U+FBDE): B&lt;&lt;805.0,1112.0&gt;-&lt;763.0,1157.0&gt;-&lt;746.0,1202.0&gt;&gt;/B&lt;&lt;746.0,1202.0&gt;-&lt;747.0,1196.0&gt;-&lt;746.0,1190.0&gt;&gt; = 11.233128526037627
+
+* uni06CD (U+06CD): B&lt;&lt;75.0,360.0&gt;-&lt;89.0,400.0&gt;-&lt;116.0,422.0&gt;&gt;/L&lt;&lt;116.0,422.0&gt;--&lt;70.0,391.0&gt;&gt; = 5.197113934187367
+
+* uni06CD.fina: B&lt;&lt;15.5,24.5&gt;-&lt;29.0,65.0&gt;-&lt;57.0,86.0&gt;&gt;/L&lt;&lt;57.0,86.0&gt;--&lt;10.0,55.0&gt;&gt; = 3.4620730561350856
 
 * uni06D1 (U+06D1): B&lt;&lt;472.5,-626.0&gt;-&lt;430.0,-580.0&gt;-&lt;413.0,-534.0&gt;&gt;/B&lt;&lt;413.0,-534.0&gt;-&lt;415.0,-543.0&gt;-&lt;414.0,-551.0&gt;&gt; = 7.753751379765042
 
@@ -3222,11 +3392,13 @@ definitions.</p>
 
 * uni06E7 (U+06E7): B&lt;&lt;595.0,1207.5&gt;-&lt;561.0,1167.0&gt;-&lt;542.0,1163.0&gt;&gt;/L&lt;&lt;542.0,1163.0&gt;--&lt;975.0,1163.0&gt;&gt; = 11.888658039627968
 
+* uni06E9 (U+06E9): L&lt;&lt;693.0,791.0&gt;--&lt;515.0,640.0&gt;&gt;/B&lt;&lt;515.0,640.0&gt;-&lt;517.0,641.0&gt;-&lt;525.0,642.0&gt;&gt; = 13.743377257095178
+
 * uni06F4 (U+06F4): B&lt;&lt;749.0,595.5&gt;-&lt;687.0,626.0&gt;-&lt;680.0,678.0&gt;&gt;/B&lt;&lt;680.0,678.0&gt;-&lt;691.0,552.0&gt;-&lt;682.0,397.0&gt;&gt; = 2.677441692171966
 
 * uni06FB.fina: B&lt;&lt;999.5,504.5&gt;-&lt;929.0,415.0&gt;-&lt;817.0,395.0&gt;&gt;/L&lt;&lt;817.0,395.0&gt;--&lt;1295.0,402.0&gt;&gt; = 9.285672095801052
 
-* uni06FC.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni06FC.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni06FD (U+06FD): B&lt;&lt;397.0,480.0&gt;-&lt;459.0,525.0&gt;-&lt;523.0,572.0&gt;&gt;/B&lt;&lt;523.0,572.0&gt;-&lt;498.0,555.0&gt;-&lt;460.5,580.5&gt;&gt; = 2.076927596042315
 
@@ -3366,7 +3538,7 @@ definitions.</p>
 
 * uni075D.init: B&lt;&lt;955.0,1220.0&gt;-&lt;913.0,1265.0&gt;-&lt;896.0,1310.0&gt;&gt;/B&lt;&lt;896.0,1310.0&gt;-&lt;897.0,1304.0&gt;-&lt;896.0,1298.0&gt;&gt; = 11.233128526037627
 
-* uni075D.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni075D.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni075D.medi: B&lt;&lt;843.0,1271.0&gt;-&lt;801.0,1316.0&gt;-&lt;784.0,1361.0&gt;&gt;/B&lt;&lt;784.0,1361.0&gt;-&lt;785.0,1355.0&gt;-&lt;784.0,1349.0&gt;&gt; = 11.233128526037627
 
@@ -3376,7 +3548,7 @@ definitions.</p>
 
 * uni075E.init: B&lt;&lt;1002.5,1500.0&gt;-&lt;960.0,1546.0&gt;-&lt;944.0,1592.0&gt;&gt;/B&lt;&lt;944.0,1592.0&gt;-&lt;946.0,1583.0&gt;-&lt;945.0,1575.0&gt;&gt; = 6.650200316659149
 
-* uni075E.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni075E.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni075E.init: L&lt;&lt;938.0,1615.0&gt;--&lt;938.0,1614.0&gt;&gt;/B&lt;&lt;938.0,1614.0&gt;-&lt;937.0,1623.0&gt;-&lt;937.0,1632.0&gt;&gt; = 6.340191745909908
 
@@ -3384,7 +3556,7 @@ definitions.</p>
 
 * uni075E.medi: L&lt;&lt;822.0,1666.0&gt;--&lt;822.0,1665.0&gt;&gt;/B&lt;&lt;822.0,1665.0&gt;-&lt;821.0,1674.0&gt;-&lt;821.0,1683.0&gt;&gt; = 6.340191745909908
 
-* uni075F.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni075F.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni0760 (U+0760): B&lt;&lt;309.5,430.0&gt;-&lt;305.0,404.0&gt;-&lt;288.0,403.0&gt;&gt;/L&lt;&lt;288.0,403.0&gt;--&lt;941.0,402.0&gt;&gt; = 3.4542029830680403
 
@@ -3552,13 +3724,7 @@ definitions.</p>
 
 * uni077C.medi: B&lt;&lt;571.0,-4.5&gt;-&lt;607.0,-41.0&gt;-&lt;600.0,-66.0&gt;&gt;/B&lt;&lt;600.0,-66.0&gt;-&lt;611.0,-37.0&gt;-&lt;631.5,-17.0&gt;&gt; = 5.130008224837082
 
-* uni077D (U+077D): L&lt;&lt;881.0,1527.0&gt;--&lt;881.0,1528.0&gt;&gt;/B&lt;&lt;881.0,1528.0&gt;-&lt;880.0,1522.0&gt;-&lt;875.0,1512.0&gt;&gt; = 9.462322208025613
-
-* uni077D.fina: L&lt;&lt;788.0,1527.0&gt;--&lt;788.0,1528.0&gt;&gt;/B&lt;&lt;788.0,1528.0&gt;-&lt;787.0,1522.0&gt;-&lt;782.0,1512.0&gt;&gt; = 9.462322208025613
-
-* uni077D.init: L&lt;&lt;1039.0,1527.0&gt;--&lt;1039.0,1528.0&gt;&gt;/B&lt;&lt;1039.0,1528.0&gt;-&lt;1038.0,1522.0&gt;-&lt;1033.0,1512.0&gt;&gt; = 9.462322208025613
-
-* uni077D.medi: L&lt;&lt;926.0,1524.0&gt;--&lt;926.0,1526.0&gt;&gt;/B&lt;&lt;926.0,1526.0&gt;-&lt;925.0,1521.0&gt;-&lt;921.0,1512.0&gt;&gt; = 11.309932474020195
+* uni077D.medi: L&lt;&lt;1231.0,1698.0&gt;--&lt;1231.0,1697.0&gt;&gt;/B&lt;&lt;1231.0,1697.0&gt;-&lt;1232.0,1702.0&gt;-&lt;1232.0,1702.0&gt;&gt; = 11.309932474020195
 
 * uni077F (U+077F): B&lt;&lt;688.5,1782.0&gt;-&lt;730.0,1735.0&gt;-&lt;747.0,1690.0&gt;&gt;/B&lt;&lt;747.0,1690.0&gt;-&lt;746.0,1697.0&gt;-&lt;747.0,1703.0&gt;&gt; = 12.565348379907297
 
@@ -3712,7 +3878,7 @@ definitions.</p>
 
 * uni08B3.init: B&lt;&lt;711.5,-210.0&gt;-&lt;669.0,-164.0&gt;-&lt;653.0,-118.0&gt;&gt;/B&lt;&lt;653.0,-118.0&gt;-&lt;654.0,-127.0&gt;-&lt;654.0,-135.0&gt;&gt; = 12.83881627990079
 
-* uni08B3.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni08B3.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni08B3.medi: B&lt;&lt;609.5,-210.0&gt;-&lt;567.0,-164.0&gt;-&lt;551.0,-118.0&gt;&gt;/B&lt;&lt;551.0,-118.0&gt;-&lt;552.0,-127.0&gt;-&lt;552.0,-135.0&gt;&gt; = 12.83881627990079
 
@@ -3828,7 +3994,7 @@ definitions.</p>
 
 * uni08C3.fina: B&lt;&lt;849.0,1520.0&gt;-&lt;834.0,1523.0&gt;-&lt;818.0,1534.0&gt;&gt;/B&lt;&lt;818.0,1534.0&gt;-&lt;854.0,1504.0&gt;-&lt;883.0,1456.5&gt;&gt; = 5.297048104596702
 
-* uni08C3.init: L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uni08C3.init: L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uni08C3.medi: B&lt;&lt;748.0,1677.0&gt;-&lt;750.0,1677.0&gt;-&lt;751.0,1676.0&gt;&gt;/B&lt;&lt;751.0,1676.0&gt;-&lt;729.0,1708.0&gt;-&lt;729.0,1734.0&gt;&gt; = 10.491477012331565
 
@@ -3882,15 +4048,23 @@ definitions.</p>
 
 * uni08D6 (U+08D6): B&lt;&lt;429.0,969.0&gt;-&lt;453.0,1096.0&gt;-&lt;585.0,1201.0&gt;&gt;/B&lt;&lt;585.0,1201.0&gt;-&lt;552.0,1179.0&gt;-&lt;518.0,1223.5&gt;&gt; = 4.810586194365587
 
+* uni08DB (U+08DB): L&lt;&lt;1069.0,1096.0&gt;--&lt;1065.0,1097.0&gt;&gt;/L&lt;&lt;1065.0,1097.0&gt;--&lt;1065.0,1097.0&gt;&gt; = 14.036243467926484
+
+* uni08DB (U+08DB): L&lt;&lt;1069.0,1096.0&gt;--&lt;1069.0,1096.0&gt;&gt;/L&lt;&lt;1069.0,1096.0&gt;--&lt;1065.0,1097.0&gt;&gt; = 14.036243467926484
+
+* uni08DB (U+08DB): L&lt;&lt;1076.0,1095.0&gt;--&lt;1071.0,1096.0&gt;&gt;/L&lt;&lt;1071.0,1096.0&gt;--&lt;1071.0,1096.0&gt;&gt; = 11.309932474020195
+
 * uni08DC (U+08DC): B&lt;&lt;1056.0,1425.5&gt;-&lt;1077.0,1398.0&gt;-&lt;1078.0,1375.0&gt;&gt;/L&lt;&lt;1078.0,1375.0&gt;--&lt;1088.0,1431.0&gt;&gt; = 12.614224577396955
 
 * uni08DC (U+08DC): B&lt;&lt;552.5,1289.0&gt;-&lt;571.0,1264.0&gt;-&lt;574.0,1232.0&gt;&gt;/L&lt;&lt;574.0,1232.0&gt;--&lt;575.0,1239.0&gt;&gt; = 13.485927397011148
 
+* uni08DC (U+08DC): B&lt;&lt;883.0,1126.0&gt;-&lt;886.0,1126.0&gt;-&lt;889.0,1127.0&gt;&gt;/L&lt;&lt;889.0,1127.0&gt;--&lt;883.0,1126.0&gt;&gt; = 8.972626614896315
+
+* uni08DC (U+08DC): L&lt;&lt;1009.0,1010.0&gt;--&lt;1009.0,1010.0&gt;&gt;/B&lt;&lt;1009.0,1010.0&gt;-&lt;987.0,1011.0&gt;-&lt;971.5,1018.5&gt;&gt; = 2.6025622024996635
+
 * uni08DC (U+08DC): L&lt;&lt;1037.0,1143.0&gt;--&lt;1077.0,1369.0&gt;&gt;/B&lt;&lt;1077.0,1369.0&gt;-&lt;1067.0,1346.0&gt;-&lt;1040.0,1323.5&gt;&gt; = 13.461663221988582
 
-* uni08DD (U+08DD): B&lt;&lt;1037.0,1036.0&gt;-&lt;1025.0,1030.0&gt;-&lt;1007.0,1027.0&gt;&gt;/L&lt;&lt;1007.0,1027.0&gt;--&lt;1007.0,1027.0&gt;&gt; = 9.462322208025613
-
-* uni08DD (U+08DD): L&lt;&lt;633.0,1015.0&gt;--&lt;633.0,1015.0&gt;&gt;/B&lt;&lt;633.0,1015.0&gt;-&lt;615.0,1018.0&gt;-&lt;602.0,1025.0&gt;&gt; = 9.462322208025613
+* uni08DC (U+08DC): L&lt;&lt;889.0,1127.0&gt;--&lt;883.0,1126.0&gt;&gt;/B&lt;&lt;883.0,1126.0&gt;-&lt;886.0,1126.0&gt;-&lt;889.0,1127.0&gt;&gt; = 9.462322208025613
 
 * uni08DF (U+08DF): B&lt;&lt;664.5,1173.5&gt;-&lt;669.0,1166.0&gt;-&lt;667.0,1160.0&gt;&gt;/B&lt;&lt;667.0,1160.0&gt;-&lt;672.0,1169.0&gt;-&lt;683.5,1180.5&gt;&gt; = 10.619655276155106
 
@@ -3940,67 +4114,15 @@ definitions.</p>
 
 * uni1EA1 (U+1EA1): B&lt;&lt;460.0,-140.0&gt;-&lt;473.0,-73.0&gt;-&lt;547.0,-53.0&gt;&gt;/B&lt;&lt;547.0,-53.0&gt;-&lt;521.0,-56.0&gt;-&lt;495.0,-56.0&gt;&gt; = 8.542062653132573
 
-* uni1EA1 (U+1EA1): B&lt;&lt;849.0,54.0&gt;-&lt;724.0,-25.0&gt;-&lt;595.0,-47.0&gt;&gt;/L&lt;&lt;595.0,-47.0&gt;--&lt;600.0,-47.0&gt;&gt; = 9.678260053133936
-
-* uni1EA2 (U+1EA2): B&lt;&lt;682.0,1662.0&gt;-&lt;674.0,1661.0&gt;-&lt;670.0,1666.0&gt;&gt;/L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt; = 6.340191745909908
-
-* uni1EA2 (U+1EA2): L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt;/B&lt;&lt;673.0,1663.0&gt;-&lt;665.0,1675.0&gt;-&lt;667.0,1681.0&gt;&gt; = 11.309932474020227
-
-* uni1EA3 (U+1EA3): B&lt;&lt;598.0,1183.0&gt;-&lt;589.0,1182.0&gt;-&lt;586.0,1187.0&gt;&gt;/L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt; = 14.036243467926457
-
-* uni1EA3 (U+1EA3): L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt;/B&lt;&lt;589.0,1184.0&gt;-&lt;580.0,1196.0&gt;-&lt;582.0,1202.0&gt;&gt; = 8.13010235415596
-
-* uni1EA8 (U+1EA8): B&lt;&lt;918.0,1849.0&gt;-&lt;910.0,1848.0&gt;-&lt;906.0,1853.0&gt;&gt;/L&lt;&lt;906.0,1853.0&gt;--&lt;909.0,1850.0&gt;&gt; = 6.340191745909908
-
-* uni1EA8 (U+1EA8): L&lt;&lt;906.0,1853.0&gt;--&lt;909.0,1850.0&gt;&gt;/B&lt;&lt;909.0,1850.0&gt;-&lt;901.0,1862.0&gt;-&lt;903.0,1868.0&gt;&gt; = 11.309932474020227
+* uni1EA1 (U+1EA1): B&lt;&lt;728.5,-9.5&gt;-&lt;664.0,-35.0&gt;-&lt;596.0,-47.0&gt;&gt;/L&lt;&lt;596.0,-47.0&gt;--&lt;600.0,-47.0&gt;&gt; = 10.007979801441312
 
 * uni1EAD (U+1EAD): B&lt;&lt;460.0,-140.0&gt;-&lt;473.0,-73.0&gt;-&lt;547.0,-53.0&gt;&gt;/B&lt;&lt;547.0,-53.0&gt;-&lt;521.0,-56.0&gt;-&lt;495.0,-56.0&gt;&gt; = 8.542062653132573
 
-* uni1EAD (U+1EAD): B&lt;&lt;849.0,54.0&gt;-&lt;724.0,-25.0&gt;-&lt;595.0,-47.0&gt;&gt;/L&lt;&lt;595.0,-47.0&gt;--&lt;600.0,-47.0&gt;&gt; = 9.678260053133936
-
-* uni1EB2 (U+1EB2): B&lt;&lt;725.0,1892.0&gt;-&lt;716.0,1891.0&gt;-&lt;713.0,1896.0&gt;&gt;/L&lt;&lt;713.0,1896.0&gt;--&lt;716.0,1893.0&gt;&gt; = 14.036243467926457
-
-* uni1EB2 (U+1EB2): L&lt;&lt;713.0,1896.0&gt;--&lt;716.0,1893.0&gt;&gt;/B&lt;&lt;716.0,1893.0&gt;-&lt;707.0,1905.0&gt;-&lt;709.0,1911.0&gt;&gt; = 8.13010235415596
-
-* uni1EB3 (U+1EB3): B&lt;&lt;662.0,1535.0&gt;-&lt;654.0,1534.0&gt;-&lt;650.0,1539.0&gt;&gt;/L&lt;&lt;650.0,1539.0&gt;--&lt;653.0,1536.0&gt;&gt; = 6.340191745909908
-
-* uni1EB3 (U+1EB3): L&lt;&lt;650.0,1539.0&gt;--&lt;653.0,1536.0&gt;&gt;/B&lt;&lt;653.0,1536.0&gt;-&lt;644.0,1548.0&gt;-&lt;646.0,1554.0&gt;&gt; = 8.13010235415596
+* uni1EAD (U+1EAD): B&lt;&lt;728.5,-9.5&gt;-&lt;664.0,-35.0&gt;-&lt;596.0,-47.0&gt;&gt;/L&lt;&lt;596.0,-47.0&gt;--&lt;600.0,-47.0&gt;&gt; = 10.007979801441312
 
 * uni1EB7 (U+1EB7): B&lt;&lt;460.0,-140.0&gt;-&lt;473.0,-73.0&gt;-&lt;547.0,-53.0&gt;&gt;/B&lt;&lt;547.0,-53.0&gt;-&lt;521.0,-56.0&gt;-&lt;495.0,-56.0&gt;&gt; = 8.542062653132573
 
-* uni1EB7 (U+1EB7): B&lt;&lt;849.0,54.0&gt;-&lt;724.0,-25.0&gt;-&lt;595.0,-47.0&gt;&gt;/L&lt;&lt;595.0,-47.0&gt;--&lt;600.0,-47.0&gt;&gt; = 9.678260053133936
-
-* uni1EBA (U+1EBA): B&lt;&lt;682.0,1662.0&gt;-&lt;674.0,1661.0&gt;-&lt;670.0,1666.0&gt;&gt;/L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt; = 6.340191745909908
-
-* uni1EBA (U+1EBA): L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt;/B&lt;&lt;673.0,1663.0&gt;-&lt;665.0,1675.0&gt;-&lt;667.0,1681.0&gt;&gt; = 11.309932474020227
-
-* uni1EBB (U+1EBB): B&lt;&lt;598.0,1183.0&gt;-&lt;589.0,1182.0&gt;-&lt;586.0,1187.0&gt;&gt;/L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt; = 14.036243467926457
-
-* uni1EBB (U+1EBB): L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt;/B&lt;&lt;589.0,1184.0&gt;-&lt;580.0,1196.0&gt;-&lt;582.0,1202.0&gt;&gt; = 8.13010235415596
-
-* uni1EC2 (U+1EC2): B&lt;&lt;918.0,1849.0&gt;-&lt;910.0,1848.0&gt;-&lt;906.0,1853.0&gt;&gt;/L&lt;&lt;906.0,1853.0&gt;--&lt;909.0,1850.0&gt;&gt; = 6.340191745909908
-
-* uni1EC2 (U+1EC2): L&lt;&lt;906.0,1853.0&gt;--&lt;909.0,1850.0&gt;&gt;/B&lt;&lt;909.0,1850.0&gt;-&lt;901.0,1862.0&gt;-&lt;903.0,1868.0&gt;&gt; = 11.309932474020227
-
-* uni1EC8 (U+1EC8): B&lt;&lt;682.0,1662.0&gt;-&lt;674.0,1661.0&gt;-&lt;670.0,1666.0&gt;&gt;/L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt; = 6.340191745909908
-
-* uni1EC8 (U+1EC8): L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt;/B&lt;&lt;673.0,1663.0&gt;-&lt;665.0,1675.0&gt;-&lt;667.0,1681.0&gt;&gt; = 11.309932474020227
-
-* uni1EC9 (U+1EC9): B&lt;&lt;598.0,1183.0&gt;-&lt;589.0,1182.0&gt;-&lt;586.0,1187.0&gt;&gt;/L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt; = 14.036243467926457
-
-* uni1EC9 (U+1EC9): L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt;/B&lt;&lt;589.0,1184.0&gt;-&lt;580.0,1196.0&gt;-&lt;582.0,1202.0&gt;&gt; = 8.13010235415596
-
-* uni1ECE (U+1ECE): B&lt;&lt;682.0,1662.0&gt;-&lt;674.0,1661.0&gt;-&lt;670.0,1666.0&gt;&gt;/L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt; = 6.340191745909908
-
-* uni1ECE (U+1ECE): L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt;/B&lt;&lt;673.0,1663.0&gt;-&lt;665.0,1675.0&gt;-&lt;667.0,1681.0&gt;&gt; = 11.309932474020227
-
-* uni1ECF (U+1ECF): B&lt;&lt;598.0,1183.0&gt;-&lt;589.0,1182.0&gt;-&lt;586.0,1187.0&gt;&gt;/L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt; = 14.036243467926457
-
-* uni1ECF (U+1ECF): L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt;/B&lt;&lt;589.0,1184.0&gt;-&lt;580.0,1196.0&gt;-&lt;582.0,1202.0&gt;&gt; = 8.13010235415596
-
-* uni1ED4 (U+1ED4): B&lt;&lt;918.0,1849.0&gt;-&lt;910.0,1848.0&gt;-&lt;906.0,1853.0&gt;&gt;/L&lt;&lt;906.0,1853.0&gt;--&lt;909.0,1850.0&gt;&gt; = 6.340191745909908
-
-* uni1ED4 (U+1ED4): L&lt;&lt;906.0,1853.0&gt;--&lt;909.0,1850.0&gt;&gt;/B&lt;&lt;909.0,1850.0&gt;-&lt;901.0,1862.0&gt;-&lt;903.0,1868.0&gt;&gt; = 11.309932474020227
+* uni1EB7 (U+1EB7): B&lt;&lt;728.5,-9.5&gt;-&lt;664.0,-35.0&gt;-&lt;596.0,-47.0&gt;&gt;/L&lt;&lt;596.0,-47.0&gt;--&lt;600.0,-47.0&gt;&gt; = 10.007979801441312
 
 * uni1EDB (U+1EDB): B&lt;&lt;694.0,933.0&gt;-&lt;803.0,933.0&gt;-&lt;886.0,881.0&gt;&gt;/B&lt;&lt;886.0,881.0&gt;-&lt;883.0,884.0&gt;-&lt;892.0,887.0&gt;&gt; = 12.932608396739491
 
@@ -4014,14 +4136,6 @@ definitions.</p>
 
 * uni1EE5 (U+1EE5): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
 
-* uni1EE6 (U+1EE6): B&lt;&lt;682.0,1662.0&gt;-&lt;674.0,1661.0&gt;-&lt;670.0,1666.0&gt;&gt;/L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt; = 6.340191745909908
-
-* uni1EE6 (U+1EE6): L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt;/B&lt;&lt;673.0,1663.0&gt;-&lt;665.0,1675.0&gt;-&lt;667.0,1681.0&gt;&gt; = 11.309932474020227
-
-* uni1EE7 (U+1EE7): B&lt;&lt;598.0,1183.0&gt;-&lt;589.0,1182.0&gt;-&lt;586.0,1187.0&gt;&gt;/L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt; = 14.036243467926457
-
-* uni1EE7 (U+1EE7): L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt;/B&lt;&lt;589.0,1184.0&gt;-&lt;580.0,1196.0&gt;-&lt;582.0,1202.0&gt;&gt; = 8.13010235415596
-
 * uni1EE7 (U+1EE7): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
 
 * uni1EE9 (U+1EE9): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
@@ -4034,29 +4148,11 @@ definitions.</p>
 
 * uni1EF1 (U+1EF1): L&lt;&lt;862.0,61.0&gt;--&lt;914.0,186.0&gt;&gt;/B&lt;&lt;914.0,186.0&gt;-&lt;874.0,121.0&gt;-&lt;806.0,66.5&gt;&gt; = 9.020191714883174
 
-* uni1EF6 (U+1EF6): B&lt;&lt;682.0,1662.0&gt;-&lt;674.0,1661.0&gt;-&lt;670.0,1666.0&gt;&gt;/L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt; = 6.340191745909908
+* uni1F07 (U+1F07): L&lt;&lt;709.0,1071.0&gt;--&lt;713.0,1073.0&gt;&gt;/B&lt;&lt;713.0,1073.0&gt;-&lt;706.0,1071.0&gt;-&lt;705.5,1071.0&gt;&gt; = 10.619655276155106
 
-* uni1EF6 (U+1EF6): L&lt;&lt;670.0,1666.0&gt;--&lt;673.0,1663.0&gt;&gt;/B&lt;&lt;673.0,1663.0&gt;-&lt;665.0,1675.0&gt;-&lt;667.0,1681.0&gt;&gt; = 11.309932474020227
+* uni1F0F (U+1F0F): L&lt;&lt;236.0,926.0&gt;--&lt;240.0,928.0&gt;&gt;/B&lt;&lt;240.0,928.0&gt;-&lt;233.0,926.0&gt;-&lt;232.5,926.0&gt;&gt; = 10.619655276155106
 
-* uni1EF7 (U+1EF7): B&lt;&lt;598.0,1183.0&gt;-&lt;589.0,1182.0&gt;-&lt;586.0,1187.0&gt;&gt;/L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt; = 14.036243467926457
-
-* uni1EF7 (U+1EF7): L&lt;&lt;586.0,1187.0&gt;--&lt;589.0,1184.0&gt;&gt;/B&lt;&lt;589.0,1184.0&gt;-&lt;580.0,1196.0&gt;-&lt;582.0,1202.0&gt;&gt; = 8.13010235415596
-
-* uni1F08 (U+1F08): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F09 (U+1F09): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F0A (U+1F0A): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F0B (U+1F0B): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F0C (U+1F0C): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F0D (U+1F0D): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F0E (U+1F0E): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1F0F (U+1F0F): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
+* uni1F27 (U+1F27): L&lt;&lt;732.0,1071.0&gt;--&lt;736.0,1073.0&gt;&gt;/B&lt;&lt;736.0,1073.0&gt;-&lt;729.0,1071.0&gt;-&lt;728.5,1071.0&gt;&gt; = 10.619655276155106
 
 * uni1F28 (U+1F28): L&lt;&lt;1129.0,1119.0&gt;--&lt;953.0,121.0&gt;&gt;/L&lt;&lt;953.0,121.0&gt;--&lt;968.0,159.0&gt;&gt; = 11.539546451984878
 
@@ -4086,57 +4182,61 @@ definitions.</p>
 
 * uni1F2E (U+1F2E): L&lt;&lt;858.0,739.0&gt;--&lt;919.0,1128.0&gt;&gt;/L&lt;&lt;919.0,1128.0&gt;--&lt;904.0,1092.0&gt;&gt; = 13.707756694068959
 
+* uni1F2F (U+1F2F): L&lt;&lt;-178.0,901.0&gt;--&lt;-174.0,903.0&gt;&gt;/B&lt;&lt;-174.0,903.0&gt;-&lt;-181.0,901.0&gt;-&lt;-181.5,901.0&gt;&gt; = 10.619655276155106
+
 * uni1F2F (U+1F2F): L&lt;&lt;1129.0,1119.0&gt;--&lt;953.0,121.0&gt;&gt;/L&lt;&lt;953.0,121.0&gt;--&lt;968.0,159.0&gt;&gt; = 11.539546451984878
 
 * uni1F2F (U+1F2F): L&lt;&lt;858.0,739.0&gt;--&lt;919.0,1128.0&gt;&gt;/L&lt;&lt;919.0,1128.0&gt;--&lt;904.0,1092.0&gt;&gt; = 13.707756694068959
 
-* uni1F88 (U+1F88): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
+* uni1F37 (U+1F37): L&lt;&lt;744.0,1071.0&gt;--&lt;748.0,1073.0&gt;&gt;/B&lt;&lt;748.0,1073.0&gt;-&lt;741.0,1071.0&gt;-&lt;740.5,1071.0&gt;&gt; = 10.619655276155106
+
+* uni1F3F (U+1F3F): L&lt;&lt;-29.0,859.0&gt;--&lt;-25.0,861.0&gt;&gt;/B&lt;&lt;-25.0,861.0&gt;-&lt;-32.0,859.0&gt;-&lt;-32.5,859.0&gt;&gt; = 10.619655276155106
+
+* uni1F57 (U+1F57): L&lt;&lt;746.0,1071.0&gt;--&lt;750.0,1073.0&gt;&gt;/B&lt;&lt;750.0,1073.0&gt;-&lt;743.0,1071.0&gt;-&lt;742.5,1071.0&gt;&gt; = 10.619655276155106
+
+* uni1F5F (U+1F5F): L&lt;&lt;14.0,924.0&gt;--&lt;18.0,926.0&gt;&gt;/B&lt;&lt;18.0,926.0&gt;-&lt;11.0,924.0&gt;-&lt;10.5,924.0&gt;&gt; = 10.619655276155106
+
+* uni1F67 (U+1F67): L&lt;&lt;748.0,1071.0&gt;--&lt;752.0,1073.0&gt;&gt;/B&lt;&lt;752.0,1073.0&gt;-&lt;745.0,1071.0&gt;-&lt;744.5,1071.0&gt;&gt; = 10.619655276155106
+
+* uni1F6F (U+1F6F): L&lt;&lt;209.0,979.0&gt;--&lt;213.0,981.0&gt;&gt;/B&lt;&lt;213.0,981.0&gt;-&lt;206.0,979.0&gt;-&lt;205.5,979.0&gt;&gt; = 10.619655276155106
+
+* uni1F87 (U+1F87): L&lt;&lt;709.0,1071.0&gt;--&lt;713.0,1073.0&gt;&gt;/B&lt;&lt;713.0,1073.0&gt;-&lt;706.0,1071.0&gt;-&lt;705.5,1071.0&gt;&gt; = 10.619655276155106
 
 * uni1F88 (U+1F88): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F88 (U+1F88): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
 
-* uni1F89 (U+1F89): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
 * uni1F89 (U+1F89): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F89 (U+1F89): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
-
-* uni1F8A (U+1F8A): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
 
 * uni1F8A (U+1F8A): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F8A (U+1F8A): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
 
-* uni1F8B (U+1F8B): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
 * uni1F8B (U+1F8B): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F8B (U+1F8B): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
-
-* uni1F8C (U+1F8C): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
 
 * uni1F8C (U+1F8C): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F8C (U+1F8C): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
 
-* uni1F8D (U+1F8D): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
 * uni1F8D (U+1F8D): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F8D (U+1F8D): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
-
-* uni1F8E (U+1F8E): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
 
 * uni1F8E (U+1F8E): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F8E (U+1F8E): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
 
-* uni1F8F (U+1F8F): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
 * uni1F8F (U+1F8F): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
 * uni1F8F (U+1F8F): L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt;/B&lt;&lt;1431.0,121.0&gt;-&lt;1435.0,140.0&gt;-&lt;1449.5,135.5&gt;&gt; = 2.0475262799936225
+
+* uni1F8F (U+1F8F): L&lt;&lt;236.0,926.0&gt;--&lt;240.0,928.0&gt;&gt;/B&lt;&lt;240.0,928.0&gt;-&lt;233.0,926.0&gt;-&lt;232.5,926.0&gt;&gt; = 10.619655276155106
+
+* uni1F97 (U+1F97): L&lt;&lt;732.0,1071.0&gt;--&lt;736.0,1073.0&gt;&gt;/B&lt;&lt;736.0,1073.0&gt;-&lt;729.0,1071.0&gt;-&lt;728.5,1071.0&gt;&gt; = 10.619655276155106
 
 * uni1F98 (U+1F98): B&lt;&lt;1503.5,405.0&gt;-&lt;1489.0,401.0&gt;-&lt;1490.0,415.0&gt;&gt;/L&lt;&lt;1490.0,415.0&gt;--&lt;1439.0,121.0&gt;&gt; = 5.755514979659465
 
@@ -4196,11 +4296,15 @@ definitions.</p>
 
 * uni1F9F (U+1F9F): B&lt;&lt;1503.5,405.0&gt;-&lt;1489.0,401.0&gt;-&lt;1490.0,415.0&gt;&gt;/L&lt;&lt;1490.0,415.0&gt;--&lt;1439.0,121.0&gt;&gt; = 5.755514979659465
 
+* uni1F9F (U+1F9F): L&lt;&lt;-178.0,901.0&gt;--&lt;-174.0,903.0&gt;&gt;/B&lt;&lt;-174.0,903.0&gt;-&lt;-181.0,901.0&gt;-&lt;-181.5,901.0&gt;&gt; = 10.619655276155106
+
 * uni1F9F (U+1F9F): L&lt;&lt;1129.0,1119.0&gt;--&lt;953.0,121.0&gt;&gt;/L&lt;&lt;953.0,121.0&gt;--&lt;968.0,159.0&gt;&gt; = 11.539546451984878
 
 * uni1F9F (U+1F9F): L&lt;&lt;1490.0,415.0&gt;--&lt;1439.0,121.0&gt;&gt;/B&lt;&lt;1439.0,121.0&gt;-&lt;1443.0,140.0&gt;-&lt;1457.5,135.5&gt;&gt; = 2.0475262799936225
 
 * uni1F9F (U+1F9F): L&lt;&lt;858.0,739.0&gt;--&lt;919.0,1128.0&gt;&gt;/L&lt;&lt;919.0,1128.0&gt;--&lt;904.0,1092.0&gt;&gt; = 13.707756694068959
+
+* uni1FA7 (U+1FA7): L&lt;&lt;748.0,1071.0&gt;--&lt;752.0,1073.0&gt;&gt;/B&lt;&lt;752.0,1073.0&gt;-&lt;745.0,1071.0&gt;-&lt;744.5,1071.0&gt;&gt; = 10.619655276155106
 
 * uni1FA8 (U+1FA8): B&lt;&lt;1622.5,405.0&gt;-&lt;1608.0,401.0&gt;-&lt;1609.0,415.0&gt;&gt;/L&lt;&lt;1609.0,415.0&gt;--&lt;1558.0,121.0&gt;&gt; = 5.755514979659465
 
@@ -4234,15 +4338,7 @@ definitions.</p>
 
 * uni1FAF (U+1FAF): L&lt;&lt;1609.0,415.0&gt;--&lt;1558.0,121.0&gt;&gt;/B&lt;&lt;1558.0,121.0&gt;-&lt;1562.0,140.0&gt;-&lt;1576.5,135.5&gt;&gt; = 2.0475262799936225
 
-* uni1FB8 (U+1FB8): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1FB9 (U+1FB9): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1FBA (U+1FBA): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1FBB (U+1FBB): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
-
-* uni1FBC (U+1FBC): B&lt;&lt;145.0,156.5&gt;-&lt;174.0,154.0&gt;-&lt;171.0,138.0&gt;&gt;/L&lt;&lt;171.0,138.0&gt;--&lt;606.0,1211.0&gt;&gt; = 11.448244286255031
+* uni1FAF (U+1FAF): L&lt;&lt;209.0,979.0&gt;--&lt;213.0,981.0&gt;&gt;/B&lt;&lt;213.0,981.0&gt;-&lt;206.0,979.0&gt;-&lt;205.5,979.0&gt;&gt; = 10.619655276155106
 
 * uni1FBC (U+1FBC): B&lt;&lt;1495.5,405.0&gt;-&lt;1481.0,401.0&gt;-&lt;1482.0,415.0&gt;&gt;/L&lt;&lt;1482.0,415.0&gt;--&lt;1431.0,121.0&gt;&gt; = 5.755514979659465
 
@@ -4267,6 +4363,8 @@ definitions.</p>
 * uni1FCC (U+1FCC): L&lt;&lt;1490.0,415.0&gt;--&lt;1439.0,121.0&gt;&gt;/B&lt;&lt;1439.0,121.0&gt;-&lt;1443.0,140.0&gt;-&lt;1457.5,135.5&gt;&gt; = 2.0475262799936225
 
 * uni1FCC (U+1FCC): L&lt;&lt;858.0,739.0&gt;--&lt;919.0,1128.0&gt;&gt;/L&lt;&lt;919.0,1128.0&gt;--&lt;904.0,1092.0&gt;&gt; = 13.707756694068959
+
+* uni1FDF (U+1FDF): L&lt;&lt;744.0,1071.0&gt;--&lt;748.0,1073.0&gt;&gt;/B&lt;&lt;748.0,1073.0&gt;-&lt;741.0,1071.0&gt;-&lt;740.5,1071.0&gt;&gt; = 10.619655276155106
 
 * uni1FE4 (U+1FE4): B&lt;&lt;365.5,-10.5&gt;-&lt;289.0,24.0&gt;-&lt;234.0,85.0&gt;&gt;/B&lt;&lt;234.0,85.0&gt;-&lt;245.0,67.0&gt;-&lt;243.0,7.0&gt;&gt; = 10.609498250997696
 
@@ -4382,115 +4480,13 @@ definitions.</p>
 
 * uni202E (U+202E): L&lt;&lt;395.0,321.0&gt;--&lt;538.0,320.0&gt;&gt;/B&lt;&lt;538.0,320.0&gt;-&lt;458.0,333.0&gt;-&lt;439.0,402.0&gt;&gt; = 8.829222987935541
 
+* uni203B (U+203B): L&lt;&lt;1144.0,814.0&gt;--&lt;997.0,689.0&gt;&gt;/B&lt;&lt;997.0,689.0&gt;-&lt;1013.0,698.0&gt;-&lt;1023.0,674.0&gt;&gt; = 11.01809512877963
+
 * uni203D (U+203D): B&lt;&lt;556.5,1090.0&gt;-&lt;507.0,1074.0&gt;-&lt;479.0,1050.0&gt;&gt;/B&lt;&lt;479.0,1050.0&gt;-&lt;490.0,1060.0&gt;-&lt;493.0,1041.0&gt;&gt; = 1.6723943610892977
 
-* uni2062 (U+2062): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
+* uni2061 (U+2061): L&lt;&lt;1143.0,891.0&gt;--&lt;1143.0,889.0&gt;&gt;/L&lt;&lt;1143.0,889.0&gt;--&lt;1148.0,940.0&gt;&gt; = 5.599339336520549
 
-* uni2062 (U+2062): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
-
-* uni2062 (U+2062): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uni2062 (U+2062): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uni2062 (U+2062): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uni2062 (U+2062): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uni2062 (U+2062): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uni2062 (U+2062): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uni2062 (U+2062): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uni2062 (U+2062): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uni2062 (U+2062): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uni2062 (U+2062): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uni2062 (U+2062): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uni2062 (U+2062): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uni2062 (U+2062): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uni2062 (U+2062): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uni2062 (U+2062): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uni2062 (U+2062): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uni2063 (U+2063): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
-
-* uni2063 (U+2063): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
-
-* uni2063 (U+2063): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uni2063 (U+2063): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uni2063 (U+2063): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uni2063 (U+2063): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uni2063 (U+2063): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uni2063 (U+2063): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uni2063 (U+2063): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uni2063 (U+2063): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uni2063 (U+2063): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uni2063 (U+2063): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uni2063 (U+2063): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uni2063 (U+2063): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uni2063 (U+2063): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uni2063 (U+2063): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uni2063 (U+2063): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uni2063 (U+2063): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uni2064 (U+2064): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
-
-* uni2064 (U+2064): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
-
-* uni2064 (U+2064): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uni2064 (U+2064): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uni2064 (U+2064): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uni2064 (U+2064): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uni2064 (U+2064): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uni2064 (U+2064): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uni2064 (U+2064): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uni2064 (U+2064): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uni2064 (U+2064): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uni2064 (U+2064): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uni2064 (U+2064): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uni2064 (U+2064): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uni2064 (U+2064): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uni2064 (U+2064): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uni2064 (U+2064): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uni2064 (U+2064): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
+* uni2061 (U+2061): L&lt;&lt;1232.0,698.0&gt;--&lt;1185.0,680.0&gt;&gt;/B&lt;&lt;1185.0,680.0&gt;-&lt;1197.0,685.0&gt;-&lt;1196.0,657.0&gt;&gt; = 1.6640882174082863
 
 * uni2066 (U+2066): B&lt;&lt;739.0,1074.0&gt;-&lt;756.0,1076.0&gt;-&lt;753.0,1061.0&gt;&gt;/L&lt;&lt;753.0,1061.0&gt;--&lt;819.0,1437.0&gt;&gt; = 1.3541187700123827
 
@@ -4505,8 +4501,6 @@ definitions.</p>
 * uni2068 (U+2068): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
 * uni2068 (U+2068): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
-
-* uni2068 (U+2068): L&lt;&lt;483.0,1472.0&gt;--&lt;488.0,1505.0&gt;&gt;/L&lt;&lt;488.0,1505.0&gt;--&lt;485.0,1472.0&gt;&gt; = 3.421219276429211
 
 * uni20A6 (U+20A6): L&lt;&lt;1113.0,1114.0&gt;--&lt;1068.0,858.0&gt;&gt;/L&lt;&lt;1068.0,858.0&gt;--&lt;1083.0,892.0&gt;&gt; = 13.83627156478248
 
@@ -4704,7 +4698,11 @@ definitions.</p>
 
 * uniFBA5 (U+FBA5): B&lt;&lt;429.0,1406.0&gt;-&lt;484.0,1433.0&gt;-&lt;541.0,1450.0&gt;&gt;/B&lt;&lt;541.0,1450.0&gt;-&lt;492.0,1442.0&gt;-&lt;459.5,1496.5&gt;&gt; = 7.334378801416706
 
-* uniFBA9 (U+FBA9): B&lt;&lt;310.5,133.0&gt;-&lt;330.0,181.0&gt;-&lt;375.0,192.0&gt;&gt;/L&lt;&lt;375.0,192.0&gt;--&lt;26.0,194.0&gt;&gt; = 14.064607287393274
+* uniFBA8 (U+FBA8): B&lt;&lt;490.5,105.5&gt;-&lt;545.0,182.0&gt;-&lt;620.0,191.0&gt;&gt;/L&lt;&lt;620.0,191.0&gt;--&lt;40.0,191.0&gt;&gt; = 6.842773412630916
+
+* uniFBA9 (U+FBA9): B&lt;&lt;310.5,133.0&gt;-&lt;330.0,181.0&gt;-&lt;375.0,192.0&gt;&gt;/L&lt;&lt;375.0,192.0&gt;--&lt;40.0,191.0&gt;&gt; = 13.565236635972646
+
+* uniFBAB (U+FBAB): B&lt;&lt;723.5,192.5&gt;-&lt;713.0,194.0&gt;-&lt;720.0,203.0&gt;&gt;/B&lt;&lt;720.0,203.0&gt;-&lt;501.0,-47.0&gt;-&lt;257.0,-49.0&gt;&gt; = 3.343376144327067
 
 * uniFBAC (U+FBAC): B&lt;&lt;268.5,402.0&gt;-&lt;312.0,401.0&gt;-&lt;332.0,393.0&gt;&gt;/B&lt;&lt;332.0,393.0&gt;-&lt;314.0,403.0&gt;-&lt;307.0,439.5&gt;&gt; = 7.253194612725265
 
@@ -4828,49 +4826,13 @@ definitions.</p>
 
 * uniFE03 (U+FE03): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
-* uniFE04 (U+FE04): B&lt;&lt;602.0,691.0&gt;-&lt;637.0,683.0&gt;-&lt;665.0,682.0&gt;&gt;/B&lt;&lt;665.0,682.0&gt;-&lt;628.0,674.0&gt;-&lt;594.0,654.0&gt;&gt; = 14.245877216268015
-
 * uniFE04 (U+FE04): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
 * uniFE04 (U+FE04): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
-* uniFE04 (U+FE04): L&lt;&lt;641.0,854.0&gt;--&lt;666.0,877.0&gt;&gt;/L&lt;&lt;666.0,877.0&gt;--&lt;636.0,849.0&gt;&gt; = 0.411010019507171
+* uniFE05 (U+FE05): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
-* uniFE05 (U+FE05): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
-
-* uniFE05 (U+FE05): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
-
-* uniFE05 (U+FE05): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uniFE05 (U+FE05): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uniFE05 (U+FE05): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uniFE05 (U+FE05): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uniFE05 (U+FE05): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE05 (U+FE05): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uniFE05 (U+FE05): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE05 (U+FE05): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uniFE05 (U+FE05): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE05 (U+FE05): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE05 (U+FE05): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE05 (U+FE05): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE05 (U+FE05): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uniFE05 (U+FE05): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE05 (U+FE05): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uniFE05 (U+FE05): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
+* uniFE05 (U+FE05): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
 * uniFE06 (U+FE06): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
@@ -4878,113 +4840,19 @@ definitions.</p>
 
 * uniFE07 (U+FE07): B&lt;&lt;887.5,680.5&gt;-&lt;862.0,651.0&gt;-&lt;840.0,650.0&gt;&gt;/B&lt;&lt;840.0,650.0&gt;-&lt;865.0,645.0&gt;-&lt;884.5,606.5&gt;&gt; = 13.912494676519978
 
-* uniFE07 (U+FE07): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
+* uniFE07 (U+FE07): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
-* uniFE07 (U+FE07): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
+* uniFE07 (U+FE07): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
-* uniFE07 (U+FE07): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
+* uniFE08 (U+FE08): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
-* uniFE07 (U+FE07): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
+* uniFE08 (U+FE08): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
-* uniFE07 (U+FE07): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
+* uniFE09 (U+FE09): L&lt;&lt;1057.0,432.0&gt;--&lt;1078.0,551.0&gt;&gt;/B&lt;&lt;1078.0,551.0&gt;-&lt;1045.0,456.0&gt;-&lt;980.5,397.0&gt;&gt; = 9.147632643998316
 
-* uniFE07 (U+FE07): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
+* uniFE09 (U+FE09): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
-* uniFE07 (U+FE07): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE07 (U+FE07): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uniFE07 (U+FE07): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE07 (U+FE07): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uniFE07 (U+FE07): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE07 (U+FE07): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE07 (U+FE07): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE07 (U+FE07): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE07 (U+FE07): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uniFE07 (U+FE07): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE07 (U+FE07): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uniFE07 (U+FE07): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE08 (U+FE08): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
-
-* uniFE08 (U+FE08): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
-
-* uniFE08 (U+FE08): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uniFE08 (U+FE08): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uniFE08 (U+FE08): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uniFE08 (U+FE08): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uniFE08 (U+FE08): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE08 (U+FE08): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uniFE08 (U+FE08): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE08 (U+FE08): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uniFE08 (U+FE08): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE08 (U+FE08): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE08 (U+FE08): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE08 (U+FE08): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE08 (U+FE08): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uniFE08 (U+FE08): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE08 (U+FE08): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uniFE08 (U+FE08): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE09 (U+FE09): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
-
-* uniFE09 (U+FE09): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
-
-* uniFE09 (U+FE09): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uniFE09 (U+FE09): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uniFE09 (U+FE09): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uniFE09 (U+FE09): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uniFE09 (U+FE09): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE09 (U+FE09): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uniFE09 (U+FE09): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE09 (U+FE09): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uniFE09 (U+FE09): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE09 (U+FE09): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE09 (U+FE09): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE09 (U+FE09): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE09 (U+FE09): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uniFE09 (U+FE09): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE09 (U+FE09): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uniFE09 (U+FE09): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
+* uniFE09 (U+FE09): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
 * uniFE0A (U+FE0A): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
@@ -5002,49 +4870,17 @@ definitions.</p>
 
 * uniFE0D (U+FE0D): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
-* uniFE0E (U+FE0E): B&lt;&lt;776.0,691.0&gt;-&lt;811.0,683.0&gt;-&lt;839.0,682.0&gt;&gt;/B&lt;&lt;839.0,682.0&gt;-&lt;802.0,674.0&gt;-&lt;768.0,654.0&gt;&gt; = 14.245877216268015
-
 * uniFE0E (U+FE0E): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
 * uniFE0E (U+FE0E): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
-* uniFE0E (U+FE0E): L&lt;&lt;815.0,854.0&gt;--&lt;840.0,877.0&gt;&gt;/L&lt;&lt;840.0,877.0&gt;--&lt;810.0,849.0&gt;&gt; = 0.411010019507171
+* uniFE0F (U+FE0F): L&lt;&lt;1057.0,432.0&gt;--&lt;1066.0,485.0&gt;&gt;/B&lt;&lt;1066.0,485.0&gt;-&lt;1040.0,421.0&gt;-&lt;979.0,379.0&gt;&gt; = 12.471910230820697
 
-* uniFE0F (U+FE0F): L&lt;&lt;1074.0,1647.0&gt;--&lt;1200.0,1648.0&gt;&gt;/L&lt;&lt;1200.0,1648.0&gt;--&lt;1191.0,1648.0&gt;&gt; = 0.45471886169316617
+* uniFE0F (U+FE0F): L&lt;&lt;1080.0,565.0&gt;--&lt;1080.0,564.0&gt;&gt;/L&lt;&lt;1080.0,564.0&gt;--&lt;1097.0,657.0&gt;&gt; = 10.359052488083714
 
-* uniFE0F (U+FE0F): L&lt;&lt;1103.0,343.0&gt;--&lt;1107.0,359.0&gt;&gt;/L&lt;&lt;1107.0,359.0&gt;--&lt;1090.0,248.0&gt;&gt; = 5.328873196406038
+* uniFE0F (U+FE0F): L&lt;&lt;1154.0,981.0&gt;--&lt;1172.0,1086.0&gt;&gt;/B&lt;&lt;1172.0,1086.0&gt;-&lt;1145.0,1025.0&gt;-&lt;1084.5,982.5&gt;&gt; = 14.147702302525895
 
-* uniFE0F (U+FE0F): L&lt;&lt;1191.0,1648.0&gt;--&lt;1065.0,1647.0&gt;&gt;/L&lt;&lt;1065.0,1647.0&gt;--&lt;1074.0,1647.0&gt;&gt; = 0.45471886169316617
-
-* uniFE0F (U+FE0F): L&lt;&lt;217.0,257.0&gt;--&lt;342.0,258.0&gt;&gt;/L&lt;&lt;342.0,258.0&gt;--&lt;332.0,257.0&gt;&gt; = 5.252236679499185
-
-* uniFE0F (U+FE0F): L&lt;&lt;318.0,1636.0&gt;--&lt;304.0,1546.0&gt;&gt;/L&lt;&lt;304.0,1546.0&gt;--&lt;305.0,1561.0&gt;&gt; = 5.0277397259013075
-
-* uniFE0F (U+FE0F): L&lt;&lt;332.0,257.0&gt;--&lt;208.0,256.0&gt;&gt;/L&lt;&lt;208.0,256.0&gt;--&lt;217.0,257.0&gt;&gt; = 5.878139024479216
-
-* uniFE0F (U+FE0F): L&lt;&lt;419.0,257.0&gt;--&lt;547.0,258.0&gt;&gt;/L&lt;&lt;547.0,258.0&gt;--&lt;537.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE0F (U+FE0F): L&lt;&lt;462.0,1647.0&gt;--&lt;587.0,1648.0&gt;&gt;/L&lt;&lt;587.0,1648.0&gt;--&lt;578.0,1648.0&gt;&gt; = 0.4583564580000459
-
-* uniFE0F (U+FE0F): L&lt;&lt;537.0,257.0&gt;--&lt;410.0,256.0&gt;&gt;/L&lt;&lt;410.0,256.0&gt;--&lt;419.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE0F (U+FE0F): L&lt;&lt;578.0,1648.0&gt;--&lt;453.0,1647.0&gt;&gt;/L&lt;&lt;453.0,1647.0&gt;--&lt;462.0,1647.0&gt;&gt; = 0.4583564580000459
-
-* uniFE0F (U+FE0F): L&lt;&lt;624.0,257.0&gt;--&lt;752.0,258.0&gt;&gt;/L&lt;&lt;752.0,258.0&gt;--&lt;742.0,257.0&gt;&gt; = 5.2629789666391265
-
-* uniFE0F (U+FE0F): L&lt;&lt;664.0,1647.0&gt;--&lt;792.0,1648.0&gt;&gt;/L&lt;&lt;792.0,1648.0&gt;--&lt;783.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE0F (U+FE0F): L&lt;&lt;742.0,257.0&gt;--&lt;615.0,256.0&gt;&gt;/L&lt;&lt;615.0,256.0&gt;--&lt;624.0,257.0&gt;&gt; = 5.889053199122589
-
-* uniFE0F (U+FE0F): L&lt;&lt;783.0,1648.0&gt;--&lt;655.0,1647.0&gt;&gt;/L&lt;&lt;655.0,1647.0&gt;--&lt;664.0,1647.0&gt;&gt; = 0.4476141708605809
-
-* uniFE0F (U+FE0F): L&lt;&lt;829.0,257.0&gt;--&lt;955.0,258.0&gt;&gt;/L&lt;&lt;955.0,258.0&gt;--&lt;945.0,257.0&gt;&gt; = 5.25587427580653
-
-* uniFE0F (U+FE0F): L&lt;&lt;869.0,1647.0&gt;--&lt;997.0,1648.0&gt;&gt;/L&lt;&lt;997.0,1648.0&gt;--&lt;988.0,1648.0&gt;&gt; = 0.4476141708605809
-
-* uniFE0F (U+FE0F): L&lt;&lt;945.0,257.0&gt;--&lt;820.0,256.0&gt;&gt;/L&lt;&lt;820.0,256.0&gt;--&lt;829.0,257.0&gt;&gt; = 5.881835287909446
-
-* uniFE0F (U+FE0F): L&lt;&lt;988.0,1648.0&gt;--&lt;860.0,1647.0&gt;&gt;/L&lt;&lt;860.0,1647.0&gt;--&lt;869.0,1647.0&gt;&gt; = 0.4476141708605809
+* uniFE0F (U+FE0F): L&lt;&lt;1187.0,1171.0&gt;--&lt;1187.0,1169.0&gt;&gt;/L&lt;&lt;1187.0,1169.0&gt;--&lt;1194.0,1210.0&gt;&gt; = 9.68878656036679
 
 * uniFE84 (U+FE84): B&lt;&lt;567.5,1380.0&gt;-&lt;623.0,1407.0&gt;-&lt;680.0,1424.0&gt;&gt;/B&lt;&lt;680.0,1424.0&gt;-&lt;630.0,1416.0&gt;-&lt;598.0,1470.5&gt;&gt; = 7.5167036577946975
 
@@ -5094,9 +4930,9 @@ definitions.</p>
 
 * uniFEC8 (U+FEC8): L&lt;&lt;706.0,1503.0&gt;--&lt;547.0,602.0&gt;&gt;/B&lt;&lt;547.0,602.0&gt;-&lt;558.0,653.0&gt;-&lt;595.0,715.5&gt;&gt; = 2.163478407146162
 
-* uniFECB (U+FECB): L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uniFECB (U+FECB): L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
-* uniFECF (U+FECF): L&lt;&lt;54.0,401.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.970849516696486
+* uniFECF (U+FECF): L&lt;&lt;65.0,403.0&gt;--&lt;471.0,403.0&gt;&gt;/B&lt;&lt;471.0,403.0&gt;-&lt;434.0,408.0&gt;-&lt;427.5,453.5&gt;&gt; = 7.696051722016556
 
 * uniFED4 (U+FED4): B&lt;&lt;891.0,517.5&gt;-&lt;829.0,440.0&gt;-&lt;767.0,393.0&gt;&gt;/B&lt;&lt;767.0,393.0&gt;-&lt;790.0,408.0&gt;-&lt;831.0,405.5&gt;&gt; = 4.053132933139351
 
@@ -5156,6 +4992,8 @@ definitions.</p>
 
 * xi (U+03BE): B&lt;&lt;446.5,1024.0&gt;-&lt;468.0,1059.0&gt;-&lt;505.0,1064.0&gt;&gt;/B&lt;&lt;505.0,1064.0&gt;-&lt;450.0,1066.0&gt;-&lt;404.5,1093.5&gt;&gt; = 9.778617001747428
 
+* yen (U+00A5): L&lt;&lt;804.0,470.0&gt;--&lt;772.0,467.0&gt;&gt;/L&lt;&lt;772.0,467.0&gt;--&lt;1072.0,468.0&gt;&gt; = 5.164839818495408
+
 * zero.slash: L&lt;&lt;591.0,1071.0&gt;--&lt;871.0,362.0&gt;&gt;/B&lt;&lt;871.0,362.0&gt;-&lt;860.0,425.0&gt;-&lt;877.5,498.0&gt;&gt; = 11.645991822355471
 
 * zero.slash: L&lt;&lt;702.0,187.0&gt;--&lt;420.0,900.0&gt;&gt;/B&lt;&lt;420.0,900.0&gt;-&lt;434.0,844.0&gt;-&lt;419.5,780.0&gt;&gt; = 7.543144249536517
@@ -5187,7 +5025,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] CourierBadi-Italic.ttf</summary>
+<details><summary>[15] CourierBadi-Italic.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
@@ -5286,27 +5124,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni0479	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
-
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB5	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
-
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -5374,27 +5198,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni0479	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
-
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB5	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
-
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -5444,11 +5254,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* sigma1 (U+03C2): B&lt;&lt;1129.0,854.0&gt;-&lt;1129.0,845.0&gt;-&lt;1127.0,852.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* sigma1 (U+03C2): B&lt;&lt;1128.0,851.0&gt;-&lt;1127.0,851.0&gt;-&lt;1127.0,852.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0770.init: L&lt;&lt;311.0,1165.0&gt;--&lt;311.0,1165.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0770.init: B&lt;&lt;311.0,1165.0&gt;-&lt;311.0,1165.0&gt;-&lt;311.0,1165.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni0770.init: L&lt;&lt;272.0,842.0&gt;--&lt;272.0,842.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0770.init: B&lt;&lt;260.0,876.0&gt;-&lt;260.0,876.0&gt;-&lt;260.0,876.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;260.0,876.0&gt;-&lt;260.0,876.0&gt;-&lt;260.0,876.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;272.0,842.0&gt;-&lt;272.0,842.0&gt;-&lt;272.0,842.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni0770.medi: B&lt;&lt;255.0,1165.0&gt;-&lt;257.0,1165.0&gt;-&lt;254.0,1159.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -5458,15 +5272,21 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni0770.medi: B&lt;&lt;162.0,553.0&gt;-&lt;159.0,553.0&gt;-&lt;163.0,561.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D (U+077D): L&lt;&lt;903.0,1516.0&gt;--&lt;907.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni077D (U+077D): B&lt;&lt;903.0,1516.0&gt;-&lt;904.0,1515.0&gt;-&lt;907.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D.fina: L&lt;&lt;810.0,1516.0&gt;--&lt;814.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni077D.fina: B&lt;&lt;810.0,1516.0&gt;-&lt;811.0,1515.0&gt;-&lt;814.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D.init: L&lt;&lt;1061.0,1516.0&gt;--&lt;1065.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni077D.init: B&lt;&lt;1061.0,1516.0&gt;-&lt;1062.0,1515.0&gt;-&lt;1065.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni077D.medi: B&lt;&lt;948.0,1516.0&gt;-&lt;949.0,1515.0&gt;-&lt;952.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DB (U+08DB): L&lt;&lt;375.0,1221.0&gt;--&lt;375.0,1221.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECF (U+1ECF): L&lt;&lt;637.0,927.0&gt;--&lt;637.0,927.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni203B (U+203B): B&lt;&lt;607.0,839.0&gt;-&lt;615.0,820.0&gt;-&lt;632.0,808.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni203B (U+203B): B&lt;&lt;821.0,579.0&gt;-&lt;829.0,562.0&gt;-&lt;844.0,551.0&gt;&gt; has the same coordinates as a previous segment.
+* uni203B (U+203B): L&lt;&lt;844.0,551.0&gt;--&lt;821.0,579.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -5698,12 +5518,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, canadian-aboriginal, hebrew, tai-le, todhri, old-permic, malayalam, math, syriac, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, todhri, coptic, duployan, tai-le, syriac, canadian-aboriginal, hebrew, malayalam, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -5713,8 +5533,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, sunuwar, cherokee, gothic, syriac, caucasian-albanian</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, thai, cherokee</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -5729,7 +5549,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -5744,10 +5564,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, syriac, thaana</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, thaana, syriac</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, yezidi, hanifi-rohingya, garay, adlam, syriac, nko, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, adlam, garay</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -5780,7 +5600,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, old-uyghur, mandaic, psalter-pahlavi, hanifi-rohingya, adlam, manichaean, syriac, sogdian</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, manichaean, hanifi-rohingya, old-uyghur, syriac, adlam, mandaic, sogdian, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -5812,19 +5632,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, yezidi, hanifi-rohingya, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, nko, thaana</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, thaana, indic-siyaq-numbers, yezidi, hanifi-rohingya, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, syriac, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -5928,7 +5748,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -6107,12 +5927,12 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, dogra, tagbanwa, duployan, batak, hatran, mandaic, cham, khojki, hanunoo, hebrew, javanese, masaram-gondi, mongolian, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, siddham, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, old-hungarian, dogra, tagbanwa, duployan, batak, mandaic, masaram-gondi, cham, khojki, hanunoo, hebrew, javanese, mongolian, siddham, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+2010 HYPHEN: try adding one of: arabic, cham, yi, hebrew, sundanese, lisu, kharoshthi, armenian, sora-sompeng, syloti-nagri, kaithi, kayah-li, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, hatran, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, old-hungarian, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, coptic, cham, sora-sompeng, syloti-nagri, yi, armenian, sundanese, kaithi, kharoshthi, lisu, hebrew, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -6165,9 +5985,9 @@ definitions.</p>
 <li>U+2422 BLANK SYMBOL: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: telugu, math, manichaean, sharada, tamil, duployan, batak, kharoshthi, sogdian, gurmukhi, symbols, saurashtra, balinese, soyombo, khudawadi, gujarati, bhaiksuki, myanmar, nko, grantha, lepcha, khojki, caucasian-albanian, gunjala-gondi, bengali, mende-kikakui, buginese, tai-viet, dogra, tagbanwa, siddham, cham, mongolian, hanunoo, zanabazar-square, bassa-vah, limbu, tirhuta, tibetan, warang-citi, marchen, new-tai-lue, hanifi-rohingya, syloti-nagri, canadian-aboriginal, pahawh-hmong, tai-tham, masaram-gondi, mandaic, yi, javanese, hebrew, adlam, rejang, tifinagh, sundanese, phags-pa, malayalam, devanagari, elbasan, syriac, kayah-li, psalter-pahlavi, music, oriya, tai-le, armenian, tagalog, sinhala, mahajani, meetei-mayek, old-permic, brahmi, osage, thai, takri, modi, kaithi, newa, wancho, chakma, khmer, coptic, miao, buhid, ahom, lao, kannada, thaana</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, tirhuta, kayah-li, manichaean, meetei-mayek, elbasan, myanmar, lepcha, hebrew, bhaiksuki, batak, newa, osage, buginese, syriac, kharoshthi, symbols, gujarati, mongolian, marchen, cham, duployan, syloti-nagri, brahmi, tibetan, tagbanwa, thaana, hanifi-rohingya, masaram-gondi, buhid, wancho, dogra, tai-le, phags-pa, tamil, thai, bassa-vah, hanunoo, old-permic, tifinagh, sharada, miao, grantha, lao, telugu, gunjala-gondi, mende-kikakui, modi, khojki, tai-tham, tagalog, limbu, oriya, kannada, ahom, javanese, zanabazar-square, nko, soyombo, tai-viet, canadian-aboriginal, balinese, music, yi, devanagari, sundanese, kaithi, psalter-pahlavi, chakma, malayalam, gurmukhi, warang-citi, math, coptic, mahajani, khmer, adlam, takri, sogdian, bengali, new-tai-lue, sinhala, mandaic, saurashtra, rejang, armenian, pahawh-hmong, caucasian-albanian, khudawadi</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
 <li>U+26AD MARRIAGE SYMBOL: try adding symbols</li>
 <li>U+26AE DIVORCE SYMBOL: try adding symbols</li>
 <li>U+27E6 MATHEMATICAL LEFT WHITE SQUARE BRACKET: try adding math</li>
@@ -6333,7 +6153,7 @@ definitions.</p>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
 <li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
@@ -6607,8 +6427,6 @@ definitions.</p>
 
 * psi (U+03C8): L&lt;&lt;396.0,-424.0&gt;--&lt;429.0,-215.0&gt;&gt; -&gt; L&lt;&lt;429.0,-215.0&gt;--&lt;466.0,-6.0&gt;&gt;
 
-* psi (U+03C8): L&lt;&lt;491.0,137.0&gt;--&lt;591.0,705.0&gt;&gt; -&gt; L&lt;&lt;591.0,705.0&gt;--&lt;649.0,1030.0&gt;&gt;
-
 * uni0466 (U+0466): L&lt;&lt;732.0,1108.0&gt;--&lt;648.0,887.0&gt;&gt; -&gt; L&lt;&lt;648.0,887.0&gt;--&lt;510.0,553.0&gt;&gt;
 
 * uni0466 (U+0466): L&lt;&lt;739.0,891.0&gt;--&lt;734.0,1014.0&gt;&gt; -&gt; L&lt;&lt;734.0,1014.0&gt;--&lt;732.0,1108.0&gt;&gt;
@@ -6667,12 +6485,6 @@ definitions.</p>
 
 * uni0512 (U+0512): L&lt;&lt;636.0,1028.0&gt;--&lt;590.0,764.0&gt;&gt; -&gt; L&lt;&lt;590.0,764.0&gt;--&lt;582.0,733.0&gt;&gt;
 
-* uni06CD (U+06CD): L&lt;&lt;443.0,619.0&gt;--&lt;443.0,618.0&gt;&gt; -&gt; L&lt;&lt;443.0,618.0&gt;--&lt;443.0,616.0&gt;&gt;
-
-* uni06CD.fina: L&lt;&lt;384.0,283.0&gt;--&lt;384.0,282.0&gt;&gt; -&gt; L&lt;&lt;384.0,282.0&gt;--&lt;384.0,281.0&gt;&gt;
-
-* uni06E9 (U+06E9): L&lt;&lt;801.0,678.0&gt;--&lt;800.0,672.0&gt;&gt; -&gt; L&lt;&lt;800.0,672.0&gt;--&lt;787.0,598.0&gt;&gt;
-
 * uni08D4 (U+08D4): L&lt;&lt;482.0,1092.0&gt;--&lt;547.0,1092.0&gt;&gt; -&gt; L&lt;&lt;547.0,1092.0&gt;--&lt;547.0,1092.0&gt;&gt;
 
 * uni08D4 (U+08D4): L&lt;&lt;547.0,1092.0&gt;--&lt;547.0,1092.0&gt;&gt; -&gt; L&lt;&lt;547.0,1092.0&gt;--&lt;648.0,1092.0&gt;&gt;
@@ -6687,21 +6499,9 @@ definitions.</p>
 
 * uni08DC (U+08DC): L&lt;&lt;530.0,1093.0&gt;--&lt;539.0,1093.0&gt;&gt; -&gt; L&lt;&lt;539.0,1093.0&gt;--&lt;539.0,1093.0&gt;&gt;
 
-* uni08DC (U+08DC): L&lt;&lt;539.0,1093.0&gt;--&lt;539.0,1093.0&gt;&gt; -&gt; L&lt;&lt;539.0,1093.0&gt;--&lt;541.0,1093.0&gt;&gt;
-
-* uni08DC (U+08DC): L&lt;&lt;539.0,1093.0&gt;--&lt;541.0,1093.0&gt;&gt; -&gt; L&lt;&lt;541.0,1093.0&gt;--&lt;559.0,1093.0&gt;&gt;
-
-* uni08DC (U+08DC): L&lt;&lt;551.0,1046.0&gt;--&lt;532.0,1046.0&gt;&gt; -&gt; L&lt;&lt;532.0,1046.0&gt;--&lt;531.0,1046.0&gt;&gt;
-
 * uni08DC (U+08DC): L&lt;&lt;843.0,1093.0&gt;--&lt;891.0,1093.0&gt;&gt; -&gt; L&lt;&lt;891.0,1093.0&gt;--&lt;891.0,1093.0&gt;&gt;
 
-* uni08DE (U+08DE): L&lt;&lt;1027.0,1046.0&gt;--&lt;716.0,1046.0&gt;&gt; -&gt; L&lt;&lt;716.0,1046.0&gt;--&lt;715.0,1046.0&gt;&gt;
-
 * uni08DE (U+08DE): L&lt;&lt;714.0,1093.0&gt;--&lt;723.0,1093.0&gt;&gt; -&gt; L&lt;&lt;723.0,1093.0&gt;--&lt;723.0,1093.0&gt;&gt;
-
-* uni08DE (U+08DE): L&lt;&lt;723.0,1093.0&gt;--&lt;723.0,1093.0&gt;&gt; -&gt; L&lt;&lt;723.0,1093.0&gt;--&lt;725.0,1093.0&gt;&gt;
-
-* uni08DE (U+08DE): L&lt;&lt;723.0,1093.0&gt;--&lt;725.0,1093.0&gt;&gt; -&gt; L&lt;&lt;725.0,1093.0&gt;--&lt;1013.0,1093.0&gt;&gt;
 
 * uni203D (U+203D): L&lt;&lt;580.0,618.0&gt;--&lt;617.0,848.0&gt;&gt; -&gt; L&lt;&lt;617.0,848.0&gt;--&lt;659.0,1137.0&gt;&gt;
 
@@ -6716,6 +6516,26 @@ definitions.</p>
 * uni2E18 (U+2E18): L&lt;&lt;602.0,178.0&gt;--&lt;566.0,-51.0&gt;&gt; -&gt; L&lt;&lt;566.0,-51.0&gt;--&lt;524.0,-340.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
+<pre><code>* uni0770.medi has a counter-clockwise outer contour
+</code></pre>
+ [code: ccw-outer-contour]
 
 
 
@@ -6751,16 +6571,6 @@ definitions.</p>
 
 * uni04CD (U+04CD): L&lt;&lt;1001.0,1055.0&gt;--&lt;1008.0,1108.0&gt;&gt;/B&lt;&lt;1008.0,1108.0&gt;-&lt;1001.0,1087.0&gt;-&lt;975.5,1032.0&gt;&gt; = 10.911128384283376
 
-* uni0620 (U+0620): B&lt;&lt;591.0,21.0&gt;-&lt;604.0,21.0&gt;-&lt;617.0,20.0&gt;&gt;/B&lt;&lt;617.0,20.0&gt;-&lt;572.0,14.0&gt;-&lt;522.0,12.0&gt;&gt; = 11.993348723586953
-
-* uni0620 (U+0620): B&lt;&lt;774.0,-81.0&gt;-&lt;727.0,9.0&gt;-&lt;617.0,20.0&gt;&gt;/B&lt;&lt;617.0,20.0&gt;-&lt;732.0,35.0&gt;-&lt;800.0,76.0&gt;&gt; = 13.142001108672124
-
-* uni077D (U+077D): L&lt;&lt;903.0,1516.0&gt;--&lt;907.0,1515.0&gt;&gt;/B&lt;&lt;907.0,1515.0&gt;-&lt;902.0,1515.0&gt;-&lt;903.0,1516.0&gt;&gt; = 14.036243467926484
-
-* uni077D.fina: L&lt;&lt;810.0,1516.0&gt;--&lt;814.0,1515.0&gt;&gt;/B&lt;&lt;814.0,1515.0&gt;-&lt;809.0,1515.0&gt;-&lt;810.0,1516.0&gt;&gt; = 14.036243467926484
-
-* uni077D.init: L&lt;&lt;1061.0,1516.0&gt;--&lt;1065.0,1515.0&gt;&gt;/B&lt;&lt;1065.0,1515.0&gt;-&lt;1060.0,1515.0&gt;-&lt;1061.0,1516.0&gt;&gt; = 14.036243467926484
-
 * uni08DB (U+08DB): L&lt;&lt;1053.0,1028.0&gt;--&lt;1053.0,1028.0&gt;&gt;/B&lt;&lt;1053.0,1028.0&gt;-&lt;1034.0,1029.0&gt;-&lt;1024.5,1038.5&gt;&gt; = 3.012787504183286
 
 * uni08DC (U+08DC): L&lt;&lt;1009.0,1044.0&gt;--&lt;1009.0,1044.0&gt;&gt;/B&lt;&lt;1009.0,1044.0&gt;-&lt;977.0,1045.0&gt;-&lt;965.0,1059.0&gt;&gt; = 1.789910608246076
@@ -6794,7 +6604,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[14] CourierBadi-Bold.ttf</summary>
+<details><summary>[15] CourierBadi-Bold.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
@@ -6873,7 +6683,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: Uhorn	Contours detected: 2	Expected: 1
 
+- Glyph name: uni01D9	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01DA	Contours detected: 3	Expected: 4
+
 - Glyph name: uni01EA	Contours detected: 3	Expected: 2
+
+- Glyph name: uni0211	Contours detected: 1	Expected: 3
 
 - Glyph name: hookabovecomb	Contours detected: 2	Expected: 1
 
@@ -6947,43 +6763,63 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni04F9	Contours detected: 4	Expected: 5
 
-- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
+- Glyph name: uni1E97	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EA1	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EA2	Contours detected: 4	Expected: 3
 
 - Glyph name: uni1EA4	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
+- Glyph name: uni1EA5	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA6	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA7	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA9	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1EAB	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EAD	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1EAF	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB1	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB2	Contours detected: 5	Expected: 4
 
 - Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1EB7	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1EB9	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
+- Glyph name: uni1EBA	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EBD	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1EBE	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
+- Glyph name: uni1EC0	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1EC7	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
+- Glyph name: uni1EC8	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1ECC	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1ECD	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
+- Glyph name: uni1ECE	Contours detected: 4	Expected: 3
 
 - Glyph name: uni1ED0	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
+- Glyph name: uni1ED2	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -6997,6 +6833,10 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EE4	Contours detected: 1	Expected: 2
 
+- Glyph name: uni1EE6	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE7	Contours detected: 3	Expected: 2
+
 - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
@@ -7009,7 +6849,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
+- Glyph name: uni1EF6	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF7	Contours detected: 3	Expected: 2
+
 - Glyph name: uni1F02	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F03	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F04	Contours detected: 3	Expected: 4
 
@@ -7017,11 +6863,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F0A	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F0B	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F0C	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F0D	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F12	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F13	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F14	Contours detected: 2	Expected: 3
 
@@ -7029,17 +6879,23 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F1A	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F1B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F1C	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F1D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F22	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F23	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F24	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F25	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F2B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2C	Contours detected: 2	Expected: 3
 
@@ -7051,13 +6907,19 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F32	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F33	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F34	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F35	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F36	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F37	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F3A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F3B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F3C	Contours detected: 2	Expected: 3
 
@@ -7065,11 +6927,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F42	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F43	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F44	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F45	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F4B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4C	Contours detected: 3	Expected: 4
 
@@ -7077,19 +6943,27 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F52	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F53	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F54	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F55	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F5B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F5D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F62	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F63	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F64	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F65	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F6B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6C	Contours detected: 2	Expected: 3
 
@@ -7105,11 +6979,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F82	Contours detected: 4	Expected: 5
 
+- Glyph name: uni1F83	Contours detected: 4	Expected: 5
+
 - Glyph name: uni1F84	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F85	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F8A	Contours detected: 4	Expected: 5
+
+- Glyph name: uni1F8B	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F8C	Contours detected: 4	Expected: 5
 
@@ -7117,11 +6995,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F92	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F93	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F94	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F95	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F9B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9C	Contours detected: 3	Expected: 4
 
@@ -7129,11 +7011,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FA2	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1FA3	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1FA4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FA5	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAA	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1FAB	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAC	Contours detected: 3	Expected: 4
 
@@ -7153,13 +7039,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FD7	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1FD9	Contours detected: 4	Expected: 2
+- Glyph name: uni1FDD	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FDE	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FE7	Contours detected: 1	Expected: 4
-
-- Glyph name: uni203D	Contours detected: 3	Expected: 2
 
 - Glyph name: colonmonetary	Contours detected: 2	Expected: 1 or 3
 
@@ -7188,6 +7072,10 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: summation	Contours detected: 3	Expected: 1
 
 - Glyph name: tbar	Contours detected: 2	Expected: 1
+
+- Glyph name: uni01D9	Contours detected: 3	Expected: 4
+
+- Glyph name: uni01DA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni0402	Contours detected: 2	Expected: 1
 
@@ -7255,43 +7143,63 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni04F9	Contours detected: 4	Expected: 5
 
-- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
+- Glyph name: uni1E97	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EA1	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1EA2	Contours detected: 4	Expected: 3
 
 - Glyph name: uni1EA4	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
+- Glyph name: uni1EA5	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA6	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA7	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EA9	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1EAB	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EAD	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1EAF	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB1	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1EB2	Contours detected: 5	Expected: 4
 
 - Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1EB7	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1EB9	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
+- Glyph name: uni1EBA	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EBD	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1EBE	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
+- Glyph name: uni1EC0	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1EC7	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
+- Glyph name: uni1EC8	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1ECC	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1ECD	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
+- Glyph name: uni1ECE	Contours detected: 4	Expected: 3
 
 - Glyph name: uni1ED0	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
+- Glyph name: uni1ED2	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -7305,6 +7213,10 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EE4	Contours detected: 1	Expected: 2
 
+- Glyph name: uni1EE6	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EE7	Contours detected: 3	Expected: 2
+
 - Glyph name: uni1EE8	Contours detected: 3	Expected: 2
 
 - Glyph name: uni1EEA	Contours detected: 3	Expected: 2
@@ -7317,7 +7229,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EF0	Contours detected: 3	Expected: 2
 
+- Glyph name: uni1EF6	Contours detected: 3	Expected: 2
+
+- Glyph name: uni1EF7	Contours detected: 3	Expected: 2
+
 - Glyph name: uni1F02	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F03	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F04	Contours detected: 3	Expected: 4
 
@@ -7325,11 +7243,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F0A	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F0B	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F0C	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F0D	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F12	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F13	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F14	Contours detected: 2	Expected: 3
 
@@ -7337,17 +7259,23 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F1A	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F1B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F1C	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F1D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F22	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F23	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F24	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F25	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F2B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F2C	Contours detected: 2	Expected: 3
 
@@ -7359,13 +7287,19 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F32	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F33	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F34	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F35	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F36	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F37	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F3A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F3B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F3C	Contours detected: 2	Expected: 3
 
@@ -7373,11 +7307,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F42	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F43	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F44	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F45	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F4B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F4C	Contours detected: 3	Expected: 4
 
@@ -7385,19 +7323,27 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F52	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F53	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F54	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F55	Contours detected: 2	Expected: 3
 
+- Glyph name: uni1F5B	Contours detected: 2	Expected: 3
+
 - Glyph name: uni1F5D	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F62	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F63	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F64	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F65	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6A	Contours detected: 2	Expected: 3
+
+- Glyph name: uni1F6B	Contours detected: 2	Expected: 3
 
 - Glyph name: uni1F6C	Contours detected: 2	Expected: 3
 
@@ -7413,11 +7359,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F82	Contours detected: 4	Expected: 5
 
+- Glyph name: uni1F83	Contours detected: 4	Expected: 5
+
 - Glyph name: uni1F84	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F85	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F8A	Contours detected: 4	Expected: 5
+
+- Glyph name: uni1F8B	Contours detected: 4	Expected: 5
 
 - Glyph name: uni1F8C	Contours detected: 4	Expected: 5
 
@@ -7425,11 +7375,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1F92	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1F93	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1F94	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F95	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9A	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1F9B	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1F9C	Contours detected: 3	Expected: 4
 
@@ -7437,11 +7391,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FA2	Contours detected: 3	Expected: 4
 
+- Glyph name: uni1FA3	Contours detected: 3	Expected: 4
+
 - Glyph name: uni1FA4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FA5	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAA	Contours detected: 3	Expected: 4
+
+- Glyph name: uni1FAB	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1FAC	Contours detected: 3	Expected: 4
 
@@ -7461,13 +7419,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1FD7	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1FD9	Contours detected: 4	Expected: 2
+- Glyph name: uni1FDD	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FDE	Contours detected: 1	Expected: 2
 
 - Glyph name: uni1FE7	Contours detected: 1	Expected: 4
-
-- Glyph name: uni203D	Contours detected: 3	Expected: 2
 
 - Glyph name: uni26AD	Contours detected: 6	Expected: 4
 
@@ -7497,11 +7453,9 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * hookabovecomb (U+0309): L&lt;&lt;-484.0,1211.0&gt;--&lt;-485.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
 
-* sigma1 (U+03C2): B&lt;&lt;810.0,-43.0&gt;-&lt;812.0,-42.0&gt;-&lt;812.0,-41.0&gt;&gt; has the same coordinates as a previous segment.
+* sigma1 (U+03C2): L&lt;&lt;811.0,-42.0&gt;--&lt;810.0,-43.0&gt;&gt; has the same coordinates as a previous segment.
 
 * threeabove_ar: L&lt;&lt;567.0,1533.0&gt;--&lt;567.0,1531.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni034F (U+034F): B&lt;&lt;280.0,1467.0&gt;-&lt;173.0,1430.0&gt;-&lt;148.0,1291.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni04C5 (U+04C5): B&lt;&lt;224.0,88.0&gt;-&lt;224.0,88.0&gt;-&lt;224.0,88.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -7510,8 +7464,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 * uni0605 (U+0605): B&lt;&lt;154.0,1469.0&gt;-&lt;154.0,1469.0&gt;-&lt;154.0,1469.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni0663 (U+06F3): B&lt;&lt;607.0,1073.0&gt;-&lt;607.0,1073.0&gt;-&lt;607.0,1073.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni06C2.fina: B&lt;&lt;675.0,1248.0&gt;-&lt;673.0,1252.0&gt;-&lt;676.0,1248.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni06E4 (U+06E4): B&lt;&lt;269.0,1601.0&gt;-&lt;268.0,1601.0&gt;-&lt;268.0,1600.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -7537,13 +7489,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni077B.fina: L&lt;&lt;305.0,1011.0&gt;--&lt;305.0,1009.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D (U+077D): L&lt;&lt;664.0,1505.0&gt;--&lt;665.0,1506.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni077D.fina: L&lt;&lt;571.0,1505.0&gt;--&lt;572.0,1506.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uni077D.init: L&lt;&lt;822.0,1505.0&gt;--&lt;823.0,1506.0&gt;&gt; has the same coordinates as a previous segment.
-
 * uni08D4 (U+08D4): B&lt;&lt;229.0,1231.0&gt;-&lt;231.0,1232.0&gt;-&lt;228.0,1232.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DB (U+08DB): B&lt;&lt;183.0,1246.0&gt;-&lt;183.0,1246.0&gt;-&lt;182.0,1246.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DB (U+08DB): L&lt;&lt;883.0,1096.0&gt;--&lt;887.0,1095.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni08DC (U+08DC): L&lt;&lt;253.0,1207.0&gt;--&lt;253.0,1209.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -7551,31 +7501,87 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni08DE (U+08DE): L&lt;&lt;437.0,1207.0&gt;--&lt;437.0,1209.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1EA2 (U+1EA2): L&lt;&lt;591.0,1690.0&gt;--&lt;590.0,1687.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA3 (U+1EA3): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA8 (U+1EA8): L&lt;&lt;794.0,1877.0&gt;--&lt;793.0,1874.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EA9 (U+1EA9): L&lt;&lt;794.0,1516.0&gt;--&lt;793.0,1513.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB2 (U+1EB2): L&lt;&lt;593.0,1920.0&gt;--&lt;592.0,1917.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EB3 (U+1EB3): L&lt;&lt;593.0,1563.0&gt;--&lt;592.0,1560.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBA (U+1EBA): L&lt;&lt;591.0,1690.0&gt;--&lt;590.0,1687.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EBB (U+1EBB): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC2 (U+1EC2): L&lt;&lt;794.0,1877.0&gt;--&lt;793.0,1874.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC3 (U+1EC3): L&lt;&lt;794.0,1516.0&gt;--&lt;793.0,1513.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC8 (U+1EC8): L&lt;&lt;591.0,1690.0&gt;--&lt;590.0,1687.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EC9 (U+1EC9): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECE (U+1ECE): L&lt;&lt;591.0,1690.0&gt;--&lt;590.0,1687.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECF (U+1ECF): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED4 (U+1ED4): L&lt;&lt;794.0,1877.0&gt;--&lt;793.0,1874.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ED5 (U+1ED5): L&lt;&lt;794.0,1516.0&gt;--&lt;793.0,1513.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1EDE (U+1EDE): L&lt;&lt;884.0,1641.0&gt;--&lt;883.0,1638.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1EDF (U+1EDF): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE6 (U+1EE6): L&lt;&lt;591.0,1690.0&gt;--&lt;590.0,1687.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EE7 (U+1EE7): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1EEC (U+1EEC): L&lt;&lt;1354.0,1641.0&gt;--&lt;1353.0,1638.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1EED (U+1EED): L&lt;&lt;688.0,1231.0&gt;--&lt;687.0,1228.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1EF6 (U+1EF6): L&lt;&lt;591.0,1690.0&gt;--&lt;590.0,1687.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1EF7 (U+1EF7): L&lt;&lt;591.0,1211.0&gt;--&lt;590.0,1208.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1F06 (U+1F06): B&lt;&lt;467.0,1075.0&gt;-&lt;468.0,1076.0&gt;-&lt;462.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F07 (U+1F07): B&lt;&lt;523.0,1079.0&gt;-&lt;518.0,1076.0&gt;-&lt;518.0,1075.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F0E (U+1F0E): B&lt;&lt;21.0,930.0&gt;-&lt;22.0,931.0&gt;-&lt;16.0,934.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1F0F (U+1F0F): B&lt;&lt;76.0,934.0&gt;-&lt;71.0,931.0&gt;-&lt;71.0,930.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1F26 (U+1F26): B&lt;&lt;491.0,1075.0&gt;-&lt;492.0,1076.0&gt;-&lt;486.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F27 (U+1F27): B&lt;&lt;546.0,1079.0&gt;-&lt;541.0,1076.0&gt;-&lt;541.0,1075.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F2E (U+1F2E): B&lt;&lt;-389.0,905.0&gt;-&lt;-388.0,906.0&gt;-&lt;-394.0,909.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1F2F (U+1F2F): B&lt;&lt;-334.0,909.0&gt;-&lt;-339.0,906.0&gt;-&lt;-339.0,905.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1F36 (U+1F36): B&lt;&lt;503.0,1075.0&gt;-&lt;504.0,1076.0&gt;-&lt;498.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F37 (U+1F37): B&lt;&lt;558.0,1079.0&gt;-&lt;553.0,1076.0&gt;-&lt;553.0,1075.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F3E (U+1F3E): B&lt;&lt;-233.0,863.0&gt;-&lt;-232.0,864.0&gt;-&lt;-238.0,867.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1F3F (U+1F3F): B&lt;&lt;-178.0,867.0&gt;-&lt;-183.0,864.0&gt;-&lt;-183.0,863.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1F56 (U+1F56): B&lt;&lt;505.0,1075.0&gt;-&lt;506.0,1076.0&gt;-&lt;500.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F5F (U+1F5F): B&lt;&lt;-146.0,932.0&gt;-&lt;-151.0,929.0&gt;-&lt;-151.0,928.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F66 (U+1F66): B&lt;&lt;507.0,1075.0&gt;-&lt;508.0,1076.0&gt;-&lt;502.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F6E (U+1F6E): B&lt;&lt;-4.0,983.0&gt;-&lt;-3.0,984.0&gt;-&lt;-9.0,987.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F6F (U+1F6F): B&lt;&lt;39.0,987.0&gt;-&lt;34.0,984.0&gt;-&lt;34.0,983.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F70 (U+1F70): B&lt;&lt;893.0,161.0&gt;-&lt;893.0,161.0&gt;-&lt;893.0,161.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -7583,15 +7589,25 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni1F86 (U+1F86): B&lt;&lt;467.0,1075.0&gt;-&lt;468.0,1076.0&gt;-&lt;462.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1F87 (U+1F87): B&lt;&lt;523.0,1079.0&gt;-&lt;518.0,1076.0&gt;-&lt;518.0,1075.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1F8E (U+1F8E): B&lt;&lt;21.0,930.0&gt;-&lt;22.0,931.0&gt;-&lt;16.0,934.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F8F (U+1F8F): B&lt;&lt;76.0,934.0&gt;-&lt;71.0,931.0&gt;-&lt;71.0,930.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1F96 (U+1F96): B&lt;&lt;491.0,1075.0&gt;-&lt;492.0,1076.0&gt;-&lt;486.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni1F97 (U+1F97): B&lt;&lt;546.0,1079.0&gt;-&lt;541.0,1076.0&gt;-&lt;541.0,1075.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni1F9E (U+1F9E): B&lt;&lt;-389.0,905.0&gt;-&lt;-388.0,906.0&gt;-&lt;-394.0,909.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1F9F (U+1F9F): B&lt;&lt;-334.0,909.0&gt;-&lt;-339.0,906.0&gt;-&lt;-339.0,905.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1FA6 (U+1FA6): B&lt;&lt;507.0,1075.0&gt;-&lt;508.0,1076.0&gt;-&lt;502.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1FAE (U+1FAE): B&lt;&lt;-4.0,983.0&gt;-&lt;-3.0,984.0&gt;-&lt;-9.0,987.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1FAF (U+1FAF): B&lt;&lt;39.0,987.0&gt;-&lt;34.0,984.0&gt;-&lt;34.0,983.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1FB2 (U+1FB2): B&lt;&lt;893.0,161.0&gt;-&lt;893.0,161.0&gt;-&lt;893.0,161.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -7601,11 +7617,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 * uni1FCF (U+1FCF): B&lt;&lt;503.0,1075.0&gt;-&lt;504.0,1076.0&gt;-&lt;498.0,1079.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni1FD9 (U+1FD9): B&lt;&lt;228.0,1386.0&gt;-&lt;228.0,1379.0&gt;-&lt;217.0,1386.0&gt;&gt; has the same coordinates as a previous segment.
+* uni1FDF (U+1FDF): B&lt;&lt;558.0,1079.0&gt;-&lt;553.0,1076.0&gt;-&lt;553.0,1075.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni1FEC (U+1FEC): B&lt;&lt;173.0,1151.0&gt;-&lt;169.0,1149.0&gt;-&lt;168.0,1147.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni203B (U+203B): L&lt;&lt;515.0,831.0&gt;--&lt;482.0,864.0&gt;&gt; has the same coordinates as a previous segment.
+* uni203B (U+203B): L&lt;&lt;745.0,659.0&gt;--&lt;763.0,677.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni203B (U+203B): L&lt;&lt;485.0,399.0&gt;--&lt;506.0,420.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni26AD (U+26AD): B&lt;&lt;398.0,879.0&gt;-&lt;399.0,879.0&gt;-&lt;398.0,879.0&gt;&gt; has the same coordinates as a previous segment.
 
@@ -7614,72 +7632,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 * uniFDFA (U+FDFA): B&lt;&lt;705.0,1185.0&gt;-&lt;701.0,1180.0&gt;-&lt;695.0,1175.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uniFDFA (U+FDFA): B&lt;&lt;991.0,867.0&gt;-&lt;998.0,873.0&gt;-&lt;1001.0,884.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE01 (U+FE01): B&lt;&lt;630.0,861.0&gt;-&lt;711.0,847.0&gt;-&lt;717.0,766.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE02 (U+FE02): B&lt;&lt;634.0,407.0&gt;-&lt;712.0,432.0&gt;-&lt;727.0,506.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE02 (U+FE02): B&lt;&lt;629.0,860.0&gt;-&lt;705.0,846.0&gt;-&lt;712.0,773.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE02 (U+FE02): B&lt;&lt;656.0,635.0&gt;-&lt;687.0,621.0&gt;-&lt;706.0,595.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE02 (U+FE02): B&lt;&lt;706.0,595.0&gt;-&lt;723.0,575.0&gt;-&lt;727.0,550.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE03 (U+FE03): B&lt;&lt;664.5,868.0&gt;-&lt;668.0,865.0&gt;-&lt;659.0,865.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE03 (U+FE03): L&lt;&lt;651.0,542.0&gt;--&lt;659.0,542.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE03 (U+FE03): B&lt;&lt;430.0,542.0&gt;-&lt;430.0,545.0&gt;-&lt;430.0,543.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE03 (U+FE03): L&lt;&lt;430.0,543.0&gt;--&lt;430.0,542.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE04 (U+FE04): B&lt;&lt;478.0,650.0&gt;-&lt;478.0,650.0&gt;-&lt;480.0,651.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE04 (U+FE04): B&lt;&lt;633.0,408.0&gt;-&lt;713.0,435.0&gt;-&lt;731.0,519.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE05 (U+FE05): B&lt;&lt;901.5,1366.5&gt;-&lt;901.0,1366.0&gt;-&lt;899.0,1368.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE05 (U+FE05): B&lt;&lt;603.5,1141.5&gt;-&lt;604.0,1142.0&gt;-&lt;607.0,1139.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE07 (U+FE07): B&lt;&lt;901.5,1366.5&gt;-&lt;901.0,1366.0&gt;-&lt;899.0,1368.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE07 (U+FE07): B&lt;&lt;603.5,1141.5&gt;-&lt;604.0,1142.0&gt;-&lt;607.0,1139.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE08 (U+FE08): B&lt;&lt;901.5,1366.5&gt;-&lt;901.0,1366.0&gt;-&lt;899.0,1368.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE08 (U+FE08): B&lt;&lt;603.5,1141.5&gt;-&lt;604.0,1142.0&gt;-&lt;607.0,1139.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE09 (U+FE09): B&lt;&lt;901.5,1366.5&gt;-&lt;901.0,1366.0&gt;-&lt;899.0,1368.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE09 (U+FE09): B&lt;&lt;603.5,1141.5&gt;-&lt;604.0,1142.0&gt;-&lt;607.0,1139.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0B (U+FE0B): B&lt;&lt;804.0,861.0&gt;-&lt;885.0,847.0&gt;-&lt;891.0,766.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0C (U+FE0C): B&lt;&lt;808.0,407.0&gt;-&lt;886.0,432.0&gt;-&lt;901.0,506.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0C (U+FE0C): B&lt;&lt;803.0,860.0&gt;-&lt;879.0,846.0&gt;-&lt;886.0,773.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0C (U+FE0C): B&lt;&lt;830.0,635.0&gt;-&lt;861.0,621.0&gt;-&lt;880.0,595.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0C (U+FE0C): B&lt;&lt;880.0,595.0&gt;-&lt;897.0,575.0&gt;-&lt;901.0,550.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0D (U+FE0D): B&lt;&lt;838.5,868.0&gt;-&lt;842.0,865.0&gt;-&lt;833.0,865.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0D (U+FE0D): L&lt;&lt;825.0,542.0&gt;--&lt;833.0,542.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0D (U+FE0D): B&lt;&lt;604.0,542.0&gt;-&lt;604.0,545.0&gt;-&lt;604.0,543.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0D (U+FE0D): L&lt;&lt;604.0,543.0&gt;--&lt;604.0,542.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0E (U+FE0E): B&lt;&lt;652.0,650.0&gt;-&lt;652.0,650.0&gt;-&lt;654.0,651.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0E (U+FE0E): B&lt;&lt;807.0,408.0&gt;-&lt;887.0,435.0&gt;-&lt;905.0,519.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0F (U+FE0F): B&lt;&lt;901.5,1366.5&gt;-&lt;901.0,1366.0&gt;-&lt;899.0,1368.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFE0F (U+FE0F): B&lt;&lt;603.5,1141.5&gt;-&lt;604.0,1142.0&gt;-&lt;607.0,1139.0&gt;&gt; has the same coordinates as a previous segment.
-
-* uniFEF6 (U+FEF6): B&lt;&lt;779.0,1609.0&gt;-&lt;773.0,1606.0&gt;-&lt;768.0,1602.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -7911,12 +7863,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, canadian-aboriginal, hebrew, tai-le, todhri, old-permic, malayalam, math, syriac, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, todhri, coptic, duployan, tai-le, syriac, canadian-aboriginal, hebrew, malayalam, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -7926,8 +7878,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, sunuwar, cherokee, gothic, syriac, caucasian-albanian</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, thai, cherokee</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -7942,7 +7894,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -7957,10 +7909,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, syriac, thaana</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, thaana, syriac</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, yezidi, hanifi-rohingya, garay, adlam, syriac, nko, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, adlam, garay</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -7993,7 +7945,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, old-uyghur, mandaic, psalter-pahlavi, hanifi-rohingya, adlam, manichaean, syriac, sogdian</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, manichaean, hanifi-rohingya, old-uyghur, syriac, adlam, mandaic, sogdian, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -8025,19 +7977,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, yezidi, hanifi-rohingya, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, nko, thaana</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, thaana, indic-siyaq-numbers, yezidi, hanifi-rohingya, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, syriac, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -8141,7 +8093,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -8320,12 +8272,12 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, dogra, tagbanwa, duployan, batak, hatran, mandaic, cham, khojki, hanunoo, hebrew, javanese, masaram-gondi, mongolian, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, siddham, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, old-hungarian, dogra, tagbanwa, duployan, batak, mandaic, masaram-gondi, cham, khojki, hanunoo, hebrew, javanese, mongolian, siddham, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+2010 HYPHEN: try adding one of: arabic, cham, yi, hebrew, sundanese, lisu, kharoshthi, armenian, sora-sompeng, syloti-nagri, kaithi, kayah-li, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, hatran, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, old-hungarian, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, coptic, cham, sora-sompeng, syloti-nagri, yi, armenian, sundanese, kaithi, kharoshthi, lisu, hebrew, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -8378,9 +8330,9 @@ definitions.</p>
 <li>U+2422 BLANK SYMBOL: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: telugu, math, manichaean, sharada, tamil, duployan, batak, kharoshthi, sogdian, gurmukhi, symbols, saurashtra, balinese, soyombo, khudawadi, gujarati, bhaiksuki, myanmar, nko, grantha, lepcha, khojki, caucasian-albanian, gunjala-gondi, bengali, mende-kikakui, buginese, tai-viet, dogra, tagbanwa, siddham, cham, mongolian, hanunoo, zanabazar-square, bassa-vah, limbu, tirhuta, tibetan, warang-citi, marchen, new-tai-lue, hanifi-rohingya, syloti-nagri, canadian-aboriginal, pahawh-hmong, tai-tham, masaram-gondi, mandaic, yi, javanese, hebrew, adlam, rejang, tifinagh, sundanese, phags-pa, malayalam, devanagari, elbasan, syriac, kayah-li, psalter-pahlavi, music, oriya, tai-le, armenian, tagalog, sinhala, mahajani, meetei-mayek, old-permic, brahmi, osage, thai, takri, modi, kaithi, newa, wancho, chakma, khmer, coptic, miao, buhid, ahom, lao, kannada, thaana</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, tirhuta, kayah-li, manichaean, meetei-mayek, elbasan, myanmar, lepcha, hebrew, bhaiksuki, batak, newa, osage, buginese, syriac, kharoshthi, symbols, gujarati, mongolian, marchen, cham, duployan, syloti-nagri, brahmi, tibetan, tagbanwa, thaana, hanifi-rohingya, masaram-gondi, buhid, wancho, dogra, tai-le, phags-pa, tamil, thai, bassa-vah, hanunoo, old-permic, tifinagh, sharada, miao, grantha, lao, telugu, gunjala-gondi, mende-kikakui, modi, khojki, tai-tham, tagalog, limbu, oriya, kannada, ahom, javanese, zanabazar-square, nko, soyombo, tai-viet, canadian-aboriginal, balinese, music, yi, devanagari, sundanese, kaithi, psalter-pahlavi, chakma, malayalam, gurmukhi, warang-citi, math, coptic, mahajani, khmer, adlam, takri, sogdian, bengali, new-tai-lue, sinhala, mandaic, saurashtra, rejang, armenian, pahawh-hmong, caucasian-albanian, khudawadi</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
 <li>U+26AD MARRIAGE SYMBOL: try adding symbols</li>
 <li>U+26AE DIVORCE SYMBOL: try adding symbols</li>
 <li>U+27E6 MATHEMATICAL LEFT WHITE SQUARE BRACKET: try adding math</li>
@@ -8546,7 +8498,7 @@ definitions.</p>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
 <li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
@@ -8804,6 +8756,138 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Do any segments have colinear vectors? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-colinear-vectors">outline_colinear_vectors</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have colinear vectors:</p>
+<pre><code>* angleright (U+232A): L&lt;&lt;341.0,1367.0&gt;--&lt;516.0,1098.0&gt;&gt; -&gt; L&lt;&lt;516.0,1098.0&gt;--&lt;719.0,786.0&gt;&gt;
+
+* angleright (U+232A): L&lt;&lt;769.0,544.0&gt;--&lt;400.0,-25.0&gt;&gt; -&gt; L&lt;&lt;400.0,-25.0&gt;--&lt;332.0,-129.0&gt;&gt;
+
+* arabic_root.comp: L&lt;&lt;243.0,1219.0&gt;--&lt;242.0,1219.0&gt;&gt; -&gt; L&lt;&lt;242.0,1219.0&gt;--&lt;74.0,1219.0&gt;&gt;
+
+* psi (U+03C8): L&lt;&lt;437.0,-426.0&gt;--&lt;433.0,-215.0&gt;&gt; -&gt; L&lt;&lt;433.0,-215.0&gt;--&lt;435.0,-19.0&gt;&gt;
+
+* uni0211 (U+0211): L&lt;&lt;376.0,968.0&gt;--&lt;378.0,968.0&gt;&gt; -&gt; L&lt;&lt;378.0,968.0&gt;--&lt;383.0,968.0&gt;&gt;
+
+* uni0466 (U+0466): L&lt;&lt;537.0,938.0&gt;--&lt;525.0,880.0&gt;&gt; -&gt; L&lt;&lt;525.0,880.0&gt;--&lt;442.0,568.0&gt;&gt;
+
+* uni0466 (U+0466): L&lt;&lt;621.0,582.0&gt;--&lt;549.0,883.0&gt;&gt; -&gt; L&lt;&lt;549.0,883.0&gt;--&lt;537.0,938.0&gt;&gt;
+
+* uni046C (U+046C): L&lt;&lt;317.0,137.0&gt;--&lt;393.0,486.0&gt;&gt; -&gt; L&lt;&lt;393.0,486.0&gt;--&lt;407.0,553.0&gt;&gt;
+
+* uni046D (U+046D): L&lt;&lt;314.0,140.0&gt;--&lt;380.0,348.0&gt;&gt; -&gt; L&lt;&lt;380.0,348.0&gt;--&lt;394.0,392.0&gt;&gt;
+
+* uni0496 (U+0496): L&lt;&lt;445.0,157.0&gt;--&lt;445.0,365.0&gt;&gt; -&gt; L&lt;&lt;445.0,365.0&gt;--&lt;445.0,389.0&gt;&gt;
+
+* uni0496 (U+0496): L&lt;&lt;631.0,394.0&gt;--&lt;630.0,365.0&gt;&gt; -&gt; L&lt;&lt;630.0,365.0&gt;--&lt;630.0,132.0&gt;&gt;
+
+* uni0497 (U+0497): L&lt;&lt;444.0,137.0&gt;--&lt;443.0,266.0&gt;&gt; -&gt; L&lt;&lt;443.0,266.0&gt;--&lt;443.0,281.0&gt;&gt;
+
+* uni0499 (U+0499): L&lt;&lt;445.0,151.0&gt;--&lt;484.0,151.0&gt;&gt; -&gt; L&lt;&lt;484.0,151.0&gt;--&lt;508.0,149.0&gt;&gt;
+
+* uni04A0 (U+04A0): L&lt;&lt;504.0,390.0&gt;--&lt;503.0,365.0&gt;&gt; -&gt; L&lt;&lt;503.0,365.0&gt;--&lt;503.0,161.0&gt;&gt;
+
+* uni04C5 (U+04C5): L&lt;&lt;489.0,1028.0&gt;--&lt;489.0,764.0&gt;&gt; -&gt; L&lt;&lt;489.0,764.0&gt;--&lt;487.0,732.0&gt;&gt;
+
+* uni04C5 (U+04C5): L&lt;&lt;489.0,764.0&gt;--&lt;487.0,732.0&gt;&gt; -&gt; L&lt;&lt;487.0,732.0&gt;--&lt;487.0,695.0&gt;&gt;
+
+* uni0512 (U+0512): L&lt;&lt;489.0,1028.0&gt;--&lt;489.0,764.0&gt;&gt; -&gt; L&lt;&lt;489.0,764.0&gt;--&lt;487.0,732.0&gt;&gt;
+
+* uni0512 (U+0512): L&lt;&lt;489.0,764.0&gt;--&lt;487.0,732.0&gt;&gt; -&gt; L&lt;&lt;487.0,732.0&gt;--&lt;487.0,695.0&gt;&gt;
+
+* uni0606 (U+0606): L&lt;&lt;177.0,1219.0&gt;--&lt;176.0,1219.0&gt;&gt; -&gt; L&lt;&lt;176.0,1219.0&gt;--&lt;8.0,1219.0&gt;&gt;
+
+* uni0607 (U+0607): L&lt;&lt;177.0,1219.0&gt;--&lt;176.0,1219.0&gt;&gt; -&gt; L&lt;&lt;176.0,1219.0&gt;--&lt;8.0,1219.0&gt;&gt;
+
+* uni063B (U+063B): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni063C (U+063C): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni066D (U+066D): L&lt;&lt;448.0,498.0&gt;--&lt;445.0,832.0&gt;&gt; -&gt; L&lt;&lt;445.0,832.0&gt;--&lt;445.0,842.0&gt;&gt;
+
+* uni06A9 (U+FB8E): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06AB (U+06AB): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06AF (U+FB92): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06B0 (U+06B0): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06B1 (U+FB9A): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06B2 (U+06B2): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06B3 (U+FB96): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni06B4 (U+06B4): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni0762 (U+0762): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni0763 (U+0763): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni0764 (U+0764): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni08B0 (U+08B0): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni08C2 (U+08C2): L&lt;&lt;239.0,401.0&gt;--&lt;239.0,401.0&gt;&gt; -&gt; L&lt;&lt;239.0,401.0&gt;--&lt;835.0,401.0&gt;&gt;
+
+* uni08C3.init: L&lt;&lt;657.0,1484.0&gt;--&lt;658.0,1484.0&gt;&gt; -&gt; L&lt;&lt;658.0,1484.0&gt;--&lt;658.0,1484.0&gt;&gt;
+
+* uni08C7.medi: L&lt;&lt;508.0,1183.0&gt;--&lt;504.0,1183.0&gt;&gt; -&gt; L&lt;&lt;504.0,1183.0&gt;--&lt;403.0,1183.0&gt;&gt;
+
+* uni08D4 (U+08D4): L&lt;&lt;289.0,1126.0&gt;--&lt;354.0,1126.0&gt;&gt; -&gt; L&lt;&lt;354.0,1126.0&gt;--&lt;354.0,1126.0&gt;&gt;
+
+* uni08DB (U+08DB): L&lt;&lt;444.0,994.0&gt;--&lt;443.0,994.0&gt;&gt; -&gt; L&lt;&lt;443.0,994.0&gt;--&lt;441.0,994.0&gt;&gt;
+
+* uni08DB (U+08DB): L&lt;&lt;502.0,994.0&gt;--&lt;444.0,994.0&gt;&gt; -&gt; L&lt;&lt;444.0,994.0&gt;--&lt;443.0,994.0&gt;&gt;
+
+* uni08DB (U+08DB): L&lt;&lt;883.0,994.0&gt;--&lt;872.0,994.0&gt;&gt; -&gt; L&lt;&lt;872.0,994.0&gt;--&lt;871.0,994.0&gt;&gt;
+
+* uni08DC (U+08DC): L&lt;&lt;834.0,1010.0&gt;--&lt;825.0,1010.0&gt;&gt; -&gt; L&lt;&lt;825.0,1010.0&gt;--&lt;824.0,1010.0&gt;&gt;
+
+* uni08DD (U+08DD): L&lt;&lt;595.0,1292.0&gt;--&lt;597.0,1290.0&gt;&gt; -&gt; L&lt;&lt;597.0,1290.0&gt;--&lt;724.0,1163.0&gt;&gt;
+
+* uni08DD (U+08DD): L&lt;&lt;616.0,1013.0&gt;--&lt;459.0,1013.0&gt;&gt; -&gt; L&lt;&lt;459.0,1013.0&gt;--&lt;457.0,1013.0&gt;&gt;
+
+* uni08DF (U+08DF): L&lt;&lt;959.0,1126.0&gt;--&lt;959.0,1163.0&gt;&gt; -&gt; L&lt;&lt;959.0,1163.0&gt;--&lt;959.0,1164.0&gt;&gt;
+
+* uni1EA3 (U+1EA3): L&lt;&lt;431.0,954.0&gt;--&lt;431.0,958.0&gt;&gt; -&gt; L&lt;&lt;431.0,958.0&gt;--&lt;431.0,995.0&gt;&gt;
+
+* uni1EC9 (U+1EC9): L&lt;&lt;310.0,958.0&gt;--&lt;431.0,958.0&gt;&gt; -&gt; L&lt;&lt;431.0,958.0&gt;--&lt;431.0,958.0&gt;&gt;
+
+* uni1EC9 (U+1EC9): L&lt;&lt;613.0,958.0&gt;--&lt;613.0,958.0&gt;&gt; -&gt; L&lt;&lt;613.0,958.0&gt;--&lt;650.0,958.0&gt;&gt;
+
+* uni200C (U+200C): L&lt;&lt;280.0,890.0&gt;--&lt;339.0,705.0&gt;&gt; -&gt; L&lt;&lt;339.0,705.0&gt;--&lt;341.0,699.0&gt;&gt;
+
+* uni203D (U+203D): L&lt;&lt;437.0,619.0&gt;--&lt;433.0,847.0&gt;&gt; -&gt; L&lt;&lt;433.0,847.0&gt;--&lt;426.0,1129.0&gt;&gt;
+
+* uni203D (U+203D): L&lt;&lt;643.0,1118.0&gt;--&lt;646.0,998.0&gt;&gt; -&gt; L&lt;&lt;646.0,998.0&gt;--&lt;643.0,897.0&gt;&gt;
+
+* uni2052 (U+2052): L&lt;&lt;126.0,178.0&gt;--&lt;199.0,313.0&gt;&gt; -&gt; L&lt;&lt;199.0,313.0&gt;--&lt;658.0,1161.0&gt;&gt;
+
+* uni2052 (U+2052): L&lt;&lt;199.0,313.0&gt;--&lt;658.0,1161.0&gt;&gt; -&gt; L&lt;&lt;658.0,1161.0&gt;--&lt;769.0,1364.0&gt;&gt;
+
+* uni2E18 (U+2E18): L&lt;&lt;399.0,-320.0&gt;--&lt;398.0,-202.0&gt;&gt; -&gt; L&lt;&lt;398.0,-202.0&gt;--&lt;400.0,-102.0&gt;&gt;
+
+* uni2E18 (U+2E18): L&lt;&lt;605.0,176.0&gt;--&lt;609.0,-50.0&gt;&gt; -&gt; L&lt;&lt;609.0,-50.0&gt;--&lt;617.0,-331.0&gt;&gt;
+
+* uniFDFD (U+FDFD): L&lt;&lt;213.0,1041.0&gt;--&lt;213.0,1041.0&gt;&gt; -&gt; L&lt;&lt;213.0,1041.0&gt;--&lt;214.0,1041.0&gt;&gt;
+</code></pre>
+ [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Do outlines contain any jaggy segments? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-jaggy-segments">outline_jaggy_segments</a></summary>
     <div>
 
@@ -8814,9 +8898,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have jaggy segments:</p>
-<pre><code>* Alpha (U+0391): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* Alphatonos (U+0386): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
+<pre><code>* Euro (U+20AC): L&lt;&lt;765.0,646.0&gt;--&lt;400.0,646.0&gt;&gt;/B&lt;&lt;400.0,646.0&gt;-&lt;414.0,644.0&gt;-&lt;416.0,628.5&gt;&gt; = 8.13010235415596
 
 * Lambda (U+039B): L&lt;&lt;709.0,159.0&gt;--&lt;721.0,119.0&gt;&gt;/L&lt;&lt;721.0,119.0&gt;--&lt;537.0,1068.0&gt;&gt; = 5.726410245228462
 
@@ -8824,13 +8906,33 @@ definitions.</p>
 
 * Mu (U+039C): L&lt;&lt;781.0,127.0&gt;--&lt;781.0,973.0&gt;&gt;/B&lt;&lt;781.0,973.0&gt;-&lt;771.0,899.0&gt;-&lt;748.5,811.0&gt;&gt; = 7.696051722016556
 
+* a (U+0061): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* aacute (U+00E1): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* abreve (U+0103): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* acircumflex (U+00E2): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* adieresis (U+00E4): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* agrave (U+00E0): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* amacron (U+0101): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
 * aogonek (U+0105): L&lt;&lt;846.0,51.0&gt;--&lt;873.0,89.0&gt;&gt;/B&lt;&lt;873.0,89.0&gt;-&lt;809.0,26.0&gt;-&lt;710.5,-14.5&gt;&gt; = 10.056342701800231
+
+* aring (U+00E5): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* aringacute (U+01FB): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
 * asteriskmath (U+2217): B&lt;&lt;634.0,852.0&gt;-&lt;630.0,799.0&gt;-&lt;617.0,767.0&gt;&gt;/B&lt;&lt;617.0,767.0&gt;-&lt;638.0,796.0&gt;-&lt;680.5,823.0&gt;&gt; = 13.800274735425981
 
 * asteriskmath (U+2217): B&lt;&lt;680.5,434.0&gt;-&lt;638.0,461.0&gt;-&lt;617.0,490.0&gt;&gt;/B&lt;&lt;617.0,490.0&gt;-&lt;630.0,458.0&gt;-&lt;634.0,405.5&gt;&gt; = 13.800274735425981
 
 * at (U+0040): L&lt;&lt;766.0,727.0&gt;--&lt;766.0,725.0&gt;&gt;/L&lt;&lt;766.0,725.0&gt;--&lt;769.0,763.0&gt;&gt; = 4.513988458001203
+
+* atilde (U+00E3): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
 * b (U+0062): B&lt;&lt;464.0,-7.5&gt;-&lt;375.0,40.0&gt;-&lt;326.0,114.0&gt;&gt;/L&lt;&lt;326.0,114.0&gt;--&lt;366.0,55.0&gt;&gt; = 0.624921280071304
 
@@ -8842,9 +8944,15 @@ definitions.</p>
 
 * dcaron (U+010F): B&lt;&lt;679.5,931.0&gt;-&lt;743.0,883.0&gt;-&lt;751.0,797.0&gt;&gt;/L&lt;&lt;751.0,797.0&gt;--&lt;750.0,1257.0&gt;&gt; = 5.189989823737527
 
+* dcroat (U+0111): B&lt;&lt;743.5,874.5&gt;-&lt;818.0,830.0&gt;-&lt;835.0,752.0&gt;&gt;/L&lt;&lt;835.0,752.0&gt;--&lt;841.0,983.0&gt;&gt; = 13.783133951825906
+
 * dong (U+20AB): B&lt;&lt;684.5,70.0&gt;-&lt;672.0,96.0&gt;-&lt;683.0,119.0&gt;&gt;/B&lt;&lt;683.0,119.0&gt;-&lt;668.0,96.0&gt;-&lt;635.0,72.5&gt;&gt; = 7.551376788548213
 
 * eng (U+014B): L&lt;&lt;376.0,869.0&gt;--&lt;352.0,739.0&gt;&gt;/B&lt;&lt;352.0,739.0&gt;-&lt;379.0,802.0&gt;-&lt;437.5,857.0&gt;&gt; = 12.738681420719038
+
+* eta (U+03B7): L&lt;&lt;179.0,728.0&gt;--&lt;179.0,728.0&gt;&gt;/B&lt;&lt;179.0,728.0&gt;-&lt;166.0,725.0&gt;-&lt;134.0,726.5&gt;&gt; = 12.994616791916512
+
+* etatonos (U+03AE): L&lt;&lt;179.0,728.0&gt;--&lt;179.0,728.0&gt;&gt;/B&lt;&lt;179.0,728.0&gt;-&lt;166.0,725.0&gt;-&lt;134.0,726.5&gt;&gt; = 12.994616791916512
 
 * fourbelow_ar: B&lt;&lt;542.0,1675.5&gt;-&lt;583.0,1640.0&gt;-&lt;585.0,1613.0&gt;&gt;/B&lt;&lt;585.0,1613.0&gt;-&lt;588.0,1640.0&gt;-&lt;605.0,1660.0&gt;&gt; = 10.576586544968738
 
@@ -8871,6 +8979,8 @@ definitions.</p>
 * gdotaccent (U+0121): L&lt;&lt;852.0,-17.0&gt;--&lt;859.0,163.0&gt;&gt;/B&lt;&lt;859.0,163.0&gt;-&lt;837.0,85.0&gt;-&lt;756.0,40.0&gt;&gt; = 13.524126696039461
 
 * h (U+0068): L&lt;&lt;386.0,1257.0&gt;--&lt;385.0,728.0&gt;&gt;/B&lt;&lt;385.0,728.0&gt;-&lt;403.0,804.0&gt;-&lt;456.5,860.5&gt;&gt; = 13.216221788799638
+
+* hbar (U+0127): L&lt;&lt;399.0,985.0&gt;--&lt;403.0,694.0&gt;&gt;/B&lt;&lt;403.0,694.0&gt;-&lt;419.0,762.0&gt;-&lt;468.0,812.5&gt;&gt; = 14.02804117085806
 
 * hcircumflex (U+0125): L&lt;&lt;386.0,1257.0&gt;--&lt;385.0,728.0&gt;&gt;/B&lt;&lt;385.0,728.0&gt;-&lt;403.0,804.0&gt;-&lt;456.5,860.5&gt;&gt; = 13.216221788799638
 
@@ -8900,17 +9010,25 @@ definitions.</p>
 
 * ohorn (U+01A1): B&lt;&lt;535.0,933.0&gt;-&lt;644.0,933.0&gt;-&lt;735.0,882.0&gt;&gt;/B&lt;&lt;735.0,882.0&gt;-&lt;731.0,885.0&gt;-&lt;748.0,888.0&gt;&gt; = 7.6019024309512755
 
+* oslashacute (U+01FF): B&lt;&lt;325.0,377.0&gt;-&lt;328.0,339.0&gt;-&lt;309.0,312.0&gt;&gt;/L&lt;&lt;309.0,312.0&gt;--&lt;778.0,765.0&gt;&gt; = 10.85999399859116
+
+* oslashacute (U+01FF): B&lt;&lt;903.0,547.0&gt;-&lt;900.0,585.0&gt;-&lt;919.0,612.0&gt;&gt;/L&lt;&lt;919.0,612.0&gt;--&lt;449.0,159.0&gt;&gt; = 10.920972852313973
+
 * p (U+0070): B&lt;&lt;473.0,-4.5&gt;-&lt;393.0,46.0&gt;-&lt;375.0,136.0&gt;&gt;/L&lt;&lt;375.0,136.0&gt;--&lt;376.0,-333.0&gt;&gt; = 11.187766817972967
 
 * p (U+0070): L&lt;&lt;366.0,869.0&gt;--&lt;328.0,811.0&gt;&gt;/B&lt;&lt;328.0,811.0&gt;-&lt;377.0,885.0&gt;-&lt;465.5,932.0&gt;&gt; = 0.27930772986146074
-
-* phi (U+03C6): B&lt;&lt;379.0,171.0&gt;-&lt;417.0,142.0&gt;-&lt;454.0,154.0&gt;&gt;/B&lt;&lt;454.0,154.0&gt;-&lt;438.0,152.0&gt;-&lt;436.5,201.5&gt;&gt; = 10.84412339125517
 
 * prescription (U+211E): B&lt;&lt;855.0,462.0&gt;-&lt;855.0,440.0&gt;-&lt;830.0,416.0&gt;&gt;/L&lt;&lt;830.0,416.0&gt;--&lt;943.0,515.0&gt;&gt; = 2.60905837925404
 
 * q (U+0071): B&lt;&lt;764.0,931.5&gt;-&lt;853.0,884.0&gt;-&lt;902.0,810.0&gt;&gt;/L&lt;&lt;902.0,810.0&gt;--&lt;862.0,869.0&gt;&gt; = 0.624921280071304
 
 * q (U+0071): L&lt;&lt;852.0,-333.0&gt;--&lt;853.0,136.0&gt;&gt;/B&lt;&lt;853.0,136.0&gt;-&lt;835.0,46.0&gt;-&lt;755.0,-4.5&gt;&gt; = 11.187766817972967
+
+* section (U+00A7): L&lt;&lt;402.0,685.0&gt;--&lt;403.0,686.0&gt;&gt;/B&lt;&lt;403.0,686.0&gt;-&lt;392.0,676.0&gt;-&lt;386.0,662.5&gt;&gt; = 2.726310993906212
+
+* section (U+00A7): L&lt;&lt;826.0,272.0&gt;--&lt;825.0,271.0&gt;&gt;/B&lt;&lt;825.0,271.0&gt;-&lt;836.0,281.0&gt;-&lt;842.0,294.5&gt;&gt; = 2.726310993906212
+
+* sigma1 (U+03C2): B&lt;&lt;791.0,-43.0&gt;-&lt;799.0,-41.0&gt;-&lt;800.0,-41.0&gt;&gt;/B&lt;&lt;800.0,-41.0&gt;-&lt;771.0,-39.0&gt;-&lt;698.5,-37.0&gt;&gt; = 3.94518622903751
 
 * six (U+0036): B&lt;&lt;544.0,899.5&gt;-&lt;416.0,784.0&gt;-&lt;391.0,595.0&gt;&gt;/B&lt;&lt;391.0,595.0&gt;-&lt;403.0,679.0&gt;-&lt;480.0,721.5&gt;&gt; = 0.5950386308273755
 
@@ -8948,6 +9066,8 @@ definitions.</p>
 
 * uni0146 (U+0146): L&lt;&lt;376.0,869.0&gt;--&lt;352.0,739.0&gt;&gt;/B&lt;&lt;352.0,739.0&gt;-&lt;379.0,802.0&gt;-&lt;437.5,857.0&gt;&gt; = 12.738681420719038
 
+* uni01CE (U+01CE): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
 * uni01D4 (U+01D4): L&lt;&lt;852.0,55.0&gt;--&lt;876.0,185.0&gt;&gt;/B&lt;&lt;876.0,185.0&gt;-&lt;849.0,122.0&gt;-&lt;790.5,67.0&gt;&gt; = 12.738681420719066
 
 * uni01D8 (U+01D8): L&lt;&lt;852.0,55.0&gt;--&lt;876.0,185.0&gt;&gt;/B&lt;&lt;876.0,185.0&gt;-&lt;849.0,122.0&gt;-&lt;790.5,67.0&gt;&gt; = 12.738681420719066
@@ -8962,13 +9082,17 @@ definitions.</p>
 
 * uni01F5 (U+01F5): L&lt;&lt;852.0,-17.0&gt;--&lt;859.0,163.0&gt;&gt;/B&lt;&lt;859.0,163.0&gt;-&lt;837.0,85.0&gt;-&lt;756.0,40.0&gt;&gt; = 13.524126696039461
 
+* uni0201 (U+0201): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* uni0211 (U+0211): B&lt;&lt;496.0,995.0&gt;-&lt;462.0,960.0&gt;-&lt;408.0,964.0&gt;&gt;/B&lt;&lt;408.0,964.0&gt;-&lt;442.0,954.0&gt;-&lt;461.0,928.5&gt;&gt; = 12.153145534975906
+
 * uni0215 (U+0215): L&lt;&lt;852.0,55.0&gt;--&lt;876.0,185.0&gt;&gt;/B&lt;&lt;876.0,185.0&gt;-&lt;849.0,122.0&gt;-&lt;790.5,67.0&gt;&gt; = 12.738681420719066
 
-* uni034F (U+034F): L&lt;&lt;799.0,1214.0&gt;--&lt;920.0,1211.0&gt;&gt;/L&lt;&lt;920.0,1211.0&gt;--&lt;799.0,1208.0&gt;&gt; = 2.8405310927980456
-
-* uni034F (U+034F): L&lt;&lt;941.0,1217.0&gt;--&lt;941.0,1235.0&gt;&gt;/L&lt;&lt;941.0,1235.0&gt;--&lt;944.0,1216.0&gt;&gt; = 8.972626614896399
-
 * uni03BC (U+03BC): L&lt;&lt;846.0,55.0&gt;--&lt;872.0,165.0&gt;&gt;/B&lt;&lt;872.0,165.0&gt;-&lt;849.0,108.0&gt;-&lt;798.0,58.0&gt;&gt; = 8.675937660977642
+
+* uni03DE (U+03DE): B&lt;&lt;783.0,-120.0&gt;-&lt;783.0,-119.0&gt;-&lt;783.0,-121.0&gt;&gt;/L&lt;&lt;783.0,-121.0&gt;--&lt;802.0,410.0&gt;&gt; = 2.0492572011480883
+
+* uni03DF (U+03DF): B&lt;&lt;783.0,-120.0&gt;-&lt;783.0,-119.0&gt;-&lt;783.0,-121.0&gt;&gt;/L&lt;&lt;783.0,-121.0&gt;--&lt;802.0,410.0&gt;&gt; = 2.0492572011480883
 
 * uni03E0 (U+03E0): L&lt;&lt;384.0,140.0&gt;--&lt;483.0,631.0&gt;&gt;/B&lt;&lt;483.0,631.0&gt;-&lt;481.0,626.0&gt;-&lt;463.5,659.5&gt;&gt; = 10.401742113872047
 
@@ -9074,6 +9198,8 @@ definitions.</p>
 
 * uni046B (U+046B): B&lt;&lt;604.5,685.0&gt;-&lt;641.0,717.0&gt;-&lt;686.0,723.0&gt;&gt;/L&lt;&lt;686.0,723.0&gt;--&lt;397.0,727.0&gt;&gt; = 8.387613904827283
 
+* uni046C (U+046C): B&lt;&lt;802.0,297.5&gt;-&lt;783.0,373.0&gt;-&lt;771.0,420.0&gt;&gt;/L&lt;&lt;771.0,420.0&gt;--&lt;771.0,130.0&gt;&gt; = 14.32271997820355
+
 * uni046C (U+046C): L&lt;&lt;407.0,553.0&gt;--&lt;452.0,555.0&gt;&gt;/L&lt;&lt;452.0,555.0&gt;--&lt;245.0,572.0&gt;&gt; = 7.239718659064084
 
 * uni046D (U+046D): B&lt;&lt;761.0,376.5&gt;-&lt;762.0,386.0&gt;-&lt;758.0,403.0&gt;&gt;/L&lt;&lt;758.0,403.0&gt;--&lt;759.0,133.0&gt;&gt; = 13.028314294699063
@@ -9087,8 +9213,6 @@ definitions.</p>
 * uni046E (U+046E): B&lt;&lt;871.5,701.5&gt;-&lt;833.0,673.0&gt;-&lt;811.0,678.0&gt;&gt;/B&lt;&lt;811.0,678.0&gt;-&lt;900.0,635.0&gt;-&lt;946.5,570.5&gt;&gt; = 12.983062117527593
 
 * uni046E (U+046E): L&lt;&lt;684.0,1292.0&gt;--&lt;683.0,1292.0&gt;&gt;/B&lt;&lt;683.0,1292.0&gt;-&lt;781.0,1269.0&gt;-&lt;839.5,1219.5&gt;&gt; = 13.207928462779101
-
-* uni046F (U+046F): B&lt;&lt;322.5,898.5&gt;-&lt;378.0,891.0&gt;-&lt;406.0,871.0&gt;&gt;/L&lt;&lt;406.0,871.0&gt;--&lt;121.0,1088.0&gt;&gt; = 1.7480948137265115
 
 * uni046F (U+046F): B&lt;&lt;852.5,527.0&gt;-&lt;827.0,511.0&gt;-&lt;808.0,519.0&gt;&gt;/B&lt;&lt;808.0,519.0&gt;-&lt;875.0,491.0&gt;-&lt;921.0,424.0&gt;&gt; = 0.15309457089095985
 
@@ -9186,6 +9310,10 @@ definitions.</p>
 
 * uni04CE (U+04CE): L&lt;&lt;759.0,131.0&gt;--&lt;759.0,646.0&gt;&gt;/B&lt;&lt;759.0,646.0&gt;-&lt;747.0,587.0&gt;-&lt;723.5,520.0&gt;&gt; = 11.496563017585768
 
+* uni04D1 (U+04D1): L&lt;&lt;850.0,55.0&gt;--&lt;865.0,68.0&gt;&gt;/B&lt;&lt;865.0,68.0&gt;-&lt;796.0,13.0&gt;-&lt;704.0,-21.5&gt;&gt; = 2.3559833193599045
+
+* uni04D3 (U+04D3): L&lt;&lt;850.0,55.0&gt;--&lt;865.0,68.0&gt;&gt;/B&lt;&lt;865.0,68.0&gt;-&lt;796.0,13.0&gt;-&lt;704.0,-21.5&gt;&gt; = 2.3559833193599045
+
 * uni04D4 (U+04D4): L&lt;&lt;117.0,161.0&gt;--&lt;312.0,1129.0&gt;&gt;/B&lt;&lt;312.0,1129.0&gt;-&lt;300.0,1100.0&gt;-&lt;266.5,1117.5&gt;&gt; = 11.089845478556693
 
 * uni04D5 (U+04D5): B&lt;&lt;430.0,540.5&gt;-&lt;449.0,540.0&gt;-&lt;448.0,527.0&gt;&gt;/L&lt;&lt;448.0,527.0&gt;--&lt;445.0,569.0&gt;&gt; = 8.484322134970375
@@ -9256,7 +9384,31 @@ definitions.</p>
 
 * uni061C (U+061C): L&lt;&lt;613.0,1353.0&gt;--&lt;529.0,1314.0&gt;&gt;/B&lt;&lt;529.0,1314.0&gt;-&lt;545.0,1319.0&gt;-&lt;546.5,1311.0&gt;&gt; = 7.550744171833916
 
-* uni0620.medi: B&lt;&lt;578.0,291.0&gt;-&lt;572.0,303.0&gt;-&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;570.0,301.0&gt;-&lt;560.0,285.0&gt;&gt; = 9.593134262730318
+* uni0620 (U+0620): B&lt;&lt;447.0,-59.0&gt;-&lt;414.0,-85.0&gt;-&lt;397.0,-115.0&gt;&gt;/B&lt;&lt;397.0,-115.0&gt;-&lt;405.0,-99.0&gt;-&lt;431.5,-98.0&gt;&gt; = 2.9737310824800476
+
+* uni0620 (U+0620): B&lt;&lt;492.0,-97.0&gt;-&lt;509.0,-97.0&gt;-&lt;503.0,-100.0&gt;&gt;/B&lt;&lt;503.0,-100.0&gt;-&lt;536.0,-78.0&gt;-&lt;587.0,-77.0&gt;&gt; = 7.125016348901757
+
+* uni0620 (U+0620): L&lt;&lt;341.0,-150.0&gt;--&lt;344.0,-150.0&gt;&gt;/B&lt;&lt;344.0,-150.0&gt;-&lt;187.0,-117.0&gt;-&lt;96.5,-2.5&gt;&gt; = 11.870264531587916
+
+* uni0620.fina: B&lt;&lt;1004.5,-338.5&gt;-&lt;940.0,-424.0&gt;-&lt;824.0,-465.0&gt;&gt;/B&lt;&lt;824.0,-465.0&gt;-&lt;847.0,-460.0&gt;-&lt;857.0,-489.0&gt;&gt; = 7.201093280460031
+
+* uni0620.fina: B&lt;&lt;492.0,-372.0&gt;-&lt;472.0,-372.0&gt;-&lt;479.0,-368.0&gt;&gt;/B&lt;&lt;479.0,-368.0&gt;-&lt;446.0,-386.0&gt;-&lt;423.0,-410.5&gt;&gt; = 1.1344216309767723
+
+* uni0620.fina: B&lt;&lt;663.0,-503.0&gt;-&lt;595.0,-515.0&gt;-&lt;503.0,-514.0&gt;&gt;/B&lt;&lt;503.0,-514.0&gt;-&lt;509.0,-515.0&gt;-&lt;508.0,-525.0&gt;&gt; = 8.839566520819284
+
+* uni0620.fina: B&lt;&lt;732.0,-425.5&gt;-&lt;760.0,-421.0&gt;-&lt;772.0,-430.0&gt;&gt;/B&lt;&lt;772.0,-430.0&gt;-&lt;757.0,-412.0&gt;-&lt;732.0,-391.0&gt;&gt; = 13.324531261890755
+
+* uni0620.init: B&lt;&lt;277.0,155.0&gt;-&lt;288.0,186.0&gt;-&lt;314.0,191.0&gt;&gt;/L&lt;&lt;314.0,191.0&gt;--&lt;0.0,191.0&gt;&gt; = 10.885527054658743
+
+* uni0620.init: B&lt;&lt;438.5,283.0&gt;-&lt;391.0,265.0&gt;-&lt;345.0,258.0&gt;&gt;/L&lt;&lt;345.0,258.0&gt;--&lt;747.0,258.0&gt;&gt; = 8.652541791114704
+
+* uni0620.init: L&lt;&lt;345.0,258.0&gt;--&lt;747.0,258.0&gt;&gt;/B&lt;&lt;747.0,258.0&gt;-&lt;701.0,265.0&gt;-&lt;653.5,283.0&gt;&gt; = 8.652541791114704
+
+* uni0620.init: L&lt;&lt;811.0,191.0&gt;--&lt;791.0,198.0&gt;&gt;/B&lt;&lt;791.0,198.0&gt;-&lt;808.0,187.0&gt;-&lt;817.0,155.5&gt;&gt; = 13.615196703799155
+
+* uni0620.medi: L&lt;&lt;1240.0,193.0&gt;--&lt;880.0,191.0&gt;&gt;/B&lt;&lt;880.0,191.0&gt;-&lt;907.0,186.0&gt;-&lt;918.0,155.0&gt;&gt; = 10.809783623782941
+
+* uni0620.medi: L&lt;&lt;784.0,259.0&gt;--&lt;824.0,238.0&gt;&gt;/B&lt;&lt;824.0,238.0&gt;-&lt;798.0,260.0&gt;-&lt;753.5,280.5&gt;&gt; = 12.536885501218833
 
 * uni0621 (U+FE80): B&lt;&lt;338.0,347.0&gt;-&lt;392.0,392.0&gt;-&lt;447.0,437.0&gt;&gt;/B&lt;&lt;447.0,437.0&gt;-&lt;423.0,421.0&gt;-&lt;380.5,446.5&gt;&gt; = 5.599339336520549
 
@@ -9280,6 +9432,8 @@ definitions.</p>
 
 * uni0627.fina.alt: B&lt;&lt;957.0,435.5&gt;-&lt;948.0,401.0&gt;-&lt;919.0,401.0&gt;&gt;/L&lt;&lt;919.0,401.0&gt;--&lt;1097.0,395.0&gt;&gt; = 1.9305874411669464
 
+* uni0629 (U+FE93): L&lt;&lt;709.0,1037.0&gt;--&lt;708.0,1038.0&gt;&gt;/B&lt;&lt;708.0,1038.0&gt;-&lt;742.0,1008.0&gt;-&lt;788.0,937.0&gt;&gt; = 3.5763343749974728
+
 * uni0637 (U+FEC1): L&lt;&lt;448.0,1509.0&gt;--&lt;448.0,602.0&gt;&gt;/B&lt;&lt;448.0,602.0&gt;-&lt;450.0,649.0&gt;-&lt;476.0,711.5&gt;&gt; = 2.436648246810141
 
 * uni0638 (U+FEC5): L&lt;&lt;448.0,1509.0&gt;--&lt;448.0,602.0&gt;&gt;/B&lt;&lt;448.0,602.0&gt;-&lt;450.0,649.0&gt;-&lt;476.0,711.5&gt;&gt; = 2.436648246810141
@@ -9293,6 +9447,8 @@ definitions.</p>
 * uni0641 (U+FED1): L&lt;&lt;876.0,402.0&gt;--&lt;852.0,547.0&gt;&gt;/B&lt;&lt;852.0,547.0&gt;-&lt;854.0,526.0&gt;-&lt;827.0,520.5&gt;&gt; = 3.9579009649205457
 
 * uni0643 (U+FED9): L&lt;&lt;239.0,403.0&gt;--&lt;238.0,403.0&gt;&gt;/L&lt;&lt;238.0,403.0&gt;--&lt;856.0,386.0&gt;&gt; = 1.5757001333657503
+
+* uni0647 (U+FEE9): L&lt;&lt;709.0,1037.0&gt;--&lt;708.0,1038.0&gt;&gt;/B&lt;&lt;708.0,1038.0&gt;-&lt;742.0,1008.0&gt;-&lt;788.0,937.0&gt;&gt; = 3.5763343749974728
 
 * uni0651 (U+0651): B&lt;&lt;580.5,1380.5&gt;-&lt;539.0,1413.0&gt;-&lt;537.0,1436.0&gt;&gt;/B&lt;&lt;537.0,1436.0&gt;-&lt;534.0,1413.0&gt;-&lt;492.5,1380.5&gt;&gt; = 12.401148699282784
 
@@ -9336,6 +9492,18 @@ definitions.</p>
 
 * uni0679 (U+FB66): L&lt;&lt;565.0,1716.0&gt;--&lt;564.0,1365.0&gt;&gt;/B&lt;&lt;564.0,1365.0&gt;-&lt;571.0,1461.0&gt;-&lt;626.5,1513.5&gt;&gt; = 4.007201127423053
 
+* uni067C (U+067C): B&lt;&lt;377.5,156.5&gt;-&lt;388.0,190.0&gt;-&lt;418.0,192.0&gt;&gt;/L&lt;&lt;418.0,192.0&gt;--&lt;219.0,191.0&gt;&gt; = 3.526158767733217
+
+* uni067C (U+067C): L&lt;&lt;954.0,191.0&gt;--&lt;769.0,192.0&gt;&gt;/B&lt;&lt;769.0,192.0&gt;-&lt;798.0,191.0&gt;-&lt;809.0,156.5&gt;&gt; = 1.6652301109229946
+
+* uni067C.fina: B&lt;&lt;377.5,156.5&gt;-&lt;388.0,190.0&gt;-&lt;418.0,192.0&gt;&gt;/L&lt;&lt;418.0,192.0&gt;--&lt;219.0,191.0&gt;&gt; = 3.526158767733217
+
+* uni067C.fina: L&lt;&lt;1238.0,192.0&gt;--&lt;766.0,191.0&gt;&gt;/B&lt;&lt;766.0,191.0&gt;-&lt;798.0,190.0&gt;-&lt;809.0,156.0&gt;&gt; = 1.911299789996696
+
+* uni067C.init: B&lt;&lt;378.0,155.5&gt;-&lt;389.0,189.0&gt;-&lt;420.0,191.0&gt;&gt;/L&lt;&lt;420.0,191.0&gt;--&lt;0.0,191.0&gt;&gt; = 3.6913859864512575
+
+* uni067C.init: L&lt;&lt;811.0,191.0&gt;--&lt;784.0,202.0&gt;&gt;/B&lt;&lt;784.0,202.0&gt;-&lt;802.0,195.0&gt;-&lt;811.0,159.0&gt;&gt; = 0.9158403149486488
+
 * uni067D.medi: L&lt;&lt;571.0,313.0&gt;--&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;569.0,294.0&gt;-&lt;545.5,265.5&gt;&gt; = 5.710593137499633
 
 * uni0681 (U+0681): B&lt;&lt;327.0,1141.5&gt;-&lt;378.0,1169.0&gt;-&lt;429.0,1182.0&gt;&gt;/B&lt;&lt;429.0,1182.0&gt;-&lt;379.0,1178.0&gt;-&lt;338.0,1230.5&gt;&gt; = 9.726356189284708
@@ -9344,17 +9512,23 @@ definitions.</p>
 
 * uni0681.init: B&lt;&lt;327.0,1313.5&gt;-&lt;378.0,1341.0&gt;-&lt;429.0,1354.0&gt;&gt;/B&lt;&lt;429.0,1354.0&gt;-&lt;379.0,1350.0&gt;-&lt;338.0,1402.5&gt;&gt; = 9.726356189284708
 
-* uni0681.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni0681.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni0681.medi: B&lt;&lt;327.0,1313.5&gt;-&lt;378.0,1341.0&gt;-&lt;429.0,1354.0&gt;&gt;/B&lt;&lt;429.0,1354.0&gt;-&lt;379.0,1350.0&gt;-&lt;338.0,1402.5&gt;&gt; = 9.726356189284708
 
-* uni0682.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni0682.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uni0685.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni0685.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni0686 (U+FB7A): B&lt;&lt;469.0,381.0&gt;-&lt;388.0,314.0&gt;-&lt;327.0,235.0&gt;&gt;/B&lt;&lt;327.0,235.0&gt;-&lt;350.0,257.0&gt;-&lt;374.0,272.5&gt;&gt; = 8.599436680226221
 
 * uni0688 (U+FB88): L&lt;&lt;395.0,1784.0&gt;--&lt;394.0,1433.0&gt;&gt;/B&lt;&lt;394.0,1433.0&gt;-&lt;401.0,1529.0&gt;-&lt;456.5,1581.5&gt;&gt; = 4.007201127423053
+
+* uni0689 (U+0689): B&lt;&lt;321.5,82.0&gt;-&lt;333.0,118.0&gt;-&lt;360.0,119.0&gt;&gt;/B&lt;&lt;360.0,119.0&gt;-&lt;294.0,126.0&gt;-&lt;224.5,149.5&gt;&gt; = 8.175288290776233
+
+* uni0689.fina: B&lt;&lt;321.0,81.0&gt;-&lt;332.0,117.0&gt;-&lt;360.0,117.0&gt;&gt;/B&lt;&lt;360.0,117.0&gt;-&lt;292.0,123.0&gt;-&lt;219.0,146.5&gt;&gt; = 5.042451069170885
+
+* uni0689.fina: B&lt;&lt;876.5,208.5&gt;-&lt;836.0,226.0&gt;-&lt;820.0,262.0&gt;&gt;/B&lt;&lt;820.0,262.0&gt;-&lt;826.0,240.0&gt;-&lt;795.0,206.5&gt;&gt; = 8.707370271520304
 
 * uni068B (U+068B): L&lt;&lt;395.0,1784.0&gt;--&lt;394.0,1433.0&gt;&gt;/B&lt;&lt;394.0,1433.0&gt;-&lt;401.0,1529.0&gt;-&lt;456.5,1581.5&gt;&gt; = 4.007201127423053
 
@@ -9364,15 +9538,7 @@ definitions.</p>
 
 * uni069D.fina: B&lt;&lt;910.0,508.0&gt;-&lt;855.0,416.0&gt;-&lt;753.0,395.0&gt;&gt;/L&lt;&lt;753.0,395.0&gt;--&lt;1229.0,402.0&gt;&gt; = 10.791109738200037
 
-* uni069D.init: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
-* uni069D.medi: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
 * uni069E.fina: B&lt;&lt;910.0,508.0&gt;-&lt;855.0,416.0&gt;-&lt;753.0,395.0&gt;&gt;/L&lt;&lt;753.0,395.0&gt;--&lt;1229.0,402.0&gt;&gt; = 10.791109738200037
-
-* uni069E.init: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
-* uni069E.medi: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
 
 * uni069F (U+069F): L&lt;&lt;448.0,1509.0&gt;--&lt;448.0,602.0&gt;&gt;/B&lt;&lt;448.0,602.0&gt;-&lt;450.0,649.0&gt;-&lt;476.0,711.5&gt;&gt; = 2.436648246810141
 
@@ -9384,7 +9550,7 @@ definitions.</p>
 
 * uni06A0.fina: B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uni06A0.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni06A0.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni06A1 (U+06A1): L&lt;&lt;876.0,402.0&gt;--&lt;852.0,547.0&gt;&gt;/B&lt;&lt;852.0,547.0&gt;-&lt;854.0,526.0&gt;-&lt;827.0,520.5&gt;&gt; = 3.9579009649205457
 
@@ -9409,6 +9575,10 @@ definitions.</p>
 * uni06A7.init: L&lt;&lt;878.0,402.0&gt;--&lt;852.0,549.0&gt;&gt;/B&lt;&lt;852.0,549.0&gt;-&lt;855.0,526.0&gt;-&lt;828.0,520.5&gt;&gt; = 2.598805348560221
 
 * uni06A8.init: L&lt;&lt;878.0,402.0&gt;--&lt;852.0,549.0&gt;&gt;/B&lt;&lt;852.0,549.0&gt;-&lt;855.0,526.0&gt;-&lt;828.0,520.5&gt;&gt; = 2.598805348560221
+
+* uni06AA.fina: L&lt;&lt;1062.0,400.0&gt;--&lt;1061.0,400.0&gt;&gt;/B&lt;&lt;1061.0,400.0&gt;-&lt;1093.0,403.0&gt;-&lt;1140.5,401.5&gt;&gt; = 5.355825042855143
+
+* uni06AA.medi: L&lt;&lt;1062.0,400.0&gt;--&lt;1061.0,400.0&gt;&gt;/B&lt;&lt;1061.0,400.0&gt;-&lt;1093.0,403.0&gt;-&lt;1140.5,401.5&gt;&gt; = 5.355825042855143
 
 * uni06AC (U+06AC): L&lt;&lt;239.0,403.0&gt;--&lt;238.0,403.0&gt;&gt;/L&lt;&lt;238.0,403.0&gt;--&lt;856.0,386.0&gt;&gt; = 1.5757001333657503
 
@@ -9442,6 +9612,22 @@ definitions.</p>
 
 * uni06BB (U+FBA0): L&lt;&lt;538.0,1569.0&gt;--&lt;537.0,1218.0&gt;&gt;/B&lt;&lt;537.0,1218.0&gt;-&lt;544.0,1314.0&gt;-&lt;599.5,1366.5&gt;&gt; = 4.007201127423053
 
+* uni06BC (U+06BC): B&lt;&lt;530.0,-186.0&gt;-&lt;520.0,-186.0&gt;-&lt;526.0,-184.0&gt;&gt;/B&lt;&lt;526.0,-184.0&gt;-&lt;512.0,-187.0&gt;-&lt;499.0,-216.0&gt;&gt; = 6.34019174590985
+
+* uni06BC (U+06BC): B&lt;&lt;562.5,-216.0&gt;-&lt;550.0,-187.0&gt;-&lt;536.0,-184.0&gt;&gt;/B&lt;&lt;536.0,-184.0&gt;-&lt;541.0,-186.0&gt;-&lt;530.0,-186.0&gt;&gt; = 9.706652409339679
+
+* uni06BC (U+06BC): B&lt;&lt;896.0,-80.0&gt;-&lt;823.0,-143.0&gt;-&lt;699.0,-170.0&gt;&gt;/B&lt;&lt;699.0,-170.0&gt;-&lt;731.0,-170.0&gt;-&lt;744.0,-209.0&gt;&gt; = 12.283955441107178
+
+* uni06BC.fina: B&lt;&lt;530.0,-489.0&gt;-&lt;520.0,-489.0&gt;-&lt;526.0,-487.0&gt;&gt;/B&lt;&lt;526.0,-487.0&gt;-&lt;512.0,-490.0&gt;-&lt;499.0,-519.0&gt;&gt; = 6.34019174590985
+
+* uni06BC.fina: B&lt;&lt;562.5,-519.0&gt;-&lt;550.0,-490.0&gt;-&lt;536.0,-487.0&gt;&gt;/B&lt;&lt;536.0,-487.0&gt;-&lt;541.0,-489.0&gt;-&lt;530.0,-489.0&gt;&gt; = 9.706652409339679
+
+* uni06BC.fina: B&lt;&lt;896.0,-383.0&gt;-&lt;823.0,-446.0&gt;-&lt;699.0,-473.0&gt;&gt;/B&lt;&lt;699.0,-473.0&gt;-&lt;731.0,-473.0&gt;-&lt;744.0,-512.0&gt;&gt; = 12.283955441107178
+
+* uni06BC.init: B&lt;&lt;378.0,155.5&gt;-&lt;389.0,189.0&gt;-&lt;420.0,191.0&gt;&gt;/L&lt;&lt;420.0,191.0&gt;--&lt;0.0,191.0&gt;&gt; = 3.6913859864512575
+
+* uni06BC.init: L&lt;&lt;811.0,191.0&gt;--&lt;784.0,202.0&gt;&gt;/B&lt;&lt;784.0,202.0&gt;-&lt;802.0,195.0&gt;-&lt;811.0,159.0&gt;&gt; = 0.9158403149486488
+
 * uni06BD.medi: L&lt;&lt;571.0,313.0&gt;--&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;569.0,294.0&gt;-&lt;545.5,265.5&gt;&gt; = 5.710593137499633
 
 * uni06BE (U+FBAA): B&lt;&lt;697.5,222.0&gt;-&lt;684.0,224.0&gt;-&lt;688.0,234.0&gt;&gt;/B&lt;&lt;688.0,234.0&gt;-&lt;602.0,111.0&gt;-&lt;493.0,46.0&gt;&gt; = 13.159335726495803
@@ -9452,11 +9638,17 @@ definitions.</p>
 
 * uni06BF (U+06BF): B&lt;&lt;469.0,381.0&gt;-&lt;388.0,314.0&gt;-&lt;327.0,235.0&gt;&gt;/B&lt;&lt;327.0,235.0&gt;-&lt;350.0,257.0&gt;-&lt;374.0,272.5&gt;&gt; = 8.599436680226221
 
-* uni06BF.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni06BF.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni06C0 (U+FBA4): B&lt;&lt;327.0,1322.5&gt;-&lt;378.0,1350.0&gt;-&lt;429.0,1363.0&gt;&gt;/B&lt;&lt;429.0,1363.0&gt;-&lt;379.0,1359.0&gt;-&lt;338.0,1411.5&gt;&gt; = 9.726356189284708
 
 * uni06C2 (U+06C2): B&lt;&lt;454.0,1375.5&gt;-&lt;505.0,1403.0&gt;-&lt;556.0,1416.0&gt;&gt;/B&lt;&lt;556.0,1416.0&gt;-&lt;506.0,1412.0&gt;-&lt;465.0,1464.5&gt;&gt; = 9.726356189284708
+
+* uni06C2.fina: B&lt;&lt;280.0,1121.5&gt;-&lt;331.0,1149.0&gt;-&lt;382.0,1162.0&gt;&gt;/B&lt;&lt;382.0,1162.0&gt;-&lt;332.0,1158.0&gt;-&lt;291.0,1210.5&gt;&gt; = 9.726356189284708
+
+* uni06CD (U+06CD): B&lt;&lt;12.5,361.5&gt;-&lt;20.0,406.0&gt;-&lt;45.0,427.0&gt;&gt;/L&lt;&lt;45.0,427.0&gt;--&lt;-4.0,391.0&gt;&gt; = 3.7257621493144115
+
+* uni06CD.fina: B&lt;&lt;12.5,24.5&gt;-&lt;20.0,69.0&gt;-&lt;45.0,91.0&gt;&gt;/L&lt;&lt;45.0,91.0&gt;--&lt;-4.0,55.0&gt;&gt; = 5.043280097118388
 
 * uni06CE.medi: L&lt;&lt;571.0,313.0&gt;--&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;569.0,294.0&gt;-&lt;545.5,265.5&gt;&gt; = 5.710593137499633
 
@@ -9506,21 +9698,15 @@ definitions.</p>
 
 * uni06E7 (U+06E7): B&lt;&lt;381.0,1206.5&gt;-&lt;356.0,1166.0&gt;-&lt;340.0,1163.0&gt;&gt;/L&lt;&lt;340.0,1163.0&gt;--&lt;776.0,1163.0&gt;&gt; = 10.61965527615514
 
-* uni06E9 (U+06E9): B&lt;&lt;334.5,558.0&gt;-&lt;342.0,583.0&gt;-&lt;358.0,603.0&gt;&gt;/L&lt;&lt;358.0,603.0&gt;--&lt;297.0,540.0&gt;&gt; = 5.4161463931371445
-
-* uni06E9 (U+06E9): L&lt;&lt;537.0,789.0&gt;--&lt;378.0,624.0&gt;&gt;/B&lt;&lt;378.0,624.0&gt;-&lt;396.0,638.0&gt;-&lt;418.0,642.0&gt;&gt; = 8.185928039165995
+* uni06E9 (U+06E9): B&lt;&lt;333.5,553.5&gt;-&lt;340.0,576.0&gt;-&lt;353.0,596.0&gt;&gt;/L&lt;&lt;353.0,596.0&gt;--&lt;297.0,540.0&gt;&gt; = 11.976132444203333
 
 * uni06F4 (U+06F4): B&lt;&lt;640.0,596.0&gt;-&lt;574.0,627.0&gt;-&lt;559.0,683.0&gt;&gt;/B&lt;&lt;559.0,683.0&gt;-&lt;593.0,558.0&gt;-&lt;611.5,403.0&gt;&gt; = 0.22124758284497256
 
 * uni06FB.fina: B&lt;&lt;910.0,508.0&gt;-&lt;855.0,416.0&gt;-&lt;753.0,395.0&gt;&gt;/L&lt;&lt;753.0,395.0&gt;--&lt;1229.0,402.0&gt;&gt; = 10.791109738200037
 
-* uni06FB.init: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
-* uni06FB.medi: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
 * uni06FC.fina: B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uni06FC.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni06FC.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni06FD (U+06FD): B&lt;&lt;315.0,478.0&gt;-&lt;369.0,523.0&gt;-&lt;424.0,568.0&gt;&gt;/B&lt;&lt;424.0,568.0&gt;-&lt;400.0,552.0&gt;-&lt;357.5,577.5&gt;&gt; = 5.599339336520549
 
@@ -9548,9 +9734,9 @@ definitions.</p>
 
 * uni0757.fina: B&lt;&lt;325.0,-226.0&gt;-&lt;280.0,-187.0&gt;-&lt;253.0,-145.0&gt;&gt;/B&lt;&lt;253.0,-145.0&gt;-&lt;279.0,-217.0&gt;-&lt;345.5,-263.5&gt;&gt; = 12.88001190278654
 
-* uni0757.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni0757.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uni0758.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni0758.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni0759 (U+0759): L&lt;&lt;395.0,1784.0&gt;--&lt;394.0,1433.0&gt;&gt;/B&lt;&lt;394.0,1433.0&gt;-&lt;401.0,1529.0&gt;-&lt;456.5,1581.5&gt;&gt; = 4.007201127423053
 
@@ -9562,15 +9748,15 @@ definitions.</p>
 
 * uni075D.fina: B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uni075D.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni075D.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni075E.fina: B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uni075E.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni075E.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni075F.fina: B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uni075F.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni075F.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni0760 (U+0760): L&lt;&lt;876.0,402.0&gt;--&lt;852.0,547.0&gt;&gt;/B&lt;&lt;852.0,547.0&gt;-&lt;854.0,526.0&gt;-&lt;827.0,520.5&gt;&gt; = 3.9579009649205457
 
@@ -9608,7 +9794,7 @@ definitions.</p>
 
 * uni076E.fina: L&lt;&lt;583.0,358.0&gt;--&lt;582.0,7.0&gt;&gt;/B&lt;&lt;582.0,7.0&gt;-&lt;589.0,103.0&gt;-&lt;644.0,155.5&gt;&gt; = 4.007201127423053
 
-* uni076E.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni076E.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni076E.init: L&lt;&lt;501.0,-59.0&gt;--&lt;500.0,-410.0&gt;&gt;/B&lt;&lt;500.0,-410.0&gt;-&lt;507.0,-314.0&gt;-&lt;562.5,-261.5&gt;&gt; = 4.007201127423053
 
@@ -9626,7 +9812,7 @@ definitions.</p>
 
 * uni076F.fina: L&lt;&lt;587.0,346.0&gt;--&lt;586.0,-5.0&gt;&gt;/B&lt;&lt;586.0,-5.0&gt;-&lt;593.0,91.0&gt;-&lt;648.5,143.5&gt;&gt; = 4.007201127423053
 
-* uni076F.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni076F.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni076F.init: L&lt;&lt;501.0,-37.0&gt;--&lt;500.0,-388.0&gt;&gt;/B&lt;&lt;500.0,-388.0&gt;-&lt;507.0,-292.0&gt;-&lt;562.5,-239.5&gt;&gt; = 4.007201127423053
 
@@ -9640,7 +9826,7 @@ definitions.</p>
 
 * uni0772.fina: L&lt;&lt;526.0,1602.0&gt;--&lt;525.0,1251.0&gt;&gt;/B&lt;&lt;525.0,1251.0&gt;-&lt;532.0,1347.0&gt;-&lt;587.5,1399.5&gt;&gt; = 4.007201127423053
 
-* uni0772.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni0772.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni0772.init: L&lt;&lt;444.0,1774.0&gt;--&lt;443.0,1423.0&gt;&gt;/B&lt;&lt;443.0,1423.0&gt;-&lt;450.0,1519.0&gt;-&lt;505.5,1571.5&gt;&gt; = 4.007201127423053
 
@@ -9696,17 +9882,9 @@ definitions.</p>
 
 * uni077C.init: B&lt;&lt;575.0,-3.5&gt;-&lt;616.0,-39.0&gt;-&lt;618.0,-66.0&gt;&gt;/B&lt;&lt;618.0,-66.0&gt;-&lt;621.0,-39.0&gt;-&lt;638.0,-19.0&gt;&gt; = 10.576586544968738
 
-* uni077C.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni077C.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni077C.medi: B&lt;&lt;575.0,-3.5&gt;-&lt;616.0,-39.0&gt;-&lt;618.0,-66.0&gt;&gt;/B&lt;&lt;618.0,-66.0&gt;-&lt;621.0,-39.0&gt;-&lt;638.0,-19.0&gt;&gt; = 10.576586544968738
-
-* uni077D (U+077D): L&lt;&lt;613.0,1521.0&gt;--&lt;613.0,1522.0&gt;&gt;/B&lt;&lt;613.0,1522.0&gt;-&lt;612.0,1516.0&gt;-&lt;609.0,1507.0&gt;&gt; = 9.462322208025613
-
-* uni077D.fina: L&lt;&lt;520.0,1521.0&gt;--&lt;520.0,1522.0&gt;&gt;/B&lt;&lt;520.0,1522.0&gt;-&lt;519.0,1516.0&gt;-&lt;516.0,1507.0&gt;&gt; = 9.462322208025613
-
-* uni077D.init: L&lt;&lt;771.0,1521.0&gt;--&lt;771.0,1522.0&gt;&gt;/B&lt;&lt;771.0,1522.0&gt;-&lt;770.0,1516.0&gt;-&lt;767.0,1507.0&gt;&gt; = 9.462322208025613
-
-* uni077D.medi: L&lt;&lt;659.0,1517.0&gt;--&lt;659.0,1521.0&gt;&gt;/B&lt;&lt;659.0,1521.0&gt;-&lt;658.0,1515.0&gt;-&lt;655.0,1507.0&gt;&gt; = 9.462322208025613
 
 * uni077F (U+077F): L&lt;&lt;239.0,403.0&gt;--&lt;238.0,403.0&gt;&gt;/L&lt;&lt;238.0,403.0&gt;--&lt;856.0,386.0&gt;&gt; = 1.5757001333657503
 
@@ -9724,7 +9902,7 @@ definitions.</p>
 
 * uni08A1.medi: L&lt;&lt;571.0,313.0&gt;--&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;569.0,294.0&gt;-&lt;545.5,265.5&gt;&gt; = 5.710593137499633
 
-* uni08A2.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni08A2.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni08A3 (U+08A3): L&lt;&lt;448.0,1509.0&gt;--&lt;448.0,602.0&gt;&gt;/B&lt;&lt;448.0,602.0&gt;-&lt;450.0,649.0&gt;-&lt;476.0,711.5&gt;&gt; = 2.436648246810141
 
@@ -9756,7 +9934,7 @@ definitions.</p>
 
 * uni08AA (U+08AA): B&lt;&lt;922.0,0.0&gt;-&lt;842.0,-76.0&gt;-&lt;742.0,-116.0&gt;&gt;/B&lt;&lt;742.0,-116.0&gt;-&lt;759.0,-113.0&gt;-&lt;763.0,-132.5&gt;&gt; = 11.79342968491046
 
-* uni08AA.fina: B&lt;&lt;915.0,4.0&gt;-&lt;833.0,-75.0&gt;-&lt;730.0,-116.0&gt;&gt;/B&lt;&lt;730.0,-116.0&gt;-&lt;747.0,-113.0&gt;-&lt;751.0,-132.5&gt;&gt; = 11.697456944664232
+* uni08AA.fina: B&lt;&lt;921.0,8.5&gt;-&lt;837.0,-74.0&gt;-&lt;731.0,-115.0&gt;&gt;/B&lt;&lt;731.0,-115.0&gt;-&lt;747.0,-113.0&gt;-&lt;751.0,-132.5&gt;&gt; = 14.021077830505881
 
 * uni08AC (U+08AC): B&lt;&lt;331.0,402.5&gt;-&lt;367.0,404.0&gt;-&lt;386.0,385.0&gt;&gt;/B&lt;&lt;386.0,385.0&gt;-&lt;331.0,434.0&gt;-&lt;294.5,507.0&gt;&gt; = 3.301865674434948
 
@@ -9766,13 +9944,9 @@ definitions.</p>
 
 * uni08AF.fina: B&lt;&lt;910.0,508.0&gt;-&lt;855.0,416.0&gt;-&lt;753.0,395.0&gt;&gt;/L&lt;&lt;753.0,395.0&gt;--&lt;1229.0,402.0&gt;&gt; = 10.791109738200037
 
-* uni08AF.init: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
-* uni08AF.medi: L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
 * uni08B3.fina: B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uni08B3.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni08B3.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni08B4 (U+08B4): L&lt;&lt;239.0,403.0&gt;--&lt;238.0,403.0&gt;&gt;/L&lt;&lt;238.0,403.0&gt;--&lt;856.0,386.0&gt;&gt; = 1.5757001333657503
 
@@ -9810,7 +9984,7 @@ definitions.</p>
 
 * uni08C1 (U+08C1): B&lt;&lt;469.0,381.0&gt;-&lt;388.0,314.0&gt;-&lt;327.0,235.0&gt;&gt;/B&lt;&lt;327.0,235.0&gt;-&lt;350.0,257.0&gt;-&lt;374.0,272.5&gt;&gt; = 8.599436680226221
 
-* uni08C1.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni08C1.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni08C2.medi: L&lt;&lt;252.0,1206.0&gt;--&lt;492.0,1446.0&gt;&gt;/L&lt;&lt;492.0,1446.0&gt;--&lt;372.0,1369.0&gt;&gt; = 12.313063458989452
 
@@ -9818,15 +9992,15 @@ definitions.</p>
 
 * uni08C3.fina: B&lt;&lt;575.0,1520.0&gt;-&lt;572.0,1520.0&gt;-&lt;570.0,1521.0&gt;&gt;/B&lt;&lt;570.0,1521.0&gt;-&lt;605.0,1491.0&gt;-&lt;634.5,1450.5&gt;&gt; = 14.036243467926457
 
-* uni08C3.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uni08C3.init: L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uni08C4.init: L&lt;&lt;878.0,402.0&gt;--&lt;852.0,549.0&gt;&gt;/B&lt;&lt;852.0,549.0&gt;-&lt;855.0,526.0&gt;-&lt;828.0,520.5&gt;&gt; = 2.598805348560221
 
-* uni08C5.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni08C5.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni08C6.fina: L&lt;&lt;525.0,105.0&gt;--&lt;526.0,104.0&gt;&gt;/B&lt;&lt;526.0,104.0&gt;-&lt;491.0,134.0&gt;-&lt;462.0,173.0&gt;&gt; = 4.398705354995591
 
-* uni08C6.init: L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uni08C6.init: L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uni08C7 (U+08C7): L&lt;&lt;440.0,1620.0&gt;--&lt;439.0,1269.0&gt;&gt;/B&lt;&lt;439.0,1269.0&gt;-&lt;446.0,1365.0&gt;-&lt;501.5,1417.5&gt;&gt; = 4.007201127423053
 
@@ -9844,21 +10018,27 @@ definitions.</p>
 
 * uni08DA (U+08DA): B&lt;&lt;270.0,1432.0&gt;-&lt;254.0,1412.0&gt;-&lt;236.0,1401.0&gt;&gt;/B&lt;&lt;236.0,1401.0&gt;-&lt;242.0,1403.0&gt;-&lt;248.0,1404.0&gt;&gt; = 12.994616791916455
 
+* uni08DB (U+08DB): L&lt;&lt;652.0,1095.0&gt;--&lt;650.0,1097.0&gt;&gt;/B&lt;&lt;650.0,1097.0&gt;-&lt;652.0,1094.0&gt;-&lt;652.0,1094.0&gt;&gt; = 11.309932474020227
+
+* uni08DB (U+08DB): L&lt;&lt;887.0,1095.0&gt;--&lt;883.0,1096.0&gt;&gt;/L&lt;&lt;883.0,1096.0&gt;--&lt;883.0,1096.0&gt;&gt; = 14.036243467926484
+
 * uni08DD (U+08DD): B&lt;&lt;253.0,1435.0&gt;-&lt;238.0,1416.0&gt;-&lt;220.0,1404.0&gt;&gt;/B&lt;&lt;220.0,1404.0&gt;-&lt;225.0,1406.0&gt;-&lt;230.0,1407.0&gt;&gt; = 11.888658039627936
 
 * uni08DD (U+08DD): B&lt;&lt;472.0,1290.0&gt;-&lt;474.0,1316.0&gt;-&lt;492.0,1344.0&gt;&gt;/B&lt;&lt;492.0,1344.0&gt;-&lt;468.0,1319.0&gt;-&lt;445.0,1314.0&gt;&gt; = 11.095634399984965
+
+* uni08DD (U+08DD): L&lt;&lt;326.0,1127.0&gt;--&lt;325.0,1128.0&gt;&gt;/B&lt;&lt;325.0,1128.0&gt;-&lt;340.0,1119.0&gt;-&lt;339.0,1176.0&gt;&gt; = 14.036243467926484
 
 * uni08DE (U+08DE): L&lt;&lt;813.0,1127.0&gt;--&lt;787.0,1150.0&gt;&gt;/B&lt;&lt;787.0,1150.0&gt;-&lt;798.0,1138.0&gt;-&lt;801.0,1131.0&gt;&gt; = 5.99308456678352
 
 * uni08DF (U+08DF): B&lt;&lt;337.0,1433.5&gt;-&lt;321.0,1414.0&gt;-&lt;302.0,1402.0&gt;&gt;/B&lt;&lt;302.0,1402.0&gt;-&lt;308.0,1405.0&gt;-&lt;315.0,1406.0&gt;&gt; = 5.710593137499568
 
-* uni08DF (U+08DF): B&lt;&lt;371.0,1122.0&gt;-&lt;354.0,1146.0&gt;-&lt;347.0,1178.0&gt;&gt;/L&lt;&lt;347.0,1178.0&gt;--&lt;347.0,1141.0&gt;&gt; = 12.33908727832618
+* uni08DF (U+08DF): B&lt;&lt;367.0,1127.0&gt;-&lt;353.0,1150.0&gt;-&lt;347.0,1178.0&gt;&gt;/L&lt;&lt;347.0,1178.0&gt;--&lt;347.0,1141.0&gt;&gt; = 12.094757077012089
 
 * uni08DF (U+08DF): L&lt;&lt;287.0,1394.0&gt;--&lt;289.0,1396.0&gt;&gt;/B&lt;&lt;289.0,1396.0&gt;-&lt;284.0,1393.0&gt;-&lt;279.0,1392.0&gt;&gt; = 14.036243467926484
 
 * uni08DF (U+08DF): L&lt;&lt;347.0,1260.0&gt;--&lt;347.0,1227.0&gt;&gt;/B&lt;&lt;347.0,1227.0&gt;-&lt;356.0,1269.0&gt;-&lt;389.5,1299.0&gt;&gt; = 12.094757077012089
 
-* uni08DF (U+08DF): L&lt;&lt;755.0,1124.0&gt;--&lt;745.0,1137.0&gt;&gt;/B&lt;&lt;745.0,1137.0&gt;-&lt;749.0,1130.0&gt;-&lt;749.0,1124.0&gt;&gt; = 7.823710731885198
+* uni08DF (U+08DF): L&lt;&lt;755.0,1124.0&gt;--&lt;745.0,1137.0&gt;&gt;/B&lt;&lt;745.0,1137.0&gt;-&lt;749.0,1130.0&gt;-&lt;749.0,1125.0&gt;&gt; = 7.823710731885198
 
 * uni08E1 (U+08E1): B&lt;&lt;540.0,1151.5&gt;-&lt;474.0,1173.0&gt;-&lt;443.0,1212.0&gt;&gt;/B&lt;&lt;443.0,1212.0&gt;-&lt;451.0,1197.0&gt;-&lt;428.0,1179.5&gt;&gt; = 10.40771131249005
 
@@ -9888,69 +10068,61 @@ definitions.</p>
 
 * uni1E47 (U+1E47): L&lt;&lt;376.0,869.0&gt;--&lt;352.0,739.0&gt;&gt;/B&lt;&lt;352.0,739.0&gt;-&lt;379.0,802.0&gt;-&lt;437.5,857.0&gt;&gt; = 12.738681420719038
 
-* uni1EA2 (U+1EA2): B&lt;&lt;420.0,1687.0&gt;-&lt;421.0,1679.0&gt;-&lt;411.0,1667.0&gt;&gt;/L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt; = 5.1944289077348
+* uni1E97 (U+1E97): B&lt;&lt;458.0,1243.0&gt;-&lt;492.0,1242.0&gt;-&lt;518.0,1227.0&gt;&gt;/B&lt;&lt;518.0,1227.0&gt;-&lt;492.0,1244.0&gt;-&lt;475.0,1272.0&gt;&gt; = 3.1968722905434217
 
-* uni1EA2 (U+1EA2): L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt;/B&lt;&lt;412.0,1668.0&gt;-&lt;407.0,1661.0&gt;-&lt;395.0,1662.0&gt;&gt; = 9.462322208025613
+* uni1E97 (U+1E97): B&lt;&lt;583.0,1205.0&gt;-&lt;553.0,1206.0&gt;-&lt;525.0,1223.0&gt;&gt;/B&lt;&lt;525.0,1223.0&gt;-&lt;566.0,1195.0&gt;-&lt;567.0,1144.0&gt;&gt; = 3.0664855011258196
 
-* uni1EA3 (U+1EA3): B&lt;&lt;420.0,1208.0&gt;-&lt;421.0,1200.0&gt;-&lt;411.0,1188.0&gt;&gt;/L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt; = 5.1944289077348
+* uni1EA1 (U+1EA1): B&lt;&lt;510.0,-84.0&gt;-&lt;534.0,-58.0&gt;-&lt;580.0,-50.0&gt;&gt;/B&lt;&lt;580.0,-50.0&gt;-&lt;540.0,-56.0&gt;-&lt;499.0,-56.0&gt;&gt; = 1.3350413331361433
 
-* uni1EA3 (U+1EA3): L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt;/B&lt;&lt;412.0,1189.0&gt;-&lt;407.0,1182.0&gt;-&lt;395.0,1183.0&gt;&gt; = 9.462322208025613
+* uni1EA1 (U+1EA1): B&lt;&lt;732.5,-6.0&gt;-&lt;664.0,-37.0&gt;-&lt;587.0,-49.0&gt;&gt;/B&lt;&lt;587.0,-49.0&gt;-&lt;600.0,-47.0&gt;-&lt;614.0,-47.0&gt;&gt; = 0.11179650107064522
 
-* uni1EA8 (U+1EA8): B&lt;&lt;623.0,1874.0&gt;-&lt;624.0,1866.0&gt;-&lt;614.0,1854.0&gt;&gt;/L&lt;&lt;614.0,1854.0&gt;--&lt;615.0,1855.0&gt;&gt; = 5.1944289077348
+* uni1EA1 (U+1EA1): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;801.0,25.0&gt;-&lt;732.5,-6.0&gt;&gt; = 2.3842032051980606
 
-* uni1EA8 (U+1EA8): L&lt;&lt;614.0,1854.0&gt;--&lt;615.0,1855.0&gt;&gt;/B&lt;&lt;615.0,1855.0&gt;-&lt;610.0,1848.0&gt;-&lt;598.0,1849.0&gt;&gt; = 9.462322208025613
+* uni1EA3 (U+1EA3): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EA9 (U+1EA9): B&lt;&lt;623.0,1513.0&gt;-&lt;624.0,1505.0&gt;-&lt;614.0,1493.0&gt;&gt;/L&lt;&lt;614.0,1493.0&gt;--&lt;615.0,1494.0&gt;&gt; = 5.1944289077348
+* uni1EA5 (U+1EA5): B&lt;&lt;638.0,980.0&gt;-&lt;694.0,980.0&gt;-&lt;743.0,971.0&gt;&gt;/L&lt;&lt;743.0,971.0&gt;--&lt;539.0,1035.0&gt;&gt; = 7.0102594797127695
 
-* uni1EA9 (U+1EA9): L&lt;&lt;614.0,1493.0&gt;--&lt;615.0,1494.0&gt;&gt;/B&lt;&lt;615.0,1494.0&gt;-&lt;610.0,1487.0&gt;-&lt;598.0,1488.0&gt;&gt; = 9.462322208025613
+* uni1EA5 (U+1EA5): B&lt;&lt;839.0,1000.5&gt;-&lt;812.0,965.0&gt;-&lt;764.0,967.0&gt;&gt;/B&lt;&lt;764.0,967.0&gt;-&lt;900.0,938.0&gt;-&lt;973.5,847.0&gt;&gt; = 9.651258289976933
 
-* uni1EB2 (U+1EB2): B&lt;&lt;422.0,1917.0&gt;-&lt;423.0,1909.0&gt;-&lt;413.0,1897.0&gt;&gt;/L&lt;&lt;413.0,1897.0&gt;--&lt;414.0,1898.0&gt;&gt; = 5.1944289077348
+* uni1EA5 (U+1EA5): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EB2 (U+1EB2): L&lt;&lt;413.0,1897.0&gt;--&lt;414.0,1898.0&gt;&gt;/B&lt;&lt;414.0,1898.0&gt;-&lt;409.0,1891.0&gt;-&lt;397.0,1892.0&gt;&gt; = 9.462322208025613
+* uni1EA7 (U+1EA7): B&lt;&lt;638.0,980.0&gt;-&lt;694.0,980.0&gt;-&lt;743.0,971.0&gt;&gt;/L&lt;&lt;743.0,971.0&gt;--&lt;539.0,1035.0&gt;&gt; = 7.0102594797127695
 
-* uni1EB3 (U+1EB3): B&lt;&lt;422.0,1560.0&gt;-&lt;423.0,1552.0&gt;-&lt;413.0,1540.0&gt;&gt;/L&lt;&lt;413.0,1540.0&gt;--&lt;414.0,1541.0&gt;&gt; = 5.1944289077348
+* uni1EA7 (U+1EA7): B&lt;&lt;839.0,1000.5&gt;-&lt;812.0,965.0&gt;-&lt;764.0,967.0&gt;&gt;/B&lt;&lt;764.0,967.0&gt;-&lt;900.0,938.0&gt;-&lt;973.5,847.0&gt;&gt; = 9.651258289976933
 
-* uni1EB3 (U+1EB3): L&lt;&lt;413.0,1540.0&gt;--&lt;414.0,1541.0&gt;&gt;/B&lt;&lt;414.0,1541.0&gt;-&lt;409.0,1534.0&gt;-&lt;397.0,1535.0&gt;&gt; = 9.462322208025613
+* uni1EA7 (U+1EA7): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EBA (U+1EBA): B&lt;&lt;420.0,1687.0&gt;-&lt;421.0,1679.0&gt;-&lt;411.0,1667.0&gt;&gt;/L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt; = 5.1944289077348
+* uni1EA9 (U+1EA9): B&lt;&lt;638.0,980.0&gt;-&lt;694.0,980.0&gt;-&lt;743.0,971.0&gt;&gt;/L&lt;&lt;743.0,971.0&gt;--&lt;539.0,1035.0&gt;&gt; = 7.0102594797127695
 
-* uni1EBA (U+1EBA): L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt;/B&lt;&lt;412.0,1668.0&gt;-&lt;407.0,1661.0&gt;-&lt;395.0,1662.0&gt;&gt; = 9.462322208025613
+* uni1EA9 (U+1EA9): B&lt;&lt;839.0,1000.5&gt;-&lt;812.0,965.0&gt;-&lt;764.0,967.0&gt;&gt;/B&lt;&lt;764.0,967.0&gt;-&lt;900.0,938.0&gt;-&lt;973.5,847.0&gt;&gt; = 9.651258289976933
 
-* uni1EBB (U+1EBB): B&lt;&lt;420.0,1208.0&gt;-&lt;421.0,1200.0&gt;-&lt;411.0,1188.0&gt;&gt;/L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt; = 5.1944289077348
+* uni1EA9 (U+1EA9): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EBB (U+1EBB): L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt;/B&lt;&lt;412.0,1189.0&gt;-&lt;407.0,1182.0&gt;-&lt;395.0,1183.0&gt;&gt; = 9.462322208025613
+* uni1EAB (U+1EAB): B&lt;&lt;638.0,980.0&gt;-&lt;694.0,980.0&gt;-&lt;743.0,971.0&gt;&gt;/L&lt;&lt;743.0,971.0&gt;--&lt;539.0,1035.0&gt;&gt; = 7.0102594797127695
 
-* uni1EC2 (U+1EC2): B&lt;&lt;623.0,1874.0&gt;-&lt;624.0,1866.0&gt;-&lt;614.0,1854.0&gt;&gt;/L&lt;&lt;614.0,1854.0&gt;--&lt;615.0,1855.0&gt;&gt; = 5.1944289077348
+* uni1EAB (U+1EAB): B&lt;&lt;839.0,1000.5&gt;-&lt;812.0,965.0&gt;-&lt;764.0,967.0&gt;&gt;/B&lt;&lt;764.0,967.0&gt;-&lt;900.0,938.0&gt;-&lt;973.5,847.0&gt;&gt; = 9.651258289976933
 
-* uni1EC2 (U+1EC2): L&lt;&lt;614.0,1854.0&gt;--&lt;615.0,1855.0&gt;&gt;/B&lt;&lt;615.0,1855.0&gt;-&lt;610.0,1848.0&gt;-&lt;598.0,1849.0&gt;&gt; = 9.462322208025613
+* uni1EAB (U+1EAB): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EC3 (U+1EC3): B&lt;&lt;623.0,1513.0&gt;-&lt;624.0,1505.0&gt;-&lt;614.0,1493.0&gt;&gt;/L&lt;&lt;614.0,1493.0&gt;--&lt;615.0,1494.0&gt;&gt; = 5.1944289077348
+* uni1EAD (U+1EAD): B&lt;&lt;510.0,-84.0&gt;-&lt;534.0,-58.0&gt;-&lt;580.0,-50.0&gt;&gt;/B&lt;&lt;580.0,-50.0&gt;-&lt;540.0,-56.0&gt;-&lt;499.0,-56.0&gt;&gt; = 1.3350413331361433
 
-* uni1EC3 (U+1EC3): L&lt;&lt;614.0,1493.0&gt;--&lt;615.0,1494.0&gt;&gt;/B&lt;&lt;615.0,1494.0&gt;-&lt;610.0,1487.0&gt;-&lt;598.0,1488.0&gt;&gt; = 9.462322208025613
+* uni1EAD (U+1EAD): B&lt;&lt;732.5,-6.0&gt;-&lt;664.0,-37.0&gt;-&lt;587.0,-49.0&gt;&gt;/B&lt;&lt;587.0,-49.0&gt;-&lt;600.0,-47.0&gt;-&lt;614.0,-47.0&gt;&gt; = 0.11179650107064522
 
-* uni1EC8 (U+1EC8): B&lt;&lt;420.0,1687.0&gt;-&lt;421.0,1679.0&gt;-&lt;411.0,1667.0&gt;&gt;/L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt; = 5.1944289077348
+* uni1EAD (U+1EAD): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;801.0,25.0&gt;-&lt;732.5,-6.0&gt;&gt; = 2.3842032051980606
 
-* uni1EC8 (U+1EC8): L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt;/B&lt;&lt;412.0,1668.0&gt;-&lt;407.0,1661.0&gt;-&lt;395.0,1662.0&gt;&gt; = 9.462322208025613
+* uni1EAF (U+1EAF): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EC9 (U+1EC9): B&lt;&lt;420.0,1208.0&gt;-&lt;421.0,1200.0&gt;-&lt;411.0,1188.0&gt;&gt;/L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt; = 5.1944289077348
+* uni1EB1 (U+1EB1): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1EC9 (U+1EC9): L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt;/B&lt;&lt;412.0,1189.0&gt;-&lt;407.0,1182.0&gt;-&lt;395.0,1183.0&gt;&gt; = 9.462322208025613
+* uni1EB3 (U+1EB3): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1ECE (U+1ECE): B&lt;&lt;420.0,1687.0&gt;-&lt;421.0,1679.0&gt;-&lt;411.0,1667.0&gt;&gt;/L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt; = 5.1944289077348
+* uni1EB5 (U+1EB5): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;786.0,13.0&gt;-&lt;694.0,-21.5&gt;&gt; = 2.3559833193599045
 
-* uni1ECE (U+1ECE): L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt;/B&lt;&lt;412.0,1668.0&gt;-&lt;407.0,1661.0&gt;-&lt;395.0,1662.0&gt;&gt; = 9.462322208025613
+* uni1EB7 (U+1EB7): B&lt;&lt;510.0,-84.0&gt;-&lt;534.0,-58.0&gt;-&lt;580.0,-50.0&gt;&gt;/B&lt;&lt;580.0,-50.0&gt;-&lt;540.0,-56.0&gt;-&lt;499.0,-56.0&gt;&gt; = 1.3350413331361433
 
-* uni1ECF (U+1ECF): B&lt;&lt;420.0,1208.0&gt;-&lt;421.0,1200.0&gt;-&lt;411.0,1188.0&gt;&gt;/L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt; = 5.1944289077348
+* uni1EB7 (U+1EB7): B&lt;&lt;732.5,-6.0&gt;-&lt;664.0,-37.0&gt;-&lt;587.0,-49.0&gt;&gt;/B&lt;&lt;587.0,-49.0&gt;-&lt;600.0,-47.0&gt;-&lt;614.0,-47.0&gt;&gt; = 0.11179650107064522
 
-* uni1ECF (U+1ECF): L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt;/B&lt;&lt;412.0,1189.0&gt;-&lt;407.0,1182.0&gt;-&lt;395.0,1183.0&gt;&gt; = 9.462322208025613
-
-* uni1ED4 (U+1ED4): B&lt;&lt;623.0,1874.0&gt;-&lt;624.0,1866.0&gt;-&lt;614.0,1854.0&gt;&gt;/L&lt;&lt;614.0,1854.0&gt;--&lt;615.0,1855.0&gt;&gt; = 5.1944289077348
-
-* uni1ED4 (U+1ED4): L&lt;&lt;614.0,1854.0&gt;--&lt;615.0,1855.0&gt;&gt;/B&lt;&lt;615.0,1855.0&gt;-&lt;610.0,1848.0&gt;-&lt;598.0,1849.0&gt;&gt; = 9.462322208025613
-
-* uni1ED5 (U+1ED5): B&lt;&lt;623.0,1513.0&gt;-&lt;624.0,1505.0&gt;-&lt;614.0,1493.0&gt;&gt;/L&lt;&lt;614.0,1493.0&gt;--&lt;615.0,1494.0&gt;&gt; = 5.1944289077348
-
-* uni1ED5 (U+1ED5): L&lt;&lt;614.0,1493.0&gt;--&lt;615.0,1494.0&gt;&gt;/B&lt;&lt;615.0,1494.0&gt;-&lt;610.0,1487.0&gt;-&lt;598.0,1488.0&gt;&gt; = 9.462322208025613
+* uni1EB7 (U+1EB7): L&lt;&lt;840.0,55.0&gt;--&lt;855.0,68.0&gt;&gt;/B&lt;&lt;855.0,68.0&gt;-&lt;801.0,25.0&gt;-&lt;732.5,-6.0&gt;&gt; = 2.3842032051980606
 
 * uni1EDB (U+1EDB): B&lt;&lt;535.0,933.0&gt;-&lt;644.0,933.0&gt;-&lt;735.0,882.0&gt;&gt;/B&lt;&lt;735.0,882.0&gt;-&lt;731.0,885.0&gt;-&lt;748.0,888.0&gt;&gt; = 7.6019024309512755
 
@@ -9958,19 +10130,9 @@ definitions.</p>
 
 * uni1EDF (U+1EDF): B&lt;&lt;604.0,927.0&gt;-&lt;676.0,915.0&gt;-&lt;735.0,882.0&gt;&gt;/B&lt;&lt;735.0,882.0&gt;-&lt;731.0,885.0&gt;-&lt;748.0,888.0&gt;&gt; = 7.650650955359358
 
-* uni1EE1 (U+1EE1): B&lt;&lt;535.0,933.0&gt;-&lt;644.0,933.0&gt;-&lt;735.0,882.0&gt;&gt;/B&lt;&lt;735.0,882.0&gt;-&lt;731.0,885.0&gt;-&lt;748.0,888.0&gt;&gt; = 7.6019024309512755
-
 * uni1EE3 (U+1EE3): B&lt;&lt;535.0,933.0&gt;-&lt;644.0,933.0&gt;-&lt;735.0,882.0&gt;&gt;/B&lt;&lt;735.0,882.0&gt;-&lt;731.0,885.0&gt;-&lt;748.0,888.0&gt;&gt; = 7.6019024309512755
 
 * uni1EE5 (U+1EE5): L&lt;&lt;852.0,55.0&gt;--&lt;876.0,185.0&gt;&gt;/B&lt;&lt;876.0,185.0&gt;-&lt;849.0,122.0&gt;-&lt;790.5,67.0&gt;&gt; = 12.738681420719066
-
-* uni1EE6 (U+1EE6): B&lt;&lt;420.0,1687.0&gt;-&lt;421.0,1679.0&gt;-&lt;411.0,1667.0&gt;&gt;/L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt; = 5.1944289077348
-
-* uni1EE6 (U+1EE6): L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt;/B&lt;&lt;412.0,1668.0&gt;-&lt;407.0,1661.0&gt;-&lt;395.0,1662.0&gt;&gt; = 9.462322208025613
-
-* uni1EE7 (U+1EE7): B&lt;&lt;420.0,1208.0&gt;-&lt;421.0,1200.0&gt;-&lt;411.0,1188.0&gt;&gt;/L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt; = 5.1944289077348
-
-* uni1EE7 (U+1EE7): L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt;/B&lt;&lt;412.0,1189.0&gt;-&lt;407.0,1182.0&gt;-&lt;395.0,1183.0&gt;&gt; = 9.462322208025613
 
 * uni1EE7 (U+1EE7): L&lt;&lt;852.0,55.0&gt;--&lt;876.0,185.0&gt;&gt;/B&lt;&lt;876.0,185.0&gt;-&lt;849.0,122.0&gt;-&lt;790.5,67.0&gt;&gt; = 12.738681420719066
 
@@ -9984,59 +10146,55 @@ definitions.</p>
 
 * uni1EF1 (U+1EF1): L&lt;&lt;852.0,55.0&gt;--&lt;876.0,185.0&gt;&gt;/B&lt;&lt;876.0,185.0&gt;-&lt;849.0,122.0&gt;-&lt;790.5,67.0&gt;&gt; = 12.738681420719066
 
-* uni1EF6 (U+1EF6): B&lt;&lt;420.0,1687.0&gt;-&lt;421.0,1679.0&gt;-&lt;411.0,1667.0&gt;&gt;/L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt; = 5.1944289077348
-
-* uni1EF6 (U+1EF6): L&lt;&lt;411.0,1667.0&gt;--&lt;412.0,1668.0&gt;&gt;/B&lt;&lt;412.0,1668.0&gt;-&lt;407.0,1661.0&gt;-&lt;395.0,1662.0&gt;&gt; = 9.462322208025613
-
-* uni1EF7 (U+1EF7): B&lt;&lt;420.0,1208.0&gt;-&lt;421.0,1200.0&gt;-&lt;411.0,1188.0&gt;&gt;/L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt; = 5.1944289077348
-
-* uni1EF7 (U+1EF7): L&lt;&lt;411.0,1188.0&gt;--&lt;412.0,1189.0&gt;&gt;/B&lt;&lt;412.0,1189.0&gt;-&lt;407.0,1182.0&gt;-&lt;395.0,1183.0&gt;&gt; = 9.462322208025613
-
 * uni1EF9 (U+1EF9): B&lt;&lt;1100.0,1088.0&gt;-&lt;1049.0,1006.0&gt;-&lt;972.0,956.0&gt;&gt;/B&lt;&lt;972.0,956.0&gt;-&lt;1014.0,976.0&gt;-&lt;1064.0,955.0&gt;&gt; = 7.534360039344612
 
 * uni1EF9 (U+1EF9): B&lt;&lt;924.0,909.0&gt;-&lt;935.0,931.0&gt;-&lt;954.0,945.0&gt;&gt;/B&lt;&lt;954.0,945.0&gt;-&lt;884.0,906.0&gt;-&lt;810.0,905.0&gt;&gt; = 7.2602983210585
 
 * uni1F06 (U+1F06): B&lt;&lt;467.0,1075.0&gt;-&lt;468.0,1076.0&gt;-&lt;462.0,1079.0&gt;&gt;/L&lt;&lt;462.0,1079.0&gt;--&lt;467.0,1075.0&gt;&gt; = 12.094757077012058
 
-* uni1F08 (U+1F08): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1F09 (U+1F09): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1F0A (U+1F0A): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1F0B (U+1F0B): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1F0C (U+1F0C): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1F0D (U+1F0D): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1F0E (U+1F0E): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
+* uni1F07 (U+1F07): L&lt;&lt;518.0,1075.0&gt;--&lt;523.0,1079.0&gt;&gt;/B&lt;&lt;523.0,1079.0&gt;-&lt;518.0,1076.0&gt;-&lt;518.0,1075.0&gt;&gt; = 7.696051722016556
 
 * uni1F0E (U+1F0E): B&lt;&lt;21.0,930.0&gt;-&lt;22.0,931.0&gt;-&lt;16.0,934.0&gt;&gt;/L&lt;&lt;16.0,934.0&gt;--&lt;21.0,930.0&gt;&gt; = 12.094757077012058
 
-* uni1F0F (U+1F0F): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
+* uni1F0F (U+1F0F): L&lt;&lt;71.0,930.0&gt;--&lt;76.0,934.0&gt;&gt;/B&lt;&lt;76.0,934.0&gt;-&lt;71.0,931.0&gt;-&lt;71.0,930.0&gt;&gt; = 7.696051722016556
 
 * uni1F26 (U+1F26): B&lt;&lt;491.0,1075.0&gt;-&lt;492.0,1076.0&gt;-&lt;486.0,1079.0&gt;&gt;/L&lt;&lt;486.0,1079.0&gt;--&lt;491.0,1075.0&gt;&gt; = 12.094757077012058
 
+* uni1F27 (U+1F27): L&lt;&lt;541.0,1075.0&gt;--&lt;546.0,1079.0&gt;&gt;/B&lt;&lt;546.0,1079.0&gt;-&lt;541.0,1076.0&gt;-&lt;541.0,1075.0&gt;&gt; = 7.696051722016556
+
 * uni1F2E (U+1F2E): B&lt;&lt;-389.0,905.0&gt;-&lt;-388.0,906.0&gt;-&lt;-394.0,909.0&gt;&gt;/L&lt;&lt;-394.0,909.0&gt;--&lt;-389.0,905.0&gt;&gt; = 12.094757077012058
+
+* uni1F2F (U+1F2F): L&lt;&lt;-339.0,905.0&gt;--&lt;-334.0,909.0&gt;&gt;/B&lt;&lt;-334.0,909.0&gt;-&lt;-339.0,906.0&gt;-&lt;-339.0,905.0&gt;&gt; = 7.696051722016556
 
 * uni1F30 (U+1F30): B&lt;&lt;411.0,931.5&gt;-&lt;434.0,950.0&gt;-&lt;456.0,958.0&gt;&gt;/B&lt;&lt;456.0,958.0&gt;-&lt;448.0,957.0&gt;-&lt;442.0,957.0&gt;&gt; = 12.858090172998171
 
 * uni1F36 (U+1F36): B&lt;&lt;503.0,1075.0&gt;-&lt;504.0,1076.0&gt;-&lt;498.0,1079.0&gt;&gt;/L&lt;&lt;498.0,1079.0&gt;--&lt;503.0,1075.0&gt;&gt; = 12.094757077012058
 
+* uni1F37 (U+1F37): L&lt;&lt;553.0,1075.0&gt;--&lt;558.0,1079.0&gt;&gt;/B&lt;&lt;558.0,1079.0&gt;-&lt;553.0,1076.0&gt;-&lt;553.0,1075.0&gt;&gt; = 7.696051722016556
+
 * uni1F3E (U+1F3E): B&lt;&lt;-233.0,863.0&gt;-&lt;-232.0,864.0&gt;-&lt;-238.0,867.0&gt;&gt;/L&lt;&lt;-238.0,867.0&gt;--&lt;-233.0,863.0&gt;&gt; = 12.094757077012058
+
+* uni1F3F (U+1F3F): L&lt;&lt;-183.0,863.0&gt;--&lt;-178.0,867.0&gt;&gt;/B&lt;&lt;-178.0,867.0&gt;-&lt;-183.0,864.0&gt;-&lt;-183.0,863.0&gt;&gt; = 7.696051722016556
 
 * uni1F56 (U+1F56): B&lt;&lt;505.0,1075.0&gt;-&lt;506.0,1076.0&gt;-&lt;500.0,1079.0&gt;&gt;/L&lt;&lt;500.0,1079.0&gt;--&lt;505.0,1075.0&gt;&gt; = 12.094757077012058
 
+* uni1F57 (U+1F57): L&lt;&lt;555.0,1075.0&gt;--&lt;560.0,1079.0&gt;&gt;/B&lt;&lt;560.0,1079.0&gt;-&lt;556.0,1077.0&gt;-&lt;555.0,1076.0&gt;&gt; = 12.094757077012058
+
+* uni1F5F (U+1F5F): L&lt;&lt;-151.0,928.0&gt;--&lt;-146.0,932.0&gt;&gt;/B&lt;&lt;-146.0,932.0&gt;-&lt;-151.0,929.0&gt;-&lt;-151.0,928.0&gt;&gt; = 7.696051722016556
+
 * uni1F66 (U+1F66): B&lt;&lt;507.0,1075.0&gt;-&lt;508.0,1076.0&gt;-&lt;502.0,1079.0&gt;&gt;/L&lt;&lt;502.0,1079.0&gt;--&lt;507.0,1075.0&gt;&gt; = 12.094757077012058
+
+* uni1F67 (U+1F67): L&lt;&lt;557.0,1075.0&gt;--&lt;562.0,1079.0&gt;&gt;/B&lt;&lt;562.0,1079.0&gt;-&lt;558.0,1077.0&gt;-&lt;557.0,1076.0&gt;&gt; = 12.094757077012058
 
 * uni1F6E (U+1F6E): B&lt;&lt;-4.0,983.0&gt;-&lt;-3.0,984.0&gt;-&lt;-9.0,987.0&gt;&gt;/L&lt;&lt;-9.0,987.0&gt;--&lt;-4.0,983.0&gt;&gt; = 12.094757077012058
 
+* uni1F6F (U+1F6F): L&lt;&lt;34.0,983.0&gt;--&lt;39.0,987.0&gt;&gt;/B&lt;&lt;39.0,987.0&gt;-&lt;34.0,984.0&gt;-&lt;34.0,983.0&gt;&gt; = 7.696051722016556
+
 * uni1F86 (U+1F86): B&lt;&lt;467.0,1075.0&gt;-&lt;468.0,1076.0&gt;-&lt;462.0,1079.0&gt;&gt;/L&lt;&lt;462.0,1079.0&gt;--&lt;467.0,1075.0&gt;&gt; = 12.094757077012058
 
-* uni1F88 (U+1F88): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
+* uni1F87 (U+1F87): L&lt;&lt;518.0,1075.0&gt;--&lt;523.0,1079.0&gt;&gt;/B&lt;&lt;523.0,1079.0&gt;-&lt;518.0,1076.0&gt;-&lt;518.0,1075.0&gt;&gt; = 7.696051722016556
 
-* uni1F88 (U+1F88): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
+* uni1F88 (U+1F88): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
 
 * uni1F88 (U+1F88): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
@@ -10044,15 +10202,11 @@ definitions.</p>
 
 * uni1F89 (U+1F89): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
 
-* uni1F89 (U+1F89): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
 * uni1F89 (U+1F89): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
 * uni1F89 (U+1F89): L&lt;&lt;1409.0,416.0&gt;--&lt;1409.0,127.0&gt;&gt;/B&lt;&lt;1409.0,127.0&gt;-&lt;1415.0,151.0&gt;-&lt;1442.5,129.5&gt;&gt; = 14.036243467926457
 
 * uni1F8A (U+1F8A): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
-
-* uni1F8A (U+1F8A): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
 
 * uni1F8A (U+1F8A): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
@@ -10060,15 +10214,11 @@ definitions.</p>
 
 * uni1F8B (U+1F8B): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
 
-* uni1F8B (U+1F8B): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
 * uni1F8B (U+1F8B): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
 * uni1F8B (U+1F8B): L&lt;&lt;1409.0,416.0&gt;--&lt;1409.0,127.0&gt;&gt;/B&lt;&lt;1409.0,127.0&gt;-&lt;1415.0,151.0&gt;-&lt;1442.5,129.5&gt;&gt; = 14.036243467926457
 
 * uni1F8C (U+1F8C): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
-
-* uni1F8C (U+1F8C): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
 
 * uni1F8C (U+1F8C): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
@@ -10076,15 +10226,11 @@ definitions.</p>
 
 * uni1F8D (U+1F8D): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
 
-* uni1F8D (U+1F8D): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
 * uni1F8D (U+1F8D): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
 * uni1F8D (U+1F8D): L&lt;&lt;1409.0,416.0&gt;--&lt;1409.0,127.0&gt;&gt;/B&lt;&lt;1409.0,127.0&gt;-&lt;1415.0,151.0&gt;-&lt;1442.5,129.5&gt;&gt; = 14.036243467926457
 
 * uni1F8E (U+1F8E): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
-
-* uni1F8E (U+1F8E): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
 
 * uni1F8E (U+1F8E): B&lt;&lt;21.0,930.0&gt;-&lt;22.0,931.0&gt;-&lt;16.0,934.0&gt;&gt;/L&lt;&lt;16.0,934.0&gt;--&lt;21.0,930.0&gt;&gt; = 12.094757077012058
 
@@ -10094,13 +10240,15 @@ definitions.</p>
 
 * uni1F8F (U+1F8F): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
 
-* uni1F8F (U+1F8F): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
 * uni1F8F (U+1F8F): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
 * uni1F8F (U+1F8F): L&lt;&lt;1409.0,416.0&gt;--&lt;1409.0,127.0&gt;&gt;/B&lt;&lt;1409.0,127.0&gt;-&lt;1415.0,151.0&gt;-&lt;1442.5,129.5&gt;&gt; = 14.036243467926457
 
+* uni1F8F (U+1F8F): L&lt;&lt;71.0,930.0&gt;--&lt;76.0,934.0&gt;&gt;/B&lt;&lt;76.0,934.0&gt;-&lt;71.0,931.0&gt;-&lt;71.0,930.0&gt;&gt; = 7.696051722016556
+
 * uni1F96 (U+1F96): B&lt;&lt;491.0,1075.0&gt;-&lt;492.0,1076.0&gt;-&lt;486.0,1079.0&gt;&gt;/L&lt;&lt;486.0,1079.0&gt;--&lt;491.0,1075.0&gt;&gt; = 12.094757077012058
+
+* uni1F97 (U+1F97): L&lt;&lt;541.0,1075.0&gt;--&lt;546.0,1079.0&gt;&gt;/B&lt;&lt;546.0,1079.0&gt;-&lt;541.0,1076.0&gt;-&lt;541.0,1075.0&gt;&gt; = 7.696051722016556
 
 * uni1F98 (U+1F98): B&lt;&lt;1206.5,129.5&gt;-&lt;1234.0,151.0&gt;-&lt;1240.0,127.0&gt;&gt;/L&lt;&lt;1240.0,127.0&gt;--&lt;1240.0,416.0&gt;&gt; = 14.036243467926457
 
@@ -10148,11 +10296,15 @@ definitions.</p>
 
 * uni1F9F (U+1F9F): B&lt;&lt;1206.5,129.5&gt;-&lt;1234.0,151.0&gt;-&lt;1240.0,127.0&gt;&gt;/L&lt;&lt;1240.0,127.0&gt;--&lt;1240.0,416.0&gt;&gt; = 14.036243467926457
 
+* uni1F9F (U+1F9F): L&lt;&lt;-339.0,905.0&gt;--&lt;-334.0,909.0&gt;&gt;/B&lt;&lt;-334.0,909.0&gt;-&lt;-339.0,906.0&gt;-&lt;-339.0,905.0&gt;&gt; = 7.696051722016556
+
 * uni1F9F (U+1F9F): L&lt;&lt;1240.0,127.0&gt;--&lt;1240.0,416.0&gt;&gt;/B&lt;&lt;1240.0,416.0&gt;-&lt;1238.0,397.0&gt;-&lt;1211.0,418.0&gt;&gt; = 6.009005957494474
 
 * uni1F9F (U+1F9F): L&lt;&lt;1417.0,416.0&gt;--&lt;1417.0,127.0&gt;&gt;/B&lt;&lt;1417.0,127.0&gt;-&lt;1423.0,151.0&gt;-&lt;1450.5,129.5&gt;&gt; = 14.036243467926457
 
 * uni1FA6 (U+1FA6): B&lt;&lt;507.0,1075.0&gt;-&lt;508.0,1076.0&gt;-&lt;502.0,1079.0&gt;&gt;/L&lt;&lt;502.0,1079.0&gt;--&lt;507.0,1075.0&gt;&gt; = 12.094757077012058
+
+* uni1FA7 (U+1FA7): L&lt;&lt;557.0,1075.0&gt;--&lt;562.0,1079.0&gt;&gt;/B&lt;&lt;562.0,1079.0&gt;-&lt;558.0,1077.0&gt;-&lt;557.0,1076.0&gt;&gt; = 12.094757077012058
 
 * uni1FA8 (U+1FA8): B&lt;&lt;1325.5,129.5&gt;-&lt;1353.0,151.0&gt;-&lt;1359.0,127.0&gt;&gt;/L&lt;&lt;1359.0,127.0&gt;--&lt;1359.0,416.0&gt;&gt; = 14.036243467926457
 
@@ -10204,17 +10356,9 @@ definitions.</p>
 
 * uni1FAF (U+1FAF): L&lt;&lt;1536.0,416.0&gt;--&lt;1536.0,127.0&gt;&gt;/B&lt;&lt;1536.0,127.0&gt;-&lt;1542.0,151.0&gt;-&lt;1569.5,129.5&gt;&gt; = 14.036243467926457
 
-* uni1FB8 (U+1FB8): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1FB9 (U+1FB9): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1FBA (U+1FBA): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
-
-* uni1FBB (U+1FBB): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
+* uni1FAF (U+1FAF): L&lt;&lt;34.0,983.0&gt;--&lt;39.0,987.0&gt;&gt;/B&lt;&lt;39.0,987.0&gt;-&lt;34.0,984.0&gt;-&lt;34.0,983.0&gt;&gt; = 7.696051722016556
 
 * uni1FBC (U+1FBC): B&lt;&lt;1198.5,129.5&gt;-&lt;1226.0,151.0&gt;-&lt;1232.0,127.0&gt;&gt;/L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt; = 14.036243467926457
-
-* uni1FBC (U+1FBC): B&lt;&lt;122.5,156.0&gt;-&lt;151.0,153.0&gt;-&lt;147.0,133.0&gt;&gt;/L&lt;&lt;147.0,133.0&gt;--&lt;393.0,1206.0&gt;&gt; = 1.6027608107254878
 
 * uni1FBC (U+1FBC): L&lt;&lt;1232.0,127.0&gt;--&lt;1232.0,416.0&gt;&gt;/B&lt;&lt;1232.0,416.0&gt;-&lt;1230.0,397.0&gt;-&lt;1203.0,418.0&gt;&gt; = 6.009005957494474
 
@@ -10233,6 +10377,8 @@ definitions.</p>
 * uni1FCC (U+1FCC): L&lt;&lt;1417.0,416.0&gt;--&lt;1417.0,127.0&gt;&gt;/B&lt;&lt;1417.0,127.0&gt;-&lt;1423.0,151.0&gt;-&lt;1450.5,129.5&gt;&gt; = 14.036243467926457
 
 * uni1FCF (U+1FCF): B&lt;&lt;503.0,1075.0&gt;-&lt;504.0,1076.0&gt;-&lt;498.0,1079.0&gt;&gt;/L&lt;&lt;498.0,1079.0&gt;--&lt;503.0,1075.0&gt;&gt; = 12.094757077012058
+
+* uni1FDF (U+1FDF): L&lt;&lt;553.0,1075.0&gt;--&lt;558.0,1079.0&gt;&gt;/B&lt;&lt;558.0,1079.0&gt;-&lt;553.0,1076.0&gt;-&lt;553.0,1075.0&gt;&gt; = 7.696051722016556
 
 * uni1FEC (U+1FEC): L&lt;&lt;168.0,1147.0&gt;--&lt;173.0,1151.0&gt;&gt;/B&lt;&lt;173.0,1151.0&gt;-&lt;169.0,1149.0&gt;-&lt;168.0,1147.0&gt;&gt; = 12.094757077012058
 
@@ -10300,21 +10446,15 @@ definitions.</p>
 
 * uni202E (U+202E): L&lt;&lt;343.0,320.0&gt;--&lt;473.0,320.0&gt;&gt;/B&lt;&lt;473.0,320.0&gt;-&lt;393.0,333.0&gt;-&lt;365.0,400.0&gt;&gt; = 9.2298862437277
 
+* uni203B (U+203B): B&lt;&lt;483.0,260.5&gt;-&lt;459.0,275.0&gt;-&lt;473.0,292.0&gt;&gt;/L&lt;&lt;473.0,292.0&gt;--&lt;380.0,198.0&gt;&gt; = 5.221148529385456
+
+* uni203B (U+203B): L&lt;&lt;998.0,816.0&gt;--&lt;871.0,690.0&gt;&gt;/B&lt;&lt;871.0,690.0&gt;-&lt;888.0,704.0&gt;-&lt;903.0,680.5&gt;&gt; = 5.301075799314904
+
 * uni203D (U+203D): B&lt;&lt;360.5,1090.0&gt;-&lt;314.0,1076.0&gt;-&lt;292.0,1054.0&gt;&gt;/B&lt;&lt;292.0,1054.0&gt;-&lt;303.0,1064.0&gt;-&lt;309.0,1046.0&gt;&gt; = 2.726310993906212
 
-* uni2062 (U+2062): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
+* uni2061 (U+2061): L&lt;&lt;1109.0,704.0&gt;--&lt;1066.0,683.0&gt;&gt;/B&lt;&lt;1066.0,683.0&gt;-&lt;1076.0,687.0&gt;-&lt;1079.0,662.0&gt;&gt; = 4.228182705161525
 
-* uni2062 (U+2062): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
-
-* uni2063 (U+2063): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
-
-* uni2063 (U+2063): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
-
-* uni2064 (U+2064): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
-
-* uni2064 (U+2064): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
-
-* uni2068 (U+2068): L&lt;&lt;221.0,1475.0&gt;--&lt;223.0,1499.0&gt;&gt;/L&lt;&lt;223.0,1499.0&gt;--&lt;223.0,1477.0&gt;&gt; = 4.763641690726143
+* uni2064 (U+2064): B&lt;&lt;1044.0,896.0&gt;-&lt;1049.0,892.0&gt;-&lt;1055.0,886.0&gt;&gt;/L&lt;&lt;1055.0,886.0&gt;--&lt;1044.0,904.0&gt;&gt; = 13.570434385161501
 
 * uni2068 (U+2068): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
@@ -10370,13 +10510,13 @@ definitions.</p>
 
 * uniFB70 (U+FB70): L&lt;&lt;878.0,402.0&gt;--&lt;852.0,549.0&gt;&gt;/B&lt;&lt;852.0,549.0&gt;-&lt;855.0,526.0&gt;-&lt;828.0,520.5&gt;&gt; = 2.598805348560221
 
-* uniFB74 (U+FB74): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFB74 (U+FB74): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFB78 (U+FB78): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFB78 (U+FB78): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFB7C (U+FB7C): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFB7C (U+FB7C): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFB80 (U+FB80): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFB80 (U+FB80): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uniFB89 (U+FB89): L&lt;&lt;335.0,1784.0&gt;--&lt;334.0,1433.0&gt;&gt;/B&lt;&lt;334.0,1433.0&gt;-&lt;341.0,1529.0&gt;-&lt;396.5,1581.5&gt;&gt; = 4.007201127423053
 
@@ -10392,9 +10532,11 @@ definitions.</p>
 
 * uniFBA5 (U+FBA5): B&lt;&lt;184.0,1403.5&gt;-&lt;235.0,1431.0&gt;-&lt;286.0,1444.0&gt;&gt;/B&lt;&lt;286.0,1444.0&gt;-&lt;236.0,1440.0&gt;-&lt;195.0,1492.5&gt;&gt; = 9.726356189284708
 
-* uniFBA8 (U+FBA8): L&lt;&lt;811.0,191.0&gt;--&lt;811.0,191.0&gt;&gt;/B&lt;&lt;811.0,191.0&gt;-&lt;780.0,185.0&gt;-&lt;743.5,163.0&gt;&gt; = 10.954062643398332
+* uniFBA8 (U+FBA8): B&lt;&lt;472.5,101.0&gt;-&lt;513.0,179.0&gt;-&lt;581.0,191.0&gt;&gt;/L&lt;&lt;581.0,191.0&gt;--&lt;0.0,191.0&gt;&gt; = 10.007979801441312
 
-* uniFBAB (U+FBAB): B&lt;&lt;691.5,193.0&gt;-&lt;678.0,195.0&gt;-&lt;682.0,205.0&gt;&gt;/B&lt;&lt;682.0,205.0&gt;-&lt;596.0,82.0&gt;-&lt;487.0,17.0&gt;&gt; = 13.159335726495803
+* uniFBAB (U+FBAB): B&lt;&lt;684.0,193.0&gt;-&lt;674.0,195.0&gt;-&lt;682.0,206.0&gt;&gt;/B&lt;&lt;682.0,206.0&gt;-&lt;596.0,82.0&gt;-&lt;487.0,17.0&gt;&gt; = 1.284193226799737
+
+* uniFBAB (U+FBAB): L&lt;&lt;1237.0,192.0&gt;--&lt;707.0,191.0&gt;&gt;/L&lt;&lt;707.0,191.0&gt;--&lt;707.0,191.0&gt;&gt; = 0.10810511607922213
 
 * uniFBAC (U+FBAC): B&lt;&lt;434.5,470.0&gt;-&lt;445.0,452.0&gt;-&lt;467.0,437.0&gt;&gt;/B&lt;&lt;467.0,437.0&gt;-&lt;465.0,439.0&gt;-&lt;480.0,447.0&gt;&gt; = 10.713123022790997
 
@@ -10428,17 +10570,17 @@ definitions.</p>
 
 * uniFBFF (U+FBFF): L&lt;&lt;571.0,313.0&gt;--&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;569.0,294.0&gt;-&lt;545.5,265.5&gt;&gt; = 5.710593137499633
 
-* uniFCA1 (U+FCA1): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFCA1 (U+FCA1): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFCA2 (U+FCA2): L&lt;&lt;-4.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
+* uniFCA2 (U+FCA2): L&lt;&lt;1.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFCC9 (U+FCC9): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFCC9 (U+FCC9): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFCCA (U+FCCA): L&lt;&lt;-4.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
+* uniFCCA (U+FCCA): L&lt;&lt;1.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFCCB (U+FCCB): L&lt;&lt;-4.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
+* uniFCCB (U+FCCB): L&lt;&lt;1.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFD88 (U+FD88): L&lt;&lt;-4.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
+* uniFD88 (U+FD88): L&lt;&lt;1.0,403.0&gt;--&lt;894.0,403.0&gt;&gt;/B&lt;&lt;894.0,403.0&gt;-&lt;883.0,405.0&gt;-&lt;853.5,443.0&gt;&gt; = 10.304846468766044
 
 * uniFDF4 (U+FDF4): B&lt;&lt;397.0,212.0&gt;-&lt;370.0,230.0&gt;-&lt;377.0,249.0&gt;&gt;/B&lt;&lt;377.0,249.0&gt;-&lt;368.0,222.0&gt;-&lt;323.0,197.0&gt;&gt; = 1.7899106082458724
 
@@ -10476,35 +10618,37 @@ definitions.</p>
 
 * uniFE03 (U+FE03): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE04 (U+FE04): B&lt;&lt;517.0,681.5&gt;-&lt;533.0,680.0&gt;-&lt;545.0,680.0&gt;&gt;/B&lt;&lt;545.0,680.0&gt;-&lt;510.0,672.0&gt;-&lt;480.0,651.0&gt;&gt; = 12.875001559612462
-
-* uniFE04 (U+FE04): B&lt;&lt;575.5,681.0&gt;-&lt;563.0,680.0&gt;-&lt;545.0,680.0&gt;&gt;/B&lt;&lt;545.0,680.0&gt;-&lt;569.0,686.0&gt;-&lt;595.0,687.0&gt;&gt; = 14.036243467926457
-
 * uniFE04 (U+FE04): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
 * uniFE04 (U+FE04): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE05 (U+FE05): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
+* uniFE05 (U+FE05): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
-* uniFE05 (U+FE05): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
+* uniFE05 (U+FE05): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
 * uniFE06 (U+FE06): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
 * uniFE06 (U+FE06): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE07 (U+FE07): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
+* uniFE07 (U+FE07): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
-* uniFE07 (U+FE07): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
+* uniFE07 (U+FE07): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE08 (U+FE08): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
+* uniFE08 (U+FE08): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
-* uniFE08 (U+FE08): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
+* uniFE08 (U+FE08): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE09 (U+FE09): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
+* uniFE09 (U+FE09): B&lt;&lt;909.5,864.5&gt;-&lt;965.0,801.0&gt;-&lt;981.0,703.0&gt;&gt;/L&lt;&lt;981.0,703.0&gt;--&lt;981.0,929.0&gt;&gt; = 9.272601777200284
 
-* uniFE09 (U+FE09): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
+* uniFE09 (U+FE09): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
+
+* uniFE09 (U+FE09): L&lt;&lt;981.0,426.0&gt;--&lt;981.0,564.0&gt;&gt;/B&lt;&lt;981.0,564.0&gt;-&lt;966.0,465.0&gt;-&lt;910.0,401.5&gt;&gt; = 8.615648184164108
+
+* uniFE09 (U+FE09): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
 * uniFE0A (U+FE0A): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
+
+* uniFE0A (U+FE0A): L&lt;&lt;980.0,435.0&gt;--&lt;981.0,431.0&gt;&gt;/L&lt;&lt;981.0,431.0&gt;--&lt;981.0,653.0&gt;&gt; = 14.036243467926484
 
 * uniFE0A (U+FE0A): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
@@ -10520,17 +10664,19 @@ definitions.</p>
 
 * uniFE0D (U+FE0D): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE0E (U+FE0E): B&lt;&lt;691.0,681.5&gt;-&lt;707.0,680.0&gt;-&lt;719.0,680.0&gt;&gt;/B&lt;&lt;719.0,680.0&gt;-&lt;684.0,672.0&gt;-&lt;654.0,651.0&gt;&gt; = 12.875001559612462
+* uniFE0E (U+FE0E): L&lt;&lt;560.0,435.0&gt;--&lt;560.0,434.0&gt;&gt;/B&lt;&lt;560.0,434.0&gt;-&lt;555.0,460.0&gt;-&lt;567.0,481.0&gt;&gt; = 10.885527054658743
 
-* uniFE0E (U+FE0E): B&lt;&lt;749.5,681.0&gt;-&lt;737.0,680.0&gt;-&lt;719.0,680.0&gt;&gt;/B&lt;&lt;719.0,680.0&gt;-&lt;743.0,686.0&gt;-&lt;769.0,687.0&gt;&gt; = 14.036243467926457
+* uniFE0E (U+FE0E): L&lt;&lt;567.0,412.0&gt;--&lt;566.0,415.0&gt;&gt;/L&lt;&lt;566.0,415.0&gt;--&lt;567.0,410.0&gt;&gt; = 7.125016348901757
 
 * uniFE0E (U+FE0E): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
 * uniFE0E (U+FE0E): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
-* uniFE0F (U+FE0F): L&lt;&lt;28.0,245.0&gt;--&lt;31.0,354.0&gt;&gt;/L&lt;&lt;31.0,354.0&gt;--&lt;32.0,346.0&gt;&gt; = 8.701566404085526
+* uniFE0F (U+FE0F): L&lt;&lt;980.0,1176.0&gt;--&lt;981.0,1171.0&gt;&gt;/L&lt;&lt;981.0,1171.0&gt;--&lt;981.0,1205.0&gt;&gt; = 11.309932474020195
 
-* uniFE0F (U+FE0F): L&lt;&lt;32.0,1559.0&gt;--&lt;31.0,1551.0&gt;&gt;/L&lt;&lt;31.0,1551.0&gt;--&lt;28.0,1659.0&gt;&gt; = 8.716156620096388
+* uniFE0F (U+FE0F): L&lt;&lt;981.0,426.0&gt;--&lt;981.0,496.0&gt;&gt;/B&lt;&lt;981.0,496.0&gt;-&lt;968.0,429.0&gt;-&lt;911.5,383.0&gt;&gt; = 10.980650010173553
+
+* uniFE0F (U+FE0F): L&lt;&lt;981.0,976.0&gt;--&lt;981.0,1097.0&gt;&gt;/B&lt;&lt;981.0,1097.0&gt;-&lt;966.0,1032.0&gt;-&lt;910.5,986.5&gt;&gt; = 12.994616791916512
 
 * uniFE7D (U+FE7D): B&lt;&lt;580.5,1237.5&gt;-&lt;539.0,1270.0&gt;-&lt;537.0,1293.0&gt;&gt;/B&lt;&lt;537.0,1293.0&gt;-&lt;534.0,1270.0&gt;-&lt;492.5,1237.5&gt;&gt; = 12.401148699282784
 
@@ -10554,23 +10700,15 @@ definitions.</p>
 
 * uniFE9C (U+FE9C): L&lt;&lt;571.0,313.0&gt;--&lt;571.0,314.0&gt;&gt;/B&lt;&lt;571.0,314.0&gt;-&lt;569.0,294.0&gt;-&lt;545.5,265.5&gt;&gt; = 5.710593137499633
 
-* uniFE9F (U+FE9F): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFE9F (U+FE9F): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFEA3 (U+FEA3): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFEA3 (U+FEA3): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
-* uniFEA7 (U+FEA7): L&lt;&lt;-5.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
+* uniFEA7 (U+FEA7): L&lt;&lt;0.0,403.0&gt;--&lt;893.0,403.0&gt;&gt;/B&lt;&lt;893.0,403.0&gt;-&lt;882.0,405.0&gt;-&lt;852.5,443.0&gt;&gt; = 10.304846468766044
 
 * uniFEBA (U+FEBA): B&lt;&lt;910.0,508.0&gt;-&lt;855.0,416.0&gt;-&lt;753.0,395.0&gt;&gt;/L&lt;&lt;753.0,395.0&gt;--&lt;1229.0,402.0&gt;&gt; = 10.791109738200037
 
-* uniFEBB (U+FEBB): L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
-* uniFEBC (U+FEBC): L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
 * uniFEBE (U+FEBE): B&lt;&lt;910.0,508.0&gt;-&lt;855.0,416.0&gt;-&lt;753.0,395.0&gt;&gt;/L&lt;&lt;753.0,395.0&gt;--&lt;1229.0,402.0&gt;&gt; = 10.791109738200037
-
-* uniFEBF (U+FEBF): L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
-
-* uniFEC0 (U+FEC0): L&lt;&lt;251.0,237.0&gt;--&lt;253.0,237.0&gt;&gt;/B&lt;&lt;253.0,237.0&gt;-&lt;201.0,246.0&gt;-&lt;167.5,258.5&gt;&gt; = 9.819300638757893
 
 * uniFEC2 (U+FEC2): L&lt;&lt;448.0,1509.0&gt;--&lt;448.0,602.0&gt;&gt;/B&lt;&lt;448.0,602.0&gt;-&lt;450.0,649.0&gt;-&lt;476.0,711.5&gt;&gt; = 2.436648246810141
 
@@ -10586,11 +10724,11 @@ definitions.</p>
 
 * uniFECA (U+FECA): B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uniFECB (U+FECB): L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uniFECB (U+FECB): L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uniFECE (U+FECE): B&lt;&lt;368.5,660.0&gt;-&lt;396.0,614.0&gt;-&lt;428.0,576.0&gt;&gt;/L&lt;&lt;428.0,576.0&gt;--&lt;418.0,595.0&gt;&gt; = 12.342366945152207
 
-* uniFECF (U+FECF): L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 3.0011087885860364
+* uniFECF (U+FECF): L&lt;&lt;0.0,403.0&gt;--&lt;406.0,403.0&gt;&gt;/B&lt;&lt;406.0,403.0&gt;-&lt;364.0,405.0&gt;-&lt;348.5,449.0&gt;&gt; = 2.726310993906212
 
 * uniFED3 (U+FED3): L&lt;&lt;878.0,402.0&gt;--&lt;852.0,549.0&gt;&gt;/B&lt;&lt;852.0,549.0&gt;-&lt;855.0,526.0&gt;-&lt;828.0,520.5&gt;&gt; = 2.598805348560221
 
@@ -10644,6 +10782,12 @@ definitions.</p>
 
 * xi (U+03BE): B&lt;&lt;266.5,1019.5&gt;-&lt;282.0,1056.0&gt;-&lt;314.0,1062.0&gt;&gt;/B&lt;&lt;314.0,1062.0&gt;-&lt;231.0,1067.0&gt;-&lt;163.5,1122.5&gt;&gt; = 14.06704212802033
 
+* yen (U+00A5): L&lt;&lt;233.0,468.0&gt;--&lt;533.0,468.0&gt;&gt;/L&lt;&lt;533.0,468.0&gt;--&lt;508.0,473.0&gt;&gt; = 11.309932474020195
+
+* zero (U+0030): B&lt;&lt;377.0,524.0&gt;-&lt;376.0,492.0&gt;-&lt;363.0,467.0&gt;&gt;/L&lt;&lt;363.0,467.0&gt;--&lt;788.0,943.0&gt;&gt; = 14.285868077620751
+
+* zero (U+0030): B&lt;&lt;851.0,662.0&gt;-&lt;852.0,694.0&gt;-&lt;865.0,719.0&gt;&gt;/L&lt;&lt;865.0,719.0&gt;--&lt;440.0,243.0&gt;&gt; = 14.285868077620725
+
 * zero.slash: L&lt;&lt;402.0,1075.0&gt;--&lt;808.0,365.0&gt;&gt;/B&lt;&lt;808.0,365.0&gt;-&lt;786.0,422.0&gt;-&lt;790.5,493.5&gt;&gt; = 8.657420867231224
 
 * zero.slash: L&lt;&lt;669.0,183.0&gt;--&lt;261.0,896.0&gt;&gt;/B&lt;&lt;261.0,896.0&gt;-&lt;285.0,847.0&gt;-&lt;281.5,784.5&gt;&gt; = 3.684061260071189
@@ -10666,29 +10810,17 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The following glyphs have semi-vertical/semi-horizontal lines:</p>
-<pre><code>* AE (U+00C6): L&lt;&lt;1042.0,506.0&gt;--&lt;759.0,508.0&gt;&gt;
+<pre><code>* AE (U+00C6): L&lt;&lt;544.0,527.0&gt;--&lt;542.0,924.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;1087.0,1009.0&gt;--&lt;759.0,1011.0&gt;&gt;
+* AE (U+00C6): L&lt;&lt;749.0,1019.0&gt;--&lt;750.0,707.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;1107.0,-34.0&gt;--&lt;668.0,-32.0&gt;&gt;
+* AE (U+00C6): L&lt;&lt;752.0,519.0&gt;--&lt;749.0,168.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;668.0,1219.0&gt;--&lt;1087.0,1221.0&gt;&gt;
+* AEacute (U+01FC): L&lt;&lt;544.0,527.0&gt;--&lt;542.0,924.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;759.0,177.0&gt;--&lt;1107.0,178.0&gt;&gt;
+* AEacute (U+01FC): L&lt;&lt;749.0,1019.0&gt;--&lt;750.0,707.0&gt;&gt;
 
-* AE (U+00C6): L&lt;&lt;759.0,716.0&gt;--&lt;1042.0,718.0&gt;&gt;
-
-* AEacute (U+01FC): L&lt;&lt;1042.0,506.0&gt;--&lt;759.0,508.0&gt;&gt;
-
-* AEacute (U+01FC): L&lt;&lt;1087.0,1009.0&gt;--&lt;759.0,1011.0&gt;&gt;
-
-* AEacute (U+01FC): L&lt;&lt;1107.0,-34.0&gt;--&lt;668.0,-32.0&gt;&gt;
-
-* AEacute (U+01FC): L&lt;&lt;668.0,1219.0&gt;--&lt;1087.0,1221.0&gt;&gt;
-
-* AEacute (U+01FC): L&lt;&lt;759.0,177.0&gt;--&lt;1107.0,178.0&gt;&gt;
-
-* AEacute (U+01FC): L&lt;&lt;759.0,716.0&gt;--&lt;1042.0,718.0&gt;&gt;
+* AEacute (U+01FC): L&lt;&lt;752.0,519.0&gt;--&lt;749.0,168.0&gt;&gt;
 
 * B (U+0042): L&lt;&lt;382.0,510.0&gt;--&lt;381.0,165.0&gt;&gt;
 
@@ -10696,201 +10828,37 @@ definitions.</p>
 
 * Ccedilla (U+00C7): L&lt;&lt;738.0,51.0&gt;--&lt;737.0,-89.0&gt;&gt;
 
-* E (U+0045): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
+* Eth (U+00D0): L&lt;&lt;191.0,68.0&gt;--&lt;192.0,532.0&gt;&gt;
 
-* E (U+0045): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
+* Eth (U+00D0): L&lt;&lt;192.0,692.0&gt;--&lt;191.0,1119.0&gt;&gt;
 
-* E (U+0045): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
+* Eth (U+00D0): L&lt;&lt;405.0,1026.0&gt;--&lt;404.0,702.0&gt;&gt;
 
-* E (U+0045): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* E (U+0045): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* E (U+0045): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Eacute (U+00C9): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Eacute (U+00C9): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Eacute (U+00C9): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Eacute (U+00C9): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Eacute (U+00C9): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Eacute (U+00C9): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Ebreve (U+0114): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Ebreve (U+0114): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Ebreve (U+0114): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Ebreve (U+0114): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Ebreve (U+0114): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Ebreve (U+0114): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Ecaron (U+011A): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Ecaron (U+011A): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Ecaron (U+011A): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Ecaron (U+011A): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Ecaron (U+011A): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Ecaron (U+011A): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Ecircumflex (U+00CA): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Ecircumflex (U+00CA): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Ecircumflex (U+00CA): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Ecircumflex (U+00CA): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Ecircumflex (U+00CA): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Ecircumflex (U+00CA): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Edieresis (U+00CB): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Edieresis (U+00CB): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Edieresis (U+00CB): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Edieresis (U+00CB): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Edieresis (U+00CB): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Edieresis (U+00CB): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Edotaccent (U+0116): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Egrave (U+00C8): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Egrave (U+00C8): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Egrave (U+00C8): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Egrave (U+00C8): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Egrave (U+00C8): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Egrave (U+00C8): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Emacron (U+0112): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Emacron (U+0112): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Emacron (U+0112): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Emacron (U+0112): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Emacron (U+0112): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Emacron (U+0112): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* Eogonek (U+0118): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* Eogonek (U+0118): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Eogonek (U+0118): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* Eogonek (U+0118): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* Eogonek (U+0118): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* Eogonek (U+0118): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
-* F (U+0046): L&lt;&lt;336.0,1220.0&gt;--&lt;977.0,1221.0&gt;&gt;
-
-* F (U+0046): L&lt;&lt;429.0,677.0&gt;--&lt;862.0,678.0&gt;&gt;
-
-* F (U+0046): L&lt;&lt;862.0,466.0&gt;--&lt;429.0,467.0&gt;&gt;
-
-* F (U+0046): L&lt;&lt;977.0,1009.0&gt;--&lt;429.0,1010.0&gt;&gt;
-
-* G (U+0047): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
-
-* G (U+0047): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
-
-* G (U+0047): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
+* F (U+0046): L&lt;&lt;414.0,1015.0&gt;--&lt;417.0,670.0&gt;&gt;
 
 * Gamma (U+0393): L&lt;&lt;399.0,1111.0&gt;--&lt;403.0,129.0&gt;&gt;
 
-* Gbreve (U+011E): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
+* J (U+004A): L&lt;&lt;770.0,363.0&gt;--&lt;774.0,1027.0&gt;&gt;
 
-* Gbreve (U+011E): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
+* Jcircumflex (U+0134): L&lt;&lt;770.0,363.0&gt;--&lt;774.0,1027.0&gt;&gt;
 
-* Gbreve (U+011E): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
+* K (U+004B): L&lt;&lt;397.0,354.0&gt;--&lt;399.0,55.0&gt;&gt;
 
-* Gcaron (U+01E6): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
+* Kappa (U+039A): L&lt;&lt;401.0,354.0&gt;--&lt;403.0,55.0&gt;&gt;
 
-* Gcaron (U+01E6): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
+* L (U+004C): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* Gcaron (U+01E6): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
+* Lacute (U+0139): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* Gcircumflex (U+011C): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
+* Lcaron (U+013D): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* Gcircumflex (U+011C): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
+* Ldot (U+013F): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* Gcircumflex (U+011C): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
+* Lslash (U+0141): L&lt;&lt;271.0,68.0&gt;--&lt;274.0,434.0&gt;&gt;
 
-* Gdotaccent (U+0120): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
+* Lslash (U+0141): L&lt;&lt;273.0,623.0&gt;--&lt;271.0,1132.0&gt;&gt;
 
-* Gdotaccent (U+0120): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
-
-* Gdotaccent (U+0120): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
-
-* J (U+004A): L&lt;&lt;443.0,1221.0&gt;--&lt;872.0,1219.0&gt;&gt;
-
-* J (U+004A): L&lt;&lt;770.0,1010.0&gt;--&lt;443.0,1009.0&gt;&gt;
-
-* Jcircumflex (U+0134): L&lt;&lt;443.0,1221.0&gt;--&lt;872.0,1219.0&gt;&gt;
-
-* Jcircumflex (U+0134): L&lt;&lt;770.0,1010.0&gt;--&lt;443.0,1009.0&gt;&gt;
-
-* L (U+004C): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* L (U+004C): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
-
-* Lacute (U+0139): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Lacute (U+0139): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
-
-* Lcaron (U+013D): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Lcaron (U+013D): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
-
-* Ldot (U+013F): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Ldot (U+013F): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
-
-* Lslash (U+0141): L&lt;&lt;489.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* Lslash (U+0141): L&lt;&lt;977.0,-34.0&gt;--&lt;401.0,-33.0&gt;&gt;
-
-* OE (U+0152): L&lt;&lt;1058.0,1009.0&gt;--&lt;770.0,1011.0&gt;&gt;
-
-* OE (U+0152): L&lt;&lt;1078.0,-34.0&gt;--&lt;668.0,-32.0&gt;&gt;
-
-* OE (U+0152): L&lt;&lt;668.0,1219.0&gt;--&lt;1058.0,1221.0&gt;&gt;
-
-* OE (U+0152): L&lt;&lt;770.0,176.0&gt;--&lt;1078.0,178.0&gt;&gt;
+* OE (U+0152): L&lt;&lt;765.0,522.0&gt;--&lt;762.0,166.0&gt;&gt;
 
 * Phi (U+03A6): L&lt;&lt;436.0,455.0&gt;--&lt;435.0,796.0&gt;&gt;
 
@@ -10904,77 +10872,45 @@ definitions.</p>
 
 * Scedilla (U+015E): L&lt;&lt;698.0,51.0&gt;--&lt;697.0,-89.0&gt;&gt;
 
+* T (U+0054): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,1032.0&gt;&gt;
+
+* T (U+0054): L&lt;&lt;721.0,1032.0&gt;--&lt;723.0,55.0&gt;&gt;
+
 * Tau (U+03A4): L&lt;&lt;433.0,129.0&gt;--&lt;434.0,1117.0&gt;&gt;
 
 * Tau (U+03A4): L&lt;&lt;643.0,1117.0&gt;--&lt;644.0,129.0&gt;&gt;
 
-* Thorn (U+00DE): L&lt;&lt;419.0,430.0&gt;--&lt;659.0,432.0&gt;&gt;
+* Tbar (U+0166): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,412.0&gt;&gt;
 
-* Thorn (U+00DE): L&lt;&lt;419.0,978.0&gt;--&lt;680.0,980.0&gt;&gt;
+* Tbar (U+0166): L&lt;&lt;506.0,624.0&gt;--&lt;507.0,1032.0&gt;&gt;
 
-* Thorn (U+00DE): L&lt;&lt;659.0,768.0&gt;--&lt;419.0,770.0&gt;&gt;
+* Tbar (U+0166): L&lt;&lt;721.0,1032.0&gt;--&lt;722.0,624.0&gt;&gt;
 
-* Thorn (U+00DE): L&lt;&lt;680.0,220.0&gt;--&lt;419.0,222.0&gt;&gt;
+* Tbar (U+0166): L&lt;&lt;722.0,412.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* Y (U+0059): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* Tcaron (U+0164): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,1032.0&gt;&gt;
 
-* Y (U+0059): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* Tcaron (U+0164): L&lt;&lt;721.0,1032.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* Yacute (U+00DD): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* Y (U+0059): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* Yacute (U+00DD): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* Y (U+0059): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* Ycircumflex (U+0176): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* Yacute (U+00DD): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* Ycircumflex (U+0176): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* Yacute (U+00DD): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* Ydieresis (U+0178): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* Ycircumflex (U+0176): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* Ydieresis (U+0178): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* Ycircumflex (U+0176): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* Ygrave (U+1EF2): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* Ydieresis (U+0178): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* Ygrave (U+1EF2): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* Ydieresis (U+0178): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* Z (U+005A): L&lt;&lt;256.0,1221.0&gt;--&lt;899.0,1220.0&gt;&gt;
+* Ygrave (U+1EF2): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* Z (U+005A): L&lt;&lt;452.0,177.0&gt;--&lt;996.0,178.0&gt;&gt;
-
-* Z (U+005A): L&lt;&lt;757.0,1010.0&gt;--&lt;256.0,1009.0&gt;&gt;
-
-* Z (U+005A): L&lt;&lt;996.0,-34.0&gt;--&lt;303.0,-33.0&gt;&gt;
-
-* Zacute (U+0179): L&lt;&lt;256.0,1221.0&gt;--&lt;899.0,1220.0&gt;&gt;
-
-* Zacute (U+0179): L&lt;&lt;452.0,177.0&gt;--&lt;996.0,178.0&gt;&gt;
-
-* Zacute (U+0179): L&lt;&lt;757.0,1010.0&gt;--&lt;256.0,1009.0&gt;&gt;
-
-* Zacute (U+0179): L&lt;&lt;996.0,-34.0&gt;--&lt;303.0,-33.0&gt;&gt;
-
-* Zcaron (U+017D): L&lt;&lt;256.0,1221.0&gt;--&lt;899.0,1220.0&gt;&gt;
-
-* Zcaron (U+017D): L&lt;&lt;452.0,177.0&gt;--&lt;996.0,178.0&gt;&gt;
-
-* Zcaron (U+017D): L&lt;&lt;757.0,1010.0&gt;--&lt;256.0,1009.0&gt;&gt;
-
-* Zcaron (U+017D): L&lt;&lt;996.0,-34.0&gt;--&lt;303.0,-33.0&gt;&gt;
-
-* Zdotaccent (U+017B): L&lt;&lt;256.0,1221.0&gt;--&lt;899.0,1220.0&gt;&gt;
-
-* Zdotaccent (U+017B): L&lt;&lt;452.0,177.0&gt;--&lt;996.0,178.0&gt;&gt;
-
-* Zdotaccent (U+017B): L&lt;&lt;757.0,1010.0&gt;--&lt;256.0,1009.0&gt;&gt;
-
-* Zdotaccent (U+017B): L&lt;&lt;996.0,-34.0&gt;--&lt;303.0,-33.0&gt;&gt;
-
-* Zeta (U+0396): L&lt;&lt;252.0,1221.0&gt;--&lt;895.0,1220.0&gt;&gt;
-
-* Zeta (U+0396): L&lt;&lt;448.0,177.0&gt;--&lt;992.0,178.0&gt;&gt;
-
-* Zeta (U+0396): L&lt;&lt;753.0,1010.0&gt;--&lt;252.0,1009.0&gt;&gt;
-
-* Zeta (U+0396): L&lt;&lt;992.0,-34.0&gt;--&lt;299.0,-33.0&gt;&gt;
+* Ygrave (U+1EF2): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
 * ae (U+00E6): L&lt;&lt;711.0,610.0&gt;--&lt;980.0,611.0&gt;&gt;
 
@@ -10984,22 +10920,6 @@ definitions.</p>
 
 * beta (U+03B2): L&lt;&lt;262.0,75.0&gt;--&lt;263.0,-425.0&gt;&gt;
 
-* bracketleft (U+005B): L&lt;&lt;442.0,1403.0&gt;--&lt;807.0,1406.0&gt;&gt;
-
-* bracketleft (U+005B): L&lt;&lt;514.0,-157.0&gt;--&lt;807.0,-155.0&gt;&gt;
-
-* bracketleft (U+005B): L&lt;&lt;807.0,-367.0&gt;--&lt;442.0,-364.0&gt;&gt;
-
-* bracketleft (U+005B): L&lt;&lt;807.0,1194.0&gt;--&lt;514.0,1196.0&gt;&gt;
-
-* bracketright (U+005D): L&lt;&lt;421.0,-155.0&gt;--&lt;714.0,-157.0&gt;&gt;
-
-* bracketright (U+005D): L&lt;&lt;421.0,1406.0&gt;--&lt;786.0,1403.0&gt;&gt;
-
-* bracketright (U+005D): L&lt;&lt;714.0,1196.0&gt;--&lt;421.0,1194.0&gt;&gt;
-
-* bracketright (U+005D): L&lt;&lt;786.0,-364.0&gt;--&lt;421.0,-367.0&gt;&gt;
-
 * ccedilla (U+00E7): L&lt;&lt;718.0,51.0&gt;--&lt;717.0,-89.0&gt;&gt;
 
 * cedilla (U+00B8): L&lt;&lt;688.0,51.0&gt;--&lt;687.0,-89.0&gt;&gt;
@@ -11007,6 +10927,10 @@ definitions.</p>
 * cedilla.case: L&lt;&lt;688.0,51.0&gt;--&lt;687.0,-89.0&gt;&gt;
 
 * d (U+0064): L&lt;&lt;853.0,788.0&gt;--&lt;852.0,1257.0&gt;&gt;
+
+* dagger (U+2020): L&lt;&lt;508.0,344.0&gt;--&lt;511.0,766.0&gt;&gt;
+
+* dagger (U+2020): L&lt;&lt;717.0,766.0&gt;--&lt;720.0,344.0&gt;&gt;
 
 * dcaron (U+010F): L&lt;&lt;751.0,797.0&gt;--&lt;750.0,1257.0&gt;&gt;
 
@@ -11034,17 +10958,21 @@ definitions.</p>
 
 * eogonek (U+0119): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
-* five (U+0035): L&lt;&lt;375.0,1220.0&gt;--&lt;885.0,1221.0&gt;&gt;
+* f (U+0066): L&lt;&lt;414.0,55.0&gt;--&lt;415.0,690.0&gt;&gt;
 
-* five (U+0035): L&lt;&lt;885.0,1009.0&gt;--&lt;451.0,1010.0&gt;&gt;
+* f (U+0066): L&lt;&lt;608.0,876.0&gt;--&lt;944.0,878.0&gt;&gt;
 
-* franc (U+20A3): L&lt;&lt;336.0,1220.0&gt;--&lt;977.0,1221.0&gt;&gt;
+* f (U+0066): L&lt;&lt;628.0,684.0&gt;--&lt;632.0,55.0&gt;&gt;
 
-* franc (U+20A3): L&lt;&lt;429.0,737.0&gt;--&lt;862.0,738.0&gt;&gt;
+* five (U+0035): L&lt;&lt;437.0,1015.0&gt;--&lt;439.0,736.0&gt;&gt;
 
-* franc (U+20A3): L&lt;&lt;862.0,526.0&gt;--&lt;429.0,527.0&gt;&gt;
+* four (U+0034): L&lt;&lt;672.0,272.0&gt;--&lt;210.0,268.0&gt;&gt;
 
-* franc (U+20A3): L&lt;&lt;977.0,1009.0&gt;--&lt;429.0,1010.0&gt;&gt;
+* four (U+0034): L&lt;&lt;872.0,1131.0&gt;--&lt;871.0,454.0&gt;&gt;
+
+* franc (U+20A3): L&lt;&lt;212.0,380.0&gt;--&lt;211.0,1119.0&gt;&gt;
+
+* franc (U+20A3): L&lt;&lt;862.0,526.0&gt;--&lt;408.0,528.0&gt;&gt;
 
 * h (U+0068): L&lt;&lt;386.0,1257.0&gt;--&lt;385.0,728.0&gt;&gt;
 
@@ -11090,33 +11018,21 @@ definitions.</p>
 
 * itilde (U+0129): L&lt;&lt;747.0,856.0&gt;--&lt;744.0,158.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;330.0,958.0&gt;--&lt;804.0,956.0&gt;&gt;
+* j (U+006A): L&lt;&lt;719.0,-44.0&gt;--&lt;723.0,764.0&gt;&gt;
 
-* j (U+006A): L&lt;&lt;719.0,747.0&gt;--&lt;330.0,746.0&gt;&gt;
-
-* jcircumflex (U+0135): L&lt;&lt;330.0,958.0&gt;--&lt;804.0,956.0&gt;&gt;
-
-* jcircumflex (U+0135): L&lt;&lt;719.0,747.0&gt;--&lt;330.0,746.0&gt;&gt;
+* jcircumflex (U+0135): L&lt;&lt;719.0,-44.0&gt;--&lt;723.0,764.0&gt;&gt;
 
 * kafDotless_ar.fina: L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
 * kafDotless_ar: L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;280.0,1346.0&gt;--&lt;627.0,1343.0&gt;&gt;
+* l (U+006C): L&lt;&lt;737.0,1244.0&gt;--&lt;736.0,154.0&gt;&gt;
 
-* l (U+006C): L&lt;&lt;519.0,1136.0&gt;--&lt;280.0,1134.0&gt;&gt;
+* lacute (U+013A): L&lt;&lt;737.0,1244.0&gt;--&lt;736.0,154.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;280.0,1346.0&gt;--&lt;627.0,1343.0&gt;&gt;
+* lcaron (U+013E): L&lt;&lt;707.0,1244.0&gt;--&lt;706.0,154.0&gt;&gt;
 
-* lacute (U+013A): L&lt;&lt;519.0,1136.0&gt;--&lt;280.0,1134.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;250.0,1346.0&gt;--&lt;597.0,1343.0&gt;&gt;
-
-* lcaron (U+013E): L&lt;&lt;489.0,1136.0&gt;--&lt;250.0,1134.0&gt;&gt;
-
-* ldot (U+0140): L&lt;&lt;250.0,1346.0&gt;--&lt;597.0,1343.0&gt;&gt;
-
-* ldot (U+0140): L&lt;&lt;489.0,1136.0&gt;--&lt;250.0,1134.0&gt;&gt;
+* ldot (U+0140): L&lt;&lt;707.0,1244.0&gt;--&lt;706.0,154.0&gt;&gt;
 
 * lira (U+20A4): L&lt;&lt;446.0,602.0&gt;--&lt;582.0,603.0&gt;&gt;
 
@@ -11126,19 +11042,17 @@ definitions.</p>
 
 * longs (U+017F): L&lt;&lt;552.0,979.0&gt;--&lt;551.0,133.0&gt;&gt;
 
-* lslash (U+0142): L&lt;&lt;280.0,1346.0&gt;--&lt;627.0,1343.0&gt;&gt;
-
-* lslash (U+0142): L&lt;&lt;519.0,1136.0&gt;--&lt;280.0,1134.0&gt;&gt;
-
 * mu (U+00B5): L&lt;&lt;699.0,324.0&gt;--&lt;700.0,749.0&gt;&gt;
 
 * musicalnote (U+266A): L&lt;&lt;740.0,624.0&gt;--&lt;741.0,266.0&gt;&gt;
 
 * oe (U+0153): L&lt;&lt;711.0,610.0&gt;--&lt;980.0,611.0&gt;&gt;
 
-* one (U+0031): L&lt;&lt;536.0,178.0&gt;--&lt;537.0,983.0&gt;&gt;
+* one (U+0031): L&lt;&lt;753.0,1157.0&gt;--&lt;752.0,152.0&gt;&gt;
 
 * onehalf (U+00BD): L&lt;&lt;360.0,1359.0&gt;--&lt;359.0,797.0&gt;&gt;
+
+* onequarter (U+00BC): L&lt;&lt;1136.0,448.0&gt;--&lt;1135.0,84.0&gt;&gt;
 
 * onequarter (U+00BC): L&lt;&lt;360.0,1359.0&gt;--&lt;359.0,797.0&gt;&gt;
 
@@ -11162,11 +11076,9 @@ definitions.</p>
 
 * scedilla (U+015F): L&lt;&lt;708.0,51.0&gt;--&lt;707.0,-89.0&gt;&gt;
 
-* seven (U+0037): L&lt;&lt;262.0,1221.0&gt;--&lt;917.0,1220.0&gt;&gt;
-
-* seven (U+0037): L&lt;&lt;799.0,1010.0&gt;--&lt;262.0,1009.0&gt;&gt;
-
 * sterling (U+00A3): L&lt;&lt;464.0,177.0&gt;--&lt;915.0,178.0&gt;&gt;
+
+* sterling (U+00A3): L&lt;&lt;541.0,681.0&gt;--&lt;815.0,682.0&gt;&gt;
 
 * theta (U+03B8): L&lt;&lt;245.0,784.0&gt;--&lt;826.0,782.0&gt;&gt;
 
@@ -11176,6 +11088,8 @@ definitions.</p>
 
 * thorn (U+00FE): L&lt;&lt;376.0,1257.0&gt;--&lt;375.0,794.0&gt;&gt;
 
+* threequarters (U+00BE): L&lt;&lt;1136.0,448.0&gt;--&lt;1135.0,84.0&gt;&gt;
+
 * trademark (U+2122): L&lt;&lt;1117.0,811.0&gt;--&lt;1115.0,1043.0&gt;&gt;
 
 * trademark (U+2122): L&lt;&lt;218.0,813.0&gt;--&lt;220.0,1182.0&gt;&gt;
@@ -11184,27 +11098,19 @@ definitions.</p>
 
 * trademark (U+2122): L&lt;&lt;820.0,1043.0&gt;--&lt;819.0,811.0&gt;&gt;
 
-* two (U+0032): L&lt;&lt;521.0,177.0&gt;--&lt;954.0,178.0&gt;&gt;
-
-* two (U+0032): L&lt;&lt;954.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
-
 * uni00B9 (U+00B9): L&lt;&lt;738.0,1292.0&gt;--&lt;737.0,617.0&gt;&gt;
 
-* uni0122 (U+0122): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
+* uni0136 (U+0136): L&lt;&lt;397.0,354.0&gt;--&lt;399.0,55.0&gt;&gt;
 
-* uni0122 (U+0122): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
+* uni013B (U+013B): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* uni0122 (U+0122): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
+* uni013C (U+013C): L&lt;&lt;737.0,1244.0&gt;--&lt;736.0,154.0&gt;&gt;
 
-* uni013B (U+013B): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni013B (U+013B): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
-
-* uni013C (U+013C): L&lt;&lt;280.0,1346.0&gt;--&lt;627.0,1343.0&gt;&gt;
-
-* uni013C (U+013C): L&lt;&lt;519.0,1136.0&gt;--&lt;280.0,1134.0&gt;&gt;
+* uni0162 (U+0162): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,1032.0&gt;&gt;
 
 * uni0162 (U+0162): L&lt;&lt;705.0,51.0&gt;--&lt;704.0,-89.0&gt;&gt;
+
+* uni0162 (U+0162): L&lt;&lt;721.0,1032.0&gt;--&lt;723.0,55.0&gt;&gt;
 
 * uni0163 (U+0163): L&lt;&lt;728.0,51.0&gt;--&lt;727.0,-89.0&gt;&gt;
 
@@ -11216,27 +11122,7 @@ definitions.</p>
 
 * uni01DD (U+01DD): L&lt;&lt;794.0,342.0&gt;--&lt;271.0,343.0&gt;&gt;
 
-* uni01F0 (U+01F0): L&lt;&lt;330.0,958.0&gt;--&lt;804.0,956.0&gt;&gt;
-
-* uni01F0 (U+01F0): L&lt;&lt;719.0,747.0&gt;--&lt;330.0,746.0&gt;&gt;
-
-* uni01F4 (U+01F4): L&lt;&lt;1117.0,526.0&gt;--&lt;1115.0,131.0&gt;&gt;
-
-* uni01F4 (U+01F4): L&lt;&lt;900.0,418.0&gt;--&lt;666.0,416.0&gt;&gt;
-
-* uni01F4 (U+01F4): L&lt;&lt;901.0,204.0&gt;--&lt;900.0,418.0&gt;&gt;
-
-* uni0204 (U+0204): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni0204 (U+0204): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni0204 (U+0204): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni0204 (U+0204): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni0204 (U+0204): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni0204 (U+0204): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
+* uni01F0 (U+01F0): L&lt;&lt;719.0,-44.0&gt;--&lt;723.0,764.0&gt;&gt;
 
 * uni0205 (U+0205): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
@@ -11244,17 +11130,17 @@ definitions.</p>
 
 * uni0209 (U+0209): L&lt;&lt;747.0,856.0&gt;--&lt;744.0,158.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;330.0,958.0&gt;--&lt;804.0,956.0&gt;&gt;
+* uni021A (U+021A): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,1032.0&gt;&gt;
 
-* uni0237 (U+0237): L&lt;&lt;719.0,747.0&gt;--&lt;330.0,746.0&gt;&gt;
+* uni021A (U+021A): L&lt;&lt;721.0,1032.0&gt;--&lt;723.0,55.0&gt;&gt;
+
+* uni0237 (U+0237): L&lt;&lt;719.0,-44.0&gt;--&lt;723.0,764.0&gt;&gt;
 
 * uni0258 (U+0258): L&lt;&lt;271.0,546.0&gt;--&lt;794.0,547.0&gt;&gt;
 
 * uni0258 (U+0258): L&lt;&lt;795.0,358.0&gt;--&lt;195.0,357.0&gt;&gt;
 
 * uni0327 (U+0327): L&lt;&lt;688.0,51.0&gt;--&lt;687.0,-89.0&gt;&gt;
-
-* uni034F (U+034F): L&lt;&lt;941.0,1217.0&gt;--&lt;940.0,1078.0&gt;&gt;
 
 * uni03D8 (U+03D8): L&lt;&lt;435.0,140.0&gt;--&lt;438.0,490.0&gt;&gt;
 
@@ -11264,17 +11150,7 @@ definitions.</p>
 
 * uni03DD (U+03DD): L&lt;&lt;263.0,482.0&gt;--&lt;653.0,483.0&gt;&gt;
 
-* uni0400 (U+0400): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni0400 (U+0400): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni0400 (U+0400): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni0400 (U+0400): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni0400 (U+0400): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni0400 (U+0400): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
+* uni03DD (U+03DD): L&lt;&lt;444.0,275.0&gt;--&lt;261.0,276.0&gt;&gt;
 
 * uni0401 (U+0401): L&lt;&lt;415.0,163.0&gt;--&lt;937.0,167.0&gt;&gt;
 
@@ -11496,11 +11372,11 @@ definitions.</p>
 
 * uni046D (U+046D): L&lt;&lt;758.0,403.0&gt;--&lt;759.0,133.0&gt;&gt;
 
-* uni0470 (U+0470): L&lt;&lt;432.0,460.0&gt;--&lt;431.0,1120.0&gt;&gt;
+* uni0470 (U+0470): L&lt;&lt;432.0,459.0&gt;--&lt;431.0,1120.0&gt;&gt;
 
 * uni0470 (U+0470): L&lt;&lt;434.0,140.0&gt;--&lt;433.0,306.0&gt;&gt;
 
-* uni0470 (U+0470): L&lt;&lt;642.0,1120.0&gt;--&lt;640.0,463.0&gt;&gt;
+* uni0470 (U+0470): L&lt;&lt;642.0,1120.0&gt;--&lt;641.0,459.0&gt;&gt;
 
 * uni0471 (U+0471): L&lt;&lt;434.0,126.0&gt;--&lt;433.0,1119.0&gt;&gt;
 
@@ -11571,6 +11447,8 @@ definitions.</p>
 * uni049B (U+049B): L&lt;&lt;443.0,395.0&gt;--&lt;445.0,144.0&gt;&gt;
 
 * uni049B (U+049B): L&lt;&lt;445.0,779.0&gt;--&lt;446.0,580.0&gt;&gt;
+
+* uni049B (U+049B): L&lt;&lt;986.0,-234.0&gt;--&lt;987.0,-9.0&gt;&gt;
 
 * uni049C (U+049C): L&lt;&lt;306.0,1120.0&gt;--&lt;305.0,816.0&gt;&gt;
 
@@ -11682,18 +11560,6 @@ definitions.</p>
 
 * uni04D5 (U+04D5): L&lt;&lt;617.0,546.0&gt;--&lt;897.0,545.0&gt;&gt;
 
-* uni04D6 (U+04D6): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni04D6 (U+04D6): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni04D6 (U+04D6): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni04D6 (U+04D6): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni04D6 (U+04D6): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni04D6 (U+04D6): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
 * uni04D7 (U+04D7): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
 * uni04DA (U+04DA): L&lt;&lt;100.0,693.0&gt;--&lt;873.0,691.0&gt;&gt;
@@ -11746,15 +11612,9 @@ definitions.</p>
 
 * uni0620.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni0620.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uni0620.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
-* uni0620.init: L&lt;&lt;355.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0620.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
-
-* uni0620.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;840.0,191.0&gt;&gt;
-
-* uni0620.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
+* uni0620.medi: L&lt;&lt;1240.0,193.0&gt;--&lt;880.0,191.0&gt;&gt;
 
 * uni0620.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -11780,53 +11640,27 @@ definitions.</p>
 
 * uni062B (U+FE99): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni063B.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni063B.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni063C.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni063C.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uni063D.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni063D.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni063D.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni063D.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni063D.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni063D.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni063D.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni063D.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni063E.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni063E.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni063E.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni063E.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni063E.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni063E.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni063E.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni063E.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni063F.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni063F.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni063F.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni063F.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni063F.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni063F.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni063F.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni063F.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -11844,19 +11678,13 @@ definitions.</p>
 
 * uni066E.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni066E.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni066E.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni066E.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni066E.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni066E.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
-* uni066E.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uni066E.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uni066F.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni066F.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni066F.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -11876,8 +11704,6 @@ definitions.</p>
 
 * uni0673.fina: L&lt;&lt;719.0,403.0&gt;--&lt;1237.0,402.0&gt;&gt;
 
-* uni0678.init: L&lt;&lt;442.0,191.0&gt;--&lt;-11.0,193.0&gt;&gt;
-
 * uni0679 (U+FB66): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
 * uni0679 (U+FB66): L&lt;&lt;565.0,1716.0&gt;--&lt;564.0,1365.0&gt;&gt;
@@ -11888,17 +11714,19 @@ definitions.</p>
 
 * uni067C (U+067C): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
+* uni067C (U+067C): L&lt;&lt;418.0,192.0&gt;--&lt;219.0,191.0&gt;&gt;
+
+* uni067C (U+067C): L&lt;&lt;954.0,191.0&gt;--&lt;769.0,192.0&gt;&gt;
+
+* uni067C.fina: L&lt;&lt;1238.0,192.0&gt;--&lt;766.0,191.0&gt;&gt;
+
 * uni067C.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni067C.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uni067C.fina: L&lt;&lt;418.0,192.0&gt;--&lt;219.0,191.0&gt;&gt;
 
-* uni067C.init: L&lt;&lt;384.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni067C.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni067C.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni067C.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;797.0,191.0&gt;&gt;
-
-* uni067C.medi: L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni067C.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -11906,15 +11734,9 @@ definitions.</p>
 
 * uni067D.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni067D.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni067D.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni067D.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni067D.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni067D.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni067D.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni067D.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -11986,21 +11808,15 @@ definitions.</p>
 
 * uni069F.init: L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
-* uni069F.init: L&lt;&lt;406.0,191.0&gt;--&lt;-11.0,193.0&gt;&gt;
-
 * uni069F.medi: L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
 * uni06A0.fina: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
 * uni06A0.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni06A0.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni06A0.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
 * uni06A1 (U+06A1): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni06A1.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni06A1.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni06A1.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -12008,7 +11824,7 @@ definitions.</p>
 
 * uni06A2 (U+06A2): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni06A2.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni06A2.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni06A2.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -12016,7 +11832,7 @@ definitions.</p>
 
 * uni06A3 (U+06A3): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni06A3.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni06A3.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni06A3.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -12026,7 +11842,7 @@ definitions.</p>
 
 * uni06A5 (U+06A5): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni06A5.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni06A5.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni06A5.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -12034,41 +11850,21 @@ definitions.</p>
 
 * uni06A6 (U+FB6E): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni06A7.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni06A7.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni06A7.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni06A7.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni06A8.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni06A8.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni06A8.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni06A8.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni06AA.fina: L&lt;&lt;1238.0,193.0&gt;--&lt;796.0,192.0&gt;&gt;
-
-* uni06AA.init: L&lt;&lt;-6.0,402.0&gt;--&lt;760.0,403.0&gt;&gt;
-
-* uni06AA.init: L&lt;&lt;760.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06AA.medi: L&lt;&lt;-6.0,402.0&gt;--&lt;760.0,403.0&gt;&gt;
-
-* uni06AA.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;796.0,192.0&gt;&gt;
-
-* uni06AA.medi: L&lt;&lt;760.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06AB.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni06AB.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uni06AC (U+06AC): L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
 * uni06AC.fina: L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
-
-* uni06AC.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni06AC.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
 
 * uni06AD (U+FBD3): L&lt;&lt;854.0,793.0&gt;--&lt;851.0,1418.0&gt;&gt;
 
@@ -12078,113 +11874,45 @@ definitions.</p>
 
 * uni06AE.fina: L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
-* uni06AE.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni06AE.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni06B0.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni06B0.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni06B2.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni06B2.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni06B4.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni06B4.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni06B5.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
-
-* uni06B5.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
 * uni06B5.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
-
-* uni06B5.medi: L&lt;&lt;332.0,191.0&gt;--&lt;-14.0,194.0&gt;&gt;
 
 * uni06B5.medi: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni06B6.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
-
-* uni06B6.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06B6.medi: L&lt;&lt;-13.0,400.0&gt;--&lt;342.0,403.0&gt;&gt;
-
 * uni06B6.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;799.0,191.0&gt;&gt;
-
-* uni06B6.medi: L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,194.0&gt;&gt;
 
 * uni06B6.medi: L&lt;&lt;799.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni06B7.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
-
-* uni06B7.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
 * uni06B7.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
-
-* uni06B7.medi: L&lt;&lt;332.0,191.0&gt;--&lt;-14.0,194.0&gt;&gt;
 
 * uni06B7.medi: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni06B8.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
-
-* uni06B8.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06B8.medi: L&lt;&lt;-13.0,400.0&gt;--&lt;342.0,403.0&gt;&gt;
-
 * uni06B8.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;799.0,191.0&gt;&gt;
-
-* uni06B8.medi: L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,194.0&gt;&gt;
 
 * uni06B8.medi: L&lt;&lt;799.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni06B9.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni06B9.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06B9.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni06B9.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni06B9.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
-* uni06B9.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uni06B9.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uni06BA.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni06BA.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06BA.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni06BA.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni06BA.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni06BA.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni06BA.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni06BB (U+FBA0): L&lt;&lt;538.0,1569.0&gt;--&lt;537.0,1218.0&gt;&gt;
 
-* uni06BC.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni06BC.init: L&lt;&lt;384.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06BC.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni06BC.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni06BC.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;797.0,191.0&gt;&gt;
 
-* uni06BC.medi: L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uni06BC.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uni06BD.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni06BD.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06BD.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni06BD.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni06BD.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni06BD.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni06BD.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12196,29 +11924,17 @@ definitions.</p>
 
 * uni06CE.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni06CE.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni06CE.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06CE.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni06CE.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni06CE.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni06CE.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni06CE.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni06D1.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni06D1.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni06D1.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni06D1.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni06D1.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni06D1.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni06D1.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni06D1.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12248,15 +11964,11 @@ definitions.</p>
 
 * uni06FC.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni06FC.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni06FC.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
 * uni06FE (U+06FE): L&lt;&lt;260.0,441.0&gt;--&lt;261.0,-244.0&gt;&gt;
 
-* uni06FE.init: L&lt;&lt;431.0,192.0&gt;--&lt;-11.0,193.0&gt;&gt;
+* uni06FE.init: L&lt;&lt;0.0,403.0&gt;--&lt;391.0,401.0&gt;&gt;
 
-* uni06FE.medi: L&lt;&lt;243.0,194.0&gt;--&lt;-17.0,195.0&gt;&gt;
+* uni06FE.init: L&lt;&lt;431.0,192.0&gt;--&lt;0.0,191.0&gt;&gt;
 
 * uni06FF.fina: L&lt;&lt;1241.0,194.0&gt;--&lt;887.0,191.0&gt;&gt;
 
@@ -12272,15 +11984,9 @@ definitions.</p>
 
 * uni0750.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0750.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0750.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0750.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0750.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0750.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0750.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0750.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12288,15 +11994,9 @@ definitions.</p>
 
 * uni0751.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0751.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0751.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0751.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0751.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0751.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0751.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0751.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12304,15 +12004,9 @@ definitions.</p>
 
 * uni0752.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0752.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0752.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0752.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0752.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0752.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0752.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0752.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12320,15 +12014,9 @@ definitions.</p>
 
 * uni0753.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0753.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0753.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0753.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0753.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0753.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0753.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0753.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12336,15 +12024,9 @@ definitions.</p>
 
 * uni0754.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0754.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0754.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0754.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0754.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0754.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0754.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0754.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12352,15 +12034,9 @@ definitions.</p>
 
 * uni0755.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0755.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0755.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0755.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0755.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0755.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0755.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0755.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12368,15 +12044,9 @@ definitions.</p>
 
 * uni0756.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni0756.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0756.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0756.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0756.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0756.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0756.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0756.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12396,35 +12066,21 @@ definitions.</p>
 
 * uni075A.fina: L&lt;&lt;335.0,1784.0&gt;--&lt;334.0,1433.0&gt;&gt;
 
-* uni075B.fina: L&lt;&lt;1107.0,398.0&gt;--&lt;1244.0,399.0&gt;&gt;
-
 * uni075D.fina: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
 * uni075D.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
-
-* uni075D.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni075D.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
 
 * uni075E.fina: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
 * uni075E.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni075E.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni075E.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
 * uni075F.fina: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
 * uni075F.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni075F.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni075F.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
 * uni0760 (U+0760): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni0760.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni0760.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni0760.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -12432,45 +12088,27 @@ definitions.</p>
 
 * uni0761 (U+0761): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni0761.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni0761.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni0761.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni0761.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni0762.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni0762.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni0763.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni0763.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uni0764.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni0764.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uni0765 (U+0765): L&lt;&lt;260.0,216.0&gt;--&lt;261.0,-469.0&gt;&gt;
 
-* uni0765.init: L&lt;&lt;431.0,192.0&gt;--&lt;-11.0,193.0&gt;&gt;
+* uni0765.init: L&lt;&lt;0.0,403.0&gt;--&lt;391.0,401.0&gt;&gt;
 
-* uni0765.medi: L&lt;&lt;243.0,194.0&gt;--&lt;-17.0,195.0&gt;&gt;
+* uni0765.init: L&lt;&lt;431.0,192.0&gt;--&lt;0.0,191.0&gt;&gt;
 
 * uni0766 (U+0766): L&lt;&lt;260.0,216.0&gt;--&lt;261.0,-469.0&gt;&gt;
 
-* uni0766.init: L&lt;&lt;431.0,192.0&gt;--&lt;-11.0,193.0&gt;&gt;
+* uni0766.init: L&lt;&lt;0.0,403.0&gt;--&lt;391.0,401.0&gt;&gt;
 
-* uni0766.medi: L&lt;&lt;243.0,194.0&gt;--&lt;-17.0,195.0&gt;&gt;
+* uni0766.init: L&lt;&lt;431.0,192.0&gt;--&lt;0.0,191.0&gt;&gt;
 
-* uni0767.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0767.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0767.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0767.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0767.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0767.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0767.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12478,43 +12116,45 @@ definitions.</p>
 
 * uni0768.fina: L&lt;&lt;563.0,1620.0&gt;--&lt;562.0,1269.0&gt;&gt;
 
-* uni0768.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uni0768.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0768.init: L&lt;&lt;481.0,1784.0&gt;--&lt;480.0,1433.0&gt;&gt;
 
-* uni0768.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0768.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
-
 * uni0768.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0768.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0768.medi: L&lt;&lt;573.0,1716.0&gt;--&lt;572.0,1365.0&gt;&gt;
 
 * uni0768.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uni0769.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0769.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0769.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0769.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0769.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
-* uni0769.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uni0769.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uni076A.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
+* uni076A (U+076A): L&lt;&lt;1038.0,683.0&gt;--&lt;1040.0,221.0&gt;&gt;
 
-* uni076A.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
+* uni076A (U+076A): L&lt;&lt;1040.0,1509.0&gt;--&lt;1039.0,850.0&gt;&gt;
 
-* uni076A.medi: L&lt;&lt;-13.0,400.0&gt;--&lt;342.0,403.0&gt;&gt;
+* uni076A (U+076A): L&lt;&lt;830.0,221.0&gt;--&lt;833.0,680.0&gt;&gt;
+
+* uni076A (U+076A): L&lt;&lt;832.0,853.0&gt;--&lt;830.0,1509.0&gt;&gt;
+
+* uni076A.fina: L&lt;&lt;1040.0,1509.0&gt;--&lt;1039.0,850.0&gt;&gt;
+
+* uni076A.fina: L&lt;&lt;830.0,221.0&gt;--&lt;833.0,680.0&gt;&gt;
+
+* uni076A.fina: L&lt;&lt;832.0,853.0&gt;--&lt;830.0,1509.0&gt;&gt;
+
+* uni076A.init: L&lt;&lt;1060.0,1509.0&gt;--&lt;1059.0,994.0&gt;&gt;
+
+* uni076A.init: L&lt;&lt;854.0,999.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
 * uni076A.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;799.0,191.0&gt;&gt;
 
-* uni076A.medi: L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,194.0&gt;&gt;
+* uni076A.medi: L&lt;&lt;468.0,993.0&gt;--&lt;466.0,1509.0&gt;&gt;
+
+* uni076A.medi: L&lt;&lt;675.0,1509.0&gt;--&lt;673.0,992.0&gt;&gt;
 
 * uni076A.medi: L&lt;&lt;799.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
@@ -12596,43 +12236,25 @@ definitions.</p>
 
 * uni0775.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni0775.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0775.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0775.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0775.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0775.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0775.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0775.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni0776.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni0776.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0776.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0776.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0776.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0776.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0776.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0776.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni0777.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni0777.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni0777.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni0777.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni0777.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni0777.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni0777.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni0777.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12644,23 +12266,13 @@ definitions.</p>
 
 * uni077F.fina: L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
-* uni077F.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni077F.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uni08A0 (U+08A0): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
 * uni08A0.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni08A0.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08A0.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08A0.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08A0.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08A0.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08A0.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08A0.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12668,15 +12280,9 @@ definitions.</p>
 
 * uni08A1.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni08A1.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08A1.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08A1.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08A1.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08A1.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08A1.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08A1.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12686,83 +12292,81 @@ definitions.</p>
 
 * uni08A3.init: L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
-* uni08A3.init: L&lt;&lt;406.0,191.0&gt;--&lt;-11.0,193.0&gt;&gt;
-
 * uni08A3.medi: L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
 * uni08A4 (U+08A4): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni08A4.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni08A4.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni08A4.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni08A4.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni08A5.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni08A5.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni08A5.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni08A5.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni08A6.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
+* uni08A6 (U+08A6): L&lt;&lt;1038.0,558.0&gt;--&lt;1040.0,221.0&gt;&gt;
 
-* uni08A6.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
+* uni08A6 (U+08A6): L&lt;&lt;1040.0,1509.0&gt;--&lt;1039.0,1003.0&gt;&gt;
 
-* uni08A6.medi: L&lt;&lt;-13.0,400.0&gt;--&lt;342.0,403.0&gt;&gt;
+* uni08A6 (U+08A6): L&lt;&lt;830.0,221.0&gt;--&lt;831.0,561.0&gt;&gt;
+
+* uni08A6.fina: L&lt;&lt;1040.0,1509.0&gt;--&lt;1039.0,989.0&gt;&gt;
+
+* uni08A6.fina: L&lt;&lt;830.0,221.0&gt;--&lt;831.0,547.0&gt;&gt;
+
+* uni08A6.init: L&lt;&lt;1058.0,768.0&gt;--&lt;1060.0,512.0&gt;&gt;
+
+* uni08A6.init: L&lt;&lt;1060.0,1509.0&gt;--&lt;1058.0,1217.0&gt;&gt;
+
+* uni08A6.init: L&lt;&lt;851.0,512.0&gt;--&lt;853.0,768.0&gt;&gt;
+
+* uni08A6.init: L&lt;&lt;853.0,1217.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
 * uni08A6.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;799.0,191.0&gt;&gt;
 
-* uni08A6.medi: L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,194.0&gt;&gt;
+* uni08A6.medi: L&lt;&lt;468.0,1217.0&gt;--&lt;466.0,1509.0&gt;&gt;
+
+* uni08A6.medi: L&lt;&lt;675.0,1509.0&gt;--&lt;673.0,1217.0&gt;&gt;
 
 * uni08A6.medi: L&lt;&lt;799.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
 * uni08A7 (U+08A7): L&lt;&lt;260.0,216.0&gt;--&lt;261.0,-469.0&gt;&gt;
 
-* uni08A7.init: L&lt;&lt;431.0,192.0&gt;--&lt;-11.0,193.0&gt;&gt;
+* uni08A7.init: L&lt;&lt;0.0,403.0&gt;--&lt;391.0,401.0&gt;&gt;
 
-* uni08A7.medi: L&lt;&lt;243.0,194.0&gt;--&lt;-17.0,195.0&gt;&gt;
+* uni08A7.init: L&lt;&lt;431.0,192.0&gt;--&lt;0.0,191.0&gt;&gt;
 
 * uni08A8.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni08A8.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08A8.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08A8.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08A8.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08A8.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08A8.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08A8.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni08A9.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni08A9.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08A9.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08A9.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08A9.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08A9.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
-* uni08A9.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uni08A9.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uni08AC.fina: L&lt;&lt;1238.0,193.0&gt;--&lt;752.0,192.0&gt;&gt;
+* uni08AA.fina: L&lt;&lt;1247.0,197.0&gt;--&lt;1036.0,196.0&gt;&gt;
 
-* uni08AC.fina: L&lt;&lt;744.0,401.0&gt;--&lt;1238.0,402.0&gt;&gt;
+* uni08AC.fina: L&lt;&lt;1238.0,193.0&gt;--&lt;762.0,191.0&gt;&gt;
+
+* uni08AC.fina: L&lt;&lt;754.0,403.0&gt;--&lt;1238.0,402.0&gt;&gt;
 
 * uni08AF.fina: L&lt;&lt;1229.0,191.0&gt;--&lt;193.0,192.0&gt;&gt;
 
 * uni08AF.medi: L&lt;&lt;1229.0,192.0&gt;--&lt;620.0,191.0&gt;&gt;
 
 * uni08AF.medi: L&lt;&lt;1230.0,397.0&gt;--&lt;1229.0,192.0&gt;&gt;
-
-* uni08B0.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni08B0.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
 
 * uni08B2.fina: L&lt;&lt;1244.0,399.0&gt;--&lt;1243.0,195.0&gt;&gt;
 
@@ -12772,17 +12376,9 @@ definitions.</p>
 
 * uni08B3.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni08B3.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni08B3.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
 * uni08B4 (U+08B4): L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
 * uni08B4.fina: L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
-
-* uni08B4.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni08B4.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
 
 * uni08B6 (U+08B6): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
@@ -12792,17 +12388,11 @@ definitions.</p>
 
 * uni08B6.fina: L&lt;&lt;505.0,1378.0&gt;--&lt;507.0,957.0&gt;&gt;
 
-* uni08B6.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uni08B6.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08B6.init: L&lt;&lt;382.0,1378.0&gt;--&lt;384.0,957.0&gt;&gt;
 
-* uni08B6.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08B6.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
-
 * uni08B6.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08B6.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08B6.medi: L&lt;&lt;382.0,1378.0&gt;--&lt;384.0,957.0&gt;&gt;
 
@@ -12816,17 +12406,11 @@ definitions.</p>
 
 * uni08B7.fina: L&lt;&lt;505.0,1378.0&gt;--&lt;507.0,957.0&gt;&gt;
 
-* uni08B7.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uni08B7.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08B7.init: L&lt;&lt;382.0,1378.0&gt;--&lt;384.0,957.0&gt;&gt;
 
-* uni08B7.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08B7.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
-
 * uni08B7.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08B7.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08B7.medi: L&lt;&lt;382.0,1378.0&gt;--&lt;384.0,957.0&gt;&gt;
 
@@ -12836,15 +12420,9 @@ definitions.</p>
 
 * uni08B8.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni08B8.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08B8.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08B8.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08B8.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08B8.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08B8.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08B8.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12854,41 +12432,29 @@ definitions.</p>
 
 * uni08BA.fina: L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uni08BA.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08BA.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08BA.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08BA.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08BA.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08BA.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08BA.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uni08BB (U+08BB): L&lt;&lt;223.0,403.0&gt;--&lt;876.0,402.0&gt;&gt;
 
-* uni08BB.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni08BB.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni08BB.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni08BB.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni08BC.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni08BC.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni08BC.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uni08BC.medi: L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uni08BD.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08BD.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08BD.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08BD.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08BD.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08BD.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08BD.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12896,15 +12462,9 @@ definitions.</p>
 
 * uni08BE.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni08BE.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08BE.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08BE.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08BE.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08BE.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08BE.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08BE.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12912,15 +12472,9 @@ definitions.</p>
 
 * uni08BF.fina: L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uni08BF.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uni08BF.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08BF.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uni08BF.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08BF.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08BF.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08BF.medi: L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -12932,17 +12486,11 @@ definitions.</p>
 
 * uni08C0.fina: L&lt;&lt;538.0,1497.0&gt;--&lt;537.0,1146.0&gt;&gt;
 
-* uni08C0.init: L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uni08C0.init: L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uni08C0.init: L&lt;&lt;538.0,1497.0&gt;--&lt;537.0,1146.0&gt;&gt;
 
-* uni08C0.init: L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uni08C0.medi: L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
-
 * uni08C0.medi: L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uni08C0.medi: L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uni08C0.medi: L&lt;&lt;538.0,1497.0&gt;--&lt;537.0,1146.0&gt;&gt;
 
@@ -12952,19 +12500,11 @@ definitions.</p>
 
 * uni08C1.medi: L&lt;&lt;1043.0,398.0&gt;--&lt;1248.0,397.0&gt;&gt;
 
-* uni08C2.medi: L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uni08C2.medi: L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uni08C3.fina: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
 * uni08C3.fina: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni08C3.init: L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uni08C3.init: L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
-* uni08C4.init: L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uni08C4.init: L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uni08C4.medi: L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -12982,11 +12522,7 @@ definitions.</p>
 
 * uni08C7.fina: L&lt;&lt;440.0,1620.0&gt;--&lt;439.0,1269.0&gt;&gt;
 
-* uni08C7.init: L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
-
 * uni08C7.init: L&lt;&lt;456.0,1620.0&gt;--&lt;455.0,1269.0&gt;&gt;
-
-* uni08C7.init: L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
 
 * uni08C7.medi: L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
@@ -12996,11 +12532,7 @@ definitions.</p>
 
 * uni08C7.medi: L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uni08DB (U+08DB): L&lt;&lt;448.0,1094.0&gt;--&lt;574.0,1095.0&gt;&gt;
-
-* uni08DD (U+08DD): L&lt;&lt;616.0,1013.0&gt;--&lt;496.0,1014.0&gt;&gt;
-
-* uni08DE (U+08DE): L&lt;&lt;843.0,1012.0&gt;--&lt;527.0,1013.0&gt;&gt;
+* uni08DF (U+08DF): L&lt;&lt;790.0,1012.0&gt;--&lt;643.0,1013.0&gt;&gt;
 
 * uni0E3F (U+0E3F): L&lt;&lt;129.0,1285.0&gt;--&lt;445.0,1283.0&gt;&gt;
 
@@ -13024,147 +12556,35 @@ definitions.</p>
 
 * uni1E2F (U+1E2F): L&lt;&lt;747.0,856.0&gt;--&lt;744.0,158.0&gt;&gt;
 
-* uni1E36 (U+1E36): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
+* uni1E36 (U+1E36): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* uni1E36 (U+1E36): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
+* uni1E37 (U+1E37): L&lt;&lt;737.0,1244.0&gt;--&lt;736.0,154.0&gt;&gt;
 
-* uni1E37 (U+1E37): L&lt;&lt;280.0,1346.0&gt;--&lt;627.0,1343.0&gt;&gt;
+* uni1E38 (U+1E38): L&lt;&lt;429.0,1132.0&gt;--&lt;424.0,161.0&gt;&gt;
 
-* uni1E37 (U+1E37): L&lt;&lt;519.0,1136.0&gt;--&lt;280.0,1134.0&gt;&gt;
+* uni1E39 (U+1E39): L&lt;&lt;737.0,1244.0&gt;--&lt;736.0,154.0&gt;&gt;
 
-* uni1E38 (U+1E38): L&lt;&lt;429.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
+* uni1E6C (U+1E6C): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,1032.0&gt;&gt;
 
-* uni1E38 (U+1E38): L&lt;&lt;977.0,-34.0&gt;--&lt;341.0,-33.0&gt;&gt;
+* uni1E6C (U+1E6C): L&lt;&lt;721.0,1032.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* uni1E39 (U+1E39): L&lt;&lt;280.0,1346.0&gt;--&lt;627.0,1343.0&gt;&gt;
+* uni1E6E (U+1E6E): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,1032.0&gt;&gt;
 
-* uni1E39 (U+1E39): L&lt;&lt;519.0,1136.0&gt;--&lt;280.0,1134.0&gt;&gt;
-
-* uni1E92 (U+1E92): L&lt;&lt;256.0,1221.0&gt;--&lt;899.0,1220.0&gt;&gt;
-
-* uni1E92 (U+1E92): L&lt;&lt;452.0,177.0&gt;--&lt;996.0,178.0&gt;&gt;
-
-* uni1E92 (U+1E92): L&lt;&lt;757.0,1010.0&gt;--&lt;256.0,1009.0&gt;&gt;
-
-* uni1E92 (U+1E92): L&lt;&lt;996.0,-34.0&gt;--&lt;303.0,-33.0&gt;&gt;
-
-* uni1E93 (U+1E93): L&lt;&lt;261.0,958.0&gt;--&lt;897.0,957.0&gt;&gt;
-
-* uni1E93 (U+1E93): L&lt;&lt;498.0,177.0&gt;--&lt;987.0,178.0&gt;&gt;
-
-* uni1E93 (U+1E93): L&lt;&lt;720.0,747.0&gt;--&lt;261.0,746.0&gt;&gt;
-
-* uni1E93 (U+1E93): L&lt;&lt;987.0,-34.0&gt;--&lt;324.0,-33.0&gt;&gt;
-
-* uni1EB8 (U+1EB8): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EB8 (U+1EB8): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EB8 (U+1EB8): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EB8 (U+1EB8): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EB8 (U+1EB8): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EB8 (U+1EB8): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
+* uni1E6E (U+1E6E): L&lt;&lt;721.0,1032.0&gt;--&lt;723.0,55.0&gt;&gt;
 
 * uni1EB9 (U+1EB9): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
-* uni1EBA (U+1EBA): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EBA (U+1EBA): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EBA (U+1EBA): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EBA (U+1EBA): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EBA (U+1EBA): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EBA (U+1EBA): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
 * uni1EBB (U+1EBB): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
-
-* uni1EBC (U+1EBC): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EBC (U+1EBC): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EBC (U+1EBC): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EBC (U+1EBC): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EBC (U+1EBC): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EBC (U+1EBC): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
 
 * uni1EBD (U+1EBD): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
-* uni1EBE (U+1EBE): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EBE (U+1EBE): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EBE (U+1EBE): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EBE (U+1EBE): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EBE (U+1EBE): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EBE (U+1EBE): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
 * uni1EBF (U+1EBF): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
-
-* uni1EC0 (U+1EC0): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EC0 (U+1EC0): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EC0 (U+1EC0): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EC0 (U+1EC0): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EC0 (U+1EC0): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EC0 (U+1EC0): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
 
 * uni1EC1 (U+1EC1): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
-* uni1EC2 (U+1EC2): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EC2 (U+1EC2): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EC2 (U+1EC2): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EC2 (U+1EC2): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EC2 (U+1EC2): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EC2 (U+1EC2): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
 * uni1EC3 (U+1EC3): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
-* uni1EC4 (U+1EC4): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EC4 (U+1EC4): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EC4 (U+1EC4): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EC4 (U+1EC4): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EC4 (U+1EC4): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EC4 (U+1EC4): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
-
 * uni1EC5 (U+1EC5): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
-
-* uni1EC6 (U+1EC6): L&lt;&lt;321.0,1220.0&gt;--&lt;957.0,1221.0&gt;&gt;
-
-* uni1EC6 (U+1EC6): L&lt;&lt;409.0,177.0&gt;--&lt;977.0,178.0&gt;&gt;
-
-* uni1EC6 (U+1EC6): L&lt;&lt;409.0,717.0&gt;--&lt;832.0,718.0&gt;&gt;
-
-* uni1EC6 (U+1EC6): L&lt;&lt;832.0,506.0&gt;--&lt;409.0,507.0&gt;&gt;
-
-* uni1EC6 (U+1EC6): L&lt;&lt;957.0,1009.0&gt;--&lt;409.0,1010.0&gt;&gt;
-
-* uni1EC6 (U+1EC6): L&lt;&lt;977.0,-34.0&gt;--&lt;322.0,-33.0&gt;&gt;
 
 * uni1EC7 (U+1EC7): L&lt;&lt;1026.0,391.0&gt;--&lt;311.0,392.0&gt;&gt;
 
@@ -13176,17 +12596,17 @@ definitions.</p>
 
 * uni1ECB (U+1ECB): L&lt;&lt;747.0,856.0&gt;--&lt;744.0,158.0&gt;&gt;
 
-* uni1EF4 (U+1EF4): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* uni1EF4 (U+1EF4): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* uni1EF4 (U+1EF4): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* uni1EF4 (U+1EF4): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* uni1EF6 (U+1EF6): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* uni1EF6 (U+1EF6): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* uni1EF6 (U+1EF6): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* uni1EF6 (U+1EF6): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
-* uni1EF8 (U+1EF8): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,476.0&gt;&gt;
+* uni1EF8 (U+1EF8): L&lt;&lt;505.0,55.0&gt;--&lt;507.0,475.0&gt;&gt;
 
-* uni1EF8 (U+1EF8): L&lt;&lt;722.0,477.0&gt;--&lt;723.0,55.0&gt;&gt;
+* uni1EF8 (U+1EF8): L&lt;&lt;721.0,475.0&gt;--&lt;723.0,55.0&gt;&gt;
 
 * uni1F21 (U+1F21): L&lt;&lt;832.0,-425.0&gt;--&lt;830.0,515.0&gt;&gt;
 
@@ -13250,19 +12670,29 @@ definitions.</p>
 
 * uni202E (U+202E): L&lt;&lt;755.0,1422.0&gt;--&lt;752.0,1070.0&gt;&gt;
 
+* uni2061 (U+2061): L&lt;&lt;1108.0,929.0&gt;--&lt;1109.0,704.0&gt;&gt;
+
+* uni2061 (U+2061): L&lt;&lt;1109.0,648.0&gt;--&lt;1108.0,426.0&gt;&gt;
+
+* uni2064 (U+2064): L&lt;&lt;1109.0,923.0&gt;--&lt;1108.0,700.0&gt;&gt;
+
 * uni2066 (U+2066): L&lt;&lt;280.0,1418.0&gt;--&lt;277.0,1066.0&gt;&gt;
+
+* uni2066 (U+2066): L&lt;&lt;506.0,443.0&gt;--&lt;505.0,809.0&gt;&gt;
 
 * uni2066 (U+2066): L&lt;&lt;707.0,1204.0&gt;--&lt;708.0,1082.0&gt;&gt;
 
+* uni2067 (U+2067): L&lt;&lt;506.0,443.0&gt;--&lt;505.0,809.0&gt;&gt;
+
 * uni2067 (U+2067): L&lt;&lt;755.0,1422.0&gt;--&lt;752.0,1070.0&gt;&gt;
 
-* uni2068 (U+2068): L&lt;&lt;243.0,1473.0&gt;--&lt;501.0,1474.0&gt;&gt;
+* uni2068 (U+2068): L&lt;&lt;506.0,443.0&gt;--&lt;505.0,809.0&gt;&gt;
 
-* uni2068 (U+2068): L&lt;&lt;245.0,1240.0&gt;--&lt;452.0,1241.0&gt;&gt;
+* uni2069 (U+2069): L&lt;&lt;506.0,443.0&gt;--&lt;505.0,809.0&gt;&gt;
 
-* uni2068 (U+2068): L&lt;&lt;452.0,1235.0&gt;--&lt;245.0,1236.0&gt;&gt;
+* uni2074 (U+2074): L&lt;&lt;657.0,676.0&gt;--&lt;296.0,673.0&gt;&gt;
 
-* uni2068 (U+2068): L&lt;&lt;501.0,1468.0&gt;--&lt;243.0,1469.0&gt;&gt;
+* uni2074 (U+2074): L&lt;&lt;841.0,1278.0&gt;--&lt;840.0,840.0&gt;&gt;
 
 * uni2422 (U+2422): L&lt;&lt;169.0,983.0&gt;--&lt;170.0,1109.0&gt;&gt;
 
@@ -13278,9 +12708,19 @@ definitions.</p>
 
 * uniFB01 (U+FB01): L&lt;&lt;1975.0,856.0&gt;--&lt;1972.0,158.0&gt;&gt;
 
-* uniFB02 (U+FB02): L&lt;&lt;1508.0,1346.0&gt;--&lt;1855.0,1343.0&gt;&gt;
+* uniFB01 (U+FB01): L&lt;&lt;414.0,55.0&gt;--&lt;415.0,690.0&gt;&gt;
 
-* uniFB02 (U+FB02): L&lt;&lt;1747.0,1136.0&gt;--&lt;1508.0,1134.0&gt;&gt;
+* uniFB01 (U+FB01): L&lt;&lt;608.0,876.0&gt;--&lt;944.0,878.0&gt;&gt;
+
+* uniFB01 (U+FB01): L&lt;&lt;628.0,684.0&gt;--&lt;632.0,55.0&gt;&gt;
+
+* uniFB02 (U+FB02): L&lt;&lt;1965.0,1244.0&gt;--&lt;1964.0,154.0&gt;&gt;
+
+* uniFB02 (U+FB02): L&lt;&lt;414.0,55.0&gt;--&lt;415.0,690.0&gt;&gt;
+
+* uniFB02 (U+FB02): L&lt;&lt;608.0,876.0&gt;--&lt;944.0,878.0&gt;&gt;
+
+* uniFB02 (U+FB02): L&lt;&lt;628.0,684.0&gt;--&lt;632.0,55.0&gt;&gt;
 
 * uniFB51 (U+FB51): L&lt;&lt;1237.0,192.0&gt;--&lt;719.0,191.0&gt;&gt;
 
@@ -13288,71 +12728,41 @@ definitions.</p>
 
 * uniFB53 (U+FB53): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFB54 (U+FB54): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFB54 (U+FB54): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFB55 (U+FB55): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFB54 (U+FB54): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFB55 (U+FB55): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFB55 (U+FB55): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFB55 (U+FB55): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uniFB57 (U+FB57): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFB58 (U+FB58): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFB58 (U+FB58): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFB59 (U+FB59): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFB58 (U+FB58): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFB59 (U+FB59): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFB59 (U+FB59): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFB59 (U+FB59): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uniFB5B (U+FB5B): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFB5C (U+FB5C): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFB5C (U+FB5C): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFB5D (U+FB5D): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFB5C (U+FB5C): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFB5D (U+FB5D): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFB5D (U+FB5D): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFB5D (U+FB5D): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uniFB5F (U+FB5F): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFB60 (U+FB60): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFB60 (U+FB60): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFB61 (U+FB61): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFB60 (U+FB60): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFB61 (U+FB61): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFB61 (U+FB61): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFB61 (U+FB61): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uniFB63 (U+FB63): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFB64 (U+FB64): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFB64 (U+FB64): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFB65 (U+FB65): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFB64 (U+FB64): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFB65 (U+FB65): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFB65 (U+FB65): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFB65 (U+FB65): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13360,29 +12770,23 @@ definitions.</p>
 
 * uniFB67 (U+FB67): L&lt;&lt;565.0,1716.0&gt;--&lt;564.0,1365.0&gt;&gt;
 
-* uniFB68 (U+FB68): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uniFB68 (U+FB68): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFB68 (U+FB68): L&lt;&lt;741.0,1716.0&gt;--&lt;740.0,1365.0&gt;&gt;
 
-* uniFB68 (U+FB68): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFB69 (U+FB69): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
-
 * uniFB69 (U+FB69): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFB69 (U+FB69): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFB69 (U+FB69): L&lt;&lt;741.0,1716.0&gt;--&lt;740.0,1365.0&gt;&gt;
 
 * uniFB69 (U+FB69): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uniFB6C (U+FB6C): L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uniFB6C (U+FB6C): L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uniFB6D (U+FB6D): L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uniFB6D (U+FB6D): L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uniFB70 (U+FB70): L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uniFB70 (U+FB70): L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uniFB71 (U+FB71): L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -13400,7 +12804,9 @@ definitions.</p>
 
 * uniFB7D (U+FB7D): L&lt;&lt;1043.0,398.0&gt;--&lt;1248.0,397.0&gt;&gt;
 
-* uniFB7F (U+FB7F): L&lt;&lt;1240.0,193.0&gt;--&lt;891.0,191.0&gt;&gt;
+* uniFB7F (U+FB7F): L&lt;&lt;1241.0,193.0&gt;--&lt;891.0,191.0&gt;&gt;
+
+* uniFB7F (U+FB7F): L&lt;&lt;1242.0,400.0&gt;--&lt;1241.0,193.0&gt;&gt;
 
 * uniFB81 (U+FB81): L&lt;&lt;1043.0,398.0&gt;--&lt;1248.0,397.0&gt;&gt;
 
@@ -13416,37 +12822,15 @@ definitions.</p>
 
 * uniFB8D (U+FB8D): L&lt;&lt;970.0,398.0&gt;--&lt;1244.0,399.0&gt;&gt;
 
-* uniFB91 (U+FB91): L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uniFB91 (U+FB91): L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uniFB95 (U+FB95): L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uniFB95 (U+FB95): L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uniFB99 (U+FB99): L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uniFB99 (U+FB99): L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uniFB9D (U+FB9D): L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uniFB9D (U+FB9D): L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uniFBA1 (U+FBA1): L&lt;&lt;538.0,1298.0&gt;--&lt;537.0,947.0&gt;&gt;
 
-* uniFBA2 (U+FBA2): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uniFBA2 (U+FBA2): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFBA2 (U+FBA2): L&lt;&lt;335.0,1716.0&gt;--&lt;334.0,1365.0&gt;&gt;
-
-* uniFBA2 (U+FBA2): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFBA3 (U+FBA3): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
 
 * uniFBA3 (U+FBA3): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
 * uniFBA3 (U+FBA3): L&lt;&lt;335.0,1716.0&gt;--&lt;334.0,1365.0&gt;&gt;
-
-* uniFBA3 (U+FBA3): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFBA3 (U+FBA3): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13454,11 +12838,13 @@ definitions.</p>
 
 * uniFBA5 (U+FBA5): L&lt;&lt;887.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uniFBA8 (U+FBA8): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
+* uniFBA8 (U+FBA8): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
-* uniFBA8 (U+FBA8): L&lt;&lt;519.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
+* uniFBA9 (U+FBA9): L&lt;&lt;336.0,192.0&gt;--&lt;0.0,191.0&gt;&gt;
 
-* uniFBA9 (U+FBA9): L&lt;&lt;336.0,192.0&gt;--&lt;-13.0,194.0&gt;&gt;
+* uniFBAB (U+FBAB): L&lt;&lt;1237.0,192.0&gt;--&lt;707.0,191.0&gt;&gt;
+
+* uniFBAD (U+FBAD): L&lt;&lt;1237.0,192.0&gt;--&lt;707.0,191.0&gt;&gt;
 
 * uniFBC0 (U+FBC0): L&lt;&lt;538.0,1620.0&gt;--&lt;537.0,1269.0&gt;&gt;
 
@@ -13468,105 +12854,59 @@ definitions.</p>
 
 * uniFBD4 (U+FBD4): L&lt;&lt;856.0,386.0&gt;--&lt;854.0,663.0&gt;&gt;
 
-* uniFBD6 (U+FBD6): L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uniFBD6 (U+FBD6): L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
 * uniFBE5 (U+FBE5): L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uniFBE6 (U+FBE6): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFBE6 (U+FBE6): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFBE7 (U+FBE7): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFBE6 (U+FBE6): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFBE7 (U+FBE7): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
-* uniFBE7 (U+FBE7): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uniFBE7 (U+FBE7): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uniFBE8 (U+FBE8): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFBE8 (U+FBE8): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFBE9 (U+FBE9): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFBE8 (U+FBE8): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFBE9 (U+FBE9): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFBE9 (U+FBE9): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFBE9 (U+FBE9): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uniFBFD (U+FBFD): L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uniFBFE (U+FBFE): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFBFE (U+FBFE): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFBFF (U+FBFF): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFBFE (U+FBFE): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFBFF (U+FBFF): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
 
-* uniFBFF (U+FBFF): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
-
 * uniFBFF (U+FBFF): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
-* uniFD88 (U+FD88): L&lt;&lt;586.0,1257.0&gt;--&lt;585.0,1694.0&gt;&gt;
+* uniFCC9 (U+FCC9): L&lt;&lt;521.0,1703.0&gt;--&lt;519.0,943.0&gt;&gt;
+
+* uniFCCA (U+FCCA): L&lt;&lt;521.0,1703.0&gt;--&lt;519.0,943.0&gt;&gt;
+
+* uniFCCB (U+FCCB): L&lt;&lt;521.0,1703.0&gt;--&lt;519.0,943.0&gt;&gt;
+
+* uniFD88 (U+FD88): L&lt;&lt;586.0,1256.0&gt;--&lt;585.0,1694.0&gt;&gt;
 
 * uniFDFB (U+FDFB): L&lt;&lt;599.0,420.0&gt;--&lt;597.0,653.0&gt;&gt;
 
-* uniFE00 (U+FE00): L&lt;&lt;609.0,430.0&gt;--&lt;608.0,816.0&gt;&gt;
+* uniFE00 (U+FE00): L&lt;&lt;676.0,875.0&gt;--&lt;675.0,449.0&gt;&gt;
 
-* uniFE00 (U+FE00): L&lt;&lt;610.0,816.0&gt;--&lt;611.0,431.0&gt;&gt;
+* uniFE03 (U+FE03): L&lt;&lt;727.0,864.0&gt;--&lt;726.0,578.0&gt;&gt;
 
-* uniFE01 (U+FE01): L&lt;&lt;498.0,412.0&gt;--&lt;738.0,413.0&gt;&gt;
+* uniFE09 (U+FE09): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
-* uniFE01 (U+FE01): L&lt;&lt;738.0,407.0&gt;--&lt;498.0,408.0&gt;&gt;
+* uniFE0A (U+FE0A): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
-* uniFE04 (U+FE04): L&lt;&lt;508.0,859.0&gt;--&lt;708.0,860.0&gt;&gt;
+* uniFE0A (U+FE0A): L&lt;&lt;850.0,875.0&gt;--&lt;849.0,449.0&gt;&gt;
 
-* uniFE04 (U+FE04): L&lt;&lt;708.0,854.0&gt;--&lt;508.0,855.0&gt;&gt;
+* uniFE0B (U+FE0B): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
-* uniFE06 (U+FE06): L&lt;&lt;452.0,860.0&gt;--&lt;717.0,859.0&gt;&gt;
+* uniFE0C (U+FE0C): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
-* uniFE06 (U+FE06): L&lt;&lt;717.0,855.0&gt;--&lt;452.0,854.0&gt;&gt;
+* uniFE0D (U+FE0D): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
-* uniFE09 (U+FE09): L&lt;&lt;299.0,475.0&gt;--&lt;300.0,794.0&gt;&gt;
+* uniFE0D (U+FE0D): L&lt;&lt;901.0,864.0&gt;--&lt;900.0,578.0&gt;&gt;
 
-* uniFE0A (U+FE0A): L&lt;&lt;363.0,430.0&gt;--&lt;362.0,816.0&gt;&gt;
+* uniFE0E (U+FE0E): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
-* uniFE0A (U+FE0A): L&lt;&lt;364.0,816.0&gt;--&lt;365.0,431.0&gt;&gt;
-
-* uniFE0A (U+FE0A): L&lt;&lt;783.0,430.0&gt;--&lt;782.0,816.0&gt;&gt;
-
-* uniFE0A (U+FE0A): L&lt;&lt;784.0,816.0&gt;--&lt;785.0,431.0&gt;&gt;
-
-* uniFE0B (U+FE0B): L&lt;&lt;363.0,430.0&gt;--&lt;362.0,816.0&gt;&gt;
-
-* uniFE0B (U+FE0B): L&lt;&lt;364.0,816.0&gt;--&lt;365.0,431.0&gt;&gt;
-
-* uniFE0B (U+FE0B): L&lt;&lt;672.0,412.0&gt;--&lt;912.0,413.0&gt;&gt;
-
-* uniFE0B (U+FE0B): L&lt;&lt;912.0,407.0&gt;--&lt;672.0,408.0&gt;&gt;
-
-* uniFE0C (U+FE0C): L&lt;&lt;363.0,430.0&gt;--&lt;362.0,816.0&gt;&gt;
-
-* uniFE0C (U+FE0C): L&lt;&lt;364.0,816.0&gt;--&lt;365.0,431.0&gt;&gt;
-
-* uniFE0D (U+FE0D): L&lt;&lt;363.0,430.0&gt;--&lt;362.0,816.0&gt;&gt;
-
-* uniFE0D (U+FE0D): L&lt;&lt;364.0,816.0&gt;--&lt;365.0,431.0&gt;&gt;
-
-* uniFE0E (U+FE0E): L&lt;&lt;363.0,430.0&gt;--&lt;362.0,816.0&gt;&gt;
-
-* uniFE0E (U+FE0E): L&lt;&lt;364.0,816.0&gt;--&lt;365.0,431.0&gt;&gt;
-
-* uniFE0E (U+FE0E): L&lt;&lt;682.0,859.0&gt;--&lt;882.0,860.0&gt;&gt;
-
-* uniFE0E (U+FE0E): L&lt;&lt;882.0,854.0&gt;--&lt;682.0,855.0&gt;&gt;
-
-* uniFE0F (U+FE0F): L&lt;&lt;299.0,475.0&gt;--&lt;300.0,794.0&gt;&gt;
+* uniFE0F (U+FE0F): L&lt;&lt;430.0,875.0&gt;--&lt;429.0,449.0&gt;&gt;
 
 * uniFE82 (U+FE82): L&lt;&lt;1237.0,192.0&gt;--&lt;719.0,191.0&gt;&gt;
 
@@ -13582,15 +12922,9 @@ definitions.</p>
 
 * uniFE8A (U+FE8A): L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uniFE8B (U+FE8B): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFE8B (U+FE8B): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFE8C (U+FE8C): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFE8B (U+FE8B): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFE8C (U+FE8C): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFE8C (U+FE8C): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFE8C (U+FE8C): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13600,15 +12934,9 @@ definitions.</p>
 
 * uniFE90 (U+FE90): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFE91 (U+FE91): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFE91 (U+FE91): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFE92 (U+FE92): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFE91 (U+FE91): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFE92 (U+FE92): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFE92 (U+FE92): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFE92 (U+FE92): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13618,29 +12946,17 @@ definitions.</p>
 
 * uniFE96 (U+FE96): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFE97 (U+FE97): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFE97 (U+FE97): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFE98 (U+FE98): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFE97 (U+FE97): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFE98 (U+FE98): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFE98 (U+FE98): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFE98 (U+FE98): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
 * uniFE9A (U+FE9A): L&lt;&lt;223.0,403.0&gt;--&lt;867.0,398.0&gt;&gt;
 
-* uniFE9B (U+FE9B): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFE9B (U+FE9B): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFE9C (U+FE9C): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFE9B (U+FE9B): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFE9C (U+FE9C): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFE9C (U+FE9C): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFE9C (U+FE9C): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13678,13 +12994,9 @@ definitions.</p>
 
 * uniFEC3 (U+FEC3): L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
-* uniFEC3 (U+FEC3): L&lt;&lt;406.0,191.0&gt;--&lt;-11.0,193.0&gt;&gt;
-
 * uniFEC4 (U+FEC4): L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
 * uniFEC7 (U+FEC7): L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
-
-* uniFEC7 (U+FEC7): L&lt;&lt;406.0,191.0&gt;--&lt;-11.0,193.0&gt;&gt;
 
 * uniFEC8 (U+FEC8): L&lt;&lt;231.0,377.0&gt;--&lt;230.0,1509.0&gt;&gt;
 
@@ -13692,25 +13004,17 @@ definitions.</p>
 
 * uniFECA (U+FECA): L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uniFECB (U+FECB): L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uniFECB (U+FECB): L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
 * uniFECE (U+FECE): L&lt;&lt;1239.0,193.0&gt;--&lt;813.0,191.0&gt;&gt;
 
 * uniFECE (U+FECE): L&lt;&lt;813.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uniFECF (U+FECF): L&lt;&lt;-11.0,401.0&gt;--&lt;406.0,403.0&gt;&gt;
-
-* uniFECF (U+FECF): L&lt;&lt;723.0,191.0&gt;--&lt;-7.0,192.0&gt;&gt;
-
-* uniFED3 (U+FED3): L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uniFED3 (U+FED3): L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uniFED4 (U+FED4): L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
 * uniFED4 (U+FED4): L&lt;&lt;879.0,403.0&gt;--&lt;1241.0,400.0&gt;&gt;
 
-* uniFED7 (U+FED7): L&lt;&lt;-5.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
+* uniFED7 (U+FED7): L&lt;&lt;0.0,403.0&gt;--&lt;878.0,402.0&gt;&gt;
 
 * uniFED8 (U+FED8): L&lt;&lt;1241.0,194.0&gt;--&lt;879.0,191.0&gt;&gt;
 
@@ -13718,35 +13022,17 @@ definitions.</p>
 
 * uniFEDA (U+FEDA): L&lt;&lt;856.0,386.0&gt;--&lt;851.0,1509.0&gt;&gt;
 
-* uniFEDC (U+FEDC): L&lt;&lt;-10.0,402.0&gt;--&lt;481.0,403.0&gt;&gt;
-
-* uniFEDC (U+FEDC): L&lt;&lt;481.0,191.0&gt;--&lt;-10.0,192.0&gt;&gt;
-
-* uniFEDF (U+FEDF): L&lt;&lt;-6.0,402.0&gt;--&lt;774.0,403.0&gt;&gt;
-
-* uniFEDF (U+FEDF): L&lt;&lt;774.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFEE0 (U+FEE0): L&lt;&lt;-13.0,400.0&gt;--&lt;342.0,403.0&gt;&gt;
-
 * uniFEE0 (U+FEE0): L&lt;&lt;1239.0,193.0&gt;--&lt;799.0,191.0&gt;&gt;
-
-* uniFEE0 (U+FEE0): L&lt;&lt;346.0,191.0&gt;--&lt;-13.0,194.0&gt;&gt;
 
 * uniFEE0 (U+FEE0): L&lt;&lt;799.0,403.0&gt;--&lt;1239.0,401.0&gt;&gt;
 
-* uniFEE3 (U+FEE3): L&lt;&lt;431.0,192.0&gt;--&lt;-11.0,193.0&gt;&gt;
+* uniFEE3 (U+FEE3): L&lt;&lt;0.0,403.0&gt;--&lt;391.0,401.0&gt;&gt;
 
-* uniFEE4 (U+FEE4): L&lt;&lt;243.0,194.0&gt;--&lt;-17.0,195.0&gt;&gt;
+* uniFEE3 (U+FEE3): L&lt;&lt;431.0,192.0&gt;--&lt;0.0,191.0&gt;&gt;
 
-* uniFEE7 (U+FEE7): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFEE7 (U+FEE7): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFEE8 (U+FEE8): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFEE7 (U+FEE7): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFEE8 (U+FEE8): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFEE8 (U+FEE8): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFEE8 (U+FEE8): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13764,15 +13050,9 @@ definitions.</p>
 
 * uniFEF2 (U+FEF2): L&lt;&lt;1240.0,401.0&gt;--&lt;1239.0,193.0&gt;&gt;
 
-* uniFEF3 (U+FEF3): L&lt;&lt;-6.0,402.0&gt;--&lt;724.0,398.0&gt;&gt;
-
-* uniFEF3 (U+FEF3): L&lt;&lt;811.0,191.0&gt;--&lt;-6.0,192.0&gt;&gt;
-
-* uniFEF4 (U+FEF4): L&lt;&lt;-13.0,401.0&gt;--&lt;356.0,403.0&gt;&gt;
+* uniFEF3 (U+FEF3): L&lt;&lt;0.0,403.0&gt;--&lt;724.0,398.0&gt;&gt;
 
 * uniFEF4 (U+FEF4): L&lt;&lt;1238.0,193.0&gt;--&lt;784.0,191.0&gt;&gt;
-
-* uniFEF4 (U+FEF4): L&lt;&lt;360.0,191.0&gt;--&lt;-13.0,193.0&gt;&gt;
 
 * uniFEF4 (U+FEF4): L&lt;&lt;784.0,403.0&gt;--&lt;1238.0,401.0&gt;&gt;
 
@@ -13784,41 +13064,11 @@ definitions.</p>
 
 * uniFEFB (U+FEFB): L&lt;&lt;666.0,400.0&gt;--&lt;823.0,401.0&gt;&gt;
 
-* yen (U+00A5): L&lt;&lt;505.0,55.0&gt;--&lt;506.0,256.0&gt;&gt;
+* yen (U+00A5): L&lt;&lt;1015.0,566.0&gt;--&lt;774.0,568.0&gt;&gt;
 
-* yen (U+00A5): L&lt;&lt;722.0,256.0&gt;--&lt;723.0,55.0&gt;&gt;
+* yen (U+00A5): L&lt;&lt;454.0,568.0&gt;--&lt;213.0,566.0&gt;&gt;
 
-* z (U+007A): L&lt;&lt;261.0,958.0&gt;--&lt;897.0,957.0&gt;&gt;
-
-* z (U+007A): L&lt;&lt;498.0,177.0&gt;--&lt;987.0,178.0&gt;&gt;
-
-* z (U+007A): L&lt;&lt;720.0,747.0&gt;--&lt;261.0,746.0&gt;&gt;
-
-* z (U+007A): L&lt;&lt;987.0,-34.0&gt;--&lt;324.0,-33.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;261.0,958.0&gt;--&lt;897.0,957.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;498.0,177.0&gt;--&lt;987.0,178.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;720.0,747.0&gt;--&lt;261.0,746.0&gt;&gt;
-
-* zacute (U+017A): L&lt;&lt;987.0,-34.0&gt;--&lt;324.0,-33.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;261.0,958.0&gt;--&lt;897.0,957.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;498.0,177.0&gt;--&lt;987.0,178.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;720.0,747.0&gt;--&lt;261.0,746.0&gt;&gt;
-
-* zcaron (U+017E): L&lt;&lt;987.0,-34.0&gt;--&lt;324.0,-33.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;261.0,958.0&gt;--&lt;897.0,957.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;498.0,177.0&gt;--&lt;987.0,178.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;720.0,747.0&gt;--&lt;261.0,746.0&gt;&gt;
-
-* zdotaccent (U+017C): L&lt;&lt;987.0,-34.0&gt;--&lt;324.0,-33.0&gt;&gt;
+* yen (U+00A5): L&lt;&lt;695.0,467.0&gt;--&lt;995.0,468.0&gt;&gt;
 </code></pre>
  [code: found-semi-vertical]
 
@@ -13847,7 +13097,7 @@ definitions.</p>
 </div>
 </details>
 
-<details><summary>[15] CourierBadi-Regular.ttf</summary>
+<details><summary>[16] CourierBadi-Regular.ttf</summary>
 <div>
 <details>
     <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
@@ -13946,27 +13196,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni0479	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
-
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB5	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
-
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -14034,27 +13270,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni0479	Contours detected: 2	Expected: 3
 
-- Glyph name: uni1EA3	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EA8	Contours detected: 3	Expected: 4
-
 - Glyph name: uni1EAA	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1EB5	Contours detected: 3	Expected: 4
 
-- Glyph name: uni1EBB	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC2	Contours detected: 2	Expected: 3
-
 - Glyph name: uni1EC4	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1EC9	Contours detected: 1	Expected: 2
-
-- Glyph name: uni1ECF	Contours detected: 2	Expected: 3
-
-- Glyph name: uni1ED4	Contours detected: 3	Expected: 4
 
 - Glyph name: uni1ED6	Contours detected: 3	Expected: 4
 
@@ -14104,23 +13326,43 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 * ⚠️ **WARN** <p>The following glyphs have overlapping path segments:</p>
-<pre><code>* sigma1 (U+03C2): B&lt;&lt;978.5,854.0&gt;-&lt;980.0,845.0&gt;-&lt;977.0,852.0&gt;&gt; has the same coordinates as a previous segment.
+<pre><code>* sigma1 (U+03C2): B&lt;&lt;978.0,851.0&gt;-&lt;977.0,851.0&gt;-&lt;977.0,852.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;106.0,1165.0&gt;-&lt;106.0,1165.0&gt;-&lt;106.0,1165.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;106.0,876.0&gt;-&lt;106.0,876.0&gt;-&lt;106.0,876.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;106.0,876.0&gt;-&lt;106.0,876.0&gt;-&lt;106.0,876.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;124.0,842.0&gt;-&lt;124.0,842.0&gt;-&lt;124.0,842.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;124.0,553.0&gt;-&lt;124.0,553.0&gt;-&lt;124.0,553.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni0770.init: B&lt;&lt;124.0,553.0&gt;-&lt;124.0,553.0&gt;-&lt;124.0,553.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni0770.medi: B&lt;&lt;50.0,1165.0&gt;-&lt;51.0,1165.0&gt;-&lt;49.0,1159.0&gt;&gt; has the same coordinates as a previous segment.
 
+* uni0770.medi: B&lt;&lt;50.0,876.0&gt;-&lt;48.0,876.0&gt;-&lt;49.0,881.0&gt;&gt; has the same coordinates as a previous segment.
+
 * uni0770.medi: B&lt;&lt;64.0,842.0&gt;-&lt;66.0,842.0&gt;-&lt;64.0,833.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D (U+077D): L&lt;&lt;636.0,1516.0&gt;--&lt;640.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni0770.medi: B&lt;&lt;64.0,553.0&gt;-&lt;62.0,553.0&gt;-&lt;64.0,561.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D.fina: L&lt;&lt;543.0,1516.0&gt;--&lt;547.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni077D (U+077D): B&lt;&lt;636.0,1516.0&gt;-&lt;637.0,1515.0&gt;-&lt;640.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D.init: L&lt;&lt;794.0,1516.0&gt;--&lt;798.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni077D.fina: B&lt;&lt;543.0,1516.0&gt;-&lt;544.0,1515.0&gt;-&lt;547.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni077D.medi: L&lt;&lt;681.0,1516.0&gt;--&lt;685.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+* uni077D.init: B&lt;&lt;794.0,1516.0&gt;-&lt;795.0,1515.0&gt;-&lt;798.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni077D.medi: B&lt;&lt;681.0,1516.0&gt;-&lt;682.0,1515.0&gt;-&lt;685.0,1515.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni08DB (U+08DB): L&lt;&lt;160.0,1221.0&gt;--&lt;160.0,1221.0&gt;&gt; has the same coordinates as a previous segment.
+
+* uni1ECF (U+1ECF): L&lt;&lt;474.0,927.0&gt;--&lt;474.0,927.0&gt;&gt; has the same coordinates as a previous segment.
 
 * uni203B (U+203B): B&lt;&lt;459.0,839.0&gt;-&lt;471.0,820.0&gt;-&lt;490.0,808.0&gt;&gt; has the same coordinates as a previous segment.
 
-* uni203B (U+203B): B&lt;&lt;719.0,579.0&gt;-&lt;730.0,562.0&gt;-&lt;747.0,551.0&gt;&gt; has the same coordinates as a previous segment.
+* uni203B (U+203B): L&lt;&lt;747.0,551.0&gt;--&lt;719.0,579.0&gt;&gt; has the same coordinates as a previous segment.
 </code></pre>
  [code: overlapping-path-segments]
 
@@ -14352,12 +13594,12 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
 <li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, cherokee, coptic, math</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: duployan, tifinagh, canadian-aboriginal, hebrew, tai-le, todhri, old-permic, malayalam, math, syriac, coptic</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
-<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tifinagh, todhri, coptic, duployan, tai-le, syriac, canadian-aboriginal, hebrew, malayalam, old-permic, math</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
+<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -14367,8 +13609,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, thai, sunuwar, cherokee, gothic, syriac, caucasian-albanian</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: tifinagh, gothic, syriac, caucasian-albanian, sunuwar, thai, cherokee</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -14383,7 +13625,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -14398,10 +13640,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, yezidi, hanifi-rohingya, garay, syriac, nko, thaana</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, syriac, thaana</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, garay</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: arabic, thaana, syriac</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, yezidi, hanifi-rohingya, garay, adlam, syriac, nko, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: arabic, nko, thaana, yezidi, hanifi-rohingya, syriac, adlam, garay</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: arabic, syriac</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -14434,7 +13676,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, old-uyghur, mandaic, psalter-pahlavi, hanifi-rohingya, adlam, manichaean, syriac, sogdian</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: arabic, manichaean, hanifi-rohingya, old-uyghur, syriac, adlam, mandaic, sogdian, psalter-pahlavi</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -14466,19 +13708,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, yezidi, hanifi-rohingya, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, indic-siyaq-numbers, syriac, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, syriac, nko, thaana</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, syriac, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, syriac, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, thaana, indic-siyaq-numbers, yezidi, hanifi-rohingya, syriac</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: arabic, yezidi, thaana, indic-siyaq-numbers, syriac</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: arabic, nko, syriac, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: arabic, thaana, syriac</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: arabic, thaana, syriac</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -14582,7 +13824,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, hanifi-rohingya, yezidi</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: arabic, yezidi, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -14761,12 +14003,12 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, dogra, tagbanwa, duployan, batak, hatran, mandaic, cham, khojki, hanunoo, hebrew, javanese, masaram-gondi, mongolian, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, siddham, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: tagalog, gunjala-gondi, sinhala, bengali, mahajani, meetei-mayek, telugu, pahawh-hmong, zanabazar-square, brahmi, manichaean, tai-tham, buginese, sharada, tamil, tai-viet, old-hungarian, dogra, tagbanwa, duployan, batak, mandaic, masaram-gondi, cham, khojki, hanunoo, hebrew, javanese, mongolian, siddham, thai, kharoshthi, yi, takri, sogdian, modi, kaithi, limbu, gurmukhi, newa, rejang, saurashtra, tifinagh, tirhuta, sundanese, balinese, phags-pa, tibetan, khudawadi, malayalam, chakma, devanagari, khmer, gujarati, bhaiksuki, lepcha, myanmar, kayah-li, nko, syriac, arabic, warang-citi, grantha, psalter-pahlavi, new-tai-lue, buhid, oriya, tai-le, lao, hanifi-rohingya, kannada, syloti-nagri, avestan, thaana</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: hebrew, phags-pa, syriac, nko, thaana</li>
-<li>U+2010 HYPHEN: try adding one of: arabic, cham, yi, hebrew, sundanese, lisu, kharoshthi, armenian, sora-sompeng, syloti-nagri, kaithi, kayah-li, coptic</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, yi, syloti-nagri</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, hatran, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: tifinagh, balinese, cham, duployan, sharada, syloti-nagri, yi, siddham, devanagari, sundanese, kaithi, tirhuta, grantha, lao, old-hungarian, psalter-pahlavi, telugu, brahmi, chakma, gurmukhi, malayalam, tibetan, kayah-li, gunjala-gondi, avestan, warang-citi, manichaean, mahajani, modi, tagbanwa, thaana, hanifi-rohingya, khojki, khmer, masaram-gondi, buhid, meetei-mayek, tai-tham, myanmar, takri, lepcha, sogdian, bengali, tagalog, dogra, hebrew, limbu, oriya, kannada, bhaiksuki, tai-le, new-tai-lue, sinhala, phags-pa, mandaic, batak, tamil, javanese, thai, zanabazar-square, newa, arabic, nko, saurashtra, rejang, hanunoo, buginese, syriac, pahawh-hmong, tai-viet, kharoshthi, khudawadi, gujarati, mongolian</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: arabic, nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, thaana, syriac, phags-pa, hebrew</li>
+<li>U+2010 HYPHEN: try adding one of: arabic, coptic, cham, sora-sompeng, syloti-nagri, yi, armenian, sundanese, kaithi, kharoshthi, lisu, hebrew, kayah-li</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, arabic, yi</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -14819,9 +14061,9 @@ definitions.</p>
 <li>U+2422 BLANK SYMBOL: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: symbols, math</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: telugu, math, manichaean, sharada, tamil, duployan, batak, kharoshthi, sogdian, gurmukhi, symbols, saurashtra, balinese, soyombo, khudawadi, gujarati, bhaiksuki, myanmar, nko, grantha, lepcha, khojki, caucasian-albanian, gunjala-gondi, bengali, mende-kikakui, buginese, tai-viet, dogra, tagbanwa, siddham, cham, mongolian, hanunoo, zanabazar-square, bassa-vah, limbu, tirhuta, tibetan, warang-citi, marchen, new-tai-lue, hanifi-rohingya, syloti-nagri, canadian-aboriginal, pahawh-hmong, tai-tham, masaram-gondi, mandaic, yi, javanese, hebrew, adlam, rejang, tifinagh, sundanese, phags-pa, malayalam, devanagari, elbasan, syriac, kayah-li, psalter-pahlavi, music, oriya, tai-le, armenian, tagalog, sinhala, mahajani, meetei-mayek, old-permic, brahmi, osage, thai, takri, modi, kaithi, newa, wancho, chakma, khmer, coptic, miao, buhid, ahom, lao, kannada, thaana</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: siddham, tirhuta, kayah-li, manichaean, meetei-mayek, elbasan, myanmar, lepcha, hebrew, bhaiksuki, batak, newa, osage, buginese, syriac, kharoshthi, symbols, gujarati, mongolian, marchen, cham, duployan, syloti-nagri, brahmi, tibetan, tagbanwa, thaana, hanifi-rohingya, masaram-gondi, buhid, wancho, dogra, tai-le, phags-pa, tamil, thai, bassa-vah, hanunoo, old-permic, tifinagh, sharada, miao, grantha, lao, telugu, gunjala-gondi, mende-kikakui, modi, khojki, tai-tham, tagalog, limbu, oriya, kannada, ahom, javanese, zanabazar-square, nko, soyombo, tai-viet, canadian-aboriginal, balinese, music, yi, devanagari, sundanese, kaithi, psalter-pahlavi, chakma, malayalam, gurmukhi, warang-citi, math, coptic, mahajani, khmer, adlam, takri, sogdian, bengali, new-tai-lue, sinhala, mandaic, saurashtra, rejang, armenian, pahawh-hmong, caucasian-albanian, khudawadi</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
 <li>U+26AD MARRIAGE SYMBOL: try adding symbols</li>
 <li>U+26AE DIVORCE SYMBOL: try adding symbols</li>
 <li>U+27E6 MATHEMATICAL LEFT WHITE SQUARE BRACKET: try adding math</li>
@@ -14987,7 +14229,7 @@ definitions.</p>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
 <li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
@@ -15319,14 +14561,6 @@ definitions.</p>
 
 * uni066D (U+066D): L&lt;&lt;469.0,471.0&gt;--&lt;479.0,831.0&gt;&gt; -&gt; L&lt;&lt;479.0,831.0&gt;--&lt;479.0,842.0&gt;&gt;
 
-* uni06CD (U+06CD): L&lt;&lt;334.0,619.0&gt;--&lt;334.0,618.0&gt;&gt; -&gt; L&lt;&lt;334.0,618.0&gt;--&lt;334.0,616.0&gt;&gt;
-
-* uni06CD.fina: L&lt;&lt;334.0,283.0&gt;--&lt;334.0,282.0&gt;&gt; -&gt; L&lt;&lt;334.0,282.0&gt;--&lt;334.0,281.0&gt;&gt;
-
-* uni06CD.fina: L&lt;&lt;334.0,285.0&gt;--&lt;334.0,283.0&gt;&gt; -&gt; L&lt;&lt;334.0,283.0&gt;--&lt;334.0,282.0&gt;&gt;
-
-* uni06E9 (U+06E9): L&lt;&lt;682.0,678.0&gt;--&lt;682.0,672.0&gt;&gt; -&gt; L&lt;&lt;682.0,672.0&gt;--&lt;682.0,598.0&gt;&gt;
-
 * uni08D4 (U+08D4): L&lt;&lt;289.0,1092.0&gt;--&lt;354.0,1092.0&gt;&gt; -&gt; L&lt;&lt;354.0,1092.0&gt;--&lt;354.0,1092.0&gt;&gt;
 
 * uni08D4 (U+08D4): L&lt;&lt;354.0,1092.0&gt;--&lt;354.0,1092.0&gt;&gt; -&gt; L&lt;&lt;354.0,1092.0&gt;--&lt;455.0,1092.0&gt;&gt;
@@ -15341,19 +14575,9 @@ definitions.</p>
 
 * uni08DC (U+08DC): L&lt;&lt;337.0,1093.0&gt;--&lt;346.0,1093.0&gt;&gt; -&gt; L&lt;&lt;346.0,1093.0&gt;--&lt;346.0,1093.0&gt;&gt;
 
-* uni08DC (U+08DC): L&lt;&lt;346.0,1093.0&gt;--&lt;346.0,1093.0&gt;&gt; -&gt; L&lt;&lt;346.0,1093.0&gt;--&lt;348.0,1093.0&gt;&gt;
-
-* uni08DC (U+08DC): L&lt;&lt;346.0,1093.0&gt;--&lt;348.0,1093.0&gt;&gt; -&gt; L&lt;&lt;348.0,1093.0&gt;--&lt;367.0,1093.0&gt;&gt;
-
 * uni08DC (U+08DC): L&lt;&lt;650.0,1093.0&gt;--&lt;698.0,1093.0&gt;&gt; -&gt; L&lt;&lt;698.0,1093.0&gt;--&lt;698.0,1093.0&gt;&gt;
 
 * uni08DE (U+08DE): L&lt;&lt;521.0,1093.0&gt;--&lt;530.0,1093.0&gt;&gt; -&gt; L&lt;&lt;530.0,1093.0&gt;--&lt;530.0,1093.0&gt;&gt;
-
-* uni08DE (U+08DE): L&lt;&lt;530.0,1093.0&gt;--&lt;530.0,1093.0&gt;&gt; -&gt; L&lt;&lt;530.0,1093.0&gt;--&lt;532.0,1093.0&gt;&gt;
-
-* uni08DE (U+08DE): L&lt;&lt;530.0,1093.0&gt;--&lt;532.0,1093.0&gt;&gt; -&gt; L&lt;&lt;532.0,1093.0&gt;--&lt;820.0,1093.0&gt;&gt;
-
-* uni1EC2 (U+1EC2): L&lt;&lt;668.0,1664.0&gt;--&lt;668.0,1661.0&gt;&gt; -&gt; L&lt;&lt;668.0,1661.0&gt;--&lt;668.0,1624.0&gt;&gt;
 
 * uni203D (U+203D): L&lt;&lt;471.0,618.0&gt;--&lt;467.0,848.0&gt;&gt; -&gt; L&lt;&lt;467.0,848.0&gt;--&lt;459.0,1137.0&gt;&gt;
 
@@ -15366,10 +14590,28 @@ definitions.</p>
 * uni2E18 (U+2E18): L&lt;&lt;428.0,-338.0&gt;--&lt;432.0,-203.0&gt;&gt; -&gt; L&lt;&lt;432.0,-203.0&gt;--&lt;434.0,-33.0&gt;&gt;
 
 * uni2E18 (U+2E18): L&lt;&lt;571.0,178.0&gt;--&lt;575.0,-51.0&gt;&gt; -&gt; L&lt;&lt;575.0,-51.0&gt;--&lt;584.0,-340.0&gt;&gt;
-
-* uniFCA2 (U+FCA2): L&lt;&lt;116.0,763.0&gt;--&lt;116.0,765.0&gt;&gt; -&gt; L&lt;&lt;116.0,765.0&gt;--&lt;116.0,768.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
+
+
+
+</div>
+</details>
+
+<details>
+    <summary>⚠️ <b>WARN</b> Check the direction of the outermost contour in each glyph <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#outline-direction">outline_direction</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>The following glyphs have a counter-clockwise outer contour:</p>
+<pre><code>* uni0770.medi has a counter-clockwise outer contour
+</code></pre>
+ [code: ccw-outer-contour]
 
 
 
@@ -15405,18 +14647,6 @@ definitions.</p>
 
 * uni04CD (U+04CD): L&lt;&lt;815.0,1055.0&gt;--&lt;813.0,1108.0&gt;&gt;/B&lt;&lt;813.0,1108.0&gt;-&lt;810.0,1087.0&gt;-&lt;794.0,1032.0&gt;&gt; = 10.291181842382318
 
-* uni0620 (U+0620): B&lt;&lt;587.0,21.0&gt;-&lt;600.0,21.0&gt;-&lt;614.0,20.0&gt;&gt;/B&lt;&lt;614.0,20.0&gt;-&lt;570.0,14.0&gt;-&lt;520.0,12.0&gt;&gt; = 11.850782798400157
-
-* uni0620 (U+0620): B&lt;&lt;789.0,-81.0&gt;-&lt;726.0,9.0&gt;-&lt;614.0,20.0&gt;&gt;/B&lt;&lt;614.0,20.0&gt;-&lt;725.0,35.0&gt;-&lt;786.0,76.0&gt;&gt; = 13.30532616846234
-
-* uni077D (U+077D): L&lt;&lt;636.0,1516.0&gt;--&lt;640.0,1515.0&gt;&gt;/B&lt;&lt;640.0,1515.0&gt;-&lt;635.0,1515.0&gt;-&lt;636.0,1516.0&gt;&gt; = 14.036243467926484
-
-* uni077D.fina: L&lt;&lt;543.0,1516.0&gt;--&lt;547.0,1515.0&gt;&gt;/B&lt;&lt;547.0,1515.0&gt;-&lt;542.0,1515.0&gt;-&lt;543.0,1516.0&gt;&gt; = 14.036243467926484
-
-* uni077D.init: L&lt;&lt;794.0,1516.0&gt;--&lt;798.0,1515.0&gt;&gt;/B&lt;&lt;798.0,1515.0&gt;-&lt;793.0,1515.0&gt;-&lt;794.0,1516.0&gt;&gt; = 14.036243467926484
-
-* uni077D.medi: L&lt;&lt;681.0,1516.0&gt;--&lt;685.0,1515.0&gt;&gt;/B&lt;&lt;685.0,1515.0&gt;-&lt;680.0,1515.0&gt;-&lt;681.0,1516.0&gt;&gt; = 14.036243467926484
-
 * uni08DB (U+08DB): L&lt;&lt;872.0,1028.0&gt;--&lt;872.0,1028.0&gt;&gt;/B&lt;&lt;872.0,1028.0&gt;-&lt;853.0,1029.0&gt;-&lt;841.5,1038.5&gt;&gt; = 3.012787504183286
 
 * uni08DC (U+08DC): L&lt;&lt;825.0,1044.0&gt;--&lt;825.0,1044.0&gt;&gt;/B&lt;&lt;825.0,1044.0&gt;-&lt;792.0,1045.0&gt;-&lt;778.0,1059.0&gt;&gt; = 1.735704588928346
@@ -15424,6 +14654,18 @@ definitions.</p>
 * uni08DD (U+08DD): L&lt;&lt;459.0,1047.0&gt;--&lt;459.0,1047.0&gt;&gt;/B&lt;&lt;459.0,1047.0&gt;-&lt;429.0,1049.0&gt;-&lt;415.0,1062.5&gt;&gt; = 3.8140748342903783
 
 * uni200C (U+200C): B&lt;&lt;364.0,360.5&gt;-&lt;350.0,367.0&gt;-&lt;344.0,395.0&gt;&gt;/L&lt;&lt;344.0,395.0&gt;--&lt;344.0,393.0&gt;&gt; = 12.094757077012089
+
+* uni203B (U+203B): B&lt;&lt;459.0,839.0&gt;-&lt;471.0,820.0&gt;-&lt;490.0,808.0&gt;&gt;/L&lt;&lt;490.0,808.0&gt;--&lt;459.0,839.0&gt;&gt; = 12.724355685422392
+
+* uni203B (U+203B): B&lt;&lt;537.0,795.0&gt;-&lt;511.0,795.0&gt;-&lt;490.0,808.0&gt;&gt;/L&lt;&lt;490.0,808.0&gt;--&lt;614.0,684.0&gt;&gt; = 13.24051991518721
+
+* uni203B (U+203B): B&lt;&lt;719.0,579.0&gt;-&lt;730.0,562.0&gt;-&lt;747.0,551.0&gt;&gt;/L&lt;&lt;747.0,551.0&gt;--&lt;719.0,579.0&gt;&gt; = 12.094757077012089
+
+* uni203B (U+203B): B&lt;&lt;795.0,537.0&gt;-&lt;769.0,537.0&gt;-&lt;747.0,551.0&gt;&gt;/L&lt;&lt;747.0,551.0&gt;--&lt;974.0,324.0&gt;&gt; = 12.528807709151522
+
+* uni203B (U+203B): L&lt;&lt;356.0,942.0&gt;--&lt;459.0,839.0&gt;&gt;/B&lt;&lt;459.0,839.0&gt;-&lt;446.0,860.0&gt;-&lt;446.0,885.0&gt;&gt; = 13.24051991518721
+
+* uni203B (U+203B): L&lt;&lt;490.0,808.0&gt;--&lt;459.0,839.0&gt;&gt;/B&lt;&lt;459.0,839.0&gt;-&lt;471.0,820.0&gt;-&lt;490.0,808.0&gt;&gt; = 12.724355685422363
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -15569,8 +14811,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 4 | 53 | 403 | 25 | 408 | 0 | 
-| 0% | 0% | 0% | 6% | 45% | 3% | 46% | 0% | 
+| 0 | 0 | 4 | 56 | 403 | 25 | 405 | 0 | 
+| 0% | 0% | 0% | 6% | 45% | 3% | 45% | 0% | 
 
 
 
