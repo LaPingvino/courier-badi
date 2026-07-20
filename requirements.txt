@@ -1,2 +1,4 @@
 # Placeholder file, update the requirements by running `make update`.
 -r requirements.in
+# See requirements.in: keep fontbakery modern to avoid the fontforge setup.py.
+fontbakery[googlefonts]>=0.12.0

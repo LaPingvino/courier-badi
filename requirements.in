@@ -4,3 +4,7 @@ drawbot-skia>=0.5.0
 sh>=2.0.6
 bumpfontversion>=0.4.1
 diffenator2>=0.3.8
+# Floor fontbakery (pulled transitively via gftools[qa]) to a modern,
+# pyproject-based release so pip's resolver does not backtrack to an ancient
+# version whose setup.py does `import fontforge` and breaks the CI install.
+fontbakery[googlefonts]>=0.12.0
