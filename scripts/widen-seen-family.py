@@ -47,6 +47,15 @@ def family_codepoints(cp2name):
     return out
 
 
+def is_accent_dot(pts):
+    """A contour is a diacritic dot (to be translated, not scaled) only if it is
+    a small mark sitting well ABOVE or BELOW the letter body. Structural
+    counters inside the body (e.g. the sad/dad loop) are NOT dots and must be
+    scaled with the body."""
+    ys = [p[1] for p in pts]
+    return len(pts) < 15 and (min(ys) >= 1000 or max(ys) <= 150)
+
+
 def load(ufo):
     import plistlib
     gdir = os.path.join(ufo, "glyphs")
@@ -108,13 +117,8 @@ def widen_glyph(text, scale, delta):
         return text
     anchor = max(allx)
 
-    contours = re.findall(r"<contour>.*?</contour>", text, re.S)
-    # The main body is the contour with the most points; the rest are dots
-    # (nukat) that must keep their shape and only be repositioned.
-    def npts(c):
-        return len(re.findall(r"<point ", c))
-    body_idx = max(range(len(contours)), key=lambda i: npts(contours[i])) if contours else -1
-
+    # Every structural contour (body + internal counters like the sad loop) is
+    # scaled; only accent dots (nukat, far above/below) are translated.
     def spread(x):
         return anchor - (anchor - x) * scale
 
@@ -150,13 +154,11 @@ def widen_glyph(text, scale, delta):
             out = out.replace(old, new, 1)
         return out
 
-    idx = -1
-
     def repl(m):
-        nonlocal idx
-        idx += 1
         inner = m.group(0)[len("<contour>"):-len("</contour>")]
-        processed = proc_body(inner) if idx == body_idx else proc_dot(inner)
+        pts = [(float(x), float(y)) for x, y in
+               re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"', inner)]
+        processed = proc_dot(inner) if is_accent_dot(pts) else proc_body(inner)
         return "<contour>" + processed + "</contour>"
 
     return re.sub(r"<contour>.*?</contour>", repl, text, flags=re.S)
@@ -233,13 +235,11 @@ def widen_inbox(text, scale, delta, hold_both):
                               f'<point x="{float(x) + dx:.0f}" y="{y}"{e}/>', 1)
         return out
 
-    idx = -1
-
     def repl(m):
-        nonlocal idx
-        idx += 1
         inner = m.group(0)[len("<contour>"):-len("</contour>")]
-        return "<contour>" + (proc_body(inner) if idx == body_idx else proc_dot(inner)) + "</contour>"
+        pts = [(float(x), float(y)) for x, y in
+               re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"', inner)]
+        return "<contour>" + (proc_dot(inner) if is_accent_dot(pts) else proc_body(inner)) + "</contour>"
 
     return re.sub(r"<contour>.*?</contour>", repl, text, flags=re.S)
 
