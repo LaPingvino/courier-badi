@@ -57,9 +57,22 @@ masters:
 	. venv/bin/activate; python3 scripts/make-italic.py
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out sources/CourierBadi-Bold.ufo
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Italic.ufo --out sources/CourierBadi-BoldItalic.ufo
-	# CNTR=100 masters: contrasted bold (thick verticals, thin horizontals)
-	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out sources/CourierBadi-BoldContrast.ufo --weight 48 --contrast 2.4
-	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Italic.ufo --out sources/CourierBadi-BoldItalicContrast.ufo --weight 48 --contrast 2.4
+	# Contrast siblings for the XOPQ axis: a weight-neutral modulation (thick
+	# verticals, thin horizontals) of EACH weight, so XOPQ reads at every weight,
+	# not just Bold. Same point structure -> interpolates with its base master.
+	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Regular.ufo    --out sources/CourierBadi-RegularContrast.ufo
+	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Italic.ufo     --out sources/CourierBadi-ItalicContrast.ufo
+	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Bold.ufo       --out sources/CourierBadi-BoldContrast.ufo
+	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-BoldItalic.ufo --out sources/CourierBadi-BoldItalicContrast.ufo
+
+# Bonus/experimental variable font: the contrast (XOPQ) axis, shipped as a
+# release-only extra separate from the GF-clean submission. Outputs to
+# fonts-contrast/ so it never mixes with the main fonts/ that CI tests.
+contrast-vf: venv masters
+	rm -rf fonts-contrast
+	. venv/bin/activate; gftools builder sources/contrast.yaml
+	. venv/bin/activate; python3 scripts/add-meta-table.py $$(find fonts-contrast -name '*.ttf' -o -name '*.otf' 2>/dev/null)
+	. venv/bin/activate; python3 scripts/add-stat.py $$(find fonts-contrast -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 
 # Standalone "Contrast" sample preview (its own family name).
 contrast:

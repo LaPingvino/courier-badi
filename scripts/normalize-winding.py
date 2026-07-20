@@ -22,12 +22,21 @@ import pathops
 import ufoLib2
 from fontTools.pens.qu2cuPen import Qu2CuPen
 
+# Glyphs deliberately excluded from simplification. `f` has an interpolation
+# partner -- the descending italic form in sources/italic-overrides/ -- that
+# shares its (two-contour) point structure. simplify() would merge its overlaps
+# into a single contour, breaking that compatibility. Its winding was already
+# correct (it is native Latin, outer CCW), so it needs no normalization.
+SKIP = {"f"}
 
-def normalize(ufo):
+
+def normalize(ufo, only=None):
     font = ufoLib2.Font.open(ufo)
     changed = 0
     for glyph in font:
-        if not glyph.contours:
+        if not glyph.contours or glyph.name in SKIP:
+            continue
+        if only is not None and glyph.name not in only:
             continue
         path = pathops.Path()
         pen = path.getPen()
@@ -46,8 +55,11 @@ def normalize(ufo):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--ufo", default="sources/CourierBadi-Regular.ufo")
+    ap.add_argument("--glyphs", default=None,
+                    help="comma-separated glyph names to normalize (default: all)")
     args = ap.parse_args()
-    n = normalize(args.ufo)
+    only = set(args.glyphs.split(",")) if args.glyphs else None
+    n = normalize(args.ufo, only)
     print(f"{args.ufo}: normalized winding/overlaps on {n} glyphs")
 
 

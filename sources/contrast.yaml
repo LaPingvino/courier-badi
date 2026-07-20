@@ -1,0 +1,13 @@
+# Bonus/experimental build: the contrast (XOPQ vertical-stroke-thickness) axis.
+# Deliberately NOT named config*.yaml so the main `make build` glob skips it --
+# this ships as a release-only extra, separate from the GF-clean submission
+# fonts. Built via `make contrast-vf` into fonts-contrast/. Its own family name
+# keeps it from colliding with the clean family during packaging/QA.
+sources:
+  - CourierBadi-Contrast.designspace
+axisOrder:
+  - wght
+  - ital
+  - XOPQ
+familyName: Courier Badi Contrast
+outputDir: ../fonts-contrast

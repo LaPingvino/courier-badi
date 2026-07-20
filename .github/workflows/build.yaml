@@ -49,6 +49,17 @@ jobs:
       continue-on-error: true
     - name: proof
       run: make proof
+    - name: Build bonus contrast font + specimen
+      # The contrast (XOPQ) variable font ships as a release-only extra, separate
+      # from the GF-clean submission. Build it and render the interactive
+      # specimen into the site so it is viewable from the pages.
+      run: |
+        make contrast-vf
+        . venv/bin/activate
+        python3 scripts/make-contrast-specimen.py \
+          "fonts-contrast/webfonts/CourierBadi-Contrast[XOPQ,ital,wght].woff2" \
+          out/contrast-specimen.html
+      continue-on-error: true
     - name: setup site
       run: cp scripts/index.html out/index.html
     - name: Deploy
@@ -63,6 +74,7 @@ jobs:
         name: ${{ env.ZIP_NAME }}
         path: |
           fonts
+          fonts-contrast
           out
     outputs:
       zip_name: ${{ env.ZIP_NAME }}

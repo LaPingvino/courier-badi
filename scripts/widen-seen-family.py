@@ -111,6 +111,16 @@ def plan(contents, cp2name):
     return out
 
 
+CELL = 1228.0
+EDGE_EPS = 0.5  # a point mapped exactly onto a cell edge is a join connector
+
+
+def _pinned_to_edge(x):
+    """True if x sits on a cell boundary (0 or CELL) -- i.e. it is a join
+    connector point that must stay put, not be pulled in by the stem inset."""
+    return abs(x) < EDGE_EPS or abs(x - CELL) < EDGE_EPS
+
+
 def widen_glyph(text, scale, delta):
     allx = [float(x) for x, y in re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"', text)]
     if not allx:
@@ -134,7 +144,9 @@ def widen_glyph(text, scale, delta):
             x1, y1 = sx[(i + 1) % n], sy[(i + 1) % n]
             tx, ty = x1 - x0, y1 - y0
             L = math.hypot(tx, ty) or 1.0
-            nx = sx[i] + delta * (ty / L)  # x-inset -> thin fattened vertical stems
+            # x-inset -> thin fattened vertical stems, but never move a connector
+            # point off the cell edge (that is a join and must stay pinned).
+            nx = sx[i] if _pinned_to_edge(sx[i]) else sx[i] + delta * (ty / L)
             old = f'<point x="{pts[i][0]}" y="{pts[i][1]}"{pts[i][2]}/>'
             new = f'<point x="{nx:.0f}" y="{pts[i][1]}"{pts[i][2]}/>'
             out = out.replace(old, new, 1)
@@ -219,7 +231,9 @@ def widen_inbox(text, scale, delta, hold_both):
             x1, y1 = sx[(i + 1) % n], sy[(i + 1) % n]
             tx, ty = x1 - x0, y1 - y0
             L = math.hypot(tx, ty) or 1.0
-            nx = sx[i] + delta * (ty / L)  # inset -> restore monolinear stroke
+            # inset -> restore monolinear stroke, but keep join connectors pinned
+            # to the cell edge so adjacent letters stay flush (no gap at the join).
+            nx = sx[i] if _pinned_to_edge(sx[i]) else sx[i] + delta * (ty / L)
             out = out.replace(f'<point x="{pts[i][0]}" y="{pts[i][1]}"{pts[i][2]}/>',
                               f'<point x="{nx:.0f}" y="{pts[i][1]}"{pts[i][2]}/>', 1)
         return out

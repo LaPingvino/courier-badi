@@ -35,6 +35,27 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**20 July 2026. Version 1.010**
+- **Submission-ready split.** The shipping family is now a clean **wght + ital**
+  variable font (`CourierBadi[wght].ttf` + `CourierBadi-Italic[wght].ttf`) with
+  four static instances — this passes the Google Fonts Fontbakery profile with
+  **0 errors and 0 failures**. The experimental **contrast (XOPQ)** axis moved
+  to a **bonus** build (`make contrast-vf`, its own family) shipped only in the
+  release and previewed by an interactive [specimen](contrast-specimen.html), so
+  it never blocks the clean submission.
+- **Contrast axis actually modulates.** Previously the XOPQ endpoints at regular
+  weight aliased the plain Regular, so the axis did nothing until Bold. It now
+  has a weight-neutral contrast sibling at every weight (thick verticals, thin
+  horizontals via `scripts/make-contrast-master.py`), so it reads across the
+  whole range.
+- **Arabic joins fixed.** The seen/sheen/sad widening left the baseline
+  connectors ~26 units short of the cell edge (the stem inset was pulling the
+  join strokes in), so letters didn't quite touch. Connectors are now pinned to
+  the edge and every positional form joins flush.
+- **Descending italic `f`.** The genuine cursive `f` is back in the Italic and
+  interpolates cleanly (the roman `f` is kept at its two-contour structure rather
+  than being merged by overlap-removal).
+
 **20 July 2026. Version 1.000**
 - **Variable font.** Two variable fonts (upright + italic) with a **wght** axis
   (400–700) and an **XOPQ** axis (88–130) that tunes vertical-stroke thickness —

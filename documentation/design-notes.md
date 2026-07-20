@@ -81,14 +81,31 @@ post-build) declares the `ital` axis linking Roman↔Italic.
 
 ## Variable font
 
-`sources/CourierBadi.designspace` interpolates six masters into two variable
-fonts (gftools splits italic into its own file, the GF convention): a **wght**
-axis (Regular↔Bold) and an **XOPQ** axis (uniform↔contrast). XOPQ is the
-registered parametric "vertical stroke thickness" axis, which is exactly what
-the contrast emboldening does (thick verticals). The contrast masters are
-`make-bold --contrast` (dx>dy). All six masters share one point structure, so
-they interpolate cleanly; the winding normalization above is what makes that
-possible across scripts. `make masters` regenerates them.
+The **shipping** family is a clean **wght + ital** design
+(`sources/CourierBadi.designspace`, four masters). gftools splits italic into
+its own file (the GF convention), producing `CourierBadi[wght].ttf` and
+`CourierBadi-Italic[wght].ttf`. This is the Google-Fonts submission and passes
+the googlefonts Fontbakery profile with **0 errors / 0 failures** — no
+parametric-axis or family-packaging issues. `make build` builds it.
+
+### Contrast (XOPQ) axis — bonus build
+
+The experimental contrast axis lives in a **separate** designspace
+(`sources/CourierBadi-Contrast.designspace`, config `sources/contrast.yaml`,
+built by `make contrast-vf` into `fonts-contrast/`). It adds the registered
+parametric **XOPQ** ("vertical stroke thickness") axis. It is shipped only as a
+release extra and previewed by `documentation/contrast-specimen.html`
+(`scripts/make-contrast-specimen.py`), kept out of the main build so the GF
+checks' known crashes on parametric axes never touch the clean submission.
+
+The axis needs a **contrast sibling at every weight**, not just Bold — otherwise
+the XOPQ endpoints at regular weight both alias the plain Regular and the axis
+does nothing until Bold. `scripts/make-contrast-master.py` builds each sibling
+as a **weight-neutral** modulation of its base master (thicken verticals `+dx`,
+thin horizontals `-dy`), so XOPQ reads as contrast (orthogonal to wght) at any
+weight. All masters share one point structure, so they interpolate; the winding
+normalization above is what makes that possible across scripts. `make masters`
+regenerates every master (base weights + contrast siblings).
 
 ## Contour winding
 
@@ -101,6 +118,12 @@ instead of thickening them. `scripts/normalize-winding.py` resolves each glyph's
 true filled region with skia-pathops (`simplify`) and rewrites it with canonical
 winding (converting the result back to cubics), which also merges overlaps. Run
 it on the Regular before regenerating the other masters.
+
+`f` is **excluded** (`SKIP` in the script): it has an interpolation partner — the
+descending italic `f` in `sources/italic-overrides/` — that shares its
+two-contour structure. `simplify()` would merge those two contours into one and
+break the match, so the roman `f` keeps its original (already-correct, native
+Latin) winding untouched, and roman ↔ descending-italic `f` interpolate.
 
 ## Bold (emboldening)
 
@@ -125,6 +148,12 @@ next letter. An x-direction inset thins the fattened vertical stems back to a
 constant, monolinear stroke; the dots keep their shape and are only
 repositioned. The family is derived from Unicode letter names, so every dotted
 variant (two-dot, four-dot, …) is covered. Run once from pristine glyphs.
+
+The stem inset must **not** touch the baseline join connectors: a point that
+sits on a cell edge (x = 0 or x = 1228) is a connector to the neighbouring
+letter and is pinned in place, because insetting it would pull the join stroke
+inward and leave a visible gap between letters. (This was a real bug — medial and
+final forms ended up ~26 units short of the edge and didn't quite touch.)
 
 ## Cyrillic diacritic centering
 
