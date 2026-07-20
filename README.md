@@ -35,6 +35,12 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**20 July 2026. Version 0.800**
+- Reintroduced the **Italic** (issue #8). It is generated from the corrected
+  Regular as a sheared oblique (`scripts/make-italic.py`), so it inherits every
+  fix and harmonises the `a`; the genuine descending italic `f` is grafted from
+  `sources/italic-overrides/`. Added a STAT table declaring the `ital` axis.
+
 **20 July 2026. Version 0.750**
 - Widened the cramped seen/sheen/sad teeth family (google/fonts#6491,
   @eliheuer). The teeth are spread ~1.5× to the **same width in every positional

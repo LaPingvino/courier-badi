@@ -65,6 +65,20 @@ the markers (see below) are preserved.
   forms to their dotless variants.
 - **zero — Slashed zero.**
 
+## Italic
+
+The Italic is generated from the (corrected) Regular by `scripts/make-italic.py`,
+which shears it by the italic angle (10°). This keeps a single source of truth:
+every correction to the Regular flows into the Italic automatically, and the
+lowercase `a` is simply the roman `a` slanted (the original bespoke italic `a`
+was inconsistent, and history confirms there was never a single-story form).
+Courier Prime's italic is itself essentially an oblique, so this matches the
+original closely. Genuine cursive forms that differ from a plain slant live in
+`sources/italic-overrides/` and are grafted on after shearing — currently just
+the descending `f`; drop a hand-drawn `.glif` there (e.g. a single-story `a`) to
+add more. Regenerate with `make italic`. A STAT table (`scripts/add-stat.py`,
+post-build) declares the `ital` axis linking Roman↔Italic.
+
 ## seen/sheen/sad teeth widening
 
 `scripts/widen-seen-family.py` spreads the scrunched teeth of the seen/sheen/sad

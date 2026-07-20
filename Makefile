@@ -37,11 +37,18 @@ arabic-features-check:
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)
-	# Post-build: add a 'meta' table (dlng/slng ScriptLangTags) to the binaries,
-	# then refresh the webfonts so they carry it too.
+	# Post-build: add a 'meta' table (dlng/slng ScriptLangTags) and a STAT table
+	# (italic axis for the Regular+Italic family), then refresh the webfonts.
 	. venv/bin/activate; python3 scripts/add-meta-table.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
+	. venv/bin/activate; python3 scripts/add-stat.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; for ttf in fonts/ttf/*.ttf; do [ -f "$$ttf" ] && rm -f fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 && fonttools ttLib.woff2 compress -o fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 $$ttf; done
 	touch build.stamp
+
+# Regenerate the Italic UFO as a sheared oblique of the Regular, with the
+# cursive overrides from sources/italic-overrides grafted on. Run after changing
+# the Regular so the Italic inherits all corrections.
+italic:
+	. venv/bin/activate; python3 scripts/make-italic.py
 
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
