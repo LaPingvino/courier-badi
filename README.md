@@ -35,6 +35,13 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**20 July 2026. Version 0.900**
+- Added **Bold** and **Bold Italic** (issue #8). The Bold is generated from the
+  Regular by dilating the outlines (`scripts/make-bold.py`); because the font is
+  strictly monospace the advance widths don't change, so bolding behaves like a
+  grade and never reflows text. Also widened the sad/dad loop to match the seen
+  (the loop counter was mis-detected as a dot). STAT now declares wght + ital.
+
 **20 July 2026. Version 0.800**
 - Reintroduced the **Italic** (issue #8). It is generated from the corrected
   Regular as a sheared oblique (`scripts/make-italic.py`), so it inherits every

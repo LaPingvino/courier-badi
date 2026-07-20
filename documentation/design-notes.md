@@ -79,6 +79,17 @@ the descending `f`; drop a hand-drawn `.glif` there (e.g. a single-story `a`) to
 add more. Regenerate with `make italic`. A STAT table (`scripts/add-stat.py`,
 post-build) declares the `ital` axis linking Roman↔Italic.
 
+## Bold (emboldening)
+
+The Bold is generated from the Regular by `scripts/make-bold.py`, which dilates
+the outlines: every point is offset outward along the right-hand normal of its
+travel direction, which grows the outer contours and shrinks the counters, so
+strokes thicken while the advance width (and thus the strict monospace) is
+unchanged. Because the width can't change, this weight axis behaves like a GRAD
+(grade): bolding never reflows text. Bold Italic is the emboldened Italic. The
+Regular and Bold are interpolation-compatible (point structure is preserved), so
+they are the two masters of the `wght` axis. Regenerate with `make masters`.
+
 ## seen/sheen/sad teeth widening
 
 `scripts/widen-seen-family.py` spreads the scrunched teeth of the seen/sheen/sad

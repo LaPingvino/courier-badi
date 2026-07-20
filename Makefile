@@ -50,6 +50,14 @@ build.stamp: venv sources/config.yaml $(SOURCES)
 italic:
 	. venv/bin/activate; python3 scripts/make-italic.py
 
+# Regenerate all derived masters (Italic, Bold, Bold Italic) from the Regular.
+# The Bold is an outward outline dilation (emboldening); Bold Italic is the
+# emboldened Italic. Run after changing the Regular.
+masters:
+	. venv/bin/activate; python3 scripts/make-italic.py
+	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out sources/CourierBadi-Bold.ufo
+	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Italic.ufo --out sources/CourierBadi-BoldItalic.ufo
+
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
 	. venv/bin/activate; pip install -Ur requirements.txt
