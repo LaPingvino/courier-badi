@@ -666,3 +666,14 @@ feature zero {
     language dflt;
     sub zero by zero.slash;
 } zero;
+
+# Stylistic Set 1: Dotless kaf. The isolated and final kaf carry a small
+# internal stroke; the initial/medial forms are already strokeless, so only
+# these two forms need swapping to the dotless variants. Applied after the
+# joining features, so the final form is matched on its presentation form.
+feature ss01 {
+    featureNames { name "Dotless kaf"; };
+    script arab;
+    sub uni0643 by kafDotless_ar;        # isolated
+    sub uniFEDA by kafDotless_ar.fina;   # final
+} ss01;

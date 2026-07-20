@@ -25,6 +25,14 @@ If you want to build fonts manually on your own computer:
 
 The proof files and QA tests are also available automatically via GitHub Actions - look at https://LaPingvino.github.io/courier-badi.
 
+## Design & engineering notes
+
+Non-obvious design decisions (the monospace model, **zero-width combining
+marks**, the generated Arabic shaping features, stylistic sets, Cyrillic mark
+centering) are documented in [documentation/design-notes.md](documentation/design-notes.md).
+Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
+(Go) — run `make arabic-features` after changing Arabic glyphs.
+
 ## Changelog
 
 **24 October 2025. Version 0.600**
