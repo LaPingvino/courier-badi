@@ -57,9 +57,11 @@ masters:
 	. venv/bin/activate; python3 scripts/make-italic.py
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out sources/CourierBadi-Bold.ufo
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Italic.ufo --out sources/CourierBadi-BoldItalic.ufo
+	# CNTR=100 masters: contrasted bold (thick verticals, thin horizontals)
+	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out sources/CourierBadi-BoldContrast.ufo --weight 48 --contrast 2.4
+	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Italic.ufo --out sources/CourierBadi-BoldItalicContrast.ufo --weight 48 --contrast 2.4
 
-# Experimental "Contrast" sample: directional emboldening (thick verticals, thin
-# horizontals) that turns the imbalance in the offset into stroke modulation.
+# Standalone "Contrast" sample preview (its own family name).
 contrast:
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out /tmp/CourierBadiContrast-Regular.ufo --weight 40 --contrast 4
 

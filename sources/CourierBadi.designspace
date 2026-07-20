@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<designspace format="4.1">
+  <axes>
+    <axis tag="wght" name="Weight" minimum="400" maximum="700" default="400"/>
+    <axis tag="ital" name="Italic" minimum="0" maximum="1" default="0"/>
+    <axis tag="XOPQ" name="Thick" minimum="88" maximum="130" default="88"/>
+  </axes>
+  <sources>
+    <source filename="CourierBadi-Regular.ufo" name="R0"><location><dimension name="Weight" xvalue="400"/><dimension name="Italic" xvalue="0"/><dimension name="Thick" xvalue="88"/></location></source>
+    <source filename="CourierBadi-Regular.ufo" name="R1"><location><dimension name="Weight" xvalue="400"/><dimension name="Italic" xvalue="0"/><dimension name="Thick" xvalue="130"/></location></source>
+    <source filename="CourierBadi-Bold.ufo" name="B0"><location><dimension name="Weight" xvalue="700"/><dimension name="Italic" xvalue="0"/><dimension name="Thick" xvalue="88"/></location></source>
+    <source filename="CourierBadi-BoldContrast.ufo" name="B1"><location><dimension name="Weight" xvalue="700"/><dimension name="Italic" xvalue="0"/><dimension name="Thick" xvalue="130"/></location></source>
+    <source filename="CourierBadi-Italic.ufo" name="I0"><location><dimension name="Weight" xvalue="400"/><dimension name="Italic" xvalue="1"/><dimension name="Thick" xvalue="88"/></location></source>
+    <source filename="CourierBadi-Italic.ufo" name="I1"><location><dimension name="Weight" xvalue="400"/><dimension name="Italic" xvalue="1"/><dimension name="Thick" xvalue="130"/></location></source>
+    <source filename="CourierBadi-BoldItalic.ufo" name="BI0"><location><dimension name="Weight" xvalue="700"/><dimension name="Italic" xvalue="1"/><dimension name="Thick" xvalue="88"/></location></source>
+    <source filename="CourierBadi-BoldItalicContrast.ufo" name="BI1"><location><dimension name="Weight" xvalue="700"/><dimension name="Italic" xvalue="1"/><dimension name="Thick" xvalue="130"/></location></source>
+  </sources>
+  <instances>
+    <instance familyname="Courier Badi" stylename="Regular" filename="instance_ufos/CourierBadi-Regular.ufo"><location><dimension name="Weight" xvalue="400"/><dimension name="Italic" xvalue="0"/><dimension name="Thick" xvalue="88"/></location></instance>
+    <instance familyname="Courier Badi" stylename="Bold" filename="instance_ufos/CourierBadi-Bold.ufo"><location><dimension name="Weight" xvalue="700"/><dimension name="Italic" xvalue="0"/><dimension name="Thick" xvalue="88"/></location></instance>
+    <instance familyname="Courier Badi" stylename="Italic" filename="instance_ufos/CourierBadi-Italic.ufo"><location><dimension name="Weight" xvalue="400"/><dimension name="Italic" xvalue="1"/><dimension name="Thick" xvalue="88"/></location></instance>
+    <instance familyname="Courier Badi" stylename="Bold Italic" filename="instance_ufos/CourierBadi-BoldItalic.ufo"><location><dimension name="Weight" xvalue="700"/><dimension name="Italic" xvalue="1"/><dimension name="Thick" xvalue="88"/></location></instance>
+  </instances>
+</designspace>

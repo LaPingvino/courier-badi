@@ -79,6 +79,17 @@ the descending `f`; drop a hand-drawn `.glif` there (e.g. a single-story `a`) to
 add more. Regenerate with `make italic`. A STAT table (`scripts/add-stat.py`,
 post-build) declares the `ital` axis linking Roman↔Italic.
 
+## Variable font
+
+`sources/CourierBadi.designspace` interpolates six masters into two variable
+fonts (gftools splits italic into its own file, the GF convention): a **wght**
+axis (Regular↔Bold) and an **XOPQ** axis (uniform↔contrast). XOPQ is the
+registered parametric "vertical stroke thickness" axis, which is exactly what
+the contrast emboldening does (thick verticals). The contrast masters are
+`make-bold --contrast` (dx>dy). All six masters share one point structure, so
+they interpolate cleanly; the winding normalization above is what makes that
+possible across scripts. `make masters` regenerates them.
+
 ## Contour winding
 
 The Latin was digitized with the PostScript convention (outer CCW, holes CW),

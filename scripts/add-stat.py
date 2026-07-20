@@ -25,6 +25,9 @@ def is_italic(font):
 
 def add_stat(path):
     font = TTFont(path)
+    if "fvar" in font:
+        print(f"{path}: variable font, STAT handled by the builder; skipping")
+        return
     wght = font["OS/2"].usWeightClass
     ital = 1 if is_italic(font) else 0
 

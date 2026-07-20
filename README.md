@@ -35,6 +35,16 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**20 July 2026. Version 1.000**
+- **Variable font.** Two variable fonts (upright + italic) with a **wght** axis
+  (400–700) and an **XOPQ** axis (88–130) that tunes vertical-stroke thickness —
+  i.e. the contrast/modulation from the 0.950 experiment, mapped onto the
+  registered parametric axis. Four static instances (Regular/Bold/Italic/Bold
+  Italic) ship alongside. Version reaches 1.000 (clearing the last version
+  check). All font-correctness checks pass; the remaining Fontbakery items are
+  Google-Fonts-submission packaging (statics + VFs under one family) and the GF
+  checks' known crashes on parametric axes.
+
 **20 July 2026. Version 0.950**
 - Experimental **Contrast** sample: a directional emboldening (thick verticals,
   thin horizontals via `make-bold --contrast`) that turns the offset imbalance
