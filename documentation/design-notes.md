@@ -65,6 +65,17 @@ the markers (see below) are preserved.
   forms to their dotless variants.
 - **zero — Slashed zero.**
 
+## seen/sheen/sad teeth widening
+
+`scripts/widen-seen-family.py` spreads the scrunched teeth of the seen/sheen/sad
+family so they fill the cell. It only touches the **isolated and final** forms —
+those have the free terminal tail, so the teeth can spread while the tail
+smuggles out of the box on the left; the tooth-cluster itself stays inside the
+cell. Initial/medial forms are pinned between joins and left unchanged (widening
+them would overhang into the neighbouring letter). A horizontal scale spreads
+the teeth, then an x-direction inset thins the (now fattened) vertical stems
+back to a constant, monolinear stroke width. Run once from pristine glyphs.
+
 ## Cyrillic diacritic centering
 
 The Cyrillic merged from Novikov's fork stored accented letters as standalone

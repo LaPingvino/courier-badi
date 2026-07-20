@@ -36,11 +36,14 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 ## Changelog
 
 **20 July 2026. Version 0.750**
-- Widened the cramped seen/sheen teeth family (google/fonts#6491, @eliheuer):
-  teeth scaled ~1.5× to fill the cell, with joins kept pinned to the cell edge
-  (isolated/final anchor right and let the terminal tail extend left; initial
-  anchors at the left join; medial left unchanged). Applied across all forms
-  and the dotted/variant derivatives via `scripts/widen-seen-family.py`.
+- Widened the cramped seen/sheen/sad teeth family (google/fonts#6491,
+  @eliheuer). The teeth are spread ~1.5× to fill the cell on the **isolated and
+  final** forms (which have the free terminal tail); the tooth-cluster stays
+  inside the box and only the tail smuggles out on the left, and an x-direction
+  inset keeps the stroke **monolinear** (spreading alone would fatten the
+  vertical stems). Initial/medial forms are left unchanged, so nothing overhangs
+  into the previous letter. Covers seen/sheen/sad/dad and their dotted variants
+  via `scripts/widen-seen-family.py`.
 
 **20 July 2026. Version 0.700**
 - Arabic shaping overhaul: lam-alef ligatures now form correctly, Pashto and
