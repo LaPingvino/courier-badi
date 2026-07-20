@@ -20,7 +20,7 @@ import math
 import ufoLib2
 
 
-def dilate_contour(contour, delta):
+def dilate_contour(contour, dx, dy):
     pts = list(contour)
     n = len(pts)
     if n < 3:
@@ -29,21 +29,25 @@ def dilate_contour(contour, delta):
     # With PostScript winding (outer CCW, holes CW) this grows the outer contour
     # and shrinks the counters -- i.e. thickens the stroke -- for both straight
     # stems and curved bowls, without needing a winding sign.
+    #
+    # dx grows the horizontal component of the offset (thickens VERTICAL stems);
+    # dy grows the vertical component (thickens HORIZONTAL strokes). Equal dx=dy
+    # is a balanced (monolinear) bold; dx>dy adds stroke contrast/modulation.
     orig = [(p.x, p.y) for p in pts]
     for i in range(n):
         px, py = orig[(i - 1) % n]
         nx, ny = orig[(i + 1) % n]
         tx, ty = nx - px, ny - py
         L = math.hypot(tx, ty) or 1.0
-        pts[i].x += delta * (ty / L)
-        pts[i].y += delta * (-tx / L)
+        pts[i].x += dx * (ty / L)
+        pts[i].y += dy * (-tx / L)
 
 
-def make_bold(src, out, weight):
+def make_bold(src, out, dx, dy):
     font = ufoLib2.Font.open(src)
     for glyph in font:
         for contour in glyph:
-            dilate_contour(contour, weight)
+            dilate_contour(contour, dx, dy)
         # components inherit boldness from their (bolded) base glyphs
     info = font.info
     italic = bool(info.italicAngle)  # preserve italic-ness of the source
@@ -62,9 +66,9 @@ def make_bold(src, out, weight):
         info.openTypeNamePreferredSubfamilyName = "Bold"
     # heavier stems for the hinter
     if info.postscriptStemSnapV:
-        info.postscriptStemSnapV = [v + int(2 * weight) for v in info.postscriptStemSnapV]
+        info.postscriptStemSnapV = [v + int(2 * dx) for v in info.postscriptStemSnapV]
     if info.postscriptStemSnapH:
-        info.postscriptStemSnapH = [v + int(2 * weight) for v in info.postscriptStemSnapH]
+        info.postscriptStemSnapH = [v + int(2 * dy) for v in info.postscriptStemSnapH]
     font.save(out, overwrite=True)
     return len(list(font))
 
@@ -75,9 +79,14 @@ def main():
     ap.add_argument("--out", default="sources/CourierBadi-Bold.ufo")
     ap.add_argument("--weight", type=float, default=34.0,
                     help="outward offset in font units (stem grows by ~2x this)")
+    ap.add_argument("--contrast", type=float, default=1.0,
+                    help="horizontal/vertical offset ratio; 1=balanced, >1 adds "
+                         "stroke contrast (thin horizontals, thick verticals)")
     args = ap.parse_args()
-    n = make_bold(args.src, args.out, args.weight)
-    print(f"wrote {args.out}: {n} glyphs, emboldened by {args.weight} units")
+    dx = args.weight
+    dy = args.weight / args.contrast
+    n = make_bold(args.src, args.out, dx, dy)
+    print(f"wrote {args.out}: {n} glyphs, emboldened dx={dx:.0f} dy={dy:.0f}")
 
 
 if __name__ == "__main__":
