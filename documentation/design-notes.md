@@ -79,6 +79,18 @@ the descending `f`; drop a hand-drawn `.glif` there (e.g. a single-story `a`) to
 add more. Regenerate with `make italic`. A STAT table (`scripts/add-stat.py`,
 post-build) declares the `ital` axis linking Roman↔Italic.
 
+## Contour winding
+
+The Latin was digitized with the PostScript convention (outer CCW, holes CW),
+but the merged Cyrillic/Greek/Arabic — and some individual glyphs like the
+Vietnamese precomposed letters — came in wound the other way, sometimes only in
+part (base backwards, accents correct). Inconsistent winding silently broke the
+emboldening (which offsets along the contour normal), thinning those glyphs
+instead of thickening them. `scripts/normalize-winding.py` resolves each glyph's
+true filled region with skia-pathops (`simplify`) and rewrites it with canonical
+winding (converting the result back to cubics), which also merges overlaps. Run
+it on the Regular before regenerating the other masters.
+
 ## Bold (emboldening)
 
 The Bold is generated from the Regular by `scripts/make-bold.py`, which dilates

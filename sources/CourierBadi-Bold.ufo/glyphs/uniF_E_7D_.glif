@@ -55,18 +55,14 @@
     </contour>
     <contour>
       <point x="1231.9598381500614" y="402.7686197796907" type="line"/>
-      <point x="-3.95983815006145" y="402.7686197796907" type="line"/>
-      <point x="-3.95983815006145" y="191.2313802203093" type="line"/>
-      <point x="1231.9598381500614" y="191.2313802203093" type="line"/>
-    </contour>
-    <contour>
-      <point x="33.038122045754754" y="377.03009910834317" type="line"/>
+      <point x="0.0" y="403.0" type="line" smooth="yes"/>
       <point x="-59.69992617646034" y="392.3647950317868"/>
       <point x="-69.0" y="332.0"/>
       <point x="-69.0" y="297.0" type="curve" smooth="yes"/>
       <point x="-69.0" y="262.0"/>
       <point x="-59.69992617646034" y="201.6352049682132"/>
-      <point x="33.038122045754754" y="216.96990089165683" type="curve"/>
+      <point x="0.0" y="191.0" type="curve" smooth="yes"/>
+      <point x="1231.9598381500614" y="191.2313802203093" type="line"/>
     </contour>
   </outline>
 </glyph>
