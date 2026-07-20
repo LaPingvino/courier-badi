@@ -35,6 +35,22 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**20 July 2026. Version 0.700**
+- Arabic shaping overhaul: lam-alef ligatures now form correctly, Pashto and
+  other extended letters link up (addresses the google/fonts#6491 Pashto
+  report), via a new generated feature pipeline (`scripts/arabic-features`, Go).
+- Fontbakery: all correctness FAILs resolved (the version-string check will
+  report until the 1.000 release below); several WARNs cleared.
+- Combining marks made zero-width overlays; added a `meta` table; PANOSE,
+  fsType, vertical metrics and copyright corrected.
+- Cyrillic: recentered symmetric top diacritics (breve/dieresis/macron).
+- Added coverage: capital koppa, Ukrainian ʼ, Vietnamese combining horn, and
+  Church Slavic archaic Cyrillic. New `ss01` "Dotless kaf" stylistic set.
+- See [documentation/design-notes.md](documentation/design-notes.md).
+
+Roadmap: **0.800** reintroduces the Italic; **1.000** ships a wght/ital
+variable font (and bumps the version to satisfy the last Fontbakery check).
+
 **24 October 2025. Version 0.600**
 - Complete Arabic features enhancement through 5 incremental levels
 - Extended Arabic character support (Unicode 075x range)
