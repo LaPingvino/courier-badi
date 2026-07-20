@@ -35,6 +35,12 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**20 July 2026. Version 0.950**
+- Experimental **Contrast** sample: a directional emboldening (thick verticals,
+  thin horizontals via `make-bold --contrast`) that turns the offset imbalance
+  into stroke modulation. Also normalized all contour winding via skia-pathops
+  so the Bold thickens uniformly across every script and accent.
+
 **20 July 2026. Version 0.900**
 - Added **Bold** and **Bold Italic** (issue #8). The Bold is generated from the
   Regular by dilating the outlines (`scripts/make-bold.py`); because the font is

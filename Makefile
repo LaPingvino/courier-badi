@@ -58,6 +58,11 @@ masters:
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out sources/CourierBadi-Bold.ufo
 	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Italic.ufo --out sources/CourierBadi-BoldItalic.ufo
 
+# Experimental "Contrast" sample: directional emboldening (thick verticals, thin
+# horizontals) that turns the imbalance in the offset into stroke modulation.
+contrast:
+	. venv/bin/activate; python3 scripts/make-bold.py --src sources/CourierBadi-Regular.ufo --out /tmp/CourierBadiContrast-Regular.ufo --weight 40 --contrast 4
+
 venv/touchfile: requirements.txt
 	test -d venv || python3 -m venv venv
 	. venv/bin/activate; pip install -Ur requirements.txt
