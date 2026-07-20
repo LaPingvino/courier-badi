@@ -9,11 +9,11 @@
     <key>styleMapStyleName</key>
     <string>regular</string>
     <key>versionMajor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>versionMinor</key>
-    <integer>601</integer>
+    <integer>0</integer>
     <key>copyright</key>
-    <string>Copyright 2023 Joop Kiefte (https://github.com/LaPingvino/courier-badi)</string>
+    <string>Copyright 2023 The Courier Badi Project Authors (https://github.com/LaPingvino/courier-badi)</string>
     <key>unitsPerEm</key>
     <integer>2048</integer>
     <key>capHeight</key>
@@ -152,7 +152,7 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
     <key>openTypeNameLicenseURL</key>
     <string>http://scripts.sil.org/OFL</string>
     <key>openTypeNameVersion</key>
-    <string>Version 0.601</string>
+    <string>Version 1.000</string>
     <key>openTypeNamePreferredFamilyName</key>
     <string>Courier Badi</string>
     <key>openTypeNamePreferredSubfamilyName</key>
@@ -169,19 +169,30 @@ OUT OF THE USE OR INABILITY TO USE THE FONT SOFTWARE OR FROM OTHER DEALINGS IN T
       <integer>0</integer>
     </array>
     <key>openTypeOS2Type</key>
+    <array/>
+    <key>openTypeOS2Panose</key>
     <array>
+      <integer>2</integer>
+      <integer>0</integer>
+      <integer>5</integer>
+      <integer>9</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
+      <integer>0</integer>
       <integer>0</integer>
     </array>
     <key>openTypeOS2TypoAscender</key>
-    <integer>1638</integer>
+    <integer>1827</integer>
     <key>openTypeOS2TypoDescender</key>
-    <integer>-410</integer>
+    <integer>-838</integer>
     <key>openTypeOS2TypoLineGap</key>
     <integer>0</integer>
     <key>openTypeOS2WinAscent</key>
-    <integer>1827</integer>
+    <integer>2087</integer>
     <key>openTypeOS2WinDescent</key>
-    <integer>838</integer>
+    <integer>1364</integer>
     <key>openTypeOS2Selection</key>
     <array>
       <integer>7</integer>
