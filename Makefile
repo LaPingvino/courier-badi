@@ -23,6 +23,17 @@ venv-test: venv-test/touchfile
 customize: venv
 	. venv/bin/activate; python3 scripts/customize.py
 
+# Regenerate the managed Arabic OpenType features (init/medi/fina, lam-alef
+# ligatures, GDEF marks) directly from the UFO glyph set. Requires Go. The
+# generated block is written between markers in features.fea; hand-written
+# features outside the markers are preserved. Run this after adding or removing
+# Arabic glyphs. Use `arabic-features-check` in CI to verify it is up to date.
+arabic-features:
+	cd scripts/arabic-features && go run . --ufo ../../sources/CourierBadi-Regular.ufo
+
+arabic-features-check:
+	cd scripts/arabic-features && go run . --ufo ../../sources/CourierBadi-Regular.ufo --check
+
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)  && touch build.stamp
