@@ -12,10 +12,10 @@ fontbakery version: 1.1.0
 
 
 
-<details><summary>[26] CourierBadi-Regular.ttf</summary>
+<details><summary>[15] CourierBadi-Regular.ttf</summary>
 <div>
 <details>
-    <summary>🔥 <b>FAIL</b> Check glyphs do not have duplicate components which have the same x,y coordinates. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-glyf-non-transformed-duplicate-components">opentype/glyf_non_transformed_duplicate_components</a></summary>
+    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
     <div>
 
 
@@ -24,9 +24,8 @@ fontbakery version: 1.1.0
 
 
 
-* 🔥 **FAIL** <p>The following glyphs have duplicate components which have the same x,y coordinates:
-* {'glyph': 'second', 'component': 'minute', 'x': 0, 'y': 0}</p>
- [code: found-duplicates]
+* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.700; ttfautohint (v1.8.4.16-eb64)&quot;</p>
+ [code: bad-version-strings]
 
 
 
@@ -34,7 +33,7 @@ fontbakery version: 1.1.0
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
+    <summary>⚠️ <b>WARN</b> Checking correctness of monospaced metadata. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/opentype.html#opentype-monospace">opentype/monospace</a></summary>
     <div>
 
 
@@ -43,12 +42,7 @@ fontbakery version: 1.1.0
 
 
 
-* 🔥 **FAIL** <p>The PANOSE numbers are incorrect for a monospaced font.</p>
- [code: mono-bad-panose]
-
-
-
-* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 1 instead.
+* ⚠️ **WARN** <p>The OpenType spec recommends at <a href="https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table">https://learn.microsoft.com/en-us/typography/opentype/spec/recom#hhea-table</a> that hhea.numberOfHMetrics be set to 3 but this font has 2193 instead.
 Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https://github.com/fonttools/fonttools/issues/3014</a> to decide whether this makes sense for your font.</p>
  [code: bad-numberOfHMetrics]
 
@@ -58,7 +52,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Ensure the font supports case swapping for all its glyphs. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#case-mapping">case_mapping</a></summary>
+    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
     <div>
 
 
@@ -67,22 +61,10 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 
-* 🔥 **FAIL** <p>The following glyphs lack their case-swapping counterparts:</p>
-<table>
-<thead>
-<tr>
-<th align="left">Glyph present in the font</th>
-<th align="left">Missing case-swapping counterpart</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">U+03DF: GREEK SMALL LETTER KOPPA</td>
-<td align="left">U+03DE: GREEK LETTER KOPPA</td>
-</tr>
-</tbody>
-</table>
- [code: missing-case-counterparts]
+
+
+* ⚠️ **WARN** <p>dcaron is decomposed and therefore could not be checked. Please check manually.</p>
+ [code: decomposed-outline]
 
 
 
@@ -90,21 +72,12 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>🔥 <b>FAIL</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
+    <summary>⚠️ <b>WARN</b> Check if each glyph has the recommended amount of contours. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#contour-count">contour_count</a></summary>
     <div>
 
 
 
 
-
-
-
-* 🔥 **FAIL** <p>The following glyphs have no contours even though they were expected to have some:</p>
-<pre><code>- Glyph name: minute	Expected: 1
-
-- Glyph name: second	Expected: 2
-</code></pre>
- [code: no-contour]
 
 
 
@@ -184,8 +157,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-- Glyph name: uni202F	Contours detected: 28	Expected: 0
-
 - Glyph name: uni203D	Contours detected: 3	Expected: 2
 
 - Glyph name: colonmonetary	Contours detected: 2	Expected: 1 or 3
@@ -197,8 +168,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 - Glyph name: uni26AE	Contours detected: 5	Expected: 3
 
 - Glyph name: uni2E18	Contours detected: 3	Expected: 2
-
-- Glyph name: uniFEFF	Contours detected: 25	Expected: 0
 
 - Glyph name: Dcroat	Contours detected: 3	Expected: 2
 
@@ -276,346 +245,13 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Glyph name: uni1EF1	Contours detected: 3	Expected: 2
 
-- Glyph name: uni202F	Contours detected: 28	Expected: 0
-
 - Glyph name: uni203D	Contours detected: 3	Expected: 2
 
 - Glyph name: uni26AE	Contours detected: 5	Expected: 3
 
 - Glyph name: uni2E18	Contours detected: 3	Expected: 2
-
-- Glyph name: uniFEFF	Contours detected: 25	Expected: 0
 </code></pre>
  [code: contour-count]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 usWinAscent & usWinDescent. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#family-win-ascent-and-descent">family/win_ascent_and_descent</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinAscent value should be equal or greater than 2087, but got 1827 instead</p>
- [code: ascent]
-
-
-
-* 🔥 **FAIL** <p>OS/2.usWinDescent value should be equal or greater than 1364, but got 838 instead</p>
- [code: descent]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Font contains '.notdef' as its first glyph? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#mandatory-glyphs">mandatory_glyphs</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The '.notdef' glyph should contain a drawing, but it is blank.</p>
- [code: notdef-is-blank]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 Metrics match hhea Metrics. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#os2-metrics-match-hhea">os2_metrics_match_hhea</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>OS/2 sTypoAscender (1638) and hhea ascent (1827) must be equal.</p>
- [code: ascender]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Glyph names are all valid? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#valid-glyphnames">valid_glyphnames</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The following glyph names do not comply with naming conventions: doublestroke-ar, fourabove-ar, fourbelow-ar, gafsarkashabove-ar, kafDotless-ar, kafDotless-ar.fina, miniKeheh-ar, rehabove-ar, stroke-ar, threeabove-ar, threedotshorizontalbelow-ar, twoabove-ar and wasla-ar</p>
-<p>A glyph name must be entirely comprised of characters from the following set: A-Z a-z 0-9 .(period) <em>(underscore). A glyph name must not start with a digit or period. There are a few exceptions such as the special glyph &quot;.notdef&quot;. The glyph names &quot;twocents&quot;, &quot;a1&quot;, and &quot;</em>&quot; are all valid, while &quot;2cents&quot; and &quot;.twocents&quot; are not.</p>
- [code: found-invalid-names]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Whitespace glyphs have ink? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#whitespace-ink">whitespace_ink</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Glyph 'uni202F' has ink. It needs to be replaced by an empty glyph.</p>
- [code: has-ink]
-
-
-
-* 🔥 **FAIL** <p>Glyph 'uniFEFF' has ink. It needs to be replaced by an empty glyph.</p>
- [code: has-ink]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">FAIL messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: ʼ</td>
-<td align="left">uk_Cyrl (Ukrainian), uk_Cyrl (Ukrainian) and uk_Cyrl (Ukrainian)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following mark characters are missing from the font: ̛</td>
-<td align="left">vi_Latn (Vietnamese)</td>
-</tr>
-<tr>
-<td align="left">Positional forms for Arabic letters:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'ځ‍' with features: -init and shaping the text 'ځ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text 'څ‍' with features: -init and shaping the text 'څ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍ځ‍' with features: -medi and shaping the text '‍ځ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍څ‍' with features: -medi and shaping the text '‍څ‍', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍ځ' with features: -fina and shaping the text '‍ځ', the output is expected to be different, but was the same</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">When shaping the text '‍څ' with features: -fina and shaping the text '‍څ', the output is expected to be different, but was the same</td>
-<td align="left">ps_Arab (Pashto)</td>
-</tr>
-<tr>
-<td align="left">Mandatory orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following base characters are missing from the font: Ꙗ, ꙗ, ꙋ, ꙍ, ꙃ, Ꙍ, Ꙃ, ꙁ, Ꙁ, Ꙋ</td>
-<td align="left">cu_Cyrl (Church Slavic)</td>
-</tr>
-</tbody>
-</table>
- [code: failed-language-shaping]
-
-
-
-* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
-<table>
-<thead>
-<tr>
-<th align="left">WARN messages</th>
-<th align="left">Languages</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
-<td align="left">en_Latn (English)</td>
-</tr>
-<tr>
-<td align="left">Auxiliary orthography codepoints:</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ȟ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǩ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ȟ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǩ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
-<td align="left"></td>
-</tr>
-<tr>
-<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
-<td align="left">fi_Latn (Finnish)</td>
-</tr>
-</tbody>
-</table>
- [code: warning-language-shaping]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Copyright notices match canonical pattern in fonts <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-font-copyright">googlefonts/font_copyright</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>Name Table entry: Copyright notices should match a pattern similar to:</p>
-<p>&quot;Copyright 2020 The Familyname Project Authors (git url)&quot;</p>
-<p>But instead we have got:</p>
-<p>&quot;Copyright 2023 Joop Kiefte (<a href="https://github.com/LaPingvino/courier-badi">https://github.com/LaPingvino/courier-badi</a>)&quot;</p>
- [code: bad-notice-format]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Checking OS/2 fsType does not impose restrictions. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-fstype">googlefonts/fstype</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>In this font fsType is set to 1 meaning that:</p>
-<ul>
-<li>There are reserved bits set, which indicates an invalid setting.</li>
-</ul>
-<p>No such DRM restrictions can be enabled on the Google Fonts collection, so the fsType field must be set to zero (Installable Embedding) instead.</p>
- [code: drm]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>🔥 <b>FAIL</b> Version format is correct in 'name' table? <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-name-version-format">googlefonts/name/version_format</a></summary>
-    <div>
-
-
-
-
-
-
-
-* 🔥 **FAIL** <p>The NameID.VERSION_STRING (nameID=5) value must follow the pattern &quot;Version X.Y&quot; with X.Y greater than or equal to 1.000. The &quot;Version &quot; prefix is a recommendation given by the OpenType spec. Current version string is: &quot;Version 0.601; ttfautohint (v1.8.4.16-eb64)&quot;</p>
- [code: bad-version-strings]
-
-
-
-</div>
-</details>
-
-<details>
-    <summary>⚠️ <b>WARN</b> Check accent of Lcaron, dcaron, lcaron, tcaron <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#alt-caron">alt_caron</a></summary>
-    <div>
-
-
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>dcaron is decomposed and therefore could not be checked. Please check manually.</p>
- [code: decomposed-outline]
 
 
 
@@ -665,24 +301,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Checking that the typoAscender exceeds the yMax of the /Agrave. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#typoascender-exceeds-Agrave">typoascender_exceeds_Agrave</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>OS/2.sTypoAscender value should be greater than 1685.1363636363637, but got 1638 instead</p>
- [code: typoAscender]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Check font contains no unreachable glyphs <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#unreachable-glyphs">unreachable_glyphs</a></summary>
     <div>
 
@@ -719,7 +337,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - circumflexcomb_gravecomb.cap
 
-- circumflexcomb_hookabovecomb.cap
+- circumflexcomb_hookabove.cap
 
 - circumflexcomb_tildecomb.cap
 
@@ -735,7 +353,7 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - dotaccent.case
 
-- doublestroke-ar
+- doublestroke_ar
 
 - ellipsis.alt1
 
@@ -755,11 +373,11 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - emdash.alt4
 
-- fourabove-ar
+- fourabove_ar
 
-- fourbelow-ar
+- fourbelow_ar
 
-- gafsarkashabove-ar
+- gafsarkashabove_ar
 
 - grave.case
 
@@ -771,13 +389,9 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - ittisal.comp
 
-- kafDotless-ar
-
-- kafDotless-ar.fina
-
 - macron.case
 
-- miniKeheh-ar
+- miniKeheh_ar
 
 - ogonek.case
 
@@ -787,31 +401,25 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - perthousandzero
 
-- rehabove-ar
+- rehabove_ar
 
 - ring.case
 
 - semicolon.alt
 
-- stroke-ar
+- stroke_ar
 
 - tail.comp
 
-- threeabove-ar
+- threeabove_ar
 
-- threedotshorizontalbelow-ar
+- threedotshorizontalbelow_ar
 
 - tilde.case
 
-- twoabove-ar
+- twoabove_ar
 
 - uni0326.case
-
-- uni0620.fina
-
-- uni0620.init
-
-- uni0620.medi
 
 - uni0622.fina.alt
 
@@ -831,36 +439,6 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - uni0629.alt
 
-- uni063B.fina
-
-- uni063B.init
-
-- uni063B.medi
-
-- uni063C.fina
-
-- uni063C.init
-
-- uni063C.medi
-
-- uni063D.fina
-
-- uni063D.init
-
-- uni063D.medi
-
-- uni063E.fina
-
-- uni063E.init
-
-- uni063E.medi
-
-- uni063F.fina
-
-- uni063F.init
-
-- uni063F.medi
-
 - uni0644.medi.short
 
 - uni066E.hah
@@ -873,481 +451,15 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - uni0674.narrow
 
-- uni0678.init
-
-- uni0681.fina
-
-- uni0681.init
-
-- uni0681.medi
-
-- uni0682.fina
-
-- uni0682.init
-
-- uni0682.medi
-
-- uni0685.fina
-
-- uni0685.init
-
-- uni0685.medi
-
 - uni06BE.init.comp
-
-- uni06BF.fina
-
-- uni06BF.init
-
-- uni06BF.medi
-
-- uni0750.fina
-
-- uni0750.init
-
-- uni0750.medi
-
-- uni0751.fina
-
-- uni0751.init
-
-- uni0751.medi
-
-- uni0752.fina
-
-- uni0752.init
-
-- uni0752.medi
-
-- uni0753.fina
-
-- uni0753.init
-
-- uni0753.medi
-
-- uni0754.fina
-
-- uni0754.init
-
-- uni0754.medi
-
-- uni0755.fina
-
-- uni0755.init
-
-- uni0755.medi
-
-- uni0756.fina
-
-- uni0756.init
-
-- uni0756.medi
-
-- uni0757.fina
-
-- uni0757.init
-
-- uni0757.medi
-
-- uni0758.fina
-
-- uni0758.init
-
-- uni0758.medi
-
-- uni0759.fina
-
-- uni075A.fina
-
-- uni075B.fina
-
-- uni075C.fina
-
-- uni075C.init
-
-- uni075C.medi
-
-- uni075D.fina
-
-- uni075D.init
-
-- uni075D.medi
-
-- uni075E.fina
-
-- uni075E.init
-
-- uni075E.medi
-
-- uni075F.fina
-
-- uni075F.init
-
-- uni075F.medi
-
-- uni0760.fina
-
-- uni0760.init
-
-- uni0760.medi
-
-- uni0761.fina
-
-- uni0761.init
-
-- uni0761.medi
-
-- uni0762.fina
-
-- uni0762.init
-
-- uni0762.medi
-
-- uni0763.fina
-
-- uni0763.init
-
-- uni0763.medi
-
-- uni0764.fina
-
-- uni0764.init
-
-- uni0764.medi
-
-- uni0765.fina
-
-- uni0765.init
-
-- uni0765.medi
-
-- uni0766.fina
-
-- uni0766.init
-
-- uni0766.medi
-
-- uni0767.fina
-
-- uni0767.init
-
-- uni0767.medi
-
-- uni0768.fina
-
-- uni0768.init
-
-- uni0768.medi
-
-- uni0769.fina
-
-- uni0769.init
-
-- uni0769.medi
-
-- uni076A.fina
-
-- uni076A.init
-
-- uni076A.medi
-
-- uni076B.fina
-
-- uni076C.fina
-
-- uni076D.fina
-
-- uni076D.init
-
-- uni076D.medi
-
-- uni076E.fina
-
-- uni076E.init
-
-- uni076E.medi
-
-- uni076F.fina
-
-- uni076F.init
-
-- uni076F.medi
-
-- uni0770.fina
-
-- uni0770.init
-
-- uni0770.medi
-
-- uni0771.fina
-
-- uni0772.fina
-
-- uni0772.init
-
-- uni0772.medi
-
-- uni0773.fina
 
 - uni0773.fina.alt
 
-- uni0774.fina
-
 - uni0774.fina.alt
-
-- uni0775.fina
-
-- uni0775.init
-
-- uni0775.medi
-
-- uni0776.fina
-
-- uni0776.init
-
-- uni0776.medi
-
-- uni0777.fina
-
-- uni0777.init
-
-- uni0777.medi
-
-- uni0778.fina
-
-- uni0779.fina
-
-- uni077A.fina
-
-- uni077B.fina
-
-- uni077C.fina
-
-- uni077C.init
-
-- uni077C.medi
-
-- uni077D.fina
-
-- uni077D.init
-
-- uni077D.medi
-
-- uni077E.fina
-
-- uni077E.init
-
-- uni077E.medi
-
-- uni077F.fina
-
-- uni077F.init
-
-- uni077F.medi
-
-- uni08A0.fina
-
-- uni08A0.init
-
-- uni08A0.medi
-
-- uni08A1.fina
-
-- uni08A1.init
-
-- uni08A1.medi
-
-- uni08A2.fina
-
-- uni08A2.init
-
-- uni08A2.medi
-
-- uni08A3.fina
-
-- uni08A3.init
-
-- uni08A3.medi
-
-- uni08A4.fina
-
-- uni08A4.init
-
-- uni08A4.medi
-
-- uni08A5.fina
-
-- uni08A5.init
-
-- uni08A5.medi
-
-- uni08A6.fina
-
-- uni08A6.init
-
-- uni08A6.medi
-
-- uni08A7.fina
-
-- uni08A7.init
-
-- uni08A7.medi
-
-- uni08A8.fina
-
-- uni08A8.init
-
-- uni08A8.medi
-
-- uni08A9.fina
-
-- uni08A9.init
-
-- uni08A9.medi
-
-- uni08AA.fina
-
-- uni08AB.fina
 
 - uni08AC.comp
 
-- uni08AC.fina
-
-- uni08AE.fina
-
-- uni08AF.fina
-
-- uni08AF.init
-
-- uni08AF.medi
-
-- uni08B0.fina
-
-- uni08B0.init
-
-- uni08B0.medi
-
-- uni08B1.fina
-
-- uni08B2.fina
-
-- uni08B3.fina
-
-- uni08B3.init
-
-- uni08B3.medi
-
-- uni08B4.fina
-
-- uni08B4.init
-
-- uni08B4.medi
-
-- uni08B6.fina
-
-- uni08B6.init
-
-- uni08B6.medi
-
-- uni08B7.fina
-
-- uni08B7.init
-
-- uni08B7.medi
-
-- uni08B8.fina
-
-- uni08B8.init
-
-- uni08B8.medi
-
-- uni08B9.fina
-
-- uni08BA.fina
-
-- uni08BA.init
-
-- uni08BA.medi
-
-- uni08BB.fina
-
-- uni08BB.init
-
-- uni08BB.medi
-
-- uni08BC.fina
-
-- uni08BC.init
-
-- uni08BC.medi
-
-- uni08BD.fina
-
-- uni08BD.init
-
-- uni08BD.medi
-
-- uni08BE.fina
-
-- uni08BE.init
-
-- uni08BE.medi
-
-- uni08BF.fina
-
-- uni08BF.init
-
-- uni08BF.medi
-
-- uni08C0.fina
-
-- uni08C0.init
-
-- uni08C0.medi
-
-- uni08C1.fina
-
-- uni08C1.init
-
-- uni08C1.medi
-
-- uni08C2.fina
-
-- uni08C2.init
-
-- uni08C2.medi
-
-- uni08C3.fina
-
-- uni08C3.init
-
-- uni08C3.medi
-
-- uni08C4.fina
-
-- uni08C4.init
-
-- uni08C4.medi
-
-- uni08C5.fina
-
-- uni08C5.init
-
-- uni08C5.medi
-
-- uni08C6.fina
-
-- uni08C6.init
-
-- uni08C6.medi
-
-- uni08C7.fina
-
-- uni08C7.init
-
-- uni08C7.medi
-
-- wasla-ar
+- wasla_ar
 </code></pre>
  [code: unreachable-glyphs]
 
@@ -1390,25 +502,26 @@ be served. You can solve this by either manually adding additional
 subset declarations to METADATA.pb, or by editing the glyphset
 definitions.</p>
 <ul>
-<li>U+02D8 BREVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02D9 DOT ABOVE: try adding one of: yi, canadian-aboriginal</li>
-<li>U+02DB OGONEK: try adding one of: yi, canadian-aboriginal</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: math, tifinagh, cherokee, coptic</li>
+<li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
+<li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, math, coptic, tifinagh</li>
 <li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
-<li>U+0307 COMBINING DOT ABOVE: try adding one of: math, syriac, duployan, coptic, canadian-aboriginal, hebrew, tifinagh, old-permic, tai-le, todhri, malayalam</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
+<li>U+0307 COMBINING DOT ABOVE: try adding one of: tai-le, coptic, syriac, duployan, malayalam, math, tifinagh, old-permic, todhri, hebrew, canadian-aboriginal</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
 <li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
 <li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
-<li>U+0311 COMBINING INVERTED BREVE: try adding one of: coptic, todhri</li>
+<li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
+<li>U+031B COMBINING HORN: not included in any glyphset definition</li>
 <li>U+0326 COMBINING COMMA BELOW: try adding math</li>
 <li>U+0327 COMBINING CEDILLA: try adding math</li>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: math, syriac, cherokee</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, caucasian-albanian, syriac, gothic, tifinagh, cherokee, thai</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: cherokee, caucasian-albanian, syriac, sunuwar, gothic, tifinagh, thai</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -1423,7 +536,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: syriac, arabic, nko, yezidi, hanifi-rohingya, garay, thaana</li>
+<li>U+060C ARABIC COMMA: try adding one of: yezidi, nko, syriac, garay, arabic, thaana, hanifi-rohingya</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -1438,10 +551,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, arabic, nko, yezidi, hanifi-rohingya, garay, thaana</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: syriac, arabic, thaana</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: yezidi, nko, syriac, garay, arabic, thaana, hanifi-rohingya</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: syriac, thaana, arabic</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: syriac, arabic, nko, yezidi, hanifi-rohingya, adlam, garay, thaana</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: yezidi, nko, syriac, garay, arabic, adlam, thaana, hanifi-rohingya</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -1474,7 +587,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, arabic, sogdian, manichaean, hanifi-rohingya, psalter-pahlavi, adlam, old-uyghur, mandaic</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: manichaean, old-uyghur, sogdian, syriac, mandaic, psalter-pahlavi, arabic, adlam, hanifi-rohingya</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -1506,19 +619,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, hanifi-rohingya, thaana</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, arabic, indic-siyaq-numbers, yezidi, thaana</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: nko, arabic, syriac, thaana</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, arabic, thaana</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, arabic, thaana</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: yezidi, syriac, indic-siyaq-numbers, arabic, thaana, hanifi-rohingya</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: yezidi, syriac, indic-siyaq-numbers, thaana, arabic</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, nko, thaana, arabic</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, thaana, arabic</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, thaana, arabic</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -1622,7 +735,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -1801,12 +914,12 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: hatran, balinese, arabic, modi, telugu, meetei-mayek, tagalog, tibetan, mahajani, chakma, hanifi-rohingya, gunjala-gondi, khudawadi, batak, kaithi, kannada, tai-le, bengali, malayalam, mandaic, phags-pa, syloti-nagri, sinhala, bhaiksuki, grantha, kayah-li, takri, manichaean, zanabazar-square, hebrew, psalter-pahlavi, devanagari, khojki, mongolian, javanese, brahmi, new-tai-lue, buginese, newa, sharada, syriac, masaram-gondi, tagbanwa, gurmukhi, duployan, khmer, tamil, buhid, kharoshthi, avestan, tifinagh, hanunoo, saurashtra, lao, warang-citi, gujarati, thai, sogdian, nko, tirhuta, tai-tham, cham, lepcha, oriya, limbu, tai-viet, myanmar, dogra, sundanese, rejang, yi, siddham, pahawh-hmong, thaana</li>
-<li>U+200D ZERO WIDTH JOINER: try adding one of: balinese, arabic, modi, telugu, meetei-mayek, tagalog, tibetan, mahajani, old-hungarian, chakma, hanifi-rohingya, gunjala-gondi, khudawadi, batak, kaithi, kannada, tai-le, bengali, malayalam, mandaic, phags-pa, syloti-nagri, sinhala, bhaiksuki, grantha, kayah-li, takri, manichaean, zanabazar-square, hebrew, psalter-pahlavi, devanagari, khojki, mongolian, javanese, brahmi, new-tai-lue, buginese, newa, sharada, syriac, masaram-gondi, tagbanwa, gurmukhi, duployan, khmer, tamil, buhid, kharoshthi, avestan, tifinagh, hanunoo, saurashtra, lao, warang-citi, gujarati, thai, sogdian, nko, tirhuta, tai-tham, cham, lepcha, oriya, limbu, tai-viet, myanmar, dogra, sundanese, rejang, yi, siddham, pahawh-hmong, thaana</li>
-<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: syriac, arabic, nko, hebrew, phags-pa, thaana</li>
-<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: syriac, nko, hebrew, phags-pa, thaana</li>
-<li>U+2010 HYPHEN: try adding one of: arabic, kayah-li, coptic, hebrew, cham, kharoshthi, kaithi, sundanese, armenian, lisu, sora-sompeng, yi, syloti-nagri</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: yi, arabic, syloti-nagri</li>
+<li>U+200C ZERO WIDTH NON-JOINER: try adding one of: chakma, khmer, manichaean, tai-le, takri, zanabazar-square, sogdian, bengali, modi, syriac, khojki, duployan, tagbanwa, avestan, phags-pa, kannada, arabic, balinese, tifinagh, yi, myanmar, dogra, tagalog, bhaiksuki, rejang, mahajani, meetei-mayek, sinhala, devanagari, telugu, siddham, saurashtra, kayah-li, new-tai-lue, masaram-gondi, buginese, grantha, tai-viet, javanese, thai, hatran, oriya, thaana, pahawh-hmong, buhid, nko, cham, gunjala-gondi, kaithi, mandaic, mongolian, malayalam, khudawadi, psalter-pahlavi, sharada, sundanese, tai-tham, kharoshthi, tamil, brahmi, tirhuta, gurmukhi, batak, gujarati, newa, lepcha, syloti-nagri, warang-citi, tibetan, hanunoo, hebrew, lao, limbu, hanifi-rohingya</li>
+<li>U+200D ZERO WIDTH JOINER: try adding one of: chakma, khmer, manichaean, tai-le, takri, zanabazar-square, sogdian, bengali, modi, syriac, khojki, duployan, tagbanwa, avestan, phags-pa, kannada, arabic, balinese, tifinagh, yi, myanmar, dogra, tagalog, bhaiksuki, rejang, mahajani, meetei-mayek, sinhala, devanagari, telugu, siddham, saurashtra, kayah-li, new-tai-lue, masaram-gondi, buginese, grantha, tai-viet, javanese, thai, oriya, thaana, pahawh-hmong, buhid, nko, cham, gunjala-gondi, kaithi, mandaic, mongolian, malayalam, khudawadi, psalter-pahlavi, sharada, sundanese, tai-tham, kharoshthi, old-hungarian, tamil, brahmi, tirhuta, gurmukhi, batak, gujarati, newa, lepcha, syloti-nagri, warang-citi, tibetan, hanunoo, hebrew, lao, limbu, hanifi-rohingya</li>
+<li>U+200E LEFT-TO-RIGHT MARK: try adding one of: nko, syriac, phags-pa, hebrew, thaana, arabic</li>
+<li>U+200F RIGHT-TO-LEFT MARK: try adding one of: nko, syriac, phags-pa, hebrew, thaana</li>
+<li>U+2010 HYPHEN: try adding one of: coptic, cham, kaithi, syloti-nagri, sundanese, kayah-li, kharoshthi, armenian, sora-sompeng, lisu, yi, hebrew, arabic</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -1814,7 +927,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: yi, mongolian, phags-pa</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, mongolian, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
 <li>U+203D INTERROBANG: not included in any glyphset definition</li>
@@ -1859,9 +972,9 @@ definitions.</p>
 <li>U+2422 BLANK SYMBOL: try adding symbols</li>
 <li>U+2423 OPEN BOX: try adding symbols</li>
 <li>U+25CA LOZENGE: try adding one of: math, symbols</li>
-<li>U+25CC DOTTED CIRCLE: try adding one of: balinese, caucasian-albanian, modi, symbols, chakma, soyombo, bengali, malayalam, grantha, kayah-li, canadian-aboriginal, devanagari, ahom, tagbanwa, gurmukhi, duployan, elbasan, saurashtra, warang-citi, nko, oriya, pahawh-hmong, thaana, telugu, tagalog, hanifi-rohingya, gunjala-gondi, khudawadi, mandaic, phags-pa, syloti-nagri, bhaiksuki, bassa-vah, takri, hebrew, mende-kikakui, khojki, javanese, buginese, osage, masaram-gondi, tamil, buhid, lao, thai, math, tirhuta, limbu, wancho, myanmar, dogra, sundanese, mahajani, coptic, kannada, old-permic, marchen, music, sinhala, manichaean, zanabazar-square, psalter-pahlavi, sharada, khmer, kharoshthi, tifinagh, sogdian, cham, siddham, meetei-mayek, tibetan, batak, kaithi, tai-le, mongolian, brahmi, new-tai-lue, newa, syriac, adlam, hanunoo, armenian, gujarati, miao, tai-tham, lepcha, tai-viet, rejang, yi</li>
+<li>U+25CC DOTTED CIRCLE: try adding one of: khmer, zanabazar-square, caucasian-albanian, coptic, sogdian, tifinagh, yi, mahajani, meetei-mayek, sinhala, buginese, tai-viet, elbasan, buhid, mandaic, malayalam, khudawadi, tai-tham, tirhuta, gujarati, syloti-nagri, hanunoo, lao, manichaean, takri, marchen, syriac, duployan, kannada, bassa-vah, dogra, kayah-li, old-permic, wancho, thai, ahom, oriya, thaana, pahawh-hmong, nko, gunjala-gondi, mongolian, sundanese, newa, lepcha, warang-citi, hanifi-rohingya, chakma, khojki, phags-pa, balinese, symbols, tagalog, rejang, telugu, saurashtra, grantha, armenian, javanese, miao, kaithi, sharada, tibetan, math, myanmar, hebrew, limbu, tai-le, bengali, modi, tagbanwa, mende-kikakui, osage, adlam, canadian-aboriginal, bhaiksuki, devanagari, siddham, new-tai-lue, masaram-gondi, music, cham, psalter-pahlavi, kharoshthi, brahmi, gurmukhi, batak, tamil, soyombo</li>
 <li>U+25E6 WHITE BULLET: try adding symbols</li>
-<li>U+266A EIGHTH NOTE: try adding one of: symbols, music</li>
+<li>U+266A EIGHTH NOTE: try adding one of: music, symbols</li>
 <li>U+26AD MARRIAGE SYMBOL: try adding symbols</li>
 <li>U+26AE DIVORCE SYMBOL: try adding symbols</li>
 <li>U+27E6 MATHEMATICAL LEFT WHITE SQUARE BRACKET: try adding math</li>
@@ -2021,13 +1134,13 @@ definitions.</p>
 <li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD88 ARABIC LIGATURE LAM WITH MEEM WITH HAH INITIAL FORM: try adding arabic</li>
-<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana</li>
+<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic</li>
 <li>U+FDF4 ARABIC LIGATURE MOHAMMAD ISOLATED FORM: try adding arabic</li>
 <li>U+FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM: try adding arabic</li>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
-<li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: yi, manichaean, phags-pa</li>
+<li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: thaana, arabic</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
@@ -2043,20 +1156,12 @@ definitions.</p>
 <li>U+FE0D VARIATION SELECTOR-14: not included in any glyphset definition</li>
 <li>U+FE0E VARIATION SELECTOR-15: not included in any glyphset definition</li>
 <li>U+FE0F VARIATION SELECTOR-16: not included in any glyphset definition</li>
-<li>U+FE70 ARABIC FATHATAN ISOLATED FORM: try adding arabic</li>
 <li>U+FE71 ARABIC TATWEEL WITH FATHATAN ABOVE: try adding arabic</li>
-<li>U+FE72 ARABIC DAMMATAN ISOLATED FORM: try adding arabic</li>
 <li>U+FE73 ARABIC TAIL FRAGMENT: try adding arabic</li>
-<li>U+FE74 ARABIC KASRATAN ISOLATED FORM: try adding arabic</li>
-<li>U+FE76 ARABIC FATHA ISOLATED FORM: try adding arabic</li>
 <li>U+FE77 ARABIC FATHA MEDIAL FORM: try adding arabic</li>
-<li>U+FE78 ARABIC DAMMA ISOLATED FORM: try adding arabic</li>
 <li>U+FE79 ARABIC DAMMA MEDIAL FORM: try adding arabic</li>
-<li>U+FE7A ARABIC KASRA ISOLATED FORM: try adding arabic</li>
 <li>U+FE7B ARABIC KASRA MEDIAL FORM: try adding arabic</li>
-<li>U+FE7C ARABIC SHADDA ISOLATED FORM: try adding arabic</li>
 <li>U+FE7D ARABIC SHADDA MEDIAL FORM: try adding arabic</li>
-<li>U+FE7E ARABIC SUKUN ISOLATED FORM: try adding arabic</li>
 <li>U+FE7F ARABIC SUKUN MEDIAL FORM: try adding arabic</li>
 <li>U+FE80 ARABIC LETTER HAMZA ISOLATED FORM: try adding arabic</li>
 <li>U+FE81 ARABIC LETTER ALEF WITH MADDA ABOVE ISOLATED FORM: try adding arabic</li>
@@ -2194,6 +1299,86 @@ definitions.</p>
 </details>
 
 <details>
+    <summary>⚠️ <b>WARN</b> Shapes languages in all GF glyphsets. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-glyphsets-shape-languages">googlefonts/glyphsets/shape_languages</a></summary>
+    <div>
+
+
+
+
+
+
+
+* ⚠️ **WARN** <p>GF_Phonetics_SinoExt glyphset:</p>
+<table>
+<thead>
+<tr>
+<th align="left">WARN messages</th>
+<th align="left">Languages</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʻ</td>
+<td align="left">en_Latn (English)</td>
+</tr>
+<tr>
+<td align="left">Auxiliary orthography codepoints:</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ȟ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǩ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: Ǯ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǥ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ȟ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǩ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ʒ</td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="left">The following auxiliary characters are missing from the font: ǯ</td>
+<td align="left">fi_Latn (Finnish)</td>
+</tr>
+</tbody>
+</table>
+ [code: warning-language-shaping]
+
+
+
+</div>
+</details>
+
+<details>
     <summary>⚠️ <b>WARN</b> Ensure soft_dotted characters lose their dot when combined with marks that replace the dot. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/universal.html#soft-dotted">soft_dotted</a></summary>
     <div>
 
@@ -2204,7 +1389,7 @@ definitions.</p>
 
 
 * ⚠️ **WARN** <p>The dot of soft dotted characters used in orthographies <em>must</em> disappear in the following strings: i̊ i̋ j̀ j́ j̃ j̄ j̈ j̑ į̀ į́ į̂ į̃ į̄ į̌ і́ ị̀ ị́ ị̂ ị̃ ị̄</p>
-<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ȋ i̒ i҃ i҄ i҅ i҆ i̦̇ i̦̊ i̦̋ ȋ̦ i̦̒ i̦҃ i̦҄ i̦҅ i̦҆ i̧̇ i̧̊ i̧̋ ȋ̧</p>
+<p>The dot of soft dotted characters <em>should</em> disappear in other cases, for example: i̇ ȋ i̒ i҃ i҄ i҅ i҆ i̛̇ i̛̊ i̛̋ ȋ̛ i̛̒ i̛҃ i̛҄ i̛҅ i̛҆ i̦̇ i̦̊ i̦̋ ȋ̦</p>
  [code: soft-dotted]
 
 
@@ -2330,6 +1515,8 @@ definitions.</p>
 * uni2E18 (U+2E18): L&lt;&lt;428.0,-338.0&gt;--&lt;432.0,-203.0&gt;&gt; -&gt; L&lt;&lt;432.0,-203.0&gt;--&lt;434.0,-33.0&gt;&gt;
 
 * uni2E18 (U+2E18): L&lt;&lt;571.0,178.0&gt;--&lt;575.0,-51.0&gt;&gt; -&gt; L&lt;&lt;575.0,-51.0&gt;--&lt;584.0,-340.0&gt;&gt;
+
+* uniFCA2 (U+FCA2): L&lt;&lt;116.0,764.0&gt;--&lt;116.0,765.0&gt;&gt; -&gt; L&lt;&lt;116.0,765.0&gt;--&lt;116.0,768.0&gt;&gt;
 </code></pre>
  [code: found-colinear-vectors]
 
@@ -2378,8 +1565,6 @@ definitions.</p>
 * uni08DD (U+08DD): L&lt;&lt;459.0,1047.0&gt;--&lt;459.0,1047.0&gt;&gt;/B&lt;&lt;459.0,1047.0&gt;-&lt;429.0,1049.0&gt;-&lt;415.0,1062.5&gt;&gt; = 3.8140748342903783
 
 * uni200C (U+200C): B&lt;&lt;364.0,360.5&gt;-&lt;350.0,367.0&gt;-&lt;344.0,395.0&gt;&gt;/L&lt;&lt;344.0,395.0&gt;--&lt;344.0,393.0&gt;&gt; = 12.094757077012089
-
-* uni202F (U+202F): L&lt;&lt;340.0,698.0&gt;--&lt;338.0,698.0&gt;&gt;/B&lt;&lt;338.0,698.0&gt;-&lt;356.0,694.0&gt;-&lt;376.5,686.5&gt;&gt; = 12.528807709151492
 </code></pre>
  [code: found-jaggy-segments]
 
@@ -2402,6 +1587,8 @@ definitions.</p>
 <pre><code>* phi (U+03C6): L&lt;&lt;471.0,-424.0&gt;--&lt;469.0,-6.0&gt;&gt;
 
 * uni03DA (U+03DB): L&lt;&lt;471.0,4.0&gt;--&lt;469.0,342.0&gt;&gt;
+
+* uni03DE (U+03DE): L&lt;&lt;817.0,-121.0&gt;--&lt;821.0,438.0&gt;&gt;
 
 * uni03DF (U+03DF): L&lt;&lt;817.0,-121.0&gt;--&lt;821.0,438.0&gt;&gt;
 
@@ -2481,24 +1668,6 @@ definitions.</p>
 </details>
 
 <details>
-    <summary>⚠️ <b>WARN</b> Ensure fonts have ScriptLangTags declared on the 'meta' table. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-meta-script-lang-tags">googlefonts/meta/script_lang_tags</a></summary>
-    <div>
-
-
-
-
-
-
-
-* ⚠️ **WARN** <p>This font file does not have a 'meta' table.</p>
- [code: lacks-meta-table]
-
-
-
-</div>
-</details>
-
-<details>
     <summary>⚠️ <b>WARN</b> Checking OS/2 achVendID. <a href="https://fontbakery.readthedocs.io/en/stable/fontbakery/checks/googlefonts.html#googlefonts-vendor-id">googlefonts/vendor_id</a></summary>
     <div>
 
@@ -2525,8 +1694,8 @@ definitions.</p>
 
 | 💥 ERROR | ☠ FATAL | 🔥 FAIL | ⚠️ WARN | ⏩ SKIP | ℹ️ INFO | ✅ PASS | 🔎 DEBUG | 
 | ---|---|---|---|---|---|---|---|
-| 0 | 0 | 13 | 13 | 109 | 6 | 95 | 0 | 
-| 0% | 0% | 6% | 6% | 46% | 3% | 40% | 0% | 
+| 0 | 0 | 1 | 14 | 105 | 7 | 109 | 0 | 
+| 0% | 0% | 0% | 6% | 44% | 3% | 46% | 0% | 
 
 
 
