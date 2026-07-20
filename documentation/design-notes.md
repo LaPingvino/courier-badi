@@ -68,13 +68,15 @@ the markers (see below) are preserved.
 ## seen/sheen/sad teeth widening
 
 `scripts/widen-seen-family.py` spreads the scrunched teeth of the seen/sheen/sad
-family so they fill the cell. It only touches the **isolated and final** forms —
-those have the free terminal tail, so the teeth can spread while the tail
-smuggles out of the box on the left; the tooth-cluster itself stays inside the
-cell. Initial/medial forms are pinned between joins and left unchanged (widening
-them would overhang into the neighbouring letter). A horizontal scale spreads
-the teeth, then an x-direction inset thins the (now fattened) vertical stems
-back to a constant, monolinear stroke width. Run once from pristine glyphs.
+family so they fill the cell, to the **same teeth width in every positional
+form** and always inside the box. Isolated/final forms spread the teeth left and
+let the free terminal tail smuggle out past the left edge; initial/medial forms
+stretch only the teeth *cluster* and compress the baseline connector(s), which
+stay pinned to the cell edge so joins line up and nothing overhangs into the
+next letter. An x-direction inset thins the fattened vertical stems back to a
+constant, monolinear stroke; the dots keep their shape and are only
+repositioned. The family is derived from Unicode letter names, so every dotted
+variant (two-dot, four-dot, …) is covered. Run once from pristine glyphs.
 
 ## Cyrillic diacritic centering
 

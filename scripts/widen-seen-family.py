@@ -6,20 +6,18 @@ cluster scrunched into a narrow band with a large empty bowl, which reads poorly
 (see google/fonts#6491). This spreads the teeth so they fill the cell, WITHOUT
 fattening the strokes and WITHOUT letting the tooth-cluster leave the box.
 
-Only the ISOLATED and FINAL forms are touched: those have the free terminal
-tail, so the teeth can spread into the freed space and the tail smuggles out of
-the box on the left (word-end / margin). Initial and medial forms are left
-alone -- their teeth are pinned between joins with no room to grow inside the
-box, and widening them would overhang into the previous letter.
-
-Two steps per glyph:
-  1. Horizontal scale by `scale`, anchored at the rightmost point so the right
-     side (the join for final forms / the word start) stays put; the teeth
-     spread left and the terminal tail extends past the left edge.
-  2. An x-direction inset by `delta` that thins the now-fattened vertical stems
-     back to their original width, restoring a constant (monolinear) stroke.
-     Horizontal strokes (normal.x ~ 0) are untouched, so only the vertical
-     stems are corrected.
+The teeth cluster is widened to the SAME width in every positional form, and
+always kept inside the cell -- only the connectors/tail change per position:
+  - isolated / final: teeth spread left, anchored at the right; the free
+    terminal tail smuggles out past the left edge (word-end / margin).
+  - initial / medial: only the teeth *cluster* is stretched (the tall uprights);
+    the baseline connector(s) that reach the cell edge are held and compress to
+    make room, so the join strokes stay pinned to the edge and nothing overhangs
+    into the neighbouring letter.
+In all cases an x-direction inset thins the now-fattened vertical stems back to
+their original width, restoring a constant (monolinear) stroke; horizontal
+strokes (normal.x ~ 0) are untouched. Dots (nukat) keep their shape and are only
+repositioned to stay over the spread teeth.
 
 Run once from pristine glyphs. Usage:
   python3 scripts/widen-seen-family.py [--scale 1.5] [--delta 29] [--apply]
@@ -30,10 +28,23 @@ import os
 import re
 import unicodedata as ud
 
-# seen/sheen teeth family + sad/dad loop family (same rough treatment).
-FAMILY = [0x0633, 0x0634, 0x069A, 0x069B, 0x069C, 0x06FA, 0x0770, 0x077D, 0x077E,
-          0x0635, 0x0636, 0x069D, 0x069E, 0x06FB]
-POS_TAGS = {"final": "fina"}  # isolated handled separately; init/medi skipped
+# The seen/sheen (teeth) and sad/dad (loop) family, derived from the font's
+# cmap by Unicode letter name so every dotted variant (two-dot, four-dot, ...)
+# is covered automatically.
+FAMILY_RE = re.compile(r"ARABIC LETTER (SEEN|SHEEN|SAD|DAD)\b")
+
+
+def family_codepoints(cp2name):
+    out = []
+    for cp in sorted(cp2name):
+        try:
+            name = ud.name(chr(cp))
+        except ValueError:
+            continue
+        # base letters only, not the FBxx/FExx presentation forms
+        if FAMILY_RE.search(name) and "FORM" not in name:
+            out.append(cp)
+    return out
 
 
 def load(ufo):
@@ -78,14 +89,16 @@ def plan(contents, cp2name):
     (initial/medial)."""
     fp = forms_by_position()
     out = []
-    for bcp in FAMILY:
+    seen_names = set()
+    def add(g, op):
+        if g and g not in seen_names:
+            seen_names.add(g)
+            out.append((g, op))
+    for bcp in family_codepoints(cp2name):
         isol = cp2name.get(bcp)
-        if isol:
-            out.append((isol, "widen"))
-        for pos, op in (("fina", "widen"), ("init", "lower"), ("medi", "lower")):
-            g = form_glyph(contents, cp2name, fp, isol, bcp, pos)
-            if g:
-                out.append((g, op))
+        add(isol, "widen")
+        for pos, op in (("fina", "widen"), ("init", "init"), ("medi", "medi")):
+            add(form_glyph(contents, cp2name, fp, isol, bcp, pos), op)
     return out
 
 
@@ -149,38 +162,75 @@ def widen_glyph(text, scale, delta):
     return re.sub(r"<contour>.*?</contour>", repl, text, flags=re.S)
 
 
-def lower_glyph(text, k):
-    """Lower the teeth of initial/medial forms (scale y above the baseline by k,
-    keeping the join baseline fixed) so their proportions match the widened
-    isolated/final teeth. Dots are shifted down to stay above the lower teeth."""
+def widen_inbox(text, scale, delta, hold_both):
+    """Widen the teeth of a connecting form while keeping the whole glyph inside
+    the cell [0,1228]. Only the teeth cluster (the tall uprights) is stretched;
+    the baseline connector(s) that reach the cell edge are held and compress to
+    make room, so the join strokes stay pinned to the edge. `hold_both` is True
+    for medial (both edges are joins) and False for initial (only the left edge
+    is a join; the teeth grow toward the right/word-start edge)."""
+    CELL = 1228.0
+    MARGIN = 28.0
     contours = re.findall(r"<contour>.*?</contour>", text, re.S)
     if not contours:
         return text
     def npts(c):
         return len(re.findall(r"<point ", c))
     body_idx = max(range(len(contours)), key=lambda i: npts(contours[i]))
-    body_ys = [float(y) for x, y in
-               re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"', contours[body_idx])]
-    ybase = min(body_ys)
-    ytop = max(body_ys)
-    ddy = -(1 - k) * (ytop - ybase)  # how far the tops drop; dots follow
+    bpts = [(float(x), float(y)) for x, y in
+            re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"', contours[body_idx])]
+    teeth = [x for x, y in bpts if y > 500]
+    if not teeth:
+        return text
+    ta, tb = min(teeth), max(teeth)
+    new_w = (tb - ta) * scale
+    if hold_both:
+        center = CELL / 2
+        na, nb = center - new_w / 2, center + new_w / 2
+    else:  # initial: teeth grow toward the right/word-start edge
+        nb = CELL - MARGIN
+        na = nb - new_w
+    na = max(na, MARGIN)
+    nb = min(nb, CELL - MARGIN)
+    knots = sorted({0.0: 0.0, ta: na, tb: nb, CELL: CELL}.items())
+
+    def M(x):
+        if x <= knots[0][0]:
+            return x
+        for i in range(len(knots) - 1):
+            x0, y0 = knots[i]
+            x1, y1 = knots[i + 1]
+            if x <= x1:
+                if x1 == x0:
+                    return y0
+                return y0 + (x - x0) / (x1 - x0) * (y1 - y0)
+        return x
 
     def proc_body(cbody):
         pts = re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"([^/]*)/>', cbody)
+        sx = [M(float(x)) for x, y, e in pts]
+        sy = [float(y) for x, y, e in pts]
+        n = len(pts)
         out = cbody
-        for x, y, e in pts:
-            yv = float(y)
-            ny = ybase + (yv - ybase) * k if yv > ybase else yv
-            out = out.replace(f'<point x="{x}" y="{y}"{e}/>',
-                              f'<point x="{x}" y="{ny:.0f}"{e}/>', 1)
+        for i in range(n):
+            x0, y0 = sx[(i - 1) % n], sy[(i - 1) % n]
+            x1, y1 = sx[(i + 1) % n], sy[(i + 1) % n]
+            tx, ty = x1 - x0, y1 - y0
+            L = math.hypot(tx, ty) or 1.0
+            nx = sx[i] + delta * (ty / L)  # inset -> restore monolinear stroke
+            out = out.replace(f'<point x="{pts[i][0]}" y="{pts[i][1]}"{pts[i][2]}/>',
+                              f'<point x="{nx:.0f}" y="{pts[i][1]}"{pts[i][2]}/>', 1)
         return out
 
     def proc_dot(cbody):
         pts = re.findall(r'<point x="(-?[0-9.]+)" y="(-?[0-9.]+)"([^/]*)/>', cbody)
+        xs = [float(x) for x, y, e in pts]
+        cx = (min(xs) + max(xs)) / 2
+        dx = M(cx) - cx
         out = cbody
         for x, y, e in pts:
             out = out.replace(f'<point x="{x}" y="{y}"{e}/>',
-                              f'<point x="{x}" y="{float(y) + ddy:.0f}"{e}/>', 1)
+                              f'<point x="{float(x) + dx:.0f}" y="{y}"{e}/>', 1)
         return out
 
     idx = -1
@@ -199,7 +249,6 @@ def main():
     ap.add_argument("--ufo", default="sources/CourierBadi-Regular.ufo")
     ap.add_argument("--scale", type=float, default=1.5)
     ap.add_argument("--delta", type=float, default=29.0)
-    ap.add_argument("--lower", type=float, default=0.85, help="y-scale for init/medial teeth")
     ap.add_argument("--apply", action="store_true")
     args = ap.parse_args()
     gdir, contents, cp2name = load(args.ufo)
@@ -208,13 +257,17 @@ def main():
         if args.apply:
             p = os.path.join(gdir, contents[name])
             src = open(p).read()
-            out = widen_glyph(src, args.scale, args.delta) if op == "widen" \
-                else lower_glyph(src, args.lower)
+            if op == "widen":
+                out = widen_glyph(src, args.scale, args.delta)
+            elif op == "init":
+                out = widen_inbox(src, args.scale, args.delta, hold_both=False)
+            else:  # medi
+                out = widen_inbox(src, args.scale, args.delta, hold_both=True)
             with open(p, "w") as fh:
                 fh.write(out)
         print(f"  {op:5} {name}")
     print(f"{'Applied' if args.apply else 'Planned'}: {len(items)} glyphs "
-          f"(widen isolated/final, lower initial/medial)")
+          f"(teeth widened consistently across all forms, kept in-box)")
 
 
 if __name__ == "__main__":
