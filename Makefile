@@ -67,6 +67,11 @@ masters:
 	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Italic.ufo     --out sources/CourierBadi-ItalicContrast.ufo
 	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Bold.ufo       --out sources/CourierBadi-BoldContrast.ufo
 	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-BoldItalic.ufo --out sources/CourierBadi-BoldItalicContrast.ufo
+	# Hebrew dots drawn where they read without GPOS (shin/sin dot on their
+	# arm, holam male beside the vav's head, dagesh beside the vav), each
+	# master on its own ink. The GPOS places them as before, except the holam
+	# male, which moves off the stem with its default.
+	. venv/bin/activate; python3 scripts/place-default-marks.py sources/CourierBadi-*.ufo
 	# Mark anchors reproducing HarfBuzz's fallback mark positioning (needed
 	# since the font has a GPOS; see design-notes), measured on each master's
 	# own ink.

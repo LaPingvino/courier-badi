@@ -249,8 +249,12 @@ everywhere else, only the Regular is touched; the other masters are derived.
 
 Mark placement follows the donor (Liberation Mono): vowels under final kaf
 and final nun sit beside the descender rather than inside the letter, holam
-sits at the upper left (on vav: holam male, over the stem), the shuruq dot
-left of vav.
+sits at the upper left, the shuruq dot left of vav. One exception: the holam
+male sits above-left of the vav's head, its ink ending at the stem's line (the
+donor puts it straight over the stem, where it reads as part of the vav; the
+Culmus fonts, DejaVu Sans and Noto Serif Hebrew all put it to the left), and
+U+05BA (holam haser for vav, consonantal vav + holam) 60 units further left,
+so the two stay distinct.
 
 **Meteg and below accents beside a vowel.** After a below vowel on the same
 letter, meteg or a below cantillation mark goes beside the vowel at its level
@@ -268,10 +272,34 @@ sequences, the donor scaled to these metrics), the level matches (within 19
 units) and the separation is narrower than the donor's fixed one: by 46–251
 units (median 151), since here it follows the vowel's width.
 
-Without GPOS (or with a shaper's fallback), the
-marks still overlay the preceding letter: right-to-left, a zero-width mark is
-drawn from the letter's own origin, and the marks are drawn centred on the
-cell.
+**Without GPOS** (Lexington's PDF writer, other renderers that do no
+shaping) the marks still overlay their letter: right-to-left, a zero-width
+mark is drawn from the letter's own origin, at its default outline position.
+The donor drew every point centred on the cell, which made the shin and sin
+dots look alike, put the holam male on the vav's stem and hid the shuruq's dot
+in the vav. `scripts/place-default-marks.py` (run by `make masters` on every
+master, measured on that master's own ink) moves those marks' outlines and
+their own anchors together, so the GPOS still places them as before:
+
+- shin dot U+05C1 over shin's right arm, sin dot U+05C2 over its left arm
+  (their GPOS place on shin; the Culmus fonts and DejaVu Sans draw them so);
+- holam U+05B9 at the holam male's place, above-left of the vav's head; on
+  other letters this is left of the centre, nearer a holam haser's top-left
+  than the old centred dot; U+05BA at its own place on vav;
+- dagesh U+05BC left of the vav's stem, 30 units clear, its centre at 0.35
+  of the vav's height. One dagesh glyph serves every letter, so this is a
+  compromise: the centred dot vanished into vav, zayin, yod and final nun;
+  the new one shows in all of them, and that height keeps it out of pe's
+  tongue and mem's diagonal. But tav's left leg is closer to the vav's stem
+  than a dot is wide, so without GPOS a dagesh in tav overlaps the leg (in
+  Bold it nearly merges), and in gimel it sits on the foot. Renderers with
+  GPOS are not affected.
+
+The presentation forms (U+FB2A shin with shin dot, U+FB2B with sin dot, U+FB35
+vav with dagesh, U+FB4B vav with holam, …) are placed again from the anchors
+afterwards, so a renderer that uses them gets the GPOS placement.
+`scripts/check-mark-parity.py --hebrew-against OLD/ fonts/ttf/*.ttf` compares
+a build's Hebrew GPOS placement with an earlier build's.
 
 U+05EF (yod triangle), which the donor does not have, is built by
 `fit-hebrew.py` from the fitted yod: three yods scaled 0.9 (one on top, two

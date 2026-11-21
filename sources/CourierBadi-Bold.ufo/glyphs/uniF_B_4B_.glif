@@ -3,7 +3,7 @@
   <advance width="1228"/>
   <unicode hex="FB4B"/>
   <anchor x="614" y="-34.0" name="bottom"/>
-  <anchor x="501.0" y="-34.0" name="bottomright"/>
+  <anchor x="535" y="-34.0" name="bottomright"/>
   <anchor x="342.0" y="550" name="center"/>
   <anchor x="614" y="1270" name="holam"/>
   <anchor x="614" y="-34.0" name="lowerdot"/>
@@ -13,8 +13,8 @@
   <anchor x="614" y="1544.0" name="upperdot"/>
   <anchor x="614" y="-34.0" name="bottomacc"/>
   <anchor x="785.0" y="-34.0" name="*bottom.next" identifier="side-uniFB4B-next"/>
-  <anchor x="442.0" y="-34.0" name="*bottomacc.v0" identifier="side-uniFB4B-v0"/>
-  <anchor x="375.0" y="-34.0" name="*bottomacc.v1" identifier="side-uniFB4B-v1"/>
+  <anchor x="476" y="-34.0" name="*bottomacc.v0" identifier="side-uniFB4B-v0"/>
+  <anchor x="409" y="-34.0" name="*bottomacc.v1" identifier="side-uniFB4B-v1"/>
   <anchor x="332.0" y="-34.0" name="*bottomacc.v2" identifier="side-uniFB4B-v2"/>
   <anchor x="294.0" y="-34.0" name="*bottomacc.v3" identifier="side-uniFB4B-v3"/>
   <anchor x="269.0" y="-34.0" name="*bottomacc.v4" identifier="side-uniFB4B-v4"/>
@@ -31,7 +31,7 @@
   <anchor x="614" y="-158" name="belowLGC3"/>
   <outline>
     <component base="uni05D5"/>
-    <component base="uni05B9" yOffset="73.0"/>
+    <component base="uni05B9"/>
   </outline>
   <lib>
     <dict>
