@@ -2,10 +2,16 @@
 <glyph name="theta" format="2">
   <advance width="1228"/>
   <unicode hex="03B8"/>
-  <anchor x="614" y="1447" name="above"/>
-  <anchor x="1228" y="1319" name="attachedAboveRight"/>
-  <anchor x="614" y="-14" name="attachedBelow"/>
-  <anchor x="614" y="-142" name="below"/>
+  <anchor x="614" y="1447" name="aboveLGC0"/>
+  <anchor x="614" y="1447" name="aboveLGC1"/>
+  <anchor x="614" y="1447" name="aboveLGC2"/>
+  <anchor x="614" y="1447" name="aboveLGC3"/>
+  <anchor x="1228" y="1319" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-14" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-194" name="belowLGC0"/>
+  <anchor x="614" y="-146" name="belowLGC1"/>
+  <anchor x="614" y="-142" name="belowLGC2"/>
+  <anchor x="614" y="-142" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="209.49417236404457" y="655.0" type="curve" smooth="yes"/>

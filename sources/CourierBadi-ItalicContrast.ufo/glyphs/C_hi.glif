@@ -2,10 +2,16 @@
 <glyph name="Chi" format="2">
   <advance width="1228"/>
   <unicode hex="03A7"/>
-  <anchor x="614" y="1319" name="above"/>
-  <anchor x="1228" y="1191" name="attachedAboveRight"/>
-  <anchor x="614" y="-5" name="attachedBelow"/>
-  <anchor x="614" y="-133" name="below"/>
+  <anchor x="614" y="1319" name="aboveLGC0"/>
+  <anchor x="614" y="1319" name="aboveLGC1"/>
+  <anchor x="614" y="1319" name="aboveLGC2"/>
+  <anchor x="614" y="1319" name="aboveLGC3"/>
+  <anchor x="1228" y="1191" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-5" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-208" name="belowLGC0"/>
+  <anchor x="614" y="-159" name="belowLGC1"/>
+  <anchor x="614" y="-133" name="belowLGC2"/>
+  <anchor x="614" y="-133" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="1104.7380384128935" y="1163.0009910835174" type="curve" smooth="yes"/>

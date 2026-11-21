@@ -2,10 +2,16 @@
 <glyph name="circumflex" format="2">
   <advance width="1228"/>
   <unicode hex="02C6"/>
-  <anchor x="614" y="1510" name="above"/>
-  <anchor x="1228" y="1382" name="attachedAboveRight"/>
-  <anchor x="614" y="1051" name="attachedBelow"/>
-  <anchor x="614" y="923" name="below"/>
+  <anchor x="614" y="1510" name="aboveLGC0"/>
+  <anchor x="614" y="1510" name="aboveLGC1"/>
+  <anchor x="614" y="1510" name="aboveLGC2"/>
+  <anchor x="614" y="1510" name="aboveLGC3"/>
+  <anchor x="1228" y="1382" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="24" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-208" name="belowLGC0"/>
+  <anchor x="614" y="-159" name="belowLGC1"/>
+  <anchor x="614" y="-84" name="belowLGC2"/>
+  <anchor x="614" y="238" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="782.2176982320161" y="1365.1400159396217" type="curve" smooth="yes"/>

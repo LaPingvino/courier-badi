@@ -1,8 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="dotbelowcomb" format="2">
   <unicode hex="0323"/>
-  <anchor x="614" y="247" name="_below"/>
-  <anchor x="614" y="-85" name="below"/>
+  <anchor x="614" y="247" name="_belowLGC3"/>
+  <anchor x="614" y="-194" name="belowLGC0"/>
+  <anchor x="614" y="-146" name="belowLGC1"/>
+  <anchor x="614" y="-85" name="belowLGC2"/>
+  <anchor x="614" y="-85" name="belowLGC3"/>
   <outline>
     <component base="period" xScale="0.66" yScale="0.66" xOffset="208.76" yOffset="49.3"/>
   </outline>

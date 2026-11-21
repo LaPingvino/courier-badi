@@ -2,10 +2,16 @@
 <glyph name="emdash" format="2">
   <advance width="1228"/>
   <unicode hex="2014"/>
-  <anchor x="614" y="782" name="above"/>
-  <anchor x="1228" y="654" name="attachedAboveRight"/>
-  <anchor x="614" y="510" name="attachedBelow"/>
-  <anchor x="614" y="382" name="below"/>
+  <anchor x="614" y="842" name="aboveLGC0"/>
+  <anchor x="614" y="889" name="aboveLGC1"/>
+  <anchor x="614" y="915" name="aboveLGC2"/>
+  <anchor x="614" y="942" name="aboveLGC3"/>
+  <anchor x="1228" y="664" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="28" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-194" name="belowLGC0"/>
+  <anchor x="614" y="-146" name="belowLGC1"/>
+  <anchor x="614" y="-72" name="belowLGC2"/>
+  <anchor x="614" y="247" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="148.31784538333608" y="654.0" type="line" smooth="yes"/>

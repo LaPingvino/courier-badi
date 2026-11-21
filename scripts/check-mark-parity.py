@@ -111,7 +111,8 @@ def main():
                 # a below mark moved up / an above mark not moved down
                 by = {}
                 for d, t, info in big:
-                    k = "U+%04X" % ord(t[-1] if script != "Arab" or len(t) == 2 else t[-2])
+                    ms = [c for c in t if is_mark(ord(c))]
+                    k = "+".join("U+%04X" % ord(c) for c in ms)  # stacks show both marks
                     up = isinstance(info, list) and all(dy > 0 for dx, dy in info)
                     n, w, u = by.get(k, (0, 0, 0))
                     by[k] = (n + 1, max(w, d), u + up)

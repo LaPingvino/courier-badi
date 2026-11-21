@@ -3,10 +3,16 @@
   <advance width="1228"/>
   <unicode hex="03DA"/>
   <unicode hex="03DB"/>
-  <anchor x="614" y="1051" name="above"/>
-  <anchor x="1228" y="923" name="attachedAboveRight"/>
-  <anchor x="614" y="-57" name="attachedBelow"/>
-  <anchor x="614" y="-185" name="below"/>
+  <anchor x="614" y="1051" name="aboveLGC0"/>
+  <anchor x="614" y="1051" name="aboveLGC1"/>
+  <anchor x="614" y="1051" name="aboveLGC2"/>
+  <anchor x="614" y="1067" name="aboveLGC3"/>
+  <anchor x="1228" y="923" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-57" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-185" name="belowLGC0"/>
+  <anchor x="614" y="-185" name="belowLGC1"/>
+  <anchor x="614" y="-185" name="belowLGC2"/>
+  <anchor x="614" y="-185" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="30.00367529062744" y="620.7646106255078" type="curve" smooth="yes"/>

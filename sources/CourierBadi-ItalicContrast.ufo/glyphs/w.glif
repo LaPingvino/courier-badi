@@ -2,10 +2,16 @@
 <glyph name="w" format="2">
   <advance width="1228"/>
   <unicode hex="0077"/>
-  <anchor x="614" y="1050" name="above"/>
-  <anchor x="1228" y="922" name="attachedAboveRight"/>
-  <anchor x="614" y="-8" name="attachedBelow"/>
-  <anchor x="614" y="-136" name="below"/>
+  <anchor x="614" y="1050" name="aboveLGC0"/>
+  <anchor x="614" y="1050" name="aboveLGC1"/>
+  <anchor x="614" y="1055" name="aboveLGC2"/>
+  <anchor x="614" y="1083" name="aboveLGC3"/>
+  <anchor x="1228" y="922" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-8" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-208" name="belowLGC0"/>
+  <anchor x="614" y="-159" name="belowLGC1"/>
+  <anchor x="614" y="-136" name="belowLGC2"/>
+  <anchor x="614" y="-136" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="1154.6607958180812" y="877.6620518167806" type="curve" smooth="yes"/>

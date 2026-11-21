@@ -9,8 +9,8 @@ Badi's metrics and stroke is a separate step (scripts/fit-hebrew.py), so the
 two can be checked independently.
 
 Donor: Cousine Regular (SIL OFL 1.1; Copyright 2026 The Cousine Project
-Authors, https://github.com/googlefonts/cousine; Hebrew outlines identical to
-Liberation Mono 2.1.5, designed by Steve Matteson / Monotype). Fetch it from
+Authors, https://github.com/googlefonts/cousine; designer Steve Matteson per
+its name table; the Hebrew outlines measure identical to Liberation Mono 2.1.5). Fetch it from
 google/fonts:
   https://raw.githubusercontent.com/google/fonts/main/ofl/cousine/Cousine-Regular.ttf
 

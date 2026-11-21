@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name=".notdef" format="2">
   <advance width="1228"/>
-  <anchor x="614" y="1477" name="above"/>
-  <anchor x="1228" y="1349" name="attachedAboveRight"/>
-  <anchor x="614" y="-18" name="attachedBelow"/>
-  <anchor x="614" y="-146" name="below"/>
+  <anchor x="614" y="1477" name="aboveLGC0"/>
+  <anchor x="614" y="1477" name="aboveLGC1"/>
+  <anchor x="614" y="1477" name="aboveLGC2"/>
+  <anchor x="614" y="1477" name="aboveLGC3"/>
+  <anchor x="1228" y="1349" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-18" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-160" name="belowLGC0"/>
+  <anchor x="614" y="-146" name="belowLGC1"/>
+  <anchor x="614" y="-146" name="belowLGC2"/>
+  <anchor x="614" y="-146" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="155.4425323441343" y="-18.451857388463193" type="line"/>

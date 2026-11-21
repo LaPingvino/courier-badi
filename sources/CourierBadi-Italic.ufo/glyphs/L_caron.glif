@@ -2,10 +2,16 @@
 <glyph name="Lcaron" format="2">
   <advance width="1228"/>
   <unicode hex="013D"/>
-  <anchor x="614" y="1325" name="above"/>
-  <anchor x="1228" y="1197" name="attachedAboveRight"/>
-  <anchor x="614" y="0" name="attachedBelow"/>
-  <anchor x="614" y="-128" name="below"/>
+  <anchor x="614" y="1325" name="aboveLGC0"/>
+  <anchor x="614" y="1325" name="aboveLGC1"/>
+  <anchor x="614" y="1325" name="aboveLGC2"/>
+  <anchor x="614" y="1325" name="aboveLGC3"/>
+  <anchor x="1228" y="1197" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="0" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-194" name="belowLGC0"/>
+  <anchor x="614" y="-146" name="belowLGC1"/>
+  <anchor x="614" y="-128" name="belowLGC2"/>
+  <anchor x="614" y="-128" name="belowLGC3"/>
   <outline>
     <component base="L"/>
     <component base="caron.alt" xOffset="437.9591274114419" yOffset="-125"/>

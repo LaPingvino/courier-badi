@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="hyphen.alt" format="2">
   <advance width="1228"/>
-  <anchor x="614" y="788" name="above"/>
-  <anchor x="1228" y="660" name="attachedAboveRight"/>
-  <anchor x="614" y="504" name="attachedBelow"/>
-  <anchor x="614" y="376" name="below"/>
+  <anchor x="614" y="846" name="aboveLGC0"/>
+  <anchor x="614" y="892" name="aboveLGC1"/>
+  <anchor x="614" y="918" name="aboveLGC2"/>
+  <anchor x="614" y="945" name="aboveLGC3"/>
+  <anchor x="1228" y="668" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="28" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-194" name="belowLGC0"/>
+  <anchor x="614" y="-146" name="belowLGC1"/>
+  <anchor x="614" y="-72" name="belowLGC2"/>
+  <anchor x="614" y="247" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="449.3758072675869" y="660.0" type="line" smooth="yes"/>

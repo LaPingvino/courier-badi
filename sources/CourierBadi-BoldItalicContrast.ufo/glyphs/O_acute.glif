@@ -2,10 +2,16 @@
 <glyph name="Oacute" format="2">
   <advance width="1228"/>
   <unicode hex="00D3"/>
-  <anchor x="614" y="1830" name="above"/>
-  <anchor x="1228" y="1702" name="attachedAboveRight"/>
-  <anchor x="614" y="-42" name="attachedBelow"/>
-  <anchor x="614" y="-170" name="below"/>
+  <anchor x="614" y="1830" name="aboveLGC0"/>
+  <anchor x="614" y="1830" name="aboveLGC1"/>
+  <anchor x="614" y="1830" name="aboveLGC2"/>
+  <anchor x="614" y="1830" name="aboveLGC3"/>
+  <anchor x="1228" y="1702" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-42" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-174" name="belowLGC0"/>
+  <anchor x="614" y="-170" name="belowLGC1"/>
+  <anchor x="614" y="-170" name="belowLGC2"/>
+  <anchor x="614" y="-170" name="belowLGC3"/>
   <outline>
     <component base="O"/>
     <component base="acute" xOffset="25.60828479128554" yOffset="270"/>

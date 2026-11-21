@@ -2,10 +2,16 @@
 <glyph name="germandbls" format="2">
   <advance width="1228"/>
   <unicode hex="00DF"/>
-  <anchor x="614" y="1445" name="above"/>
-  <anchor x="1228" y="1317" name="attachedAboveRight"/>
-  <anchor x="614" y="-22" name="attachedBelow"/>
-  <anchor x="614" y="-150" name="below"/>
+  <anchor x="614" y="1445" name="aboveLGC0"/>
+  <anchor x="614" y="1445" name="aboveLGC1"/>
+  <anchor x="614" y="1445" name="aboveLGC2"/>
+  <anchor x="614" y="1445" name="aboveLGC3"/>
+  <anchor x="1228" y="1317" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-22" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-194" name="belowLGC0"/>
+  <anchor x="614" y="-150" name="belowLGC1"/>
+  <anchor x="614" y="-150" name="belowLGC2"/>
+  <anchor x="614" y="-150" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="401.27634280808246" y="943.0" type="curve" smooth="yes"/>

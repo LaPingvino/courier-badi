@@ -2,10 +2,16 @@
 <glyph name="uni1F9B" format="2">
   <advance width="1228"/>
   <unicode hex="1F9B"/>
-  <anchor x="614" y="1399" name="above"/>
-  <anchor x="1228" y="1271" name="attachedAboveRight"/>
-  <anchor x="614" y="-20" name="attachedBelow"/>
-  <anchor x="614" y="-148" name="below"/>
+  <anchor x="614" y="1399" name="aboveLGC0"/>
+  <anchor x="614" y="1399" name="aboveLGC1"/>
+  <anchor x="614" y="1399" name="aboveLGC2"/>
+  <anchor x="614" y="1399" name="aboveLGC3"/>
+  <anchor x="1228" y="1271" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-20" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-174" name="belowLGC0"/>
+  <anchor x="614" y="-148" name="belowLGC1"/>
+  <anchor x="614" y="-148" name="belowLGC2"/>
+  <anchor x="614" y="-148" name="belowLGC3"/>
   <outline>
     <component base="uni1FBE" xOffset="839.1362077715266" yOffset="272.994"/>
     <component base="uni1F2B"/>

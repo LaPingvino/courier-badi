@@ -11,10 +11,16 @@
   <anchor x="458.41604986944947" y="1199" name="topleft"/>
   <anchor x="1202.4160498694496" y="1199" name="topright"/>
   <anchor x="907.2537408697822" y="1510" name="upperdot"/>
-  <anchor x="614" y="1209" name="above"/>
-  <anchor x="1228" y="1081" name="attachedAboveRight"/>
-  <anchor x="614" y="-15" name="attachedBelow"/>
-  <anchor x="614" y="-143" name="below"/>
+  <anchor x="614" y="1209" name="aboveLGC0"/>
+  <anchor x="614" y="1209" name="aboveLGC1"/>
+  <anchor x="614" y="1209" name="aboveLGC2"/>
+  <anchor x="614" y="1209" name="aboveLGC3"/>
+  <anchor x="1228" y="1081" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-15" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-208" name="belowLGC0"/>
+  <anchor x="614" y="-159" name="belowLGC1"/>
+  <anchor x="614" y="-143" name="belowLGC2"/>
+  <anchor x="614" y="-143" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="144.59304699414764" y="129.4505700074781" type="curve"/>

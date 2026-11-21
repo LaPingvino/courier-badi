@@ -36,6 +36,9 @@ arabic-features-check:
 
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
+	# gftools only rebuilds the static instances when the designspace changes,
+	# not when a master's glyphs do; drop them so every build is current.
+	rm -f sources/instance_ufos/*.json
 	(for config in sources/config*.yaml; do . venv/bin/activate; gftools builder $$config; done)
 	# Post-build: add a 'meta' table (dlng/slng ScriptLangTags) and a STAT table
 	# (italic axis for the Regular+Italic family), then refresh the webfonts.

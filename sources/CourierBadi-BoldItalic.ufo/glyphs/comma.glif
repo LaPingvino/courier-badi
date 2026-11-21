@@ -2,10 +2,16 @@
 <glyph name="comma" format="2">
   <advance width="1228"/>
   <unicode hex="002C"/>
-  <anchor x="614" y="456" name="above"/>
-  <anchor x="1228" y="328" name="attachedAboveRight"/>
-  <anchor x="614" y="-328" name="attachedBelow"/>
-  <anchor x="614" y="-456" name="below"/>
+  <anchor x="614" y="662" name="aboveLGC0"/>
+  <anchor x="614" y="710" name="aboveLGC1"/>
+  <anchor x="614" y="736" name="aboveLGC2"/>
+  <anchor x="614" y="763" name="aboveLGC3"/>
+  <anchor x="1228" y="493" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-328" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-456" name="belowLGC0"/>
+  <anchor x="614" y="-456" name="belowLGC1"/>
+  <anchor x="614" y="-456" name="belowLGC2"/>
+  <anchor x="614" y="-456" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="571.8401323282887" y="328.0" type="line" smooth="yes"/>

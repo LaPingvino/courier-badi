@@ -1,10 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ellipsis.alt1" format="2">
   <advance width="1228"/>
-  <anchor x="614" y="464" name="above"/>
-  <anchor x="1228" y="336" name="attachedAboveRight"/>
-  <anchor x="614" y="-42" name="attachedBelow"/>
-  <anchor x="614" y="-170" name="below"/>
+  <anchor x="614" y="673" name="aboveLGC0"/>
+  <anchor x="614" y="720" name="aboveLGC1"/>
+  <anchor x="614" y="746" name="aboveLGC2"/>
+  <anchor x="614" y="774" name="aboveLGC3"/>
+  <anchor x="1228" y="500" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-42" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-174" name="belowLGC0"/>
+  <anchor x="614" y="-170" name="belowLGC1"/>
+  <anchor x="614" y="-170" name="belowLGC2"/>
+  <anchor x="614" y="-170" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="-289.98053187874916" y="-42.00010634087993" type="curve" smooth="yes"/>

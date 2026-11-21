@@ -39,18 +39,28 @@ anchors. Because HarfBuzz then switches its fallback off for **every** script,
 the other scripts' marks carry anchors too:
 
 - `scripts/make-mark-anchors.py` writes HarfBuzz's fallback rule down as
-  anchors (`above`, `below`, `attachedBelow`, `attachedAboveRight`): the mark's
-  ink centred on the cell, its ink bottom `UPM/16` = 128 above the base's ink
-  top (below: 128 under the ink bottom; attached classes: no gap), stacked
-  marks another 128 out. Classes come from the Unicode combining classes, with
-  HarfBuzz's Arabic re-categorisation. It runs on every master in
-  `make masters`, because the anchors follow each master's own ink.
+  anchors: the mark's ink centred on the cell, its ink bottom `UPM/16` = 128
+  above the base's ink top (below: 128 under the ink bottom; attached classes:
+  no gap), stacked marks another 128 out. The fallback also clamps (an above
+  mark that would move down moves only half way; a below mark is never moved
+  up), which depends on where the mark is drawn; so the marks of each class
+  are grouped by their drawn edge (within 40 units; 42 groups, most of them
+  Arabic, whose marks are drawn at many heights), each group has its own
+  anchor name (`aboveArab3`, `belowLGC1`, …), and each base's anchor for a
+  group has the clamp folded in. Classes come from the Unicode combining
+  classes, with HarfBuzz's Arabic re-categorisation. It runs on every master
+  in `make masters` (anchors follow each master's ink; the groups are made on
+  the Regular so all masters share the anchor names).
 - `scripts/check-mark-parity.py fonts/ttf/*.ttf` shapes every base × mark pair
   (and two-mark stacks) of Latin, Greek, Cyrillic and Arabic with the GPOS and
-  with the GPOS stripped (= the old fallback) and reports the differences. The
-  fallback's two clamps (a below mark is never moved up; an above mark is moved
-  down only halfway) cannot be expressed by anchors, so a few pairs differ
-  where a mark is drawn far from where it attaches.
+  with the GPOS stripped (= the old fallback) and reports the differences. At
+  the time of writing: Arabic within 19 units everywhere (isolated and medial
+  forms); Latin/Greek/Cyrillic single marks within ~46 units (the grouping
+  tolerance, on clamped pairs); two-mark stacks up to ~110 units (the second
+  mark of dot-below + macron-below, circumflex + acute), because mark-to-mark
+  anchors stack on the first mark's ink, which is not quite the fallback's
+  bookkeeping. A mark on a base of the other script family (an Arabic mark on
+  a Latin letter) is not positioned.
 - Hebrew uses its own anchor classes (`top`, `bottom`, `center`, `shindot`,
   `sindot`, `holam`, …), taken from the donor; see "Hebrew" below.
 - The GDEF glyph classes are generated with the Arabic features
@@ -199,7 +209,8 @@ The Hebrew block (letters U+05D0–05EA, Yiddish ligatures U+05F0–05F2,
 punctuation, all points and cantillation marks U+0591–05C7, and the
 presentation forms U+FB1D–FB4F) is adapted from **Cousine** (SIL OFL 1.1;
 Copyright 2026 The Cousine Project Authors, https://github.com/googlefonts/cousine;
-its Hebrew outlines are those of Liberation Mono, designed by Steve Matteson).
+designer Steve Matteson per its name table; its Hebrew outlines measure
+identical to Liberation Mono 2.1.5's).
 It is a monoline monospace already, so it needs fitting, not redrawing. As
 everywhere else, only the Regular is touched; the other masters are derived.
 

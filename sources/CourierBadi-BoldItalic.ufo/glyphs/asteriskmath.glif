@@ -2,10 +2,16 @@
 <glyph name="asteriskmath" format="2">
   <advance width="1228"/>
   <unicode hex="2217"/>
-  <anchor x="614" y="1231" name="above"/>
-  <anchor x="1228" y="1103" name="attachedAboveRight"/>
-  <anchor x="614" y="154" name="attachedBelow"/>
-  <anchor x="614" y="26" name="below"/>
+  <anchor x="614" y="1231" name="aboveLGC0"/>
+  <anchor x="614" y="1231" name="aboveLGC1"/>
+  <anchor x="614" y="1231" name="aboveLGC2"/>
+  <anchor x="614" y="1231" name="aboveLGC3"/>
+  <anchor x="1228" y="1103" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="55" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-160" name="belowLGC0"/>
+  <anchor x="614" y="-112" name="belowLGC1"/>
+  <anchor x="614" y="-39" name="belowLGC2"/>
+  <anchor x="614" y="26" name="belowLGC3"/>
   <outline>
     <contour>
       <point x="1043.7726430369735" y="438.09596195932437" type="curve" smooth="yes"/>
