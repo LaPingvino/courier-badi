@@ -41,11 +41,10 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
   such as Lexington's, other simple renderers) draw a mark where its outline
   is drawn; the points are now drawn where they read: the **shin dot** over
   shin's right arm and the **sin dot** over its left arm (they looked alike
-  in the middle), the **holam** above-left of the vav's head (it sat on the
-  stem) and the **dagesh** left of the vav's stem, so a shuruq shows (it hid
-  in the vav; also visible now in zayin, yod and final nun). One dagesh
-  serves every letter, so without GPOS a dagesh in tav overlaps its left leg
-  and one in gimel sits on its foot.
+  in the middle) and the **holam** above-left of the vav's head (it sat on
+  the stem). The dagesh stays centred: in vav (shuruq), zayin, yod and final
+  nun such a renderer should use the presentation forms (U+FB35 and the
+  rest), as Lexington's PDF writer now does.
 - **Holam male** is placed above-left of the vav's head with GPOS as well,
   clear of the stem, and U+05BA (holam haser for vav) further left, so the
   two read apart. Every other mark is placed by the GPOS exactly as in 1.100,

@@ -4,8 +4,8 @@
 A renderer that applies no GPOS (Lexington's PDF writer, other simple ones)
 draws a zero-width mark at its default outline position over the letter's
 cell. The donor drew every point centred on the cell, so there the shin dot
-and the sin dot looked alike, a holam male sat on the vav's stem and a
-shuruk's dot hid inside the vav. This step moves those marks' default outlines
+and the sin dot looked alike and a holam male sat on the vav's stem. This
+step moves those marks' default outlines
 (translating each glyph whole: outline and its own anchors together, so every
 GPOS position stays exactly as it was) to where they read on their letter:
 
@@ -20,14 +20,11 @@ GPOS position stays exactly as it was) to where they read on their letter:
   - holam haser for vav U+05BA (consonantal vav + holam, as in mitsvot):
     HASER_STEP further left than the holam male on the vav, in the GPOS and
     without, so the two stay distinct;
-  - dagesh U+05BC: one glyph for every letter, so its default can only be a
-    compromise. It goes left of the vav's stem, SHURUK_GAP clear of it: the
-    shuruk is the commonest dagesh, and the centred dot disappeared into vav,
-    zayin, yod and final nun. Its height (SHURUK_HEIGHT, a little below the
-    middle) keeps it out of pe's tongue and mem's diagonal. The price,
-    without GPOS only: tav's left leg is closer to the vav's stem than a dot
-    is wide, so on tav the dot overlaps the leg (in Bold it nearly merges),
-    and on gimel it sits on the foot.
+  - the dagesh U+05BC stays centred: one glyph serves every letter, and
+    centred is right for most of them. In vav (shuruk), zayin, yod and final
+    nun it hides in the stem; a renderer without GPOS should use the
+    presentation forms there (U+FB35 is vav with dagesh, drawn as a shuruk),
+    as Lexington's PDF writer does.
 
 The precomposed forms (U+FB1D-FB4F) are composites placed from the anchors;
 they are placed again afterwards, so they match the GPOS.
@@ -47,12 +44,10 @@ from fontTools.pens.boundsPen import BoundsPen
 
 HEBREW_KEY = "org.courierbadi.hebrew"
 VAV, SHIN = "uni05D5", "uni05E9"
-SHINDOT, SINDOT, HOLAM, HOLAM_HASER, DAGESH = (
-    "uni05C1", "uni05C2", "uni05B9", "uni05BA", "uni05BC")
+SHINDOT, SINDOT, HOLAM, HOLAM_HASER = (
+    "uni05C1", "uni05C2", "uni05B9", "uni05BA")
 HOLAM_GAP = 0      # holam male: ink ends this far left of the stem's line
 HASER_STEP = 60    # holam haser for vav: this much ink gap left of holam male
-SHURUK_GAP = 30    # default dagesh: ink gap to the vav's stem
-SHURUK_HEIGHT = 0.35  # default dagesh: its centre, as a share of vav's height
 
 
 def bounds(font, g):
@@ -104,7 +99,7 @@ def snap(g, name, target):
     """Translate mark g so its own anchor `name` sits on `target` (x, y)."""
     a = own_anchor(g)
     assert a.name == name, (g.name, a.name)
-    translate(g, round(target[0] - a.x), round(target[1] - a.y))
+    translate(g, target[0] - a.x, target[1] - a.y)   # exact: anchor on anchor
 
 
 def place_composites(font):
@@ -117,6 +112,11 @@ def place_composites(font):
             if ma and ma[0].name[1:] in base:
                 b = base[ma[0].name[1:]]
                 c.transformation = (1, 0, 0, 1, b.x - ma[0].x, b.y - ma[0].y)
+        # the form carries its letter's anchors (fit-hebrew.py); keep the
+        # one this step moves (vav's holam) in step
+        for a in g.anchors:
+            if a.name == "holam" and "holam" in base:
+                a.x, a.y = base["holam"].x, base["holam"].y
 
 
 def run(path):
@@ -150,19 +150,10 @@ def run(path):
     translate(has, round(cx_h - (sb[0] + sb[2]) / 2), round(cy_h - (sb[1] + sb[3]) / 2))
     sa.x, sa.y = va.x, va.y                             # lands where drawn
 
-    # dagesh: left of the vav's stem at the shuruk's height
-    dag = font[DAGESH]
-    db = bounds(font, dag)
-    da = own_anchor(dag)
-    vb = bounds(font, vav)
-    cy = vb[1] + SHURUK_HEIGHT * (vb[3] - vb[1])
-    right = stem_left(font, vav, cy, slant) - SHURUK_GAP
-    translate(dag, round(right - db[2]), round(cy - (db[1] + db[3]) / 2))
-
     place_composites(font)
     font.save()
     out = {n: [round(v) for v in bounds(font, font[n])]
-           for n in (SHINDOT, SINDOT, HOLAM, HOLAM_HASER, DAGESH)}
+           for n in (SHINDOT, SINDOT, HOLAM, HOLAM_HASER)}
     print(f"{path}: vav holam anchor ({va.x}, {va.y}); default ink {out}")
 
 

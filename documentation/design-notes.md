@@ -276,8 +276,8 @@ units (median 151), since here it follows the vowel's width.
 shaping) the marks still overlay their letter: right-to-left, a zero-width
 mark is drawn from the letter's own origin, at its default outline position.
 The donor drew every point centred on the cell, which made the shin and sin
-dots look alike, put the holam male on the vav's stem and hid the shuruq's dot
-in the vav. `scripts/place-default-marks.py` (run by `make masters` on every
+dots look alike and put the holam male on the vav's stem.
+`scripts/place-default-marks.py` (run by `make masters` on every
 master, measured on that master's own ink) moves those marks' outlines and
 their own anchors together, so the GPOS still places them as before:
 
@@ -286,14 +286,12 @@ their own anchors together, so the GPOS still places them as before:
 - holam U+05B9 at the holam male's place, above-left of the vav's head; on
   other letters this is left of the centre, nearer a holam haser's top-left
   than the old centred dot; U+05BA at its own place on vav;
-- dagesh U+05BC left of the vav's stem, 30 units clear, its centre at 0.35
-  of the vav's height. One dagesh glyph serves every letter, so this is a
-  compromise: the centred dot vanished into vav, zayin, yod and final nun;
-  the new one shows in all of them, and that height keeps it out of pe's
-  tongue and mem's diagonal. But tav's left leg is closer to the vav's stem
-  than a dot is wide, so without GPOS a dagesh in tav overlaps the leg (in
-  Bold it nearly merges), and in gimel it sits on the foot. Renderers with
-  GPOS are not affected.
+- the dagesh U+05BC stays centred, which is right for most letters; in vav
+  (shuruq), zayin, yod and final nun it hides in the stem. One glyph cannot
+  be placed for all of them (a dot left of vav's stem sits on tav's left
+  leg), so a renderer without GPOS should print the presentation forms
+  there: U+FB35 is vav with dagesh, drawn as a shuruq. Lexington's PDF
+  writer composes a pointed letter into its form when the font has one.
 
 The presentation forms (U+FB2A shin with shin dot, U+FB2B with sin dot, U+FB35
 vav with dagesh, U+FB4B vav with holam, …) are placed again from the anchors
