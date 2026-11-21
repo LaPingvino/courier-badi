@@ -2,15 +2,23 @@
 <glyph name="uniFB27" format="2">
   <advance width="1228"/>
   <unicode hex="FB27"/>
-  <anchor x="880" y="0" name="bottom"/>
-  <anchor x="787" y="0" name="bottomright"/>
+  <anchor x="880" y="-34.0" name="bottom"/>
+  <anchor x="787" y="-34.0" name="bottomright"/>
   <anchor x="475" y="486" name="center"/>
-  <anchor x="43" y="1270" name="holam"/>
-  <anchor x="461" y="0" name="lowerdot"/>
-  <anchor x="461" y="1199" name="top"/>
-  <anchor x="266" y="1199" name="topleft"/>
-  <anchor x="842" y="1199" name="topright"/>
-  <anchor x="461" y="1510" name="upperdot"/>
+  <anchor x="9.0" y="1304.0" name="holam"/>
+  <anchor x="461" y="-34.0" name="lowerdot"/>
+  <anchor x="461" y="1233.0" name="top"/>
+  <anchor x="266" y="1233.0" name="topleft"/>
+  <anchor x="842" y="1233.0" name="topright"/>
+  <anchor x="461" y="1544.0" name="upperdot"/>
+  <anchor x="880" y="-34.0" name="bottomacc"/>
+  <anchor x="1051.0" y="-34.0" name="*bottom.next" identifier="side-uniFB27-next"/>
+  <anchor x="742" y="-34.0" name="*bottomacc.v0" identifier="side-uniFB27-v0"/>
+  <anchor x="675" y="-34.0" name="*bottomacc.v1" identifier="side-uniFB27-v1"/>
+  <anchor x="632" y="-34.0" name="*bottomacc.v2" identifier="side-uniFB27-v2"/>
+  <anchor x="594" y="-34.0" name="*bottomacc.v3" identifier="side-uniFB27-v3"/>
+  <anchor x="569" y="-34.0" name="*bottomacc.v4" identifier="side-uniFB27-v4"/>
+  <anchor x="536" y="-34.0" name="*bottomacc.v5" identifier="side-uniFB27-v5"/>
   <anchor x="614" y="1248" name="aboveLGC0"/>
   <anchor x="614" y="1248" name="aboveLGC1"/>
   <anchor x="614" y="1248" name="aboveLGC2"/>
@@ -28,6 +36,44 @@
     <dict>
       <key>org.courierbadi.hebrew</key>
       <string>fitted</string>
+      <key>public.objectLibs</key>
+      <dict>
+        <key>side-uniFB27-next</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* &amp; [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05BD]</string>
+        </dict>
+        <key>side-uniFB27-v0</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* [uni05B0 uni05B4] &amp;</string>
+        </dict>
+        <key>side-uniFB27-v1</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* [uni05B7 uni05B8] &amp;</string>
+        </dict>
+        <key>side-uniFB27-v2</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* [uni05B5 uni05B6 uni05C7] &amp;</string>
+        </dict>
+        <key>side-uniFB27-v3</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* [uni05BB] &amp;</string>
+        </dict>
+        <key>side-uniFB27-v4</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* [uni05B2 uni05B3] &amp;</string>
+        </dict>
+        <key>side-uniFB27-v5</key>
+        <dict>
+          <key>GPOS_Context</key>
+          <string>lookupflag UseMarkFilteringSet [uni0591 uni0596 uni059B uni05A2 uni05A3 uni05A4 uni05A5 uni05A6 uni05A7 uni05AA uni05B0 uni05B1 uni05B2 uni05B3 uni05B4 uni05B5 uni05B6 uni05B7 uni05B8 uni05BB uni05BD uni05C7];* [uni05B1] &amp;</string>
+        </dict>
+      </dict>
     </dict>
   </lib>
 </glyph>

@@ -312,6 +312,157 @@ def fit(font, dx, dy):
     return n, corners, missing
 
 
+# --- derived glyphs and anchors (re-run on every invocation; idempotent) -----
+
+YOD_TRIANGLE_SCALE = 0.9   # three yods in two rows must fit the letter height
+
+
+def yod_triangle(font):
+    """U+05EF HEBREW YOD TRIANGLE, a ligature of three yods: one on top, two
+    below, each the fitted yod scaled by YOD_TRIANGLE_SCALE. Scaling thins the
+    stems (150 -> 135), so it is built as outlines, not scaled components,
+    and the stroke is restored with the same normal offset as the fit."""
+    from fontTools.misc.transform import Transform
+    yod = font[cpname(0x05D9)]
+    bp = BoundsPen(font)
+    yod.draw(bp)
+    x0, y0, x1, y1 = bp.bounds
+    s = YOD_TRIANGLE_SCALE
+    h = (y1 - y0) * s
+    gap = (1086 - 2 * h)              # between the rows, letter height 1086
+    cx = (x0 + x1) / 2
+    spread = 230                      # bottom yods' centres at 614 -/+ spread
+    places = [(CELL / 2, h + gap), (CELL / 2 - spread, 0), (CELL / 2 + spread, 0)]
+    name = cpname(0x05EF)
+    if name in font:
+        del font[name]
+    g = font.newGlyph(name)
+    g.unicodes = [0x05EF]
+    g.width = CELL
+    pen = g.getPen()
+    for px, py in places:
+        t = Transform().translate(px, py).scale(s).translate(-cx, -y0)
+        yod.draw(TransformPen(pen, t))
+    grow_x, grow_y = STEM_V * (1 - s) / 2, STEM_H * (1 - s) / 2
+    for c in g.contours:
+        inset_contour(c, -grow_x, -grow_y)
+    round_all(g)
+    # anchors: those of he (a full-width letter), minus the letter-specific
+    # dagesh / shin-dot positions
+    for a in font[cpname(0x05D4)].anchors:
+        if a.name in ("center", "shindot", "sindot") or a.name.startswith("*"):
+            continue
+        if a.name.startswith(("above", "below", "attached")):
+            continue  # make-mark-anchors.py owns these
+        g.appendAnchor({"name": a.name, "x": a.x, "y": a.y})
+    g.lib[HEBREW_KEY] = "fitted"
+    return g
+
+
+# Below marks that go *beside* a below vowel instead of under it (the donor's
+# contextual lookups): meteg and the below cantillation marks.
+VOWELS = [0x05B0, 0x05B1, 0x05B2, 0x05B3, 0x05B4, 0x05B5, 0x05B6, 0x05B7,
+          0x05B8, 0x05BB, 0x05C7]
+VOWEL_NUDGE = 137      # the vowel's move to the right (half the narrowest pair)
+SIDE_GAP = 60          # ink gap between the vowel and the mark beside it
+SIDE_TOL = 40          # vowels whose widths differ this little share a shift
+CONTEXT_KEY = "GPOS_Context"   # ufo2ft contextual anchors
+
+
+def is_side_mark(cp):
+    return cp == 0x05BD or 0x0591 <= cp <= 0x05AF
+
+
+def side_by_side(font):
+    """Meteg / a below accent after a below vowel on the same letter goes
+    beside the vowel, at the vowel's level, instead of under it. As in the
+    donor, the pair is spread around the letter's anchor: the vowel moves
+    right (VOWEL_NUDGE) and the mark left (toward the end of the word), so
+    that they are separated by half the vowel's width + SIDE_GAP + half the
+    median side-mark width.
+
+    Done with ufo2ft contextual anchors, so the GPOS comes from per-master
+    anchors and stays right in every master (fea written by hand would carry
+    the Regular's coordinates into the Bold and Italic):
+      - those marks attach through their own class `bottomacc` (bases get a
+        `bottomacc` anchor equal to `bottom`), so they no longer stack under
+        a vowel through mark-to-mark;
+      - every base gets, per vowel-width group, a contextual anchor
+        `*bottomacc.vN` (that separation - VOWEL_NUDGE to the left), with the
+        context "* [vowels of group N] &", and one `*bottom.next` for the
+        vowel (VOWEL_NUDGE to the right), with the context "* & [side
+        marks]"; marks other than vowels and side marks are skipped by a
+        mark filtering set."""
+    import statistics
+    from ufoLib2.objects import Anchor
+    side = [g for g in font if g.unicodes and is_side_mark(g.unicodes[0])
+            and g.lib.get(HEBREW_KEY) == "fitted"
+            and any(a.name in ("_bottom", "_bottomacc") for a in g.anchors)]
+    vowels = [font[cpname(c)] for c in VOWELS if cpname(c) in font]
+
+    def width(g):
+        bp = BoundsPen(font)
+        g.draw(bp)
+        return bp.bounds[2] - bp.bounds[0]
+
+    # 1. side marks: class bottom -> bottomacc (idempotent)
+    for g in side:
+        for a in g.anchors:
+            if a.name == "_bottom":
+                a.name = "_bottomacc"
+            elif a.name == "bottom":
+                a.name = "bottomacc"
+    half_mark = statistics.median(width(g) for g in side) / 2
+    # 2. vowel groups by width
+    ws = sorted((width(v), v.name) for v in vowels)
+    groups = []
+    for w, n in ws:
+        if groups and w - groups[-1][0][0] <= SIDE_TOL:
+            groups[-1].append((w, n))
+        else:
+            groups.append([(w, n)])
+    filt = " ".join(sorted({g.name for g in side} | {v.name for v in vowels}))
+    # 3. base anchors
+    n = 0
+    for g in font:
+        if is_mark_glyph(g):
+            continue
+        objlibs = g.lib.get("public.objectLibs", {})
+        for a in list(g.anchors):
+            if a.name == "bottomacc" or a.name.startswith(("*bottomacc", "*bottom.")):
+                if a.identifier:
+                    objlibs.pop(a.identifier, None)
+                g.anchors.remove(a)
+        bottom = [a for a in g.anchors if a.name == "bottom"]
+        if not bottom:
+            continue
+        b = bottom[0]
+        g.appendAnchor({"name": "bottomacc", "x": b.x, "y": b.y})
+        ctx = f"lookupflag UseMarkFilteringSet [{filt}];"
+        ident = f"side-{g.name}-next"
+        g.anchors.append(Anchor(x=round(b.x + VOWEL_NUDGE), y=b.y,
+                                name="*bottom.next", identifier=ident))
+        objlibs[ident] = {CONTEXT_KEY: ctx + "* & [" + " ".join(sorted(x.name for x in side)) + "]"}
+        for i, grp in enumerate(groups):
+            wv = sum(w for w, _ in grp) / len(grp)
+            shift = wv / 2 + SIDE_GAP + half_mark - VOWEL_NUDGE
+            ident = f"side-{g.name}-v{i}"
+            g.anchors.append(Anchor(x=round(b.x - shift), y=b.y,
+                                    name=f"*bottomacc.v{i}", identifier=ident))
+            objlibs[ident] = {CONTEXT_KEY: ctx + f"* [{' '.join(nm for _, nm in grp)}] &"}
+        if objlibs:
+            g.lib["public.objectLibs"] = objlibs
+        n += 1
+    return n, len(groups)
+
+
+def derive(font):
+    yod_triangle(font)
+    n, ng = side_by_side(font)
+    print(f"derived: U+05EF yod triangle; side-by-side anchors on {n} bases "
+          f"({ng} vowel-width groups)")
+
+
 def scaled_stems(font):
     """Stem widths of the scaled (not yet thinned) donor, to derive the inset."""
     tmp = ufoLib2.Font()
@@ -387,11 +538,14 @@ def main():
     todo = [g for g in font if g.lib.get(HEBREW_KEY) == "imported"]
     if not todo:
         print("nothing to fit (no glyphs in the 'imported' state)")
+        derive(font)
+        font.save()
         return
     vav, roof = scaled_stems(font)
     dx, dy = (vav - STEM_V) / 2, (roof - STEM_H) / 2
     print(f"scaled donor: vav stem {vav}, he roof {roof} -> inset dx={dx:.1f} dy={dy:.1f}")
     n, corners, missing = fit(font, dx, dy)
+    derive(font)
     font.save()
     print(f"{args.ufo}: fitted {n} Hebrew glyphs, rounded {corners} corners")
     for k, v in missing.items():

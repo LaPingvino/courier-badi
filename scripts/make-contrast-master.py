@@ -32,9 +32,12 @@ _spec.loader.exec_module(_mb)
 
 def make_contrast(src, out, dx, dy):
     font = ufoLib2.Font.open(src)
+    bounds = _mb.ink_bounds(font)
     for glyph in font:
         for contour in glyph:
             _mb.dilate_contour(contour, dx, -dy)  # +dx thickens V, -dy thins H
+    _mb.move_anchors(font, bounds, dx, -dy)     # anchors follow the ink edges
+    _mb.replace_hebrew_composites(font)
     info = font.info
     # Keep weight/style as-is (this is a same-weight sibling, not a bolder one);
     # only nudge the stem hints: verticals fatter, horizontals thinner.

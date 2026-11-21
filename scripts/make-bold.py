@@ -43,12 +43,64 @@ def dilate_contour(contour, dx, dy):
         pts[i].y += dy * (-tx / L)
 
 
+HEBREW_KEY = "org.courierbadi.hebrew"
+
+
+def ink_bounds(font):
+    from fontTools.pens.boundsPen import BoundsPen
+    out = {}
+    for g in font:
+        bp = BoundsPen(font)
+        g.draw(bp)
+        out[g.name] = bp.bounds
+    return out
+
+
+def move_anchors(font, bounds, dx, dy):
+    """Move anchors with the dilation, so marks keep the source's clearance:
+    an anchor above the glyph's (source) ink goes up by dy, one below it down,
+    one left of it left by dx, one right of it right; anchors inside the ink
+    (a dagesh's centre, a dot's own anchor) stay. A mark's own attaching
+    anchor sits on its ink edge, so it moves with that edge."""
+    n = 0
+    for g in font:
+        b = bounds.get(g.name)
+        if b is None:
+            continue
+        x0, y0, x1, y1 = b
+        for a in g.anchors:
+            mx = dx if a.x >= x1 - 0.5 else -dx if a.x <= x0 + 0.5 else 0
+            my = dy if a.y >= y1 - 0.5 else -dy if a.y <= y0 + 0.5 else 0
+            if mx or my:
+                a.x += mx
+                a.y += my
+                n += 1
+    return n
+
+
+def replace_hebrew_composites(font):
+    """The Hebrew presentation forms are composites placed from the anchors
+    (fit-hebrew.py); after the anchors moved, place their marks again."""
+    for g in font:
+        if g.lib.get(HEBREW_KEY) is None or g.contours or len(g.components) < 2:
+            continue
+        base = {a.name: a for a in font[g.components[0].baseGlyph].anchors}
+        for c in g.components[1:]:
+            ma = [a for a in font[c.baseGlyph].anchors if a.name.startswith("_")]
+            if ma and ma[0].name[1:] in base:
+                b = base[ma[0].name[1:]]
+                c.transformation = (1, 0, 0, 1, b.x - ma[0].x, b.y - ma[0].y)
+
+
 def make_bold(src, out, dx, dy):
     font = ufoLib2.Font.open(src)
+    bounds = ink_bounds(font)
     for glyph in font:
         for contour in glyph:
             dilate_contour(contour, dx, dy)
         # components inherit boldness from their (bolded) base glyphs
+    move_anchors(font, bounds, dx, dy)
+    replace_hebrew_composites(font)
     info = font.info
     italic = bool(info.italicAngle)  # preserve italic-ness of the source
     info.openTypeOS2WeightClass = 700

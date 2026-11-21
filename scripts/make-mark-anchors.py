@@ -195,11 +195,8 @@ def run(path, groups):
 
     nb = nm = 0
     for g in font:
-        keep = [a for a in g.anchors if not OWNED.match(a.name)]
-        if len(keep) != len(g.anchors):
-            g.anchors.clear()
-            for a in keep:
-                g.appendAnchor({"name": a.name, "x": a.x, "y": a.y})
+        for a in [a for a in g.anchors if OWNED.match(a.name)]:
+            g.anchors.remove(a)   # keeps the other anchors' identifiers/libs
         b = bounds(font, g)
         if b is None:
             continue

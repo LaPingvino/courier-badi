@@ -176,6 +176,16 @@ unchanged. Because the width can't change, this weight axis behaves like a GRAD
 Regular and Bold are interpolation-compatible (point structure is preserved), so
 they are the two masters of the `wght` axis. Regenerate with `make masters`.
 
+Anchors move with the dilation (`move_anchors`): an anchor above a glyph's
+ink goes up by the offset, one below goes down, one beside it goes out
+sideways, and one inside the ink (a dagesh centre, a dot's own anchor) stays.
+A mark's attaching anchor sits on its ink edge and so moves with it, which
+keeps the Regular's clearance between marks and letters in the Bold. The
+Hebrew presentation-form composites are re-placed from the moved anchors. The
+contrast siblings (`make-contrast-master.py`) use the same rule with their own
+offsets. (The fallback-reproducing anchors of `make-mark-anchors.py` are
+measured on each master's ink afterwards anyway.)
+
 ## seen/sheen/sad teeth widening
 
 `scripts/widen-seen-family.py` spreads the scrunched teeth of the seen/sheen/sad
@@ -240,11 +250,30 @@ everywhere else, only the Regular is touched; the other masters are derived.
 Mark placement follows the donor (Liberation Mono): vowels under final kaf
 and final nun sit beside the descender rather than inside the letter, holam
 sits at the upper left (on vav: holam male, over the stem), the shuruq dot
-left of vav. Two below marks (vowel + meteg or a below accent) stack
-vertically here; the donor sets them side by side with contextual lookups,
-which anchors cannot express. Without GPOS (or with a shaper's fallback), the
+left of vav.
+
+**Meteg and below accents beside a vowel.** After a below vowel on the same
+letter, meteg or a below cantillation mark goes beside the vowel at its level
+instead of under it, as the donor does with contextual lookups. Here it is
+done with ufo2ft **contextual anchors** (`fit-hebrew.py`, `side_by_side`), so
+the GPOS comes from per-master anchors and is right in every master; fea
+written by hand would carry the Regular's coordinates into Bold and Italic.
+Those marks attach through their own class `bottomacc`; each letter has a
+contextual anchor `*bottomacc.vN` per vowel-width group (context "* [vowels]
+&") and `*bottom.next` (context "* & [marks]"), so the vowel moves right and
+the mark left, separated by half the vowel's width + 60 + half the median mark
+width; a mark filtering set skips dagesh, shin dots and top marks. Compared
+with the donor's own shaping on the same strings (205 letter + vowel + mark
+sequences, the donor scaled to these metrics), the level matches (within 19
+units) and the separation is narrower than the donor's fixed one: by 46–251
+units (median 151), since here it follows the vowel's width.
+
+Without GPOS (or with a shaper's fallback), the
 marks still overlay the preceding letter: right-to-left, a zero-width mark is
 drawn from the letter's own origin, and the marks are drawn centred on the
 cell.
 
-Not covered: U+05EF (yod triangle), which the donor does not have.
+U+05EF (yod triangle), which the donor does not have, is built by
+`fit-hebrew.py` from the fitted yod: three yods scaled 0.9 (one on top, two
+below) as outlines, with the stroke restored to 150 / 144 by the same normal
+offset as the fit (scaled components would have 135-unit stems).
