@@ -456,10 +456,42 @@ def side_by_side(font):
     return n, len(groups)
 
 
+# Dagesh in yod: beside the letter at its height, as the donor's own
+# precomposed U+FB39 draws it (its ink 88 units left of the yod's, its centre
+# at 0.454 of the yod's height, once fitted). The donor's GPOS puts it under
+# the yod, where it reads as "!"; that is where the import took the anchor
+# from (the GPOS wins over the composition there).
+YOD_DAGESH_GAP = 88
+YOD_DAGESH_HEIGHT = 0.454
+
+
+def yod_dagesh(font):
+    yod, dag = font[cpname(0x05D9)], font[cpname(0x05BC)]
+    yb, db = (bounds(font, g) for g in (yod, dag))
+    da = next(a for a in dag.anchors if a.name == "_center")
+    x = yb[0] - YOD_DAGESH_GAP - (db[2] - db[0]) / 2 + (da.x - (db[0] + db[2]) / 2)
+    y = yb[1] + YOD_DAGESH_HEIGHT * (yb[3] - yb[1]) + (da.y - (db[1] + db[3]) / 2)
+    for g in (yod, font[cpname(0xFB39)]):
+        for a in g.anchors:
+            if a.name == "center":
+                a.x, a.y = round(x), round(y)
+    form = font[cpname(0xFB39)]
+    for c in form.components[1:]:
+        if c.baseGlyph == dag.name:
+            c.transformation = (1, 0, 0, 1, round(x) - da.x, round(y) - da.y)
+
+
+def bounds(font, g):
+    bp = BoundsPen(font)
+    g.draw(bp)
+    return bp.bounds
+
+
 def derive(font):
     yod_triangle(font)
+    yod_dagesh(font)
     n, ng = side_by_side(font)
-    print(f"derived: U+05EF yod triangle; side-by-side anchors on {n} bases "
+    print(f"derived: U+05EF yod triangle; dagesh beside yod; side-by-side anchors on {n} bases "
           f"({ng} vowel-width groups)")
 
 

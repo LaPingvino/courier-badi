@@ -3,8 +3,8 @@
   <advance width="1228"/>
   <unicode hex="FB39"/>
   <anchor x="614" y="-20.0" name="bottom"/>
-  <anchor x="475.0" y="-20.0" name="bottomright"/>
-  <anchor x="614" y="328" name="center"/>
+  <anchor x="535" y="-20.0" name="bottomright"/>
+  <anchor x="377" y="774" name="center"/>
   <anchor x="355.0" y="1290.0" name="holam"/>
   <anchor x="614" y="-20.0" name="lowerdot"/>
   <anchor x="614" y="1219.0" name="top"/>
@@ -13,12 +13,12 @@
   <anchor x="614" y="1530.0" name="upperdot"/>
   <anchor x="614" y="-20.0" name="bottomacc"/>
   <anchor x="811.0" y="-20.0" name="*bottom.next" identifier="side-uniFB39-next"/>
-  <anchor x="416.0" y="-20.0" name="*bottomacc.v0" identifier="side-uniFB39-v0"/>
-  <anchor x="349.0" y="-20.0" name="*bottomacc.v1" identifier="side-uniFB39-v1"/>
-  <anchor x="306.0" y="-20.0" name="*bottomacc.v2" identifier="side-uniFB39-v2"/>
-  <anchor x="268.0" y="-20.0" name="*bottomacc.v3" identifier="side-uniFB39-v3"/>
-  <anchor x="243.0" y="-20.0" name="*bottomacc.v4" identifier="side-uniFB39-v4"/>
-  <anchor x="210.0" y="-20.0" name="*bottomacc.v5" identifier="side-uniFB39-v5"/>
+  <anchor x="476" y="-20.0" name="*bottomacc.v0" identifier="side-uniFB39-v0"/>
+  <anchor x="409" y="-20.0" name="*bottomacc.v1" identifier="side-uniFB39-v1"/>
+  <anchor x="366" y="-20.0" name="*bottomacc.v2" identifier="side-uniFB39-v2"/>
+  <anchor x="328" y="-20.0" name="*bottomacc.v3" identifier="side-uniFB39-v3"/>
+  <anchor x="269.0" y="-20.0" name="*bottomacc.v4" identifier="side-uniFB39-v4"/>
+  <anchor x="236.0" y="-20.0" name="*bottomacc.v5" identifier="side-uniFB39-v5"/>
   <anchor x="614" y="1234" name="aboveLGC0"/>
   <anchor x="614" y="1234" name="aboveLGC1"/>
   <anchor x="614" y="1234" name="aboveLGC2"/>
@@ -28,10 +28,10 @@
   <anchor x="614" y="-174" name="belowLGC0"/>
   <anchor x="614" y="-126" name="belowLGC1"/>
   <anchor x="614" y="-53" name="belowLGC2"/>
-  <anchor x="614" y="93" name="belowLGC3"/>
+  <anchor x="614" y="260" name="belowLGC3"/>
   <outline>
     <component base="uni05D9"/>
-    <component base="uni05BC" yOffset="-314.0"/>
+    <component base="uni05BC" xOffset="-297.0" yOffset="152"/>
   </outline>
   <lib>
     <dict>

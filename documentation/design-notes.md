@@ -254,7 +254,10 @@ male sits above-left of the vav's head, its ink ending at the stem's line (the
 donor puts it straight over the stem, where it reads as part of the vav; the
 Culmus fonts, DejaVu Sans and Noto Serif Hebrew all put it to the left), and
 U+05BA (holam haser for vav, consonantal vav + holam) 60 units further left,
-so the two stay distinct.
+so the two stay distinct. And the dagesh in yod sits beside the yod, left of
+it at its height, as the donor's own precomposed U+FB39 draws it (Culmus
+keeps it within the yod's height too); the donor's GPOS puts it under the
+yod, where it reads as "!" (`fit-hebrew.py`, `yod_dagesh`).
 
 **Meteg and below accents beside a vowel.** After a below vowel on the same
 letter, meteg or a below cantillation mark goes beside the vowel at its level

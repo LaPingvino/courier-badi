@@ -47,7 +47,9 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
   rest), as Lexington's PDF writer now does.
 - **Holam male** is placed above-left of the vav's head with GPOS as well,
   clear of the stem, and U+05BA (holam haser for vav) further left, so the
-  two read apart. Every other mark is placed by the GPOS exactly as in 1.100,
+  two read apart. The **dagesh in yod** sits beside the yod at its height,
+  as in the donor's precomposed form, instead of under it (where it read
+  as "!"). Every other mark is placed by the GPOS exactly as in 1.100,
   as are the presentation forms (U+FB2A/FB2B shin/sin with dot, U+FB35 shuruq,
   U+FB4B holam male, …), which follow the same anchors.
 

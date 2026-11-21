@@ -4,7 +4,7 @@
   <unicode hex="FB39"/>
   <anchor x="614" y="0" name="bottom"/>
   <anchor x="535" y="0" name="bottomright"/>
-  <anchor x="614" y="328" name="center"/>
+  <anchor x="377" y="774" name="center"/>
   <anchor x="415" y="1270" name="holam"/>
   <anchor x="614" y="0" name="lowerdot"/>
   <anchor x="614" y="1199" name="top"/>
@@ -28,10 +28,10 @@
   <anchor x="614" y="-194" name="belowLGC0"/>
   <anchor x="614" y="-146" name="belowLGC1"/>
   <anchor x="614" y="-72" name="belowLGC2"/>
-  <anchor x="614" y="133" name="belowLGC3"/>
+  <anchor x="614" y="247" name="belowLGC3"/>
   <outline>
     <component base="uni05D9"/>
-    <component base="uni05BC" yOffset="-294"/>
+    <component base="uni05BC" xOffset="-237" yOffset="152"/>
   </outline>
   <lib>
     <dict>
