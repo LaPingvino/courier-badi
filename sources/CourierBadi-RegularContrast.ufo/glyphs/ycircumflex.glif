@@ -2,6 +2,10 @@
 <glyph name="ycircumflex" format="2">
   <advance width="1228"/>
   <unicode hex="0177"/>
+  <anchor x="614" y="1510" name="above"/>
+  <anchor x="1228" y="1382" name="attachedAboveRight"/>
+  <anchor x="614" y="-388" name="attachedBelow"/>
+  <anchor x="614" y="-516" name="below"/>
   <outline>
     <component base="y"/>
     <component base="circumflex" xOffset="16"/>

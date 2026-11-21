@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni05D9" format="2">
+  <advance width="1228"/>
+  <unicode hex="05D9"/>
+  <anchor x="614.0" y="0" name="bottom"/>
+  <anchor x="535.0" y="0" name="bottomright"/>
+  <anchor x="671.8352496723766" y="328" name="center"/>
+  <anchor x="638.9352654997506" y="1270" name="holam"/>
+  <anchor x="614.0" y="0" name="lowerdot"/>
+  <anchor x="825.4160498694495" y="1199" name="top"/>
+  <anchor x="839.4160498694495" y="1199" name="topleft"/>
+  <anchor x="825.4160498694495" y="1199" name="topright"/>
+  <anchor x="880.2537408697822" y="1510" name="upperdot"/>
+  <anchor x="614" y="1234" name="above"/>
+  <anchor x="1228" y="1106" name="attachedAboveRight"/>
+  <anchor x="614" y="500" name="attachedBelow"/>
+  <anchor x="614" y="372" name="below"/>
+  <outline>
+    <contour>
+      <point x="783.1323307166284" y="1106.0013329230117" type="line" smooth="yes"/>
+      <point x="721.6847719397273" y="1105.861679494116"/>
+      <point x="672.670689782294" y="1074.9840089557792"/>
+      <point x="660.827472001996" y="1029.459398125669" type="curve" smooth="yes"/>
+      <point x="582.3526803284635" y="584.4877605340223" type="line" smooth="yes"/>
+      <point x="574.2046553523221" y="539.0750218127616"/>
+      <point x="618.1101494247084" y="499.6521868174667"/>
+      <point x="683.256380328941" y="499.9980525804304" type="curve" smooth="yes"/>
+      <point x="728.0488003011662" y="499.9986670769883" type="line" smooth="yes"/>
+      <point x="789.5126956360591" y="500.1344609631761"/>
+      <point x="838.5787698371724" y="531.0624634708587"/>
+      <point x="850.5301319457329" y="577.5401586882455" type="curve" smooth="yes"/>
+      <point x="929.0049497534797" y="1022.5117105857122" type="line" smooth="yes"/>
+      <point x="936.9520583877957" y="1066.9731291714415"/>
+      <point x="893.0509302887115" y="1106.3414240905488"/>
+      <point x="827.9247506888537" y="1106.0019474195697" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

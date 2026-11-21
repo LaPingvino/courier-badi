@@ -2,6 +2,10 @@
 <glyph name="Amacron" format="2">
   <advance width="1228"/>
   <unicode hex="0100"/>
+  <anchor x="614" y="1648" name="above"/>
+  <anchor x="1228" y="1520" name="attachedAboveRight"/>
+  <anchor x="614" y="-10" name="attachedBelow"/>
+  <anchor x="614" y="-138" name="below"/>
   <outline>
     <component base="macron" xOffset="47.60828479128554" yOffset="270"/>
     <component base="A"/>

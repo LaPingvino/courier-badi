@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni05BE" format="2">
+  <advance width="1228"/>
+  <unicode hex="05BE"/>
+  <anchor x="614" y="1363" name="above"/>
+  <anchor x="1228" y="1235" name="attachedAboveRight"/>
+  <anchor x="614" y="986" name="attachedBelow"/>
+  <anchor x="614" y="858" name="below"/>
+  <outline>
+    <contour>
+      <point x="412.0" y="1235.0" type="line" smooth="yes"/>
+      <point x="360.1738438741892" y="1233.5491421667482"/>
+      <point x="325.5396814068667" y="1191.033827943024"/>
+      <point x="325.0" y="1140.0" type="curve" smooth="yes"/>
+      <point x="325.0" y="1081.0" type="line" smooth="yes"/>
+      <point x="325.5396814068667" y="1029.966172056976"/>
+      <point x="360.1738438741892" y="987.4508578332517"/>
+      <point x="412.0" y="986.0" type="curve" smooth="yes"/>
+      <point x="815.0" y="986.0" type="line" smooth="yes"/>
+      <point x="865.8261561258108" y="987.4508578332517"/>
+      <point x="901.3606115206981" y="1029.4372567500266"/>
+      <point x="902.0" y="1081.0" type="curve" smooth="yes"/>
+      <point x="902.0" y="1140.0" type="line" smooth="yes"/>
+      <point x="901.3606115206981" y="1191.5627432499734"/>
+      <point x="865.8261561258108" y="1233.5491421667482"/>
+      <point x="815.0" y="1235.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

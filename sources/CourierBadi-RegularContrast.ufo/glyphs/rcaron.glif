@@ -2,6 +2,10 @@
 <glyph name="rcaron" format="2">
   <advance width="1228"/>
   <unicode hex="0159"/>
+  <anchor x="614" y="1514" name="above"/>
+  <anchor x="1228" y="1386" name="attachedAboveRight"/>
+  <anchor x="614" y="4" name="attachedBelow"/>
+  <anchor x="614" y="-124" name="below"/>
   <outline>
     <component base="r"/>
     <component base="caron" xOffset="70"/>

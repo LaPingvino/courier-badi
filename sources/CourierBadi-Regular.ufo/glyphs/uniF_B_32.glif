@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFB32" format="2">
+  <advance width="1228"/>
+  <unicode hex="FB32"/>
+  <anchor x="614" y="0" name="bottom"/>
+  <anchor x="787" y="0" name="bottomright"/>
+  <anchor x="393" y="689" name="center"/>
+  <anchor x="229" y="1270" name="holam"/>
+  <anchor x="614" y="0" name="lowerdot"/>
+  <anchor x="470" y="1199" name="top"/>
+  <anchor x="266" y="1199" name="topleft"/>
+  <anchor x="647" y="1199" name="topright"/>
+  <anchor x="470" y="1510" name="upperdot"/>
+  <anchor x="614" y="1214" name="above"/>
+  <anchor x="1228" y="1086" name="attachedAboveRight"/>
+  <anchor x="614" y="4" name="attachedBelow"/>
+  <anchor x="614" y="-124" name="below"/>
+  <outline>
+    <component base="uni05D2"/>
+    <component base="uni05BC" xOffset="-221" yOffset="67"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

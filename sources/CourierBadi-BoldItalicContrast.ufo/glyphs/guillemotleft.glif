@@ -2,6 +2,10 @@
 <glyph name="guillemotleft" format="2">
   <advance width="1228"/>
   <unicode hex="00AB"/>
+  <anchor x="614" y="1091" name="above"/>
+  <anchor x="1228" y="963" name="attachedAboveRight"/>
+  <anchor x="614" y="165" name="attachedBelow"/>
+  <anchor x="614" y="37" name="below"/>
   <outline>
     <component base="guilsinglleft" xOffset="-240.0"/>
     <component base="guilsinglleft" xOffset="240.0"/>

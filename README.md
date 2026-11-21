@@ -28,12 +28,24 @@ The proof files and QA tests are also available automatically via GitHub Actions
 ## Design & engineering notes
 
 Non-obvious design decisions (the monospace model, **zero-width combining
-marks**, the generated Arabic shaping features, stylistic sets, Cyrillic mark
-centering) are documented in [documentation/design-notes.md](documentation/design-notes.md).
+marks** and their GPOS anchors, the generated Arabic shaping features, the
+Hebrew import, stylistic sets, Cyrillic mark centering) are documented in
+[documentation/design-notes.md](documentation/design-notes.md).
 Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 (Go) — run `make arabic-features` after changing Arabic glyphs.
 
 ## Changelog
+
+**Unreleased (branch `hebrew`)**
+- **Hebrew.** Letters, Yiddish ligatures, punctuation, all points (niqqud) and
+  cantillation marks, and the presentation forms U+FB1D–FB4F, adapted from
+  Cousine's Hebrew (OFL; the Liberation Mono design) and fitted to Courier
+  Badi's cell, height and monoline stroke (`scripts/import-hebrew.py`,
+  `scripts/fit-hebrew.py`).
+- **First GPOS.** Marks are now positioned by a GPOS `mark`/`mkmk` feature from
+  UFO anchors: the Hebrew's from the donor, every other script's generated to
+  reproduce the fallback positioning they had before
+  (`scripts/make-mark-anchors.py`, checked by `scripts/check-mark-parity.py`).
 
 **20 July 2026. Version 1.010**
 - **Submission-ready split.** The shipping family is now a clean **wght + ital**
@@ -154,7 +166,9 @@ This license is available with a FAQ at
 https://scripts.sil.org/OFL
 
 Note that this project is a derivative of Courier Prime, also released under this same license
-but with the reserved name Courier Prime Source. Courier itself is a public domain name and
+but with the reserved name Courier Prime Source. The Hebrew is adapted from Cousine
+(Copyright 2026 The Cousine Project Authors, https://github.com/googlefonts/cousine;
+the Liberation Mono Hebrew by Steve Matteson), released under the same license. Courier itself is a public domain name and
 Badi is a name from Bahá'í history.
 
 ## Repository Layout

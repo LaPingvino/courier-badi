@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFB25" format="2">
+  <advance width="1228"/>
+  <unicode hex="FB25"/>
+  <anchor x="433" y="0" name="bottom"/>
+  <anchor x="787" y="0" name="bottomright"/>
+  <anchor x="512" y="622" name="center"/>
+  <anchor x="15" y="1270" name="holam"/>
+  <anchor x="433" y="0" name="lowerdot"/>
+  <anchor x="601" y="1199" name="top"/>
+  <anchor x="43" y="1199" name="topleft"/>
+  <anchor x="861" y="1199" name="topright"/>
+  <anchor x="601" y="1510" name="upperdot"/>
+  <anchor x="614" y="1603" name="above"/>
+  <anchor x="1228" y="1475" name="attachedAboveRight"/>
+  <anchor x="614" y="-35" name="attachedBelow"/>
+  <anchor x="614" y="-163" name="below"/>
+  <outline>
+    <component base="uni05DC"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

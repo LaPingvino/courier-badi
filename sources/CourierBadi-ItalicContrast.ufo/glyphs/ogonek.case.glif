@@ -1,6 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="ogonek.case" format="2">
   <advance width="1228"/>
+  <anchor x="614" y="156" name="above"/>
+  <anchor x="1228" y="28" name="attachedAboveRight"/>
+  <anchor x="614" y="-458" name="attachedBelow"/>
+  <anchor x="614" y="-586" name="below"/>
   <outline>
     <component base="ogonek"/>
   </outline>

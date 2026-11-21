@@ -64,6 +64,10 @@ masters:
 	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Italic.ufo     --out sources/CourierBadi-ItalicContrast.ufo
 	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-Bold.ufo       --out sources/CourierBadi-BoldContrast.ufo
 	. venv/bin/activate; python3 scripts/make-contrast-master.py --src sources/CourierBadi-BoldItalic.ufo --out sources/CourierBadi-BoldItalicContrast.ufo
+	# Mark anchors reproducing HarfBuzz's fallback mark positioning (needed
+	# since the font has a GPOS; see design-notes), measured on each master's
+	# own ink.
+	. venv/bin/activate; python3 scripts/make-mark-anchors.py sources/CourierBadi-*.ufo
 
 # Bonus/experimental variable font: the contrast (XOPQ) axis, shipped as a
 # release-only extra separate from the GF-clean submission. Outputs to

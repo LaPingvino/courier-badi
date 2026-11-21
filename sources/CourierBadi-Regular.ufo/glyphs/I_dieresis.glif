@@ -2,6 +2,10 @@
 <glyph name="Idieresis" format="2">
   <advance width="1228"/>
   <unicode hex="00CF"/>
+  <anchor x="614" y="1761" name="above"/>
+  <anchor x="1228" y="1633" name="attachedAboveRight"/>
+  <anchor x="614" y="0" name="attachedBelow"/>
+  <anchor x="614" y="-128" name="below"/>
   <outline>
     <component base="I"/>
     <component base="dieresis" yOffset="270"/>

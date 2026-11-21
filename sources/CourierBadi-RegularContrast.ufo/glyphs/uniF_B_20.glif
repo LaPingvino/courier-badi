@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFB20" format="2">
+  <advance width="1228"/>
+  <unicode hex="FB20"/>
+  <anchor x="675" y="0" name="bottom"/>
+  <anchor x="926" y="0" name="bottomright"/>
+  <anchor x="704" y="740" name="center"/>
+  <anchor x="89" y="1270" name="holam"/>
+  <anchor x="675" y="0" name="lowerdot"/>
+  <anchor x="641" y="1199" name="top"/>
+  <anchor x="247" y="1199" name="topleft"/>
+  <anchor x="991" y="1199" name="topright"/>
+  <anchor x="641" y="1510" name="upperdot"/>
+  <anchor x="614" y="1207" name="above"/>
+  <anchor x="1228" y="1079" name="attachedAboveRight"/>
+  <anchor x="614" y="-14" name="attachedBelow"/>
+  <anchor x="614" y="-142" name="below"/>
+  <outline>
+    <contour>
+      <point x="118.33629256139363" y="130.2530128436935" type="curve"/>
+      <point x="122.87546676791086" y="-14.246017799869882" type="line"/>
+      <point x="378.3062722156195" y="-0.11365669439809167"/>
+      <point x="574.735286411955" y="42.186204866435716"/>
+      <point x="715.3914527297605" y="115.30772669780275" type="curve" smooth="yes"/>
+      <point x="855.3266555748531" y="187.89557088485492"/>
+      <point x="958.3608004378328" y="298.1433900365407"/>
+      <point x="1022.1565345425744" y="450.17768888253835" type="curve" smooth="yes"/>
+      <point x="1084.2317073899783" y="603.3782161245626"/>
+      <point x="1115.9472683427402" y="815.8911929772672"/>
+      <point x="1112.4972933658219" y="1078.9819683766568" type="curve"/>
+      <point x="911.2968021465177" y="1078.290945558831" type="line"/>
+      <point x="907.0263127346047" y="847.3703061599895"/>
+      <point x="888.4115205316426" y="661.5189997646312"/>
+      <point x="852.0722432794936" y="533.0209570452217" type="curve" smooth="yes"/>
+      <point x="815.4337927788059" y="405.0858909131636"/>
+      <point x="756.0746321688734" y="305.85916386574047"/>
+      <point x="695.816706686458" y="246.2876088691416" type="curve"/>
+      <point x="409.3908064282713" y="1023.1511975936274" type="line" smooth="yes"/>
+      <point x="393.5982596326251" y="1064.076660510429"/>
+      <point x="358.20849115263087" y="1072.4049962965466"/>
+      <point x="310.0" y="1072.0" type="curve" smooth="yes"/>
+      <point x="249.0" y="1072.0" type="line" smooth="yes"/>
+      <point x="201.27626963145767" y="1072.632005131369"/>
+      <point x="178.3412608446585" y="1074.2608399535475"/>
+      <point x="193.72948191720826" y="1036.0207590644975" type="curve" smooth="yes"/>
+      <point x="518.7577389623839" y="190.35527900561544" type="line"/>
+      <point x="429.12077471536327" y="142.24873004886342"/>
+      <point x="296.6013547018291" y="126.02027127453238"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

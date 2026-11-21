@@ -2,6 +2,10 @@
 <glyph name="ygrave" format="2">
   <advance width="1228"/>
   <unicode hex="1EF3"/>
+  <anchor x="614" y="1543" name="above"/>
+  <anchor x="1228" y="1415" name="attachedAboveRight"/>
+  <anchor x="614" y="-400" name="attachedBelow"/>
+  <anchor x="614" y="-528" name="below"/>
   <outline>
     <component base="y"/>
     <component base="grave"/>

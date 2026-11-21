@@ -2,6 +2,10 @@
 <glyph name="utilde" format="2">
   <advance width="1228"/>
   <unicode hex="0169"/>
+  <anchor x="614" y="1453" name="above"/>
+  <anchor x="1228" y="1325" name="attachedAboveRight"/>
+  <anchor x="614" y="-22" name="attachedBelow"/>
+  <anchor x="614" y="-150" name="below"/>
   <outline>
     <component base="u"/>
     <component base="tilde"/>

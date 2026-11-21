@@ -2,6 +2,10 @@
 <glyph name="Iacute" format="2">
   <advance width="1228"/>
   <unicode hex="00CD"/>
+  <anchor x="614" y="1830" name="above"/>
+  <anchor x="1228" y="1702" name="attachedAboveRight"/>
+  <anchor x="614" y="-20" name="attachedBelow"/>
+  <anchor x="614" y="-148" name="below"/>
   <outline>
     <component base="I"/>
     <component base="acute" yOffset="270"/>

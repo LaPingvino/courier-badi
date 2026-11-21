@@ -2,6 +2,21 @@
 <glyph name="uni25CC" format="2">
   <advance width="1228"/>
   <unicode hex="25CC"/>
+  <anchor x="523" y="0" name="bottom"/>
+  <anchor x="922" y="0" name="bottomright"/>
+  <anchor x="537" y="533" name="center"/>
+  <anchor x="23" y="1280" name="holam"/>
+  <anchor x="537" y="0" name="lowerdot"/>
+  <anchor x="922" y="1270" name="shindot"/>
+  <anchor x="152" y="1270" name="sindot"/>
+  <anchor x="537" y="1199" name="top"/>
+  <anchor x="163" y="1199" name="topleft"/>
+  <anchor x="922" y="1199" name="topright"/>
+  <anchor x="537" y="1510" name="upperdot"/>
+  <anchor x="614" y="1045" name="above"/>
+  <anchor x="1228" y="917" name="attachedAboveRight"/>
+  <anchor x="614" y="-171" name="attachedBelow"/>
+  <anchor x="614" y="-299" name="below"/>
   <outline>
     <contour>
       <point x="1081.0" y="373.0" type="curve" smooth="yes"/>
@@ -228,4 +243,10 @@
       <point x="130.5978834409994" y="93.03484083581156"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>anchors-fitted</string>
+    </dict>
+  </lib>
 </glyph>

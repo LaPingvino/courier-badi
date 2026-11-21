@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFB3C" format="2">
+  <advance width="1228"/>
+  <unicode hex="FB3C"/>
+  <anchor x="433.0" y="0" name="bottom"/>
+  <anchor x="787.0" y="0" name="bottomright"/>
+  <anchor x="621.6753820006652" y="622" name="center"/>
+  <anchor x="238.93526549975053" y="1270" name="holam"/>
+  <anchor x="433.0" y="0" name="lowerdot"/>
+  <anchor x="812.4160498694495" y="1199" name="top"/>
+  <anchor x="254.4160498694495" y="1199" name="topleft"/>
+  <anchor x="1072.4160498694496" y="1199" name="topright"/>
+  <anchor x="867.2537408697822" y="1510" name="upperdot"/>
+  <anchor x="614" y="1637" name="above"/>
+  <anchor x="1228" y="1509" name="attachedAboveRight"/>
+  <anchor x="614" y="-65" name="attachedBelow"/>
+  <anchor x="614" y="-193" name="below"/>
+  <outline>
+    <component base="uni05DC"/>
+    <component base="uni05BC" xOffset="-102.0"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

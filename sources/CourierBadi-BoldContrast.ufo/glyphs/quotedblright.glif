@@ -2,6 +2,10 @@
 <glyph name="quotedblright" format="2">
   <advance width="1228"/>
   <unicode hex="201D"/>
+  <anchor x="614" y="1417" name="above"/>
+  <anchor x="1228" y="1289" name="attachedAboveRight"/>
+  <anchor x="614" y="694" name="attachedBelow"/>
+  <anchor x="614" y="566" name="below"/>
   <outline>
     <component base="quoteright" xOffset="-245"/>
     <component base="quoteright" xOffset="245"/>

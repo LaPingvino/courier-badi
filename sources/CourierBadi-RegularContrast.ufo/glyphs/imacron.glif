@@ -2,6 +2,10 @@
 <glyph name="imacron" format="2">
   <advance width="1228"/>
   <unicode hex="012B"/>
+  <anchor x="614" y="1364" name="above"/>
+  <anchor x="1228" y="1236" name="attachedAboveRight"/>
+  <anchor x="614" y="14" name="attachedBelow"/>
+  <anchor x="614" y="-114" name="below"/>
   <outline>
     <component base="dotlessi"/>
     <component base="macron" xOffset="-10"/>

@@ -19,6 +19,15 @@
 //     (e.g. Pashto U+0681, U+0685).
 //   - It writes lam-alef ligatures against the POSITIONAL forms so they fire.
 //
+// The block also owns the font-wide parts that must precede every feature:
+// the languagesystem statements (a script is declared when the font has its
+// letters -- Arabic always, Hebrew once U+05D0.. exist) and the GDEF glyph
+// classes. GDEF marks are the Mn/Me codepoints; GDEF bases are the glyphs that
+// carry a mark-attaching anchor (an anchor name without a leading "_"). The
+// base class matters: with a GDEF table in features.fea, ufo2ft's mark writer
+// only attaches marks to glyphs listed as bases, so without it the anchors
+// (Hebrew; see documentation/design-notes.md) would generate no GPOS at all.
+//
 // The generated block is delimited by markers so hand-written features around
 // it are preserved. Run:
 //
@@ -47,8 +56,9 @@ const (
 // font is the subset of a UFO we care about: which glyph names exist and which
 // codepoint each cmapped glyph carries.
 type font struct {
-	names map[string]bool // set of all glyph names
-	cmap  map[rune]string // codepoint -> glyph name
+	names    map[string]bool // set of all glyph names
+	cmap     map[rune]string // codepoint -> glyph name
+	anchored map[string]bool // glyphs with a mark-attaching (base) anchor
 }
 
 func (f *font) has(name string) bool { return f.names[name] }
@@ -79,6 +89,9 @@ type glif struct {
 	Unicodes []struct {
 		Hex string `xml:"hex,attr"`
 	} `xml:"unicode"`
+	Anchors []struct {
+		Name string `xml:"name,attr"`
+	} `xml:"anchor"`
 }
 
 func loadFont(ufo string) (*font, error) {
@@ -94,7 +107,7 @@ func loadFont(ufo string) (*font, error) {
 	if len(d.Keys) != len(d.Vals) {
 		return nil, fmt.Errorf("contents.plist: %d keys vs %d values", len(d.Keys), len(d.Vals))
 	}
-	f := &font{names: make(map[string]bool), cmap: make(map[rune]string)}
+	f := &font{names: make(map[string]bool), cmap: make(map[rune]string), anchored: make(map[string]bool)}
 	for i, name := range d.Keys {
 		f.names[name] = true
 		gfile := filepath.Join(ufo, "glyphs", d.Vals[i])
@@ -105,6 +118,11 @@ func loadFont(ufo string) (*font, error) {
 		var g glif
 		if err := xml.Unmarshal(gdata, &g); err != nil {
 			return nil, fmt.Errorf("parse %s: %w", gfile, err)
+		}
+		for _, a := range g.Anchors {
+			if a.Name != "" && !strings.HasPrefix(a.Name, "_") {
+				f.anchored[name] = true
+			}
 		}
 		for _, u := range g.Unicodes {
 			var cp rune
@@ -230,6 +248,47 @@ func markClass(f *font) []string {
 	return marks
 }
 
+// baseClass returns the glyphs carrying a mark-attaching anchor that are not
+// marks themselves (a mark's own non-"_" anchors are for mark-to-mark).
+func baseClass(f *font, marks []string) []string {
+	isMark := make(map[string]bool, len(marks))
+	for _, m := range marks {
+		isMark[m] = true
+	}
+	var bases []string
+	for name := range f.anchored {
+		if !isMark[name] {
+			bases = append(bases, name)
+		}
+	}
+	sort.Strings(bases)
+	return bases
+}
+
+// hasHebrew reports whether the font has Hebrew letters.
+func hasHebrew(f *font) bool {
+	for cp := rune(0x05D0); cp <= 0x05EA; cp++ {
+		if _, ok := f.cmap[cp]; ok {
+			return true
+		}
+	}
+	return false
+}
+
+func writeClass(b *strings.Builder, name string, glyphs []string) {
+	b.WriteString("@" + name + " = [\n")
+	for i, m := range glyphs {
+		if i%8 == 0 {
+			b.WriteString("    ")
+		}
+		b.WriteString("\\" + m + " ")
+		if i%8 == 7 {
+			b.WriteString("\n")
+		}
+	}
+	b.WriteString("\n];\n\n")
+}
+
 // simplePair emits a single-substitution list if any glyph pairs exist.
 func simplePairs(f *font, pairs [][2]rune) []rule {
 	var rules []rule
@@ -285,24 +344,24 @@ func generate(f *font) string {
 	b.WriteString("languagesystem arab dflt;\n")
 	b.WriteString("languagesystem arab ARA;\n")
 	b.WriteString("languagesystem arab FAR;\n")
-	b.WriteString("languagesystem arab URD;\n\n")
+	b.WriteString("languagesystem arab URD;\n")
+	if hasHebrew(f) {
+		b.WriteString("languagesystem hebr dflt;\n")
+	}
+	b.WriteString("\n")
 
-	// GDEF mark class.
+	// GDEF glyph classes: bases (anchor carriers) and marks.
 	marks := markClass(f)
+	bases := baseClass(f, marks)
 	if len(marks) > 0 {
-		b.WriteString("@GDEF_Marks = [\n")
-		for i, m := range marks {
-			if i%8 == 0 {
-				b.WriteString("    ")
-			}
-			b.WriteString("\\" + m + " ")
-			if i%8 == 7 {
-				b.WriteString("\n")
-			}
+		baseRef := ""
+		if len(bases) > 0 {
+			writeClass(&b, "GDEF_Bases", bases)
+			baseRef = "@GDEF_Bases"
 		}
-		b.WriteString("\n];\n\n")
+		writeClass(&b, "GDEF_Marks", marks)
 		b.WriteString("table GDEF {\n")
-		b.WriteString("    GlyphClassDef , , @GDEF_Marks, ;\n")
+		fmt.Fprintf(&b, "    GlyphClassDef %s, , @GDEF_Marks, ;\n", baseRef)
 		b.WriteString("} GDEF;\n\n")
 	}
 

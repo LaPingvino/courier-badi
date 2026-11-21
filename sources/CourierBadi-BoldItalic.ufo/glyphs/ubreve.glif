@@ -2,6 +2,10 @@
 <glyph name="ubreve" format="2">
   <advance width="1228"/>
   <unicode hex="016D"/>
+  <anchor x="614" y="1533" name="above"/>
+  <anchor x="1228" y="1405" name="attachedAboveRight"/>
+  <anchor x="614" y="-56" name="attachedBelow"/>
+  <anchor x="614" y="-184" name="below"/>
   <outline>
     <component base="u"/>
     <component base="breve" xOffset="-1.0"/>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uniFB2B" format="2">
+  <advance width="1228"/>
+  <unicode hex="FB2B"/>
+  <anchor x="601.0" y="0" name="bottom"/>
+  <anchor x="907.0" y="0" name="bottomright"/>
+  <anchor x="882.1561663703642" y="551" name="center"/>
+  <anchor x="210.93526549975053" y="1270" name="holam"/>
+  <anchor x="601.0" y="0" name="lowerdot"/>
+  <anchor x="1307.9352654997506" y="1270" name="shindot"/>
+  <anchor x="346.9352654997505" y="1270" name="sindot"/>
+  <anchor x="825.4160498694495" y="1199" name="top"/>
+  <anchor x="477.41604986944947" y="1199" name="topleft"/>
+  <anchor x="1230.4160498694496" y="1199" name="topright"/>
+  <anchor x="880.2537408697822" y="1510" name="upperdot"/>
+  <anchor x="614" y="1498" name="above"/>
+  <anchor x="1228" y="1370" name="attachedAboveRight"/>
+  <anchor x="614" y="-25" name="attachedBelow"/>
+  <anchor x="614" y="-153" name="below"/>
+  <outline>
+    <component base="uni05E9"/>
+    <component base="uni05C2" xOffset="-506.86942826376185" yOffset="-90"/>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

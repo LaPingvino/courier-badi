@@ -2,6 +2,10 @@
 <glyph name="Upsilondieresis" format="2">
   <advance width="1228"/>
   <unicode hex="03AB"/>
+  <anchor x="614" y="1784" name="above"/>
+  <anchor x="1228" y="1656" name="attachedAboveRight"/>
+  <anchor x="614" y="0" name="attachedBelow"/>
+  <anchor x="614" y="-128" name="below"/>
   <outline>
     <component base="uni0308" xOffset="-75.5" yOffset="293"/>
     <component base="Upsilon"/>

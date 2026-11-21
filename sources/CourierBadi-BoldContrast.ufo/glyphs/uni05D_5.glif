@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni05D5" format="2">
+  <advance width="1228"/>
+  <unicode hex="05D5"/>
+  <anchor x="614" y="0" name="bottom"/>
+  <anchor x="535" y="0" name="bottomright"/>
+  <anchor x="376" y="550" name="center"/>
+  <anchor x="614" y="1270" name="holam"/>
+  <anchor x="614" y="0" name="lowerdot"/>
+  <anchor x="614" y="1199" name="top"/>
+  <anchor x="628" y="1199" name="topleft"/>
+  <anchor x="614" y="1199" name="topright"/>
+  <anchor x="614" y="1510" name="upperdot"/>
+  <anchor x="614" y="1234" name="above"/>
+  <anchor x="1228" y="1106" name="attachedAboveRight"/>
+  <anchor x="614" y="-16" name="attachedBelow"/>
+  <anchor x="614" y="-144" name="below"/>
+  <outline>
+    <contour>
+      <point x="591.6063915919202" y="1106.001604371592" type="line" smooth="yes"/>
+      <point x="528.4075536997286" y="1106.0647930627608"/>
+      <point x="481.25345478680316" y="1071.1574601071316"/>
+      <point x="479.0000039424649" y="1025.992290250602" type="curve" smooth="yes"/>
+      <point x="479.00000393468605" y="64.00770213957647" type="line" smooth="yes"/>
+      <point x="481.29753633261817" y="17.90455122706359"/>
+      <point x="529.189524092954" y="-16.17263573861664"/>
+      <point x="591.6493052745099" y="-16.00127358978383" type="curve" smooth="yes"/>
+      <point x="636.3506947254901" y="-16.00127358978383" type="line" smooth="yes"/>
+      <point x="698.810475907046" y="-16.17263573861664"/>
+      <point x="746.7024636673818" y="17.90455122706359"/>
+      <point x="748.999996065314" y="64.00770213957647" type="curve" smooth="yes"/>
+      <point x="748.9999960575351" y="1025.992290250602" type="line" smooth="yes"/>
+      <point x="746.7465452131968" y="1071.1574601071316"/>
+      <point x="699.5924463002714" y="1106.0647930627608"/>
+      <point x="636.3936084080798" y="1106.001604371592" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.hebrew</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
+</glyph>

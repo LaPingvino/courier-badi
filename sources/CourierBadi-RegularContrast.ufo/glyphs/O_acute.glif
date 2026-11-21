@@ -2,6 +2,10 @@
 <glyph name="Oacute" format="2">
   <advance width="1228"/>
   <unicode hex="00D3"/>
+  <anchor x="614" y="1801" name="above"/>
+  <anchor x="1228" y="1673" name="attachedAboveRight"/>
+  <anchor x="614" y="-8" name="attachedBelow"/>
+  <anchor x="614" y="-136" name="below"/>
   <outline>
     <component base="O"/>
     <component base="acute" xOffset="-22" yOffset="270"/>

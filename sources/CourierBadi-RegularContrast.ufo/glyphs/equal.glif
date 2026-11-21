@@ -2,6 +2,10 @@
 <glyph name="equal" format="2">
   <advance width="1228"/>
   <unicode hex="003D"/>
+  <anchor x="614" y="968" name="above"/>
+  <anchor x="1228" y="840" name="attachedAboveRight"/>
+  <anchor x="614" y="324" name="attachedBelow"/>
+  <anchor x="614" y="196" name="below"/>
   <outline>
     <component base="minus" yOffset="200"/>
     <component base="minus" yOffset="-200"/>

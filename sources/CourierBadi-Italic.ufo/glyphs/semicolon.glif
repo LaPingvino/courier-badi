@@ -2,6 +2,10 @@
 <glyph name="semicolon" format="2">
   <advance width="1228"/>
   <unicode hex="003B"/>
+  <anchor x="614" y="1062" name="above"/>
+  <anchor x="1228" y="934" name="attachedAboveRight"/>
+  <anchor x="614" y="-294" name="attachedBelow"/>
+  <anchor x="614" y="-422" name="below"/>
   <outline>
     <component base="comma" xOffset="20.0"/>
     <component base="period.squat" xOffset="111.7913057691668" yOffset="634"/>
