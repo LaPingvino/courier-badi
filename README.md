@@ -36,17 +36,33 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
-**Unreleased (branch `hebrew`)**
-- **Hebrew.** Letters, Yiddish ligatures, punctuation, all points (niqqud) and
-  cantillation marks, and the presentation forms U+FB1D–FB4F, adapted from
-  Cousine's Hebrew (OFL) and fitted to Courier
-  Badi's cell, height and monoline stroke (`scripts/import-hebrew.py`,
-  `scripts/fit-hebrew.py`).
-- **First GPOS.** Marks are now positioned by a GPOS `mark`/`mkmk` feature from
-  UFO anchors: the Hebrew's from the donor, every other script's generated
-  from HarfBuzz's fallback rule, which positioned them before
-  (`scripts/make-mark-anchors.py`; `scripts/check-mark-parity.py` reports the
-  remaining differences).
+**21 November 2026. Version 1.100**
+- **Hebrew.** All Hebrew letters, final forms, Yiddish ligatures and
+  punctuation (maqaf, sof pasuq, geresh, gershayim, …), adapted from Cousine's
+  Hebrew (OFL) and fitted to Courier Badi: the same 1228 cell, a height between
+  x-height and caps, the Latin's monoline stems (150 vertical / 144
+  horizontal) and its rounded terminals. Bold and Italic follow automatically.
+- **Niqqud and cantillation.** Every point and cantillation mark is positioned
+  per letter by the font's first GPOS (`mark`/`mkmk`): shin and sin dots,
+  dagesh and shuruq, holam (and holam male on vav), vowels under final kaf and
+  final nun, stacked cantillation. Meteg or a below accent after a below vowel
+  sits **beside** the vowel instead of under it, as in the donor.
+- **Presentation forms** U+FB1D–FB4F are composites of their letter and marks,
+  placed exactly where the GPOS would put them, and **U+05EF ׯ** (yod
+  triangle) is built from three yods.
+- **Other scripts keep their mark placement.** Until now Latin, Greek,
+  Cyrillic and Arabic marks were placed by the shaper's fallback, which
+  switches off once a font has a GPOS; they now carry anchors that reproduce
+  that placement (Arabic within 19 units), so they work the same in HarfBuzz
+  and now also in shapers that never had a fallback. The dotted circle ◌ takes
+  marks of every script.
+- **Bold marks keep their clearance.** The Bold's anchors move with its
+  dilation, so marks don't crowd the heavier letters.
+- Build: `make build` no longer ships stale static fonts (the instance UFOs
+  are regenerated every build); the virtualenv's dead entry points were
+  repaired. New scripts: `import-hebrew.py`, `fit-hebrew.py` (with `--check`),
+  `make-mark-anchors.py`, `check-mark-parity.py`; `scripts/arabic-features`
+  now also writes the Hebrew languagesystem and the GDEF base class.
 
 **20 July 2026. Version 1.010**
 - **Submission-ready split.** The shipping family is now a clean **wght + ital**
