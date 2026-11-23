@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="highspacingdotDeva.init" format="2">
+  <advance width="1228"/>
+  <anchor x="759.326980708465" y="1000" name="topDeva"/>
+  <anchor x="810.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="663.4950142490566" y="939.568925512663" type="curve" smooth="yes"/>
+      <point x="652.9516838020481" y="884.0089702431495"/>
+      <point x="701.0268299498593" y="843.2755972059681"/>
+      <point x="769.5277209687345" y="845.0" type="curve" smooth="yes"/>
+      <point x="798.3593830531851" y="844.7561383896056"/>
+      <point x="830.0906296118883" y="852.131818218381"/>
+      <point x="837.6760444559532" y="869.9943261528116" type="curve"/>
+      <point x="1385.6089861493028" y="869.5310344989215" type="line"/>
+      <point x="1413.1004277320958" y="993.6014896132505" type="line"/>
+      <point x="881.8638845627312" y="993.0175815139975" type="line"/>
+      <point x="886.9559097255145" y="1024.8222166499222"/>
+      <point x="849.103465562355" y="1038.612691524265"/>
+      <point x="808.4959837053052" y="1038.0" type="curve" smooth="yes"/>
+      <point x="741.4767043476611" y="1039.319539645984"/>
+      <point x="676.9766723453495" y="994.0093112205702"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

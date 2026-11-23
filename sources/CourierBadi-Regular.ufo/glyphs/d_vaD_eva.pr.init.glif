@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="d_vaDeva.pr.init" format="2">
+  <advance width="1228"/>
+  <anchor x="2257" y="-167" name="bottomDeva"/>
+  <anchor x="2194" y="-245" name="bottom2Deva"/>
+  <anchor x="2213" y="1000" name="candraDeva"/>
+  <anchor x="2048" y="-217" name="halantDeva"/>
+  <anchor x="2138" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="2281" y="-255" type="curve"/>
+      <point x="2419" y="-194" type="line"/>
+      <point x="2349" y="-59"/>
+      <point x="2305" y="47"/>
+      <point x="2264" y="153" type="curve"/>
+      <point x="2324" y="181"/>
+      <point x="2358" y="226"/>
+      <point x="2358" y="285" type="curve" smooth="yes"/>
+      <point x="2358" y="358"/>
+      <point x="2298" y="427"/>
+      <point x="2213" y="427" type="curve" smooth="yes"/>
+      <point x="2139" y="427"/>
+      <point x="2096" y="382"/>
+      <point x="2096" y="312" type="curve" smooth="yes"/>
+      <point x="2096" y="291"/>
+      <point x="2098" y="270"/>
+      <point x="2104" y="256" type="curve"/>
+      <point x="2085" y="254"/>
+      <point x="2066" y="253"/>
+      <point x="2049" y="253" type="curve" smooth="yes"/>
+      <point x="1900" y="253"/>
+      <point x="1805" y="312"/>
+      <point x="1805" y="426" type="curve" smooth="yes"/>
+      <point x="1805" y="544"/>
+      <point x="1898" y="598"/>
+      <point x="2081" y="598" type="curve" smooth="yes"/>
+      <point x="2225" y="598" type="line" smooth="yes"/>
+      <point x="2271" y="598"/>
+      <point x="2289" y="620"/>
+      <point x="2289" y="669" type="curve" smooth="yes"/>
+      <point x="2289" y="864" type="line"/>
+      <point x="2398" y="864" type="line" smooth="yes"/>
+      <point x="2440" y="864"/>
+      <point x="2456" y="885"/>
+      <point x="2456" y="929" type="curve" smooth="yes"/>
+      <point x="2456" y="942" type="line" smooth="yes"/>
+      <point x="2456" y="987"/>
+      <point x="2440" y="1007"/>
+      <point x="2398" y="1007" type="curve" smooth="yes"/>
+      <point x="1554" y="1007" type="line" smooth="yes"/>
+      <point x="1512" y="1007"/>
+      <point x="1496" y="987"/>
+      <point x="1496" y="942" type="curve" smooth="yes"/>
+      <point x="1496" y="929" type="line" smooth="yes"/>
+      <point x="1496" y="885"/>
+      <point x="1512" y="864"/>
+      <point x="1554" y="864" type="curve" smooth="yes"/>
+      <point x="2138" y="864" type="line"/>
+      <point x="2138" y="737" type="line"/>
+      <point x="2056" y="737" type="line" smooth="yes"/>
+      <point x="1792" y="737"/>
+      <point x="1654" y="635"/>
+      <point x="1654" y="434" type="curve" smooth="yes"/>
+      <point x="1654" y="364"/>
+      <point x="1672" y="306"/>
+      <point x="1703" y="266" type="curve"/>
+      <point x="1615" y="220"/>
+      <point x="1562" y="138"/>
+      <point x="1564" y="34" type="curve" smooth="yes"/>
+      <point x="1567" y="-130"/>
+      <point x="1683" y="-222"/>
+      <point x="1855" y="-221" type="curve" smooth="yes"/>
+      <point x="2007" y="-218"/>
+      <point x="2122" y="-150"/>
+      <point x="2187" y="-36" type="curve"/>
+      <point x="2213" y="-101"/>
+      <point x="2245" y="-174"/>
+    </contour>
+    <contour>
+      <point x="2133" y="111" type="curve"/>
+      <point x="2101" y="17"/>
+      <point x="2000" y="-90"/>
+      <point x="1855" y="-91" type="curve" smooth="yes"/>
+      <point x="1779" y="-93"/>
+      <point x="1705" y="-58"/>
+      <point x="1705" y="34" type="curve" smooth="yes"/>
+      <point x="1704" y="94"/>
+      <point x="1742" y="140"/>
+      <point x="1804" y="165" type="curve"/>
+      <point x="1875" y="126"/>
+      <point x="1964" y="107"/>
+      <point x="2051" y="107" type="curve" smooth="yes"/>
+      <point x="2083" y="107"/>
+      <point x="2109" y="109"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</glyph>

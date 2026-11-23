@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="oeMatra_rephDeva" format="2">
+  <anchor x="-289" y="1000" name="_topDeva"/>
+  <outline>
+    <contour>
+      <point x="-240.0" y="1219.0" type="curve" smooth="yes"/>
+      <point x="-239.43893651631276" y="1145.8927218781091"/>
+      <point x="-203.62409321101404" y="1063.846765543863"/>
+      <point x="-149.74451856293302" y="994.9795409198582" type="curve"/>
+      <point x="25.2611416146508" y="992.4696225885504" type="line"/>
+      <point x="-19.168700296141967" y="1062.3020112805127"/>
+      <point x="-45.662443982690235" y="1123.8598755363164"/>
+      <point x="-45.0" y="1195.0" type="curve" smooth="yes"/>
+      <point x="-46.69006431573763" y="1268.9651592776875"/>
+      <point x="-18.09947696228881" y="1324.1541281555699"/>
+      <point x="58.0" y="1325.0" type="curve" smooth="yes"/>
+      <point x="99.66312013697588" y="1324.8842204090863"/>
+      <point x="133.3438424147933" y="1312.9986736723936"/>
+      <point x="199.53816827501467" y="1288.8421022950054" type="curve"/>
+      <point x="239.9631009216235" y="1404.254392999174" type="line"/>
+      <point x="180.2707215171448" y="1418.1386313738794"/>
+      <point x="117.44954761246478" y="1434.1237654865104"/>
+      <point x="43.0" y="1434.0" type="curve" smooth="yes"/>
+      <point x="-113.55093885064872" y="1434.603413222567"/>
+      <point x="-237.51596894813753" y="1364.0281919634558"/>
+    </contour>
+    <contour>
+      <point x="-454.0" y="1053.0" type="line" smooth="yes"/>
+      <point x="-453.2026862870953" y="1007.4404533826371"/>
+      <point x="-418.45207398128724" y="995.2396123902681"/>
+      <point x="-364.0" y="996.0" type="curve" smooth="yes"/>
+      <point x="-342.0" y="996.0" type="line" smooth="yes"/>
+      <point x="-287.54792601871276" y="995.2396123902681"/>
+      <point x="-252.79731371290472" y="1007.4404533826371"/>
+      <point x="-252.0" y="1053.0" type="curve" smooth="yes"/>
+      <point x="-252.0" y="1230.0" type="line" smooth="yes"/>
+      <point x="-252.79731371290472" y="1275.559546617363"/>
+      <point x="-287.54792601871276" y="1287.7603876097319"/>
+      <point x="-342.0" y="1287.0" type="curve" smooth="yes"/>
+      <point x="-364.0" y="1287.0" type="line" smooth="yes"/>
+      <point x="-418.45207398128724" y="1287.7603876097319"/>
+      <point x="-453.2026862870953" y="1275.559546617363"/>
+      <point x="-454.0" y="1230.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

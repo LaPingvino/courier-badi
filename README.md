@@ -29,12 +29,26 @@ The proof files and QA tests are also available automatically via GitHub Actions
 
 Non-obvious design decisions (the monospace model, **zero-width combining
 marks** and their GPOS anchors, the generated Arabic shaping features, the
-Hebrew import, stylistic sets, Cyrillic mark centering) are documented in
+Hebrew and Devanagari imports, stylistic sets, Cyrillic mark centering) are documented in
 [documentation/design-notes.md](documentation/design-notes.md).
 Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 (Go) — run `make arabic-features` after changing Arabic glyphs.
 
 ## Changelog
+
+**23 November 2026. Version 1.103**
+- **Devanagari.** Hindi, Marathi, Nepali and Sanskrit, adapted from Noto Sans
+  Devanagari (OFL) with its OpenType shaping (nukt, akhn, rphf, rkrf, blwf,
+  half, cjct, pres, abvs, blws, psts; abvm/blwm from its anchors; the donor
+  needs no pstf, vatu or haln: its rakar forms are rkrf ligatures):
+  every Hindi conjunct, reph, nukta, candrabindu. Monospaced the way the
+  editor counts: a cluster takes one cell per letter and per spacing vowel
+  sign (ा ि ी ो ौ ः), none for a mark, so क्ष and कि take two cells, धर्म
+  three; a conjunct is drawn across its cells, the headline runs on over
+  the empty part of a cell and stops at a word's edges, and the i-matra's
+  hook reaches over the whole cluster. Scaled into the 12 pt screenplay line
+  (headline at 1000, the signs under a letter shortened); the stroke is the
+  Latin's. See documentation/design-notes.md, "Devanagari".
 
 **23 November 2026. Version 1.102**
 - **Arabic fits the screenplay line.** A screenplay is single-spaced at 12 pt

@@ -21,6 +21,14 @@
   <anchor x="237.0" y="0" name="*bottomacc.v3" identifier="side-uni25CC-v3"/>
   <anchor x="212.0" y="0" name="*bottomacc.v4" identifier="side-uni25CC-v4"/>
   <anchor x="180.0" y="0" name="*bottomacc.v5" identifier="side-uni25CC-v5"/>
+  <anchor x="712.5338635980376" y="-31" name="bottomDeva"/>
+  <anchor x="765.0170892956927" y="-119" name="bottom2Deva"/>
+  <anchor x="1017.326980708465" y="986.0" name="candraDeva"/>
+  <anchor x="716.0097653118244" y="-68" name="halantDeva"/>
+  <anchor x="282.13057173623815" y="-90" name="nuktaDeva"/>
+  <anchor x="968.9133721669716" y="-202.0" name="nuktaDeva.sat"/>
+  <anchor x="929.326980708465" y="986.0" name="topDeva"/>
+  <anchor x="542.326980708465" y="986.0" name="topVedicDeva"/>
   <anchor x="614" y="919" name="aboveArab0"/>
   <anchor x="614" y="919" name="aboveArab1"/>
   <anchor x="614" y="919" name="aboveArab2"/>
@@ -275,6 +283,8 @@
   </outline>
   <lib>
     <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>anchors-fitted</string>
       <key>org.courierbadi.hebrew</key>
       <string>anchors-fitted</string>
       <key>public.objectLibs</key>

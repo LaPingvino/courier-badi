@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gg_raDeva.pr.init" format="2">
+  <advance width="1228"/>
+  <anchor x="2142" y="-55" name="bottomDeva"/>
+  <anchor x="2142" y="-153.0" name="bottom2Deva"/>
+  <anchor x="2218" y="1000" name="candraDeva"/>
+  <anchor x="2142" y="-121.0" name="halantDeva"/>
+  <anchor x="2142" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="1885.815015877283" y="844.4468700268604" type="line"/>
+      <point x="2114.922116761986" y="843.4381849208664" type="line"/>
+      <point x="2112.338976486908" y="506.6199784643606" type="line"/>
+      <point x="1783.7474854009088" y="287.02393051682395" type="line" smooth="yes"/>
+      <point x="1737.2363650583459" y="250.6260178035831"/>
+      <point x="1730.4643575926102" y="188.2916067910519"/>
+      <point x="1765.8804764936892" y="142.2337304114077" type="curve"/>
+      <point x="1775.8804764936892" y="131.2337304114077" type="line"/>
+      <point x="1812.2379014135506" y="88.33306197897102"/>
+      <point x="1871.5750700875185" y="81.82761683606851"/>
+      <point x="1914.5219715186358" y="115.89190738933674" type="curve"/>
+      <point x="2131.4439360761094" y="295.68019934413684" type="line"/>
+      <point x="2124.641682358715" y="91.23506129058498" type="line"/>
+      <point x="1694.0" y="96.0" type="line" smooth="yes"/>
+      <point x="1643.380735855052" y="93.95297639860686"/>
+      <point x="1606.0785709938818" y="50.49585264674017"/>
+      <point x="1605.0" y="0.0" type="curve" smooth="yes"/>
+      <point x="1605.0" y="-13.0" type="line" smooth="yes"/>
+      <point x="1606.0785709938818" y="-63.49585264674017"/>
+      <point x="1643.380735855052" y="-106.95297639860686"/>
+      <point x="1694.0" y="-109.0" type="curve" smooth="yes"/>
+      <point x="2230.0" y="-109.0" type="line" smooth="yes"/>
+      <point x="2287.052712129376" y="-107.15334437636547"/>
+      <point x="2326.957358990817" y="-61.35538678640429"/>
+      <point x="2328.0" y="-4.0" type="curve" smooth="yes"/>
+      <point x="2327.758548083735" y="859.9551970037921" type="line"/>
+      <point x="2398.0" y="830.0" type="line" smooth="yes"/>
+      <point x="2451.574996842565" y="832.0309611014874"/>
+      <point x="2489.014505883782" y="876.8733523978383"/>
+      <point x="2490.0" y="929.0" type="curve" smooth="yes"/>
+      <point x="2490.0" y="942.0" type="line" smooth="yes"/>
+      <point x="2489.014505883782" y="995.1266476021617"/>
+      <point x="2451.0836832328596" y="1039.1426813752933"/>
+      <point x="2398.0" y="1041.0" type="curve" smooth="yes"/>
+      <point x="1565.0" y="1041.0" type="line" smooth="yes"/>
+      <point x="1512.9163167671402" y="1039.1426813752933"/>
+      <point x="1474.1063932288416" y="995.6029433093798"/>
+      <point x="1473.0" y="942.0" type="curve" smooth="yes"/>
+      <point x="1473.0" y="929.0" type="line" smooth="yes"/>
+      <point x="1474.1063932288416" y="876.3970566906202"/>
+      <point x="1512.4250031574352" y="832.0309611014874"/>
+      <point x="1565.0" y="830.0" type="curve" smooth="yes"/>
+      <point x="1679.1964824811782" y="845.9346359421424" type="line"/>
+      <point x="1674.3536772981342" y="640.891315635073" type="line"/>
+      <point x="1675.3035593290306" y="670.9986448514313" type="line" smooth="yes"/>
+      <point x="1583.8961588618724" y="668.7725829875849"/>
+      <point x="1537.2304219113573" y="606.0639258543055"/>
+      <point x="1536.0" y="543.0" type="curve" smooth="yes"/>
+      <point x="1540.7222992420855" y="444.7136979567632"/>
+      <point x="1665.0232546041873" y="324.98760911627704"/>
+      <point x="1771.0" y="321.0" type="curve" smooth="yes"/>
+      <point x="1839.907900739159" y="323.9746829664916"/>
+      <point x="1890.5231583699888" y="384.08818030628913"/>
+      <point x="1892.0" y="460.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -374,3 +374,134 @@ U+05EF (yod triangle), which the donor does not have, is built by
 `fit-hebrew.py` from the fitted yod: three yods scaled 0.9 (one on top, two
 below) as outlines, with the stroke restored to 150 / 144 by the same normal
 offset as the fit (scaled components would have 135-unit stems).
+
+## Devanagari
+
+The Devanagari (U+0900–097F, with the Vedic signs U+1CD0–1CFF and
+U+A8E0–A8FF, the Common Indic Number Forms U+A830–A839 and U+20F0 that the
+donor's shaping uses) is adapted from **Noto Sans Devanagari** (SIL OFL 1.1;
+Copyright 2022 The Noto Project Authors, https://github.com/notofonts/devanagari).
+No open monospaced Devanagari fits: the only one found, Monotty (OFL), gives
+a conjunct one half-em cell and has no Latin; GNU Unifont is a bitmap without
+shaping. Noto Sans Devanagari is monoline like the Latin, covers every Hindi
+conjunct (half forms for all but ङ छ ट ठ ड ढ द ह, which take a visible
+virama or a ligature, as in Hindi), Marathi, Nepali and Sanskrit forms, and
+is variable in weight, so its stroke can be matched. As with the Hebrew,
+only the Regular is touched; the other masters are derived.
+
+1. `scripts/import-devanagari.py --source NotoSansDevanagari.glyphspackage`
+   (notofonts/devanagari at 7810f785) makes an instance of the donor's source
+   at wght 475 (glyphsLib + fontmake's instantiator) and imports its glyphs
+   (components decomposed, canonical winding), its anchors (renamed
+   `topDeva`, `_bottomDeva`, …, so they never pair with the Hebrew or the
+   fallback anchors), its glyph categories (`public.openTypeCategories`; the
+   generator puts the unencoded marks among them into the GDEF mark class)
+   and its feature code: between markers after the Arabic block, glyph names
+   mapped to Courier Badi's (space, U+25CC, the joiners), the donor's ss01
+   (Nepali nine) renamed ss02. The donor's glyph names (`ka-deva`) are no
+   valid production names; they become `kaDeva`, `anudattaVedic`. The rupee
+   sign U+20B9 comes along (an Indic font must have it). The source, not the binary, is the donor: its
+   features are readable (classes, named lookups), and ufo2ft builds the
+   mark positioning from the anchors per master.
+2. `scripts/fit-devanagari.py` fits it (below), then `make arabic-features`
+   (it declares `deva`/`dev2` with the donor's languages MAR NEP SAN SAT) and
+   `make masters` (make-mark-anchors.py leaves Devanagari alone).
+3. `scripts/check-devanagari.py fonts/ttf/*.ttf` shapes 6000+ clusters (every
+   consonant with every sign, every C+virama+C, C+C+C, reph and rakar forms,
+   a Hindi text) and checks their widths, dotted circles, the ink against the
+   line and the headline.
+
+**Cells.** Accolade and Lexington give a character one cell and a combining
+mark (Mn/Me) or joiner none, so a cluster takes N cells: its consonants and
+spacing signs (ा ि ी ो ौ ः). The donor's glyphs each stand for c(g) of them:
+a consonant or half form 1, a conjunct ligature (क्ष, द्ध, त्र, प्र) 2 or 3,
+reph and rakar 1 (a consonant drawn as a mark), a vowel sign or mark 0. Each
+glyph is drawn over its c cells, so the shaped cluster is exactly N × 1228,
+whatever the donor ligates (check-devanagari: 0 clusters of another width).
+hmtx stays 1228 / 0 (the monospace checks; a renderer without GPOS still
+steps a cell per spacing glyph); the cells past a glyph's first come from a
+`dist` lookup (`DevaCells`): +1228 × (c − 1), and +1228 for `NullMark.cell`,
+the cell of a reph or rakar (below).
+
+Within its cells a glyph is placed by what it joins: a consonant centred; a
+half form against its cell's right edge, at the consonant after it; the
+i-matra (ि, pre-base) against its right edge too; the post-base signs
+(ा ी ो ौ ः) against their left edge. A multi-cell conjunct (about one cell
+wide in two) moves to the sign it goes with (`DevaPackSub`, psts: forms
+`.pr`, `.pl`): right,
+against a post-base sign after it (ज्ञा, श्रा); left, against an i-matra or
+half form before it (त्रि, प्रि, स्त्र). Reph and rakar (and the donor's
+marks made of them, e-matra + reph, rakar + u …) stay marks placed by their
+anchors, as in the donor; their cell is a `NullMark.cell` (a mark with a
+headline and nothing else) that a psts lookup (`DevaCellAfter`) puts after
+them, without a headline at a word's end. Where the donor makes the reph
+part of an i-matra glyph and the reph NullMark (र्कि), the reph becomes
+`NullMark.cell` too. A spacing glyph without the donor's top anchors (the
+post-base signs ा ी ो ौ, a few others) had a following ं ँ or reph at the
+mark's own place after its advance; placed in a cell, it gets `topDeva` /
+`candraDeva` anchors where that was (its donor advance's end plus the
+median mark anchor), so माँ, कां, शर्मा keep the sign on the ा.
+
+**The i-matra's hook** must reach the consonant after it, over the half forms
+in between: the donor's 15 width variants (×6: with anusvara, candrabindu,
+reph) are replaced after all of the donor's substitutions (`DevaIMatraCells`,
+psts) by variants named for how far the hook reaches in quarter cells
+(`iMatraDeva.q7`), picked by the half forms' cells and the consonant's
+target (where the donor's own i-matra for it ends, through the same
+placement); the hook is stretched in its middle, its end (and any reph or
+anusvara on it) moved rigidly.
+
+**The headline** of every glyph that has one is extended to its cells'
+edges, so a word's headline runs unbroken over the empty part of a cell (a
+multi-cell conjunct's `.pr` and `.pl` forms to the far edge). At a
+word's edges this would leave a stub of headline in front of the word or
+after it (कि, ज्ञ, का), so a glyph whose extension at an edge is longer than
+150 also has `.init` / `.fina` / `.isol` forms without it, chosen by `calt`
+lookups (`DevaWordStart`, `DevaWordEnd`, `DevaCellWordEnd`) when no glyph
+with a headline comes before or after it (a space, Latin, a danda, a digit).
+They are `calt` lookups because HarfBuzz applies the Indic features (pres …
+psts) per syllable, and a word's edge is found across syllables.
+
+**Size and stroke.** The donor's headline top (622) is put at 1000 (x-height
+924, cap height 1187; Hebrew 1086): a consonant is then about one cell wide.
+Below −120 the depth is scaled 0.78 (and above 1460, where only Vedic
+signs stacked over a letter reach, the height 0.5), so the signs under a letter end inside
+the line (कु −384, कू −398, क् −370; the strokes there grown back
+vertically); above, nothing reaches the line's top (the highest, ि ी with
+reph and candrabindu, end at 1449 of 1628). At wght 475 the stem is the
+Latin's 150; the horizontals (headline 130) grow 7 each side to the Latin's
+144. Convex corners are rounded like the Latin's terminals (fit-hebrew.py's
+`round_corners`). A letter wider than its cells (आ, औ, ॐ, ऋ) is condensed into
+them, its stems grown back.
+
+Still outside the line (under −399): a ु or ू under the deeper letters (हु
+−457, दु −408, ड़ु −568), a visible virama under ह ङ छ ट ठ ड ढ (ह् −554),
+stacked Sanskrit conjuncts (द्द्व −569) and the Sanskrit vowel signs ॄ ॢ ॣ
+(to −626). Devanagari never reaches higher than 1449, 179 under the line's
+top, so two Devanagari lines do not touch; a line with a Latin capital
+accent (É 1685) under such a line can. The Bold, grown 34 all round and its
+below marks moved down with their anchors (make-bold.py), reaches 1516 and
+−418 (कु), −427 (कू), −470 (क्).
+
+Changed from the donor: र + ृ ॄ ॢ ॣ is drawn as र with the sign (the donor's
+ऋ-with-reph form would take a second cell), ई stays one glyph (the donor
+splits it into इ + reph for stacking), and the donor's kerning is not used.
+
+**Coverage tables as glyph lists.** go-text/typesetting (v0.3.5), the shaper
+of Lexington and of Fyne (Accolade), ports HarfBuzz's set digest with a
+difference: `setDigest.addRange` stops adding a range coverage's (format 2)
+ranges as soon as any one of its three bit filters is full, where HarfBuzz
+stops only when all are. A lookup whose coverage spans many glyphs (the cell
+lookup `DevaCells`, ~600 glyphs) then skips the glyphs of its later ranges:
+in go-text क्ष, ज्ञ, त्र lost their second cell. `scripts/coverage-format1.py`
+(a post-build step) writes every Coverage as format 1, which goes through
+`setDigest.add`; the tables mean the same and are a little larger.
+
+**Language systems.** The donor's features carry no script statement, so
+they are registered for every declared language system, and so give the
+Arabic languages ARA, FAR and URD language systems of their own. A shaper
+asked for Arabic in such a language (go-text with "ar") takes that system
+and not the script's default, so the generated Arabic features (and ss01)
+now name ARA, FAR and URD as well (a `language` statement takes the
+script's default lookups). In 1.102 the URD system already existed (for the
+Urdu digits' locl) and had no joining features at all; it has them now.

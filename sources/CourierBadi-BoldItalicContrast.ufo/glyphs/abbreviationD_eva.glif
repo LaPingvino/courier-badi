@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="abbreviationDeva" format="2">
+  <advance width="1228"/>
+  <unicode hex="0970"/>
+  <anchor x="847.326980708465" y="1020.0" name="topDeva"/>
+  <anchor x="899.326980708465" y="1020.0" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="693.0268849483255" y="416.99999187839444" type="curve" smooth="yes"/>
+      <point x="855.4137567972343" y="418.31977778304895"/>
+      <point x="1005.2182681560525" y="529.7462301712127"/>
+      <point x="1036.9442068502303" y="670.4920970495053" type="curve" smooth="yes"/>
+      <point x="1059.2770068643597" y="812.6135429487231"/>
+      <point x="941.629979503548" y="927.4492992509116"/>
+      <point x="776.3228529668285" y="929.000017943714" type="curve" smooth="yes"/>
+      <point x="606.4739916488643" y="927.6179335613892"/>
+      <point x="460.1160185675096" y="812.0774454696184"/>
+      <point x="429.7367740609507" y="677.5321731257495" type="curve" smooth="yes"/>
+      <point x="406.8031102975182" y="528.8099516803962"/>
+      <point x="533.8365704236419" y="418.39226221732736"/>
+    </contour>
+    <contour>
+      <point x="715.5403715963936" y="585.0000737147442" type="curve" smooth="yes"/>
+      <point x="663.3191273632647" y="583.216488090611"/>
+      <point x="658.311828357637" y="615.7076904383798"/>
+      <point x="670.8643467112083" y="670.7276711328367" type="curve" smooth="yes"/>
+      <point x="674.4749714743677" y="722.9265428266742"/>
+      <point x="695.6335164872506" y="762.4003437687612"/>
+      <point x="753.7780959699314" y="760.9999538983272" type="curve" smooth="yes"/>
+      <point x="806.2836246294039" y="762.9156377015415"/>
+      <point x="808.5706517168346" y="729.4905704487329"/>
+      <point x="796.7977223633122" y="677.3485937911242" type="curve" smooth="yes"/>
+      <point x="792.8469416381793" y="619.3604787354158"/>
+      <point x="769.0036288802924" y="583.7375847149933"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

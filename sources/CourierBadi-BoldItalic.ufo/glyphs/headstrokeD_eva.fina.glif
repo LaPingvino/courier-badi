@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="headstrokeDeva.fina" format="2">
+  <advance width="1228"/>
+  <anchor x="1063.326980708465" y="1000" name="topDeva"/>
+  <anchor x="1114.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="132.1264026722646" y="827.6768119719327" type="line"/>
+      <point x="406.0003252911094" y="822.0166660083072" type="line"/>
+      <point x="406.70992742483446" y="830.0019422798367" type="line"/>
+      <point x="1153.3465113321138" y="830.0" type="line" smooth="yes"/>
+      <point x="1205.301035009762" y="831.8130708051258"/>
+      <point x="1246.1945463170673" y="871.3626070690244"/>
+      <point x="1256.291228680579" y="923.0959619593243" type="curve" smooth="yes"/>
+      <point x="1258.583479429789" y="936.0959619593244" type="line" smooth="yes"/>
+      <point x="1266.9119611840013" y="989.8867290390808"/>
+      <point x="1231.2795604659182" y="1038.9167927360957"/>
+      <point x="1178.5612695734242" y="1041.0" type="curve" smooth="yes"/>
+      <point x="172.61836308509876" y="1040.6387823122013" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

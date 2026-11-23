@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="upadhmaniyaSignVedic" format="2">
+  <advance width="1228"/>
+  <unicode hex="1CF6"/>
+  <anchor x="1019.326980708465" y="1000" name="topDeva"/>
+  <anchor x="1071.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="474.8980942125395" y="300" type="curve" smooth="yes"/>
+      <point x="569.8980942125395" y="300"/>
+      <point x="634.1275004215865" y="341"/>
+      <point x="689.2916207625145" y="427" type="curve"/>
+      <point x="713.1275004215865" y="341"/>
+      <point x="762.8980942125395" y="300"/>
+      <point x="860.8980942125395" y="300" type="curve" smooth="yes"/>
+      <point x="1006.8980942125395" y="300"/>
+      <point x="1113.1805796499252" y="381"/>
+      <point x="1176.6656166888408" y="690" type="curve"/>
+      <point x="1038.252559515217" y="699" type="line"/>
+      <point x="991.9896047014802" y="482"/>
+      <point x="944.11285245385" y="443"/>
+      <point x="876.11285245385" y="443" type="curve" smooth="yes"/>
+      <point x="789.11285245385" y="443"/>
+      <point x="774.1634903542325" y="500"/>
+      <point x="801.1945976309662" y="693" type="curve"/>
+      <point x="671.1945976309662" y="693" type="line"/>
+      <point x="630.1634903542325" y="500"/>
+      <point x="598.11285245385" y="443"/>
+      <point x="510.11285245385" y="443" type="curve" smooth="yes"/>
+      <point x="432.11285245385" y="443"/>
+      <point x="403.4606237593547" y="479"/>
+      <point x="436.252559515217" y="699" type="curve"/>
+      <point x="292.6656166888408" y="690" type="line"/>
+      <point x="251.18057964992516" y="381"/>
+      <point x="326.8980942125395" y="300"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

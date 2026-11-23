@@ -34,6 +34,13 @@ arabic-features:
 arabic-features-check:
 	cd scripts/arabic-features && go run . --ufo ../../sources/CourierBadi-Regular.ufo --check
 
+# Shape the built fonts' Devanagari: every cluster N cells wide, no dotted
+# circles, the ink against the 12 pt line, the headline (documentation/
+# design-notes.md, "Devanagari"). The Devanagari itself is made by
+# scripts/import-devanagari.py and scripts/fit-devanagari.py (see there).
+check-devanagari: venv build.stamp
+	. venv/bin/activate; python3 scripts/check-devanagari.py fonts/ttf/*.ttf
+
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts
 	# gftools only rebuilds the static instances when the designspace changes,
@@ -44,6 +51,9 @@ build.stamp: venv sources/config.yaml $(SOURCES)
 	# (italic axis for the Regular+Italic family), then refresh the webfonts.
 	. venv/bin/activate; python3 scripts/add-meta-table.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; python3 scripts/add-stat.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
+	# Coverage tables as glyph lists: go-text (Lexington, Accolade) skips
+	# glyphs of large range coverages (see the script).
+	. venv/bin/activate; python3 scripts/coverage-format1.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; for ttf in fonts/ttf/*.ttf; do [ -f "$$ttf" ] && rm -f fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 && fonttools ttLib.woff2 compress -o fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 $$ttf; done
 	touch build.stamp
 
@@ -85,6 +95,7 @@ contrast-vf: venv masters
 	. venv/bin/activate; gftools builder sources/contrast.yaml
 	. venv/bin/activate; python3 scripts/add-meta-table.py $$(find fonts-contrast -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; python3 scripts/add-stat.py $$(find fonts-contrast -name '*.ttf' -o -name '*.otf' 2>/dev/null)
+	. venv/bin/activate; python3 scripts/coverage-format1.py $$(find fonts-contrast -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 
 # Standalone "Contrast" sample preview (its own family name).
 contrast:

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate mark-attachment anchors that reproduce HarfBuzz's fallback mark
-positioning, for every script except Hebrew (which has its own anchors, see
-scripts/import-hebrew.py).
+positioning, for every script except Hebrew and Devanagari (which have their
+own anchors, see scripts/import-hebrew.py and scripts/import-devanagari.py).
 
 Why: until the Hebrew, Courier Badi had no GPOS. Its zero-width combining
 marks (Latin, Greek, Cyrillic, Arabic) were placed by the shaper's *fallback*
@@ -95,9 +95,18 @@ def is_arabic_cp(cp):
     return any(a <= cp <= b for a, b in ARABIC_RANGES)
 
 
+def is_devanagari(cp):
+    return 0x0900 <= cp <= 0x097F or 0x1CD0 <= cp <= 0x1CFF or 0xA8E0 <= cp <= 0xA8FF \
+        or cp == 0x20F0
+
+
+DEVA_KEY = "org.courierbadi.devanagari"
+
+
 def mark_class(cp):
     ch = chr(cp)
-    if ud.category(ch) not in ("Mn", "Me") or is_hebrew(cp) or 0xFE70 <= cp <= 0xFE7F:
+    if ud.category(ch) not in ("Mn", "Me") or is_hebrew(cp) or 0xFE70 <= cp <= 0xFE7F \
+            or is_devanagari(cp):
         return None
     c = ud.combining(ch)
     if c in ARABIC_ABOVE:
@@ -304,7 +313,8 @@ def run(path, groups):
                 for n, _, y in targets(cls, fam, y1, y0, 0, cx=(x0 + x1) / 2, stack=True):
                     new.append((n, (x0 + x1) / 2, y))
             nm += 1
-        elif g.name not in all_marks and g.width > 0:
+        elif g.name not in all_marks and g.width > 0 and g.lib.get(DEVA_KEY) != "fitted":
+            # (Devanagari has the donor's anchors, see fit-devanagari.py)
             # the dotted circle (U+25CC) carries marks of every script
             fams = {"LGC", "Arab"} if 0x25CC in g.unicodes else {family_of_glyph(g)}
             poly = outline_points(font, g) if "Arab" in fams and 0x25CC not in g.unicodes else None

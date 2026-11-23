@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="p_nuktaDeva.init" format="2">
+  <advance width="1228"/>
+  <outline>
+    <contour>
+      <point x="955" y="229" type="curve" smooth="yes"/>
+      <point x="1064" y="229"/>
+      <point x="1164" y="272"/>
+      <point x="1228" y="344" type="curve"/>
+      <point x="1172" y="477" type="line"/>
+      <point x="1122" y="416"/>
+      <point x="1042" y="372"/>
+      <point x="956" y="372" type="curve" smooth="yes"/>
+      <point x="853" y="372"/>
+      <point x="797" y="426"/>
+      <point x="797" y="556" type="curve" smooth="yes"/>
+      <point x="797" y="864" type="line"/>
+      <point x="1032" y="864" type="line" smooth="yes"/>
+      <point x="1074" y="864"/>
+      <point x="1090" y="885"/>
+      <point x="1090" y="929" type="curve" smooth="yes"/>
+      <point x="1090" y="942" type="line" smooth="yes"/>
+      <point x="1090" y="987"/>
+      <point x="1074" y="1007"/>
+      <point x="1032" y="1007" type="curve" smooth="yes"/>
+      <point x="582" y="1007" type="line" smooth="yes"/>
+      <point x="540" y="1007"/>
+      <point x="524" y="987"/>
+      <point x="524" y="942" type="curve" smooth="yes"/>
+      <point x="524" y="926" type="line" smooth="yes"/>
+      <point x="524" y="884"/>
+      <point x="539" y="864"/>
+      <point x="579" y="864" type="curve" smooth="yes"/>
+      <point x="646" y="864" type="line"/>
+      <point x="646" y="559" type="line" smooth="yes"/>
+      <point x="646" y="341"/>
+      <point x="755" y="229"/>
+    </contour>
+    <contour>
+      <point x="694" y="37" type="curve" smooth="yes"/>
+      <point x="694" y="-22"/>
+      <point x="738" y="-68"/>
+      <point x="789" y="-68" type="curve" smooth="yes"/>
+      <point x="844" y="-68"/>
+      <point x="884" y="-22"/>
+      <point x="884" y="37" type="curve" smooth="yes"/>
+      <point x="884" y="94"/>
+      <point x="844" y="142"/>
+      <point x="789" y="142" type="curve" smooth="yes"/>
+      <point x="738" y="142"/>
+      <point x="694" y="95"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

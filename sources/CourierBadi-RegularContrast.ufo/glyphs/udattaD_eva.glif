@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="udattaDeva" format="2">
+  <unicode hex="0951"/>
+  <anchor x="-315.0" y="1014.0" name="_topDeva"/>
+  <anchor x="-257" y="1014.0" name="_topVedicDeva"/>
+  <outline>
+    <contour>
+      <point x="-208.0" y="1086.0" type="line" smooth="yes"/>
+      <point x="-159.51047342725076" y="1085.2326628765525"/>
+      <point x="-127.7290718748458" y="1094.292118428215"/>
+      <point x="-127.0" y="1134.0" type="curve" smooth="yes"/>
+      <point x="-127.0" y="1349.0" type="line" smooth="yes"/>
+      <point x="-127.70703841818046" y="1388.7573126177153"/>
+      <point x="-159.11468035974568" y="1398.842892071162"/>
+      <point x="-208.0" y="1398.0" type="curve" smooth="yes"/>
+      <point x="-221.0" y="1398.0" type="line" smooth="yes"/>
+      <point x="-269.74474632195205" y="1398.8156132376723"/>
+      <point x="-302.2" y="1388.553846153846"/>
+      <point x="-303.0" y="1349.0" type="curve" smooth="yes"/>
+      <point x="-303.0" y="1134.0" type="line" smooth="yes"/>
+      <point x="-302.1752104164433" y="1094.4982922663048"/>
+      <point x="-269.3537049634938" y="1085.2577018044112"/>
+      <point x="-221.0" y="1086.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>0</integer>
+    </dict>
+  </lib>
+</glyph>

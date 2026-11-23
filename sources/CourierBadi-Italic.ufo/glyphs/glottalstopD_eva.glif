@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="glottalstopDeva" format="2">
+  <advance width="1228"/>
+  <unicode hex="097D"/>
+  <anchor x="884.326980708465" y="1000" name="topDeva"/>
+  <anchor x="935.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="776.3825012647596" y="1023" type="curve" smooth="yes"/>
+      <point x="669.3825012647596" y="1023"/>
+      <point x="579.326980708465" y="1000"/>
+      <point x="498.6265554415433" y="962" type="curve"/>
+      <point x="517.6460860651921" y="826" type="line"/>
+      <point x="591.9938573706968" y="862"/>
+      <point x="657.1677430234492" y="880"/>
+      <point x="739.1677430234492" y="880" type="curve" smooth="yes"/>
+      <point x="849.1677430234492" y="880"/>
+      <point x="914.1171051230667" y="823"/>
+      <point x="896.4844070522201" y="723" type="curve" smooth="yes"/>
+      <point x="874.796188425079" y="600"/>
+      <point x="781.5112616597372" y="536"/>
+      <point x="585.1586076983203" y="534" type="curve"/>
+      <point x="502.28492676534177" y="64" type="line" smooth="yes"/>
+      <point x="493.644904710627" y="15"/>
+      <point x="507.76571113504076" y="-7"/>
+      <point x="553.7657111350408" y="-7" type="curve" smooth="yes"/>
+      <point x="575.7657111350408" y="-7" type="line" smooth="yes"/>
+      <point x="621.7657111350408" y="-7"/>
+      <point x="643.644904710627" y="15"/>
+      <point x="652.2849267653418" y="64" type="curve" smooth="yes"/>
+      <point x="712.5887541676368" y="406" type="line"/>
+      <point x="893.4075445310161" y="439"/>
+      <point x="1020.2165695825711" y="540"/>
+      <point x="1051.7790991293864" y="719" type="curve" smooth="yes"/>
+      <point x="1083.3416286762015" y="898"/>
+      <point x="991.3825012647596" y="1023"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

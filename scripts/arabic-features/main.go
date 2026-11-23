@@ -59,6 +59,10 @@ type font struct {
 	names    map[string]bool // set of all glyph names
 	cmap     map[rune]string // codepoint -> glyph name
 	anchored map[string]bool // glyphs with a mark-attaching (base) anchor
+	// categories is the lib's public.openTypeCategories (glyph -> base, mark,
+	// ligature, component): how the Devanagari donor classed its unencoded
+	// glyphs (reph, matra variants, below forms are marks).
+	categories map[string]string
 }
 
 func (f *font) has(name string) bool { return f.names[name] }
@@ -133,7 +137,63 @@ func loadFont(ufo string) (*font, error) {
 			}
 		}
 	}
+	f.categories, err = readCategories(filepath.Join(ufo, "lib.plist"))
+	if err != nil {
+		return nil, err
+	}
 	return f, nil
+}
+
+// readCategories reads public.openTypeCategories from a UFO's lib.plist (a
+// dict of key/string pairs); a missing file or key gives an empty map.
+func readCategories(path string) (map[string]string, error) {
+	out := map[string]string{}
+	data, err := os.ReadFile(path)
+	if os.IsNotExist(err) {
+		return out, nil
+	} else if err != nil {
+		return nil, err
+	}
+	dec := xml.NewDecoder(strings.NewReader(string(data)))
+	depth, inCats := 0, false
+	var key, last string
+	for {
+		tok, err := dec.Token()
+		if err != nil {
+			break
+		}
+		switch t := tok.(type) {
+		case xml.StartElement:
+			if t.Name.Local == "dict" {
+				depth++
+				if depth == 2 && last == "public.openTypeCategories" {
+					inCats = true
+				}
+			}
+			if t.Name.Local == "key" || t.Name.Local == "string" {
+				var s string
+				if err := dec.DecodeElement(&s, &t); err != nil {
+					return nil, err
+				}
+				if t.Name.Local == "key" {
+					if depth == 1 {
+						last = s
+					}
+					key = s
+				} else if inCats {
+					out[key] = s
+				}
+			}
+		case xml.EndElement:
+			if t.Name.Local == "dict" {
+				if depth == 2 {
+					inCats = false
+				}
+				depth--
+			}
+		}
+	}
+	return out, nil
 }
 
 // --- feature generation --------------------------------------------------
@@ -244,6 +304,17 @@ func markClass(f *font) []string {
 			marks = append(marks, name)
 		}
 	}
+	// unencoded marks (Devanagari reph, matra and below forms), as the donor
+	// classed them; an encoded glyph keeps its Unicode category's verdict
+	encoded := map[string]bool{}
+	for _, name := range f.cmap {
+		encoded[name] = true
+	}
+	for name, cat := range f.categories {
+		if cat == "mark" && f.names[name] && !encoded[name] {
+			marks = append(marks, name)
+		}
+	}
 	sort.Strings(marks)
 	return marks
 }
@@ -263,6 +334,16 @@ func baseClass(f *font, marks []string) []string {
 	}
 	sort.Strings(bases)
 	return bases
+}
+
+// hasDevanagari reports whether the font has Devanagari letters.
+func hasDevanagari(f *font) bool {
+	for cp := rune(0x0915); cp <= 0x0939; cp++ {
+		if _, ok := f.cmap[cp]; ok {
+			return true
+		}
+	}
+	return false
 }
 
 // hasHebrew reports whether the font has Hebrew letters.
@@ -348,6 +429,14 @@ func generate(f *font) string {
 	if hasHebrew(f) {
 		b.WriteString("languagesystem hebr dflt;\n")
 	}
+	if hasDevanagari(f) {
+		// the donor's (Noto Sans Devanagari) languages: Marathi, Nepali,
+		// Sanskrit forms; Santali's nukta
+		for _, l := range []string{"deva dflt", "dev2 dflt", "deva MAR", "dev2 MAR",
+			"deva NEP", "dev2 NEP", "deva SAN", "dev2 SAN", "dev2 SAT"} {
+			b.WriteString("languagesystem " + l + ";\n")
+		}
+	}
 	b.WriteString("\n")
 
 	// GDEF glyph classes: bases (anchor carriers) and marks.
@@ -404,6 +493,14 @@ func generate(f *font) string {
 		fmt.Fprintf(&b, "    script arab;\n")
 		for _, n := range names {
 			fmt.Fprintf(&b, "    lookup %s;\n", n)
+		}
+		// Every declared Arabic language gets them too (a language
+		// statement takes the script's default lookups): features
+		// written without a script statement (the Devanagari donor's)
+		// give ARA, FAR and URD language systems of their own, and a
+		// shaper asked for Arabic in one of them would find no joining.
+		for _, l := range []string{"ARA", "FAR", "URD"} {
+			fmt.Fprintf(&b, "    language %s;\n", l)
 		}
 		fmt.Fprintf(&b, "} %s;\n\n", tag)
 	}

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="candraBelowVedic" format="2">
+  <unicode hex="1CD8"/>
+  <anchor x="-288" y="-78.0" name="_bottom2Deva"/>
+  <outline>
+    <contour>
+      <point x="-100.21814829353619" y="-133.6582938764932" type="curve"/>
+      <point x="-265.7478885722516" y="-106.4893726635969" type="line"/>
+      <point x="-300.4755759186171" y="-213.03817816545893"/>
+      <point x="-340.69374416185275" y="-248.7699762414036"/>
+      <point x="-436.0" y="-249.0" type="curve" smooth="yes"/>
+      <point x="-529.2480774247241" y="-248.7641895283855"/>
+      <point x="-569.5244240813829" y="-213.03817816545893"/>
+      <point x="-604.2521114277483" y="-106.4893726635969" type="curve"/>
+      <point x="-769.7818517064638" y="-133.6582938764932" type="line"/>
+      <point x="-733.3109360119645" y="-301.8115458372548"/>
+      <point x="-605.805955890575" y="-358.3535224794179"/>
+      <point x="-436.0" y="-358.0" type="curve" smooth="yes"/>
+      <point x="-266.233895462654" y="-358.3486243004715"/>
+      <point x="-136.76975281333216" y="-301.739427463623"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>0</integer>
+    </dict>
+  </lib>
+</glyph>

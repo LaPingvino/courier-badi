@@ -1,0 +1,95 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bh_nuktaDeva" format="2">
+  <advance width="1228"/>
+  <anchor x="1215" y="0" name="bottomDeva"/>
+  <anchor x="1215" y="-64" name="bottom2Deva"/>
+  <anchor x="1317.0" y="1000" name="candraDeva"/>
+  <anchor x="1215" y="-32" name="halantDeva"/>
+  <anchor x="802" y="27" name="nuktaDeva"/>
+  <anchor x="1215" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="1170.0" y="398.0" type="line" smooth="yes"/>
+      <point x="1220.4757577663045" y="397.2352217427678"/>
+      <point x="1253.2463868523039" y="407.34626665971365"/>
+      <point x="1254.0" y="449.0" type="curve" smooth="yes"/>
+      <point x="1254.0" y="461.0" type="line" smooth="yes"/>
+      <point x="1253.2463868523039" y="502.65373334028635"/>
+      <point x="1220.4757577663045" y="512.7647782572321"/>
+      <point x="1170.0" y="512.0" type="curve" smooth="yes"/>
+      <point x="921.1481225877671" y="515.0275577288248" type="line"/>
+      <point x="931.0" y="736.0" type="line" smooth="yes"/>
+      <point x="930.2796692611372" y="898.7273974127233"/>
+      <point x="846.9012254951465" y="1010.2899888378266"/>
+      <point x="643.0" y="1009.0" type="curve" smooth="yes"/>
+      <point x="505.3852499780257" y="1009.6138896672533"/>
+      <point x="397.44229429091257" y="949.0760786893197"/>
+      <point x="395.0" y="826.0" type="curve" smooth="yes"/>
+      <point x="397.72266074051277" y="700.2369904235946"/>
+      <point x="516.5749953509604" y="630.2446138514522"/>
+      <point x="690.014082736297" y="618.4298189530961" type="curve"/>
+      <point x="711.9135405945368" y="726.383938668913" type="line"/>
+      <point x="607.8896203769594" y="731.5004660562569"/>
+      <point x="580.7692761073124" y="762.241072871498"/>
+      <point x="584.0" y="823.0" type="curve" smooth="yes"/>
+      <point x="581.7591002641267" y="872.6859385247483"/>
+      <point x="597.8832950892006" y="908.3409609201857"/>
+      <point x="646.0" y="909.0" type="curve" smooth="yes"/>
+      <point x="716.6258913099181" y="907.5892912424412"/>
+      <point x="731.3833693724978" y="843.3952906574772"/>
+      <point x="731.0" y="728.0" type="curve" smooth="yes"/>
+      <point x="731.4254812870682" y="521.4776083980772" type="line"/>
+      <point x="720.448209248522" y="512.002080392314" type="line"/>
+      <point x="632.1520811227851" y="512.8355862859253"/>
+      <point x="590.2440794323767" y="483.72119891423796"/>
+      <point x="589.0" y="445.0" type="curve" smooth="yes"/>
+      <point x="592.0012033873822" y="362.5297282690369"/>
+      <point x="716.9022502545907" y="236.7633014610843"/>
+      <point x="818.0" y="239.0" type="curve" smooth="yes"/>
+      <point x="875.7039413200774" y="237.98835222841137"/>
+      <point x="929.577385248238" y="264.5674786744513"/>
+      <point x="931.0" y="338.0" type="curve" smooth="yes"/>
+      <point x="909.4467112143994" y="397.79372793095473" type="line"/>
+    </contour>
+    <contour>
+      <point x="681.0" y="27.0" type="curve" smooth="yes"/>
+      <point x="683.0203195345376" y="-26.589200305229006"/>
+      <point x="739.6689777449594" y="-65.3994484956489"/>
+      <point x="802.0" y="-64.0" type="curve" smooth="yes"/>
+      <point x="868.3310222550406" y="-65.3994484956489"/>
+      <point x="921.2966811081532" y="-27.01606541371217"/>
+      <point x="923.0" y="27.0" type="curve" smooth="yes"/>
+      <point x="921.2966811081532" y="80.01606541371217"/>
+      <point x="868.529328038549" y="119.45171334593269"/>
+      <point x="802.0" y="118.0" type="curve" smooth="yes"/>
+      <point x="739.470671961451" y="119.45171334593269"/>
+      <point x="683.0203195345376" y="79.58920030522901"/>
+    </contour>
+    <contour>
+      <point x="990.0" y="929.0" type="line" smooth="yes"/>
+      <point x="990.7536131476961" y="888.3462666597137"/>
+      <point x="1023.1485318262739" y="877.1637218993875"/>
+      <point x="1074.0" y="878.0" type="curve" smooth="yes"/>
+      <point x="1162.0" y="878.0" type="line" smooth="yes"/>
+      <point x="1212.851468173726" y="877.1637218993875"/>
+      <point x="1245.2463868523039" y="888.3462666597137"/>
+      <point x="1246.0" y="929.0" type="curve" smooth="yes"/>
+      <point x="1246.0" y="942.0" type="line" smooth="yes"/>
+      <point x="1245.2463868523039" y="983.6537333402863"/>
+      <point x="1212.4757577663045" y="993.7647782572321"/>
+      <point x="1162.0" y="993.0" type="curve" smooth="yes"/>
+      <point x="1074.0" y="993.0" type="line" smooth="yes"/>
+      <point x="1023.5242422336955" y="993.7647782572321"/>
+      <point x="990.7536131476961" y="983.6537333402863"/>
+      <point x="990.0" y="942.0" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

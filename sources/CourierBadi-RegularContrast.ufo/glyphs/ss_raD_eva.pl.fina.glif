@@ -1,0 +1,81 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ss_raDeva.pl.fina" format="2">
+  <advance width="1228"/>
+  <anchor x="658" y="0" name="bottomDeva"/>
+  <anchor x="658" y="-78.0" name="bottom2Deva"/>
+  <anchor x="733" y="1000" name="candraDeva"/>
+  <anchor x="658" y="-18.0" name="halantDeva"/>
+  <anchor x="658" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="110.46028977632646" y="114.73588780322038" type="line" smooth="yes"/>
+      <point x="63.18035394160591" y="93.93876849289676"/>
+      <point x="53.22864903950518" y="78.25282948485642"/>
+      <point x="83.62300301726175" y="41.968939703624315" type="curve" smooth="yes"/>
+      <point x="92.62300301726175" y="29.968939703624315" type="line" smooth="yes"/>
+      <point x="123.98620464458752" y="-7.413638445521121"/>
+      <point x="174.10603086533013" y="-9.697795503047983"/>
+      <point x="219.14188843288355" y="14.747930092397937" type="curve" smooth="yes"/>
+      <point x="649.0929891753145" y="292.76495526893297" type="line"/>
+      <point x="654.3847763108503" y="290.8994949366117"/>
+      <point x="654.3847763108503" y="291.8994949366117"/>
+      <point x="648.6275534829989" y="294.5219806739988" type="curve" smooth="yes"/>
+      <point x="655.6275534829989" y="298.5219806739988"/>
+      <point x="654.67695526217" y="302.8592929112563"/>
+      <point x="632.0125735892908" y="288.4353449210683" type="curve"/>
+      <point x="632.0" y="64.0" type="line" smooth="yes"/>
+      <point x="632.7147010802045" y="18.259968116420012"/>
+      <point x="666.5479260187127" y="6.2396123902681335"/>
+      <point x="722.0" y="7.0" type="curve" smooth="yes"/>
+      <point x="745.0" y="7.0" type="line" smooth="yes"/>
+      <point x="799.4520739812873" y="6.2396123902681335"/>
+      <point x="834.2026862870953" y="18.44045338263706"/>
+      <point x="835.0" y="64.0" type="curve" smooth="yes"/>
+      <point x="834.7871473360918" y="865.7877435797425" type="line"/>
+      <point x="912.0" y="878.0" type="line" smooth="yes"/>
+      <point x="961.9883393295113" y="877.1368036354395"/>
+      <point x="994.2463868523039" y="888.3462666597137"/>
+      <point x="995.0" y="929.0" type="curve" smooth="yes"/>
+      <point x="995.0" y="942.0" type="line" smooth="yes"/>
+      <point x="994.2463868523039" y="983.6537333402863"/>
+      <point x="961.6082805387562" y="993.7896002501396"/>
+      <point x="912.0" y="993.0" type="curve" smooth="yes"/>
+      <point x="58.0" y="993.0" type="line" smooth="yes"/>
+      <point x="7.524242233695491" y="993.7647782572321"/>
+      <point x="-25.246386852303914" y="983.6537333402863"/>
+      <point x="-26.0" y="942.0" type="curve" smooth="yes"/>
+      <point x="-26.0" y="926.0" type="line" smooth="yes"/>
+      <point x="-25.270928125154196" y="887.2921184282148"/>
+      <point x="6.114680359745686" y="877.1571079288382"/>
+      <point x="55.0" y="878.0" type="curve" smooth="yes"/>
+      <point x="96.62112189258643" y="867.0418333330889" type="line"/>
+      <point x="96.0" y="563.0" type="line" smooth="yes"/>
+      <point x="96.90055178126508" y="379.65272635199887"/>
+      <point x="189.42416109605682" y="279.25338149614976"/>
+      <point x="327.35633476557655" y="243.11980940954058" type="curve"/>
+    </contour>
+    <contour>
+      <point x="560.3583929945913" y="417.7590952413406" type="line"/>
+      <point x="529.8421224794947" y="376.89719062450786"/>
+      <point x="485.39043586711654" y="361.1355716126682"/>
+      <point x="432.0" y="361.0" type="curve" smooth="yes"/>
+      <point x="336.3142447481127" y="361.7351080941792"/>
+      <point x="296.8735208911503" y="424.9237373790423"/>
+      <point x="298.0" y="559.0" type="curve" smooth="yes"/>
+      <point x="260.73670630901603" y="803.6181452294452" type="line"/>
+    </contour>
+    <contour>
+      <point x="637.9561386302984" y="872.9170860021935" type="line"/>
+      <point x="658.0841419542018" y="477.00007331243927" type="line"/>
+      <point x="375.0" y="865.0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</glyph>

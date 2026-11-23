@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="jihvamuliyaSignVedic" format="2">
+  <advance width="1228"/>
+  <unicode hex="1CF5"/>
+  <anchor x="749" y="1000" name="topDeva"/>
+  <anchor x="800" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="620" y="325" type="line"/>
+      <point x="815" y="87" type="line" smooth="yes"/>
+      <point x="844" y="49"/>
+      <point x="870" y="45"/>
+      <point x="908" y="72" type="curve" smooth="yes"/>
+      <point x="920" y="80" type="line" smooth="yes"/>
+      <point x="958" y="108"/>
+      <point x="961" y="138"/>
+      <point x="931" y="176" type="curve" smooth="yes"/>
+      <point x="707" y="439" type="line"/>
+      <point x="935" y="710" type="line" smooth="yes"/>
+      <point x="964" y="748"/>
+      <point x="961" y="778"/>
+      <point x="924" y="806" type="curve" smooth="yes"/>
+      <point x="906" y="819" type="line" smooth="yes"/>
+      <point x="868" y="847"/>
+      <point x="842" y="843"/>
+      <point x="813" y="805" type="curve" smooth="yes"/>
+      <point x="614" y="564" type="line"/>
+      <point x="419" y="800" type="line" smooth="yes"/>
+      <point x="390" y="837"/>
+      <point x="365" y="841"/>
+      <point x="328" y="814" type="curve" smooth="yes"/>
+      <point x="316" y="806" type="line"/>
+      <point x="280" y="778"/>
+      <point x="276" y="748"/>
+      <point x="305" y="711" type="curve" smooth="yes"/>
+      <point x="527" y="447" type="line"/>
+      <point x="301" y="179" type="line" smooth="yes"/>
+      <point x="272" y="141"/>
+      <point x="275" y="111"/>
+      <point x="313" y="83" type="curve" smooth="yes"/>
+      <point x="332" y="70" type="line" smooth="yes"/>
+      <point x="369" y="42"/>
+      <point x="395" y="46"/>
+      <point x="424" y="84" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>

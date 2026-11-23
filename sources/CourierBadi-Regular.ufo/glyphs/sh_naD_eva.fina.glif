@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sh_naDeva.fina" format="2">
+  <advance width="1228"/>
+  <anchor x="1520" y="0" name="bottomDeva"/>
+  <anchor x="1520" y="-64" name="bottom2Deva"/>
+  <anchor x="1595" y="1000" name="candraDeva"/>
+  <anchor x="1520" y="-32" name="halantDeva"/>
+  <anchor x="1520" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="1173" y="-12" type="curve" smooth="yes"/>
+      <point x="1232" y="-12"/>
+      <point x="1279" y="22"/>
+      <point x="1279" y="80" type="curve" smooth="yes"/>
+      <point x="1279" y="99"/>
+      <point x="1274" y="118"/>
+      <point x="1263" y="140" type="curve"/>
+      <point x="1229" y="197" type="line"/>
+      <point x="1520" y="352" type="line"/>
+      <point x="1520" y="64" type="line" smooth="yes"/>
+      <point x="1520" y="15"/>
+      <point x="1538" y="-7"/>
+      <point x="1584" y="-7" type="curve" smooth="yes"/>
+      <point x="1607" y="-7" type="line" smooth="yes"/>
+      <point x="1653" y="-7"/>
+      <point x="1671" y="15"/>
+      <point x="1671" y="64" type="curve" smooth="yes"/>
+      <point x="1671" y="864" type="line"/>
+      <point x="1775" y="864" type="line" smooth="yes"/>
+      <point x="1817" y="864"/>
+      <point x="1833" y="885"/>
+      <point x="1833" y="929" type="curve" smooth="yes"/>
+      <point x="1833" y="942" type="line" smooth="yes"/>
+      <point x="1833" y="987"/>
+      <point x="1817" y="1007"/>
+      <point x="1775" y="1007" type="curve" smooth="yes"/>
+      <point x="1457" y="1007" type="line" smooth="yes"/>
+      <point x="1415" y="1007"/>
+      <point x="1399" y="987"/>
+      <point x="1399" y="942" type="curve" smooth="yes"/>
+      <point x="1399" y="926" type="line" smooth="yes"/>
+      <point x="1399" y="884"/>
+      <point x="1414" y="864"/>
+      <point x="1453" y="864" type="curve" smooth="yes"/>
+      <point x="1520" y="864" type="line"/>
+      <point x="1520" y="511" type="line"/>
+      <point x="1406" y="521"/>
+      <point x="1272" y="550"/>
+      <point x="1177" y="581" type="curve"/>
+      <point x="1256" y="633"/>
+      <point x="1306" y="707"/>
+      <point x="1306" y="801" type="curve" smooth="yes"/>
+      <point x="1306" y="933"/>
+      <point x="1200" y="1023"/>
+      <point x="1047" y="1023" type="curve" smooth="yes"/>
+      <point x="882" y="1023"/>
+      <point x="782" y="923"/>
+      <point x="782" y="804" type="curve" smooth="yes"/>
+      <point x="782" y="717"/>
+      <point x="822" y="640"/>
+      <point x="930" y="568" type="curve"/>
+      <point x="854" y="532"/>
+      <point x="772" y="487"/>
+      <point x="685" y="440" type="curve"/>
+      <point x="771" y="309" type="line"/>
+      <point x="873" y="370"/>
+      <point x="972" y="430"/>
+      <point x="1062" y="487" type="curve"/>
+      <point x="1146" y="451"/>
+      <point x="1255" y="420"/>
+      <point x="1366" y="404" type="curve"/>
+      <point x="1294" y="382"/>
+      <point x="1213" y="343"/>
+      <point x="1118" y="292" type="curve" smooth="yes"/>
+      <point x="1033" y="244" type="line" smooth="yes"/>
+      <point x="968" y="208"/>
+      <point x="954" y="180"/>
+      <point x="954" y="150" type="curve" smooth="yes"/>
+      <point x="954" y="97"/>
+      <point x="996" y="54"/>
+      <point x="1042" y="26" type="curve" smooth="yes"/>
+      <point x="1083" y="3"/>
+      <point x="1132" y="-12"/>
+    </contour>
+    <contour>
+      <point x="1049" y="645" type="curve"/>
+      <point x="957" y="692"/>
+      <point x="930" y="744"/>
+      <point x="930" y="793" type="curve" smooth="yes"/>
+      <point x="930" y="858"/>
+      <point x="984" y="890"/>
+      <point x="1044" y="890" type="curve" smooth="yes"/>
+      <point x="1113" y="890"/>
+      <point x="1156" y="860"/>
+      <point x="1156" y="797" type="curve" smooth="yes"/>
+      <point x="1156" y="739"/>
+      <point x="1118" y="685"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</glyph>

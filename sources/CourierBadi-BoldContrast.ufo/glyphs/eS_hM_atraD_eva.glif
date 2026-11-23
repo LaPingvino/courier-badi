@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eShMatraDeva" format="2">
+  <unicode hex="0946"/>
+  <anchor x="-288" y="1000" name="_topDeva"/>
+  <anchor x="-28.0" y="1000" name="topVedicDeva"/>
+  <outline>
+    <contour>
+      <point x="-324.1587542292518" y="968.187824183971" type="curve"/>
+      <point x="-93.850714694665" y="977.72860327543" type="line"/>
+      <point x="-153.08647459585217" y="1244.0689700891437"/>
+      <point x="-253.72376218704105" y="1330.7400586654178"/>
+      <point x="-394.6455887018992" y="1332.001300728439" type="curve" smooth="yes"/>
+      <point x="-441.104958671664" y="1331.9517518588675"/>
+      <point x="-486.46269057916237" y="1325.9465768465977"/>
+      <point x="-518.3754534645997" y="1326.0014597759996" type="curve" smooth="yes"/>
+      <point x="-572.4346847328499" y="1324.6825231786538"/>
+      <point x="-553.9343312384954" y="1341.2606696453745"/>
+      <point x="-628.4708848944805" y="1467.016588591975" type="curve"/>
+      <point x="-832.1091968635121" y="1404.1039058735837" type="line"/>
+      <point x="-767.5271634846364" y="1196.4435811882138"/>
+      <point x="-660.6926625593228" y="1145.3413940953426"/>
+      <point x="-537.1343506755899" y="1144.999813089391" type="curve" smooth="yes"/>
+      <point x="-498.9812174358102" y="1145.0464386858253"/>
+      <point x="-458.6292306774551" y="1150.050952906545"/>
+      <point x="-433.5622253506792" y="1149.9980153526633" type="curve" smooth="yes"/>
+      <point x="-371.76746557803125" y="1151.4645531198164"/>
+      <point x="-382.7145118655311" y="1127.4956969884008"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>0</integer>
+    </dict>
+  </lib>
+</glyph>

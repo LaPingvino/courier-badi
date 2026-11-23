@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="ueMatraDeva" format="2">
+  <unicode hex="0956"/>
+  <anchor x="-288" y="-30.0" name="_bottom2Deva"/>
+  <outline>
+    <contour>
+      <point x="-450.0" y="-315.0" type="curve" smooth="yes"/>
+      <point x="-301.58194237482775" y="-314.56552772667686"/>
+      <point x="-179.8706910296953" y="-269.9306764397407"/>
+      <point x="-93.32623355757337" y="-188.69866508498976" type="curve"/>
+      <point x="-156.694456340823" y="-37.63982323343577" type="line"/>
+      <point x="-264.0" y="-93.0"/>
+      <point x="-326.1760597174914" y="-114.25743748266967"/>
+      <point x="-450.0" y="-114.0" type="curve" smooth="yes"/>
+      <point x="-574.844203914372" y="-114.25493578470062"/>
+      <point x="-637.0826765359013" y="-92.95605196151385"/>
+      <point x="-745.5096039099549" y="-37.743559585497934" type="curve"/>
+      <point x="-805.5886774738942" y="-189.27264123136712" type="line"/>
+      <point x="-719.1293089703047" y="-269.9306764397407"/>
+      <point x="-597.4389259101006" y="-314.56215256720634"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>0</integer>
+    </dict>
+  </lib>
+</glyph>

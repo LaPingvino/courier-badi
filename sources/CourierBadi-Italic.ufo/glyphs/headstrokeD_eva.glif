@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="headstrokeDeva" format="2">
+  <advance width="1228"/>
+  <unicode hex="A8FB"/>
+  <anchor x="1063.326980708465" y="1000" name="topDeva"/>
+  <anchor x="1114.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="150.93589548644601" y="856" type="line"/>
+      <point x="404.93589548644604" y="856" type="line"/>
+      <point x="406.3465113321138" y="864" type="line"/>
+      <point x="1151.3465113321138" y="864" type="line"/>
+      <point x="1149.935895486446" y="856" type="line"/>
+      <point x="1378.935895486446" y="856" type="line"/>
+      <point x="1405.5612695734242" y="1007" type="line"/>
+      <point x="177.56126957342423" y="1007" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.cells</key>
+      <integer>1</integer>
+    </dict>
+  </lib>
+</glyph>
