@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="eyelashRephDeva.w7" format="2">
+  <advance width="1228"/>
+  <outline>
+    <contour>
+      <point x="0" y="856" type="line"/>
+      <point x="120" y="856" type="line"/>
+      <point x="120" y="864" type="line"/>
+      <point x="973" y="864" type="line" smooth="yes"/>
+      <point x="1021" y="864"/>
+      <point x="1021" y="883"/>
+      <point x="1021" y="923" type="curve" smooth="yes"/>
+      <point x="1021" y="949" type="line" smooth="yes"/>
+      <point x="1021" y="989"/>
+      <point x="1021" y="1007"/>
+      <point x="973" y="1007" type="curve" smooth="yes"/>
+      <point x="0" y="1007" type="line"/>
+    </contour>
+    <contour>
+      <point x="1091" y="440" type="curve"/>
+      <point x="1079" y="588" type="line"/>
+      <point x="988" y="542"/>
+      <point x="880" y="526"/>
+      <point x="693" y="526" type="curve" smooth="yes"/>
+      <point x="500" y="526"/>
+      <point x="328" y="567"/>
+      <point x="173" y="633" type="curve"/>
+      <point x="135" y="500" type="line"/>
+      <point x="328" y="415"/>
+      <point x="522" y="379"/>
+      <point x="742" y="379" type="curve" smooth="yes"/>
+      <point x="891" y="379"/>
+      <point x="1020" y="395"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>988</integer>
+    </dict>
+  </lib>
+</glyph>

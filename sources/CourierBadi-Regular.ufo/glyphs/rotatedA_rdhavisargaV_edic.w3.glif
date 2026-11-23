@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="rotatedArdhavisargaVedic.w3" format="2">
+  <advance width="1228"/>
+  <anchor x="559" y="1000" name="topDeva"/>
+  <anchor x="606" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="784" y="675" type="curve"/>
+      <point x="738" y="819" type="line"/>
+      <point x="526" y="760"/>
+      <point x="440" y="623"/>
+      <point x="440" y="455" type="curve" smooth="yes"/>
+      <point x="440" y="289"/>
+      <point x="533" y="153"/>
+      <point x="738" y="71" type="curve"/>
+      <point x="781" y="205" type="line"/>
+      <point x="638" y="268"/>
+      <point x="578" y="342"/>
+      <point x="578" y="457" type="curve" smooth="yes"/>
+      <point x="578" y="578"/>
+      <point x="650" y="635"/>
+    </contour>
+    <contour>
+      <point x="64" y="214" type="curve"/>
+      <point x="108" y="72" type="line"/>
+      <point x="319" y="129"/>
+      <point x="406" y="266"/>
+      <point x="406" y="436" type="curve" smooth="yes"/>
+      <point x="406" y="602"/>
+      <point x="315" y="737"/>
+      <point x="109" y="819" type="curve"/>
+      <point x="64" y="686" type="line"/>
+      <point x="210" y="621"/>
+      <point x="269" y="547"/>
+      <point x="269" y="434" type="curve" smooth="yes"/>
+      <point x="269" y="311"/>
+      <point x="196" y="254"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>836</integer>
+    </dict>
+  </lib>
+</glyph>

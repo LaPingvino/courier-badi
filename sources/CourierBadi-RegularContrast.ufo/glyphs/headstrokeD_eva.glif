@@ -2,26 +2,26 @@
 <glyph name="headstrokeDeva" format="2">
   <advance width="1228"/>
   <unicode hex="A8FB"/>
-  <anchor x="887" y="1000" name="topDeva"/>
-  <anchor x="938" y="1000" name="candraDeva"/>
+  <anchor x="842" y="1000" name="topDeva"/>
+  <anchor x="894" y="1000" name="candraDeva"/>
   <outline>
     <contour>
-      <point x="-13.286203260769348" y="868.034064899464" type="line"/>
-      <point x="254.81849176569906" y="869.9930611482015" type="line"/>
-      <point x="254.2791785352811" y="877.9991928989514" type="line"/>
-      <point x="998.7208214647189" y="877.9991928989514" type="line"/>
-      <point x="998.0922568014557" y="869.9914648775622" type="line"/>
-      <point x="1242.3126525890716" y="867.6878156394711" type="line"/>
-      <point x="1231.1731689521253" y="993.1046559793845" type="line"/>
-      <point x="-3.1731689521252044" y="993.1046559793845" type="line"/>
+      <point x="-14.622709218448056" y="867.5760010827653" type="line"/>
+      <point x="222.93632917756904" y="869.9909186725221" type="line"/>
+      <point x="222.2884704539072" y="877.999138277593" type="line"/>
+      <point x="942.7115295460928" y="877.999138277593" type="line"/>
+      <point x="941.94503195318" y="869.9884705438919" type="line"/>
+      <point x="1155.8170209868122" y="867.1113968114182" type="line"/>
+      <point x="1143.4140408303847" y="993.1212196502952" type="line"/>
+      <point x="-3.4140408303847933" y="993.1212196502952" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.devanagari</key>
       <string>fitted</string>
-      <key>org.courierbadi.devanagari.cells</key>
-      <integer>1</integer>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>1140</integer>
     </dict>
   </lib>
 </glyph>

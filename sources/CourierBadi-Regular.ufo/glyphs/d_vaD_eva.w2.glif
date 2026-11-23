@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="d_vaDeva.w2" format="2">
+  <advance width="1228"/>
+  <anchor x="619" y="-167" name="bottomDeva"/>
+  <anchor x="568" y="-245" name="bottom2Deva"/>
+  <anchor x="584" y="1000" name="candraDeva"/>
+  <anchor x="448" y="-217" name="halantDeva"/>
+  <anchor x="522" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="632" y="-255" type="curve"/>
+      <point x="770" y="-194" type="line"/>
+      <point x="708" y="-59"/>
+      <point x="672" y="47"/>
+      <point x="641" y="153" type="curve"/>
+      <point x="685" y="181"/>
+      <point x="716" y="226"/>
+      <point x="716" y="285" type="curve" smooth="yes"/>
+      <point x="716" y="358"/>
+      <point x="661" y="427"/>
+      <point x="584" y="427" type="curve" smooth="yes"/>
+      <point x="517" y="427"/>
+      <point x="474" y="382"/>
+      <point x="474" y="312" type="curve" smooth="yes"/>
+      <point x="474" y="291"/>
+      <point x="476" y="270"/>
+      <point x="476" y="256" type="curve"/>
+      <point x="477" y="254"/>
+      <point x="463" y="253"/>
+      <point x="449" y="253" type="curve" smooth="yes"/>
+      <point x="331" y="253"/>
+      <point x="262" y="312"/>
+      <point x="262" y="426" type="curve" smooth="yes"/>
+      <point x="262" y="544"/>
+      <point x="330" y="598"/>
+      <point x="476" y="598" type="curve" smooth="yes"/>
+      <point x="593" y="598" type="line" smooth="yes"/>
+      <point x="638" y="598"/>
+      <point x="659" y="620"/>
+      <point x="659" y="669" type="curve" smooth="yes"/>
+      <point x="659" y="864" type="line"/>
+      <point x="735" y="864" type="line" smooth="yes"/>
+      <point x="777" y="864"/>
+      <point x="796" y="885"/>
+      <point x="796" y="929" type="curve" smooth="yes"/>
+      <point x="796" y="942" type="line" smooth="yes"/>
+      <point x="796" y="987"/>
+      <point x="777" y="1007"/>
+      <point x="735" y="1007" type="curve" smooth="yes"/>
+      <point x="43" y="1007" type="line" smooth="yes"/>
+      <point x="2" y="1007"/>
+      <point x="-18" y="987"/>
+      <point x="-18" y="942" type="curve" smooth="yes"/>
+      <point x="-18" y="929" type="line" smooth="yes"/>
+      <point x="-18" y="885"/>
+      <point x="2" y="864"/>
+      <point x="43" y="864" type="curve" smooth="yes"/>
+      <point x="508" y="864" type="line"/>
+      <point x="508" y="737" type="line"/>
+      <point x="454" y="737" type="line" smooth="yes"/>
+      <point x="233" y="737"/>
+      <point x="111" y="635"/>
+      <point x="111" y="434" type="curve" smooth="yes"/>
+      <point x="111" y="364"/>
+      <point x="127" y="306"/>
+      <point x="147" y="266" type="curve"/>
+      <point x="83" y="220"/>
+      <point x="37" y="138"/>
+      <point x="38" y="34" type="curve" smooth="yes"/>
+      <point x="40" y="-130"/>
+      <point x="143" y="-222"/>
+      <point x="290" y="-221" type="curve" smooth="yes"/>
+      <point x="419" y="-218"/>
+      <point x="520" y="-150"/>
+      <point x="560" y="-36" type="curve"/>
+      <point x="571" y="-101"/>
+      <point x="597" y="-174"/>
+    </contour>
+    <contour>
+      <point x="502" y="94" type="curve"/>
+      <point x="480" y="23"/>
+      <point x="402" y="-90"/>
+      <point x="289" y="-91" type="curve" smooth="yes"/>
+      <point x="231" y="-93"/>
+      <point x="181" y="-58"/>
+      <point x="181" y="34" type="curve" smooth="yes"/>
+      <point x="180" y="94"/>
+      <point x="206" y="140"/>
+      <point x="247" y="165" type="curve"/>
+      <point x="301" y="126"/>
+      <point x="378" y="107"/>
+      <point x="451" y="107" type="curve" smooth="yes"/>
+      <point x="454" y="107"/>
+      <point x="457" y="107"/>
+      <point x="459" y="107" type="curve" smooth="yes"/>
+      <point x="481" y="107"/>
+      <point x="495" y="107"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>760</integer>
+    </dict>
+  </lib>
+</glyph>

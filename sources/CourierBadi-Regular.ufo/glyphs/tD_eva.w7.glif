@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tDeva.w7" format="2">
+  <advance width="1228"/>
+  <outline>
+    <contour>
+      <point x="889" y="507" type="line" smooth="yes"/>
+      <point x="937" y="507"/>
+      <point x="937" y="526"/>
+      <point x="937" y="566" type="curve" smooth="yes"/>
+      <point x="937" y="592" type="line" smooth="yes"/>
+      <point x="937" y="632"/>
+      <point x="937" y="650"/>
+      <point x="889" y="650" type="curve" smooth="yes"/>
+      <point x="640" y="650" type="line" smooth="yes"/>
+      <point x="326" y="650"/>
+      <point x="160" y="565"/>
+      <point x="160" y="384" type="curve" smooth="yes"/>
+      <point x="160" y="237"/>
+      <point x="276" y="114"/>
+      <point x="486" y="-35" type="curve"/>
+      <point x="572" y="66" type="line"/>
+      <point x="432" y="190"/>
+      <point x="312" y="269"/>
+      <point x="312" y="365" type="curve" smooth="yes"/>
+      <point x="312" y="469"/>
+      <point x="468" y="507"/>
+      <point x="678" y="507" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="0" y="856" type="line"/>
+      <point x="123" y="856" type="line"/>
+      <point x="123" y="864" type="line"/>
+      <point x="793" y="864" type="line"/>
+      <point x="793" y="856" type="line"/>
+      <point x="912" y="856" type="line"/>
+      <point x="912" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>912</integer>
+    </dict>
+  </lib>
+</glyph>

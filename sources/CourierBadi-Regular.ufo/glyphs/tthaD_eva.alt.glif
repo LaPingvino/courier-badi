@@ -1,58 +1,66 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="tthaDeva.alt" format="2">
   <advance width="1228"/>
-  <anchor x="646" y="233" name="bottomDeva"/>
-  <anchor x="760" y="-64" name="bottom2Deva"/>
-  <anchor x="675" y="1000" name="candraDeva"/>
-  <anchor x="600" y="1000" name="topDeva"/>
+  <anchor x="526" y="233" name="bottomDeva"/>
+  <anchor x="640" y="-64" name="bottom2Deva"/>
+  <anchor x="555" y="1000" name="candraDeva"/>
+  <anchor x="480" y="1000" name="topDeva"/>
   <outline>
     <contour>
       <point x="0" y="856" type="line"/>
-      <point x="198" y="856" type="line"/>
-      <point x="198" y="864" type="line"/>
-      <point x="600" y="864" type="line"/>
-      <point x="600" y="775" type="line"/>
-      <point x="396" y="775"/>
-      <point x="207" y="686"/>
-      <point x="207" y="508" type="curve" smooth="yes"/>
-      <point x="207" y="321"/>
-      <point x="371" y="215"/>
-      <point x="619" y="215" type="curve" smooth="yes"/>
-      <point x="842" y="215"/>
-      <point x="1021" y="298"/>
-      <point x="1021" y="494" type="curve" smooth="yes"/>
-      <point x="1021" y="612"/>
-      <point x="924" y="714"/>
-      <point x="752" y="764" type="curve"/>
-      <point x="752" y="864" type="line"/>
-      <point x="1052" y="864" type="line"/>
-      <point x="1052" y="856" type="line"/>
-      <point x="1228" y="856" type="line"/>
-      <point x="1228" y="1007" type="line"/>
+      <point x="90" y="856" type="line"/>
+      <point x="90" y="864" type="line"/>
+      <point x="480" y="864" type="line"/>
+      <point x="480" y="775" type="line"/>
+      <point x="276" y="775"/>
+      <point x="87" y="686"/>
+      <point x="87" y="508" type="curve" smooth="yes"/>
+      <point x="87" y="321"/>
+      <point x="251" y="215"/>
+      <point x="499" y="215" type="curve" smooth="yes"/>
+      <point x="722" y="215"/>
+      <point x="901" y="298"/>
+      <point x="901" y="494" type="curve" smooth="yes"/>
+      <point x="901" y="612"/>
+      <point x="804" y="714"/>
+      <point x="632" y="764" type="curve"/>
+      <point x="632" y="864" type="line"/>
+      <point x="920" y="864" type="line"/>
+      <point x="920" y="856" type="line"/>
+      <point x="988" y="856" type="line"/>
+      <point x="988" y="896" type="line"/>
+      <point x="991" y="905"/>
+      <point x="992" y="916"/>
+      <point x="992" y="929" type="curve" smooth="yes"/>
+      <point x="992" y="942" type="line" smooth="yes"/>
+      <point x="992" y="955"/>
+      <point x="991" y="966"/>
+      <point x="988" y="975" type="curve"/>
+      <point x="988" y="1007" type="line"/>
       <point x="0" y="1007" type="line"/>
     </contour>
     <contour>
-      <point x="614" y="356" type="curve" smooth="yes"/>
-      <point x="468" y="356"/>
-      <point x="360" y="403"/>
-      <point x="360" y="502" type="curve" smooth="yes"/>
-      <point x="360" y="604"/>
-      <point x="489" y="639"/>
-      <point x="646" y="639" type="curve" smooth="yes"/>
-      <point x="696" y="639" type="line"/>
-      <point x="810" y="609"/>
-      <point x="868" y="558"/>
-      <point x="868" y="498" type="curve" smooth="yes"/>
-      <point x="868" y="400"/>
-      <point x="762" y="356"/>
+      <point x="494" y="356" type="curve" smooth="yes"/>
+      <point x="348" y="356"/>
+      <point x="240" y="403"/>
+      <point x="240" y="502" type="curve" smooth="yes"/>
+      <point x="240" y="604"/>
+      <point x="369" y="639"/>
+      <point x="526" y="639" type="curve" smooth="yes"/>
+      <point x="576" y="639" type="line"/>
+      <point x="690" y="609"/>
+      <point x="748" y="558"/>
+      <point x="748" y="498" type="curve" smooth="yes"/>
+      <point x="748" y="400"/>
+      <point x="642" y="356"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.devanagari</key>
       <string>fitted</string>
-      <key>org.courierbadi.devanagari.cells</key>
-      <integer>1</integer>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>988</integer>
     </dict>
   </lib>
 </glyph>

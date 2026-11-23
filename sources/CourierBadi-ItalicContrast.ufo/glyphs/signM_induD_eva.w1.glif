@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="signMinduDeva.w1" format="2">
+  <advance width="1228"/>
+  <anchor x="580.326980708465" y="1000" name="topDeva"/>
+  <anchor x="617.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="319.98535203226345" y="116.0" type="curve" smooth="yes"/>
+      <point x="489.7274343194824" y="114.98007116134241"/>
+      <point x="601.3126937607947" y="211.39837625106895"/>
+      <point x="642.249276302249" y="431.431074487337" type="curve" smooth="yes"/>
+      <point x="716.602384022848" y="860.4260209739781" type="line"/>
+      <point x="781.0330132603237" y="863.3774612454218" type="line"/>
+      <point x="792.0973676774428" y="993.4495918843186" type="line"/>
+      <point x="171.54295601055543" y="993.3802233960986" type="line"/>
+      <point x="125.81826356005412" y="859.6163041008372" type="line"/>
+      <point x="191.93956521466714" y="855.7647888066072" type="line"/>
+      <point x="118.27356201057331" y="433.568925512663" type="line" smooth="yes"/>
+      <point x="79.66736902314855" y="219.8829544100563"/>
+      <point x="152.52936746826873" y="114.28882543786092"/>
+    </contour>
+    <contour>
+      <point x="517.0150443573256" y="867.1543360448374" type="line"/>
+      <point x="442.3315238948241" y="439.568925512663" type="line" smooth="yes"/>
+      <point x="421.46074404767404" y="317.4294883246838"/>
+      <point x="405.8619302014822" y="247.13705024088912"/>
+      <point x="347.66868800349243" y="245.0" type="curve" smooth="yes"/>
+      <point x="298.6702749430042" y="248.4079531803051"/>
+      <point x="300.698622524943" y="323.0882260349512"/>
+      <point x="321.5415270514589" y="444.431074487337" type="curve" smooth="yes"/>
+      <point x="392.79912621159406" y="871.0593947511206" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>608</integer>
+    </dict>
+  </lib>
+</glyph>

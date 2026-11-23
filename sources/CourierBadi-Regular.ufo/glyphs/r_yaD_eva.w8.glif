@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="r_yaDeva.w8" format="2">
+  <advance width="1228"/>
+  <anchor x="2225" y="0" name="bottomDeva"/>
+  <anchor x="2225" y="-64" name="bottom2Deva"/>
+  <anchor x="2360" y="1000" name="candraDeva"/>
+  <anchor x="2225" y="-32" name="halantDeva"/>
+  <anchor x="2225" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="925" y="614" type="curve"/>
+      <point x="1292" y="614" type="line" smooth="yes"/>
+      <point x="1429" y="614"/>
+      <point x="1498" y="609"/>
+      <point x="1546" y="588" type="curve"/>
+      <point x="1580" y="578"/>
+      <point x="1620" y="563"/>
+      <point x="1620" y="542" type="curve" smooth="yes"/>
+      <point x="1620" y="477"/>
+      <point x="1443" y="439"/>
+      <point x="1301" y="424" type="curve"/>
+      <point x="1350" y="202"/>
+      <point x="1560" y="91"/>
+      <point x="1836" y="91" type="curve" smooth="yes"/>
+      <point x="1986" y="91"/>
+      <point x="2104" y="113"/>
+      <point x="2284" y="143" type="curve"/>
+      <point x="2284" y="64" type="line" smooth="yes"/>
+      <point x="2284" y="59"/>
+      <point x="2283" y="54"/>
+      <point x="2283" y="49" type="curve" smooth="yes"/>
+      <point x="2283" y="47" type="line" smooth="yes"/>
+      <point x="2283" y="9"/>
+      <point x="2283" y="-7"/>
+      <point x="2339" y="-7" type="curve" smooth="yes"/>
+      <point x="2380" y="-7" type="line" smooth="yes"/>
+      <point x="2437" y="-7"/>
+      <point x="2437" y="10"/>
+      <point x="2436" y="49" type="curve" smooth="yes"/>
+      <point x="2436" y="864" type="line"/>
+      <point x="2654" y="864" type="line"/>
+      <point x="2654" y="856" type="line"/>
+      <point x="2736" y="856" type="line"/>
+      <point x="2736" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+      <point x="0" y="856" type="line"/>
+      <point x="123" y="856" type="line"/>
+      <point x="123" y="864" type="line"/>
+      <point x="699" y="864" type="line"/>
+      <point x="751" y="836"/>
+      <point x="778" y="790"/>
+      <point x="778" y="744" type="curve" smooth="yes"/>
+      <point x="778" y="666"/>
+      <point x="685" y="608"/>
+      <point x="507" y="569" type="curve"/>
+      <point x="412" y="613"/>
+      <point x="348" y="642"/>
+      <point x="273" y="642" type="curve" smooth="yes"/>
+      <point x="185" y="642"/>
+      <point x="166" y="602"/>
+      <point x="166" y="545" type="curve" smooth="yes"/>
+      <point x="166" y="495"/>
+      <point x="188" y="442"/>
+      <point x="276" y="366" type="curve" smooth="yes"/>
+      <point x="418" y="250"/>
+      <point x="631" y="124"/>
+      <point x="902" y="-32" type="curve"/>
+      <point x="978" y="77" type="line"/>
+      <point x="848" y="185"/>
+      <point x="630" y="296"/>
+      <point x="382" y="389" type="curve"/>
+      <point x="707" y="438"/>
+      <point x="853" y="509"/>
+    </contour>
+    <contour>
+      <point x="841" y="864" type="curve"/>
+      <point x="2284" y="864" type="line"/>
+      <point x="2284" y="314" type="line"/>
+      <point x="2152" y="272"/>
+      <point x="2017" y="235"/>
+      <point x="1856" y="235" type="curve" smooth="yes"/>
+      <point x="1721" y="235"/>
+      <point x="1596" y="257"/>
+      <point x="1426" y="330" type="curve"/>
+      <point x="1720" y="371"/>
+      <point x="1769" y="434"/>
+      <point x="1769" y="537" type="curve" smooth="yes"/>
+      <point x="1769" y="590"/>
+      <point x="1751" y="645"/>
+      <point x="1688" y="687" type="curve" smooth="yes"/>
+      <point x="1624" y="726"/>
+      <point x="1526" y="750"/>
+      <point x="1312" y="750" type="curve" smooth="yes"/>
+      <point x="930" y="750" type="line"/>
+      <point x="925" y="793"/>
+      <point x="917" y="835"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>2736</integer>
+    </dict>
+  </lib>
+</glyph>

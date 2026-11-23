@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tthaDeva.w12" format="2">
+  <advance width="1228"/>
+  <anchor x="1471" y="0" name="bottomDeva"/>
+  <anchor x="1806" y="-64" name="bottom2Deva"/>
+  <anchor x="1592" y="1000" name="candraDeva"/>
+  <anchor x="1275" y="-48" name="halantDeva"/>
+  <anchor x="1373" y="-194" name="nuktaDeva"/>
+  <anchor x="1377" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="0" y="856" type="line"/>
+      <point x="213" y="856" type="line"/>
+      <point x="213" y="864" type="line"/>
+      <point x="1520" y="864" type="line"/>
+      <point x="1520" y="685" type="line"/>
+      <point x="758" y="685"/>
+      <point x="345" y="570"/>
+      <point x="345" y="350" type="curve" smooth="yes"/>
+      <point x="345" y="124"/>
+      <point x="693" y="-7"/>
+      <point x="1401" y="-7" type="curve" smooth="yes"/>
+      <point x="2026" y="-7"/>
+      <point x="2410" y="89"/>
+      <point x="2410" y="320" type="curve" smooth="yes"/>
+      <point x="2410" y="477"/>
+      <point x="2232" y="607"/>
+      <point x="1668" y="672" type="curve"/>
+      <point x="1668" y="864" type="line"/>
+      <point x="2603" y="864" type="line"/>
+      <point x="2603" y="856" type="line"/>
+      <point x="2736" y="856" type="line"/>
+      <point x="2736" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+    </contour>
+    <contour>
+      <point x="1377" y="137" type="curve" smooth="yes"/>
+      <point x="934" y="137"/>
+      <point x="494" y="203"/>
+      <point x="494" y="341" type="curve" smooth="yes"/>
+      <point x="494" y="486"/>
+      <point x="998" y="543"/>
+      <point x="1508" y="543" type="curve" smooth="yes"/>
+      <point x="1664" y="543" type="line"/>
+      <point x="1983" y="496"/>
+      <point x="2256" y="419"/>
+      <point x="2256" y="325" type="curve" smooth="yes"/>
+      <point x="2256" y="194"/>
+      <point x="1819" y="137"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>2736</integer>
+    </dict>
+  </lib>
+</glyph>

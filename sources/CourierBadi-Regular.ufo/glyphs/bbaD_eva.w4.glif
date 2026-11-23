@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="bbaDeva.w4" format="2">
+  <advance width="1228"/>
+  <anchor x="730" y="-5" name="bottomDeva"/>
+  <anchor x="730" y="-69" name="bottom2Deva"/>
+  <anchor x="815" y="1000" name="candraDeva"/>
+  <anchor x="730" y="-40" name="halantDeva"/>
+  <anchor x="730" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="216" y="123" type="line" smooth="yes"/>
+      <point x="177" y="123"/>
+      <point x="165" y="103"/>
+      <point x="165" y="61" type="curve" smooth="yes"/>
+      <point x="165" y="49" type="line" smooth="yes"/>
+      <point x="165" y="7"/>
+      <point x="177" y="-12"/>
+      <point x="216" y="-12" type="curve" smooth="yes"/>
+      <point x="828" y="-12" type="line" smooth="yes"/>
+      <point x="875" y="-12"/>
+      <point x="890" y="10"/>
+      <point x="890" y="59" type="curve" smooth="yes"/>
+      <point x="890" y="864" type="line"/>
+      <point x="1000" y="864" type="line"/>
+      <point x="1000" y="856" type="line"/>
+      <point x="1064" y="856" type="line"/>
+      <point x="1064" y="886" type="line"/>
+      <point x="1070" y="896"/>
+      <point x="1072" y="911"/>
+      <point x="1072" y="929" type="curve" smooth="yes"/>
+      <point x="1072" y="942" type="line" smooth="yes"/>
+      <point x="1072" y="961"/>
+      <point x="1070" y="975"/>
+      <point x="1064" y="986" type="curve"/>
+      <point x="1064" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+      <point x="0" y="856" type="line"/>
+      <point x="89" y="856" type="line"/>
+      <point x="89" y="864" type="line"/>
+      <point x="739" y="864" type="line"/>
+      <point x="739" y="441" type="line"/>
+      <point x="718" y="427"/>
+      <point x="697" y="412"/>
+      <point x="667" y="402" type="curve"/>
+      <point x="419" y="640" type="line"/>
+      <point x="454" y="640"/>
+      <point x="475" y="641"/>
+      <point x="498" y="641" type="curve" smooth="yes"/>
+      <point x="554" y="641"/>
+      <point x="607" y="636"/>
+      <point x="648" y="625" type="curve"/>
+      <point x="659" y="759" type="line"/>
+      <point x="613" y="772"/>
+      <point x="555" y="779"/>
+      <point x="482" y="779" type="curve" smooth="yes"/>
+      <point x="250" y="779"/>
+      <point x="96" y="681"/>
+      <point x="96" y="494" type="curve" smooth="yes"/>
+      <point x="96" y="323"/>
+      <point x="233" y="208"/>
+      <point x="462" y="208" type="curve" smooth="yes"/>
+      <point x="572" y="208"/>
+      <point x="654" y="230"/>
+      <point x="739" y="264" type="curve"/>
+      <point x="739" y="123" type="line"/>
+    </contour>
+    <contour>
+      <point x="577" y="351" type="line"/>
+      <point x="532" y="347"/>
+      <point x="500" y="343"/>
+      <point x="467" y="343" type="curve" smooth="yes"/>
+      <point x="335" y="343"/>
+      <point x="244" y="393"/>
+      <point x="244" y="494" type="curve" smooth="yes"/>
+      <point x="244" y="542"/>
+      <point x="269" y="578"/>
+      <point x="319" y="599" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>1064</integer>
+    </dict>
+  </lib>
+</glyph>

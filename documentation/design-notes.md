@@ -411,56 +411,51 @@ only the Regular is touched; the other masters are derived.
    a Hindi text) and checks their widths, dotted circles, the ink against the
    line and the headline.
 
-**Cells.** Accolade and Lexington give a character one cell and a combining
-mark (Mn/Me) or joiner none, so a cluster takes N cells: its consonants and
-spacing signs (ा ि ी ो ौ ः). The donor's glyphs each stand for c(g) of them:
-a consonant or half form 1, a conjunct ligature (क्ष, द्ध, त्र, प्र) 2 or 3,
-reph and rakar 1 (a consonant drawn as a mark), a vowel sign or mark 0. Each
-glyph is drawn over its c cells, so the shaped cluster is exactly N × 1228,
-whatever the donor ligates (check-devanagari: 0 clusters of another width).
-hmtx stays 1228 / 0 (the monospace checks; a renderer without GPOS still
-steps a cell per spacing glyph); the cells past a glyph's first come from a
-`dist` lookup (`DevaCells`): +1228 × (c − 1), and +1228 for `NullMark.cell`,
-the cell of a reph or rakar (below).
+**Cells: Lekhan monospace** (1.105; docs/LEKHAN.md). A cluster takes one
+cell, a conjunct (two or more consonants joined by the virama) two, as the
+Lekhan width counts them (Lexington's package `lekhan`, used by Accolade's
+editor and Lexington's PDF wrap). 1.103 gave every letter and spacing vowel
+sign a cell of its own (कि two cells, स्क्री four), each glyph in its cells
+with the headline stretched between them; Joop: "double-width ligatures for
+anything composed of the half-forms".
 
-Within its cells a glyph is placed by what it joins: a consonant centred; a
-half form against its cell's right edge, at the consonant after it; the
-i-matra (ि, pre-base) against its right edge too; the post-base signs
-(ा ी ो ौ ः) against their left edge. A multi-cell conjunct (about one cell
-wide in two) moves to the sign it goes with (`DevaPackSub`, psts: forms
-`.pr`, `.pl`): right,
-against a post-base sign after it (ज्ञा, श्रा); left, against an i-matra or
-half form before it (त्रि, प्रि, स्त्र). Reph and rakar (and the donor's
-marks made of them, e-matra + reph, rakar + u …) stay marks placed by their
-anchors, as in the donor; their cell is a `NullMark.cell` (a mark with a
-headline and nothing else) that a psts lookup (`DevaCellAfter`) puts after
-them, without a headline at a word's end. Where the donor makes the reph
-part of an i-matra glyph and the reph NullMark (र्कि), the reph becomes
-`NullMark.cell` too. A spacing glyph without the donor's top anchors (the
-post-base signs ा ी ो ौ, a few others) had a following ं ँ or reph at the
-mark's own place after its advance; placed in a cell, it gets `topDeva` /
-`candraDeva` anchors where that was (its donor advance's end plus the
-median mark anchor), so माँ, कां, शर्मा keep the sign on the ा.
+Each cluster is drawn as the donor draws it, its proportional glyphs where
+its own shaping puts them, then scaled across to fill its cells: every
+spacing glyph exists at a few widths (`kaDeva.w1` … `.w12`: 0.72 0.82
+0.91, and for conjuncts 1.12 to 2.9; a simple cluster is only condensed),
+the stems kept at 150, and the cluster takes the widest that fits. What is
+left (less than a step) is shared out before and after it as pads, which
+carry the headline inside a word. So क्ष is a double-width glyph, the
+conjunct widened; का and कौ are condensed into one cell; स्क्री is three
+glyphs condensed together into two cells.
 
-**The i-matra's hook** must reach the consonant after it, over the half forms
-in between: the donor's 15 width variants (×6: with anusvara, candrabindu,
-reph) are replaced after all of the donor's substitutions (`DevaIMatraCells`,
-psts) by variants named for how far the hook reaches in quarter cells
-(`iMatraDeva.q7`), picked by the half forms' cells and the consonant's
-target (where the donor's own i-matra for it ends, through the same
-placement); the hook is stretched in its middle, its end (and any reph or
-anusvara on it) moved rigidly.
+The width is worked out in the font, per syllable (HarfBuzz and go-text
+apply the Indic presentation features one syllable at a time): lookups at
+the end of psts insert empty marks, a start before the syllable and a
+counter after each spacing glyph (its advance in steps of 76 units: a cell
+is 16 steps and 12 units), count the consonants back to the start (a
+reverse chaining lookup: one cell or two), add the widths up (a chain of
+contextual substitutions, the counter after a glyph becoming what is left
+of the cells), choose the scale level from the last counter and give it
+back to every glyph (reverse), swap each glyph for its variant, add up
+again, and turn the start and the last counter into the pads (`lead.N`,
+`trail1.N`, `trail2.N`; their advances in a `dist` lookup registered for
+deva and dev2 only, so a danda in a Latin run keeps its cell). Every
+spacing glyph's advance in a cluster is its steps (`dist`); hmtx stays
+1228 / 0 for the monospace checks, so a renderer without GPOS falls back to
+a cell a glyph. The pads and counters are GDEF marks, so the donor's marks
+still attach to their letters; every spacing glyph is a GDEF base (the
+counters' lookups skip them with IgnoreBaseGlyphs; scripts/arabic-features
+now classes every `base` of the UFO's categories, not only anchored ones).
+In a word, a pad has a headline (`calt`, LekPadHead) when the glyphs on
+both sides reach it, with the headline or with a stem's top (ा ी at the
+right, the i-matra at the left).
 
-**The headline** of every glyph that has one is extended to its cells'
-edges, so a word's headline runs unbroken over the empty part of a cell (a
-multi-cell conjunct's `.pr` and `.pl` forms to the far edge). At a
-word's edges this would leave a stub of headline in front of the word or
-after it (कि, ज्ञ, का), so a glyph whose extension at an edge is longer than
-150 also has `.init` / `.fina` / `.isol` forms without it, chosen by `calt`
-lookups (`DevaWordStart`, `DevaWordEnd`, `DevaCellWordEnd`) when no glyph
-with a headline comes before or after it (a space, Latin, a danda, a digit).
-They are `calt` lookups because HarfBuzz applies the Indic features (pres …
-psts) per syllable, and a word's edge is found across syllables.
+What 1.103 needed and 1.105 drops: `NullMark.cell`, the `.pr`/`.pl`
+conjunct forms, the quarter-cell i-matra hooks (`.qN`; the donor's own
+i-matra variants reach their consonant again), the `.init`/`.fina`/`.isol`
+word-edge forms, and the hacks for र + ृ and ई (their extra cell no longer
+matters).
 
 **Size and stroke.** The donor's headline top (622) is put at 1000 (x-height
 924, cap height 1187; Hebrew 1086): a consonant is then about one cell wide.
@@ -471,8 +466,8 @@ vertically); above, nothing reaches the line's top (the highest, ि ी with
 reph and candrabindu, end at 1449 of 1628). At wght 475 the stem is the
 Latin's 150; the horizontals (headline 130) grow 7 each side to the Latin's
 144. Convex corners are rounded like the Latin's terminals (fit-hebrew.py's
-`round_corners`). A letter wider than its cells (आ, औ, ॐ, ऋ) is condensed into
-them, its stems grown back.
+`round_corners`). A letter wider than its cell (आ, औ, ॐ, ऋ) is condensed with
+its cluster, its stems grown back.
 
 Still outside the line (under −399): a ु or ू under the deeper letters (हु
 −457, दु −408, ड़ु −568), a visible virama under ह ङ छ ट ठ ड ढ (ह् −554),

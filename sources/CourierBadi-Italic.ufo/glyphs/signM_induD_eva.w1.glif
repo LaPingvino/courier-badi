@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="signMinduDeva.w1" format="2">
+  <advance width="1228"/>
+  <anchor x="580.326980708465" y="1000" name="topDeva"/>
+  <anchor x="617.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="319.98535203226345" y="102" type="curve" smooth="yes"/>
+      <point x="479.98535203226345" y="102"/>
+      <point x="577.3233580259438" y="206"/>
+      <point x="616.6442747239315" y="429" type="curve" smooth="yes"/>
+      <point x="691.935895486446" y="856" type="line"/>
+      <point x="758.935895486446" y="856" type="line"/>
+      <point x="785.5612695734242" y="1007" type="line"/>
+      <point x="177.56126957342423" y="1007" type="line"/>
+      <point x="150.93589548644601" y="856" type="line"/>
+      <point x="217.93589548644601" y="856" type="line"/>
+      <point x="143.87856358889073" y="436" type="line" smooth="yes"/>
+      <point x="105.61560877515383" y="219"/>
+      <point x="164.98535203226342" y="102"/>
+    </contour>
+    <contour>
+      <point x="542.3465113321138" y="864" type="line"/>
+      <point x="467.9365254731415" y="442" type="line" smooth="yes"/>
+      <point x="446.60096080741727" y="321"/>
+      <point x="419.66868800349243" y="259"/>
+      <point x="347.66868800349243" y="259" type="curve" smooth="yes"/>
+      <point x="281.66868800349243" y="259"/>
+      <point x="274.7772877881257" y="322"/>
+      <point x="295.9365254731415" y="442" type="curve" smooth="yes"/>
+      <point x="370.3465113321138" y="864" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>608</integer>
+    </dict>
+  </lib>
+</glyph>

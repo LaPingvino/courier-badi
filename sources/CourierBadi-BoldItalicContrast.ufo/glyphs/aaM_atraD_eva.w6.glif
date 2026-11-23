@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aaMatraDeva.w6" format="2">
+  <advance width="1228"/>
+  <anchor x="197.0" y="0" name="bottomDeva"/>
+  <anchor x="185.71507323465823" y="-84.0" name="bottom2Deva"/>
+  <anchor x="191.35753661732912" y="-52.0" name="halantDeva"/>
+  <anchor x="264.91337216697156" y="-236.0" name="nuktaDeva.sat"/>
+  <anchor x="376.326980708465" y="1000" name="topDeva"/>
+  <anchor x="447.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="587.8651406449148" y="856.6807034074611" type="line"/>
+      <point x="678.1714987582361" y="843.6143758447113" type="line"/>
+      <point x="683.0052581169874" y="836.1712564756521" type="line"/>
+      <point x="810.3101945935127" y="843.5906126135308" type="line"/>
+      <point x="802.2253882498561" y="1026.6078536948723" type="line"/>
+      <point x="162.29665993912133" y="1026.654737508899" type="line"/>
+      <point x="96.7993975128824" y="845.511215466761" type="line"/>
+      <point x="257.58527777074244" y="836.0574251140786" type="line"/>
+      <point x="272.1502567624278" y="842.6054009041416" type="line"/>
+      <point x="319.42686870242096" y="863.8281276873511" type="line"/>
+      <point x="179.19783893902954" y="67.46876117893594" type="line" smooth="yes"/>
+      <point x="170.01792325455125" y="19.96923544567983"/>
+      <point x="205.08144730362895" y="-26.953591452118943"/>
+      <point x="285.14623805673546" y="-27.00397427455062" type="curve" smooth="yes"/>
+      <point x="318.2671222534802" y="-27.002603632292757" type="line" smooth="yes"/>
+      <point x="393.2037836704008" y="-26.55567585877347"/>
+      <point x="438.3035469235875" y="11.530584786476009"/>
+      <point x="449.37548827225453" y="60.52062604093725" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>608</integer>
+    </dict>
+  </lib>
+</glyph>

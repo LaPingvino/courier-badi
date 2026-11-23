@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="aaMatraDeva.w5" format="2">
+  <advance width="1228"/>
+  <anchor x="171.0" y="0" name="bottomDeva"/>
+  <anchor x="159.71507323465823" y="-50.0" name="bottom2Deva"/>
+  <anchor x="165.35753661732912" y="-18.0" name="halantDeva"/>
+  <anchor x="226.91337216697156" y="-202.0" name="nuktaDeva.sat"/>
+  <anchor x="349.326980708465" y="1000" name="topDeva"/>
+  <anchor x="412.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="517.78944609835" y="868.772086031567" type="line"/>
+      <point x="642.3465113321138" y="878.0" type="line" smooth="yes"/>
+      <point x="695.2382402211537" y="877.1558524585151"/>
+      <point x="724.7384504354626" y="889.3893599396598"/>
+      <point x="733.4127666564814" y="931.431074487337" type="curve" smooth="yes"/>
+      <point x="735.7050174056915" y="944.431074487337" type="line" smooth="yes"/>
+      <point x="744.0281624100251" y="987.3146520754908"/>
+      <point x="721.1391908869429" y="993.9845545231715"/>
+      <point x="667.5612695734242" y="993.0" type="curve" smooth="yes"/>
+      <point x="170.2671317341565" y="993.5622227055651" type="line"/>
+      <point x="126.84948223807208" y="861.27155487465" type="line"/>
+      <point x="241.25298464326224" y="869.9442940323249" type="line"/>
+      <point x="242.37138203604488" y="877.9574787555968" type="line"/>
+      <point x="315.37905029827454" y="863.299799667948" type="line"/>
+      <point x="174.67992518702437" y="61.56892551266297" type="line" smooth="yes"/>
+      <point x="165.64559990260483" y="14.897622190646802"/>
+      <point x="190.56146313350717" y="6.0933853659300645"/>
+      <point x="249.76571113504073" y="7.0" type="curve" smooth="yes"/>
+      <point x="277.76571113504076" y="7.0" type="line" smooth="yes"/>
+      <point x="336.00119862320486" y="6.279129094246754"/>
+      <point x="368.22071063748194" y="19.569941921628285"/>
+      <point x="377.88992834365916" y="66.43107448733703" type="curve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>532</integer>
+    </dict>
+  </lib>
+</glyph>

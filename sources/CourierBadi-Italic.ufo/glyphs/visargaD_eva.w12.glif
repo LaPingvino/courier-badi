@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="visargaDeva.w12" format="2">
+  <advance width="1228"/>
+  <anchor x="308.326980708465" y="1000" name="topDeva"/>
+  <anchor x="459.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="150.93589548644601" y="856" type="line"/>
+      <point x="382.93589548644604" y="856" type="line"/>
+      <point x="384.3465113321138" y="864" type="line"/>
+      <point x="978.3465113321138" y="864" type="line"/>
+      <point x="976.935895486446" y="856" type="line"/>
+      <point x="1138.935895486446" y="856" type="line"/>
+      <point x="1165.5612695734242" y="1007" type="line"/>
+      <point x="177.56126957342423" y="1007" type="line"/>
+    </contour>
+    <contour>
+      <point x="373.20499292948614" y="211" type="curve" smooth="yes"/>
+      <point x="362.0963931448528" y="148"/>
+      <point x="367.92739014801265" y="96"/>
+      <point x="512.9273901480126" y="96" type="curve" smooth="yes"/>
+      <point x="649.9273901480126" y="96"/>
+      <point x="678.0963931448529" y="148"/>
+      <point x="689.2049929294861" y="211" type="curve" smooth="yes"/>
+      <point x="700.1372657334109" y="273"/>
+      <point x="689.6589226916681" y="327"/>
+      <point x="553.6589226916681" y="327" type="curve" smooth="yes"/>
+      <point x="409.65892269166807" y="327"/>
+      <point x="384.1372657334109" y="273"/>
+    </contour>
+    <contour>
+      <point x="443.7357852128721" y="611" type="curve" smooth="yes"/>
+      <point x="432.80351240894726" y="549"/>
+      <point x="439.28185545069016" y="495"/>
+      <point x="583.2818554506902" y="495" type="curve" smooth="yes"/>
+      <point x="719.2818554506902" y="495"/>
+      <point x="748.8035124089473" y="549"/>
+      <point x="759.7357852128721" y="611" type="curve" smooth="yes"/>
+      <point x="770.4917310360885" y="672"/>
+      <point x="760.0133879943455" y="726"/>
+      <point x="624.0133879943455" y="726" type="curve" smooth="yes"/>
+      <point x="480.0133879943456" y="726"/>
+      <point x="454.4917310360885" y="672"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>988</integer>
+    </dict>
+  </lib>
+</glyph>

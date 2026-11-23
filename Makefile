@@ -34,12 +34,19 @@ arabic-features:
 arabic-features-check:
 	cd scripts/arabic-features && go run . --ufo ../../sources/CourierBadi-Regular.ufo --check
 
-# Shape the built fonts' Devanagari: every cluster N cells wide, no dotted
-# circles, the ink against the 12 pt line, the headline (documentation/
+# Shape the built fonts' Devanagari: every text as wide as its Lekhan width
+# (docs/LEKHAN.md), no dotted circles, no stretched headline, the ink against the 12 pt line, the headline (documentation/
 # design-notes.md, "Devanagari"). The Devanagari itself is made by
 # scripts/import-devanagari.py and scripts/fit-devanagari.py (see there).
 check-devanagari: venv build.stamp
-	. venv/bin/activate; python3 scripts/check-devanagari.py fonts/ttf/*.ttf
+	. venv/bin/activate; python3 scripts/check-devanagari.py --sample documentation/sample.hi-Deva.fountain fonts/ttf/*.ttf
+
+# Lekhan monospace specimen (docs/LEKHAN.md): every cluster type on the
+# cell grid, the four styles, a Hindi screenplay; PDF and 600 dpi pages.
+lekhan-specimen: venv build.stamp
+	mkdir -p out
+	. venv/bin/activate; python3 documentation/lekhan-specimen.py --sample documentation/sample.hi-Deva.fountain --out out/lekhan-specimen.pdf
+	pdftoppm -r 600 -png out/lekhan-specimen.pdf out/lekhan-specimen
 
 build.stamp: venv sources/config.yaml $(SOURCES)
 	rm -rf fonts

@@ -2,44 +2,44 @@
 <glyph name="abbreviationDeva" format="2">
   <advance width="1228"/>
   <unicode hex="0970"/>
-  <anchor x="671" y="1000" name="topDeva"/>
-  <anchor x="723" y="1000" name="candraDeva"/>
+  <anchor x="400" y="1000" name="topDeva"/>
+  <anchor x="451" y="1000" name="candraDeva"/>
   <outline>
     <contour>
-      <point x="616" y="437" type="curve" smooth="yes"/>
-      <point x="756" y="437"/>
-      <point x="859" y="540"/>
-      <point x="859" y="674" type="curve" smooth="yes"/>
-      <point x="859" y="808"/>
-      <point x="756" y="909"/>
-      <point x="616" y="909" type="curve" smooth="yes"/>
-      <point x="469" y="909"/>
-      <point x="370" y="802"/>
-      <point x="370" y="674" type="curve" smooth="yes"/>
-      <point x="370" y="534"/>
-      <point x="481" y="437"/>
+      <point x="344" y="437" type="curve" smooth="yes"/>
+      <point x="484" y="437"/>
+      <point x="587" y="540"/>
+      <point x="587" y="674" type="curve" smooth="yes"/>
+      <point x="587" y="808"/>
+      <point x="484" y="909"/>
+      <point x="344" y="909" type="curve" smooth="yes"/>
+      <point x="197" y="909"/>
+      <point x="98" y="802"/>
+      <point x="98" y="674" type="curve" smooth="yes"/>
+      <point x="98" y="534"/>
+      <point x="209" y="437"/>
     </contour>
     <contour>
-      <point x="616" y="565" type="curve" smooth="yes"/>
-      <point x="546" y="565"/>
-      <point x="493" y="608"/>
-      <point x="493" y="674" type="curve" smooth="yes"/>
-      <point x="493" y="734"/>
-      <point x="539" y="781"/>
-      <point x="616" y="781" type="curve" smooth="yes"/>
-      <point x="687" y="781"/>
-      <point x="737" y="737"/>
-      <point x="737" y="674" type="curve" smooth="yes"/>
-      <point x="737" y="608"/>
-      <point x="687" y="565"/>
+      <point x="344" y="565" type="curve" smooth="yes"/>
+      <point x="274" y="565"/>
+      <point x="221" y="608"/>
+      <point x="221" y="674" type="curve" smooth="yes"/>
+      <point x="221" y="734"/>
+      <point x="267" y="781"/>
+      <point x="344" y="781" type="curve" smooth="yes"/>
+      <point x="415" y="781"/>
+      <point x="465" y="737"/>
+      <point x="465" y="674" type="curve" smooth="yes"/>
+      <point x="465" y="608"/>
+      <point x="415" y="565"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.devanagari</key>
       <string>fitted</string>
-      <key>org.courierbadi.devanagari.cells</key>
-      <integer>1</integer>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>684</integer>
     </dict>
   </lib>
 </glyph>

@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="tth_yaDeva.w10" format="2">
+  <advance width="1228"/>
+  <anchor x="3512" y="0" name="bottomDeva"/>
+  <anchor x="3512" y="-64" name="bottom2Deva"/>
+  <anchor x="3682" y="1000" name="candraDeva"/>
+  <anchor x="3512" y="-32" name="halantDeva"/>
+  <anchor x="3512" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="3605" y="64" type="line" smooth="yes"/>
+      <point x="3605" y="52"/>
+      <point x="3604" y="42"/>
+      <point x="3602" y="33" type="curve" smooth="yes"/>
+      <point x="3597" y="6"/>
+      <point x="3595" y="-7"/>
+      <point x="3656" y="-7" type="curve" smooth="yes"/>
+      <point x="3704" y="-7" type="line" smooth="yes"/>
+      <point x="3764" y="-7"/>
+      <point x="3762" y="6"/>
+      <point x="3758" y="33" type="curve" smooth="yes"/>
+      <point x="3758" y="33" type="line"/>
+      <point x="3756" y="42"/>
+      <point x="3754" y="52"/>
+      <point x="3754" y="64" type="curve" smooth="yes"/>
+      <point x="3754" y="864" type="line"/>
+      <point x="4059" y="864" type="line"/>
+      <point x="4059" y="856" type="line"/>
+      <point x="4180" y="856" type="line"/>
+      <point x="4180" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+      <point x="0" y="856" type="line"/>
+      <point x="172" y="856" type="line"/>
+      <point x="172" y="864" type="line"/>
+      <point x="1178" y="864" type="line"/>
+      <point x="1178" y="685" type="line"/>
+      <point x="605" y="685"/>
+      <point x="267" y="570"/>
+      <point x="267" y="350" type="curve" smooth="yes"/>
+      <point x="267" y="124"/>
+      <point x="554" y="-7"/>
+      <point x="1102" y="-7" type="curve" smooth="yes"/>
+      <point x="1587" y="-7"/>
+      <point x="1902" y="89"/>
+      <point x="1902" y="320" type="curve" smooth="yes"/>
+      <point x="1902" y="456"/>
+      <point x="1793" y="572"/>
+      <point x="1515" y="642" type="curve"/>
+      <point x="1728" y="626"/>
+      <point x="1897" y="623"/>
+      <point x="2072" y="623" type="curve" smooth="yes"/>
+      <point x="2405" y="623" type="line" smooth="yes"/>
+      <point x="2601" y="623"/>
+      <point x="2875" y="619"/>
+      <point x="2875" y="555" type="curve" smooth="yes"/>
+      <point x="2875" y="500"/>
+      <point x="2618" y="463"/>
+      <point x="2398" y="432" type="curve"/>
+      <point x="2423" y="208"/>
+      <point x="2667" y="98"/>
+      <point x="3045" y="98" type="curve" smooth="yes"/>
+      <point x="3220" y="98"/>
+      <point x="3369" y="120"/>
+      <point x="3605" y="144" type="curve"/>
+    </contour>
+    <contour>
+      <point x="3605" y="864" type="line"/>
+      <point x="3605" y="310" type="line"/>
+      <point x="3416" y="268"/>
+      <point x="3251" y="239"/>
+      <point x="3059" y="239" type="curve" smooth="yes"/>
+      <point x="2854" y="239"/>
+      <point x="2690" y="261"/>
+      <point x="2465" y="340" type="curve"/>
+      <point x="2954" y="389"/>
+      <point x="3027" y="443"/>
+      <point x="3027" y="551" type="curve" smooth="yes"/>
+      <point x="3027" y="699"/>
+      <point x="2850" y="756"/>
+      <point x="2470" y="756" type="curve" smooth="yes"/>
+      <point x="1327" y="756" type="line"/>
+      <point x="1327" y="864" type="line"/>
+    </contour>
+    <contour>
+      <point x="1084" y="137" type="curve" smooth="yes"/>
+      <point x="739" y="137"/>
+      <point x="415" y="203"/>
+      <point x="415" y="341" type="curve" smooth="yes"/>
+      <point x="415" y="486"/>
+      <point x="789" y="543"/>
+      <point x="1186" y="543" type="curve" smooth="yes"/>
+      <point x="1307" y="543" type="line"/>
+      <point x="1556" y="496"/>
+      <point x="1750" y="419"/>
+      <point x="1750" y="325" type="curve" smooth="yes"/>
+      <point x="1750" y="194"/>
+      <point x="1428" y="137"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>4180</integer>
+    </dict>
+  </lib>
+</glyph>

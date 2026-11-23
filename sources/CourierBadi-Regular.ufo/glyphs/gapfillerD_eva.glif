@@ -2,62 +2,62 @@
 <glyph name="gapfillerDeva" format="2">
   <advance width="1228"/>
   <unicode hex="A8F9"/>
-  <anchor x="875" y="1000" name="topDeva"/>
-  <anchor x="927" y="1000" name="candraDeva"/>
+  <anchor x="793" y="1000" name="topDeva"/>
+  <anchor x="844" y="1000" name="candraDeva"/>
   <outline>
     <contour>
-      <point x="480" y="134" type="curve" smooth="yes"/>
-      <point x="366" y="134"/>
-      <point x="300" y="168"/>
-      <point x="300" y="243" type="curve" smooth="yes"/>
-      <point x="300" y="305"/>
-      <point x="348" y="337"/>
-      <point x="441" y="337" type="curve" smooth="yes"/>
-      <point x="454" y="337"/>
-      <point x="472" y="337"/>
-      <point x="483" y="334" type="curve"/>
-      <point x="496" y="471" type="line"/>
-      <point x="480" y="473"/>
-      <point x="449" y="478"/>
-      <point x="419" y="478" type="curve" smooth="yes"/>
-      <point x="226" y="478"/>
-      <point x="153" y="364"/>
-      <point x="153" y="241" type="curve" smooth="yes"/>
-      <point x="153" y="95"/>
-      <point x="263" y="-7"/>
-      <point x="480" y="-7" type="curve" smooth="yes"/>
-      <point x="846" y="-7"/>
-      <point x="1068" y="240"/>
-      <point x="1068" y="487" type="curve" smooth="yes"/>
-      <point x="1068" y="680"/>
-      <point x="954" y="779"/>
-      <point x="793" y="779" type="curve" smooth="yes"/>
-      <point x="634" y="779"/>
-      <point x="554" y="688"/>
-      <point x="554" y="574" type="curve" smooth="yes"/>
-      <point x="554" y="500"/>
-      <point x="578" y="445"/>
-      <point x="605" y="403" type="curve"/>
-      <point x="737" y="460" type="line"/>
-      <point x="710" y="500"/>
-      <point x="695" y="535"/>
-      <point x="695" y="569" type="curve" smooth="yes"/>
-      <point x="695" y="615"/>
-      <point x="723" y="652"/>
-      <point x="788" y="652" type="curve" smooth="yes"/>
-      <point x="872" y="652"/>
-      <point x="920" y="585"/>
-      <point x="920" y="495" type="curve" smooth="yes"/>
-      <point x="920" y="286"/>
-      <point x="727" y="134"/>
+      <point x="398" y="134" type="curve" smooth="yes"/>
+      <point x="284" y="134"/>
+      <point x="218" y="168"/>
+      <point x="218" y="243" type="curve" smooth="yes"/>
+      <point x="218" y="305"/>
+      <point x="266" y="337"/>
+      <point x="359" y="337" type="curve" smooth="yes"/>
+      <point x="372" y="337"/>
+      <point x="390" y="337"/>
+      <point x="401" y="334" type="curve"/>
+      <point x="414" y="471" type="line"/>
+      <point x="398" y="473"/>
+      <point x="367" y="478"/>
+      <point x="337" y="478" type="curve" smooth="yes"/>
+      <point x="144" y="478"/>
+      <point x="71" y="364"/>
+      <point x="71" y="241" type="curve" smooth="yes"/>
+      <point x="71" y="95"/>
+      <point x="181" y="-7"/>
+      <point x="398" y="-7" type="curve" smooth="yes"/>
+      <point x="764" y="-7"/>
+      <point x="986" y="240"/>
+      <point x="986" y="487" type="curve" smooth="yes"/>
+      <point x="986" y="680"/>
+      <point x="872" y="779"/>
+      <point x="711" y="779" type="curve" smooth="yes"/>
+      <point x="552" y="779"/>
+      <point x="472" y="688"/>
+      <point x="472" y="574" type="curve" smooth="yes"/>
+      <point x="472" y="500"/>
+      <point x="496" y="445"/>
+      <point x="523" y="403" type="curve"/>
+      <point x="655" y="460" type="line"/>
+      <point x="628" y="500"/>
+      <point x="613" y="535"/>
+      <point x="613" y="569" type="curve" smooth="yes"/>
+      <point x="613" y="615"/>
+      <point x="641" y="652"/>
+      <point x="706" y="652" type="curve" smooth="yes"/>
+      <point x="790" y="652"/>
+      <point x="838" y="585"/>
+      <point x="838" y="495" type="curve" smooth="yes"/>
+      <point x="838" y="286"/>
+      <point x="645" y="134"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.devanagari</key>
       <string>fitted</string>
-      <key>org.courierbadi.devanagari.cells</key>
-      <integer>1</integer>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>1064</integer>
     </dict>
   </lib>
 </glyph>

@@ -3,47 +3,51 @@
   <advance width="1228"/>
   <outline>
     <contour>
-      <point x="150.93589548644601" y="856" type="line"/>
-      <point x="752.935895486446" y="856" type="line"/>
-      <point x="754.3465113321138" y="864" type="line"/>
-      <point x="1092.3465113321138" y="864" type="line" smooth="yes"/>
-      <point x="1134.3465113321138" y="864"/>
-      <point x="1154.0493779269914" y="885"/>
-      <point x="1161.807765078164" y="929" type="curve" smooth="yes"/>
-      <point x="1164.100015827374" y="942" type="line" smooth="yes"/>
-      <point x="1172.034729959255" y="987"/>
-      <point x="1159.5612695734242" y="1007"/>
-      <point x="1117.5612695734242" y="1007" type="curve" smooth="yes"/>
-      <point x="177.56126957342423" y="1007" type="line"/>
+      <point x="431.2336588782638" y="421" type="line"/>
+      <point x="716.2336588782638" y="421" type="line" smooth="yes"/>
+      <point x="758.2336588782638" y="421"/>
+      <point x="777.760198492433" y="441"/>
+      <point x="785.6949126243139" y="486" type="curve" smooth="yes"/>
+      <point x="787.8108363928155" y="498" type="line" smooth="yes"/>
+      <point x="795.7455505246965" y="543"/>
+      <point x="783.2720901388658" y="563"/>
+      <point x="741.2720901388658" y="563" type="curve" smooth="yes"/>
+      <point x="273.2720901388658" y="563" type="line" smooth="yes"/>
+      <point x="196.2720901388658" y="563"/>
+      <point x="163.21901091052717" y="523"/>
+      <point x="153.69735395227008" y="469" type="curve" smooth="yes"/>
+      <point x="136.76996380425743" y="373"/>
+      <point x="227.20011027357393" y="245"/>
+      <point x="310.2001102735739" y="245" type="curve" smooth="yes"/>
+      <point x="365.2001102735739" y="245"/>
+      <point x="406.54788157907865" y="281"/>
+      <point x="419.06709720937965" y="352" type="curve" smooth="yes"/>
     </contour>
     <contour>
-      <point x="960.2336588782638" y="421" type="line"/>
-      <point x="1244.2336588782637" y="421" type="line" smooth="yes"/>
-      <point x="1286.2336588782637" y="421"/>
-      <point x="1305.7601984924331" y="441"/>
-      <point x="1313.694912624314" y="486" type="curve" smooth="yes"/>
-      <point x="1315.8108363928156" y="498" type="line" smooth="yes"/>
-      <point x="1323.7455505246965" y="543"/>
-      <point x="1311.2720901388657" y="563"/>
-      <point x="1269.2720901388657" y="563" type="curve" smooth="yes"/>
-      <point x="801.2720901388658" y="563" type="line" smooth="yes"/>
-      <point x="724.2720901388658" y="563"/>
-      <point x="691.2190109105272" y="523"/>
-      <point x="681.6973539522701" y="469" type="curve" smooth="yes"/>
-      <point x="664.7699638042575" y="373"/>
-      <point x="755.200110273574" y="245"/>
-      <point x="839.200110273574" y="245" type="curve" smooth="yes"/>
-      <point x="893.200110273574" y="245"/>
-      <point x="935.5478815790786" y="281"/>
-      <point x="948.0670972093797" y="352" type="curve" smooth="yes"/>
+      <point x="150.93589548644601" y="856" type="line"/>
+      <point x="235.93589548644601" y="856" type="line"/>
+      <point x="237.34651133211375" y="864" type="line"/>
+      <point x="540.3465113321138" y="864" type="line"/>
+      <point x="538.935895486446" y="856" type="line"/>
+      <point x="606.935895486446" y="856" type="line"/>
+      <point x="610.9914160427408" y="879" type="line"/>
+      <point x="622.9310128305339" y="890"/>
+      <point x="629.7522445218692" y="906"/>
+      <point x="633.8077650781639" y="929" type="curve" smooth="yes"/>
+      <point x="636.100015827374" y="942" type="line" smooth="yes"/>
+      <point x="640.1555363836687" y="965"/>
+      <point x="638.9767680750042" y="981"/>
+      <point x="630.9163648627973" y="992" type="curve"/>
+      <point x="633.5612695734242" y="1007" type="line"/>
+      <point x="177.56126957342423" y="1007" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.devanagari</key>
       <string>fitted</string>
-      <key>org.courierbadi.devanagari.cells</key>
-      <integer>1</integer>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>456</integer>
     </dict>
   </lib>
 </glyph>

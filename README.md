@@ -36,6 +36,26 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**23 November 2026. Version 1.105**
+- **Devanagari in Lekhan monospace** (docs/LEKHAN.md): a simple cluster
+  (a consonant or a vowel with its signs: आ कि ला कः) takes one cell, a
+  conjunct (two or more consonants joined by the virama: क्ष त्न स्क्री र्य)
+  two, drawn as one double-width glyph. 1.103 gave every letter and
+  spacing vowel sign a cell (कि two, स्क्री four) with the headline
+  stretched between the pieces. Each cluster is now the donor's own
+  proportional drawing scaled across to fill its cells (condensed or
+  widened, the stems kept), worked out per syllable in the font's features;
+  the remainder is headline before and after it inside a word.
+- **docs/LEKHAN.md**, the rule as a short public spec (CC0): the story, the
+  typewriter lineage, the rule in Unicode terms (extended grapheme clusters
+  with GB9c), test vectors (docs/lekhan-vectors.txt) and a reference
+  function (Lexington's Go package `lekhan`, which Accolade and Lexington
+  count cells with).
+- `scripts/check-devanagari.py` checks every vector, 6500 clusters and words
+  and a Hindi sample against the Lekhan width, and that no conjunct is a
+  narrow glyph with a stretched headline; `documentation/lekhan-specimen.py`
+  draws every cluster type on the cell grid (out/lekhan-specimen.pdf).
+
 **23 November 2026. Version 1.104**
 - **The 2023 merge fitted.** The Arabic, Greek and extended Latin merged from
   No Name Fixed in 0.500 came over as they were; like the Hebrew and the

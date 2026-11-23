@@ -2,60 +2,68 @@
 <glyph name="tthaDeva" format="2">
   <advance width="1228"/>
   <unicode hex="0920"/>
-  <anchor x="649" y="0" name="bottomDeva"/>
-  <anchor x="765" y="-98.0" name="bottom2Deva"/>
-  <anchor x="691" y="1000" name="candraDeva"/>
-  <anchor x="582" y="-82.0" name="halantDeva"/>
-  <anchor x="616" y="-228.0" name="nuktaDeva"/>
-  <anchor x="617" y="1000" name="topDeva"/>
+  <anchor x="491" y="0" name="bottomDeva"/>
+  <anchor x="607" y="-98.0" name="bottom2Deva"/>
+  <anchor x="533" y="1000" name="candraDeva"/>
+  <anchor x="424" y="-82.0" name="halantDeva"/>
+  <anchor x="458" y="-228.0" name="nuktaDeva"/>
+  <anchor x="459" y="1000" name="topDeva"/>
   <outline>
     <contour>
-      <point x="-20.421632360253028" y="828.8162377191334" type="line"/>
-      <point x="202.35216326076085" y="822.0268980733839" type="line"/>
-      <point x="201.65372528386567" y="830.0062852389852" type="line"/>
-      <point x="603.5614536335719" y="832.7685179417089" type="line"/>
-      <point x="595.4240009429285" y="711.2769150527464" type="line"/>
-      <point x="389.7128248642108" y="717.7070080869097"/>
-      <point x="182.3121552412743" y="586.5720208056171"/>
-      <point x="178.0" y="350.0" type="curve" smooth="yes"/>
-      <point x="181.0386357156052" y="109.9503052827116"/>
-      <point x="363.72023059702605" y="-39.408738652124065"/>
-      <point x="625.0" y="-41.0" type="curve" smooth="yes"/>
-      <point x="853.9913395352601" y="-40.04751870310673"/>
-      <point x="1051.9389567852477" y="72.8860660727719"/>
-      <point x="1056.0" y="320.0" type="curve" smooth="yes"/>
-      <point x="1054.243979688133" y="487.78544268313857"/>
-      <point x="946.6533036574072" y="634.0081663212246"/>
-      <point x="795.9138092486758" y="689.8883100020989" type="curve"/>
-      <point x="785.9052275955061" y="835.740623333801" type="line"/>
-      <point x="1053.0526327849605" y="830.0132011604525" type="line"/>
-      <point x="1052.4384312267405" y="822.0358791816072" type="line"/>
-      <point x="1250.2844890295155" y="830.321184826916" type="line"/>
-      <point x="1232.1495286297022" y="1040.7458354786377" type="line"/>
-      <point x="-4.14952862970219" y="1040.7458354786377" type="line"/>
+      <point x="898.0" y="830.0" type="line" smooth="yes"/>
+      <point x="951.5749968425649" y="832.0309611014874"/>
+      <point x="989.014505883782" y="876.8733523978383"/>
+      <point x="990.0" y="929.0" type="curve" smooth="yes"/>
+      <point x="990.0" y="942.0" type="line" smooth="yes"/>
+      <point x="989.014505883782" y="995.1266476021617"/>
+      <point x="951.0836832328597" y="1039.1426813752933"/>
+      <point x="898.0" y="1041.0" type="curve" smooth="yes"/>
+      <point x="41.0" y="1041.0" type="line" smooth="yes"/>
+      <point x="-11.083683232859745" y="1039.1426813752933"/>
+      <point x="-49.89360677115837" y="995.6029433093798"/>
+      <point x="-51.0" y="942.0" type="curve" smooth="yes"/>
+      <point x="-51.0" y="929.0" type="line" smooth="yes"/>
+      <point x="-49.89360677115837" y="876.3970566906202"/>
+      <point x="-11.57499684256491" y="832.0309611014874"/>
+      <point x="41.0" y="830.0" type="curve" smooth="yes"/>
+      <point x="445.6157686428455" y="832.7452027525667" type="line"/>
+      <point x="437.42400094292844" y="711.2769150527464" type="line"/>
+      <point x="231.7128248642108" y="717.7070080869097"/>
+      <point x="24.31215524127431" y="586.5720208056171"/>
+      <point x="20.0" y="350.0" type="curve" smooth="yes"/>
+      <point x="23.038635715605196" y="109.9503052827116"/>
+      <point x="205.72023059702602" y="-39.408738652124065"/>
+      <point x="467.0" y="-41.0" type="curve" smooth="yes"/>
+      <point x="695.9913395352601" y="-40.04751870310673"/>
+      <point x="893.9389567852477" y="72.8860660727719"/>
+      <point x="898.0" y="320.0" type="curve" smooth="yes"/>
+      <point x="896.243979688133" y="487.78544268313857"/>
+      <point x="788.6533036574072" y="634.0081663212246"/>
+      <point x="637.9138092486758" y="689.8883100020989" type="curve"/>
+      <point x="627.8145552733997" y="835.6801746145181" type="line"/>
     </contour>
     <contour>
-      <point x="617.0" y="171.0" type="curve" smooth="yes"/>
-      <point x="477.5192737768113" y="169.91537595586195"/>
-      <point x="392.1096009809727" y="218.79278090668666"/>
-      <point x="396.0" y="341.0" type="curve" smooth="yes"/>
-      <point x="390.71956332326783" y="467.80146482486"/>
-      <point x="496.3464619579912" y="509.59756864215166"/>
-      <point x="662.0" y="509.0" type="curve" smooth="yes"/>
-      <point x="701.8340214203248" y="510.55538751167484" type="line"/>
-      <point x="791.0910156609307" y="469.18928621038685"/>
-      <point x="838.8593165665542" y="407.9105244293959"/>
-      <point x="837.0" y="325.0" type="curve" smooth="yes"/>
-      <point x="841.3832755868664" y="210.6987914244264"/>
-      <point x="757.5552340068947" y="170.17492214471503"/>
+      <point x="459.0" y="171.0" type="curve" smooth="yes"/>
+      <point x="319.5192737768113" y="169.91537595586195"/>
+      <point x="234.10960098097271" y="218.79278090668666"/>
+      <point x="238.0" y="341.0" type="curve" smooth="yes"/>
+      <point x="232.71956332326783" y="467.80146482486"/>
+      <point x="338.3464619579912" y="509.59756864215166"/>
+      <point x="504.0" y="509.0" type="curve" smooth="yes"/>
+      <point x="543.8340214203248" y="510.55538751167484" type="line"/>
+      <point x="633.0910156609307" y="469.18928621038685"/>
+      <point x="680.8593165665542" y="407.9105244293959"/>
+      <point x="679.0" y="325.0" type="curve" smooth="yes"/>
+      <point x="683.3832755868664" y="210.6987914244264"/>
+      <point x="599.5552340068947" y="170.17492214471503"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.devanagari</key>
       <string>fitted</string>
-      <key>org.courierbadi.devanagari.cells</key>
-      <integer>1</integer>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>912</integer>
     </dict>
   </lib>
 </glyph>

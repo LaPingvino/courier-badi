@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="signMinduDeva.w1" format="2">
+  <advance width="1228"/>
+  <anchor x="580.326980708465" y="1000" name="topDeva"/>
+  <anchor x="617.326980708465" y="1000" name="candraDeva"/>
+  <outline>
+    <contour>
+      <point x="319.85848247593333" y="81.99983332564946" type="curve" smooth="yes"/>
+      <point x="503.047658673277" y="83.32627671016449"/>
+      <point x="632.4360251129253" y="198.59627207397094"/>
+      <point x="675.7295852682535" y="425.5366503686091" type="curve" smooth="yes"/>
+      <point x="748.8689605659735" y="849.6602736441405" type="line"/>
+      <point x="812.3016078919571" y="842.8157842386277" type="line"/>
+      <point x="802.184388887672" y="1026.6006193321184" type="line"/>
+      <point x="162.56406786675004" y="1026.612860221547" type="line"/>
+      <point x="92.16779618207326" y="848.3014099052974" type="line"/>
+      <point x="157.9453784261599" y="856.3054925109733" type="line"/>
+      <point x="84.7863986132902" y="439.48428906233625" type="line" smooth="yes"/>
+      <point x="45.82167990964548" y="218.2982015961256"/>
+      <point x="135.32815907839034" y="84.16328839906473"/>
+    </contour>
+    <contour>
+      <point x="483.31879426092326" y="857.5541573582242" type="line"/>
+      <point x="408.8702038323473" y="445.40628596868584" type="line" smooth="yes"/>
+      <point x="388.2556089427819" y="326.85806026918846"/>
+      <point x="388.99404763690706" y="275.5697057471168"/>
+      <point x="346.84782359629884" y="279.00697914879845" type="curve" smooth="yes"/>
+      <point x="318.46149829020504" y="273.12463333969737"/>
+      <point x="334.312658038467" y="321.68445559833657"/>
+      <point x="355.0412590962691" y="438.4768220343419" type="curve" smooth="yes"/>
+      <point x="423.611642113153" y="852.3627688147424" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>608</integer>
+    </dict>
+  </lib>
+</glyph>

@@ -319,16 +319,27 @@ func markClass(f *font) []string {
 	return marks
 }
 
-// baseClass returns the glyphs carrying a mark-attaching anchor that are not
+// baseClass returns the glyphs carrying a mark-attaching anchor, and those the
+// UFO classes as base, that are not
 // marks themselves (a mark's own non-"_" anchors are for mark-to-mark).
 func baseClass(f *font, marks []string) []string {
 	isMark := make(map[string]bool, len(marks))
 	for _, m := range marks {
 		isMark[m] = true
 	}
+	seen := map[string]bool{}
 	var bases []string
 	for name := range f.anchored {
 		if !isMark[name] {
+			bases = append(bases, name)
+			seen[name] = true
+		}
+	}
+	// and what the UFO calls a base (Devanagari: Lekhan monospace's
+	// counters skip every spacing glyph with IgnoreBaseGlyphs, so each must
+	// be in the class, with anchors or without)
+	for name, c := range f.categories {
+		if c == "base" && f.names[name] && !isMark[name] && !seen[name] {
 			bases = append(bases, name)
 		}
 	}

@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="khaDeva.w6" format="2">
+  <advance width="1228"/>
+  <anchor x="1478" y="0" name="bottomDeva"/>
+  <anchor x="1478" y="-64" name="bottom2Deva"/>
+  <anchor x="1584" y="1000" name="candraDeva"/>
+  <anchor x="1478" y="-32" name="halantDeva"/>
+  <anchor x="283" y="39" name="nuktaDeva"/>
+  <anchor x="1478" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="1659" y="864" type="line"/>
+      <point x="1815" y="864" type="line"/>
+      <point x="1815" y="856" type="line"/>
+      <point x="1900" y="856" type="line"/>
+      <point x="1900" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+      <point x="0" y="856" type="line"/>
+      <point x="117" y="856" type="line"/>
+      <point x="117" y="864" type="line"/>
+      <point x="478" y="864" type="line"/>
+      <point x="514" y="829"/>
+      <point x="526" y="781"/>
+      <point x="526" y="730" type="curve" smooth="yes"/>
+      <point x="526" y="669"/>
+      <point x="504" y="607"/>
+      <point x="419" y="572" type="curve"/>
+      <point x="342" y="616"/>
+      <point x="296" y="642"/>
+      <point x="235" y="642" type="curve" smooth="yes"/>
+      <point x="166" y="642"/>
+      <point x="135" y="604"/>
+      <point x="135" y="542" type="curve" smooth="yes"/>
+      <point x="135" y="463"/>
+      <point x="186" y="371"/>
+      <point x="296" y="271" type="curve" smooth="yes"/>
+      <point x="459" y="120"/>
+      <point x="710" y="3"/>
+      <point x="1070" y="3" type="curve" smooth="yes"/>
+      <point x="1235" y="3"/>
+      <point x="1362" y="22"/>
+      <point x="1508" y="58" type="curve"/>
+      <point x="1508" y="31" type="line" smooth="yes"/>
+      <point x="1508" y="26"/>
+      <point x="1508" y="22"/>
+      <point x="1507" y="18" type="curve"/>
+      <point x="1507" y="17"/>
+      <point x="1507" y="16"/>
+      <point x="1507" y="15" type="curve" smooth="yes"/>
+      <point x="1507" y="0"/>
+      <point x="1507" y="-7"/>
+      <point x="1522" y="-7" type="curve" smooth="yes"/>
+      <point x="1600" y="-7" type="line" smooth="yes"/>
+      <point x="1653" y="-7"/>
+      <point x="1659" y="15"/>
+      <point x="1659" y="64" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="1508" y="864" type="line"/>
+      <point x="1508" y="458" type="line"/>
+      <point x="1432" y="421"/>
+      <point x="1339" y="396"/>
+      <point x="1237" y="396" type="curve" smooth="yes"/>
+      <point x="1114" y="396"/>
+      <point x="1002" y="430"/>
+      <point x="1002" y="511" type="curve" smooth="yes"/>
+      <point x="1002" y="591"/>
+      <point x="1104" y="630"/>
+      <point x="1248" y="630" type="curve" smooth="yes"/>
+      <point x="1299" y="630"/>
+      <point x="1352" y="625"/>
+      <point x="1368" y="615" type="curve"/>
+      <point x="1376" y="748" type="line"/>
+      <point x="1351" y="761"/>
+      <point x="1292" y="766"/>
+      <point x="1226" y="766" type="curve" smooth="yes"/>
+      <point x="982" y="766"/>
+      <point x="857" y="674"/>
+      <point x="857" y="518" type="curve" smooth="yes"/>
+      <point x="857" y="362"/>
+      <point x="994" y="263"/>
+      <point x="1232" y="263" type="curve" smooth="yes"/>
+      <point x="1332" y="263"/>
+      <point x="1405" y="278"/>
+      <point x="1508" y="298" type="curve"/>
+      <point x="1508" y="205" type="line"/>
+      <point x="1368" y="166"/>
+      <point x="1231" y="147"/>
+      <point x="1077" y="147" type="curve" smooth="yes"/>
+      <point x="771" y="147"/>
+      <point x="529" y="234"/>
+      <point x="339" y="384" type="curve"/>
+      <point x="582" y="452"/>
+      <point x="678" y="554"/>
+      <point x="678" y="727" type="curve" smooth="yes"/>
+      <point x="678" y="786"/>
+      <point x="667" y="836"/>
+      <point x="618" y="864" type="curve"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>1900</integer>
+    </dict>
+  </lib>
+</glyph>

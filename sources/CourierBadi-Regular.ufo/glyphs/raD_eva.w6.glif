@@ -1,0 +1,61 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="raDeva.w6" format="2">
+  <advance width="1228"/>
+  <anchor x="677" y="-64" name="bottom2Deva"/>
+  <anchor x="591" y="1000" name="candraDeva"/>
+  <anchor x="256" y="34" name="nuktaDeva"/>
+  <anchor x="497" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="685" y="864" type="curve"/>
+      <point x="877" y="864" type="line" smooth="yes"/>
+      <point x="924" y="864"/>
+      <point x="928" y="885"/>
+      <point x="928" y="929" type="curve" smooth="yes"/>
+      <point x="928" y="942" type="line" smooth="yes"/>
+      <point x="928" y="987"/>
+      <point x="924" y="1007"/>
+      <point x="877" y="1007" type="curve" smooth="yes"/>
+      <point x="0" y="1007" type="line"/>
+      <point x="0" y="856" type="line"/>
+      <point x="90" y="856" type="line"/>
+      <point x="90" y="864" type="line"/>
+      <point x="539" y="864" type="line"/>
+      <point x="572" y="836"/>
+      <point x="590" y="790"/>
+      <point x="590" y="744" type="curve" smooth="yes"/>
+      <point x="590" y="666"/>
+      <point x="527" y="608"/>
+      <point x="393" y="569" type="curve"/>
+      <point x="322" y="613"/>
+      <point x="269" y="642"/>
+      <point x="208" y="642" type="curve" smooth="yes"/>
+      <point x="136" y="642"/>
+      <point x="108" y="602"/>
+      <point x="108" y="545" type="curve" smooth="yes"/>
+      <point x="108" y="495"/>
+      <point x="131" y="442"/>
+      <point x="203" y="366" type="curve" smooth="yes"/>
+      <point x="316" y="250"/>
+      <point x="484" y="124"/>
+      <point x="703" y="-32" type="curve"/>
+      <point x="801" y="77" type="line"/>
+      <point x="665" y="185"/>
+      <point x="494" y="296"/>
+      <point x="326" y="389" type="curve"/>
+      <point x="604" y="453"/>
+      <point x="739" y="552"/>
+      <point x="739" y="725" type="curve" smooth="yes"/>
+      <point x="739" y="783"/>
+      <point x="730" y="830"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>912</integer>
+    </dict>
+  </lib>
+</glyph>

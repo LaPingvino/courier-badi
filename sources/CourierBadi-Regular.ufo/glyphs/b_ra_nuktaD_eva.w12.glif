@@ -1,0 +1,109 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="b_ra_nuktaDeva.w12" format="2">
+  <advance width="1228"/>
+  <anchor x="1881" y="0" name="bottomDeva"/>
+  <anchor x="1881" y="-64" name="bottom2Deva"/>
+  <anchor x="2100" y="1000" name="candraDeva"/>
+  <anchor x="1881" y="-32" name="halantDeva"/>
+  <anchor x="1881" y="1000" name="topDeva"/>
+  <outline>
+    <contour>
+      <point x="477" y="104" type="line"/>
+      <point x="455" y="93"/>
+      <point x="462" y="81"/>
+      <point x="470" y="67" type="curve" smooth="yes"/>
+      <point x="470" y="67" type="line"/>
+      <point x="470" y="66"/>
+      <point x="471" y="66"/>
+      <point x="471" y="65" type="curve" smooth="yes"/>
+      <point x="479" y="49"/>
+      <point x="488" y="32"/>
+      <point x="460" y="12" type="curve"/>
+      <point x="483" y="1" type="line"/>
+      <point x="536" y="-39"/>
+      <point x="559" y="-45"/>
+      <point x="653" y="-21" type="curve"/>
+      <point x="2023" y="216" type="line"/>
+      <point x="2023" y="64" type="line" smooth="yes"/>
+      <point x="2023" y="48"/>
+      <point x="2017" y="35"/>
+      <point x="2012" y="25" type="curve" smooth="yes"/>
+      <point x="2001" y="3"/>
+      <point x="1996" y="-7"/>
+      <point x="2066" y="-7" type="curve" smooth="yes"/>
+      <point x="2134" y="-7" type="line" smooth="yes"/>
+      <point x="2204" y="-7"/>
+      <point x="2199" y="3"/>
+      <point x="2188" y="25" type="curve" smooth="yes"/>
+      <point x="2183" y="35"/>
+      <point x="2177" y="48"/>
+      <point x="2177" y="64" type="curve" smooth="yes"/>
+      <point x="2177" y="864" type="line"/>
+      <point x="2575" y="864" type="line"/>
+      <point x="2575" y="856" type="line"/>
+      <point x="2736" y="856" type="line"/>
+      <point x="2736" y="1007" type="line"/>
+      <point x="0" y="1007" type="line"/>
+      <point x="0" y="856" type="line"/>
+      <point x="227" y="856" type="line"/>
+      <point x="227" y="864" type="line"/>
+      <point x="2023" y="864" type="line"/>
+      <point x="2023" y="392" type="line"/>
+      <point x="1872" y="381"/>
+      <point x="1816" y="368"/>
+      <point x="1713" y="359" type="curve"/>
+      <point x="1053" y="615" type="line"/>
+      <point x="1161" y="616"/>
+      <point x="1218" y="617"/>
+      <point x="1279" y="617" type="curve" smooth="yes"/>
+      <point x="1426" y="617"/>
+      <point x="1568" y="612"/>
+      <point x="1580" y="601" type="curve"/>
+      <point x="1545" y="735" type="line"/>
+      <point x="1573" y="748"/>
+      <point x="1426" y="755"/>
+      <point x="1237" y="755" type="curve" smooth="yes"/>
+      <point x="648" y="755"/>
+      <point x="359" y="656"/>
+      <point x="359" y="457" type="curve" smooth="yes"/>
+      <point x="359" y="310"/>
+      <point x="502" y="205"/>
+      <point x="1039" y="182" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1508" y="309" type="line"/>
+      <point x="1377" y="304"/>
+      <point x="1290" y="300"/>
+      <point x="1200" y="300" type="curve" smooth="yes"/>
+      <point x="849" y="300"/>
+      <point x="498" y="349"/>
+      <point x="498" y="455" type="curve" smooth="yes"/>
+      <point x="498" y="511"/>
+      <point x="644" y="550"/>
+      <point x="824" y="573" type="curve"/>
+    </contour>
+    <contour>
+      <point x="1259" y="-146" type="curve" smooth="yes"/>
+      <point x="1259" y="-193"/>
+      <point x="1262" y="-229"/>
+      <point x="1391" y="-229" type="curve" smooth="yes"/>
+      <point x="1524" y="-229"/>
+      <point x="1524" y="-195"/>
+      <point x="1524" y="-150" type="curve" smooth="yes"/>
+      <point x="1524" y="-146" type="line" smooth="yes"/>
+      <point x="1524" y="-95"/>
+      <point x="1522" y="-48"/>
+      <point x="1391" y="-48" type="curve" smooth="yes"/>
+      <point x="1268" y="-48"/>
+      <point x="1259" y="-95"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.devanagari</key>
+      <string>fitted</string>
+      <key>org.courierbadi.devanagari.width</key>
+      <integer>2736</integer>
+    </dict>
+  </lib>
+</glyph>
