@@ -36,6 +36,27 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**23 November 2026. Version 1.102**
+- **Arabic fits the screenplay line.** A screenplay is single-spaced at 12 pt
+  (six lines to the inch); the Arabic's tall letters, deep tails and large
+  vowel marks overran it, so cue, parenthetical and dialogue lines touched.
+  `scripts/fit-arabic.py` shortens the ascenders and the deep tails with one
+  vertical map for every Arabic letter (the joins still meet; the advance is
+  unchanged; the strokes keep their weight), keeps reh, zain, waw and noon
+  clearly below the line, brings the dots closer to their letters (not so
+  close that the Bold fuses them), and draws
+  the vowel marks at about the size of the Latin accents. The marks sit 50
+  units from the letter (24 on a shadda) instead of the shaper fallback's
+  128, a kasra under the letter's ink where it falls rather than under its
+  whole glyph. Bare Arabic now spans −495 … 1402 units (was −1024 … 1845).
+  Stacked marks over tall letters (the shadda and vowel on the lam of اللّه)
+  and a kasra under the deep letters still reach past the line, so heavily
+  vowelled lines can still touch where those meet; see
+  documentation/design-notes.md.
+- **Hebrew dagesh** is drawn 184 units across (was 148, the size of the
+  vowel points), so it reads at 12 pt in yod and lamed and in every other
+  letter; in yod it sits a little closer to the stem.
+
 **21 November 2026. Version 1.101**
 - **Hebrew points without GPOS.** Renderers that apply no GPOS (PDF writers
   such as Lexington's, other simple renderers) draw a mark where its outline
