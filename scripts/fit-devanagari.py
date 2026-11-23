@@ -601,9 +601,12 @@ def make_marks(font, meta, band):
             if isinstance(n, tuple):
                 n = n[1]
                 g = empty_mark(font, n)
+                # drawn left of its origin, and placed (GPOS) its width on:
+                # a PDF viewer (poppler, Ghostscript) leaves out the ink a
+                # glyph without width has right of its origin
                 w = out["adv"][n]
                 add = pathops.Path()
-                rect(add, -20, band[0], w + 20, band[1])
+                rect(add, -w - 20, band[0], 20, band[1])
                 from_path(g, add)
             else:
                 empty_mark(font, n)
@@ -768,12 +771,15 @@ def fit_features(font, info, meta, variants, touch, marks):
         if d:
             adv.setdefault(d, []).append(n)
     adv.setdefault(T1 * Q - CELL, []).append("uni25CC")
+    pads = {}
     for n, d in marks["adv"].items():
         if d:
-            adv.setdefault(d, []).append(n)
+            pads.setdefault(d, []).append(n)
     o.append("lookup LekAdvance {\n")
     for d, gl in sorted(adv.items()):
         o.append(f"    pos [{' '.join(sorted(gl))}] <0 0 {d} 0>;\n")
+    for d, gl in sorted(pads.items()):       # (a pad's headline is drawn left of its origin)
+        o.append(f"    pos [{' '.join(sorted(gl))}] <{d} 0 {d} 0>;\n")
     o.append("} LekAdvance;\n\n")
     # only where the Indic shaper puts the pads: a Devanagari glyph in
     # another script's run (a danda in Latin) keeps its cell

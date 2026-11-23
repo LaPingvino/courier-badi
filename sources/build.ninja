@@ -71,8 +71,8 @@ rule copy
       gftools.builder.jobrunner cp $in $out $stamp
   description = copy
 
-# Generating /tmp/tmp9xcyi8pr
-build /tmp/tmp9xcyi8pr: buildVariable CourierBadi.designspace
+# Generating /tmp/tmp0ubitvyc
+build /tmp/tmp0ubitvyc: buildVariable CourierBadi.designspace
   operation = buildVariable
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
@@ -111,12 +111,12 @@ build instance_ufos/CourierBadi-BoldItalic.ufo.json: instantiateUfo $
   fontmake_args =  --verbose WARNING 
   args =  --ufo-structure=json --output-dir instance_ufos
 # Postprocessing  with BuildSTAT
-build /tmp/tmp0frxecv8.buildStatstamp: buildSTAT-postprocess $
+build /tmp/tmpxzj0cklu.buildStatstamp: buildSTAT-postprocess $
     ../fonts/variable/CourierBadi[wght].ttf $
     ../fonts/variable/CourierBadi-Italic[wght].ttf | $
     ../fonts/variable/CourierBadi[wght].ttf $
     ../fonts/variable/CourierBadi-Italic[wght].ttf
-  stamp =  && touch /tmp/tmp0frxecv8.buildStatstamp
+  stamp =  && touch /tmp/tmpxzj0cklu.buildStatstamp
   postprocess = buildStat
 # Generating ../fonts/webfonts/CourierBadi-Regular.woff2
 build ../fonts/webfonts/CourierBadi-Regular.woff2: compress $
@@ -134,141 +134,141 @@ build ../fonts/webfonts/CourierBadi-Italic.woff2: compress $
 build ../fonts/webfonts/CourierBadi-BoldItalic.woff2: compress $
     ../fonts/ttf/CourierBadi-BoldItalic.ttf
   operation = compress
-# Generating /tmp/tmphgl1qckg
-build /tmp/tmphgl1qckg: subspace /tmp/tmp9xcyi8pr
+# Generating /tmp/tmpj7ist5yg
+build /tmp/tmpj7ist5yg: subspace /tmp/tmp0ubitvyc
   operation = subspace
   axes = ital=0.0
-# Generating /tmp/tmpf9z47r2o
-build /tmp/tmpf9z47r2o: subspace /tmp/tmp9xcyi8pr
+# Generating /tmp/tmp_5j8qczy
+build /tmp/tmp_5j8qczy: subspace /tmp/tmp0ubitvyc
   operation = subspace
   axes = ital=1.0
 # Generating ../fonts/variable/CourierBadi[wght].ttf
-build ../fonts/variable/CourierBadi[wght].ttf: fix /tmp/tmphgl1qckg
+build ../fonts/variable/CourierBadi[wght].ttf: fix /tmp/tmpj7ist5yg
   operation = fix
   args = 
-# Generating /tmp/tmpcho4yjfd
-build /tmp/tmpcho4yjfd: exec /tmp/tmpf9z47r2o
+# Generating /tmp/tmpa39ezxwl
+build /tmp/tmpa39ezxwl: exec /tmp/tmp_5j8qczy
   exe = gftools-fontsetter
-  args = -o /tmp/tmpcho4yjfd /tmp/tmpf9z47r2o /tmp/tmp3hcccpr1
-# Generating /tmp/tmpem4_rbcr
-build /tmp/tmpem4_rbcr: fix /tmp/tmpcho4yjfd
+  args = -o /tmp/tmpa39ezxwl /tmp/tmp_5j8qczy /tmp/tmpcpem82te
+# Generating /tmp/tmpc9dbvim2
+build /tmp/tmpc9dbvim2: fix /tmp/tmpa39ezxwl
   operation = fix
   args = --include-source-fixes
-# Generating /tmp/tmp0ys86n0t
-build /tmp/tmp0ys86n0t: fix /tmp/tmpem4_rbcr
+# Generating /tmp/tmp9l9ux4nr
+build /tmp/tmp9l9ux4nr: fix /tmp/tmpc9dbvim2
   operation = fix
   args = 
 # Generating ../fonts/webfonts/CourierBadi[ital,wght].woff2
 build ../fonts/webfonts/CourierBadi[ital,wght].woff2: compress $
-    /tmp/tmp0ys86n0t
+    /tmp/tmp9l9ux4nr
   operation = compress
 # Generating ../fonts/variable/CourierBadi-Italic[wght].ttf
-build ../fonts/variable/CourierBadi-Italic[wght].ttf: copy /tmp/tmp0ys86n0t
-# Generating /tmp/tmp_yq02m8i
-build /tmp/tmp_yq02m8i: buildTTF instance_ufos/CourierBadi-Regular.ufo.json
+build ../fonts/variable/CourierBadi-Italic[wght].ttf: copy /tmp/tmp9l9ux4nr
+# Generating /tmp/tmpd7jlazpt
+build /tmp/tmpd7jlazpt: buildTTF instance_ufos/CourierBadi-Regular.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpfs2shk6_
-build /tmp/tmpfs2shk6_: buildOTF instance_ufos/CourierBadi-Regular.ufo.json
+# Generating /tmp/tmp4zg0zvcj
+build /tmp/tmp4zg0zvcj: buildOTF instance_ufos/CourierBadi-Regular.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpj23z5r2r
-build /tmp/tmpj23z5r2r: autohint /tmp/tmp_yq02m8i
+# Generating /tmp/tmp002souyg
+build /tmp/tmp002souyg: autohint /tmp/tmpd7jlazpt
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/CourierBadi-Regular.ttf
-build ../fonts/ttf/CourierBadi-Regular.ttf: fix /tmp/tmpj23z5r2r
+build ../fonts/ttf/CourierBadi-Regular.ttf: fix /tmp/tmp002souyg
   operation = fix
   args = 
 # Generating ../fonts/otf/CourierBadi-Regular.otf
-build ../fonts/otf/CourierBadi-Regular.otf: fix /tmp/tmpfs2shk6_
+build ../fonts/otf/CourierBadi-Regular.otf: fix /tmp/tmp4zg0zvcj
   operation = fix
   args = 
-# Generating /tmp/tmppwtncp_r
-build /tmp/tmppwtncp_r: buildTTF instance_ufos/CourierBadi-Bold.ufo.json
+# Generating /tmp/tmpv_g3haun
+build /tmp/tmpv_g3haun: buildTTF instance_ufos/CourierBadi-Bold.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpo83_j02i
-build /tmp/tmpo83_j02i: buildOTF instance_ufos/CourierBadi-Bold.ufo.json
+# Generating /tmp/tmptxz78kq8
+build /tmp/tmptxz78kq8: buildOTF instance_ufos/CourierBadi-Bold.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpxnla74zw
-build /tmp/tmpxnla74zw: autohint /tmp/tmppwtncp_r
+# Generating /tmp/tmp_h6qraa_
+build /tmp/tmp_h6qraa_: autohint /tmp/tmpv_g3haun
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/CourierBadi-Bold.ttf
-build ../fonts/ttf/CourierBadi-Bold.ttf: fix /tmp/tmpxnla74zw
+build ../fonts/ttf/CourierBadi-Bold.ttf: fix /tmp/tmp_h6qraa_
   operation = fix
   args = 
 # Generating ../fonts/otf/CourierBadi-Bold.otf
-build ../fonts/otf/CourierBadi-Bold.otf: fix /tmp/tmpo83_j02i
+build ../fonts/otf/CourierBadi-Bold.otf: fix /tmp/tmptxz78kq8
   operation = fix
   args = 
-# Generating /tmp/tmpzu04jwxk
-build /tmp/tmpzu04jwxk: buildTTF instance_ufos/CourierBadi-Italic.ufo.json
+# Generating /tmp/tmpy8hflmvx
+build /tmp/tmpy8hflmvx: buildTTF instance_ufos/CourierBadi-Italic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpgc84xx74
-build /tmp/tmpgc84xx74: buildOTF instance_ufos/CourierBadi-Italic.ufo.json
+# Generating /tmp/tmp9exlby3u
+build /tmp/tmp9exlby3u: buildOTF instance_ufos/CourierBadi-Italic.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpigc0f43e
-build /tmp/tmpigc0f43e: autohint /tmp/tmpzu04jwxk
+# Generating /tmp/tmp2tjwn9gl
+build /tmp/tmp2tjwn9gl: autohint /tmp/tmpy8hflmvx
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/CourierBadi-Italic.ttf
-build ../fonts/ttf/CourierBadi-Italic.ttf: fix /tmp/tmpigc0f43e
+build ../fonts/ttf/CourierBadi-Italic.ttf: fix /tmp/tmp2tjwn9gl
   operation = fix
   args = 
 # Generating ../fonts/otf/CourierBadi-Italic.otf
-build ../fonts/otf/CourierBadi-Italic.otf: fix /tmp/tmpgc84xx74
+build ../fonts/otf/CourierBadi-Italic.otf: fix /tmp/tmp9exlby3u
   operation = fix
   args = 
-# Generating /tmp/tmpm36gh5p0
-build /tmp/tmpm36gh5p0: buildTTF instance_ufos/CourierBadi-BoldItalic.ufo.json
+# Generating /tmp/tmpg276n4d2
+build /tmp/tmpg276n4d2: buildTTF instance_ufos/CourierBadi-BoldItalic.ufo.json
   operation = buildTTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpv3mdulp5
-build /tmp/tmpv3mdulp5: buildOTF instance_ufos/CourierBadi-BoldItalic.ufo.json
+# Generating /tmp/tmp6rlks9da
+build /tmp/tmp6rlks9da: buildOTF instance_ufos/CourierBadi-BoldItalic.ufo.json
   operation = buildOTF
   args = --filter ...  --filter FlattenComponentsFilter --filter $
       DecomposeTransformedComponentsFilter
   fontmake_type = -u
   fontmake_args =  --verbose WARNING 
-# Generating /tmp/tmpsxcjff56
-build /tmp/tmpsxcjff56: autohint /tmp/tmpm36gh5p0
+# Generating /tmp/tmp_vb0aa2x
+build /tmp/tmp_vb0aa2x: autohint /tmp/tmpg276n4d2
   operation = autohint
   args = --fail-ok 
 # Generating ../fonts/ttf/CourierBadi-BoldItalic.ttf
-build ../fonts/ttf/CourierBadi-BoldItalic.ttf: fix /tmp/tmpsxcjff56
+build ../fonts/ttf/CourierBadi-BoldItalic.ttf: fix /tmp/tmp_vb0aa2x
   operation = fix
   args = 
 # Generating ../fonts/otf/CourierBadi-BoldItalic.otf
-build ../fonts/otf/CourierBadi-BoldItalic.otf: fix /tmp/tmpv3mdulp5
+build ../fonts/otf/CourierBadi-BoldItalic.otf: fix /tmp/tmp6rlks9da
   operation = fix
   args = 
-default /tmp/tmp0frxecv8.buildStatstamp $
+default /tmp/tmpxzj0cklu.buildStatstamp $
     ../fonts/webfonts/CourierBadi-Regular.woff2 $
     ../fonts/webfonts/CourierBadi-Bold.woff2 $
     ../fonts/webfonts/CourierBadi-Italic.woff2 $
