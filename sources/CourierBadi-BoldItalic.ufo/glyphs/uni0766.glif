@@ -2,47 +2,31 @@
 <glyph name="uni0766" format="2">
   <advance width="1228"/>
   <unicode hex="0766"/>
-  <anchor x="614" y="875" name="aboveArab0"/>
-  <anchor x="614" y="875" name="aboveArab1"/>
-  <anchor x="614" y="875" name="aboveArab2"/>
-  <anchor x="614" y="875" name="aboveArab3"/>
-  <anchor x="614" y="875" name="aboveArab4"/>
-  <anchor x="614" y="875" name="aboveArab5"/>
-  <anchor x="614" y="875" name="aboveArab6"/>
-  <anchor x="614" y="900" name="aboveArab7"/>
-  <anchor x="614" y="922" name="aboveArab8"/>
-  <anchor x="614" y="946" name="aboveArab9"/>
-  <anchor x="614" y="974" name="aboveArab10"/>
-  <anchor x="614" y="995" name="aboveArab11"/>
-  <anchor x="614" y="1017" name="aboveArab12"/>
-  <anchor x="614" y="1036" name="aboveArab13"/>
-  <anchor x="614" y="1059" name="aboveArab14"/>
-  <anchor x="614" y="1079" name="aboveArab15"/>
-  <anchor x="614" y="1106" name="aboveArab16"/>
-  <anchor x="614" y="1167" name="aboveArab17"/>
-  <anchor x="614" y="1199" name="aboveArab18"/>
-  <anchor x="614" y="1257" name="aboveArab19"/>
-  <anchor x="614" y="-750" name="belowArab0"/>
-  <anchor x="614" y="-715" name="belowArab1"/>
-  <anchor x="614" y="-715" name="belowArab2"/>
-  <anchor x="614" y="-715" name="belowArab3"/>
-  <anchor x="614" y="-715" name="belowArab4"/>
-  <anchor x="614" y="-715" name="belowArab5"/>
-  <anchor x="614" y="-715" name="belowArab6"/>
-  <anchor x="614" y="-715" name="belowArab7"/>
-  <anchor x="614" y="-715" name="belowArab8"/>
-  <anchor x="614" y="-715" name="belowArab9"/>
-  <anchor x="614" y="-715" name="belowArab10"/>
-  <anchor x="614" y="-715" name="belowArab11"/>
+  <anchor x="614" y="797" name="aboveArab0"/>
+  <anchor x="614" y="797" name="aboveArab1"/>
+  <anchor x="614" y="797" name="aboveArab2"/>
+  <anchor x="614" y="797" name="aboveArab3"/>
+  <anchor x="614" y="797" name="aboveArab4"/>
+  <anchor x="614" y="797" name="aboveArab5"/>
+  <anchor x="614" y="797" name="aboveArab6"/>
+  <anchor x="614" y="797" name="aboveArab7"/>
+  <anchor x="614" y="797" name="aboveArab8"/>
+  <anchor x="614" y="797" name="aboveArab9"/>
+  <anchor x="614" y="797" name="aboveArab10"/>
+  <anchor x="614" y="-374" name="belowArab0"/>
+  <anchor x="614" y="-374" name="belowArab1"/>
+  <anchor x="614" y="-374" name="belowArab2"/>
+  <anchor x="614" y="-374" name="belowArab3"/>
+  <anchor x="614" y="-374" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="297.79410117169266" y="211.30647669028352" type="line"/>
-      <point x="434.9584120942929" y="194.34932124073563" type="line"/>
-      <point x="463.4925136585296" y="97.91420910419205"/>
-      <point x="587.5289183032683" y="-31.93653766455685"/>
-      <point x="712.6473460385831" y="-36.0" type="curve" smooth="yes"/>
-      <point x="903.0740840692366" y="-31.768477919979105"/>
-      <point x="1076.094808506454" y="166.00618531830878"/>
+      <point x="294.7059009669075" y="205.7597178416985" type="line"/>
+      <point x="438.36721605537247" y="192.93496693331065" type="line"/>
+      <point x="470.51187456571415" y="121.9485498026411"/>
+      <point x="595.6327922478885" y="5.740660236926189"/>
+      <point x="719.4113903110003" y="2.3608013092496094" type="curve" smooth="yes"/>
+      <point x="908.0233898950436" y="5.660809971206557"/>
+      <point x="1077.4471671759068" y="175.77648962957807"/>
       <point x="1109.9032147732116" y="348.09596195932437" type="curve" smooth="yes"/>
       <point x="1141.904135287261" y="540.3952544448118"/>
       <point x="1037.55096522734" y="741.309672872723"/>
@@ -54,41 +38,47 @@
       <point x="155.9762455523309" y="401.7627959382291"/>
       <point x="115.20097421640995" y="359.030955263463"/>
       <point x="102.76972589949744" y="290.90403804067563" type="curve" smooth="yes"/>
-      <point x="-30.18081755468515" y="-463.09596195932437" type="line" smooth="yes"/>
-      <point x="-41.78692581137372" y="-530.8626623746371"/>
-      <point x="-9.775763334412346" y="-585.4128042813442"/>
-      <point x="58.49117966821886" y="-587.0" type="curve" smooth="yes"/>
-      <point x="124.69239527322739" y="-585.7312943738885"/>
-      <point x="165.35486133323252" y="-543.030955263463"/>
-      <point x="177.786109650145" y="-474.90403804067563" type="curve" smooth="yes"/>
+      <point x="28.923986378792307" y="-127.89596195932438" type="line" smooth="yes"/>
+      <point x="30.24343041930896" y="-162.50772157588116"/>
+      <point x="69.38712413883863" y="-184.53765610579737"/>
+      <point x="129.44515670530518" y="-184.60000000000002" type="curve" smooth="yes"/>
+      <point x="188.43225970726664" y="-184.54188300108876"/>
+      <point x="225.11151751809948" y="-170.55691811470632"/>
+      <point x="236.89091358362245" y="-139.70403804067564" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="814.6247441002827" y="531.0" type="curve" smooth="yes"/>
       <point x="863.6873217220747" y="537.4591360173118"/>
       <point x="925.4165288664872" y="452.3080874077654"/>
       <point x="905.9362875683815" y="359.90403804067563" type="curve" smooth="yes"/>
-      <point x="893.0127959394754" y="273.5391860842351"/>
-      <point x="795.9748298922433" y="174.09469105608173"/>
-      <point x="738.5674122027274" y="179.0" type="curve" smooth="yes"/>
-      <point x="687.4187057826437" y="171.85560567263641"/>
-      <point x="589.1414350131474" y="299.20972516404436"/>
+      <point x="894.2584127706949" y="275.4585053042862"/>
+      <point x="807.4119866456311" y="214.81361883890537"/>
+      <point x="745.3320380187092" y="217.36409940669427" type="curve" smooth="yes"/>
+      <point x="689.5628816098341" y="213.23983732763003"/>
+      <point x="587.3679206303053" y="302.55939723684713"/>
       <point x="603.9032147732117" y="348.09596195932437" type="curve" smooth="yes"/>
       <point x="611.3580983350233" y="413.11858124641793"/>
       <point x="751.4464932134109" y="535.4529399639326"/>
     </contour>
     <contour>
-      <point x="533.4518805161613" y="-363.09596195932437" type="curve" smooth="yes"/>
-      <point x="529.491009299452" y="-425.59032036514753"/>
-      <point x="618.4877414179043" y="-537.7235422764019"/>
-      <point x="677.7205858772659" y="-546.0" type="curve" smooth="yes"/>
-      <point x="728.1203821965679" y="-540.5910387255902"/>
-      <point x="855.3152992249029" y="-436.6973020722763"/>
-      <point x="871.4188077209915" y="-374.90403804067563" type="curve" smooth="yes"/>
-      <point x="875.0335107556872" y="-314.4222558661629"/>
-      <point x="785.7173803493766" y="-197.99526306562288"/>
-      <point x="728.6790833020123" y="-189.0" type="curve" smooth="yes"/>
-      <point x="674.7906514019087" y="-194.72939441124137"/>
-      <point x="548.8422969991213" y="-303.71123902835456"/>
+      <point x="600.0991544430773" y="-177.23516065007476" type="curve" smooth="yes"/>
+      <point x="597.9456347786297" y="-229.4795190558979"/>
+      <point x="666.6887049051479" y="-316.1127409671523"/>
+      <point x="716.6715493645095" y="-324.3891986907504" type="curve" smooth="yes"/>
+      <point x="759.0713456838115" y="-318.9802374163406"/>
+      <point x="856.1962516847891" y="-239.58650076302663"/>
+      <point x="870.3160816479075" y="-189.04323673142602" type="curve" smooth="yes"/>
+      <point x="872.2115966206956" y="-138.3114545569133"/>
+      <point x="803.4287194804336" y="-48.63446175637328"/>
+      <point x="754.8904224330693" y="-39.63919869075039" type="curve" smooth="yes"/>
+      <point x="709.7519905329657" y="-45.36859310199175"/>
+      <point x="613.5940558834212" y="-128.60043771910495"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

@@ -1,31 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni06EA" format="2">
   <unicode hex="06EA"/>
-  <anchor x="420" y="-282" name="_belowArab7"/>
-  <anchor x="420" y="-1138" name="belowArab0"/>
-  <anchor x="420" y="-1138" name="belowArab1"/>
-  <anchor x="420" y="-1138" name="belowArab2"/>
-  <anchor x="420" y="-1138" name="belowArab3"/>
-  <anchor x="420" y="-1138" name="belowArab4"/>
-  <anchor x="420" y="-1138" name="belowArab5"/>
-  <anchor x="420" y="-1138" name="belowArab6"/>
-  <anchor x="420" y="-1138" name="belowArab7"/>
-  <anchor x="420" y="-1138" name="belowArab8"/>
-  <anchor x="420" y="-1138" name="belowArab9"/>
-  <anchor x="420" y="-1138" name="belowArab10"/>
-  <anchor x="420" y="-1138" name="belowArab11"/>
+  <anchor x="504" y="21" name="_belowArab3"/>
+  <anchor x="504" y="-383" name="belowArab0"/>
+  <anchor x="504" y="-383" name="belowArab1"/>
+  <anchor x="504" y="-383" name="belowArab2"/>
+  <anchor x="504" y="-383" name="belowArab3"/>
+  <anchor x="504" y="-383" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="484.67552739476935" y="-281.99995092546095" type="line"/>
-      <point x="16.31144190330575" y="-649.431074487337" type="line"/>
-      <point x="351.5100135298939" y="-1010.000049074539" type="line"/>
-      <point x="822.8740990213576" y="-642.568925512663" type="line"/>
+      <point x="538.7441816720266" y="20.50506884114613" type="line"/>
+      <point x="274.6278952180904" y="-172.10642602775985" type="line"/>
+      <point x="467.14813637655544" y="-358.90530569779764" type="line"/>
+      <point x="732.8812137757327" y="-166.29333774198602" type="line"/>
     </contour>
     <contour>
-      <point x="456.6509481999579" y="-414.00014638200366" type="line"/>
-      <point x="612.6640958647226" y="-647.431074487337" type="line"/>
-      <point x="379.5345927247053" y="-877.9998536179963" type="line"/>
-      <point x="226.52144505994056" y="-644.568925512663" type="line"/>
+      <point x="511.70201113089985" y="-108.50394139275939" type="line"/>
+      <point x="524.7739406530487" y="-171.3440098029232" type="line"/>
+      <point x="494.67705284341304" y="-229.8953554331325" type="line"/>
+      <point x="482.24748065256193" y="-167.05669659859933" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

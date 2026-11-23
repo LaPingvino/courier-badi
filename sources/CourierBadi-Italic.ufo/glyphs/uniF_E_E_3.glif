@@ -2,46 +2,30 @@
 <glyph name="uniFEE3" format="2">
   <advance width="1228"/>
   <unicode hex="FEE3"/>
-  <anchor x="614" y="841" name="aboveArab0"/>
-  <anchor x="614" y="841" name="aboveArab1"/>
-  <anchor x="614" y="841" name="aboveArab2"/>
-  <anchor x="614" y="841" name="aboveArab3"/>
-  <anchor x="614" y="841" name="aboveArab4"/>
-  <anchor x="614" y="841" name="aboveArab5"/>
-  <anchor x="614" y="869" name="aboveArab6"/>
-  <anchor x="614" y="900" name="aboveArab7"/>
-  <anchor x="614" y="922" name="aboveArab8"/>
-  <anchor x="614" y="946" name="aboveArab9"/>
-  <anchor x="614" y="974" name="aboveArab10"/>
-  <anchor x="614" y="995" name="aboveArab11"/>
-  <anchor x="614" y="1017" name="aboveArab12"/>
-  <anchor x="614" y="1036" name="aboveArab13"/>
-  <anchor x="614" y="1059" name="aboveArab14"/>
-  <anchor x="614" y="1079" name="aboveArab15"/>
-  <anchor x="614" y="1106" name="aboveArab16"/>
-  <anchor x="614" y="1167" name="aboveArab17"/>
-  <anchor x="614" y="1199" name="aboveArab18"/>
-  <anchor x="614" y="1257" name="aboveArab19"/>
-  <anchor x="614" y="-784" name="belowArab0"/>
-  <anchor x="614" y="-718" name="belowArab1"/>
-  <anchor x="614" y="-637" name="belowArab2"/>
-  <anchor x="614" y="-530" name="belowArab3"/>
-  <anchor x="614" y="-435" name="belowArab4"/>
-  <anchor x="614" y="-383" name="belowArab5"/>
-  <anchor x="614" y="-301" name="belowArab6"/>
-  <anchor x="614" y="-260" name="belowArab7"/>
-  <anchor x="614" y="-130" name="belowArab8"/>
-  <anchor x="614" y="-130" name="belowArab9"/>
-  <anchor x="614" y="-130" name="belowArab10"/>
-  <anchor x="614" y="-130" name="belowArab11"/>
+  <anchor x="614" y="763" name="aboveArab0"/>
+  <anchor x="614" y="763" name="aboveArab1"/>
+  <anchor x="614" y="763" name="aboveArab2"/>
+  <anchor x="614" y="763" name="aboveArab3"/>
+  <anchor x="614" y="763" name="aboveArab4"/>
+  <anchor x="614" y="763" name="aboveArab5"/>
+  <anchor x="614" y="763" name="aboveArab6"/>
+  <anchor x="614" y="763" name="aboveArab7"/>
+  <anchor x="614" y="763" name="aboveArab8"/>
+  <anchor x="614" y="763" name="aboveArab9"/>
+  <anchor x="614" y="763" name="aboveArab10"/>
+  <anchor x="614" y="-14" name="belowArab0"/>
+  <anchor x="614" y="-14" name="belowArab1"/>
+  <anchor x="614" y="-14" name="belowArab2"/>
+  <anchor x="614" y="-14" name="belowArab3"/>
+  <anchor x="614" y="-14" name="belowArab4"/>
   <outline>
     <contour>
       <point x="477.6735706594046" y="225.0" type="line"/>
-      <point x="520.6302567428904" y="117.0"/>
-      <point x="624.6473460385831" y="-2.0"/>
-      <point x="744.6473460385831" y="-2.0" type="curve" smooth="yes"/>
-      <point x="947.6473460385831" y="-2.0"/>
-      <point x="1089.0915104889407" y="182.0"/>
+      <point x="525.391085222019" y="144.0"/>
+      <point x="631.4119592818076" y="36.36402810304449"/>
+      <point x="751.4119592818076" y="36.36402810304449" type="curve" smooth="yes"/>
+      <point x="954.4119592818076" y="36.36402810304449"/>
+      <point x="1090.9870255315566" y="192.75"/>
       <point x="1119.4197511707966" y="354.0" type="curve" smooth="yes"/>
       <point x="1151.3349346790287" y="535.0"/>
       <point x="1073.7211372451354" y="713.0"/>
@@ -63,13 +47,19 @@
       <point x="1001.2867381066023" y="461.0"/>
       <point x="982.4197511707966" y="354.0" type="curve" smooth="yes"/>
       <point x="965.1397070613671" y="256.0"/>
-      <point x="875.5674122027274" y="145.0"/>
-      <point x="770.5674122027274" y="145.0" type="curve" smooth="yes"/>
-      <point x="684.5674122027274" y="145.0"/>
+      <point x="882.3322615327581" y="183.36536701785627"/>
+      <point x="777.3322615327581" y="183.36536701785627" type="curve" smooth="yes"/>
+      <point x="691.3322615327581" y="183.36536701785627"/>
       <point x="591.2531895019125" y="285.0"/>
       <point x="603.4197511707966" y="354.0" type="curve" smooth="yes"/>
       <point x="617.5259096274738" y="434.0"/>
       <point x="746.6247441002827" y="565.0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

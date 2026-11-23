@@ -456,12 +456,33 @@ def side_by_side(font):
     return n, len(groups)
 
 
+# The dagesh is drawn larger than the vowel points (148, the stroke's width):
+# at 12 pt a 148-unit dot is 0.3 mm and all but vanished in yod (beside it)
+# and lamed (in its open bowl), and inside bet, kaf, pe it is only as heavy as
+# the strokes around it. DAGESH units across, scaled about its own anchor, so
+# every placement (GPOS and the presentation forms) is kept.
+DAGESH = 184
+
+
+def dagesh_size(font):
+    dag = font[cpname(0x05BC)]
+    b = bounds(font, dag)
+    k = DAGESH / (b[2] - b[0])
+    if abs(k - 1) < 1e-3:
+        return
+    a = next(a for a in dag.anchors if a.name == "_center")
+    for c in dag.contours:
+        for p in c.points:
+            p.x = a.x + (p.x - a.x) * k
+            p.y = a.y + (p.y - a.y) * k
+
+
 # Dagesh in yod: beside the letter at its height, as the donor's own
 # precomposed U+FB39 draws it (its ink 88 units left of the yod's, its centre
 # at 0.454 of the yod's height, once fitted). The donor's GPOS puts it under
 # the yod, where it reads as "!"; that is where the import took the anchor
 # from (the GPOS wins over the composition there).
-YOD_DAGESH_GAP = 88
+YOD_DAGESH_GAP = 72   # (88 in the donor; a little closer, so it is read with the yod)
 YOD_DAGESH_HEIGHT = 0.454
 
 
@@ -489,9 +510,10 @@ def bounds(font, g):
 
 def derive(font):
     yod_triangle(font)
+    dagesh_size(font)
     yod_dagesh(font)
     n, ng = side_by_side(font)
-    print(f"derived: U+05EF yod triangle; dagesh beside yod; side-by-side anchors on {n} bases "
+    print(f"derived: U+05EF yod triangle; dagesh {DAGESH} across, beside yod; side-by-side anchors on {n} bases "
           f"({ng} vowel-width groups)")
 
 

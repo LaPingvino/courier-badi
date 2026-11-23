@@ -50,12 +50,16 @@ the other scripts' marks carry anchors too:
   group has the clamp folded in. Classes come from the Unicode combining
   classes, with HarfBuzz's Arabic re-categorisation. It runs on every master
   in `make masters` (anchors follow each master's ink; the groups are made on
-  the Regular so all masters share the anchor names).
+  the Regular so all masters share the anchor names). **Arabic is the
+  exception since 1.102**: its marks sit `ARAB_GAP` = 50 from the letter's
+  ink (24 on another mark), with no clamps, a below mark measured under its
+  own footprint only; see "Arabic in the screenplay line".
 - `scripts/check-mark-parity.py fonts/ttf/*.ttf` shapes every base × mark pair
   (and two-mark stacks) of Latin, Greek, Cyrillic and Arabic with the GPOS and
   with the GPOS stripped (= the old fallback) and reports the differences. At
-  the time of writing: Arabic within 19 units everywhere (isolated and medial
-  forms); Latin/Greek/Cyrillic single marks within ~46 units (the grouping
+  1.100: Arabic within 19 units everywhere (isolated and medial forms) --
+  since 1.102 Arabic differs from the fallback on purpose (closer marks), so
+  its lines of the report are expected to differ; Latin/Greek/Cyrillic single marks within ~46 units (the grouping
   tolerance, on clamped pairs); two-mark stacks up to ~110 units (the second
   mark of dot-below + macron-below, circumflex + acute), because mark-to-mark
   anchors stack on the first mark's ink, which is not quite the fallback's
@@ -96,6 +100,63 @@ make arabic-features-check   # verify it is up to date (CI-friendly)
 The generated block lives between markers in
 `sources/CourierBadi-Regular.ufo/features.fea`; hand-written features outside
 the markers (see below) are preserved.
+
+## Arabic in the screenplay line
+
+A screenplay is single-spaced: 12 pt type, six lines to the inch, so every
+line has one em (2048 units; Lexington's PDF puts the baseline 1628 under the
+line's top and 399 above its bottom). The Latin fits it. The Arabic as merged
+from No Name Fixed did not: its letters ran from -1024 (final yeh) to 1845,
+its vowel marks were 530-680 units tall and stood 128 off the letter, so a
+vowelled line reached ~2600 up and ~1700 down and consecutive cue,
+parenthetical and dialogue lines ran into each other.
+
+`scripts/fit-arabic.py` (run once on the Regular; the glyphs are tagged
+`org.courierbadi.arabic` = fitted, so a second run changes nothing; `make
+masters` carries it to the other masters) brings the Arabic into the line
+and keeps the advance and every join:
+
+- One vertical map for all Arabic letter glyphs, so the joins (all on the
+  same baseline stroke, 225-369) still meet: the identity in the body
+  (225-800: baseline stroke, bowls, teeth), ascenders shortened to 0.32 of
+  their height above it (alef 1477 → ~1060, lam 1593 → ~1100), descenders
+  kept at 0.75 for the first 400 units under the body (reh, zain, waw and
+  noon still clearly go below: reh is not dal) and flattened to 0.2 beyond
+  (the deep bowls of jeem, ain, meem, final yeh). Each on-curve point then
+  grows back out by half of what its stroke lost, the stroke's thickness
+  measured vertically into the ink (a run longer than 230 is a stem's end,
+  which just moves); handles follow their point. Bowls and tails keep
+  ~140-165 of their 145-170; steep diagonals in a compressed zone (the
+  lam-alef's alef, keheh's bar) come out thinner. x is untouched.
+- Dots, hamzas, the wasla and kaf's sign (separate contours that are not
+  counters, small or wholly outside the body) move rigidly: dot clusters
+  scaled 0.75 (271 → 203, still heavier than the stroke), a sign drawn as a
+  stroke 0.52 with its stroke grown back; a cluster then comes as close as
+  110 units to the ink under (over) it, looking 150 units to either side, so
+  teh's dots come down between its horns but zain's dot stays above the
+  reh's head, and is pushed away again where the map brought it closer than
+  min(its old gap, 110). The Bold grows every contour 34 units, so 110 in
+  the Regular is ~40 in the Bold: 90 dot clusters of 826 come within 40
+  units of their letter in the Bold (107 in 1.101), 41 in the Regular (22),
+  all in extended letters or ones that were that tight before.
+- The spacing hamzas (U+0621, U+0674, U+FE80) are left as they were.
+- Marks are scaled 0.42 about their centre with the stroke grown back to 124
+  (a fatha is now ~290 units tall, about the Latin acute), and moved by the
+  same map. The anchors (above) are made from this ink.
+
+Measured with HarfBuzz on the Regular (every letter of U+0621-064A, four
+positions, with each mark; the line's body is 1628 / −399): bare letters
+span −495 … 1402 (was −1024 … 1845; the −495 is the dots under final
+yeh, the deepest common case, so علي reaches 95 under the line's bottom).
+With one above mark 37 of 192 forms pass 1600 (letters with a hamza or
+three dots above, hamza-alef, teh marbuta; ≈1640-1740, the Latin's É is
+1685); a kasra takes 77 of 192 forms under −370 (beh, jeem, ain, the
+yehs: −420 … −830). Shadda + vowel on a tall letter (the lam of اللّه)
+reaches ≈1780-2010. So two vowelled lines can still touch where a stacked
+mark over a tall letter falls exactly under a kasra below a deep letter
+(in a test of six fully vowelled lines, two pairs still touch, by up to
+258 units, where before all six did, by up to 1670); Accolade's Arabic
+sample's cue, parenthetical and dialogue lines no longer touch.
 
 ## Stylistic sets
 
@@ -301,6 +362,13 @@ vav with dagesh, U+FB4B vav with holam, …) are placed again from the anchors
 afterwards, so a renderer that uses them gets the GPOS placement.
 `scripts/check-mark-parity.py --hebrew-against OLD/ fonts/ttf/*.ttf` compares
 a build's Hebrew GPOS placement with an earlier build's.
+
+The dagesh U+05BC is drawn 184 units across (the vowel points stay 148, the
+stroke's width): at 12 pt the 148-unit dot was 0.3 mm and all but vanished
+in yod (beside it) and lamed (in its open bowl). It is scaled about its own
+anchor, so every placement is kept; in yod it sits 72 units left of the
+stem (was 88), so it is read with the yod. Its tightest fit is in shin
+(35 units from the arms).
 
 U+05EF (yod triangle), which the donor does not have, is built by
 `fit-hebrew.py` from the fitted yod: three yods scaled 0.9 (one on top, two

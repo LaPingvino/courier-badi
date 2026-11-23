@@ -1,41 +1,40 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni061A" format="2">
   <unicode hex="061A"/>
-  <anchor x="537" y="-617" name="_belowArab2"/>
-  <anchor x="537" y="-1236" name="belowArab0"/>
-  <anchor x="537" y="-1236" name="belowArab1"/>
-  <anchor x="537" y="-1236" name="belowArab2"/>
-  <anchor x="537" y="-1236" name="belowArab3"/>
-  <anchor x="537" y="-1236" name="belowArab4"/>
-  <anchor x="537" y="-1236" name="belowArab5"/>
-  <anchor x="537" y="-1236" name="belowArab6"/>
-  <anchor x="537" y="-1236" name="belowArab7"/>
-  <anchor x="537" y="-1236" name="belowArab8"/>
-  <anchor x="537" y="-1236" name="belowArab9"/>
-  <anchor x="537" y="-1236" name="belowArab10"/>
-  <anchor x="537" y="-1236" name="belowArab11"/>
+  <anchor x="537" y="-66" name="_belowArab1"/>
+  <anchor x="537" y="-383" name="belowArab0"/>
+  <anchor x="537" y="-383" name="belowArab1"/>
+  <anchor x="537" y="-383" name="belowArab2"/>
+  <anchor x="537" y="-383" name="belowArab3"/>
+  <anchor x="537" y="-383" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="692.5852758587296" y="-616.9964524576111" type="curve" smooth="yes"/>
-      <point x="645.5353405179145" y="-619.3821162936708"/>
-      <point x="600.1164448182134" y="-648.9387155970837"/>
-      <point x="575.7555226916195" y="-670.8714043052986" type="curve" smooth="yes"/>
-      <point x="296.7104504417693" y="-910.8763603420969" type="line" smooth="yes"/>
-      <point x="264.4269577462121" y="-937.2433818853851"/>
-      <point x="235.56753560052695" y="-967.1652494071137"/>
-      <point x="231.00462676500115" y="-993.7358955258478" type="curve" smooth="yes"/>
-      <point x="238.16120599039888" y="-1033.63880394799"/>
-      <point x="306.2284099029589" y="-1103.6732073146693"/>
-      <point x="373.764644867805" y="-1108.0158117634899" type="curve" smooth="yes"/>
-      <point x="418.31568689973255" y="-1106.2180431503223"/>
-      <point x="463.8059201845593" y="-1080.9223781463004"/>
-      <point x="501.466137421507" y="-1052.3474871364447" type="curve" smooth="yes"/>
-      <point x="782.7696394924928" y="-816.2786697185259" type="line" smooth="yes"/>
-      <point x="813.7750365253039" y="-792.3752099877489"/>
-      <point x="839.5884879366104" y="-762.4905349135631"/>
-      <point x="842.9957066472402" y="-736.2544114872738" type="curve" smooth="yes"/>
-      <point x="836.8993939426848" y="-690.3728917949287"/>
-      <point x="768.5789076941109" y="-620.5458339549259"/>
+      <point x="602.9597721428385" y="-66.02234338415914" type="curve" smooth="yes"/>
+      <point x="558.5709334618258" y="-67.86532604140481"/>
+      <point x="520.7308059158719" y="-90.09249147829512"/>
+      <point x="509.4210590349766" y="-99.4917265069592" type="curve" smooth="yes"/>
+      <point x="392.0841112061888" y="-200.3447889794646" type="line" smooth="yes"/>
+      <point x="371.9624283109463" y="-214.85145222833714"/>
+      <point x="346.086247486005" y="-241.70391037370675"/>
+      <point x="341.9265076072878" y="-267.41678694822485" type="curve" smooth="yes"/>
+      <point x="348.9032557446042" y="-300.8662897418285"/>
+      <point x="405.57782795001225" y="-355.1049541675669"/>
+      <point x="467.6608822092128" y="-358.9874871777508" type="curve" smooth="yes"/>
+      <point x="508.5762069236518" y="-357.54228070462665"/>
+      <point x="545.4930007009424" y="-338.93053421152064"/>
+      <point x="564.5103990829149" y="-325.70145566751995" type="curve" smooth="yes"/>
+      <point x="683.7540785692413" y="-225.83217363394755" type="line" smooth="yes"/>
+      <point x="705.3157461035673" y="-211.03486032566855"/>
+      <point x="728.6647253787028" y="-183.83521790090168"/>
+      <point x="732.0732780875912" y="-159.68832790577963" type="curve" smooth="yes"/>
+      <point x="725.7434414493308" y="-124.19755741624517"/>
+      <point x="668.9322553238565" y="-69.50271809795336"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

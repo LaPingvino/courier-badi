@@ -1,31 +1,30 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni06EA" format="2">
   <unicode hex="06EA"/>
-  <anchor x="534" y="-268" name="_belowArab7"/>
-  <anchor x="534" y="-1152" name="belowArab0"/>
-  <anchor x="534" y="-1152" name="belowArab1"/>
-  <anchor x="534" y="-1152" name="belowArab2"/>
-  <anchor x="534" y="-1152" name="belowArab3"/>
-  <anchor x="534" y="-1152" name="belowArab4"/>
-  <anchor x="534" y="-1152" name="belowArab5"/>
-  <anchor x="534" y="-1152" name="belowArab6"/>
-  <anchor x="534" y="-1152" name="belowArab7"/>
-  <anchor x="534" y="-1152" name="belowArab8"/>
-  <anchor x="534" y="-1152" name="belowArab9"/>
-  <anchor x="534" y="-1152" name="belowArab10"/>
-  <anchor x="534" y="-1152" name="belowArab11"/>
+  <anchor x="534" y="35" name="_belowArab3"/>
+  <anchor x="534" y="-397" name="belowArab0"/>
+  <anchor x="534" y="-397" name="belowArab1"/>
+  <anchor x="534" y="-397" name="belowArab2"/>
+  <anchor x="534" y="-397" name="belowArab3"/>
+  <anchor x="534" y="-397" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="532.0" y="-268.0" type="line"/>
-      <point x="156.0" y="-647.0" type="line"/>
-      <point x="532.0" y="-1024.0" type="line"/>
-      <point x="911.0" y="-645.0" type="line"/>
+      <point x="532.721254206089" y="34.50503000586227" type="line"/>
+      <point x="330.1532043489103" y="-169.67925429166633" type="line"/>
+      <point x="532.8401558784557" y="-372.90526686251377" type="line"/>
+      <point x="737.0249132628899" y="-168.72050947807955" type="line"/>
     </contour>
     <contour>
-      <point x="532.0" y="-428.0" type="line"/>
-      <point x="752.0" y="-645.0" type="line"/>
-      <point x="532.0" y="-864.0" type="line"/>
-      <point x="315.0" y="-647.0" type="line"/>
+      <point x="533.126892004313" y="-122.50362131368436" type="line"/>
+      <point x="580.1479541423321" y="-168.8834871498213" type="line"/>
+      <point x="532.921098253177" y="-215.8956755122075" type="line"/>
+      <point x="486.5426419926708" y="-169.51721925170125" type="line"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

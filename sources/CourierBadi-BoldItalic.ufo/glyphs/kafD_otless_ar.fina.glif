@@ -1,41 +1,25 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="kafDotless_ar.fina" format="2">
   <advance width="1228"/>
-  <anchor x="614" y="1755" name="aboveArab0"/>
-  <anchor x="614" y="1755" name="aboveArab1"/>
-  <anchor x="614" y="1755" name="aboveArab2"/>
-  <anchor x="614" y="1755" name="aboveArab3"/>
-  <anchor x="614" y="1755" name="aboveArab4"/>
-  <anchor x="614" y="1755" name="aboveArab5"/>
-  <anchor x="614" y="1755" name="aboveArab6"/>
-  <anchor x="614" y="1755" name="aboveArab7"/>
-  <anchor x="614" y="1755" name="aboveArab8"/>
-  <anchor x="614" y="1755" name="aboveArab9"/>
-  <anchor x="614" y="1755" name="aboveArab10"/>
-  <anchor x="614" y="1755" name="aboveArab11"/>
-  <anchor x="614" y="1755" name="aboveArab12"/>
-  <anchor x="614" y="1755" name="aboveArab13"/>
-  <anchor x="614" y="1755" name="aboveArab14"/>
-  <anchor x="614" y="1755" name="aboveArab15"/>
-  <anchor x="614" y="1755" name="aboveArab16"/>
-  <anchor x="614" y="1755" name="aboveArab17"/>
-  <anchor x="614" y="1755" name="aboveArab18"/>
-  <anchor x="614" y="1755" name="aboveArab19"/>
-  <anchor x="614" y="-750" name="belowArab0"/>
-  <anchor x="614" y="-684" name="belowArab1"/>
-  <anchor x="614" y="-603" name="belowArab2"/>
-  <anchor x="614" y="-496" name="belowArab3"/>
-  <anchor x="614" y="-401" name="belowArab4"/>
-  <anchor x="614" y="-349" name="belowArab5"/>
-  <anchor x="614" y="-267" name="belowArab6"/>
-  <anchor x="614" y="-227" name="belowArab7"/>
-  <anchor x="614" y="-54" name="belowArab8"/>
-  <anchor x="614" y="1" name="belowArab9"/>
-  <anchor x="614" y="45" name="belowArab10"/>
-  <anchor x="614" y="63" name="belowArab11"/>
+  <anchor x="614" y="1138" name="aboveArab0"/>
+  <anchor x="614" y="1138" name="aboveArab1"/>
+  <anchor x="614" y="1138" name="aboveArab2"/>
+  <anchor x="614" y="1138" name="aboveArab3"/>
+  <anchor x="614" y="1138" name="aboveArab4"/>
+  <anchor x="614" y="1138" name="aboveArab5"/>
+  <anchor x="614" y="1138" name="aboveArab6"/>
+  <anchor x="614" y="1138" name="aboveArab7"/>
+  <anchor x="614" y="1138" name="aboveArab8"/>
+  <anchor x="614" y="1138" name="aboveArab9"/>
+  <anchor x="614" y="1138" name="aboveArab10"/>
+  <anchor x="614" y="141" name="belowArab0"/>
+  <anchor x="614" y="141" name="belowArab1"/>
+  <anchor x="614" y="141" name="belowArab2"/>
+  <anchor x="614" y="141" name="belowArab3"/>
+  <anchor x="614" y="141" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="923.0021504441103" y="389.5820504191246" type="line"/>
+      <point x="928.1766571078597" y="395.0175999986252" type="line"/>
       <point x="284.8749399949125" y="402.9903433294727" type="line"/>
       <point x="312.2341134803755" y="391.62539272908236"/>
       <point x="311.68208471338977" y="399.69549905358866"/>
@@ -57,13 +41,19 @@
       <point x="1101.1606490814333" y="402.75237531945675"/>
       <point x="1129.099409166813" y="389.34437926396777"/>
       <point x="1140.0648937861836" y="451.09596195932437" type="curve" smooth="yes"/>
-      <point x="1325.5608774914886" y="1503.0959619593243" type="line" smooth="yes"/>
-      <point x="1337.3433127288858" y="1571.8626623746372"/>
-      <point x="1304.6847505330609" y="1625.5582696985198"/>
-      <point x="1236.8888802685847" y="1627.0" type="curve" smooth="yes"/>
-      <point x="1171.0764231390974" y="1625.8380967679454"/>
-      <point x="1130.2015255842796" y="1584.030955263463"/>
-      <point x="1117.5939502866586" y="1514.9040380406757" type="curve" smooth="yes"/>
+      <point x="1240.5501135523234" y="1020.9759619593244" type="line" smooth="yes"/>
+      <point x="1243.501576010849" y="1056.2257469522765"/>
+      <point x="1202.952272023911" y="1087.6141427416987"/>
+      <point x="1141.806319191352" y="1087.76" type="curve" smooth="yes"/>
+      <point x="1081.8012871597498" y="1087.6269423256522"/>
+      <point x="1041.7867830360644" y="1066.8045286306015"/>
+      <point x="1032.5831863474934" y="1032.7840380406758" type="curve" smooth="yes"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

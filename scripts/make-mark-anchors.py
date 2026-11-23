@@ -58,6 +58,16 @@ from fontTools.pens.boundsPen import BoundsPen
 
 GAP = 128  # UPM / 16
 TOL = 40   # marks whose drawn edge differs by up to this share a group
+# Arabic is placed by its own rule, not the fallback's (see fit-arabic.py):
+# an above mark's ink ARAB_GAP over the letter's ink, a below mark's
+# ARAB_GAP under the letter's ink under the mark's footprint (its width,
+# centred on the cell, ARAB_PAD wider each side), with no clamps -- so a
+# kasra tucks under a bowl beside a tail, and a fatha sits on a short letter
+# as close as on a tall one. That keeps a vowelled line inside the 12 pt
+# screenplay line.
+ARAB_GAP = 50
+ARAB_STACK_GAP = 24  # a mark on a mark (a vowel on shadda)
+ARAB_PAD = 40
 
 # class -> (horizontal alignment, side, gap)
 CLASSES = {
@@ -114,6 +124,69 @@ def bounds(font, g):
     bp = BoundsPen(font)
     g.draw(bp)
     return bp.bounds
+
+
+def outline_points(font, g, steps=12):
+    """the outline flattened to points (curves sampled), with components."""
+    from fontTools.pens.recordingPen import DecomposingRecordingPen
+    rp = DecomposingRecordingPen(font or {})
+    g.draw(rp)
+    pts, cur, start = [], None, None
+
+    def bez(ps, t):
+        while len(ps) > 1:
+            ps = [((1 - t) * a[0] + t * b[0], (1 - t) * a[1] + t * b[1]) for a, b in zip(ps, ps[1:])]
+        return ps[0]
+    for op, args in rp.value:
+        if op == "moveTo":
+            cur = start = args[0]
+            pts.append(cur)
+        elif op == "lineTo":
+            for k in range(1, steps + 1):
+                t = k / steps
+                pts.append((cur[0] + (args[0][0] - cur[0]) * t, cur[1] + (args[0][1] - cur[1]) * t))
+            cur = args[0]
+        elif op in ("curveTo", "qCurveTo"):
+            if op == "qCurveTo" and len(args) > 2:
+                # split the implied on-curve points
+                ctrl = list(args)
+                segs = []
+                for a, b in zip(ctrl[:-2], ctrl[1:-1]):
+                    segs.append((a, ((a[0] + b[0]) / 2, (a[1] + b[1]) / 2)))
+                segs.append((ctrl[-2], ctrl[-1]))
+                for c_, end in segs:
+                    for k in range(1, steps + 1):
+                        pts.append(bez([cur, c_, end], k / steps))
+                    cur = end
+                continue
+            ps = [cur] + list(args)
+            for k in range(1, steps + 1):
+                pts.append(bez(ps, k / steps))
+            cur = args[-1]
+        elif op in ("closePath", "endPath"):
+            if start and cur:
+                for k in range(1, steps + 1):
+                    t = k / steps
+                    pts.append((cur[0] + (start[0] - cur[0]) * t, cur[1] + (start[1] - cur[1]) * t))
+            cur = start = None
+    return pts
+
+
+def outline_points_contour(contour, steps=12):
+    """one UFO contour flattened to points."""
+    class _G:
+        def draw(self, pen):
+            contour.draw(pen)
+    return outline_points(None, _G(), steps)
+
+
+def local_extent(pts, xa, xb, top, bottom):
+    """(top, bottom) of the ink between x = xa and xb; the whole glyph's if
+    none lies there."""
+    ys = [y for x, y in pts if xa <= x <= xb]
+    if not ys:
+        return top, bottom
+    return max(ys), min(ys)
 
 
 def edge(cls, b):
@@ -176,14 +249,33 @@ def run(path, groups):
             if es:
                 E[(cls, fam, i)] = sum(es) / len(es)
 
-    def targets(cls, fam, top, bottom, width):
+    # this master's mean ink width per group (the Arabic footprint)
+    Wd = {}
+    for (cls, fam), gs in groups.items():
+        for i, names in enumerate(gs):
+            ws = [b[2] - b[0] for b in (bounds(font, font[n]) for n in names if n in font) if b]
+            if ws:
+                Wd[(cls, fam, i)] = sum(ws) / len(ws)
+
+    def targets(cls, fam, top, bottom, width, poly=None, cx=None, stack=False):
         """anchors (name, x, y) a base/carrier offers to every group of cls."""
         halign, side, gap = CLASSES[cls]
         x = width if halign == "right" else width / 2
+        if cx is not None:
+            x = cx
         out = []
         for i in range(len(groups.get((cls, fam), []))):
             e = E.get((cls, fam, i))
             if e is None:
+                continue
+            if fam == "Arab":
+                g_ = (ARAB_STACK_GAP if stack else ARAB_GAP) if gap else 0
+                t, b_ = top, bottom
+                if poly and side == "bottom":
+                    hw = Wd.get((cls, fam, i), 0) / 2 + ARAB_PAD
+                    t, b_ = local_extent(poly, x - hw, x + hw, top, bottom)
+                y = t + g_ if side == "top" else b_ - g_
+                out.append((anchor_name(cls, fam, i), x, y))
                 continue
             if side == "top":
                 d = top + gap - e
@@ -209,15 +301,16 @@ def run(path, groups):
             new.append(("_" + anchor_name(cls, fam, i), ax, edge(cls, b)))
             if cls in STACKING:
                 # the next mark stacks on this one's ink, centred on its ink
-                for n, _, y in targets(cls, fam, y1, y0, 0):
+                for n, _, y in targets(cls, fam, y1, y0, 0, cx=(x0 + x1) / 2, stack=True):
                     new.append((n, (x0 + x1) / 2, y))
             nm += 1
         elif g.name not in all_marks and g.width > 0:
             # the dotted circle (U+25CC) carries marks of every script
             fams = {"LGC", "Arab"} if 0x25CC in g.unicodes else {family_of_glyph(g)}
+            poly = outline_points(font, g) if "Arab" in fams and 0x25CC not in g.unicodes else None
             for (cls, f) in groups:
                 if f in fams:
-                    new += targets(cls, f, y1, y0, g.width)
+                    new += targets(cls, f, y1, y0, g.width, poly if f == "Arab" else None)
             nb += 1
         for n, x, y in new:
             g.appendAnchor({"name": n, "x": round(x), "y": round(y)})

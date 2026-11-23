@@ -1,38 +1,22 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0644.medi.short" format="2">
   <advance width="1228"/>
-  <anchor x="614" y="1331" name="aboveArab0"/>
-  <anchor x="614" y="1331" name="aboveArab1"/>
-  <anchor x="614" y="1331" name="aboveArab2"/>
-  <anchor x="614" y="1331" name="aboveArab3"/>
-  <anchor x="614" y="1331" name="aboveArab4"/>
-  <anchor x="614" y="1331" name="aboveArab5"/>
-  <anchor x="614" y="1331" name="aboveArab6"/>
-  <anchor x="614" y="1331" name="aboveArab7"/>
-  <anchor x="614" y="1331" name="aboveArab8"/>
-  <anchor x="614" y="1331" name="aboveArab9"/>
-  <anchor x="614" y="1331" name="aboveArab10"/>
-  <anchor x="614" y="1331" name="aboveArab11"/>
-  <anchor x="614" y="1331" name="aboveArab12"/>
-  <anchor x="614" y="1331" name="aboveArab13"/>
-  <anchor x="614" y="1331" name="aboveArab14"/>
-  <anchor x="614" y="1331" name="aboveArab15"/>
-  <anchor x="614" y="1334" name="aboveArab16"/>
-  <anchor x="614" y="1395" name="aboveArab17"/>
-  <anchor x="614" y="1427" name="aboveArab18"/>
-  <anchor x="614" y="1485" name="aboveArab19"/>
-  <anchor x="614" y="-750" name="belowArab0"/>
-  <anchor x="614" y="-684" name="belowArab1"/>
-  <anchor x="614" y="-603" name="belowArab2"/>
-  <anchor x="614" y="-496" name="belowArab3"/>
-  <anchor x="614" y="-401" name="belowArab4"/>
-  <anchor x="614" y="-349" name="belowArab5"/>
-  <anchor x="614" y="-267" name="belowArab6"/>
-  <anchor x="614" y="-227" name="belowArab7"/>
-  <anchor x="614" y="-54" name="belowArab8"/>
-  <anchor x="614" y="1" name="belowArab9"/>
-  <anchor x="614" y="45" name="belowArab10"/>
-  <anchor x="614" y="63" name="belowArab11"/>
+  <anchor x="614" y="1002" name="aboveArab0"/>
+  <anchor x="614" y="1002" name="aboveArab1"/>
+  <anchor x="614" y="1002" name="aboveArab2"/>
+  <anchor x="614" y="1002" name="aboveArab3"/>
+  <anchor x="614" y="1002" name="aboveArab4"/>
+  <anchor x="614" y="1002" name="aboveArab5"/>
+  <anchor x="614" y="1002" name="aboveArab6"/>
+  <anchor x="614" y="1002" name="aboveArab7"/>
+  <anchor x="614" y="1002" name="aboveArab8"/>
+  <anchor x="614" y="1002" name="aboveArab9"/>
+  <anchor x="614" y="1002" name="aboveArab10"/>
+  <anchor x="614" y="148" name="belowArab0"/>
+  <anchor x="614" y="141" name="belowArab1"/>
+  <anchor x="614" y="143" name="belowArab2"/>
+  <anchor x="614" y="141" name="belowArab3"/>
+  <anchor x="614" y="141" name="belowArab4"/>
   <outline>
     <contour>
       <point x="393.06465588142356" y="403.0" type="curve" smooth="yes"/>
@@ -51,16 +35,22 @@
       <point x="761.9833562543578" y="395.80313367327415"/>
       <point x="760.8446011410058" y="485.6543752583407"/>
       <point x="784.6878265452057" y="619.0959619593243" type="curve" smooth="yes"/>
-      <point x="865.7982376710996" y="1079.0959619593243" type="line" smooth="yes"/>
-      <point x="877.5806729084967" y="1147.8626623746372"/>
-      <point x="844.9221107126717" y="1201.5582696985198"/>
-      <point x="777.1262404481955" y="1203.0" type="curve" smooth="yes"/>
-      <point x="711.3137833187081" y="1201.8380967679454"/>
-      <point x="670.4388857638904" y="1160.030955263463"/>
-      <point x="657.8313104662694" y="1090.9040380406757" type="curve" smooth="yes"/>
+      <point x="831.6260688097991" y="885.2959619593244" type="line" smooth="yes"/>
+      <point x="834.5775312683245" y="920.5457469522764"/>
+      <point x="794.0282272813865" y="951.9341427416988"/>
+      <point x="732.8822744488275" y="952.08" type="curve" smooth="yes"/>
+      <point x="672.8772424172253" y="951.9469423256521"/>
+      <point x="632.8627382935397" y="931.1245286306014"/>
+      <point x="623.6591416049689" y="897.1040380406757" type="curve" smooth="yes"/>
       <point x="576.7208993403755" y="630.9040380406757" type="line" smooth="yes"/>
       <point x="553.423965635149" y="497.15748058939676"/>
       <point x="512.3163312418479" y="397.99994780147426"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

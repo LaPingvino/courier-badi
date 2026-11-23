@@ -1,48 +1,47 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08E3" format="2">
   <unicode hex="08E3"/>
-  <anchor x="536" y="-270" name="_belowArab7"/>
-  <anchor x="536" y="-1076" name="belowArab0"/>
-  <anchor x="536" y="-1076" name="belowArab1"/>
-  <anchor x="536" y="-1076" name="belowArab2"/>
-  <anchor x="536" y="-1076" name="belowArab3"/>
-  <anchor x="536" y="-1076" name="belowArab4"/>
-  <anchor x="536" y="-1076" name="belowArab5"/>
-  <anchor x="536" y="-1076" name="belowArab6"/>
-  <anchor x="536" y="-1076" name="belowArab7"/>
-  <anchor x="536" y="-1076" name="belowArab8"/>
-  <anchor x="536" y="-1076" name="belowArab9"/>
-  <anchor x="536" y="-1076" name="belowArab10"/>
-  <anchor x="536" y="-1076" name="belowArab11"/>
+  <anchor x="536" y="12" name="_belowArab3"/>
+  <anchor x="536" y="-360" name="belowArab0"/>
+  <anchor x="536" y="-360" name="belowArab1"/>
+  <anchor x="536" y="-360" name="belowArab2"/>
+  <anchor x="536" y="-360" name="belowArab3"/>
+  <anchor x="536" y="-360" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="485.0" y="-628.0" type="curve" smooth="yes"/>
-      <point x="485.0" y="-458.0"/>
-      <point x="630.0" y="-389.0"/>
-      <point x="696.0" y="-389.0" type="curve" smooth="yes"/>
-      <point x="720.0" y="-389.0"/>
-      <point x="745.0" y="-368.0"/>
-      <point x="745.0" y="-327.0" type="curve" smooth="yes"/>
-      <point x="745.0" y="-290.0"/>
-      <point x="725.0" y="-270.0"/>
-      <point x="684.0" y="-270.0" type="curve" smooth="yes"/>
-      <point x="598.0" y="-270.0"/>
-      <point x="327.0" y="-382.0"/>
-      <point x="327.0" y="-706.0" type="curve" smooth="yes"/>
-      <point x="327.0" y="-870.0"/>
-      <point x="436.0" y="-948.0"/>
-      <point x="538.0" y="-948.0" type="curve" smooth="yes"/>
-      <point x="626.0" y="-948.0"/>
-      <point x="690.0" y="-878.0"/>
-      <point x="690.0" y="-796.0" type="curve" smooth="yes"/>
-      <point x="690.0" y="-743.0"/>
-      <point x="649.0" y="-698.0"/>
-      <point x="624.0" y="-698.0" type="curve" smooth="yes"/>
-      <point x="595.0" y="-698.0"/>
-      <point x="589.0" y="-710.0"/>
-      <point x="557.0" y="-710.0" type="curve" smooth="yes"/>
-      <point x="534.0" y="-710.0"/>
-      <point x="485.0" y="-692.0"/>
+      <point x="546.34" y="-169.78" type="curve" smooth="yes"/>
+      <point x="546.34" y="-118.43922130687369"/>
+      <point x="582.6514070941548" y="-101.16000000000003"/>
+      <point x="603.2" y="-101.16000000000003" type="curve" smooth="yes"/>
+      <point x="624.8491931716103" y="-101.16000000000003"/>
+      <point x="655.54" y="-75.37972226415272"/>
+      <point x="655.54" y="-43.360000000000014" type="curve" smooth="yes"/>
+      <point x="655.54" y="-14.664577259030523"/>
+      <point x="628.5354227409695" y="12.339999999999986"/>
+      <point x="598.16" y="12.339999999999986" type="curve" smooth="yes"/>
+      <point x="555.7356428160638" y="12.339999999999986"/>
+      <point x="416.46000000000004" y="-45.220413267155514"/>
+      <point x="416.46000000000004" y="-202.54000000000002" type="curve" smooth="yes"/>
+      <point x="416.46000000000004" y="-287.74684801422086"/>
+      <point x="483.8068405955119" y="-335.94"/>
+      <point x="536.84" y="-335.94" type="curve" smooth="yes"/>
+      <point x="587.7958360086639" y="-335.94"/>
+      <point x="632.4399999999999" y="-287.1104456344761"/>
+      <point x="632.4399999999999" y="-240.34" type="curve" smooth="yes"/>
+      <point x="632.4399999999999" y="-205.7811917399095"/>
+      <point x="597.4886919703047" y="-167.42000000000002"/>
+      <point x="572.96" y="-167.42000000000002" type="curve" smooth="yes"/>
+      <point x="541.1512405173033" y="-167.42000000000002"/>
+      <point x="538.6312405173034" y="-172.46000000000004"/>
+      <point x="544.82" y="-172.46000000000004" type="curve" smooth="yes"/>
+      <point x="540.8089263119441" y="-172.46000000000004"/>
+      <point x="546.34" y="-174.4918229874491"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

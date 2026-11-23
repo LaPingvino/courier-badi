@@ -2,79 +2,69 @@
 <glyph name="uni08B1" format="2">
   <advance width="1228"/>
   <unicode hex="08B1"/>
-  <anchor x="614" y="943" name="aboveArab0"/>
-  <anchor x="614" y="943" name="aboveArab1"/>
-  <anchor x="614" y="943" name="aboveArab2"/>
-  <anchor x="614" y="943" name="aboveArab3"/>
-  <anchor x="614" y="943" name="aboveArab4"/>
-  <anchor x="614" y="943" name="aboveArab5"/>
-  <anchor x="614" y="943" name="aboveArab6"/>
-  <anchor x="614" y="951" name="aboveArab7"/>
-  <anchor x="614" y="973" name="aboveArab8"/>
-  <anchor x="614" y="997" name="aboveArab9"/>
-  <anchor x="614" y="1025" name="aboveArab10"/>
-  <anchor x="614" y="1046" name="aboveArab11"/>
-  <anchor x="614" y="1068" name="aboveArab12"/>
-  <anchor x="614" y="1087" name="aboveArab13"/>
-  <anchor x="614" y="1110" name="aboveArab14"/>
-  <anchor x="614" y="1130" name="aboveArab15"/>
-  <anchor x="614" y="1157" name="aboveArab16"/>
-  <anchor x="614" y="1218" name="aboveArab17"/>
-  <anchor x="614" y="1250" name="aboveArab18"/>
-  <anchor x="614" y="1308" name="aboveArab19"/>
-  <anchor x="614" y="-784" name="belowArab0"/>
-  <anchor x="614" y="-718" name="belowArab1"/>
-  <anchor x="614" y="-637" name="belowArab2"/>
-  <anchor x="614" y="-530" name="belowArab3"/>
-  <anchor x="614" y="-435" name="belowArab4"/>
-  <anchor x="614" y="-384" name="belowArab5"/>
-  <anchor x="614" y="-384" name="belowArab6"/>
-  <anchor x="614" y="-384" name="belowArab7"/>
-  <anchor x="614" y="-384" name="belowArab8"/>
-  <anchor x="614" y="-384" name="belowArab9"/>
-  <anchor x="614" y="-384" name="belowArab10"/>
-  <anchor x="614" y="-384" name="belowArab11"/>
+  <anchor x="614" y="860" name="aboveArab0"/>
+  <anchor x="614" y="860" name="aboveArab1"/>
+  <anchor x="614" y="860" name="aboveArab2"/>
+  <anchor x="614" y="860" name="aboveArab3"/>
+  <anchor x="614" y="860" name="aboveArab4"/>
+  <anchor x="614" y="860" name="aboveArab5"/>
+  <anchor x="614" y="860" name="aboveArab6"/>
+  <anchor x="614" y="860" name="aboveArab7"/>
+  <anchor x="614" y="860" name="aboveArab8"/>
+  <anchor x="614" y="860" name="aboveArab9"/>
+  <anchor x="614" y="860" name="aboveArab10"/>
+  <anchor x="614" y="172" name="belowArab0"/>
+  <anchor x="614" y="-132" name="belowArab1"/>
+  <anchor x="614" y="172" name="belowArab2"/>
+  <anchor x="614" y="-137" name="belowArab3"/>
+  <anchor x="614" y="-140" name="belowArab4"/>
   <outline>
     <contour>
       <point x="1077.9749567337435" y="584.0" type="line" smooth="yes"/>
       <point x="1109.3611592998502" y="762.0"/>
-      <point x="1030.706489277399" y="815.0"/>
-      <point x="934.706489277399" y="815.0" type="curve" smooth="yes"/>
-      <point x="661.706489277399" y="815.0"/>
+      <point x="1029.8072216757857" y="809.9"/>
+      <point x="933.8072216757857" y="809.9" type="curve" smooth="yes"/>
+      <point x="660.8072216757857" y="809.9"/>
       <point x="545.6802646565774" y="588.0"/>
       <point x="522.2287762223516" y="455.0" type="curve" smooth="yes"/>
       <point x="487.13970706136706" y="256.0"/>
-      <point x="583.9682627365708" y="221.0"/>
-      <point x="730.9682627365708" y="221.0" type="curve" smooth="yes"/>
-      <point x="753.9682627365708" y="221.0"/>
-      <point x="821.3209166979877" y="223.0"/>
+      <point x="584.0564262269249" y="221.5"/>
+      <point x="731.0564262269249" y="221.5" type="curve" smooth="yes"/>
+      <point x="754.0564262269249" y="221.5"/>
+      <point x="821.4090801883419" y="223.5"/>
       <point x="844.6735706594046" y="225.0" type="curve"/>
       <point x="873.6735706594046" y="225.0" type="line"/>
-      <point x="803.671759318144" y="-172.0" type="line" smooth="yes"/>
-      <point x="792.3868325528023" y="-236.0"/>
-      <point x="800.8602929386329" y="-256.0"/>
-      <point x="857.8602929386329" y="-256.0" type="curve" smooth="yes"/>
-      <point x="915.8602929386329" y="-256.0"/>
-      <point x="933.3868325528023" y="-236.0"/>
-      <point x="944.671759318144" y="-172.0" type="curve" smooth="yes"/>
+      <point x="821.1722121534592" y="-72.75" type="line" smooth="yes"/>
+      <point x="818.6242872822219" y="-87.2"/>
+      <point x="829.918979359388" y="-91.2"/>
+      <point x="886.918979359388" y="-91.2" type="curve" smooth="yes"/>
+      <point x="944.918979359388" y="-91.2"/>
+      <point x="959.6242872822219" y="-87.2"/>
+      <point x="962.1722121534592" y="-72.75" type="curve" smooth="yes"/>
     </contour>
     <contour>
       <point x="936.9749567337435" y="584.0" type="curve" smooth="yes"/>
       <point x="905.5887541676368" y="406.0" type="line" smooth="yes"/>
       <point x="901.885887572759" y="385.0"/>
-      <point x="874.4173098428405" y="371.0"/>
-      <point x="838.7120019200066" y="367.0" type="curve" smooth="yes"/>
-      <point x="822.3593479585898" y="365.0"/>
-      <point x="793.3593479585898" y="365.0"/>
-      <point x="781.3593479585898" y="365.0" type="curve" smooth="yes"/>
-      <point x="695.3593479585898" y="365.0"/>
+      <point x="874.4556597839695" y="371.21749332390823"/>
+      <point x="838.7503518611356" y="367.21749332390823" type="curve" smooth="yes"/>
+      <point x="822.3976978997187" y="365.21749332390823"/>
+      <point x="793.4387986220717" y="365.4505871033616"/>
+      <point x="781.4387986220717" y="365.4505871033616" type="curve" smooth="yes"/>
+      <point x="695.4387986220717" y="365.4505871033616"/>
       <point x="644.4752717270912" y="377.0"/>
       <point x="658.2287762223516" y="455.0" type="curve" smooth="yes"/>
       <point x="674.4508584475303" y="547.0"/>
-      <point x="731.6656166888408" y="690.0"/>
-      <point x="912.6656166888408" y="690.0" type="curve" smooth="yes"/>
-      <point x="944.6656166888408" y="690.0"/>
+      <point x="730.769380923976" y="684.9171944006309"/>
+      <point x="911.769380923976" y="684.9171944006309" type="curve" smooth="yes"/>
+      <point x="943.769380923976" y="684.9171944006309"/>
       <point x="948.7888644412108" y="651.0"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>
