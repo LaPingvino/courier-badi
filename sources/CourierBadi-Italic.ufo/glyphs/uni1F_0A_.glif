@@ -2,18 +2,54 @@
 <glyph name="uni1F0A" format="2">
   <advance width="1228"/>
   <unicode hex="1F0A"/>
-  <anchor x="614" y="1404" name="aboveLGC0"/>
-  <anchor x="614" y="1404" name="aboveLGC1"/>
-  <anchor x="614" y="1404" name="aboveLGC2"/>
-  <anchor x="614" y="1404" name="aboveLGC3"/>
-  <anchor x="1228" y="1276" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="0" name="attachedBelowLGC0"/>
+  <anchor x="614" y="1509" name="aboveLGC0"/>
+  <anchor x="614" y="1509" name="aboveLGC1"/>
+  <anchor x="614" y="1509" name="aboveLGC2"/>
+  <anchor x="614" y="1509" name="aboveLGC3"/>
+  <anchor x="1228" y="1381" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-10" name="attachedBelowLGC0"/>
   <anchor x="614" y="-194" name="belowLGC0"/>
   <anchor x="614" y="-146" name="belowLGC1"/>
-  <anchor x="614" y="-128" name="belowLGC2"/>
-  <anchor x="614" y="-128" name="belowLGC3"/>
+  <anchor x="614" y="-138" name="belowLGC2"/>
+  <anchor x="614" y="-138" name="belowLGC3"/>
   <outline>
-    <component base="uni1FCD" xOffset="-388.68871413188094" yOffset="-45.0"/>
-    <component base="Alpha"/>
+    <contour>
+      <point x="290.81146637951105" y="84" type="line" smooth="yes"/>
+      <point x="269.0530792283386" y="40"/>
+      <point x="279.8212316913354" y="16"/>
+      <point x="325.64734603858307" y="-2" type="curve" smooth="yes"/>
+      <point x="372.4734603858307" y="-20"/>
+      <point x="405.58938415433227" y="-8"/>
+      <point x="427.34777130550475" y="36" type="curve" smooth="yes"/>
+      <point x="566.1879036337934" y="330" type="line"/>
+      <point x="959.1879036337934" y="330" type="line"/>
+      <point x="993.3477713055047" y="36" type="line" smooth="yes"/>
+      <point x="1000.5893841543323" y="-8"/>
+      <point x="1029.4734603858308" y="-20"/>
+      <point x="1081.647346038583" y="-2" type="curve" smooth="yes"/>
+      <point x="1134.8212316913355" y="16"/>
+      <point x="1154.0530792283387" y="40"/>
+      <point x="1146.811466379511" y="84" type="curve" smooth="yes"/>
+      <point x="1010.7180659304839" y="1144" type="line" smooth="yes"/>
+      <point x="1004.0054340237818" y="1191"/>
+      <point x="973.1793196765342" y="1209"/>
+      <point x="917.1793196765342" y="1209" type="curve" smooth="yes"/>
+      <point x="861.1793196765342" y="1209"/>
+      <point x="825.0054340237818" y="1191"/>
+      <point x="800.7180659304839" y="1144" type="curve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="896.909040878929" y="1043" type="line"/>
+      <point x="879.909040878929" y="1043" type="line"/>
+      <point x="933.5789888558124" y="474" type="line"/>
+      <point x="641.5789888558124" y="474" type="line"/>
+    </contour>
+    <component base="uni1FCD" xOffset="-366.58938415433227" yOffset="8"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

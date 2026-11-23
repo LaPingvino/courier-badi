@@ -2,48 +2,54 @@
 <glyph name="upsilon" format="2">
   <advance width="1228"/>
   <unicode hex="03C5"/>
-  <anchor x="614" y="1041" name="aboveLGC0"/>
-  <anchor x="614" y="1041" name="aboveLGC1"/>
-  <anchor x="614" y="1044" name="aboveLGC2"/>
-  <anchor x="614" y="1072" name="aboveLGC3"/>
-  <anchor x="1228" y="913" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="-10" name="attachedBelowLGC0"/>
+  <anchor x="614" y="1079" name="aboveLGC0"/>
+  <anchor x="614" y="1079" name="aboveLGC1"/>
+  <anchor x="614" y="1079" name="aboveLGC2"/>
+  <anchor x="614" y="1091" name="aboveLGC3"/>
+  <anchor x="1228" y="951" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-9" name="attachedBelowLGC0"/>
   <anchor x="614" y="-194" name="belowLGC0"/>
   <anchor x="614" y="-146" name="belowLGC1"/>
-  <anchor x="614" y="-138" name="belowLGC2"/>
-  <anchor x="614" y="-138" name="belowLGC3"/>
+  <anchor x="614" y="-137" name="belowLGC2"/>
+  <anchor x="614" y="-137" name="belowLGC3"/>
   <outline>
     <contour>
-      <point x="983.0" y="449.0" type="curve" smooth="yes"/>
-      <point x="983.0" y="575.0"/>
-      <point x="954.0" y="707.0"/>
-      <point x="868.0" y="850.0" type="curve"/>
-      <point x="823.0" y="938.0"/>
-      <point x="721.0" y="934.0"/>
-      <point x="727.0" y="838.0" type="curve"/>
-      <point x="801.0" y="719.0"/>
-      <point x="846.0" y="551.0"/>
-      <point x="846.0" y="444.0" type="curve" smooth="yes"/>
-      <point x="846.0" y="268.0"/>
-      <point x="733.0" y="129.0"/>
-      <point x="584.0" y="129.0" type="curve" smooth="yes"/>
-      <point x="475.0" y="129.0"/>
-      <point x="358.0" y="266.0"/>
-      <point x="322.0" y="449.0" type="curve"/>
-      <point x="322.0" y="625.0"/>
-      <point x="254.0" y="821.0"/>
-      <point x="217.0" y="874.0" type="curve"/>
-      <point x="195.0" y="915.0"/>
-      <point x="88.0" y="915.0"/>
-      <point x="92.0" y="834.0" type="curve"/>
-      <point x="106.0" y="762.0"/>
-      <point x="164.0" y="729.0"/>
-      <point x="182.0" y="449.0" type="curve"/>
-      <point x="209.0" y="276.0"/>
-      <point x="342.0" y="-10.0"/>
-      <point x="584.0" y="-10.0" type="curve" smooth="yes"/>
-      <point x="817.0" y="-10.0"/>
-      <point x="983.0" y="186.0"/>
+      <point x="1089" y="470" type="curve" smooth="yes"/>
+      <point x="1089" y="602"/>
+      <point x="1058" y="740"/>
+      <point x="966" y="890" type="curve"/>
+      <point x="918" y="975"/>
+      <point x="809" y="971"/>
+      <point x="816" y="877" type="curve"/>
+      <point x="895" y="752"/>
+      <point x="943" y="576"/>
+      <point x="943" y="465" type="curve" smooth="yes"/>
+      <point x="943" y="281"/>
+      <point x="822" y="136"/>
+      <point x="664" y="136" type="curve" smooth="yes"/>
+      <point x="547" y="136"/>
+      <point x="423" y="279"/>
+      <point x="384" y="470" type="curve"/>
+      <point x="384" y="654"/>
+      <point x="312" y="860"/>
+      <point x="273" y="915" type="curve"/>
+      <point x="249" y="954"/>
+      <point x="135" y="954"/>
+      <point x="139" y="873" type="curve"/>
+      <point x="154" y="797"/>
+      <point x="216" y="762"/>
+      <point x="235" y="470" type="curve"/>
+      <point x="264" y="289"/>
+      <point x="406" y="-9"/>
+      <point x="664" y="-9" type="curve" smooth="yes"/>
+      <point x="912" y="-9"/>
+      <point x="1089" y="194"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

@@ -20,10 +20,28 @@
   <anchor x="614" y="175" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="850.0" y="424.0" type="line"/>
-      <point x="225.0" y="424.0" type="line"/>
-      <point x="225.0" y="225.0" type="line"/>
-      <point x="850.0" y="225.0" type="line"/>
+      <point x="854" y="360" type="line"/>
+      <point x="854" y="406"/>
+      <point x="837" y="424"/>
+      <point x="790" y="424" type="curve"/>
+      <point x="284" y="424" type="line"/>
+      <point x="238" y="424"/>
+      <point x="220" y="406"/>
+      <point x="220" y="360" type="curve"/>
+      <point x="220" y="289" type="line"/>
+      <point x="220" y="243"/>
+      <point x="238" y="225"/>
+      <point x="284" y="225" type="curve"/>
+      <point x="790" y="225" type="line"/>
+      <point x="837" y="225"/>
+      <point x="854" y="243"/>
+      <point x="854" y="289" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

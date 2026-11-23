@@ -2,11 +2,11 @@
 <glyph name="Xi" format="2">
   <advance width="1228"/>
   <unicode hex="039E"/>
-  <anchor x="614" y="1379" name="aboveLGC0"/>
-  <anchor x="614" y="1379" name="aboveLGC1"/>
-  <anchor x="614" y="1379" name="aboveLGC2"/>
-  <anchor x="614" y="1379" name="aboveLGC3"/>
-  <anchor x="1228" y="1251" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="1315" name="aboveLGC0"/>
+  <anchor x="614" y="1315" name="aboveLGC1"/>
+  <anchor x="614" y="1315" name="aboveLGC2"/>
+  <anchor x="614" y="1315" name="aboveLGC3"/>
+  <anchor x="1228" y="1187" name="attachedAboveRightLGC0"/>
   <anchor x="614" y="0" name="attachedBelowLGC0"/>
   <anchor x="614" y="-194" name="belowLGC0"/>
   <anchor x="614" y="-146" name="belowLGC1"/>
@@ -14,82 +14,64 @@
   <anchor x="614" y="-128" name="belowLGC3"/>
   <outline>
     <contour>
-      <point x="1008.0" y="84.0" type="curve" smooth="yes"/>
-      <point x="1008.0" y="133.0" type="line" smooth="yes"/>
-      <point x="1008.0" y="172.0"/>
-      <point x="1008.0" y="217.0"/>
-      <point x="938.0" y="217.0" type="curve" smooth="yes"/>
-      <point x="864.0" y="217.0"/>
-      <point x="864.0" y="178.0"/>
-      <point x="864.0" y="121.0" type="curve"/>
-      <point x="209.0" y="121.0" type="line"/>
-      <point x="209.0" y="178.0"/>
-      <point x="209.0" y="217.0"/>
-      <point x="139.0" y="217.0" type="curve" smooth="yes"/>
-      <point x="70.0" y="217.0"/>
-      <point x="70.0" y="172.0"/>
-      <point x="70.0" y="133.0" type="curve" smooth="yes"/>
-      <point x="70.0" y="84.0" type="line" smooth="yes"/>
-      <point x="70.0" y="16.0"/>
-      <point x="86.0" y="0.0"/>
-      <point x="152.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="926.0" y="0.0" type="line" smooth="yes"/>
-      <point x="991.0" y="0.0"/>
-      <point x="1008.0" y="18.0"/>
+      <point x="190" y="65" type="line"/>
+      <point x="190" y="18"/>
+      <point x="208" y="0"/>
+      <point x="255" y="0" type="curve"/>
+      <point x="973" y="0" type="line"/>
+      <point x="1020" y="0"/>
+      <point x="1038" y="18"/>
+      <point x="1038" y="65" type="curve"/>
+      <point x="1038" y="79" type="line"/>
+      <point x="1038" y="126"/>
+      <point x="1020" y="144"/>
+      <point x="973" y="144" type="curve"/>
+      <point x="255" y="144" type="line"/>
+      <point x="208" y="144"/>
+      <point x="190" y="126"/>
+      <point x="190" y="79" type="curve"/>
     </contour>
     <contour>
-      <point x="999.0" y="1128.0" type="curve" smooth="yes"/>
-      <point x="999.0" y="1167.0" type="line" smooth="yes"/>
-      <point x="999.0" y="1231.0"/>
-      <point x="987.0" y="1251.0"/>
-      <point x="918.0" y="1251.0" type="curve" smooth="yes"/>
-      <point x="160.0" y="1251.0" type="line" smooth="yes"/>
-      <point x="94.0" y="1251.0"/>
-      <point x="78.0" y="1235.0"/>
-      <point x="78.0" y="1167.0" type="curve" smooth="yes"/>
-      <point x="78.0" y="1128.0" type="line" smooth="yes"/>
-      <point x="78.0" y="1090.0"/>
-      <point x="78.0" y="1044.0"/>
-      <point x="147.0" y="1044.0" type="curve" smooth="yes"/>
-      <point x="217.0" y="1044.0"/>
-      <point x="217.0" y="1085.0"/>
-      <point x="217.0" y="1130.0" type="curve"/>
-      <point x="856.0" y="1130.0" type="line"/>
-      <point x="856.0" y="1085.0"/>
-      <point x="856.0" y="1044.0"/>
-      <point x="930.0" y="1044.0" type="curve" smooth="yes"/>
-      <point x="999.0" y="1044.0"/>
-      <point x="999.0" y="1090.0"/>
+      <point x="190" y="1108" type="line"/>
+      <point x="190" y="1061"/>
+      <point x="208" y="1043"/>
+      <point x="255" y="1043" type="curve"/>
+      <point x="973" y="1043" type="line"/>
+      <point x="1020" y="1043"/>
+      <point x="1038" y="1061"/>
+      <point x="1038" y="1108" type="curve"/>
+      <point x="1038" y="1122" type="line"/>
+      <point x="1038" y="1169"/>
+      <point x="1020" y="1187"/>
+      <point x="973" y="1187" type="curve"/>
+      <point x="255" y="1187" type="line"/>
+      <point x="208" y="1187"/>
+      <point x="190" y="1169"/>
+      <point x="190" y="1122" type="curve"/>
     </contour>
     <contour>
-      <point x="852.0" y="600.0" type="curve" smooth="yes"/>
-      <point x="852.0" y="700.0" type="line" smooth="yes"/>
-      <point x="852.0" y="741.0"/>
-      <point x="852.0" y="782.0"/>
-      <point x="778.0" y="782.0" type="curve" smooth="yes"/>
-      <point x="729.0" y="782.0"/>
-      <point x="709.0" y="762.0"/>
-      <point x="709.0" y="711.0" type="curve"/>
-      <point x="365.0" y="711.0" type="line"/>
-      <point x="365.0" y="762.0"/>
-      <point x="344.0" y="782.0"/>
-      <point x="295.0" y="782.0" type="curve" smooth="yes"/>
-      <point x="225.0" y="782.0"/>
-      <point x="225.0" y="741.0"/>
-      <point x="225.0" y="700.0" type="curve" smooth="yes"/>
-      <point x="225.0" y="600.0" type="line" smooth="yes"/>
-      <point x="225.0" y="559.0"/>
-      <point x="225.0" y="518.0"/>
-      <point x="295.0" y="518.0" type="curve" smooth="yes"/>
-      <point x="344.0" y="518.0"/>
-      <point x="365.0" y="539.0"/>
-      <point x="365.0" y="590.0" type="curve"/>
-      <point x="709.0" y="590.0" type="line"/>
-      <point x="709.0" y="539.0"/>
-      <point x="729.0" y="518.0"/>
-      <point x="778.0" y="518.0" type="curve" smooth="yes"/>
-      <point x="852.0" y="518.0"/>
-      <point x="852.0" y="559.0"/>
+      <point x="330" y="586" type="line"/>
+      <point x="330" y="540"/>
+      <point x="348" y="522"/>
+      <point x="395" y="522" type="curve"/>
+      <point x="833" y="522" type="line"/>
+      <point x="880" y="522"/>
+      <point x="898" y="540"/>
+      <point x="898" y="586" type="curve"/>
+      <point x="898" y="601" type="line"/>
+      <point x="898" y="647"/>
+      <point x="880" y="666"/>
+      <point x="833" y="666" type="curve"/>
+      <point x="395" y="666" type="line"/>
+      <point x="348" y="666"/>
+      <point x="330" y="647"/>
+      <point x="330" y="601" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

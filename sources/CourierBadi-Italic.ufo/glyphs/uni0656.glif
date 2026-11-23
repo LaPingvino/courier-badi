@@ -9,25 +9,27 @@
   <anchor x="502" y="-400" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="530.6101047391735" y="-21.209999999999997" type="curve" smooth="yes"/>
-      <point x="476.47010129742523" y="-21.209999999999997"/>
-      <point x="463.34669442461774" y="-62.969975047325384"/>
-      <point x="457.77828397401464" y="-94.55" type="curve" smooth="yes"/>
-      <point x="420.97179002092963" y="-303.28999999999996" type="line" smooth="yes"/>
-      <point x="414.0921893424012" y="-342.30615425436815"/>
-      <point x="430.5106477499872" y="-375.78999999999996"/>
-      <point x="473.5480839195659" y="-375.78999999999996" type="curve" smooth="yes"/>
-      <point x="523.3530149856462" y="-375.78999999999996"/>
-      <point x="541.277619292035" y="-336.15037511454113"/>
-      <point x="547.0717900209296" y="-303.28999999999996" type="curve" smooth="yes"/>
-      <point x="583.8782839740146" y="-94.55" type="line" smooth="yes"/>
-      <point x="590.7450999601988" y="-55.6063513388934"/>
-      <point x="576.427081723533" y="-21.209999999999997"/>
+      <point x="530.2971334051223" y="-21" type="curve" smooth="yes"/>
+      <point x="476.2971334051222" y="-21"/>
+      <point x="462.89140021536673" y="-63"/>
+      <point x="457.24893683269585" y="-95" type="curve" smooth="yes"/>
+      <point x="420.57292484533514" y="-303" type="line" smooth="yes"/>
+      <point x="413.69617259770496" y="-342"/>
+      <point x="430.70105525361714" y="-376"/>
+      <point x="473.70105525361714" y="-376" type="curve" smooth="yes"/>
+      <point x="523.7010552536171" y="-376"/>
+      <point x="541.7541344819558" y="-336"/>
+      <point x="547.5729248453351" y="-303" type="curve" smooth="yes"/>
+      <point x="584.2489368326958" y="-95" type="line" smooth="yes"/>
+      <point x="591.125689080326" y="-56"/>
+      <point x="576.2971334051223" y="-21"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

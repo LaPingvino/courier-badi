@@ -20,10 +20,28 @@
   <anchor x="614" y="175" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="924.7626398203892" y="424.0" type="line"/>
-      <point x="299.76263982038915" y="424.0" type="line"/>
-      <point x="264.6735706594046" y="225.0" type="line"/>
-      <point x="889.6735706594046" y="225.0" type="line"/>
+      <point x="917.4777130550474" y="360" type="line"/>
+      <point x="925.5887541676368" y="406"/>
+      <point x="911.7626398203892" y="424"/>
+      <point x="864.7626398203892" y="424" type="curve"/>
+      <point x="358.76263982038915" y="424" type="line"/>
+      <point x="312.76263982038915" y="424"/>
+      <point x="291.5887541676368" y="406"/>
+      <point x="283.4777130550474" y="360" type="curve"/>
+      <point x="270.9584974247464" y="289" type="line"/>
+      <point x="262.84745631215696" y="243"/>
+      <point x="277.6735706594046" y="225"/>
+      <point x="323.6735706594046" y="225" type="curve"/>
+      <point x="829.6735706594046" y="225" type="line"/>
+      <point x="876.6735706594046" y="225"/>
+      <point x="896.847456312157" y="243"/>
+      <point x="904.9584974247464" y="289" type="curve"/>
     </contour>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

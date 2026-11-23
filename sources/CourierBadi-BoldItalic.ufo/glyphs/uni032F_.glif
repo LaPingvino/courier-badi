@@ -1,37 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni032F" format="2">
   <unicode hex="032F"/>
-  <anchor x="-600" y="-157" name="_belowLGC0"/>
-  <anchor x="-600" y="-584" name="belowLGC0"/>
-  <anchor x="-600" y="-584" name="belowLGC1"/>
-  <anchor x="-600" y="-584" name="belowLGC2"/>
-  <anchor x="-600" y="-584" name="belowLGC3"/>
+  <anchor x="-612" y="-157" name="_belowLGC0"/>
+  <anchor x="-612" y="-653" name="belowLGC0"/>
+  <anchor x="-612" y="-653" name="belowLGC1"/>
+  <anchor x="-612" y="-653" name="belowLGC2"/>
+  <anchor x="-612" y="-653" name="belowLGC3"/>
   <outline>
-    <contour>
-      <point x="-205.81792247192385" y="-364.90403804067563" type="curve" smooth="yes"/>
-      <point x="-187.51095971478694" y="-165.22011971574602"/>
-      <point x="-434.6784533153168" y="-157.0"/>
-      <point x="-570.6784533153168" y="-157.0" type="curve" smooth="yes"/>
-      <point x="-705.6784533153168" y="-157.0"/>
-      <point x="-949.4031181755131" y="-162.6206602283751"/>
-      <point x="-993.784849676754" y="-353.09596195932437" type="curve" smooth="yes"/>
-      <point x="-1000.4118622816246" y="-403.3062267769469"/>
-      <point x="-961.7532719154094" y="-453.2722995191606"/>
-      <point x="-908.4099858589723" y="-456.0" type="curve" smooth="yes"/>
-      <point x="-842.1299476385768" y="-451.8489590361618"/>
-      <point x="-812.4529118589951" y="-399.06953794278223"/>
-      <point x="-804.3488164964247" y="-375.4007577247373" type="curve"/>
-      <point x="-810.146763899888" y="-354.88638103249673"/>
-      <point x="-679.7772877881257" y="-356.0"/>
-      <point x="-593.7772877881257" y="-356.0" type="curve" smooth="yes"/>
-      <point x="-505.7772877881257" y="-356.0"/>
-      <point x="-377.28487260288836" y="-354.64361853395076"/>
-      <point x="-398.9807901505733" y="-364.3269478360119" type="curve"/>
-      <point x="-399.2260976059205" y="-387.919800125039"/>
-      <point x="-382.6926742299722" y="-450.0031771266565"/>
-      <point x="-314.4099858589722" y="-456.0" type="curve" smooth="yes"/>
-      <point x="-263.7394875955423" y="-453.9342992765346"/>
-      <point x="-216.50347376000659" y="-413.9070423179922"/>
-    </contour>
+    <component base="breveinverted" xOffset="-1425.5990708473307" yOffset="-1563"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

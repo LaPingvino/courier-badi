@@ -1,17 +1,17 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0627.fina.short" format="2">
   <advance width="1228"/>
-  <anchor x="614" y="1003" name="aboveArab0"/>
-  <anchor x="614" y="1003" name="aboveArab1"/>
-  <anchor x="614" y="1003" name="aboveArab2"/>
-  <anchor x="614" y="1003" name="aboveArab3"/>
-  <anchor x="614" y="1003" name="aboveArab4"/>
-  <anchor x="614" y="1003" name="aboveArab5"/>
-  <anchor x="614" y="1003" name="aboveArab6"/>
-  <anchor x="614" y="1003" name="aboveArab7"/>
-  <anchor x="614" y="1003" name="aboveArab8"/>
-  <anchor x="614" y="1003" name="aboveArab9"/>
-  <anchor x="614" y="1003" name="aboveArab10"/>
+  <anchor x="614" y="1002" name="aboveArab0"/>
+  <anchor x="614" y="1002" name="aboveArab1"/>
+  <anchor x="614" y="1002" name="aboveArab2"/>
+  <anchor x="614" y="1002" name="aboveArab3"/>
+  <anchor x="614" y="1002" name="aboveArab4"/>
+  <anchor x="614" y="1002" name="aboveArab5"/>
+  <anchor x="614" y="1002" name="aboveArab6"/>
+  <anchor x="614" y="1002" name="aboveArab7"/>
+  <anchor x="614" y="1002" name="aboveArab8"/>
+  <anchor x="614" y="1002" name="aboveArab9"/>
+  <anchor x="614" y="1002" name="aboveArab10"/>
   <anchor x="614" y="189" name="belowArab0"/>
   <anchor x="614" y="189" name="belowArab1"/>
   <anchor x="614" y="189" name="belowArab2"/>
@@ -19,28 +19,36 @@
   <anchor x="614" y="189" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="1150.4471160665787" y="356.1646702661442" type="line"/>
+      <point x="1159.3847306943992" y="307.431074487337" type="line"/>
+      <point x="1167.7488262188347" y="349.5390971421167"/>
+      <point x="1134.4424543246992" y="355.57547144362655"/>
+      <point x="1081.0646558814235" y="355.0" type="curve"/>
       <point x="784.0646558814236" y="355.0" type="line" smooth="yes"/>
-      <point x="691.855180518504" y="359.3239168123745"/>
-      <point x="715.9497015691705" y="469.431074487337"/>
-      <point x="723.8844157010516" y="514.431074487337" type="curve" smooth="yes"/>
-      <point x="799.2113018597078" y="941.6310744873371" type="line" smooth="yes"/>
-      <point x="802.2615665329673" y="955.7093983137686"/>
-      <point x="768.9869493766502" y="952.152411261171"/>
-      <point x="711.3459695228339" y="952.08" type="curve" smooth="yes"/>
-      <point x="649.0313262987054" y="952.135588188374"/>
-      <point x="614.8326071993084" y="951.3534293873995"/>
-      <point x="607.0012987030728" y="936.768925512663" type="curve" smooth="yes"/>
-      <point x="531.6744125444167" y="509.568925512663" type="line" smooth="yes"/>
-      <point x="500.9987937141459" y="340.84694137986094"/>
-      <point x="563.1153136263258" y="237.54056802114405"/>
+      <point x="696.2417109633128" y="359.54634870297724"/>
+      <point x="719.9497015691705" y="469.431074487337"/>
+      <point x="727.8844157010516" y="514.431074487337" type="curve" smooth="yes"/>
+      <point x="796.8282651580613" y="905.431074487337" type="line" smooth="yes"/>
+      <point x="802.0732062227269" y="933.5934326061582"/>
+      <point x="760.4779713538488" y="953.109985484689"/>
+      <point x="711.3318633643771" y="952.0" type="curve" smooth="yes"/>
+      <point x="661.1044018227676" y="952.7194284911941"/>
+      <point x="606.7306670404791" y="929.5032643430562"/>
+      <point x="595.6182620014264" y="900.568925512663" type="curve" smooth="yes"/>
+      <point x="526.6744125444167" y="509.568925512663" type="line" smooth="yes"/>
+      <point x="496.01033465396046" y="340.9439037300676"/>
+      <point x="560.3124250075896" y="237.59268457319425"/>
       <point x="758.6735706594046" y="239.0" type="curve" smooth="yes"/>
-      <point x="1123.8574602559088" y="238.09752956110557" type="line"/>
+      <point x="1055.6735706594045" y="239.0" type="line"/>
+      <point x="1108.4031489303718" y="238.52292072160847"/>
+      <point x="1146.4899101959622" y="248.82520758867966"/>
+      <point x="1156.5634990030637" y="291.431074487337" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

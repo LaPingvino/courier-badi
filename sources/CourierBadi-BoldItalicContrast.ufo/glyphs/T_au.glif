@@ -2,60 +2,23 @@
 <glyph name="Tau" format="2">
   <advance width="1228"/>
   <unicode hex="03A4"/>
-  <anchor x="614" y="1399" name="aboveLGC0"/>
-  <anchor x="614" y="1399" name="aboveLGC1"/>
-  <anchor x="614" y="1399" name="aboveLGC2"/>
-  <anchor x="614" y="1399" name="aboveLGC3"/>
-  <anchor x="1228" y="1271" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="-20" name="attachedBelowLGC0"/>
+  <anchor x="614" y="1335" name="aboveLGC0"/>
+  <anchor x="614" y="1335" name="aboveLGC1"/>
+  <anchor x="614" y="1335" name="aboveLGC2"/>
+  <anchor x="614" y="1335" name="aboveLGC3"/>
+  <anchor x="1228" y="1207" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-30" name="attachedBelowLGC0"/>
   <anchor x="614" y="-174" name="belowLGC0"/>
-  <anchor x="614" y="-148" name="belowLGC1"/>
-  <anchor x="614" y="-148" name="belowLGC2"/>
-  <anchor x="614" y="-148" name="belowLGC3"/>
+  <anchor x="614" y="-158" name="belowLGC1"/>
+  <anchor x="614" y="-158" name="belowLGC2"/>
+  <anchor x="614" y="-158" name="belowLGC3"/>
   <outline>
-    <contour>
-      <point x="1258.5893315419496" y="1014.5270364466613" type="curve" smooth="yes"/>
-      <point x="1284.8689202397625" y="1163.5059673143844" type="line" smooth="yes"/>
-      <point x="1296.6223520602177" y="1227.364936124857"/>
-      <point x="1248.4281799706182" y="1271.3764668497586"/>
-      <point x="1158.6162624486353" y="1271.0000100861962" type="curve" smooth="yes"/>
-      <point x="359.5690319266375" y="1271.000002657831" type="line" smooth="yes"/>
-      <point x="276.7525319178439" y="1271.1071098258412"/>
-      <point x="216.00675557125655" y="1240.4731149094707"/>
-      <point x="199.69707637308866" y="1170.4367340436593" type="curve" smooth="yes"/>
-      <point x="173.41240118048484" y="1021.4729635533387" type="line" smooth="yes"/>
-      <point x="166.14220865436522" y="984.750769318676"/>
-      <point x="180.46146993741854" y="916.9390703164929"/>
-      <point x="287.32048677044634" y="913.9985906410401" type="curve" smooth="yes"/>
-      <point x="391.2091405049866" y="915.8321828607175"/>
-      <point x="427.65907177716974" y="975.1176392803565"/>
-      <point x="435.9654693857888" y="1012.6291189185557" type="curve" smooth="yes"/>
-      <point x="419.0627668438156" y="1106.6751564503334" type="line"/>
-      <point x="605.7251771781519" y="1123.5500905231913" type="line"/>
-      <point x="431.1581938109559" y="130.75466160259435" type="line"/>
-      <point x="388.1520420696273" y="145.3922170783752" type="line" smooth="yes"/>
-      <point x="351.6680767093999" y="145.05842237538465"/>
-      <point x="259.7172608467832" y="139.12953915061482"/>
-      <point x="230.97108929649914" y="66.62781148286285" type="curve" smooth="yes"/>
-      <point x="228.49989859756022" y="-9.544893688302675"/>
-      <point x="324.1532732037746" y="-20.15407437051221"/>
-      <point x="360.0" y="-20.0" type="curve" smooth="yes"/>
-      <point x="717.0" y="-20.0" type="line" smooth="yes"/>
-      <point x="747.275237201817" y="-20.053707945846288"/>
-      <point x="839.7798463396279" y="-14.378320977026569"/>
-      <point x="868.8810365083623" y="57.41240826198834" type="curve" smooth="yes"/>
-      <point x="871.7807802312885" y="134.34818543090938"/>
-      <point x="775.9077492588766" y="145.15570183887863"/>
-      <point x="730.6117129019583" y="145.75615268855202" type="curve" smooth="yes"/>
-      <point x="691.8157465960571" y="124.11359623413529" type="line"/>
-      <point x="863.6260150250123" y="1117.4531147766008" type="line"/>
-      <point x="1055.0766682597712" y="1107.4169621062963" type="line"/>
-      <point x="1003.0359857346126" y="1018.4954703042899" type="line" smooth="yes"/>
-      <point x="994.142771568577" y="984.7252149020039"/>
-      <point x="1008.1477047162516" y="917.0455814851674"/>
-      <point x="1114.3390896395956" y="913.998729200681" type="curve" smooth="yes"/>
-      <point x="1215.1889836882983" y="916.0533320933113"/>
-      <point x="1250.69235251078" y="975.0573941494268"/>
-    </contour>
+    <component base="T"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

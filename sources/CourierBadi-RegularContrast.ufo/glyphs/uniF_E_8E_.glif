@@ -22,19 +22,19 @@
     <contour>
       <point x="1235.077808239393" y="355.52872288624064" type="line"/>
       <point x="719.0" y="355.0" type="line" smooth="yes"/>
-      <point x="625.2079693027869" y="358.50502971093766"/>
-      <point x="634.0" y="467.0"/>
-      <point x="634.0" y="512.0" type="curve" smooth="yes"/>
-      <point x="634.0" y="989.76" type="line" smooth="yes"/>
-      <point x="631.7415849433753" y="1004.2128882347656"/>
-      <point x="598.594742569802" y="1002.7098916525055"/>
-      <point x="541.0" y="1002.64" type="curve" smooth="yes"/>
-      <point x="478.648594566046" y="1002.6973716255928"/>
-      <point x="443.9402338116585" y="1003.4529181362825"/>
-      <point x="441.0" y="989.76" type="curve" smooth="yes"/>
-      <point x="441.0" y="512.0" type="line" smooth="yes"/>
-      <point x="441.70043286075577" y="343.2277121303351"/>
-      <point x="524.2057761732852" y="237.73646209386283"/>
+      <point x="629.5607244544962" y="358.6758378207083"/>
+      <point x="638.0" y="467.0"/>
+      <point x="638.0" y="512.0" type="curve" smooth="yes"/>
+      <point x="638.0" y="953.0" type="line" smooth="yes"/>
+      <point x="635.2551069659978" y="981.7390096630006"/>
+      <point x="589.8312521690349" y="1004.0394367957285"/>
+      <point x="541.0" y="1003.0" type="curve" smooth="yes"/>
+      <point x="490.0403017257403" y="1003.857524812558"/>
+      <point x="439.49089439103267" y="980.99295871067"/>
+      <point x="436.0" y="953.0" type="curve" smooth="yes"/>
+      <point x="436.0" y="512.0" type="line" smooth="yes"/>
+      <point x="436.7404711916386" y="343.3173865226741"/>
+      <point x="521.3804576264782" y="237.7789677123516"/>
       <point x="719.0" y="239.0" type="curve" smooth="yes"/>
       <point x="1235.077808239393" y="238.47127711375933" type="line"/>
     </contour>
@@ -42,6 +42,8 @@
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

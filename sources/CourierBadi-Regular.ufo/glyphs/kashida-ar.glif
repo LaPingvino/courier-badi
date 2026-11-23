@@ -20,20 +20,28 @@
   <anchor x="614" y="175" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="1075.0" y="369.0" type="line"/>
-      <point x="0.0" y="369.0" type="line" smooth="yes"/>
-      <point x="-35.0" y="369.0"/>
-      <point x="-35.0" y="332.0"/>
-      <point x="-35.0" y="297.0" type="curve" smooth="yes"/>
-      <point x="-35.0" y="262.0"/>
-      <point x="-35.0" y="225.0"/>
-      <point x="0.0" y="225.0" type="curve" smooth="yes"/>
-      <point x="1075.0" y="225.0" type="line"/>
+      <point x="1080" y="305" type="line"/>
+      <point x="1080" y="351"/>
+      <point x="1062" y="369"/>
+      <point x="1016" y="369" type="curve"/>
+      <point x="0" y="369" type="line" smooth="yes"/>
+      <point x="-40" y="369"/>
+      <point x="-40" y="332"/>
+      <point x="-40" y="297" type="curve" smooth="yes"/>
+      <point x="-40" y="262"/>
+      <point x="-40" y="225"/>
+      <point x="0" y="225" type="curve" smooth="yes"/>
+      <point x="1016" y="225" type="line"/>
+      <point x="1062" y="225"/>
+      <point x="1080" y="243"/>
+      <point x="1080" y="289" type="curve"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

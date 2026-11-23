@@ -1,29 +1,43 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni06EA" format="2">
   <unicode hex="06EA"/>
-  <anchor x="504" y="35" name="_belowArab3"/>
-  <anchor x="504" y="-397" name="belowArab0"/>
-  <anchor x="504" y="-397" name="belowArab1"/>
-  <anchor x="504" y="-397" name="belowArab2"/>
-  <anchor x="504" y="-397" name="belowArab3"/>
-  <anchor x="504" y="-397" name="belowArab4"/>
+  <anchor x="504" y="18" name="_belowArab3"/>
+  <anchor x="504" y="-380" name="belowArab0"/>
+  <anchor x="504" y="-380" name="belowArab1"/>
+  <anchor x="504" y="-380" name="belowArab2"/>
+  <anchor x="504" y="-380" name="belowArab3"/>
+  <anchor x="504" y="-380" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="538.8054219662778" y="34.50503000586227" type="line"/>
-      <point x="300.23417375079697" y="-169.67925429166633" type="line"/>
-      <point x="467.08689608230424" y="-372.90526686251377" type="line"/>
-      <point x="707.2749352430261" y="-168.72050947807955" type="line"/>
+      <point x="569.6473460385831" y="-2" type="line"/>
+      <point x="547.2318475370032" y="24"/>
+      <point x="526.2318475370032" y="24"/>
+      <point x="495.64734603858307" y="-2" type="curve"/>
+      <point x="343.54851156577416" y="-133" type="line"/>
+      <point x="311.9640100673541" y="-159"/>
+      <point x="308.2611434724763" y="-180"/>
+      <point x="330.6766419740562" y="-206" type="curve"/>
+      <point x="436.75413448195576" y="-336" type="line"/>
+      <point x="458.99330600282724" y="-363"/>
+      <point x="478.99330600282724" y="-363"/>
+      <point x="510.75413448195576" y="-336" type="curve"/>
+      <point x="663.8529689547647" y="-205" type="line"/>
+      <point x="695.4374704531848" y="-179"/>
+      <point x="699.1403370480625" y="-158"/>
+      <point x="676.7248385464826" y="-132" type="curve"/>
     </contour>
     <contour>
-      <point x="511.5261983322179" y="-122.50362131368436" type="line"/>
-      <point x="550.3692387616873" y="-168.8834871498213" type="line"/>
-      <point x="494.85286564209497" y="-215.8956755122075" type="line"/>
-      <point x="456.6521825439234" y="-169.51721925170125" type="line"/>
+      <point x="511.31178137285883" y="-123" type="line"/>
+      <point x="550.2007402602694" y="-169" type="line"/>
+      <point x="494.91337216697156" y="-216" type="line"/>
+      <point x="457.024413279561" y="-170" type="line"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

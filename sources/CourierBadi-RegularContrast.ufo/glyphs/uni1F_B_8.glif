@@ -2,18 +2,24 @@
 <glyph name="uni1FB8" format="2">
   <advance width="1228"/>
   <unicode hex="1FB8"/>
-  <anchor x="614" y="1814" name="aboveLGC0"/>
-  <anchor x="614" y="1814" name="aboveLGC1"/>
-  <anchor x="614" y="1814" name="aboveLGC2"/>
-  <anchor x="614" y="1814" name="aboveLGC3"/>
-  <anchor x="1228" y="1686" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="14" name="attachedBelowLGC0"/>
+  <anchor x="614" y="1757" name="aboveLGC0"/>
+  <anchor x="614" y="1757" name="aboveLGC1"/>
+  <anchor x="614" y="1757" name="aboveLGC2"/>
+  <anchor x="614" y="1757" name="aboveLGC3"/>
+  <anchor x="1228" y="1629" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="2" name="attachedBelowLGC0"/>
   <anchor x="614" y="-208" name="belowLGC0"/>
   <anchor x="614" y="-160" name="belowLGC1"/>
-  <anchor x="614" y="-114" name="belowLGC2"/>
-  <anchor x="614" y="-114" name="belowLGC3"/>
+  <anchor x="614" y="-126" name="belowLGC2"/>
+  <anchor x="614" y="-126" name="belowLGC3"/>
   <outline>
-    <component base="uni0306" xOffset="-77" yOffset="327"/>
-    <component base="Alpha"/>
+    <component base="A"/>
+    <component base="breve" yOffset="270"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

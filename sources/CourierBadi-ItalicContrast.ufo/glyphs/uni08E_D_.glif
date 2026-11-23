@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni08ED" format="2">
   <unicode hex="08ED"/>
-  <anchor x="529" y="-152" name="_belowArab0"/>
+  <anchor x="529" y="-153" name="_belowArab0"/>
   <anchor x="529" y="-313" name="belowArab0"/>
   <anchor x="529" y="-313" name="belowArab1"/>
   <anchor x="529" y="-313" name="belowArab2"/>
@@ -9,23 +9,25 @@
   <anchor x="529" y="-313" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="429.9060584131511" y="-222.81107448733707" type="curve" smooth="yes"/>
-      <point x="426.4726602611891" y="-242.39826682328572"/>
-      <point x="470.0598225822949" y="-292.4491777179789"/>
-      <point x="513.8699779245634" y="-288.96" type="curve" smooth="yes"/>
-      <point x="553.8225562927959" y="-291.2443341421087"/>
-      <point x="617.5432350250979" y="-240.30317319264887"/>
-      <point x="627.376061569786" y="-217.948925512663" type="curve" smooth="yes"/>
-      <point x="630.3840359621609" y="-200.1879101088664"/>
-      <point x="586.2854058830666" y="-149.10539770711014"/>
-      <point x="542.8440273945783" y="-152.64000000000001" type="curve" smooth="yes"/>
-      <point x="501.7142266264052" y="-150.2627619005775"/>
-      <point x="439.2563540010963" y="-202.52772421596643"/>
+      <point x="429.6030626658203" y="-222.43107448733704" type="curve" smooth="yes"/>
+      <point x="426.2237096217943" y="-241.91386716565125"/>
+      <point x="470.318703054904" y="-292.52707076859866"/>
+      <point x="513.5729248453351" y="-289.0" type="curve" smooth="yes"/>
+      <point x="553.6894553056412" y="-291.24323062418046"/>
+      <point x="617.8482655568035" y="-240.56684974564652"/>
+      <point x="627.8130658224552" y="-217.56892551266296" type="curve" smooth="yes"/>
+      <point x="630.6196551180832" y="-200.38019827522"/>
+      <point x="585.5926388655761" y="-149.54503128500545"/>
+      <point x="542.4905496815234" y="-153.0" type="curve" smooth="yes"/>
+      <point x="502.0922747438162" y="-150.65728414941432"/>
+      <point x="439.0581754087231" y="-202.44689916030777"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

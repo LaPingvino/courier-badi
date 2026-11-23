@@ -9,23 +9,25 @@
   <anchor x="529" y="-327" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="455.51105999146847" y="-220.38000000000002" type="curve" smooth="yes"/>
-      <point x="450.7434066105646" y="-247.4187059413591"/>
-      <point x="487.2343896400975" y="-302.96"/>
-      <point x="513.8699779245634" y="-302.96" type="curve" smooth="yes"/>
-      <point x="539.588652872344" y="-302.96"/>
-      <point x="596.773141897218" y="-248.72460202386122"/>
-      <point x="601.7710599914685" y="-220.38000000000002" type="curve" smooth="yes"/>
-      <point x="606.2497178615836" y="-194.98026904492843"/>
-      <point x="569.0154300546383" y="-138.64000000000001"/>
-      <point x="542.8440273945783" y="-138.64000000000001" type="curve" smooth="yes"/>
-      <point x="516.2084391101124" y="-138.64000000000001"/>
-      <point x="460.1305987085773" y="-194.18129405864093"/>
+      <point x="455.2080642441377" y="-220" type="curve" smooth="yes"/>
+      <point x="450.44723576500917" y="-247"/>
+      <point x="487.57292484533514" y="-303"/>
+      <point x="513.5729248453351" y="-303" type="curve" smooth="yes"/>
+      <point x="539.5729248453351" y="-303"/>
+      <point x="597.0945818035922" y="-249"/>
+      <point x="602.2080642441377" y="-220" type="curve" smooth="yes"/>
+      <point x="606.6162387618493" y="-195"/>
+      <point x="568.4905496815234" y="-139"/>
+      <point x="542.4905496815234" y="-139" type="curve" smooth="yes"/>
+      <point x="516.4905496815234" y="-139"/>
+      <point x="459.7925657425578" y="-194"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

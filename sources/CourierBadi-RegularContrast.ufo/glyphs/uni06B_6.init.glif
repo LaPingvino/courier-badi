@@ -19,47 +19,49 @@
   <anchor x="614" y="189" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="954.0" y="1039.76" type="curve" smooth="yes"/>
-      <point x="894.5987130928773" y="1039.819836825237"/>
-      <point x="861.2584150566247" y="1041.6528882347657"/>
-      <point x="859.0" y="1026.88" type="curve" smooth="yes"/>
-      <point x="859.0" y="512.0" type="line" smooth="yes"/>
-      <point x="859.0" y="467.0"/>
-      <point x="867.7920306972131" y="358.50502971093766"/>
+      <point x="954.0" y="1040.0" type="curve" smooth="yes"/>
+      <point x="904.5132838264175" y="1040.9652016500909"/>
+      <point x="857.0389912941073" y="1018.4318268365355"/>
+      <point x="854.0" y="990.0" type="curve" smooth="yes"/>
+      <point x="854.0" y="512.0" type="line" smooth="yes"/>
+      <point x="854.0" y="467.0"/>
+      <point x="862.3497619814541" y="358.7201910441436"/>
       <point x="774.0" y="355.0" type="curve" smooth="yes"/>
       <point x="0.0" y="355.0" type="line" smooth="yes"/>
-      <point x="-53.88817884082261" y="359.37920204573487"/>
-      <point x="-61.0" y="332.0"/>
-      <point x="-61.0" y="297.0" type="curve" smooth="yes"/>
-      <point x="-61.0" y="262.0"/>
-      <point x="-53.88817884082261" y="234.62079795426516"/>
+      <point x="-57.655091522053105" y="358.7226078457903"/>
+      <point x="-66.0" y="332.0"/>
+      <point x="-66.0" y="297.0" type="curve" smooth="yes"/>
+      <point x="-66.0" y="262.0"/>
+      <point x="-57.655091522053105" y="235.2773921542097"/>
       <point x="0.0" y="239.0" type="curve" smooth="yes"/>
       <point x="774.0" y="239.0" type="line" smooth="yes"/>
-      <point x="968.7942238267148" y="237.73646209386283"/>
-      <point x="1051.2995671392443" y="343.2277121303351"/>
-      <point x="1052.0" y="512.0" type="curve" smooth="yes"/>
-      <point x="1052.0" y="1026.88" type="line" smooth="yes"/>
-      <point x="1049.0597661883414" y="1040.8929181362826"/>
-      <point x="1014.3020345473786" y="1039.8149830303023"/>
+      <point x="971.6540707763924" y="237.77063199417736"/>
+      <point x="1055.279669261137" y="343.27260258727665"/>
+      <point x="1056.0" y="512.0" type="curve" smooth="yes"/>
+      <point x="1056.0" y="990.0" type="line" smooth="yes"/>
+      <point x="1052.811649628362" y="1018.282627212802"/>
+      <point x="1004.2691685314933" y="1040.9199001094046"/>
     </contour>
     <contour>
-      <point x="375.875" y="586.2500000000001" type="curve" smooth="yes"/>
-      <point x="380.49800301726174" y="563.4689397036244"/>
-      <point x="460.525" y="490.2"/>
-      <point x="503.875" y="493.0" type="curve" smooth="yes"/>
-      <point x="543.1489239282186" y="490.32955895774455"/>
-      <point x="626.2220942286558" y="560.682358762163"/>
-      <point x="631.125" y="586.2500000000001" type="curve" smooth="yes"/>
-      <point x="626.5072679662471" y="607.5351615109923"/>
-      <point x="545.5248718108423" y="684.7783041975227"/>
-      <point x="503.875" y="681.7500000000001" type="curve" smooth="yes"/>
-      <point x="461.9276344894493" y="684.5895130948139"/>
-      <point x="380.4927320337529" y="610.5351615109923"/>
+      <point x="376.0" y="586.0" type="curve" smooth="yes"/>
+      <point x="380.6158108628899" y="563.9633428993695"/>
+      <point x="460.3349750073429" y="490.1736541905666"/>
+      <point x="504.0" y="493.0" type="curve" smooth="yes"/>
+      <point x="543.3664514634912" y="490.29322368470713"/>
+      <point x="626.1036331694262" y="561.1774682087137"/>
+      <point x="631.0" y="586.0" type="curve" smooth="yes"/>
+      <point x="626.390988790425" y="608.041953820625"/>
+      <point x="545.1434446936804" y="685.0255621168923"/>
+      <point x="504.0" y="682.0" type="curve" smooth="yes"/>
+      <point x="462.3349750073429" y="684.8263458094334"/>
+      <point x="380.609011209575" y="611.041953820625"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

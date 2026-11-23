@@ -19,25 +19,27 @@
   <anchor x="614" y="904" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="350.0007364819825" y="1163.2199999920235" type="line" smooth="yes"/>
-      <point x="270.83845432815065" y="1157.9629688586501"/>
-      <point x="231.85355503421655" y="1085.9527628016615"/>
-      <point x="230.0" y="1056.6399999999999" type="curve" smooth="yes"/>
-      <point x="232.37347632668664" y="1026.2394951888416"/>
-      <point x="273.78366876833815" y="958.901099288655"/>
-      <point x="350.00033953354404" y="954.2200000016953" type="curve" smooth="yes"/>
-      <point x="719.0003348395319" y="954.2242741297915" type="line" smooth="yes"/>
-      <point x="801.4202176268323" y="959.0260546989755"/>
-      <point x="841.1311203377355" y="1030.8028463246226"/>
-      <point x="843.0" y="1060.48" type="curve" smooth="yes"/>
-      <point x="840.6457608746214" y="1091.7916458550862"/>
-      <point x="798.4741402155466" y="1158.952957003937"/>
-      <point x="719.0007330723438" y="1163.2106856611392" type="curve" smooth="yes"/>
+      <point x="350.0" y="1163.0" type="line" smooth="yes"/>
+      <point x="268.5071443154641" y="1158.1547594742265"/>
+      <point x="228.02116741048235" y="1086.547911768437"/>
+      <point x="226.0" y="1057.0" type="curve" smooth="yes"/>
+      <point x="228.49516332379122" y="1026.2154285951617"/>
+      <point x="271.2375725526501" y="958.4192456811472"/>
+      <point x="350.0" y="954.0" type="curve" smooth="yes"/>
+      <point x="719.0" y="954.0" type="line" smooth="yes"/>
+      <point x="803.801665248202" y="958.4415148411261"/>
+      <point x="845.8351920373475" y="1030.0618029859947"/>
+      <point x="848.0" y="1060.0" type="curve" smooth="yes"/>
+      <point x="845.344147006877" y="1092.1736270028903"/>
+      <point x="800.8353787163092" y="1159.0872195609875"/>
+      <point x="719.0" y="1163.0" type="curve" smooth="yes"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

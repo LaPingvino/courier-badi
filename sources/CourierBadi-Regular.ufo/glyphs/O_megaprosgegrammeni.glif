@@ -7,13 +7,72 @@
   <anchor x="614" y="1337" name="aboveLGC2"/>
   <anchor x="614" y="1337" name="aboveLGC3"/>
   <anchor x="1228" y="1209" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="0" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-10" name="attachedBelowLGC0"/>
   <anchor x="614" y="-194" name="belowLGC0"/>
   <anchor x="614" y="-146" name="belowLGC1"/>
-  <anchor x="614" y="-128" name="belowLGC2"/>
-  <anchor x="614" y="-128" name="belowLGC3"/>
+  <anchor x="614" y="-138" name="belowLGC2"/>
+  <anchor x="614" y="-138" name="belowLGC3"/>
   <outline>
-    <component base="uni1FBE" xOffset="910" yOffset="272.994"/>
-    <component base="uni03A9"/>
+    <contour>
+      <point x="264" y="144" type="curve"/>
+      <point x="135" y="144" type="line" smooth="yes"/>
+      <point x="91" y="144"/>
+      <point x="70" y="124"/>
+      <point x="70" y="72" type="curve" smooth="yes"/>
+      <point x="70" y="20"/>
+      <point x="91" y="0"/>
+      <point x="135" y="0" type="curve" smooth="yes"/>
+      <point x="418" y="0" type="line" smooth="yes"/>
+      <point x="462" y="0"/>
+      <point x="483" y="21"/>
+      <point x="483" y="78" type="curve" smooth="yes"/>
+      <point x="483" y="109"/>
+      <point x="479" y="133"/>
+      <point x="464" y="142" type="curve"/>
+      <point x="317" y="254"/>
+      <point x="232" y="413"/>
+      <point x="232" y="623" type="curve" smooth="yes"/>
+      <point x="232" y="893"/>
+      <point x="351" y="1061"/>
+      <point x="534" y="1061" type="curve" smooth="yes"/>
+      <point x="717" y="1061"/>
+      <point x="836" y="893"/>
+      <point x="836" y="623" type="curve" smooth="yes"/>
+      <point x="836" y="413"/>
+      <point x="751" y="254"/>
+      <point x="604" y="142" type="curve"/>
+      <point x="589" y="133"/>
+      <point x="585" y="109"/>
+      <point x="585" y="78" type="curve" smooth="yes"/>
+      <point x="585" y="21"/>
+      <point x="606" y="0"/>
+      <point x="650" y="0" type="curve" smooth="yes"/>
+      <point x="934" y="0" type="line" smooth="yes"/>
+      <point x="977" y="0"/>
+      <point x="998" y="20"/>
+      <point x="998" y="72" type="curve" smooth="yes"/>
+      <point x="998" y="124"/>
+      <point x="977" y="144"/>
+      <point x="934" y="144" type="curve" smooth="yes"/>
+      <point x="804" y="144" type="line"/>
+      <point x="903" y="244"/>
+      <point x="992" y="416"/>
+      <point x="992" y="623" type="curve" smooth="yes"/>
+      <point x="992" y="975"/>
+      <point x="807" y="1209"/>
+      <point x="534" y="1209" type="curve" smooth="yes"/>
+      <point x="261" y="1209"/>
+      <point x="76" y="975"/>
+      <point x="76" y="623" type="curve" smooth="yes"/>
+      <point x="76" y="416"/>
+      <point x="165" y="244"/>
+    </contour>
+    <component base="uni1FBE" xOffset="523"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

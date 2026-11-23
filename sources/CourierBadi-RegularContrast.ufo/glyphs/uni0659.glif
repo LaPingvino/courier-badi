@@ -15,25 +15,27 @@
   <anchor x="536" y="1176" name="aboveArab10"/>
   <outline>
     <contour>
-      <point x="647.59" y="1151.8799999999999" type="curve" smooth="yes"/>
-      <point x="424.57" y="1151.8799999999999" type="line" smooth="yes"/>
-      <point x="374.6613514949112" y="1152.7051689978168"/>
-      <point x="331.8987177018418" y="1135.73307959093"/>
-      <point x="329.85" y="1100.52" type="curve" smooth="yes"/>
-      <point x="333.78269490085984" y="1054.7618007732092"/>
-      <point x="390.73836226376187" y="1054.1246539981796"/>
-      <point x="424.57" y="1054.2" type="curve" smooth="yes"/>
-      <point x="647.59" y="1054.2" type="line" smooth="yes"/>
-      <point x="692.6323616339748" y="1053.6789222784394"/>
-      <point x="740.5077140560633" y="1065.877147798502"/>
-      <point x="743.15" y="1104.72" type="curve" smooth="yes"/>
-      <point x="739.3019606156022" y="1151.3918687187042"/>
-      <point x="682.2294503358313" y="1151.953551475569"/>
+      <point x="648.0" y="1152.0" type="curve" smooth="yes"/>
+      <point x="425.0" y="1152.0" type="line" smooth="yes"/>
+      <point x="374.14313179670205" y="1152.837331254791"/>
+      <point x="331.98908537783" y="1135.6295114040354"/>
+      <point x="330.0" y="1101.0" type="curve" smooth="yes"/>
+      <point x="333.76975281333216" y="1054.260572536377"/>
+      <point x="390.37578840668544" y="1053.9285076875926"/>
+      <point x="425.0" y="1054.0" type="curve" smooth="yes"/>
+      <point x="648.0" y="1054.0" type="line" smooth="yes"/>
+      <point x="693.2382972516522" y="1053.4465291251845"/>
+      <point x="740.4676957112897" y="1066.026615348343"/>
+      <point x="743.0" y="1105.0" type="curve" smooth="yes"/>
+      <point x="739.2302471866678" y="1151.739427463623"/>
+      <point x="682.6242115933145" y="1152.0714923124074"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

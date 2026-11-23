@@ -2,18 +2,61 @@
 <glyph name="Etatonos" format="2">
   <advance width="1228"/>
   <unicode hex="0389"/>
-  <anchor x="614" y="1805" name="aboveLGC0"/>
-  <anchor x="614" y="1805" name="aboveLGC1"/>
-  <anchor x="614" y="1805" name="aboveLGC2"/>
-  <anchor x="614" y="1805" name="aboveLGC3"/>
-  <anchor x="1228" y="1677" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="-20" name="attachedBelowLGC0"/>
+  <anchor x="614" y="1521" name="aboveLGC0"/>
+  <anchor x="614" y="1521" name="aboveLGC1"/>
+  <anchor x="614" y="1521" name="aboveLGC2"/>
+  <anchor x="614" y="1521" name="aboveLGC3"/>
+  <anchor x="1228" y="1393" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-30" name="attachedBelowLGC0"/>
   <anchor x="614" y="-174" name="belowLGC0"/>
-  <anchor x="614" y="-148" name="belowLGC1"/>
-  <anchor x="614" y="-148" name="belowLGC2"/>
-  <anchor x="614" y="-148" name="belowLGC3"/>
+  <anchor x="614" y="-158" name="belowLGC1"/>
+  <anchor x="614" y="-158" name="belowLGC2"/>
+  <anchor x="614" y="-158" name="belowLGC3"/>
   <outline>
-    <component base="tonos" xOffset="11.490234688175619" yOffset="68.0"/>
-    <component base="Eta"/>
+    <contour>
+      <point x="1050.4447807760469" y="1135.6936568619155" type="curve" smooth="yes"/>
+      <point x="993.7797566417565" y="700.2092389453917" type="line"/>
+      <point x="561.2028225562509" y="698.2024208954927" type="line"/>
+      <point x="655.5657157861573" y="1128.8816350167149" type="line" smooth="yes"/>
+      <point x="663.1868459126443" y="1178.1619488097517"/>
+      <point x="607.8642961094807" y="1217.1407894808135"/>
+      <point x="534.5311858450123" y="1217.0022661478695" type="curve" smooth="yes"/>
+      <point x="531.6653834424278" y="1217.0016404769701" type="line" smooth="yes"/>
+      <point x="461.28220653816237" y="1216.819904477849"/>
+      <point x="401.982357529284" y="1185.4614692203597"/>
+      <point x="387.5187557872297" y="1135.4575047507203" type="curve" smooth="yes"/>
+      <point x="197.60337885811558" y="58.49178851183421" type="line" smooth="yes"/>
+      <point x="190.11328018830363" y="8.83805119024823"/>
+      <point x="245.43582999146724" y="-30.140789480813485"/>
+      <point x="318.76894025593566" y="-30.00226614786958" type="curve" smooth="yes"/>
+      <point x="321.6347426585201" y="-30.00164047697018" type="line" smooth="yes"/>
+      <point x="392.0179195627856" y="-29.819904477848862"/>
+      <point x="451.3177685716639" y="1.538530779640328"/>
+      <point x="465.84458655455154" y="51.342275841324316" type="curve" smooth="yes"/>
+      <point x="530.6676932207035" y="524.1557291051089" type="line"/>
+      <point x="959.6354854460843" y="526.4154738419533" type="line"/>
+      <point x="860.712221754118" y="58.17787118924518" type="line" smooth="yes"/>
+      <point x="853.1132801883036" y="8.83805119024818"/>
+      <point x="908.4358299914672" y="-30.14078948081348"/>
+      <point x="981.7689402559357" y="-30.00226614786958" type="curve" smooth="yes"/>
+      <point x="984.6347426585202" y="-30.00164047697018" type="line" smooth="yes"/>
+      <point x="1055.0179195627854" y="-29.819904477848866"/>
+      <point x="1114.3177685716637" y="1.5385307796403183"/>
+      <point x="1128.781370313718" y="51.5424952492797" type="curve" smooth="yes"/>
+      <point x="1318.6967472428323" y="1128.5082114881657" type="line" smooth="yes"/>
+      <point x="1326.1868459126442" y="1178.1619488097517"/>
+      <point x="1270.8642961094806" y="1217.1407894808135"/>
+      <point x="1197.5311858450123" y="1217.0022661478695" type="curve" smooth="yes"/>
+      <point x="1194.6653834424278" y="1217.0016404769701" type="line" smooth="yes"/>
+      <point x="1124.2822065381624" y="1216.819904477849"/>
+      <point x="1064.9823575292842" y="1185.4614692203597"/>
+    </contour>
+    <component base="tonos" xOffset="-554.2556308298687" yOffset="-268"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

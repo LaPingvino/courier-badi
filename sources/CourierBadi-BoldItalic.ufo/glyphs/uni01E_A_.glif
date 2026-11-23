@@ -7,13 +7,19 @@
   <anchor x="614" y="1371" name="aboveLGC2"/>
   <anchor x="614" y="1371" name="aboveLGC3"/>
   <anchor x="1228" y="1243" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="-539" name="attachedBelowLGC0"/>
-  <anchor x="614" y="-667" name="belowLGC0"/>
-  <anchor x="614" y="-667" name="belowLGC1"/>
-  <anchor x="614" y="-667" name="belowLGC2"/>
-  <anchor x="614" y="-667" name="belowLGC3"/>
+  <anchor x="614" y="-506" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-634" name="belowLGC0"/>
+  <anchor x="614" y="-634" name="belowLGC1"/>
+  <anchor x="614" y="-634" name="belowLGC2"/>
+  <anchor x="614" y="-634" name="belowLGC3"/>
   <outline>
-    <component base="uni0328" xOffset="-73.37756014604948" yOffset="-33.3333"/>
     <component base="O"/>
+    <component base="ogonek" xOffset="64.0"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

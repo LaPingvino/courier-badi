@@ -9,25 +9,27 @@
   <anchor x="538" y="-386" name="belowArab4"/>
   <outline>
     <contour>
-      <point x="534.35" y="-35.209999999999994" type="curve" smooth="yes"/>
-      <point x="465.3406338263793" y="-32.69454081727869"/>
-      <point x="448.52981830775144" y="-64.06613529292154"/>
-      <point x="448.45" y="-94.55" type="curve" smooth="yes"/>
-      <point x="448.45" y="-303.28999999999996" type="line" smooth="yes"/>
-      <point x="449.60117890806123" y="-338.1864452203643"/>
-      <point x="484.91789179448716" y="-363.3299168002859"/>
-      <point x="539.81" y="-361.78999999999996" type="curve" smooth="yes"/>
-      <point x="603.8245779163333" y="-364.0657998511137"/>
-      <point x="626.2592118893066" y="-334.06239205913084"/>
-      <point x="626.55" y="-303.28999999999996" type="curve" smooth="yes"/>
-      <point x="626.55" y="-94.55" type="line" smooth="yes"/>
-      <point x="625.6005140483915" y="-59.355209586899434"/>
-      <point x="592.1545625343896" y="-33.633158332992295"/>
+      <point x="534.0" y="-35.0" type="curve" smooth="yes"/>
+      <point x="465.0899790465535" y="-32.469246887266564"/>
+      <point x="448.08504474901844" y="-64.13142216272476"/>
+      <point x="448.0" y="-95.0" type="curve" smooth="yes"/>
+      <point x="448.0" y="-303.0" type="line" smooth="yes"/>
+      <point x="449.2017219950472" y="-337.79291595490264"/>
+      <point x="485.0931286684679" y="-363.55435621002755"/>
+      <point x="540.0" y="-362.0" type="curve" smooth="yes"/>
+      <point x="604.2572810177263" y="-364.29257885659786"/>
+      <point x="626.7097561177275" y="-333.9139607786459"/>
+      <point x="627.0" y="-303.0" type="curve" smooth="yes"/>
+      <point x="627.0" y="-95.0" type="line" smooth="yes"/>
+      <point x="626.0123376688379" y="-59.822051598044865"/>
+      <point x="592.0384694308418" y="-33.408883874867676"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

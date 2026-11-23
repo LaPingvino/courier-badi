@@ -7,21 +7,12 @@
   <anchor x="-461" y="-466" name="belowLGC2"/>
   <anchor x="-461" y="-466" name="belowLGC3"/>
   <outline>
-    <contour>
-      <point x="-722.0" y="-194.0" type="line" smooth="yes"/>
-      <point x="-767.0" y="-194.0"/>
-      <point x="-785.0" y="-214.0"/>
-      <point x="-785.0" y="-266.0" type="curve" smooth="yes"/>
-      <point x="-785.0" y="-318.0"/>
-      <point x="-767.0" y="-338.0"/>
-      <point x="-722.0" y="-338.0" type="curve" smooth="yes"/>
-      <point x="-200.0" y="-338.0" type="line" smooth="yes"/>
-      <point x="-155.0" y="-338.0"/>
-      <point x="-137.0" y="-318.0"/>
-      <point x="-137.0" y="-266.0" type="curve" smooth="yes"/>
-      <point x="-137.0" y="-214.0"/>
-      <point x="-155.0" y="-194.0"/>
-      <point x="-200.0" y="-194.0" type="curve" smooth="yes"/>
-    </contour>
+    <component base="macron" xOffset="-1075" yOffset="-1444"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

@@ -13,59 +13,13 @@
   <anchor x="614" y="-128" name="belowLGC2"/>
   <anchor x="614" y="-128" name="belowLGC3"/>
   <outline>
-    <contour>
-      <point x="310.0" y="924.0" type="line" smooth="yes"/>
-      <point x="265.0" y="924.0"/>
-      <point x="247.0" y="904.0"/>
-      <point x="247.0" y="852.0" type="curve" smooth="yes"/>
-      <point x="247.0" y="800.0"/>
-      <point x="265.0" y="780.0"/>
-      <point x="310.0" y="780.0" type="curve" smooth="yes"/>
-      <point x="563.0" y="780.0" type="line"/>
-      <point x="563.0" y="144.0" type="line"/>
-      <point x="250.0" y="144.0" type="line" smooth="yes"/>
-      <point x="205.0" y="144.0"/>
-      <point x="187.0" y="124.0"/>
-      <point x="187.0" y="72.0" type="curve" smooth="yes"/>
-      <point x="187.0" y="20.0"/>
-      <point x="205.0" y="0.0"/>
-      <point x="250.0" y="0.0" type="curve" smooth="yes"/>
-      <point x="1034.0" y="0.0" type="line" smooth="yes"/>
-      <point x="1079.0" y="0.0"/>
-      <point x="1097.0" y="20.0"/>
-      <point x="1097.0" y="72.0" type="curve" smooth="yes"/>
-      <point x="1097.0" y="124.0"/>
-      <point x="1079.0" y="144.0"/>
-      <point x="1034.0" y="144.0" type="curve" smooth="yes"/>
-      <point x="713.0" y="144.0" type="line"/>
-      <point x="713.0" y="856.0" type="line" smooth="yes"/>
-      <point x="713.0" y="906.0"/>
-      <point x="695.0" y="924.0"/>
-      <point x="650.0" y="924.0" type="curve" smooth="yes"/>
-    </contour>
-    <contour>
-      <point x="672.0" y="1061.0" type="curve" smooth="yes"/>
-      <point x="917.0" y="1294.0" type="line" smooth="yes"/>
-      <point x="941.0" y="1316.0"/>
-      <point x="937.0" y="1344.0"/>
-      <point x="910.0" y="1374.0" type="curve" smooth="yes"/>
-      <point x="884.0" y="1403.0"/>
-      <point x="858.0" y="1404.0"/>
-      <point x="835.0" y="1386.0" type="curve" smooth="yes"/>
-      <point x="614.0" y="1213.0" type="line"/>
-      <point x="393.0" y="1386.0" type="line" smooth="yes"/>
-      <point x="370.0" y="1404.0"/>
-      <point x="344.0" y="1403.0"/>
-      <point x="318.0" y="1374.0" type="curve" smooth="yes"/>
-      <point x="291.0" y="1344.0"/>
-      <point x="287.0" y="1316.0"/>
-      <point x="311.0" y="1294.0" type="curve" smooth="yes"/>
-      <point x="556.0" y="1061.0" type="line" smooth="yes"/>
-      <point x="570.0" y="1048.0"/>
-      <point x="587.0" y="1041.0"/>
-      <point x="614.0" y="1041.0" type="curve" smooth="yes"/>
-      <point x="641.0" y="1041.0"/>
-      <point x="658.0" y="1048.0"/>
-    </contour>
+    <component base="dotlessi"/>
+    <component base="caron"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

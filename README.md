@@ -36,6 +36,34 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**23 November 2026. Version 1.104**
+- **The 2023 merge fitted.** The Arabic, Greek and extended Latin merged from
+  No Name Fixed in 0.500 came over as they were; like the Hebrew and the
+  Devanagari they are now fitted to the Latin by one script,
+  `scripts/fit-merge.py` (run once on the Regular; Bold and Italic follow).
+  See documentation/design-notes.md, "The 2023 merge, fitted".
+- **Greek.** The capitals the Latin has (Α Β Ε Ζ Η Ι Κ Μ Ν Ο Ρ Τ Υ Χ, and Ϝ)
+  are the Latin letters; the others lose No Name Fixed's slab serifs and are
+  built from the Latin's parts (Γ is L turned over, Λ V turned over, Π, Ξ,
+  Σ from its stems and bars, Θ Φ Ψ from its O and U), at its cap height
+  (1187, was 1251-1276). The small letters are recentred in the cell (they
+  sat 77 units left), scaled to the Latin's x-height (924, was 883),
+  ascenders and descenders, with the Latin's stroke (150 / 144). The accents
+  have the weight of the Latin's; polytonic capitals carry their breathing
+  or tonos beside the letter, which is narrowed where the cell has no room.
+  ; and · are the Latin semicolon and middle dot.
+- **Vietnamese and the other extended Latin** (ǎ ǐ ǒ ǔ ǘ ȁ ḏ ḫ ṃ ạ ấ ẩ ơ ư
+  ợ ữ …) are built from the Latin letters and the Latin's own accents, like
+  á and č; a second Vietnamese accent sits at the circumflex's upper right.
+  ơ and ǫ use the Latin o (they had No Name Fixed's smaller one), and the
+  horn is a real stroke (it was half a comma). New accent shapes drawn from
+  the Latin's: hook above, horn, double grave, inverted breve.
+- **Arabic** keeps 1.102's height and the 1.103 language systems; its stroke
+  is the Latin's (150, was 141; thickened sideways only, the joins kept),
+  and the stem ends that 1.102's shortening flattened (alef, lam, the
+  horns of beh and teh, the deep tails) are round again, as deep as the
+  Latin's; the remaining square corners are rounded like the Latin's.
+
 **23 November 2026. Version 1.103**
 - **Devanagari.** Hindi, Marathi, Nepali and Sanskrit, adapted from Noto Sans
   Devanagari (OFL) with its OpenType shaping (nukt, akhn, rphf, rkrf, blwf,

@@ -505,3 +505,70 @@ and not the script's default, so the generated Arabic features (and ss01)
 now name ARA, FAR and URD as well (a `language` statement takes the
 script's default lookups). In 1.102 the URD system already existed (for the
 Urdu digits' locl) and had no joining features at all; it has them now.
+
+## The 2023 merge, fitted
+
+0.500 merged the Arabic, Greek and extended Latin of **No Name Fixed** as they
+were. Its cell was 1075 units, and the Greek kept that size (centred on 537,
+not 614), its capitals slab-serifed against a sans Latin and 1251-1276 tall,
+its small letters on an x-height of 883; most of the extended Latin was the
+Latin letter with No Name Fixed's thinner accents; the Arabic's stroke was
+141 with squarer ends. `scripts/fit-merge.py` fits all three, the way
+fit-hebrew.py and fit-devanagari.py fit their donors: run once on the
+Regular, glyphs tagged `org.courierbadi.merge` = fitted (a second run changes
+nothing), `make masters` carries it to the other masters, `--check
+[--against OLD.ufo]` measures it.
+
+- **Greek capitals.** Those the Latin has are components of the Latin letter
+  (Alpha = A, …, digamma = F). The others are built from the Latin's parts,
+  so they have its stems, bars and rounded ends: Gamma is L turned over,
+  Lambda V turned over (its apex where A's is), Pi H's stems under a bar,
+  Xi three bars, Sigma two bars and a chevron with Z's diagonal, Theta the O
+  with a free bar, Phi and Psi a stem with the O's or U's curve scaled (the
+  stroke restored by a normal offset), the archaic koppa an O on a stem, the
+  prosgegrammeni a short stem. Delta and Omega were Courier's already.
+- **Greek small letters** (and ϝ ϟ ϡ ϛ): x recentred and scaled 1.065 (the
+  width of o), y piecewise: 0-883 to 0-924, the ascenders to b's 1322
+  (0.909), the descenders to p's -398 (0.838); convex corners rounded as
+  the Latin's; the stroke, measured on the scaled letters, is then the
+  Latin's (150 / 144 at the measuring sites), so no offset was needed. π and
+  µ were Courier's.
+- **Accents** (tonos, breathings, perispomeni, dialytika, the spacing forms
+  U+1FBD-1FFE): moved with the x-height (+41), their stroke grown 10.8 a side
+  to the Latin accents' weight. The accented small letters (outlines in the
+  donor) are the fitted letter as a component plus their own accents, fitted
+  the same way. The accented capitals put the breathing or tonos beside the
+  letter at its top with 60 units to its ink, the iota adscript after it,
+  the letter narrowed (to 0.82 at most, stems restored) when the cell has no
+  room. A lone tonos (Ά Έ Ή …, at every modern sentence start) narrows the
+  letter to 0.91 at most and otherwise goes up at its top left; a perispomeni with a breathing is wider than any room the cell has
+  and sits up at the letter's top left, reaching at most 40 units into the
+  cell before (No Name Fixed's reached 108). Ϊ Ϋ Ᾱ Ᾰ … are built as the
+  Latin's Ï Ÿ Ā Ă. U+037E and U+0387 are the Latin semicolon and middle dot,
+  as Unicode decomposes them.
+- **Extended Latin.** Every merged letter that decomposes into a letter and
+  accents is a composite of the Latin letter and the Latin's accents, placed
+  as Courier Prime places its own (the x offset it uses on that letter, +270
+  over capitals, +370 over ascenders; the dot below 144 under the ink, a
+  macron or breve below 110 under it), a second accent stacked 60 units clear
+  of the first, a Vietnamese acute, grave or hook at the upper right of a
+  circumflex moved 110 left; in ǻ Ǻ the acute sits at the ring's upper
+  right, 12 units off it, and over the capital the ring comes down to +185,
+  so Ǻ (2090) stays under the font's winAscent (2130). New accents: hook above (No Name Fixed's, at the
+  Latin accents' weight), horn (the Latin comma at 0.75, its stroke restored),
+  double grave (the double acute turned round), inverted breve (the breve
+  turned over); No Name Fixed's combining marks U+0309 030F 0311 031B 032E
+  032F 0331 0332 are components of these, where they were drawn. ǝ and Ǝ
+  are e turned and E reversed; ſ was already the Latin's f without its bar.
+- **Arabic.** fit-arabic.py's vertical fit (1.102) is kept to the unit: the
+  letters are thickened 4.5 a side horizontally only (the alef's stem 141 →
+  150), a point on the cell's edge (a join) never moves. The donor's stem
+  ends were round, but the 1.102 map flattened those it shortened (the
+  ascenders x0.32, the deep descenders x0.2: beh's horn 83 deep in the
+  donor, 27 after); 280 such ends get their depth back (0.45 of the stroke,
+  as the Latin's 65 for 150): the end point stays, so the heights do, and
+  the shoulders slide down (up) the stem's straight sides. The 153 square
+  corners left are rounded like the Latin's, except on the cell's edges.
+
+Not fitted: the extended Cyrillic and the symbols that came in the same
+merge.

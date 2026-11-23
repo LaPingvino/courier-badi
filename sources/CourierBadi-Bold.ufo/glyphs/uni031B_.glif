@@ -1,8 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni031B" format="2">
   <unicode hex="031B"/>
-  <anchor x="1230" y="658" name="_attachedAboveRightLGC0"/>
+  <anchor x="1280" y="641" name="_attachedAboveRightLGC0"/>
   <outline>
-    <component base="comma" xScale="0.5" yScale="0.5" xOffset="840.894" yOffset="822"/>
+    <component base="horn" xOffset="688" yOffset="896"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

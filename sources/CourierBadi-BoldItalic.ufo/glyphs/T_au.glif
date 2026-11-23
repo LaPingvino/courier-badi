@@ -2,60 +2,23 @@
 <glyph name="Tau" format="2">
   <advance width="1228"/>
   <unicode hex="03A4"/>
-  <anchor x="614" y="1413" name="aboveLGC0"/>
-  <anchor x="614" y="1413" name="aboveLGC1"/>
-  <anchor x="614" y="1413" name="aboveLGC2"/>
-  <anchor x="614" y="1413" name="aboveLGC3"/>
-  <anchor x="1228" y="1285" name="attachedAboveRightLGC0"/>
-  <anchor x="614" y="-34" name="attachedBelowLGC0"/>
-  <anchor x="614" y="-162" name="belowLGC0"/>
-  <anchor x="614" y="-162" name="belowLGC1"/>
-  <anchor x="614" y="-162" name="belowLGC2"/>
-  <anchor x="614" y="-162" name="belowLGC3"/>
+  <anchor x="614" y="1349" name="aboveLGC0"/>
+  <anchor x="614" y="1349" name="aboveLGC1"/>
+  <anchor x="614" y="1349" name="aboveLGC2"/>
+  <anchor x="614" y="1349" name="aboveLGC3"/>
+  <anchor x="1228" y="1221" name="attachedAboveRightLGC0"/>
+  <anchor x="614" y="-44" name="attachedBelowLGC0"/>
+  <anchor x="614" y="-172" name="belowLGC0"/>
+  <anchor x="614" y="-172" name="belowLGC1"/>
+  <anchor x="614" y="-172" name="belowLGC2"/>
+  <anchor x="614" y="-172" name="belowLGC3"/>
   <outline>
-    <contour>
-      <point x="1232.9843299636323" y="1012.0959619593243" type="curve" smooth="yes"/>
-      <point x="1259.2570500891936" y="1161.0959619593243" type="line" smooth="yes"/>
-      <point x="1271.0394853265907" y="1229.8626623746372"/>
-      <point x="1236.9819807956947" y="1283.9467995615414"/>
-      <point x="1158.5850528662897" y="1285.0" type="curve" smooth="yes"/>
-      <point x="359.5850528662897" y="1285.0" type="line" smooth="yes"/>
-      <point x="284.55740705643944" y="1284.461432814376"/>
-      <point x="238.96755806144347" y="1247.041497083685"/>
-      <point x="225.29012288436357" y="1172.9040380406757" type="curve" smooth="yes"/>
-      <point x="199.01740275880226" y="1023.9040380406757" type="line" smooth="yes"/>
-      <point x="192.14065051117214" y="984.9040380406756"/>
-      <point x="197.73172703816397" y="906.4738071888138"/>
-      <point x="287.6893999817063" y="900.0" type="curve" smooth="yes"/>
-      <point x="377.54269697442567" y="903.9222179265054"/>
-      <point x="402.7549237545854" y="971.0959619593244"/>
-      <point x="409.9843299636324" y="1012.0959619593243" type="curve" smooth="yes"/>
-      <point x="407.4445733054753" y="1094.1506570588147" type="line"/>
-      <point x="631.691527826135" y="1122.8380509189087" type="line"/>
-      <point x="456.32759242737274" y="134.26505807298568" type="line"/>
-      <point x="382.0408725885581" y="159.0" type="line" smooth="yes"/>
-      <point x="354.0408725885581" y="159.0"/>
-      <point x="277.3709168516121" y="149.40764624889127"/>
-      <point x="256.62513618221817" y="68.90403804067563" type="curve" smooth="yes"/>
-      <point x="249.86390586980457" y="-17.523927038092573"/>
-      <point x="328.0" y="-34.0"/>
-      <point x="360.0" y="-34.0" type="curve" smooth="yes"/>
-      <point x="717.0" y="-34.0" type="line" smooth="yes"/>
-      <point x="745.0" y="-34.0"/>
-      <point x="822.3131847575956" y="-24.748644739827856"/>
-      <point x="843.2394094256315" y="55.095961959324356" type="curve" smooth="yes"/>
-      <point x="850.3330226244342" y="142.26180599693222"/>
-      <point x="772.0408725885582" y="159.0"/>
-      <point x="739.0408725885582" y="159.0" type="curve" smooth="yes"/>
-      <point x="665.9592096785684" y="122.64491846246545" type="line"/>
-      <point x="839.5836117138249" y="1112.1236281354215" type="line"/>
-      <point x="1066.1489790416397" y="1094.749902658638" type="line"/>
-      <point x="1027.0174027588023" y="1023.9040380406757" type="line" smooth="yes"/>
-      <point x="1020.1406505111721" y="984.9040380406757"/>
-      <point x="1025.519317846376" y="906.6290704093917"/>
-      <point x="1114.6893999817062" y="900.0" type="curve" smooth="yes"/>
-      <point x="1201.1716257133075" y="904.2622086406449"/>
-      <point x="1225.7549237545852" y="971.0959619593243"/>
-    </contour>
+    <component base="T"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>

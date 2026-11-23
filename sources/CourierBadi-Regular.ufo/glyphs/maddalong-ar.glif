@@ -15,38 +15,40 @@
   <anchor x="538" y="1184" name="aboveArab10"/>
   <outline>
     <contour>
-      <point x="424.31" y="1159.6699999999998" type="curve" smooth="yes"/>
-      <point x="341.28948095434464" y="1159.6699999999998"/>
-      <point x="340.05" y="1061.7510046067714"/>
-      <point x="340.05" y="1027.9499999999998" type="curve" smooth="yes"/>
-      <point x="340.05" y="994.408618891268"/>
-      <point x="365.5913773835016" y="970.5699999999999"/>
-      <point x="397.01" y="970.5699999999999" type="curve" smooth="yes"/>
-      <point x="429.6775331376603" y="970.5699999999999"/>
-      <point x="451.87" y="996.4612113393962"/>
-      <point x="451.87" y="1027.9499999999998" type="curve" smooth="yes"/>
-      <point x="451.87" y="1053.9899999999998"/>
-      <point x="451.87" y="1035.6699999999998"/>
-      <point x="424.31" y="1035.6699999999998" type="curve" smooth="yes"/>
-      <point x="415.7502335659508" y="1035.6699999999998"/>
-      <point x="444.73023356595075" y="986.1099999999999"/>
-      <point x="549.89" y="986.1099999999999" type="curve" smooth="yes"/>
-      <point x="651.6461758149993" y="986.1099999999999"/>
-      <point x="734.95" y="1037.0178925575003"/>
-      <point x="734.95" y="1099.35" type="curve" smooth="yes"/>
-      <point x="734.95" y="1132.5980576900165"/>
-      <point x="701.3807915356207" y="1159.6699999999998"/>
-      <point x="674.63" y="1159.6699999999998" type="curve" smooth="yes"/>
-      <point x="588.5200729209838" y="1159.6699999999998"/>
-      <point x="613.7200729209837" y="1108.01"/>
-      <point x="549.89" y="1108.01" type="curve" smooth="yes"/>
-      <point x="500.191764483344" y="1108.01"/>
-      <point x="482.13176448334406" y="1159.6699999999998"/>
+      <point x="424" y="1160" type="curve" smooth="yes"/>
+      <point x="341" y="1160"/>
+      <point x="340" y="1062"/>
+      <point x="340" y="1028" type="curve" smooth="yes"/>
+      <point x="340" y="994"/>
+      <point x="366" y="971"/>
+      <point x="397" y="971" type="curve" smooth="yes"/>
+      <point x="430" y="971"/>
+      <point x="452" y="996"/>
+      <point x="452" y="1028" type="curve" smooth="yes"/>
+      <point x="452" y="1054"/>
+      <point x="452" y="1036"/>
+      <point x="424" y="1036" type="curve" smooth="yes"/>
+      <point x="416" y="1036"/>
+      <point x="445" y="986"/>
+      <point x="550" y="986" type="curve" smooth="yes"/>
+      <point x="652" y="986"/>
+      <point x="735" y="1037"/>
+      <point x="735" y="1099" type="curve" smooth="yes"/>
+      <point x="735" y="1133"/>
+      <point x="701" y="1160"/>
+      <point x="675" y="1160" type="curve" smooth="yes"/>
+      <point x="589" y="1160"/>
+      <point x="614" y="1108"/>
+      <point x="550" y="1108" type="curve" smooth="yes"/>
+      <point x="500" y="1108"/>
+      <point x="482" y="1160"/>
     </contour>
   </outline>
   <lib>
     <dict>
       <key>org.courierbadi.arabic</key>
+      <string>fitted</string>
+      <key>org.courierbadi.merge</key>
       <string>fitted</string>
     </dict>
   </lib>

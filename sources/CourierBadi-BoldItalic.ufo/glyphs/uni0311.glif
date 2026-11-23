@@ -1,37 +1,18 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <glyph name="uni0311" format="2">
   <unicode hex="0311"/>
-  <anchor x="-345" y="988" name="_aboveLGC1"/>
-  <anchor x="-345" y="1415" name="aboveLGC0"/>
-  <anchor x="-345" y="1415" name="aboveLGC1"/>
-  <anchor x="-345" y="1415" name="aboveLGC2"/>
-  <anchor x="-345" y="1415" name="aboveLGC3"/>
+  <anchor x="-345" y="989" name="_aboveLGC1"/>
+  <anchor x="-345" y="1485" name="aboveLGC0"/>
+  <anchor x="-345" y="1485" name="aboveLGC1"/>
+  <anchor x="-345" y="1485" name="aboveLGC2"/>
+  <anchor x="-345" y="1485" name="aboveLGC3"/>
   <outline>
-    <contour>
-      <point x="48.79823767109958" y="1079.0959619593243" type="curve" smooth="yes"/>
-      <point x="67.10520042823649" y="1278.779880284254"/>
-      <point x="-180.06229317229338" y="1287.0"/>
-      <point x="-316.0622931722934" y="1287.0" type="curve" smooth="yes"/>
-      <point x="-451.0622931722934" y="1287.0"/>
-      <point x="-694.7869580324897" y="1281.379339771625"/>
-      <point x="-739.1686895337306" y="1090.9040380406757" type="curve" smooth="yes"/>
-      <point x="-745.7957021386012" y="1040.693773223053"/>
-      <point x="-707.1371117723859" y="990.7277004808394"/>
-      <point x="-653.7938257159487" y="988.0" type="curve" smooth="yes"/>
-      <point x="-587.5137874955533" y="992.1510409638382"/>
-      <point x="-557.8367517159717" y="1044.9304620572177"/>
-      <point x="-549.7326563534014" y="1068.5992422752627" type="curve"/>
-      <point x="-555.5306037568646" y="1089.1136189675033"/>
-      <point x="-425.1611276451023" y="1088.0"/>
-      <point x="-339.1611276451023" y="1088.0" type="curve" smooth="yes"/>
-      <point x="-251.1611276451023" y="1088.0"/>
-      <point x="-122.66871245986493" y="1089.3563814660492"/>
-      <point x="-144.36463000754986" y="1079.6730521639881" type="curve"/>
-      <point x="-144.60993746289705" y="1056.080199874961"/>
-      <point x="-128.07651408694883" y="993.9968228733435"/>
-      <point x="-59.7938257159488" y="988.0" type="curve" smooth="yes"/>
-      <point x="-9.123327452518865" y="990.0657007234654"/>
-      <point x="38.1126863830168" y="1030.0929576820079"/>
-    </contour>
+    <component base="breveinverted" xOffset="-1158.6400220547148" yOffset="-49"/>
   </outline>
+  <lib>
+    <dict>
+      <key>org.courierbadi.merge</key>
+      <string>fitted</string>
+    </dict>
+  </lib>
 </glyph>
