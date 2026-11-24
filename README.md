@@ -37,13 +37,12 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 ## Changelog
 
 **23 November 2026. Version 1.106**
-- **The headline between Devanagari clusters shows in PDF viewers.** The
-  pads that carry the headline between two clusters of a word had their ink
-  right of their origin and no width; poppler (Evince, Okular, pdftoppm) and
-  Ghostscript leave such ink out at text sizes, so a word printed by
-  Lexington showed a gap after every cluster. A pad's headline is now drawn
-  left of its origin and the pad placed its width on (GPOS), as a mark's
-  ink sits left of its origin.
+- **The pads' headline drawn left of their origin.** The pads that carry
+  the headline between two clusters of a word are drawn left of their
+  origin and placed their width on (GPOS), as a mark's ink is. (Made for
+  gaps seen in downscaled previews of Lexington's PDFs; measured at 600 dpi
+  in poppler and Ghostscript, 1.105's headline was continuous too. The
+  change is harmless and stays.)
 
 **23 November 2026. Version 1.105**
 - **Devanagari in Lekhan monospace** (docs/LEKHAN.md): a simple cluster
