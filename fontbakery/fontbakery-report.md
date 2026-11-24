@@ -82,237 +82,111 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 4 start point differs in glyph 'uni0759.fina' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.10.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni076E.init' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08C7.medi' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.13.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0772.init' between location wght=400 and location wght=700
-
-- Contour 2 in glyph 'dh_r_nuktaDeva.w4': becomes underweight between wght=400 and wght=700.
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.01.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'jh_rDeva.w11' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni0768' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'ch_rDeva.w12' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFB8D' between location wght=400 and location wght=700
-
-- Contour 5 start point differs in glyph 'uni08B7.medi' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.04.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni0693.fina' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.09.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni0768.init' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni0615' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFBA3' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.06.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w11' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0772.medi' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'onecombDeva.UI' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni06BB' between location wght=400 and location wght=700
+<pre><code>- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'uni076E.medi' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'onecombDeva' between location wght=400 and location wght=700
+- Contour 1 in glyph 'dh_rDeva.w4': becomes underweight between wght=400 and wght=700.
 
-- Contour 5 start point differs in glyph 'uni08B7' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uni0772.medi' between location wght=400 and location wght=700
 
-- Contour 3 start point differs in glyph 'uni0768.medi' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'jh_rDeva.w11' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uni0772' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'uni0693.fina' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'uni08EF' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uniFB69' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni08B6' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'uni06ED' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni08B6.init' between location wght=400 and location wght=700
 
-- Contour 1 in glyph 'uni06ED': becomes underweight between wght=400 and wght=700.
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.09.w1' between location wght=400 and location wght=700
 
-- Contour 17 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 18 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 19 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 20 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 5 start point differs in glyph 'uni08B7.init' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'ng_kaDeva.w2' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.07.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.12.w1' between location wght=400 and location wght=700
-
-- Contour 22 start point differs in glyph 'uni2061' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.08.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni068B' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.09.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'fourcombDeva' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.06.w1' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
 - Contour 3 start point differs in glyph 'uni0469' between location wght=400 and location wght=700
 
 - Contour 4 start point differs in glyph 'uni0469' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.05.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni0768.fina' between location wght=400 and location wght=700
-
-- Contour 4 start point differs in glyph 'uni0771' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.13.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni075A.fina' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08B6' between location wght=400 and location wght=700
-
 - Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 4 start point differs in glyph 'uni0759' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni068B.fina' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0772.fina' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFB67' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.07.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.14.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni06E2' between location wght=400 and location wght=700
-
-- Contour 1 in glyph 'uni06E2': becomes underweight between wght=400 and wght=700.
-
-- Contour 1 start point differs in glyph 'h_nnaDeva.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni075A' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.15.w1' between location wght=400 and location wght=700
-
-- Contour 4 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
-
-- Contour 5 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
-
-- Contour 8 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
-
-- Contour 9 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w12' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFBA2' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.15.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.05.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08B6.init' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08DE' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08B6.fina' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.04.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'h_nnaDeva.w2' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08C7' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'ninecombDeva.UI' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08DF' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'four_raDeva' between location wght=400 and location wght=700
-
-- Contour 1 in glyph 'uni06D9': becomes underweight between wght=400 and wght=700.
-
-- Contour 2 start point differs in glyph 'uniFB89' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08C7.init' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 1 in glyph 'd_bhaDeva.w5': becomes underweight between wght=400 and wght=700.
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.11.w1' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.01.w1' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uniFB68' between location wght=400 and location wght=700
+- Contour 2 in glyph 'dh_r_nuktaDeva.w4': becomes underweight between wght=400 and wght=700.
 
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.11.w1' between location wght=400 and location wght=700
+- Contour 1 in glyph 'uni06D9': becomes underweight between wght=400 and wght=700.
 
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.10.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.14.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08DC' between location wght=400 and location wght=700
-
-- Contour 2 in glyph 'uni2103': becomes underweight between wght=400 and wght=700.
-
-- Contour 2 start point differs in glyph 'uni0691' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFB69' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni08EC' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0688' between location wght=400 and location wght=700
-
-- Contour 4 start point differs in glyph 'uni0771.fina' between location wght=400 and location wght=700
-
-- Contour 5 start point differs in glyph 'uni08B7.fina' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
 - Contour 3 start point differs in glyph 'uni08B6.medi' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.08.w1' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni068B.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.15.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08DE' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768.medi' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0688' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08C7' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768.fina' between location wght=400 and location wght=700
+
+- Contour 2 in glyph 'uni2103': becomes underweight between wght=400 and wght=700.
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.03.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.11.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.07.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni0615' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni075A' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni08DF' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.13.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'ng_kaDeva.w2' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.12.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'one_raDeva' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7.fina' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.01.w1' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni08DC' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.04.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.05.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0772.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'onecombDeva' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w11' between location wght=400 and location wght=700
+
+- Contour 22 start point differs in glyph 'uni2061' between location wght=400 and location wght=700
 
 - Contour 1 start point differs in glyph 'uni08F4' between location wght=400 and location wght=700
 
@@ -322,19 +196,145 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Contour 2 in glyph 'uni08F4': becomes underweight between wght=400 and wght=700.
 
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.12.w1' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'ninecombDeva.UI' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'one_raDeva' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uni0691' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.07.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0679' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni076E.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w12' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.14.w1' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni0759.fina' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'uni08C7.fina' between location wght=400 and location wght=700
 
-- Contour 1 in glyph 'dh_rDeva.w4': becomes underweight between wght=400 and wght=700.
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.08.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.10.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFB8D' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFB89' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'h_nnaDeva.w2' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.15.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.06.w1' between location wght=400 and location wght=700
+
+- Contour 17 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 18 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 19 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 20 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'h_nnaDeva.w1' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni0771.fina' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.08.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'ch_rDeva.w12' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.12.w1' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni068B' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni08EC' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'fourcombDeva' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768.init' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
+
+- Contour 8 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
+
+- Contour 9 start point differs in glyph 'uni06DE' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.10.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni08EF' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08C7.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFBA2' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni08B6.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08C7.medi' between location wght=400 and location wght=700
+
+- Contour 1 in glyph 'd_bhaDeva.w5': becomes underweight between wght=400 and wght=700.
+
+- Contour 4 start point differs in glyph 'uni0771' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.11.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni06E2' between location wght=400 and location wght=700
+
+- Contour 1 in glyph 'uni06E2': becomes underweight between wght=400 and wght=700.
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.14.w1' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7.medi' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni075A.fina' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.13.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'onecombDeva.UI' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.05.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'four_raDeva' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0772.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
 - Contour 3 start point differs in glyph 'uni0620.medi' between location wght=400 and location wght=700
 
 - Contour 4 start point differs in glyph 'uni0620.medi' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uni0679' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uniFB67' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.04.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0772' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFB68' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFBA3' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.06.w1' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni0759' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.09.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni06ED' between location wght=400 and location wght=700
+
+- Contour 1 in glyph 'uni06ED': becomes underweight between wght=400 and wght=700.
+
+- Contour 2 start point differs in glyph 'uni06BB' between location wght=400 and location wght=700
 </code></pre>
  [code: interpolation-issues]
 
@@ -710,11 +710,11 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -724,8 +724,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, gothic, syriac, cherokee, caucasian-albanian, tifinagh, thai</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, tifinagh, thai, cherokee, caucasian-albanian, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -740,7 +740,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: garay, yezidi, hanifi-rohingya, thaana, syriac, arabic, nko</li>
+<li>U+060C ARABIC COMMA: try adding one of: syriac, garay, nko, thaana, yezidi, arabic, hanifi-rohingya</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -755,10 +755,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: garay, yezidi, hanifi-rohingya, thaana, syriac, arabic, nko</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: thaana, syriac, arabic</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, garay, nko, thaana, yezidi, arabic, hanifi-rohingya</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: syriac, arabic, thaana</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: garay, yezidi, hanifi-rohingya, thaana, syriac, arabic, adlam, nko</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: garay, nko, syriac, thaana, yezidi, arabic, hanifi-rohingya, adlam</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -766,7 +766,7 @@ definitions.</p>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -791,7 +791,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: manichaean, sogdian, mandaic, hanifi-rohingya, old-uyghur, syriac, arabic, adlam, psalter-pahlavi</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, old-uyghur, psalter-pahlavi, sogdian, manichaean, arabic, hanifi-rohingya, mandaic, adlam</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -823,19 +823,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, yezidi, thaana, hanifi-rohingya, syriac, arabic</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: thaana, syriac, nko, arabic</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic, hanifi-rohingya</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, nko, arabic, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, arabic, thaana</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, arabic, thaana</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -939,7 +939,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -967,16 +967,16 @@ definitions.</p>
 <li>U+06ED ARABIC SMALL LOW MEEM: try adding arabic</li>
 <li>U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic</li>
 <li>U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+06FA ARABIC LETTER SHEEN WITH DOT BELOW: try adding arabic</li>
 <li>U+06FB ARABIC LETTER DAD WITH DOT BELOW: try adding arabic</li>
 <li>U+06FC ARABIC LETTER GHAIN WITH DOT BELOW: try adding arabic</li>
@@ -1118,7 +1118,7 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, syloti-nagri, yi</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -1126,7 +1126,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
 <li>U+203D INTERROBANG: not included in any glyphset definition</li>
@@ -1332,13 +1332,13 @@ definitions.</p>
 <li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD88 ARABIC LIGATURE LAM WITH MEEM WITH HAH INITIAL FORM: try adding arabic</li>
-<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic</li>
+<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana</li>
 <li>U+FDF4 ARABIC LIGATURE MOHAMMAD ISOLATED FORM: try adding arabic</li>
 <li>U+FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM: try adding arabic</li>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
-<li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: thaana, arabic</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
+<li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
@@ -1706,233 +1706,113 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 
 * ⚠️ **WARN** <p>Interpolation issues were found in the font:</p>
-<pre><code>- Contour 4 start point differs in glyph 'uni0759.fina' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.10.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni076E.init' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08C7.medi' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.13.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0772.init' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.01.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'jh_rDeva.w11' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni0768' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'ch_rDeva.w12' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFB8D' between location wght=400 and location wght=700
-
-- Contour 5 start point differs in glyph 'uni08B7.medi' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.04.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni0693.fina' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.09.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni0768.init' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni0615' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFBA3' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.06.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w11' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0772.medi' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'onecombDeva.UI' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni06BB' between location wght=400 and location wght=700
+<pre><code>- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'uni076E.medi' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'onecombDeva' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uni0772.medi' between location wght=400 and location wght=700
 
-- Contour 5 start point differs in glyph 'uni08B7' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'jh_rDeva.w11' between location wght=400 and location wght=700
 
-- Contour 3 start point differs in glyph 'uni0768.medi' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'uni0693.fina' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uni0772' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uniFB69' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'uni08EF' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni08B6' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni08B6.init' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'uni06ED' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.09.w1' between location wght=400 and location wght=700
 
-- Contour 1 in glyph 'uni06ED': becomes underweight between wght=400 and wght=700.
-
-- Contour 17 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 18 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 19 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 20 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
-
-- Contour 5 start point differs in glyph 'uni08B7.init' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'ng_kaDeva.w2' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.07.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.12.w1' between location wght=400 and location wght=700
-
-- Contour 22 start point differs in glyph 'uni2061' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.08.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni068B' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.09.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'fourcombDeva' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.06.w1' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
 - Contour 3 start point differs in glyph 'uni0469' between location wght=400 and location wght=700
 
 - Contour 4 start point differs in glyph 'uni0469' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.05.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni0768.fina' between location wght=400 and location wght=700
-
-- Contour 4 start point differs in glyph 'uni0771' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.13.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni075A.fina' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08B6' between location wght=400 and location wght=700
-
 - Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 4 start point differs in glyph 'uni0759' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni068B.fina' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni0772.fina' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFB67' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.07.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.14.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'uni06E2' between location wght=400 and location wght=700
-
-- Contour 1 in glyph 'uni06E2': becomes underweight between wght=400 and wght=700.
-
-- Contour 1 start point differs in glyph 'h_nnaDeva.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni075A' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.15.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w12' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uniFBA2' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.15.w1' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.05.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08B6.init' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08DE' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08B6.fina' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.04.w1' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'h_nnaDeva.w2' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'ninecombDeva' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08C7' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'ninecombDeva.UI' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
-
-- Contour 3 start point differs in glyph 'uni08DF' between location wght=400 and location wght=700
-
-- Contour 4 in glyph 'uni08DF': becomes underweight between wght=400 and wght=700.
-
-- Contour 2 start point differs in glyph 'four_raDeva' between location wght=400 and location wght=700
-
-- Contour 1 in glyph 'uni06D9': becomes underweight between wght=400 and wght=700.
-
-- Contour 2 start point differs in glyph 'uniFB89' between location wght=400 and location wght=700
-
-- Contour 2 start point differs in glyph 'uni08C7.init' between location wght=400 and location wght=700
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
-
-- Contour 1 in glyph 'd_bhaDeva.w5': becomes underweight between wght=400 and wght=700.
-
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.11.w1' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.01.w1' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uniFB68' between location wght=400 and location wght=700
+- Contour 1 in glyph 'uni06D9': becomes underweight between wght=400 and wght=700.
 
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.11.w1' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.10.w1' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni08B6.medi' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.14.w1' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
 
-- Contour 3 start point differs in glyph 'uni08DC' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni068B.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.15.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08DE' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768.medi' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0688' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08C7' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768.fina' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'uni2103' between location wght=400 and location wght=700
 
 - Contour 2 in glyph 'uni2103': becomes underweight between wght=400 and wght=700.
 
-- Contour 2 start point differs in glyph 'uni0691' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.03.w1' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uniFB69' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'uni08EC' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.11.w1' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uni0688' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.07.w1' between location wght=400 and location wght=700
 
-- Contour 4 start point differs in glyph 'uni0771.fina' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'uni0615' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni075A' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_cBinduDeva.01.w1' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni08DF' between location wght=400 and location wght=700
+
+- Contour 4 in glyph 'uni08DF': becomes underweight between wght=400 and wght=700.
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.13.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'ng_kaDeva.w2' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'ninecombDeva' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.12.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'one_raDeva' between location wght=400 and location wght=700
 
 - Contour 5 start point differs in glyph 'uni08B7.fina' between location wght=400 and location wght=700
 
-- Contour 3 start point differs in glyph 'uni08B6.medi' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.01.w1' between location wght=400 and location wght=700
 
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.08.w1' between location wght=400 and location wght=700
+- Contour 3 start point differs in glyph 'uni08DC' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.04.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.05.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0772.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'one_oneDeva' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'onecombDeva' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w11' between location wght=400 and location wght=700
+
+- Contour 22 start point differs in glyph 'uni2061' between location wght=400 and location wght=700
 
 - Contour 1 start point differs in glyph 'uni08F4' between location wght=400 and location wght=700
 
@@ -1942,17 +1822,137 @@ Please read <a href="https://github.com/fonttools/fonttools/issues/3014">https:/
 
 - Contour 2 in glyph 'uni08F4': becomes underweight between wght=400 and wght=700.
 
-- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.12.w1' between location wght=400 and location wght=700
+- Contour 1 start point differs in glyph 'ninecombDeva.UI' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'one_raDeva' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uni0691' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.07.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0679' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni076E.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'jh_r_nuktaDeva.w12' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.14.w1' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni0759.fina' between location wght=400 and location wght=700
 
 - Contour 2 start point differs in glyph 'uni08C7.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.08.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.10.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFB8D' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFB89' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'h_nnaDeva.w2' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.15.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_cBinduDeva.03.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.06.w1' between location wght=400 and location wght=700
+
+- Contour 17 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 18 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 19 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 20 start point differs in glyph 'uniFDFA' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'h_nnaDeva.w1' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni0771.fina' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.08.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'ch_rDeva.w12' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.12.w1' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni068B' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni08EC' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'fourcombDeva' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768.init' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni0768' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.10.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni08EF' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08C7.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFBA2' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni08B6.fina' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni08C7.medi' between location wght=400 and location wght=700
+
+- Contour 1 in glyph 'd_bhaDeva.w5': becomes underweight between wght=400 and wght=700.
+
+- Contour 4 start point differs in glyph 'uni0771' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.11.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni06E2' between location wght=400 and location wght=700
+
+- Contour 1 in glyph 'uni06E2': becomes underweight between wght=400 and wght=700.
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.14.w1' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7.medi' between location wght=400 and location wght=700
+
+- Contour 3 start point differs in glyph 'uni075A.fina' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.13.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'onecombDeva.UI' between location wght=400 and location wght=700
+
+- Contour 5 start point differs in glyph 'uni08B7.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.05.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'four_raDeva' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0772.init' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.02.w1' between location wght=400 and location wght=700
 
 - Contour 3 start point differs in glyph 'uni0620.medi' between location wght=400 and location wght=700
 
 - Contour 4 start point differs in glyph 'uni0620.medi' between location wght=400 and location wght=700
 
-- Contour 2 start point differs in glyph 'uni0679' between location wght=400 and location wght=700
+- Contour 2 start point differs in glyph 'uniFB67' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.04.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uni0772' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFB68' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'uniFBA3' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iMatra_cBinduDeva.06.w1' between location wght=400 and location wght=700
+
+- Contour 4 start point differs in glyph 'uni0759' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'iMatra_reph_cBinduDeva.09.w1' between location wght=400 and location wght=700
+
+- Contour 2 start point differs in glyph 'iiMatra_reph_cBinduDeva.w1' between location wght=400 and location wght=700
+
+- Contour 1 start point differs in glyph 'uni06ED' between location wght=400 and location wght=700
+
+- Contour 1 in glyph 'uni06ED': becomes underweight between wght=400 and wght=700.
+
+- Contour 2 start point differs in glyph 'uni06BB' between location wght=400 and location wght=700
 </code></pre>
  [code: interpolation-issues]
 
@@ -2340,11 +2340,11 @@ definitions.</p>
 <li>U+02D8 BREVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02D9 DOT ABOVE: try adding one of: canadian-aboriginal, yi</li>
 <li>U+02DB OGONEK: try adding one of: canadian-aboriginal, yi</li>
-<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: cherokee, tifinagh, math, coptic</li>
-<li>U+0306 COMBINING BREVE: try adding one of: old-permic, tifinagh</li>
-<li>U+030A COMBINING RING ABOVE: try adding one of: duployan, syriac</li>
-<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: cherokee, osage</li>
-<li>U+030C COMBINING CARON: try adding one of: cherokee, tai-le</li>
+<li>U+0302 COMBINING CIRCUMFLEX ACCENT: try adding one of: tifinagh, coptic, math, cherokee</li>
+<li>U+0306 COMBINING BREVE: try adding one of: tifinagh, old-permic</li>
+<li>U+030A COMBINING RING ABOVE: try adding one of: syriac, duployan</li>
+<li>U+030B COMBINING DOUBLE ACUTE ACCENT: try adding one of: osage, cherokee</li>
+<li>U+030C COMBINING CARON: try adding one of: tai-le, cherokee</li>
 <li>U+030F COMBINING DOUBLE GRAVE ACCENT: not included in any glyphset definition</li>
 <li>U+0311 COMBINING INVERTED BREVE: try adding one of: todhri, coptic</li>
 <li>U+0312 COMBINING TURNED COMMA ABOVE: try adding math</li>
@@ -2354,8 +2354,8 @@ definitions.</p>
 <li>U+0328 COMBINING OGONEK: not included in any glyphset definition</li>
 <li>U+032E COMBINING BREVE BELOW: try adding syriac</li>
 <li>U+032F COMBINING INVERTED BREVE BELOW: try adding math</li>
-<li>U+0330 COMBINING TILDE BELOW: try adding one of: cherokee, syriac, math</li>
-<li>U+0331 COMBINING MACRON BELOW: try adding one of: sunuwar, gothic, syriac, cherokee, caucasian-albanian, tifinagh, thai</li>
+<li>U+0330 COMBINING TILDE BELOW: try adding one of: syriac, math, cherokee</li>
+<li>U+0331 COMBINING MACRON BELOW: try adding one of: syriac, sunuwar, tifinagh, thai, cherokee, caucasian-albanian, gothic</li>
 <li>U+0332 COMBINING LOW LINE: try adding math</li>
 <li>U+034F COMBINING GRAPHEME JOINER: not included in any glyphset definition</li>
 <li>U+0600 ARABIC NUMBER SIGN: try adding arabic</li>
@@ -2370,7 +2370,7 @@ definitions.</p>
 <li>U+0609 ARABIC-INDIC PER MILLE SIGN: try adding arabic</li>
 <li>U+060A ARABIC-INDIC PER TEN THOUSAND SIGN: try adding arabic</li>
 <li>U+060B AFGHANI SIGN: try adding arabic</li>
-<li>U+060C ARABIC COMMA: try adding one of: garay, yezidi, hanifi-rohingya, thaana, syriac, arabic, nko</li>
+<li>U+060C ARABIC COMMA: try adding one of: syriac, garay, nko, thaana, yezidi, arabic, hanifi-rohingya</li>
 <li>U+060D ARABIC DATE SEPARATOR: try adding arabic</li>
 <li>U+060E ARABIC POETIC VERSE SIGN: try adding arabic</li>
 <li>U+060F ARABIC SIGN MISRA: try adding arabic</li>
@@ -2385,10 +2385,10 @@ definitions.</p>
 <li>U+0618 ARABIC SMALL FATHA: try adding arabic</li>
 <li>U+0619 ARABIC SMALL DAMMA: try adding arabic</li>
 <li>U+061A ARABIC SMALL KASRA: try adding arabic</li>
-<li>U+061B ARABIC SEMICOLON: try adding one of: garay, yezidi, hanifi-rohingya, thaana, syriac, arabic, nko</li>
-<li>U+061C ARABIC LETTER MARK: try adding one of: thaana, syriac, arabic</li>
+<li>U+061B ARABIC SEMICOLON: try adding one of: syriac, garay, nko, thaana, yezidi, arabic, hanifi-rohingya</li>
+<li>U+061C ARABIC LETTER MARK: try adding one of: syriac, arabic, thaana</li>
 <li>U+061E ARABIC TRIPLE DOT PUNCTUATION MARK: try adding arabic</li>
-<li>U+061F ARABIC QUESTION MARK: try adding one of: garay, yezidi, hanifi-rohingya, thaana, syriac, arabic, adlam, nko</li>
+<li>U+061F ARABIC QUESTION MARK: try adding one of: garay, nko, syriac, thaana, yezidi, arabic, hanifi-rohingya, adlam</li>
 <li>U+0620 ARABIC LETTER KASHMIRI YEH: try adding arabic</li>
 <li>U+0621 ARABIC LETTER HAMZA: try adding one of: syriac, arabic</li>
 <li>U+0622 ARABIC LETTER ALEF WITH MADDA ABOVE: try adding arabic</li>
@@ -2396,7 +2396,7 @@ definitions.</p>
 <li>U+0624 ARABIC LETTER WAW WITH HAMZA ABOVE: try adding arabic</li>
 <li>U+0625 ARABIC LETTER ALEF WITH HAMZA BELOW: try adding arabic</li>
 <li>U+0626 ARABIC LETTER YEH WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+0627 ARABIC LETTER ALEF: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+0627 ARABIC LETTER ALEF: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+0628 ARABIC LETTER BEH: try adding arabic</li>
 <li>U+0629 ARABIC LETTER TEH MARBUTA: try adding arabic</li>
 <li>U+062A ARABIC LETTER TEH: try adding arabic</li>
@@ -2421,7 +2421,7 @@ definitions.</p>
 <li>U+063D ARABIC LETTER FARSI YEH WITH INVERTED V: try adding arabic</li>
 <li>U+063E ARABIC LETTER FARSI YEH WITH TWO DOTS ABOVE: try adding arabic</li>
 <li>U+063F ARABIC LETTER FARSI YEH WITH THREE DOTS ABOVE: try adding arabic</li>
-<li>U+0640 ARABIC TATWEEL: try adding one of: manichaean, sogdian, mandaic, hanifi-rohingya, old-uyghur, syriac, arabic, adlam, psalter-pahlavi</li>
+<li>U+0640 ARABIC TATWEEL: try adding one of: syriac, old-uyghur, psalter-pahlavi, sogdian, manichaean, arabic, hanifi-rohingya, mandaic, adlam</li>
 <li>U+0641 ARABIC LETTER FEH: try adding arabic</li>
 <li>U+0642 ARABIC LETTER QAF: try adding arabic</li>
 <li>U+0643 ARABIC LETTER KAF: try adding arabic</li>
@@ -2453,19 +2453,19 @@ definitions.</p>
 <li>U+065D ARABIC REVERSED DAMMA: try adding arabic</li>
 <li>U+065E ARABIC FATHA WITH TWO DOTS: try adding arabic</li>
 <li>U+065F ARABIC WAVY HAMZA BELOW: try adding arabic</li>
-<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, yezidi, thaana, hanifi-rohingya, syriac, arabic</li>
-<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, yezidi, thaana, syriac, arabic</li>
-<li>U+066A ARABIC PERCENT SIGN: try adding one of: thaana, syriac, nko, arabic</li>
-<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: thaana, syriac, arabic</li>
-<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: thaana, syriac, arabic</li>
+<li>U+0660 ARABIC-INDIC DIGIT ZERO: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic, hanifi-rohingya</li>
+<li>U+0661 ARABIC-INDIC DIGIT ONE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0662 ARABIC-INDIC DIGIT TWO: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0663 ARABIC-INDIC DIGIT THREE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0664 ARABIC-INDIC DIGIT FOUR: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0665 ARABIC-INDIC DIGIT FIVE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0666 ARABIC-INDIC DIGIT SIX: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0667 ARABIC-INDIC DIGIT SEVEN: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0668 ARABIC-INDIC DIGIT EIGHT: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+0669 ARABIC-INDIC DIGIT NINE: try adding one of: syriac, thaana, indic-siyaq-numbers, yezidi, arabic</li>
+<li>U+066A ARABIC PERCENT SIGN: try adding one of: syriac, nko, arabic, thaana</li>
+<li>U+066B ARABIC DECIMAL SEPARATOR: try adding one of: syriac, arabic, thaana</li>
+<li>U+066C ARABIC THOUSANDS SEPARATOR: try adding one of: syriac, arabic, thaana</li>
 <li>U+066D ARABIC FIVE POINTED STAR: try adding arabic</li>
 <li>U+066E ARABIC LETTER DOTLESS BEH: try adding arabic</li>
 <li>U+066F ARABIC LETTER DOTLESS QAF: try adding arabic</li>
@@ -2569,7 +2569,7 @@ definitions.</p>
 <li>U+06D1 ARABIC LETTER YEH WITH THREE DOTS BELOW: try adding arabic</li>
 <li>U+06D2 ARABIC LETTER YEH BARREE: try adding arabic</li>
 <li>U+06D3 ARABIC LETTER YEH BARREE WITH HAMZA ABOVE: try adding arabic</li>
-<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, hanifi-rohingya, arabic</li>
+<li>U+06D4 ARABIC FULL STOP: try adding one of: yezidi, arabic, hanifi-rohingya</li>
 <li>U+06D5 ARABIC LETTER AE: try adding arabic</li>
 <li>U+06D6 ARABIC SMALL HIGH LIGATURE SAD WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
 <li>U+06D7 ARABIC SMALL HIGH LIGATURE QAF WITH LAM WITH ALEF MAKSURA: try adding arabic</li>
@@ -2597,16 +2597,16 @@ definitions.</p>
 <li>U+06ED ARABIC SMALL LOW MEEM: try adding arabic</li>
 <li>U+06EE ARABIC LETTER DAL WITH INVERTED V: try adding arabic</li>
 <li>U+06EF ARABIC LETTER REH WITH INVERTED V: try adding arabic</li>
-<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: indic-siyaq-numbers, arabic</li>
-<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: indic-siyaq-numbers, arabic</li>
+<li>U+06F0 EXTENDED ARABIC-INDIC DIGIT ZERO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F1 EXTENDED ARABIC-INDIC DIGIT ONE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F2 EXTENDED ARABIC-INDIC DIGIT TWO: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F3 EXTENDED ARABIC-INDIC DIGIT THREE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F4 EXTENDED ARABIC-INDIC DIGIT FOUR: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F5 EXTENDED ARABIC-INDIC DIGIT FIVE: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F6 EXTENDED ARABIC-INDIC DIGIT SIX: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F7 EXTENDED ARABIC-INDIC DIGIT SEVEN: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F8 EXTENDED ARABIC-INDIC DIGIT EIGHT: try adding one of: arabic, indic-siyaq-numbers</li>
+<li>U+06F9 EXTENDED ARABIC-INDIC DIGIT NINE: try adding one of: arabic, indic-siyaq-numbers</li>
 <li>U+06FA ARABIC LETTER SHEEN WITH DOT BELOW: try adding arabic</li>
 <li>U+06FB ARABIC LETTER DAD WITH DOT BELOW: try adding arabic</li>
 <li>U+06FC ARABIC LETTER GHAIN WITH DOT BELOW: try adding arabic</li>
@@ -2748,7 +2748,7 @@ definitions.</p>
 <li>U+08FE ARABIC DAMMA WITH DOT: try adding arabic</li>
 <li>U+08FF ARABIC MARK SIDEWAYS NOON GHUNNA: try adding arabic</li>
 <li>U+0E3F THAI CURRENCY SYMBOL BAHT: try adding thai</li>
-<li>U+2011 NON-BREAKING HYPHEN: try adding one of: syloti-nagri, yi, arabic</li>
+<li>U+2011 NON-BREAKING HYPHEN: try adding one of: arabic, syloti-nagri, yi</li>
 <li>U+2016 DOUBLE VERTICAL LINE: try adding math</li>
 <li>U+2021 DOUBLE DAGGER: try adding adlam</li>
 <li>U+202A LEFT-TO-RIGHT EMBEDDING: not included in any glyphset definition</li>
@@ -2756,7 +2756,7 @@ definitions.</p>
 <li>U+202C POP DIRECTIONAL FORMATTING: not included in any glyphset definition</li>
 <li>U+202D LEFT-TO-RIGHT OVERRIDE: not included in any glyphset definition</li>
 <li>U+202E RIGHT-TO-LEFT OVERRIDE: try adding tifinagh</li>
-<li>U+202F NARROW NO-BREAK SPACE: try adding one of: phags-pa, yi, mongolian</li>
+<li>U+202F NARROW NO-BREAK SPACE: try adding one of: mongolian, phags-pa, yi</li>
 <li>U+2030 PER MILLE SIGN: try adding adlam</li>
 <li>U+203B REFERENCE MARK: not included in any glyphset definition</li>
 <li>U+203D INTERROBANG: not included in any glyphset definition</li>
@@ -2962,13 +2962,13 @@ definitions.</p>
 <li>U+FD3E ORNATE LEFT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD3F ORNATE RIGHT PARENTHESIS: try adding one of: nko, arabic</li>
 <li>U+FD88 ARABIC LIGATURE LAM WITH MEEM WITH HAH INITIAL FORM: try adding arabic</li>
-<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: thaana, arabic</li>
+<li>U+FDF2 ARABIC LIGATURE ALLAH ISOLATED FORM: try adding one of: arabic, thaana</li>
 <li>U+FDF4 ARABIC LIGATURE MOHAMMAD ISOLATED FORM: try adding arabic</li>
 <li>U+FDFA ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM: try adding arabic</li>
 <li>U+FDFB ARABIC LIGATURE JALLAJALALOUHOU: try adding arabic</li>
 <li>U+FDFC RIAL SIGN: try adding arabic</li>
-<li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: thaana, arabic</li>
-<li>U+FE00 VARIATION SELECTOR-1: try adding one of: phags-pa, manichaean, yi</li>
+<li>U+FDFD ARABIC LIGATURE BISMILLAH AR-RAHMAN AR-RAHEEM: try adding one of: arabic, thaana</li>
+<li>U+FE00 VARIATION SELECTOR-1: try adding one of: manichaean, phags-pa, yi</li>
 <li>U+FE01 VARIATION SELECTOR-2: not included in any glyphset definition</li>
 <li>U+FE02 VARIATION SELECTOR-3: not included in any glyphset definition</li>
 <li>U+FE03 VARIATION SELECTOR-4: not included in any glyphset definition</li>
