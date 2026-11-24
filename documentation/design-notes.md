@@ -440,8 +440,9 @@ of the cells), choose the scale level from the last counter and give it
 back to every glyph (reverse), swap each glyph for its variant, add up
 again, and turn the start and the last counter into the pads (`lead.N`,
 `trail1.N`, `trail2.N`; their advances in a `dist` lookup registered for
-deva and dev2 only; a pad's headline is drawn left of its origin and the
-pad placed its own width on, as a mark's ink is, so a danda in a Latin run keeps its cell). Every
+deva and dev2 only, so a danda in a Latin run keeps its cell; a pad's
+headline is drawn left of its origin and the pad placed its own width on,
+as a mark's ink is). Every
 spacing glyph's advance in a cluster is its steps (`dist`); hmtx stays
 1228 / 0 for the monospace checks, so a renderer without GPOS falls back to
 a cell a glyph. The pads and counters are GDEF marks, so the donor's marks
