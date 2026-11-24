@@ -52,6 +52,7 @@ VECTORS = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs",
 # --- Lekhan width (port of lexington/lekhan) ------------------------------------
 
 VIRAMA, ZWNJ, ZWJ = 0x094D, 0x200C, 0x200D
+LAM, ALEFS = 0x0644, (0x0627, 0x0622, 0x0623, 0x0625)  # the alefs that ligate with a lam (not wasla)
 
 
 def is_consonant(ch):
@@ -85,15 +86,29 @@ def rune_width(ch):
     return 1
 
 
+def lam_alef(rs, i):
+    """rs[i] is the alef of a lam-alef: the first character before it that
+    is no combining mark (Mn, Me) a lam"""
+    if i <= 0 or i >= len(rs) or ord(rs[i]) not in ALEFS:
+        return False
+    for k in range(i - 1, -1, -1):
+        if ud.category(rs[k]) not in ("Mn", "Me"):
+            return ord(rs[k]) == LAM
+    return False
+
+
 def joins(a, b):
     if ord(a) < 0x20:
         return False
-    return is_mark(b) or ord(b) in (ZWNJ, ZWJ) or ord(a) == ZWJ or ord(a) == VIRAMA and is_consonant(b)
+    return is_mark(b) or ord(b) in (ZWNJ, ZWJ) or ord(a) == ZWJ or ord(a) == VIRAMA and is_consonant(b) \
+        or ord(a) == LAM and ord(b) in ALEFS
 
 
 def boundary(rs, i):
     if i <= 0 or i >= len(rs):
         return True
+    if lam_alef(rs, i):
+        return False
     a, b = rs[i - 1], rs[i]
     if not joins(a, b):
         return True
@@ -129,7 +144,7 @@ def cluster_cells(c):
             if k > 0 and is_devanagari(r) and is_mark(r) and \
                     not any(is_devanagari(x) and not is_mark(x) for x in c[:k]):
                 n += 1
-            else:
+            elif not lam_alef(c, k):  # a lam-alef's alef: the lam has the cell
                 n += rune_width(r)
         return n
     return 2 if sum(1 for r in c if is_consonant(r)) >= 2 else 1

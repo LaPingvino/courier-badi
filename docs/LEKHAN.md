@@ -1,8 +1,8 @@
 # Lekhan monospace
 
-*How many cells Devanagari takes on a monospace grid.*
+*How many cells Devanagari takes on a monospace grid (and Arabic's lam-alef).*
 
-Version 1.0, 2026-11-23. The text of this page, the test vectors
+Version 1.1, 2026-11-24 (1.1: the lam-alef rule). Version 1.0, 2026-11-23. The text of this page, the test vectors
 ([`lekhan-vectors.txt`](lekhan-vectors.txt)) and the reference function
 below are dedicated to the public domain (CC0 1.0): use them, copy them,
 change them, without asking. The font that follows it, Courier Badi, is
@@ -64,10 +64,26 @@ takes 1 cell. Every other character keeps its terminal width: 1, 2 for East
 Asian wide and fullwidth characters and emoji, 0 for combining marks,
 joiners and direction controls.
 
+### Arabic: lam-alef
+
+Lam followed by alef (ا, or آ أ إ) is drawn as one glyph, the required
+ligature (rlig), one cell wide. It is **one cluster of 1 cell**: the alef
+belongs to the lam's cluster and takes no cell of its own (لا, لأ, إ·لا).
+Vowel marks on the lam do not part them; the font ligates over them (from
+Courier Badi 1.109), so the alef is a lam-alef's when, looking back from it
+over combining marks (Mn, Me), the first other character is a lam: لَا,
+لّا, لٰا, لّٰا are one cell, فَلَّا is فَ · لَّا, 1 1.
+
+A tatweel (ـ), a zero-width non-joiner or a zero-width joiner between lam
+and alef keeps them apart (لـا three cells, ل‍ا two), as do alef wasla (ٱ)
+and the lams with extra signs (ڵ ڶ): the font draws those as two letters.
+
 Where an implementation stores widths per character (a terminal's cell
 array, an editor grid), a cluster's cells go on its first character and,
 for a conjunct, the second on its second consonant; all others take 0. So
-typing क्ष grows the cluster from one cell to two as the ष is typed.
+typing क्ष grows the cluster from one cell to two as the ष is typed. A
+lam-alef's cell is its lam's; its alef takes 0, so typing the alef after a
+lam does not move the line on.
 
 ## For a font
 
@@ -117,6 +133,10 @@ shapes each text exactly that many cells wide. Some of them:
 | क्‌ष (with ZWNJ) | क्‌ · ष | 1 1 |
 | श्रीमान् | श्री · मा · न् | 2 1 1 |
 | हिन्दी | हि · न्दी | 1 2 |
+| لا | لا | 1 |
+| لَا | لَا | 1 |
+| فَلَّا | فَ · لَّا | 1 1 |
+| لـا | ل · ـ · ا | 1 1 1 |
 
 ## Reference function (Go)
 
@@ -140,7 +160,10 @@ func ClusterCells(c []rune) int {
 	}
 	if !Devanagari(c[0]) {
 		n := 0
-		for _, r := range c {
+		for k, r := range c {
+			if LamAlef(c, k) {
+				continue // a lam-alef's alef: the lam has the cell
+			}
 			n += RuneWidth(r) // wcwidth-like: 0, 1 or 2
 		}
 		return n
@@ -161,10 +184,27 @@ func ClusterCells(c []rune) int {
 The cluster boundary (GB9c): a cluster continues before a combining mark,
 a joiner or a character after a zero-width joiner, and before a consonant
 after a virama when, looking back over viramas, nukta, joiners and other
-nonspacing marks, a consonant comes before that virama.
+nonspacing marks, a consonant comes before that virama. It also continues
+before a lam-alef's alef:
+
+```go
+// LamAlef: rs[i] is an alef (ا آ أ إ) and the first character before it
+// that is no combining mark (Mn, Me) is a lam.
+func LamAlef(rs []rune, i int) bool {
+	if i <= 0 || i >= len(rs) || !alef(rs[i]) {
+		return false
+	}
+	for k := i - 1; k >= 0; k-- {
+		if !unicode.In(rs[k], unicode.Mn, unicode.Me) {
+			return rs[k] == 0x0644
+		}
+	}
+	return false
+}
+```
 
 ## Other scripts
 
-The rule is written for Devanagari. The other Brahmic scripts that GB9c
+The rule is written for Devanagari, with Arabic's lam-alef. The other Brahmic scripts that GB9c
 covers (Bengali, Gujarati, Oriya, Telugu, Malayalam) have the same shape of
 problem and could take the same rule; that is left for whoever sets them.
