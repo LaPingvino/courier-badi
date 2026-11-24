@@ -2,8 +2,9 @@
 """Write the static TTFs without their TrueType hinting: fonts/unhinted/ttf.
 
 For programs that embed the font and draw it with a rasterizer of their own
-(Lexington's PDFs, Accolade's editor: go-text, poppler, pdf.js, PDF viewers
-generally do not run TrueType instructions). The hinting (ttfautohint's
+(Accolade's editor and Lexington's shaping: go-text; Lexington's PDFs:
+poppler and pdf.js do not run TrueType instructions, Ghostscript does, so
+there its edges move by a fraction of a pixel). The hinting (ttfautohint's
 glyph programs, fpgm, prep, cvt) is about 1.5 MB of each 4 MB style, most
 of it in the Devanagari's scaled variants (scripts/fit-devanagari.py); the
 outlines, metrics and OpenType tables are the hinted font's, unchanged.

@@ -67,7 +67,7 @@ build.stamp: venv sources/config.yaml $(SOURCES)
 	. venv/bin/activate; python3 scripts/coverage-format1.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; for ttf in fonts/ttf/*.ttf; do [ -f "$$ttf" ] && rm -f fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 && fonttools ttLib.woff2 compress -o fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 $$ttf; done
 	# The static TTFs without hinting, for programs that embed the font
-	# (Lexington, Accolade): their rasterizers do not hint.
+	# (Lexington, Accolade): go-text, poppler and pdf.js do not hint.
 	. venv/bin/activate; python3 scripts/unhinted.py fonts/unhinted/ttf fonts/ttf/*.ttf
 	touch build.stamp
 

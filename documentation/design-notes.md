@@ -517,8 +517,10 @@ cvt) is about 1.5 MB of each 4 MB static style, three quarters of it in the
 scaled Devanagari variants. The hinted TTFs (fonts/ttf) are the ones to
 install; `scripts/unhinted.py` writes the same fonts without the
 instructions to fonts/unhinted/ttf, for programs that embed the font and
-draw it with a rasterizer that does not hint (Lexington's PDFs, Accolade's
-editor: go-text, poppler, pdf.js).
+draw it with a rasterizer that does not hint (Accolade's editor: go-text;
+Lexington's PDFs in poppler and pdf.js, where they render the same to the
+pixel; Ghostscript does hint, and there edges move by a fraction of a pixel
+at 96 and 600 dpi).
 
 **Language systems.** The donor's features carry no script statement, so
 they are registered for every declared language system, and so give the
