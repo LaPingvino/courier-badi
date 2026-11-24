@@ -39,6 +39,14 @@ the presentation/positional forms), Latin/Greek/Cyrillic marks on everything
 else; the dotted circle gets both. A mark on a base of the other family gets
 no positioning.
 
+The lam-alef ligatures (U+FEF5..FEFC) get ligature-component anchors instead
+(`aboveArab0_1`, ...: ufo2ft's naming): component 1 is the lam, the right
+half of the cell, component 2 the alef, the left half; each is centred on
+the top of its own stroke and measured on its own ink. The ligature forms
+over a mark between the two (rlig with IgnoreMarks, scripts/arabic-features),
+and HarfBuzz remembers which letter each mark came after, so a vowel on the
+lam sits on the lam, one on the alef on the alef.
+
 Combining classes come from the Unicode database, with HarfBuzz's Arabic
 re-categorisation (fathatan..sukun, superscript alef: above; kasratan, kasra:
 below). Classes HarfBuzz does not position (0, overlay) get no anchor.
@@ -82,7 +90,10 @@ ARABIC_ABOVE = {27, 28, 30, 31, 33, 34, 35, 36}
 ARABIC_BELOW = {29, 32}
 STACKING = {"above", "below"}
 
-OWNED = re.compile(r"^_?(%s)(LGC|Arab)?\d*$" % "|".join(CLASSES))
+OWNED = re.compile(r"^_?(%s)(LGC|Arab)?\d*(_\d+)?$" % "|".join(CLASSES))
+# the lam-alef ligatures: (codepoints, components right to left in the cell)
+LAM_ALEF = range(0xFEF5, 0xFEFD)
+TOP_BAND = 120  # a stroke's top: its ink within this of the component's top
 ARABIC_RANGES = [(0x0600, 0x06FF), (0x0750, 0x077F), (0x08A0, 0x08FF),
                  (0xFB50, 0xFDFF), (0xFE70, 0xFEFF)]
 
@@ -202,6 +213,32 @@ def edge(cls, b):
     return b[1] if CLASSES[cls][1] == "top" else b[3]
 
 
+def components(pts, width, foot_hw):
+    """(index, (top, x), (bottom, x)) of a lam-alef's components, where its
+    above and below marks go: 1 the lam (the right half of the cell), 2 the
+    alef (the left half). Above: the top of the half's ink, centred on the
+    ink within TOP_BAND of it (the stroke's end). Below: the lam, a vertical
+    stem, under the ink in the column under its top (foot_hw to either side;
+    a hamza below the alef may reach into the lam's half); the alef, a
+    diagonal in the isolated form, under its foot (the half's lowest ink,
+    centred like the top: a hamza below, if it has one)."""
+    def end(ps, top):
+        ext = max(y for _, y in ps) if top else min(y for _, y in ps)
+        xs = [x for x, y in ps if (y >= ext - TOP_BAND if top else y <= ext + TOP_BAND)]
+        return ext, (min(xs) + max(xs)) / 2
+    out = []
+    for idx, inside in ((1, lambda x: x >= width / 2), (2, lambda x: x < width / 2)):
+        ps = [(x, y) for x, y in pts if inside(x)]
+        top, cx = end(ps, True)
+        if idx == 1:
+            col = [y for x, y in ps if abs(x - cx) <= foot_hw]
+            below = (min(col) if col else min(y for _, y in ps), cx)
+        else:
+            below = end(ps, False)
+        out.append((idx, (top, cx), below))
+    return out
+
+
 def mark_table(font):
     """glyph name -> (class, family) for the positioned marks."""
     out = {}
@@ -318,9 +355,20 @@ def run(path, groups):
             # the dotted circle (U+25CC) carries marks of every script
             fams = {"LGC", "Arab"} if 0x25CC in g.unicodes else {family_of_glyph(g)}
             poly = outline_points(font, g) if "Arab" in fams and 0x25CC not in g.unicodes else None
-            for (cls, f) in groups:
-                if f in fams:
-                    new += targets(cls, f, y1, y0, g.width, poly if f == "Arab" else None)
+            if any(c in LAM_ALEF for c in g.unicodes):
+                # the widest Arabic below mark's footprint
+                hw = max((w for (c, f, _), w in Wd.items()
+                          if f == "Arab" and CLASSES[c][1] == "bottom"), default=0) / 2 + ARAB_PAD
+                for idx, (top, tx), (bottom, bx) in components(poly, g.width, hw):
+                    for (cls, f) in groups:
+                        if f == "Arab":
+                            cx = tx if CLASSES[cls][1] == "top" else bx
+                            new += [(f"{n}_{idx}", x, y) for n, x, y in
+                                    targets(cls, f, top, bottom, g.width, cx=cx)]
+            else:
+                for (cls, f) in groups:
+                    if f in fams:
+                        new += targets(cls, f, y1, y0, g.width, poly if f == "Arab" else None)
             nb += 1
         for n, x, y in new:
             g.appendAnchor({"name": n, "x": round(x), "y": round(y)})

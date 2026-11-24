@@ -1058,8 +1058,7 @@ languagesystem dev2 SAT;
     \uniFECC \uniFECE \uniFECF \uniFED0 \uniFED2 \uniFED3 \uniFED4 \uniFED6 
     \uniFED7 \uniFED8 \uniFEDA \uniFEDB \uniFEDC \uniFEDE \uniFEDF \uniFEE0 
     \uniFEE2 \uniFEE3 \uniFEE4 \uniFEE6 \uniFEE7 \uniFEE8 \uniFEEA \uniFEEB 
-    \uniFEEC \uniFEEE \uniFEF0 \uniFEF2 \uniFEF3 \uniFEF4 \uniFEF5 \uniFEF6 
-    \uniFEF7 \uniFEF8 \uniFEF9 \uniFEFA \uniFEFB \uniFEFC \uogonek \upadhmaniyaSignVedic 
+    \uniFEEC \uniFEEE \uniFEF0 \uniFEF2 \uniFEF3 \uniFEF4 \uogonek \upadhmaniyaSignVedic 
     \upadhmaniyaSignVedic.w1 \upadhmaniyaSignVedic.w2 \upadhmaniyaSignVedic.w3 \upsilon \upsilondieresis \upsilondieresistonos \upsilontonos \uring 
     \utilde \uuDeva \uuDeva.w1 \uuDeva.w2 \uuDeva.w3 \uueDeva \uueDeva.w1 \uueDeva.w2 
     \uueDeva.w3 \v \vDeva \vDeva.w1 \vDeva.w10 \vDeva.w11 \vDeva.w12 \vDeva.w2 
@@ -1118,6 +1117,11 @@ languagesystem dev2 SAT;
     \zh_raDeva.w4 \zh_raDeva.w5 \zh_raDeva.w6 \zh_raDeva.w7 \zh_raDeva.w8 \zh_raDeva.w9 \zhaDeva \zhaDeva.w1 
     \zhaDeva.w10 \zhaDeva.w11 \zhaDeva.w12 \zhaDeva.w2 \zhaDeva.w3 \zhaDeva.w4 \zhaDeva.w5 \zhaDeva.w6 
     \zhaDeva.w7 \zhaDeva.w8 \zhaDeva.w9 
+];
+
+@GDEF_Ligatures = [
+    \uniFEF5 \uniFEF6 \uniFEF7 \uniFEF8 \uniFEF9 \uniFEFA \uniFEFB \uniFEFC 
+
 ];
 
 @GDEF_Marks = [
@@ -1229,7 +1233,7 @@ languagesystem dev2 SAT;
 ];
 
 table GDEF {
-    GlyphClassDef @GDEF_Bases, , @GDEF_Marks, ;
+    GlyphClassDef @GDEF_Bases, @GDEF_Ligatures, @GDEF_Marks, ;
 } GDEF;
 
 lookup arabicInit {
@@ -1798,6 +1802,7 @@ lookup arabicFina {
 } arabicFina;
 
 lookup arabicLamAlef {
+    lookupflag IgnoreMarks;
     sub \uniFEDF \uniFE82 by uniFEF5;
     sub \uniFEDF \uniFE84 by uniFEF7;
     sub \uniFEDF \uniFE88 by uniFEF9;

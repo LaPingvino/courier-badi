@@ -36,6 +36,15 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**24 November 2026. Version 1.109**
+- **Lam-alef forms with a vowel on the lam.** A harakah, shadda or dagger
+  alef between lam and alef (لَا لّا لٰا, فَلَّا, السَّلَام) no longer keeps the two
+  apart: the ligature skips marks (`IgnoreMarks`), and each mark sits on its
+  own letter's part of the ligature (new ligature-component anchors: the
+  lam's on the right stroke, the alef's on the left; a mark after the alef,
+  لاَ, moves there from the cell's centre). A tatweel or ZWNJ between them,
+  and ٱ ڵ ڶ, still stay apart. See design-notes, "Arabic shaping".
+
 **24 November 2026. Version 1.108**
 - **Devanagari headline ends overlap their neighbours.** Every headline end
   of a cluster glyph now runs 20 units past its edge (ink only, never

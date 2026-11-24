@@ -107,6 +107,22 @@ Arabic OpenType features are **generated**, not hand-written, by
   forms (`lam.init`/`lam.medi` + `alef.fina`), because HarfBuzz applies
   init/medi/fina **before** `rlig`; rules written against the base letters
   never match and the ligature silently fails to form.
+- The lam-alef lookup has **`IgnoreMarks`** (1.109): a harakah, shadda or
+  dagger alef typed between lam and alef (لَا لّا لٰا) is skipped, so the
+  ligature still forms (before, the two were drawn apart). HarfBuzz keeps
+  which letter each mark came after, so the ligatures (U+FEF5–FEFC) are in
+  the GDEF *ligature* class and carry ligature-component anchors
+  (`aboveArab0_1`, …; `scripts/make-mark-anchors.py`): `_1` the lam, the
+  right half of the cell, `_2` the alef, the left half. An above mark is
+  centred on its letter's stroke top, `ARAB_GAP` over that half's ink; a
+  below mark under the lam goes under the ink in the lam's column (a hamza
+  below may reach into it), one under the alef under the alef's foot or
+  hamza below (the isolated alef is a diagonal: under its top end is its
+  own stroke). A mark after the alef (لاَ) goes on the alef, no longer on
+  the cell's centre. The tool refuses to write the features if a lam-alef
+  lacks these anchors (ufo2ft would give its marks no GPOS). A tatweel or
+  ZWNJ between them is no mark and still keeps them apart, as do ٱ, ڵ, ڶ
+  (no rule).
 - The `GDEF` mark class is built from Unicode categories (Mn/Me), excluding the
   U+FE70–FE7F isolated forms noted above.
 

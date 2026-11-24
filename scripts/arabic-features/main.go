@@ -17,7 +17,9 @@
 //     falls back to the "<base>.init/.medi/.fina" naming convention for
 //     extended letters that have no Unicode presentation-form codepoint
 //     (e.g. Pashto U+0681, U+0685).
-//   - It writes lam-alef ligatures against the POSITIONAL forms so they fire.
+//   - It writes lam-alef ligatures against the POSITIONAL forms so they fire,
+//     with IgnoreMarks, so a vowel or shadda on the lam (لَا لّا لٰا) does
+//     not keep the two apart.
 //
 // The block also owns the font-wide parts that must precede every feature:
 // the languagesystem statements (a script is declared when the font has its
@@ -27,6 +29,12 @@
 // base class matters: with a GDEF table in features.fea, ufo2ft's mark writer
 // only attaches marks to glyphs listed as bases, so without it the anchors
 // (Hebrew; see documentation/design-notes.md) would generate no GPOS at all.
+// GDEF ligatures are the glyphs whose anchors name a ligature component
+// ("aboveArab0_1" on a lam-alef's lam, "_2" on its alef); ufo2ft writes
+// mark-to-ligature only for glyphs in that class. Every lam-alef ligature
+// must carry such anchors (scripts/make-mark-anchors.py writes them; the
+// tool fails without them): a mark the IgnoreMarks ligature took in then
+// goes on its own letter's part.
 //
 // The generated block is delimited by markers so hand-written features around
 // it are preserved. Run:
@@ -43,6 +51,7 @@ import (
 	"fmt"
 	"os"
 	"path/filepath"
+	"regexp"
 	"sort"
 	"strings"
 	"unicode"
@@ -59,6 +68,7 @@ type font struct {
 	names    map[string]bool // set of all glyph names
 	cmap     map[rune]string // codepoint -> glyph name
 	anchored map[string]bool // glyphs with a mark-attaching (base) anchor
+	ligAnch  map[string]bool // glyphs with a ligature-component anchor (name_N)
 	// categories is the lib's public.openTypeCategories (glyph -> base, mark,
 	// ligature, component): how the Devanagari donor classed its unencoded
 	// glyphs (reph, matra variants, below forms are marks).
@@ -66,6 +76,10 @@ type font struct {
 }
 
 func (f *font) has(name string) bool { return f.names[name] }
+
+// ligComponent matches an anchor of a ligature's component (ufo2ft's naming:
+// the base anchor's name, "_", the component's number from 1).
+var ligComponent = regexp.MustCompile(`^[^_].*_\d+$`)
 
 // glyphFor returns the glyph name for codepoint cp if a glyph with that
 // codepoint exists, otherwise the conventional "uniXXXX" name if such a glyph
@@ -111,7 +125,8 @@ func loadFont(ufo string) (*font, error) {
 	if len(d.Keys) != len(d.Vals) {
 		return nil, fmt.Errorf("contents.plist: %d keys vs %d values", len(d.Keys), len(d.Vals))
 	}
-	f := &font{names: make(map[string]bool), cmap: make(map[rune]string), anchored: make(map[string]bool)}
+	f := &font{names: make(map[string]bool), cmap: make(map[rune]string), anchored: make(map[string]bool),
+		ligAnch: make(map[string]bool)}
 	for i, name := range d.Keys {
 		f.names[name] = true
 		gfile := filepath.Join(ufo, "glyphs", d.Vals[i])
@@ -126,6 +141,9 @@ func loadFont(ufo string) (*font, error) {
 		for _, a := range g.Anchors {
 			if a.Name != "" && !strings.HasPrefix(a.Name, "_") {
 				f.anchored[name] = true
+				if ligComponent.MatchString(a.Name) {
+					f.ligAnch[name] = true
+				}
 			}
 		}
 		for _, u := range g.Unicodes {
@@ -328,9 +346,12 @@ func baseClass(f *font, marks []string) []string {
 		isMark[m] = true
 	}
 	seen := map[string]bool{}
+	for name := range f.ligAnch {
+		seen[name] = true // a ligature (ligatureClass), not a base
+	}
 	var bases []string
 	for name := range f.anchored {
-		if !isMark[name] {
+		if !isMark[name] && !seen[name] {
 			bases = append(bases, name)
 			seen[name] = true
 		}
@@ -345,6 +366,37 @@ func baseClass(f *font, marks []string) []string {
 	}
 	sort.Strings(bases)
 	return bases
+}
+
+// ligatureClass returns the glyphs carrying ligature-component anchors (the
+// lam-alefs), for the GDEF ligature class.
+func ligatureClass(f *font, marks []string) []string {
+	isMark := make(map[string]bool, len(marks))
+	for _, m := range marks {
+		isMark[m] = true
+	}
+	var ligs []string
+	for name := range f.ligAnch {
+		if !isMark[name] {
+			ligs = append(ligs, name)
+		}
+	}
+	sort.Strings(ligs)
+	return ligs
+}
+
+// unanchoredLamAlefs returns the lam-alef ligatures without ligature-component
+// anchors: ufo2ft would give their marks no GPOS at all (they would fall on
+// the next cell), so the tool refuses to write features for them.
+func unanchoredLamAlefs(f *font) []string {
+	isol, fina := lamAlefRules(f)
+	var out []string
+	for _, r := range append(isol, fina...) {
+		if !f.ligAnch[r.to] {
+			out = append(out, r.to)
+		}
+	}
+	return out
 }
 
 // hasDevanagari reports whether the font has Devanagari letters.
@@ -405,10 +457,18 @@ func namePairs(f *font, pairs [][2]string) []rule {
 }
 
 func writeLookup(b *strings.Builder, name string, rules []rule) bool {
+	return writeLookupFlag(b, name, "", rules)
+}
+
+// writeLookupFlag is writeLookup with a lookupflag ("" for none).
+func writeLookupFlag(b *strings.Builder, name, flag string, rules []rule) bool {
 	if len(rules) == 0 {
 		return false
 	}
 	fmt.Fprintf(b, "lookup %s {\n", name)
+	if flag != "" {
+		fmt.Fprintf(b, "    lookupflag %s;\n", flag)
+	}
 	for _, r := range rules {
 		fmt.Fprintf(b, "    sub %s by %s;\n", ref(r.from), r.to)
 	}
@@ -453,15 +513,20 @@ func generate(f *font) string {
 	// GDEF glyph classes: bases (anchor carriers) and marks.
 	marks := markClass(f)
 	bases := baseClass(f, marks)
+	ligs := ligatureClass(f, marks)
 	if len(marks) > 0 {
-		baseRef := ""
+		baseRef, ligRef := "", ""
 		if len(bases) > 0 {
 			writeClass(&b, "GDEF_Bases", bases)
 			baseRef = "@GDEF_Bases"
 		}
+		if len(ligs) > 0 {
+			writeClass(&b, "GDEF_Ligatures", ligs)
+			ligRef = "@GDEF_Ligatures"
+		}
 		writeClass(&b, "GDEF_Marks", marks)
 		b.WriteString("table GDEF {\n")
-		fmt.Fprintf(&b, "    GlyphClassDef %s, , @GDEF_Marks, ;\n", baseRef)
+		fmt.Fprintf(&b, "    GlyphClassDef %s, %s, @GDEF_Marks, ;\n", baseRef, ligRef)
 		b.WriteString("} GDEF;\n\n")
 	}
 
@@ -475,10 +540,14 @@ func generate(f *font) string {
 	hasMedi := writeLookup(&lookups, "arabicMedi", mediRules)
 	hasFina := writeLookup(&lookups, "arabicFina", finaRules)
 
-	// Required lam-alef ligatures against positional forms.
+	// Required lam-alef ligatures against positional forms. IgnoreMarks: a
+	// harakah or shadda between lam and alef (لَا لّا لٰا) is skipped, and
+	// HarfBuzz remembers it was on the lam (ligature component 1), so the
+	// GPOS puts it on the lam's part; a tatweel or ZWNJ there is no mark and
+	// still keeps them apart.
 	ligIsol, ligFina := lamAlefRules(f)
 	ligRules := append(append([]rule{}, ligIsol...), ligFina...)
-	hasRlig := writeLookup(&lookups, "arabicLamAlef", ligRules)
+	hasRlig := writeLookupFlag(&lookups, "arabicLamAlef", "IgnoreMarks", ligRules)
 
 	// Small extras carried over from the project, guarded by glyph existence.
 	loclRules := namePairs(f, [][2]string{
@@ -566,6 +635,11 @@ func main() {
 	f, err := loadFont(*ufo)
 	if err != nil {
 		fmt.Fprintln(os.Stderr, "error:", err)
+		os.Exit(1)
+	}
+	if miss := unanchoredLamAlefs(f); len(miss) > 0 {
+		fmt.Fprintln(os.Stderr, "error: lam-alef ligatures without ligature-component anchors",
+			"(run scripts/make-mark-anchors.py):", strings.Join(miss, " "))
 		os.Exit(1)
 	}
 	block := generate(f)
