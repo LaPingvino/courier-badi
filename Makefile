@@ -58,10 +58,17 @@ build.stamp: venv sources/config.yaml $(SOURCES)
 	# (italic axis for the Regular+Italic family), then refresh the webfonts.
 	. venv/bin/activate; python3 scripts/add-meta-table.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; python3 scripts/add-stat.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
+	# Contextual lookups as one format-2 subtable instead of a format-3 one
+	# per rule (the Lekhan counters: 1453): the same, shaped several times
+	# faster (see the script).
+	. venv/bin/activate; python3 scripts/context-format2.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	# Coverage tables as glyph lists: go-text (Lexington, Accolade) skips
 	# glyphs of large range coverages (see the script).
 	. venv/bin/activate; python3 scripts/coverage-format1.py $$(find fonts -name '*.ttf' -o -name '*.otf' 2>/dev/null)
 	. venv/bin/activate; for ttf in fonts/ttf/*.ttf; do [ -f "$$ttf" ] && rm -f fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 && fonttools ttLib.woff2 compress -o fonts/webfonts/$$(basename $${ttf%.ttf}).woff2 $$ttf; done
+	# The static TTFs without hinting, for programs that embed the font
+	# (Lexington, Accolade): their rasterizers do not hint.
+	. venv/bin/activate; python3 scripts/unhinted.py fonts/unhinted/ttf fonts/ttf/*.ttf
 	touch build.stamp
 
 # Regenerate the Italic UFO as a sheared oblique of the Regular, with the

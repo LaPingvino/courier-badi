@@ -36,6 +36,17 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**24 November 2026. Version 1.107**
+- **Devanagari shapes in two thirds of the time**, with the same result. The
+  contextual lookups are written as one format-2 subtable where feaLib had
+  made one format-3 subtable per rule (the Lekhan width sums had 1453
+  each; GSUB 4660 contextual subtables, now 43), so a shaper no longer
+  tries them one by one at every glyph (`scripts/context-format2.py`).
+  HarfBuzz and go-text shape 42,000 texts the same in all four styles.
+- **Unhinted TTFs** in fonts/unhinted/ttf, for programs that embed the
+  font and do not hint (Lexington, Accolade): the same fonts without their
+  TrueType instructions, 2.4–2.7 MB a style instead of 4.0–4.8 MB.
+
 **23 November 2026. Version 1.106**
 - **The pads' headline drawn left of their origin.** The pads that carry
   the headline between two clusters of a word are drawn left of their

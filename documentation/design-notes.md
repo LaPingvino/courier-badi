@@ -494,6 +494,32 @@ in go-text क्ष, ज्ञ, त्र lost their second cell. `scripts/cove
 (a post-build step) writes every Coverage as format 1, which goes through
 `setDigest.add`; the tables mean the same and are a little larger.
 
+**Contextual lookups as format 2.** feaLib writes a contextual lookup in the
+format that compiles smallest, and for rules of single glyphs that is
+format 3: one subtable per rule. The width sums (LekSum, LekSum2: a rule for
+every counter and what is left before it) came out as 1453 subtables each,
+LekReset as 72, the donor's abvs lookups as 273, and a shaper tries a
+lookup's subtables one after another at each glyph: in 1.105 and 1.106 go-text
+shaped Devanagari about seven times slower than 1.104 did (the Hindi sample:
+30 ms against 4.4). `scripts/context-format2.py` (post-build, before
+coverage-format1.py) writes each run of format-3 subtables of a lookup as one
+format-2 subtable: the glyph sets each position uses split into classes, a
+rule repeated for each class of a set that is several, the rules in their
+order, their lookup records as they were. The first rule that matches is
+the first subtable that matched, so the shaping is the same (HarfBuzz and
+go-text give the same glyphs and positions for 42,000 texts, all four
+styles); GSUB goes from 4660 contextual subtables to 43, and the sample
+shapes in about 20 ms. What is left of the cost is the fourteen Lekhan passes over
+a syllable twice as long (its counters and pads).
+
+**Unhinted TTFs.** The hinting (ttfautohint's glyph programs, fpgm, prep,
+cvt) is about 1.5 MB of each 4 MB static style, three quarters of it in the
+scaled Devanagari variants. The hinted TTFs (fonts/ttf) are the ones to
+install; `scripts/unhinted.py` writes the same fonts without the
+instructions to fonts/unhinted/ttf, for programs that embed the font and
+draw it with a rasterizer that does not hint (Lexington's PDFs, Accolade's
+editor: go-text, poppler, pdf.js).
+
 **Language systems.** The donor's features carry no script statement, so
 they are registered for every declared language system, and so give the
 Arabic languages ARA, FAR and URD language systems of their own. A shaper
