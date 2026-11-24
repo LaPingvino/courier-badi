@@ -36,6 +36,16 @@ Arabic OpenType features are generated from the UFO by `scripts/arabic-features`
 
 ## Changelog
 
+**24 November 2026. Version 1.108**
+- **Devanagari headline ends overlap their neighbours.** Every headline end
+  of a cluster glyph now runs 20 units past its edge (ink only, never
+  advance), as the pads' already did, so neighbours overlap by 40 instead
+  of meeting edge to edge (20 at a cluster's edge before). A glyph whose
+  ink overhangs its cell (ी, its hook back over the consonant) is now
+  measured from the cell's edge, so its headline reaches the edge too (in
+  हिन्दी, दी stopped 16 short of द's headline). See design-notes, "Joining
+  strokes overlap, never meet".
+
 **24 November 2026. Version 1.107**
 - **Devanagari shapes in two thirds of the time**, with the same result. The
   contextual lookups are written as one format-2 subtable where feaLib had

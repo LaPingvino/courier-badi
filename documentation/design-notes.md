@@ -73,6 +73,26 @@ the other scripts' marks carry anchors too:
   GDEF table in `features.fea`, ufo2ft attaches marks only to glyphs listed as
   bases, so without it the anchors would silently produce no GPOS.
 
+### Joining strokes overlap, never meet
+
+A stroke that joins the next glyph's (an Arabic join, the Devanagari
+headline from cluster to pad to cluster) crosses its edge and runs on under
+its neighbour's ink; it never just ends on the edge. This is standard font
+practice. Each glyph is rasterised on its own, its origin rounded, its edge
+pixels antialiased on their own (and, where the rasteriser hints, its
+edges moved), so two strokes that only meet edge to edge can show a
+hairline (white or grey) between them, most at screen sizes. An overlap
+leaves the rounding room. (Ghostscript's one-pixel gaps in Devanagari words
+at 72–96 dpi came from its hinting, and went with the unhinted TTFs that
+Lexington embeds, 1.107; the overlap is the margin under that.) The
+overshoot is ink only, never advance, so the cells stay as they are.
+
+- **Arabic:** the joining letters' connecting stroke starts 40 units left of
+  the glyph's origin (xMin −40), under the previous letter's join.
+- **Devanagari:** every headline end, a cluster glyph's and a pad's
+  (`lead.N.h`, `trail1.N.h`, `trail2.N.h`), runs `OVER` = 20 past its edge
+  (scripts/fit-devanagari.py), so neighbours overlap by 40 (1.108).
+
 ## Arabic shaping
 
 Arabic OpenType features are **generated**, not hand-written, by

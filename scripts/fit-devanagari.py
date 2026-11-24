@@ -89,6 +89,7 @@ Y_KNEE, K_BELOW = -120, 0.78
 Y_TOP_KNEE, K_ABOVE = 1460, 0.5
 STEM_V, STEM_H = 150.0, 144.0
 GROW_H = 7                # headline 130 -> 144
+OVER = 20                 # a headline end's overshoot past its edge (ink only, never advance): neighbours overlap, never just meet
 
 # scale levels: a cluster is drawn at the largest that fits its cells
 LEVELS = {1: 0.72, 2: 0.82, 3: 0.91, 4: 1.12, 5: 1.25, 6: 1.4, 7: 1.58, 8: 1.78, 9: 2.0, 10: 2.25,
@@ -361,12 +362,16 @@ def edge_rects(g, width, band_top, band):
             if reaches(x + step * d):
                 return x + step * d
         return None
-    lx, rx = inward(x0, 1), inward(x1, -1)
+    # (from the cell's edge when the ink overhangs it: ी's hook reaches
+    # back over its consonant, its headline starts at the edge)
+    lx, rx = inward(max(x0, 0), 1), inward(min(x1, width), -1)
     lt, rt = lx is not None, rx is not None
-    if lt and lx > 2:
-        left = (0, band[0], lx + 60, band[1])
-    if rt and rx < width - 2:
-        right = (rx - 60, band[0], width, band[1])
+    # each on OVER past the edge: the neighbour's headline (a pad's, a
+    # cluster's) overlaps it; edge to edge a rasteriser opens a hairline
+    if lt:
+        left = (-OVER, band[0], lx + 60, band[1])
+    if rt:
+        right = (rx - 60, band[0], width + OVER, band[1])
     return left, right, lt, rt
 
 
@@ -603,10 +608,11 @@ def make_marks(font, meta, band):
                 g = empty_mark(font, n)
                 # drawn left of its origin, and placed (GPOS) its width on:
                 # a PDF viewer (poppler, Ghostscript) leaves out the ink a
-                # glyph without width has right of its origin
+                # glyph without width has right of its origin; OVER past
+                # either end, under its neighbours' headline
                 w = out["adv"][n]
                 add = pathops.Path()
-                rect(add, -w - 20, band[0], 20, band[1])
+                rect(add, -w - OVER, band[0], OVER, band[1])
                 from_path(g, add)
             else:
                 empty_mark(font, n)

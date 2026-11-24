@@ -9,7 +9,7 @@
   <anchor x="1017" y="1000" name="topDeva"/>
   <outline>
     <contour>
-      <point x="0" y="856" type="line"/>
+      <point x="-20" y="856" type="line"/>
       <point x="80" y="856" type="line"/>
       <point x="80" y="864" type="line"/>
       <point x="1035" y="864" type="line"/>
@@ -54,15 +54,11 @@
       <point x="1187" y="15"/>
       <point x="1187" y="64" type="curve" smooth="yes"/>
       <point x="1187" y="864" type="line"/>
-      <point x="1334" y="864" type="line" smooth="yes"/>
-      <point x="1378" y="864"/>
-      <point x="1388" y="885"/>
-      <point x="1388" y="929" type="curve" smooth="yes"/>
-      <point x="1388" y="942" type="line" smooth="yes"/>
-      <point x="1388" y="987"/>
-      <point x="1378" y="1007"/>
-      <point x="1334" y="1007" type="curve" smooth="yes"/>
-      <point x="0" y="1007" type="line"/>
+      <point x="1296" y="864" type="line"/>
+      <point x="1296" y="856" type="line"/>
+      <point x="1388" y="856" type="line"/>
+      <point x="1388" y="1007" type="line"/>
+      <point x="-20" y="1007" type="line"/>
     </contour>
   </outline>
   <lib>

@@ -10,10 +10,9 @@
   <anchor x="810" y="1000" name="topDeva"/>
   <outline>
     <contour>
-      <point x="-12" y="929" type="line" smooth="yes"/>
-      <point x="-12" y="885"/>
-      <point x="4" y="864"/>
-      <point x="46" y="864" type="curve" smooth="yes"/>
+      <point x="-20" y="856" type="line"/>
+      <point x="72" y="856" type="line"/>
+      <point x="72" y="864" type="line"/>
       <point x="810" y="864" type="line"/>
       <point x="810" y="685" type="line"/>
       <point x="734" y="675"/>
@@ -41,18 +40,19 @@
       <point x="1078" y="644"/>
       <point x="961" y="677" type="curve"/>
       <point x="961" y="864" type="line"/>
-      <point x="1192" y="864" type="line" smooth="yes"/>
-      <point x="1234" y="864"/>
-      <point x="1250" y="885"/>
+      <point x="1144" y="864" type="line"/>
+      <point x="1144" y="856" type="line"/>
+      <point x="1236" y="856" type="line"/>
+      <point x="1236" y="879" type="line"/>
+      <point x="1246" y="890"/>
+      <point x="1250" y="906"/>
       <point x="1250" y="929" type="curve" smooth="yes"/>
       <point x="1250" y="942" type="line" smooth="yes"/>
-      <point x="1250" y="987"/>
-      <point x="1234" y="1007"/>
-      <point x="1192" y="1007" type="curve" smooth="yes"/>
-      <point x="46" y="1007" type="line" smooth="yes"/>
-      <point x="4" y="1007"/>
-      <point x="-12" y="987"/>
-      <point x="-12" y="942" type="curve" smooth="yes"/>
+      <point x="1250" y="965"/>
+      <point x="1246" y="982"/>
+      <point x="1236" y="992" type="curve"/>
+      <point x="1236" y="1007" type="line"/>
+      <point x="-20" y="1007" type="line"/>
     </contour>
     <contour>
       <point x="650" y="284" type="curve"/>
